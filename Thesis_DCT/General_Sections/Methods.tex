@@ -1,0 +1,334 @@
+\chapter{Materials and Methods}\label{methods}
+\chapterquote{GROMACS reminds you: “I didn't know what MD was. I think I've managed to catch up.” (Berk Hess)}
+
+\newpage
+
+Throughout this section, the general methods employed to perform the computational experiments for this PhD will be explained. First, a description of the simulation technique used, Molecular Dynamics, will be provided. Then, Principal Component Analysis (PCA), and, the Ordering Points to Identify the Clustering Structure (OPTICS) method, used to clusterize the data generated in Section \ref{chap2}, will be explained. Finally, the main layers that form the ML methods used in Sections \ref{chap2} and \ref{chap3} will be addressed.
+
+\section{Molecular Dynamics}
+Molecular Dynamics constitutes the main simulation technique of this work. In a nutshell, these are computer simulations that model the movement of molecules, and a subset of their internal degrees of freedom, over time. To do so, MD relies on the numerical integration of the equations of motion for all the atoms present in the system or, in the particular case of CG simulations, for the particles representing them. To run the simulations, the equations of motion are derived from a potential function that depends on the force field chosen. Moreover, several other algorithms are applied to ensure that the simulations are performed under the desired conditions. The purpose of this section is to provide the general methodological framework and the physical and algorithmic rationale behind the computational techniques used throughout the thesis (free MD and enhanced sampling). Study-specific simulation and training protocols (system composition, force field versions and parameterization, integration settings, thermostat/barostat choices, cut-offs, sampling times, replica/seed details, collective variables and biasing parameters) are reported in the corresponding Results chapters and in the Methods sections of each article/manuscript. Whenever protocols are reused without changes, the original reference is explicitly indicated; otherwise, deviations are stated.
+Although many works cover the fundamentals of MD simulations, the work of Daan Frenkel and Berend Smit has been used as a main reference for this section \cita{Frenkel2023}. Furthermore, since GROMACS has been used as MD engine for all the calculations \cita{Gromacs2015}, its documentation serves as an excellent resource for some of the topics covered in the section.
+\subsection{The Physics Behind Molecular Dynamics}
+
+As previously mentioned, MD is based on Newton's equations of motion, the core of classical mechanics. The term "classical" means that quantum effects, like those including electrons, are not accounted for explicitly. This approach has its roots in the Born-Oppenheimer approximation, which assumes that electrons, being about 1836 times lighter than protons, move much faster. As a result, they can reorganize themselves almost instantaneously after the movement of the atomic nuclei. As a result, the complex quantum mechanical problem is simplified to the time-evolution of a system of classical \textit{N} particles. However, obtaining an exact mathematical solution for the motion of these nuclei is impossible, as no analytical solution exists for a system of \(N \geq 3\) interacting particles; consequently, the trajectory cannot be expressed as a continuous function of time.
+
+In practice, MD engines approximate the trajectory by numerically updating the system's coordinates and momenta over discrete time instants. By repeating this calculation over several steps, the dynamic behavior of the particles can be simulated. The general workflow of a standard MD algorithm is summarized in Figure \ref{fig:MDFlow}.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{General_Sections/Figures/MD_Workflow.png}
+    \caption{General workflow for an MD simulation. This scheme summarizes the key steps in a MD simulation. First, the user provides an initial state for the system, selects the force field, and defines the simulation conditions. The force field is used to determine the forces acting on each particle allowing to define the future positions and velocities. Next, corrections are applied based on the simulation conditions to match the defined temperature and/or pressure of the system. This process is iteratively repeated until matching a convergence criteria or reach the maximum number of steps.}
+    \label{fig:MDFlow}
+\end{figure}
+
+To initialize this workflow, the user is required to define the initial coordinates of the particles in the system. The velocities are usually computed from a Maxwell-Boltzmann distribution at the desired temperature. In the next step, the forces within each particle are calculated. In the case of conservative forces, that is, those that depend only on the position of the particles, they can be described through the potential such as:
+\begin{equation}\label{NG}
+    \mathbf{F_i} = - \nabla U(\mathbf{r_i})
+\end{equation}
+where \(\mathbf{F_i}\) is the force acting on the \(i^{th}\) particle of the system, \(\nabla\) is the gradient, and \(U\) is the potential function, which is shaped by a set of functions and parameters called \textit{force field}. The selection of the force field is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
+\begin{equation}\label{N2L}
+    \mathbf{F_i} = m_i \frac{d^2 \mathbf{r_i}}{dt^2}
+\end{equation}
+where \(m_i\) is the mass of the \(i^{th}\) particle, \(\mathbf{r_i}\) is its position, and \(t\) represents time. This integration employs the forces calculated in Equation \ref{NG} to update the positions for small increments in time, called time step (\(\Delta t\)). The Verlet and Leap-Frog integrators are among the most common algorithms to perform this task \supercite{Verlet1967}\textsuperscript{,}\cita{leapfrog}. These algorithms update the positions and velocities of the particles at time \(t+\Delta t\) using the forces acting on them at time \(t\), which in turn depend on the positions and velocities of the particles at that moment. The \textit{leap-frog} integrator is the default algorithm used in GROMACS, thus, it was used in this thesis to solve the second-order differential equation \ref{NG}. It takes the form:
+\begin{equation}
+    \begin{cases}
+        \mathbf{v}(t+\frac{1}{2}\Delta t) = \mathbf{v}(t+\frac{1}{2}\Delta t) + \cfrac{-\nabla U(\mathbf{r_i}) \Delta t}{m} \\
+        \mathbf{r}(t+\Delta t) = \mathbf{r}(t) + \mathbf{v}(t+\frac{1}{2}\Delta t) \Delta t
+    \end{cases}
+\end{equation}
+it should be noted that positions \(\mathbf{r}\) are integrated at integer time steps and the velocities \(\mathbf{v}\) at half-integer time steps, following a staggered "leap-frog" scheme where  \(\mathbf{r}\) and \(\mathbf{v}\) "leap" over each other's backs, as shown in Figure \ref{fig:LeapFrog}.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\linewidth]{General_Sections/Figures/LeapFrogIntegrator.png}
+    \caption{Scheme of the Leap-Frog integration method. Both positions and velocities are integrated after a time step \(\Delta t\), but with a delay of \(\Delta t/2\) resembling two frogs that jump one after the other. The figure was generated using Matplotlib.}
+    \label{fig:LeapFrog}
+\end{figure}
+
+Because Newton's equations conserve total energy of the system \textit{E}, and, by default simulations employ a fixed simulation cell volume \textit{V} and particle number \textit{N}, the leap-frog integrator naturally generates trajectories within the microcanonical (\textit{NVE}) ensemble.
+
+Nevertheless, most processes in nature, and experiments in the laboratory, occur at a constant temperature \textit{T} and/or pressure \textit{P}. Therefore, most simulations of biomolecular systems are performed within the isothermal-isobaric (\textit{NVT}) or the canonical (\textit{NPT}) ensembles. For this cases, MD engines use algorithms that keep these physical properties constants. Algorithms that regulate pressure are called barostats, and they maintain it at a constant value by rescaling the volume of the simulation cell. Several algorithms serve this purpose; in this thesis, the Berendsen\cita{BerendsenB}, stochastic cell rescaling\cita{CRB}, and Parrinello-Rahman\cita{PRB} barostats were employed for equilibration and production runs. On the other hand, algorithms that control the temperature of the system are called thermostats, and they adjust it by modifying the velocities of the particles. This is mainly achieved in two ways: by making some particles interact with a thermal bath, or by scaling all velocities to match a target temperature; the later being the principle underlying the velocity rescaling thermostat used in the present work\cita{Vresc}.
+
+Nevertheless, despite the thermodynamic control offered by these algorithms, the simulation of real-world systems is limited by the amount of particles that can be simulated using a realistic amount of computational resources. This limitation, necessitates confining the molecules to a finite volume; however, enclosing them with hard boundaries would introduce artificial particle-wall interactions that are unrealistic for biological environments. To avoid this, when the calculation of the new positions displaces a particle out of the simulation cell, the exact same particle "wraps-around" and re-enters from the opposite side.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.55\linewidth]{General_Sections/Figures/pbc_image.png}
+    \caption{Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib.}
+    \label{fig:PBCs}
+\end{figure}
+This approach effectively models an infinite system by tiling the simulation cell in all directions of space, creating periodic replicas where every particle is and behaves exactly like its original counterpart. This method is depicted in Figure \ref{fig:PBCs}, and when applied, the system is said to be under Periodic Boundary Conditions (PBCs).When applying this method, the simulation box must be large enough to avoid any possible interactions between replicas of the same molecule.
+
+In the last step, the MD engine writes the new positions, velocities, thermodynamic properties, and other relevant data into output files. If a convergence criterion is met or a user-defined number of steps are completed, the simulation finishes, allowing for subsequent qualitative and quantitative analysis. As commented, the results obtained---and thus, the conclusions drawn---depend on the force field selected, as it governs the interactions between particles. The following section delves into the general structure of force fields with details on the different contributions to the potential function used to compute the forces acting on each particle.
+
+\subsection{The Force Field}
+The force field (FF) is the set of equations used to compute the potential energy as well as the set of parameters used to modulate those equations. In general, a force field splits the potential function into a bonded and a non-bonded terms as follows:
+\begin{equation}
+    U(\mathbf{r}) = U_{bonded}(\mathbf{r}) + U_{non-bonded}(\mathbf{r})
+\end{equation}
+
+The bonded term describes the interaction between atoms separated by no more than 3 covalent bonds. It can be expanded as follows:
+\begin{equation}
+    U_{bonded}(\mathbf{r}) = U_{bonds}(\mathbf{r}) + U_{angles}(\mathbf{r}) + U_{proper\ dihedrals}(\mathbf{r}) + U_{improper\ dihedrals}(\mathbf{r})
+\end{equation}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/FF_bonded.png}
+    \caption{Schematic representation of the bonded interactions included in the bonded term of the potential function. \textbf{A} depicts the bond stretching, \textbf{B} angle bending, \textbf{C} the torsion of a proper dihedral and \textbf{D} the bending of an improper dihedral}
+    \label{fig:FF_bonded}
+\end{figure}
+
+The first term relates to the stretching of the bond between two atoms (Fig. \ref{fig:FF_bonded}A), the second term describes the angle bending involving three atoms (Fig. \ref{fig:FF_bonded}B), and the last two account for two types of dihedral angles that involve 4 atoms: proper dihedrals (Fig. \ref{fig:FF_bonded}C), and improper dihedrals (Fig. \ref{fig:FF_bonded}D). Most of the force fields use harmonic potentials to describe the bond and angle contributions:
+\begin{equation}
+    U_{bonds}(\textbf{r}_{ij}) = \frac{1}{2}k_{ij}(\textbf{r}_{ij}-\textbf{r}_{ij}^{0})^2
+\end{equation}
+\begin{equation}\label{eq:angle}
+    U_{angles}(\theta_{ijk}) = \frac{1}{2}k_{ijk}(\theta_{ijk}-\theta_{ijk}^{0})^2
+\end{equation}
+where \(k_{ij}\) is the force constant; \(\mathbf{r_{ij}}\) is the vector connecting particles \(i\) and \(j\); and \(\mathbf{r_{ij}^{0}}\) is the equilibrium bond distance. Similarly, in equation \ref{eq:angle}: \(k_{ijk}\) is the force constant; \(\theta_{ijk}\) is the angle formed by three consecutively bonded particles at any given time; and \(\theta_{ijk}^0\) is the equilibrium angle. Thus, in these two equations, \(k_{ij}\), \(k_{ijk}\), \(\mathbf{r_{ij}^{0}}\), and \(\theta_{ijk}^0\) are force field-specific parameters.
+
+The last two terms describe different types of torsions or 1-4 interactions. On the one hand, \textit{proper dihedrals} relate to the dihedral angle between four consecutively connected particles, which is computed as the angle between the plane formed by particles \(ijk\) and the plane formed by \(jkl\):
+\begin{equation}
+    U_{proper\ dihedral}(\phi_{ijkl}) = k_{ijkl}(1+cos(n\phi_{ijkl}-\phi_{ijkl}^0))
+\end{equation}
+where \(k_{ijkl}\) is the force constant for this contribution; \(n\) is the dihedral multiplicity; \(\phi_{ijkl}\) is the dihedral angle; and \(\phi_{ijkl}^0\) is the equilibrium value of the proper dihedral. Then, the force field-specific parameters in this case are \(k_{ijkl}\) and \(\phi_{ijkl}^0\).
+
+On the other hand, \textit{improper dihedrals} are used to force or prevent an atom to be in the plane formed by other three. The most common mathematical function employed is also harmonic:
+\begin{equation}
+    U_{improper\ dihedral}(\xi_{ijkl}) = \frac{1}{2}k_{ijkl}(\xi_{ijkl}-\xi_{ijkl}^0)^2
+\end{equation}
+where \(k_{ijkl}\) represents the force constant; \(\xi_{ijkl}\) is the angle between the planes formed by particles \(ijk\) and \(ijl\); and \(\xi_{ijkl}^0\) relates to the equilibrium value of the improper dihedral. Thus, the force field-specific values in this case are \(k_{ijkl}\) and \(\xi_{ijkl}^0\).
+
+The non-bonded term of the potential function can also be expanded into different contributions:
+\begin{equation}
+    U_{non-bonded}(\mathbf{r}) = U_{electrostatic}(\mathbf{r}) + U_{VdW}(\mathbf{r})
+\end{equation}
+The first term uses a coulomb potential to describe the electrostatic interactions between charged particles. The potential takes the form:
+\begin{equation}
+    U_{electrostatic}(\mathbf{r}_{ij}) = k_e\frac{q_i q_j}{\epsilon_r \mathbf{r}_{ij}} \qquad \text{with} \quad k_e=\frac{1}{4\pi\epsilon_0}
+\end{equation}
+In this equation, \(k_e\) is Coulomb's constant, which incorporates the vacuum dielectric constant \(\epsilon_0\); \(q_i \text{ and }q_j\) are the electric charges of the interacting particles; \(\epsilon_r\) is the dielectric constant of the solvent; and \(\mathbf{r}_{ij}\) is the distance between the two particles. In this case, the force field-dependent parameters are the partial charges \(q\), which in typical MD simulations are considered to be time- and configuration-independent.
+
+It is important to note that non-bonded interactions are calculated for every pair of particles, including periodic images, causing the computational cost to scale as \(\mathcal{O}(N^2)\). The treatment of long-range electrostatic interactions is particularly demanding because the Coulomb potential decays slowly (\(\mathbf{r}^{-1}\)) with distance. To handle this, methods such as Particle-Mesh Ewald (PME) or the reaction field are commonly used \cita{pme}\textsuperscript{,}\cita{reacfield}. These techniques separate the Coulomb potential into short- and long-range components, reducing the scaling to \(\mathcal{O}(N \log(N))\) thereby improving efficiency \cita{Ewald1921}\textsuperscript{,}\cita{Darden1993}.
+
+The second term represents van der Waals interactions, which are intermolecular forces acting between particles. These are typically modeled using the Lennard-Jones potential, consisting of an attractive term and a repulsive term. The potential is expressed as follows:
+\begin{equation}
+    U_{VdW}(\mathbf{r}_{ij}) = 4\epsilon_{ij} \left( \left( \frac{\sigma_{ij}}{\mathbf{r}_{ij}} \right)^{12}- \left( \frac{\sigma_{ij}}{\mathbf{r}_{ij}}\right)^{6}\right)
+\end{equation}
+Where \(\epsilon_{ij}\) represents the depth of the potential well; \(\sigma_{ij}\) defines the distance at which the van der Waals potential between two particles is zero; and \(\mathbf{r}_{ij}\) is the distance between the pair of particles. Here, the force field-dependent parameters are \(\epsilon_{ij}\) and \(\sigma_{ij}\).
+
+Additionally, some force fields include \textit{cross terms}, which couple two (or more) of the previous interaction potentials. While they offer a more accurate representation of the system, they come at the expense of higher computational cost.
+
+Up to now, several force field-dependent parameters such as force constants or equilibrium distances and angles have been presented. These are fitted to reproduce experimental measurements or quantum calculations, and their values vary depending on the purpose of the force field, thereby distinguishing one from another.
+
+Throughout this section, the term \textit{particle} has been used instead of \textit{atom}. This choice is due to the fact that not all force fields use an atomistic representation of the systems. Some force fields, instead, group several atoms into a single particle. The type of approximation is known as resolution, and it represents an additional distinguishing feature among force fields.
+
+\subsubsection{The Resolution of the Force Fields}
+Force fields can be categorized into three groups based on their level of resolution, that is, whether the particles represent atoms or groups of atoms. The highest level of resolution involves explicitly representing every atom in a system. force fields that use this approach are known as atomistic or all-atoms (AA) force fields. Some of the most widely used AA force fields include CHARMM \cita{charmm}, AMBER \cita{gaff}, and OPLS families \cita{oplsaa}. These force fields provide the highest level of accuracy at the expense of higher computational cost, particularly for large systems with many water molecules, which greatly increase the number of particles.
+
+The next level of resolution corresponds to force fields that group non-polar hydrogens with the heavy atoms they are bounded to, representing them as a single particle. Polar hydrogens, on the other hand, are still represented as individual atoms. Force fields applying this parameterization are called united-atom (UA) force fields. This approach reduces the degrees of freedom of the system, thereby speeding up the simulations. In addition to the major force field developers cited earlier, who have also developed UA models, the GROMOS force field stands out as one of the most widely used \cita{gromos}.
+
+The final category of force fields groups multiple heavy atoms and their corresponding hydrogens into a single particle called \textit{bead}. These models are referred to as Coarse-Grained (CG) force fields. This approach greatly reduces the number of particles, enabling the simulation of larger systems at a lower computational cost, though with reduced accuracy (Fig. \ref{fig:AA2CG}). The Martini force field is one of the most well-known CG force fields for simulation of biological systems. Martini uses, on average, a 4-to-1 mapping, that is that, four heavy atoms and their hydrogens are grouped into a single bead, which in some cases, produces particles that represent whole functional groups.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.99\linewidth]{General_Sections/Figures/AA2CG.png}
+    \caption{Representation of the 3D structure of a CP with sequence \underline{L}L\underline{L}L\underline{L}L\underline{L}L using an AA force field (left) and its corresponding mapping into Martini CG (right). Underlined letters refer to \textit{D}-amino acids.}
+    \label{fig:AA2CG}
+\end{figure}
+
+In the present thesis, first Martini 2 \cita{martini2}, and then Martini 3 \cita{martini3}, were used as the basis of MA(R/S)TINI, an adaptation of the original CG force fields that ensures a correct description of the self-assembly of CPs. The choice of a CG force field stems from the fact that spontaneous self-assembly takes place in the microsecond time scale, which is beyond the reach of AA simulations for SCPN-membrane systems. Coarse-Graining not only reduces the number of particles but also allows the use of larger timesteps. The timestep in MD simulations is determined by the fastest internal motion in the system under study, typically bond vibrations involving hydrogen atoms \cita{Feenstra1999}. Because Martini does not include explicit hydrogens, the timestep can be increased from 2 fs, as used in AA-MD, to 20 or 30 fs. This large increase allows for microsecond-long simulations at a much lower computational cost. Since molecular self-assembly takes place in the microsecond time-scale, CG-MD has been used for all the simulations performed in this thesis.
+
+\subsection{Metadynamics}
+Martini is among the most used CG force fields in research. It employs a building block principle with a predefined set of \textit{beads} that are combined to represent complex molecules, simplifying parameterization. This has extended its applicability beyond proteins\cita{MPro} and lipids\cita{Mlip} to polymers\cita{MPOL}, ionic liquids\cita{MIL} or carbon nanomaterials\cita{MCN}. Despite the improvements introduced in Martini 3 \supercite{martini3}, the model still necessitates refinement to accurately capture directional interactions like hydrogen bonding.
+The primary goal of MA(R/S)TINI was to reproduce, at the CG level, the directionality observed in the interactions between AA CPs, thereby mitigating the overestimation of CP-CP interactions due to the Martini CG mapping. To seamlessly integrate the new mapping of atomic coordinates to CG beads into the original force field, the new CG representation should ideally reproduce the original interaction energy as accurately as possible. This requires computing the Free Energy Surface (FES) of the CP-CP interaction for both parameterizations and comparing the results. To approach this using MD simulations, one can estimate the probability of finding two CPs in the dimer state (\(P_d\)), and in the unbound (monomeric) state (\(P_m\)) over an equilibrated trajectory. Then, the free energy difference between these states can be expressed as \(\Delta G_{dimerization} = -k_bTln\left(\frac{P_d}{P_m}\right)\). However, the long timescales involved in both association and dissociation, along with the risk of being kinetically trapped in a local minima, often make it impractical to achieve sufficient sampling of both processes within a single unbiased MD simulation trajectory. In this regard, variations of MD have been proposed to approach such cases and fall under the category of enhanced sampling techniques.
+
+In this thesis, metadynamics, in its well tempered scheme, was used in Section \ref{chap1} as enhanced sampling method for the calculation of the FES relative to CP dimerization. In particular, the plugin PLUMED was used in combination with GROMACS to set up and run two dimensional potential of mean force (PMF) calculations \cita{plumed}. Therefore, the PLUMED documentation has been the main resource for this section, along with Parrinello's pioneering works \cita{Laio2002}\textsuperscript{,}\cita{Barducci2008}.
+
+Metadynamics is a biased MD method in which the free energy is estimated as a function of a few selected degrees of freedom \(\vec{s}\), known as collective variables (CVs), each defined as a function of the particle positions (\(\vec{s}\equiv\vec{s}(\{\vec{q}\})\)). However, CVs are not restricted solely to the Cartesian coordinates; they can also include other geometric descriptors based on them, such as angles or dihedrals or even more complex variables like a Root Mean Square Deviation. In this method, the dynamics of a system at finite temperature is biased by a history-dependent potential, constructed as a sum of Gaussian kernels that are deposited along the trajectory of the CVs:
+\begin{equation}
+    V(\vec{s},t)=\sum_{k\tau<t}W(k\tau)\exp\left(-\sum_{i=1}^d\frac{(s_i-s_i(q(k\tau)))^2}{2\sigma_i^2} \right)
+\end{equation}
+where \(\tau\) is the Gaussian deposition stride, \(\sigma_i\) the width of the Gaussian for the \textit{i}th CV, and \(W(k\tau)\) the height of the Gaussian. Furthermore, in the long-time limit, the bias potential converges to the negative of the free energy as a function of the CVs:
+\begin{equation}\label{eq:metaD}
+    V(\vec{s},t\rightarrow\infty)=-F(\vec{s})+C
+\end{equation}
+The effect of metadynamics is exemplified in Figure \ref{fig:metad}, where the system is eventually pushed away from a local minimum, enabling explorations of new regions in the CV space. After sufficient simulation time, the sum of the Gaussians is expected to compensate the underlying FES, providing an estimate of its dependence on the CVs.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/GaussianDeposition.png}
+    \caption{Progressive evolution of a one-dimensional model potential \(V(x)\) by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}
+    \label{fig:metad}
+\end{figure}
+
+However, determining when to stop a metadynamics run can be challenging, and continuing the simulation carries the risk that the system is irreversibly pushed in regions of the configurational space which are not physically relevant. These problems were addressed in a posterior scheme called well-tempered metadynamics. In well-tempered metadynamics, the height of the Gaussian is decreased with simulation time according to:
+\begin{equation}
+    W(k\tau) = W_0\text{exp}\left(-\frac{V(\vec{s}(q(k\tau)),k\tau)}{k_B\Delta T}\right)
+\end{equation}
+where \(W_0\) is an initial Gaussian height, \(\Delta T\) an input parameter with the dimension of a temperature, and \(k_B\) the Boltzmann constant. By rescaling the Gaussian height, the bias potential gradually converges in the long-time limit, though it never fully compensate the underlying free energy:
+\begin{equation}\label{eq:wtmetaD}
+    V(\vec{s},t\rightarrow\infty)=-\frac{\Delta T}{T+\Delta T}F(\vec{s})+C
+\end{equation}
+where \(T\) is the temperature of the system. When examining the two limit cases, one can see that when \(\Delta T=0\), Equation \ref{eq:wtmetaD} corresponds to standard MD. But, when \(\Delta T\rightarrow\infty\) it becomes standard metadynamics (Eq. \ref{eq:metaD}). In intermediate regimes, the computed FES corresponds to the target temperature \(T\), with the transverse degrees of freedom correctly sampled.
+
+%%%%%%% CONTINUAR
+\section{Machine Learning}
+
+Machine Learning is a branch of AI focused on the development of algorithm-based models that learn to make predictions from data through training. Along this thesis, we focused on combining chemical intuition and knowledge to leverage the potential of the available and generated chemical data in order to advance research on CPs. In Sections \ref{chap2} and \ref{chap3}, a suite of established data-processing algorithms along with modular neural network components were used to build ML models capable of predicting CP behavior in the presence of lipid bilayers. Consequently, both major families of ML algorithms have been used: unsupervised learning and supervised learning algorithms. The following sections will describe the methods employed from both families. While this section provides the conceptual overview of the unsupervised/supervised approaches used in this thesis, the exact implementation details required for reproducibility (data preprocessing choices, feature definitions, split strategy, cross-validation design, hyperparameter search space, final model configuration, training schedules, and evaluation metrics) are reported in the corresponding Results chapters and article/manuscript Methods.
+
+\subsection{Unsupervised Learning}
+Unsupervised machine learning algorithms are designed to discover hidden patterns or data groupings without the involvement of a target attribute, that is, they use unlabeled data \cita{Berry2020}. Based on their ability to uncover patterns in data, unsupervised learning algorithms are primarily applied in three areas: dimensionality reduction, clustering, and the generation of association rules \cita{unsIBM}. Throughout this thesis, these models were applied to the former two.
+
+According to the work of Vedaldi and coworkers \cita{Asano2020}, unsupervised learning algorithms are suitable for creating the labels in the data that are subsequently used to implement predictive tasks. Therefore, in Section \ref{chap2}, labels for the CP sequences based on MD data were generated by performing dimensionality reduction using PCA, followed by clustering with OPTICS. Then, in Section \ref{chap3}, PCA is used again to reduce the dimensionality of the feature vector serving as input for the predictive model.
+\subsubsection{Principal Component Analysis}
+Principal Component Analysis (PCA) is a multivariate statistical technique that performs an orthogonal linear transformation of a set of correlated variables into a new set of uncorrelated variables, termed principal components (PCs). These components are obtained as the eigenvectors of the covariance (or correlation) matrix of the mean-centered data, or equivalently through a singular value decomposition of the data matrix. Each principal component is a linear combination of the original variables and is constructed to maximize the variance of the projected data under the constraint of orthogonality with all previous components. As a result, PCA defines an orthonormal coordinate system in which the components are ranked according to the fraction of total variance they explain, enabling dimensionality reduction while preserving as much variance as possible.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{General_Sections/Figures/PCA_demonstration.png}
+    \caption{Representation of PCA applied to a 2D dataset with correlated features. The colored arrows represent the principal components: the red arrow indicates the direction of maximum variance in the data (PC1), while the blue is orthogonal to it and captures the remaining variance (PC2). This illustrates how PCA identifies the most informative directions for dimensionality reduction. The graph was generated with Matplotlib using synthetic data in arbitrary units.}
+    \label{fig:PCA}
+\end{figure}
+
+As shown in Figure \ref{fig:PCA}, the first principal component (PC1) defines the direction along which variance of the data is maximized, meaning that it is the line that retains the most information from the original data. The second principal component (PC2) accounts for the next highest variance and must be orthogonal to PC1. Any subsequent components must be orthogonal to the preceding ones and explain any remaining variance.
+
+The PCA computation process starts by standardizing the initial variables to have a mean of zero and a standard deviation of one. Assuming a dataset \(\mathbf{X}\) with \(n\) samples and \(d\) variables:
+\begin{equation}
+    \mathbf{\tilde{X}} = \frac{\mathbf{X}-\mu}{\sigma}
+\end{equation}
+Where \(\mu\) is the vector of independent variable means, and \(\sigma\) is the vector of independent variable standard deviations.
+
+Next, PCA calculates the covariance matrix, which summarizes the covariance associated with all pairwise combinations of the initial variables in the dataset.
+\begin{equation}
+    \mathbf{C}(x_j,x_k)=\frac{1}{n-1}\sum^n_{i=1}(x_{ij}-\bar{x}_j)(x_{ik}-\bar{x}_k) \quad \text{for }j,k=1,2,...,d
+\end{equation}
+This results in a full \(d\times d\) covariance matrix, where each element accounts for the relationship between two variables.
+
+Then, the eigenvectors and eigenvalues of the covariance matrix are computed.
+\begin{equation}
+    \mathbf{C}v_i=\lambda_iv_i
+\end{equation}
+Here, \(v_i\) an eigenvector that represents the direction of maximum variance in the data ,and \(\lambda_i\) is the corresponding eigenvalue, indicating how much variance is explained along that direction. At this point, the eigenvalues can be used to decide which components are worth to be considered for subsequent analysis. Typically, components with low eigenvalues can be neglected.
+
+Finally, the data is transformed into the new coordinate system formed by the top \(k\) eigenvectors (\(\mathbf{V}_k\)):
+\begin{equation}
+    \mathbf{Z} = \mathbf{\tilde{X}V}_k
+\end{equation}
+This creates a new dataset \(\mathbf{Z}\in\mathbb{R}^{n\times k}\), capturing most of the information but with fewer dimensions.
+\subsubsection{OPTICS clusterization}
+
+Ordering Points To Identify the Clustering Structure (OPTICS) is an algorithm for finding density-based clusters \cita{Ankerst1999}. That means that a cluster is a set of data objects spread in the data space over a contiguous region of high data objects density, and is separated from other clusters by contiguous regions of low density data objects. Although closely related to DBSCAN \cita{Ester1996}, it was developed to address its main limitation in handling clusters of varying density. DBSCAN requires choosing a single neighborhood radius, \(\epsilon\), which defines the maximum distance between two points for them to be considered neighbors, and this becomes problematic when clusters have different local densities. OPTICS addresses this by computing clusters for multiple \(\epsilon\) values in a single run.
+
+To identify clusters, OPTICS arranges the data points in a linear order where spatially closest points become neighbors. Additionally, it computes the reachability distance for each point and its nearest neighbors, which quantifies how difficult it is to reach one point from another. Plotting the reachability distance against the new data ordering yields the reachability plot (Fig. \ref{fig:Optics}), a graph that helps to visualize the cluster structures. Since points in a cluster have a low reachability distance to their nearest neighbor, clusters appear as valleys in the reachability plot, separated by peaks of high reachability distance corresponding to the transition to a different cluster.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/OPTICS_demo.png}
+    \caption{OPTICS clustering applied to synthetic data. Top left shows the raw 2D point distribution; top right overlays the OPTICS spanning tree, with each point colored by its assigned cluster; bottom displays the reachability plot in OPTICS order, where valleys correspond to dense clusters and peaks indicate transitions between clusters. Graphs were generated with Matplotlib using synthetic data in arbitrary units.}
+    \label{fig:Optics}
+\end{figure}
+
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+
+\subsection{Supervised Learning}
+Supervised learning involves training algorithms on labeled data to predict outcomes and recognize patterns. Unlike unsupervised learning, each data entry is assigned one or more dependent variables, known as outputs or targets. In other words, supervised learning methods are given (multidimensional) input-output pairs with the objective of learning the underlying relationships between and predict the outcome of new data based on the input features. Depending on the nature of the problem and the dependent variables, supervised learning can be divided into classification and regression task.
+
+In a classification task, the aim is to assign data instances into specific groups or categories. Binary classification is a subtype of classification task in which each data point is assigned to one of two possible classes. For instance, in Section \ref{chap3}, CPs were classified into high-permeability or low-permeability categories. In contrast, in multi-class classification each instance is classified into one of multiple possible classes. This is the case presented in Section \ref{chap2}, where CPs were labeled as Lipophilic, Intermediate or Lipophobic. Furthermore, if a data point can belong to multiple categories simultaneously, the task is known as multi-label classification.
+
+In contrast to classification, in regression tasks the models try to predict continuous numerical values. This was used in both Section \ref{chap2} and Section \ref{chap3}. In Section \ref{chap2}, a pseudo-permeability value computed from MD simulations served as target, while in Section \ref{chap3}, experimentally derived permeability was used as the output variable.
+
+A plethora of algorithms have been developed to make predictions in a supervised learning fashion. Apart from their differences in the underlying mathematical methods, one can differentiate supervised learning algorithms based on their complexity. Common algorithms like \textit{K}-Nearest Neighbors, Decision Trees or Support Vector Machines (SVM) are of lower complexity and commonly used as benchmarks for more sophisticated models. In this thesis, the main predictive models used fall under the Neural Network (NN) category. NNs are high-complexity supervised models inspired by the structure and function of biological neural networks. They consist of connected units, often called nodes or neurons, typically aggregated into layers. When a ML model includes multiple NN layers, as in this research, it is referred to as a Deep Learning (DL) model. The following sections describe the main layers used to build the predictive models featured in this thesis.
+
+\subsubsection{Multilayer Perceptron}
+In multilayer perceptrons (MLPs), neurons are organized into successive fully connected layers, with all connections occurring between adjacent layers. An MLP is a specific type of feedforward neural network (FNN) containing at least one hidden layer. It consists of an input layer that receives the data, one or more hidden layers, and an output layer that produces the final prediction (Fig. \ref{fig:MLP}).
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.65\linewidth, trim = {0 100 0 50}, clip]{General_Sections/Figures/MLP_architecture.png}
+    \caption{Scheme of a Multilayer Perceptron. The image illustrates the architecture of a MLP with one input layer (green) that has 3 neurons, two hidden layers (black) with 6 and 4 neurons respectively, and an output layer of one neuron. The image was generated using Matplotlib.}
+    \label{fig:MLP}
+\end{figure}
+Each neuron in the hidden layer performs an affine transformation (a weighted linear combinations of the inputs plus a bias), the result of which is passed through a non-linear activation function before being forwarded to the next layer. Such a layered structure facilitates the learning of more complex relationships through a simpler and computationally efficient learning process. For this reason, MLPs form the basis of deep learning and are ubiquitous in modern NNs.
+
+The training process involves two main steps: forward and backward propagation. In the forward pass, instances from the training set are propagated through the neural network to compute outputs. Each neuron consists of multiple input connections \(x\), weights \(w\) assigned to the input connections, an activation fuction \(f\), and a single output \(y\). The inputs typically come from outputs of previous neurons, and one of them may serve as a bias term \(b\). The neuron first computes the weighted sum of the inputs as shown in Equation \ref{sum_neuron}, and then applies the activation function to obtain the output value (Eq. \ref{act_f}), the activation functions in MLPs are non-linear functions that transform the linear combination of inputs into the final output.
+\begin{equation}\label{sum_neuron}
+    z = \sum_ix_iw_i+b
+\end{equation}
+\begin{equation}\label{act_f}
+    y = f(z)
+\end{equation}
+
+After each instance \(x_i\), a loss function \(L\) is computed to measure the prediction error by comparing the predicted value to the ground truth \(y_i\). During the backward pass, the backpropagation algorithm passes the prediction error back through the network layer by layer to adjust the weights and reduce the error in future predictions. First, the chain rule (Eq. \ref{chain}) automatically computes the gradient of the error with respect to each weight. Then, the partial derivative of the loss function with respect to each weight is computed for the current set of weights \(W\), input features \(x_i\), and expected targets \(y_i\). This results in a vector \(G\) that points in the direction of the steepest increase in the loss (Eq. \ref{grad}). Finally, the loss is minimized by updating the weights in the opposite direction of the gradient (Eq. \ref{updateMLP}). The magnitude of the update to the weights \(W\) is influenced by the magnitude of the gradient \(G\) and a customary parameter \(\alpha\), know as learning rate.
+\begin{equation}\label{chain}
+    [f(g(x))]' = f'(g(x))\cdot g'(x)
+\end{equation}
+\begin{equation}\label{grad}
+    G= \left(\frac{\partial L(W:x_i,y_i)}{dw_1}, \frac{\partial L(W:x_i,y_i)}{dw_2},..., \frac{\partial L(W:x_i,y_i)}{dw_{|W|}} \right)
+\end{equation}
+\begin{equation}\label{updateMLP}
+    w_j \leftarrow w_j - \alpha \cdot \frac{\partial L(W:x_i,y_i)}{dw_j}
+\end{equation}
+
+This algorithm is known as Stochastic Gradient Descent (SGD) and serves as foundation for more advanced algorithms like the adaptive moment estimation (Adam) that has been used in this work.
+\subsubsection{Convolutional Neural Networks}
+Convolutional Neural Networks (CNNs) are a type of DL network particularly effective at handling data structured as multiple arrays, due to their ability to exploit spatial dependencies, where each input value is influenced by its surrounding context. Many types of data are in the form of multiple arrays: 1D for signals or sequences; 2D for images; and 3D for volumetric images or videos. Thus, CNNs became the standard in DL-based approaches to computer vision \cita{LeCun2015}.
+
+CNNs are generally composed of convolutional layers, pooling layers and a fully-connected layer, normally a MLP (Fig. \ref{fig:CNN}).
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.99\linewidth]{General_Sections/Figures/Typical_cnn.png}
+    \caption{Scheme of a typical CNN formed by two convolutional layers, two pooling layers that perform subsampling and a fully connected part that provides the final output. Image sourced from Wikimedia Commons under a Creative Commons license. Source: \href{https://commons.wikimedia.org/wiki/File:Typical_cnn.png}{Wikimedia}}
+    \label{fig:CNN}
+\end{figure}
+The convolutional layer consists of a set of learnable filters that slide over the input performing a dot product that provides the output called feature map or activation map. Its hyperparameters include the filter size or kernel size which determine the matrix used in the convolution operation and the stride that defines how far the filter moves every step. In Section \ref{chap3}, a kernel size of 3 and a stride of 1 was used to handle CP sequences. Figure \ref{fig:convex} exemplifies the effect of these hyperparameters when handling a sequence of six amino acids.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\linewidth]{General_Sections/Figures/ConvExample.png}
+    \caption{Schematic example of the convolution operation in a 1D convolutional layer using a kernel size of three and a stride of 1.}
+    \label{fig:convex}
+\end{figure}
+In this example, the kernel of size three performs a dot product between the features of the three amino acids it covers at each step resulting in a new vector representing that spatial position. In the next step, the filter moves one position to the right, as specified by the value of the stride parameter, performing a new dot product. The process is repeated until the kernel reaches the end of the sequence and the feature map is completed.
+
+Then the pooling layer performs a downsampling operation on the feature map which reduces the dimensions of the data by combining the outputs of neuron clusters at one layer into a single neuron in the next layer. Although not strictly necessary, as will be shown in Section \ref{chap3}, the pooling layers help to reduce the dimensions of the input to the fully-connected layer. For instance, consider an input image of size \(28 \times 28\), and a convolutional layer that outputs a \(24 \times 24 \times 16\) feature map. Since the fully-connected layer only handles 1D vectors, flattening the feature map will lead to a vector of size \(24 \cdot 24 \cdot 16=9216\). However, if a \(2 \times 2\) pooling layer with stride 2 is used, the feature map will shrink to \(12 \times 12 \times 16\) vector, which after flattening results in a vector of size 2304. This dimensionality reduction lowers the number of parameters and computations in the MLP which can help to avoid overfitting.
+
+Optionally, after the pooling layer, another convolutional layer can be used. When this happens the structure of the CNN becomes hierarchical, since later layers perform convolution on the feature maps of the previous layers. As a result, layers closer to the input capture simpler patterns, while deeper layers build on them to learn more abstract and complex features.
+
+Finally, the fully-connected layer works on a flattened feature vector extracted through the previous layers to perform a regression or a classification task.
+\subsubsection{Long Short-Term Memory}
+The Long Short-Term Memory (LSTM) is an enhanced version of the Recurrent Neural Networks (RNNs). RNNs are specialized in handling sequential or time-dependent data by retaining a hidden state that stores information from previous time steps and transfers it to subsequent ones. Nevertheless, RNNs have struggled to learn long-term dependencies, as the vanishing and exploding gradient problems hinder the flow of information across many time steps. As commented in section \ref{ML_intro}, Hochreiter and Schmidhuber, designed LSTM to mitigate the vanishing gradient problem of conventional RNNs \cita{Pascanu2013}. The vanishing gradient problem limits the ability of RNNs to learn long-term dependencies, due to gradients becoming smaller as the input sequence becomes larger, making earlier information irrelevant. On the other hand, the exploding gradient problem can be mitigated using the gradient clipping technique, which prevents gradients from becoming too large.
+
+In order to handle the vanishing gradient and allow long-term memory capabilities, LSTM implements a cell state \(C_t\), which is controlled by three gates (Fig. \ref{fig:LSTM}):
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/LSTM_cell.png}
+    \caption{Schematics of a LSTM cell. Arrows that split depict that the information is copied, orange rectangles represent layers, and lime circles element-wise operations whether multiplication or addition. Image adapted from Wikimedia commons under a Creative Commons license. Source: \href{https://commons.wikimedia.org/wiki/File:LSTM_cell.svg}{Wikimedia}}
+    \label{fig:LSTM}
+\end{figure}
+The input gate controls what information is stored in the cell state, the forget gate determines what information should be removed from the cell state, and the output gate controls what information should be passed to the output at the current step. This mechanism allows LSTM networks to control the flow of information by selectively retaining or discarding information at each time step.
+
+In Section \ref{chap3}, an LSTM layer is used as part of a NN to predict CP experimental membrane permeability. Although RNNs are typically used for tasks such as speech recognition, machine translation, and natural language processing, LSTM has been successfully applied to peptide function prediction \cita{Yi2019}\textsuperscript{,}\cita{Han2022}. This success may come from the fact that peptides are sequences of amino acids where non-adjacent residues can be spatially close, making long-range dependencies important.
+
+\subsubsection{Graph Neural Networks}
+Graph Neural Networks (GNNs) are specialized NNs designed to use graphs as input. Graphs are mathematical structures that model pairwise relations between objects. Each object is abstracted as a node (also called vertex) \(V\), and every pairwise connection is represented by an edge \(E\). Therefore, a graph is an ordered pair \(G=(V,E)\). GNNs have found applications in several fields like social media \cita{Fan2019}, knowledge graphs \cita{Hamaguchi2017}, or cyber security \cita{Wang2022}. Another prominent field for GNNs is chemistry, apart from AlphaFold, in which GNNs are one of the main building blocks, they are also well suited for drug design \cita{Stokes2020}. Their particular relevance for chemistry is due to the structural similarity of molecules and graphs. As illustrated in Figure \ref{fig:molgraph}, molecules can be represented as graphs, where atoms are nodes and chemical bonds are edges. Additionally, both nodes and edges can carry information through feature vectors, \(h_v\) for nodes and \(e_{vw}\) for edges, providing GNNs with complete molecular information \cita{Reiser2022}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/mol2graph.png}
+    \caption{Conversion of the caffeine molecule into a graph, where atoms are nodes and bonds are edges.}
+    \label{fig:molgraph}
+\end{figure}
+
+The key feature of modern GNNs is the use of \textit{message passing}. In message passing, each node shares information with neighboring nodes via the edges that connect them, and aggregate that information to update their own feature vector. This mechanism not only provided a framework to model dependencies and interactions in graph data, but also included the representation of edges which was not present in Graph Convolutional Networks. This mechanism was included in 2017 with the advent of the Message Passing Neural Network (MPNN) which showed unprecedented performance in the prediction of molecular properties and became the foundation of subsequent GNNs \cita{Gilmer2017}.
+
+The MPNN framework consist of four phases: initialization, message passing, update and readout. First, the graph \(G\) is initialized with \(h_v^0\) node features and \(e_{vw}\) edge features, where \(v,w \in G\). In the message passing phase, messages \(m_v^{t+1}\) are calculated based on a message passing function \(M_t\), which takes into account the feature vector of the receptor node \(h_v^t\), the feature vector of the emitter neighbor node \(h_w^t\), and the feature vector of the edge \(e_{vw}\) that acts as channel (Eq. \ref{message}):
+\begin{equation}\label{message}
+    m_v^{t+1} = \sum_{w \in N(v)}M_t(h_v^t,h_w^t,e_{vw})
+\end{equation}
+Where \(N(v)= \{u \in V|(u,v) \in E\}\) is the set of neighbors of node \(v\). In the update phase, hidden states of the nodes \(h_v^{t+1}\) are computed by an update function \(U_t\) using the previous state of the node feature and the message computed in the previous phase (Eq. \ref{update}):
+\begin{equation}\label{update}
+    h_v^{t+1} = U_t(h_v^t,m_{v}^{t+1})
+\end{equation}
+Message passing and update processes are repeated \(T\) steps, until node \(v\) reaches a hidden state \(h_v^T\). Then, a readout function \(R\) computes a feature vector for the whole graph (Eq. \ref{readout}), which can then be used for regression or classification tasks.
+\begin{equation}\label{readout}
+    y = R(h_v^T, h_v^0)
+\end{equation}
+
+The MPNN scaffold allows a plethora of variations since NNs can be used as message, update, and readout functions. In Section \ref{chap2}, the original MPNN proposed by Gilmer and co-workers\supercite{Gilmer2017} was trained on CG-based graphs to perform both classification and regression tasks aimed at predicting MD results.
