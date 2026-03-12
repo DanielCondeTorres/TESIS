@@ -1,0 +1,285 @@
+\documentclass[12pt, twoside]{book} 
+
+% Encoding and language
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}    
+\usepackage[english]{babel} 
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[absolute,overlay]{textpos}  % for positioning labels inside images
+
+% Margins and spacingrx_A = 2.0 * sqrt(u_A * (1.0 - u_A))
+\usepackage[a4paper, margin=2.5cm]{geometry} 
+\usepackage{setspace} 
+% \raggedbottom
+\onehalfspacing  
+
+% Fonts
+\usepackage{times}  
+
+% Hyperlinks
+\usepackage[hidelinks]{hyperref}
+% \usepackage{hyperref}
+% Optional: Makes links colored text instead of red boxes
+% \usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+
+% Include pdf into manuscript
+\usepackage{pdfpages}
+
+% Bibliography setup. Uses ACS style with references as footnotes
+\usepackage[style=chem-acs, backend=biber]{biblatex}
+\addbibresource{references.bib}  % Load external .bib 
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+%%
+\newcommand{\cita}{}
+\renewcommand{\cita}[1]{\footfullcite{#1}} % Renames foofullcite to cite
+
+
+% \renewcommand{\cite}[1]{\citation{#1}}
+
+
+% Formatting for footnotes (ensures ACS footnotes appear correctly)
+\renewcommand{\footnoterule}{\vspace*{-3pt}\hrule width 8cm\vspace*{3pt}} % Horizontal line for footnotes until 8cm (middle of page)
+%Page has 21 cm - 5 cm for margins = 16cm so 8cm is middle.
+
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancyhf{} % Clear default header/footer
+
+% Define headers
+\fancyhead[LE]{\textit{Alfonso Cabezón Vizoso}} % Left side on even pages (Italic)
+\fancyhead[RO]{\textit{\leftmark}} % Right side on odd pages (Italic, Chapter Name)
+
+% Ensure \leftmark contains only the chapter name, not section titles
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+
+% Horizontal line under header
+\renewcommand{\headrulewidth}{0.4pt} 
+
+% Define footers (page numbers)
+\fancyfoot[LE]{\thepage} % Left side on even pages
+\fancyfoot[RO]{\thepage} % Right side on odd pages
+
+% Remove headers & footers from cover, index, and chapter pages
+\fancypagestyle{plain}{%
+    \fancyhf{} 
+    \renewcommand{\headrulewidth}{0pt} % Remove header line
+    \renewcommand{\footrulewidth}{0pt} % Remove footer line
+}
+
+% Dedication Page
+\newcommand{\dedication}{
+    \clearpage
+    \thispagestyle{empty} % No headers or footers
+    \vspace*{10cm} % Adjust vertical spacing
+    \begin{flushright} % Right-align text
+        \textit{
+            A mi abuela.
+        }
+    \end{flushright}
+    \clearpage
+}
+
+% Formatting for chapter pages
+\usepackage{titlesec}
+
+\newcommand{\chapterquote}[1]{%
+    \vfill
+    \hfill \parbox{0.6\textwidth}{\raggedleft\textit{#1}}
+}
+
+% Customizing chapter format
+\titleformat{\chapter}[display]
+{\Huge\bfseries\raggedleft}  
+{}
+{0pt}
+{\vspace{8cm}} 
+
+\titlespacing{\chapter}{0pt}{0pt}{0pt}
+
+% Ensure chapter pages have no headers, footers, or page numbers
+\makeatletter
+\renewcommand{\chapter}{%
+    \clearpage
+    \thispagestyle{plain} % Remove headers/footers
+    \pagestyle{fancy} % Resume normal headers and footers from next page
+    \@afterindentfalse
+    \secdef\@chapter\@schapter
+}
+\makeatother
+
+\newcommand{\fakesection}[1]{%
+  \clearpage
+  \refstepcounter{section}%
+  \renewcommand{\thesection}{\thechapter.\arabic{section}}%
+  \setcounter{subsection}{0}%
+  \markboth{#1}{#1}
+  \thispagestyle{empty}
+  \begin{center}
+    \vspace*{\fill}
+    {\Huge\bfseries #1 \par}
+    \vspace*{\fill}
+  \end{center}
+  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
+}
+
+
+
+% Index Formatting
+\makeatletter
+\renewcommand\tableofcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \section*{\Huge Index}  
+    \vspace{1cm}  
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+}
+\makeatother
+
+% Dotted lines for chapters in index
+\usepackage{tocloft}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+% Change "Table of Contents" to "Index"
+\addto\captionsenglish{
+  \renewcommand{\contentsname}{Index}
+}
+
+\setcounter{secnumdepth}{3} % Enables numbering for subsubsections
+\setcounter{tocdepth}{3} % Show subsubsections in ToC
+
+\usepackage{float}
+\usepackage{placeins}
+\usepackage[font=small]{caption}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{amsmath} 
+\usepackage{amssymb}
+\usepackage{svg}
+\usepackage{mathtools}
+
+% Document begins
+\begin{document}
+
+\title{CYCLOPEp: a computational platform for the design of therapeutic cyclic peptides through computational simulations, Big Data analisis and Artificial Intelligence.}
+\author{Alfonso Cabezón Vizoso}
+\date{Date}
+% \maketitle
+\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/Portada_tese.pdf} 
+
+\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/Portada_interna.pdf}
+
+% Declaracion responsable
+
+\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{AuthorStatement.pdf} % Declaracion derechos
+\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{StatementResponsability.pdf} % Declaracion responsable
+% \includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{authorization_rgf.pdf} % Authorization Rebeca
+% \includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{authorization_apg.pdf} % Authorization angel
+
+\dedication
+
+\tableofcontents
+
+%% Article Relationship
+\include{General_Sections/List_of_publications}
+
+%Abbreviations and Acronyms
+\newpage
+\section*{Abbreviations and Acronyms} % Use \section* instead of \chapter*
+\addcontentsline{toc}{chapter}{Abbreviations and Acronyms} % Add to ToC at chapter level
+\markboth{Abbreviations and Acronyms}{} % Set header text
+
+\vspace{0.1cm} % Adjust space after title
+
+
+\begin{flushleft} % Aligns content properly
+    \begin{tabbing}
+        \hspace{3cm} \= \hspace{5cm} \= \kill % Set tab stops for spacing
+        \textbf{AA} \> All-atoms \\
+        \textbf{AMPs} \> Antimicrobial Peptides \\
+        \textbf{AMR} \> Antimicrobial resistance \\
+        \textbf{AI} \> Artificial Intelligence \\
+        \textbf{CG} \> Coarse-Grained \\
+        \textbf{CV} \> Collective Variable \\
+        \textbf{CNN} \> Convolutional Neural Network \\
+        \textbf{CPs} \> Cyclic Peptides \\
+        \textbf{DFT} \> Density Functional Theory \\
+        \textbf{DMPC} \> 1,2-Dimyristoyl-sn-glycero-3-phosphocholine \\
+        \textbf{DMPE} \> 1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine \\
+        \textbf{DMPG} \> 1,2-Dimyristoyl-sn-glycero-3-phospho-rac-(1-glycerol) \\
+        \textbf{FES} \> Free Energy Surface \\
+        \textbf{FNN} \> Feed-Forward Neural Network \\
+        \textbf{GPUs} \> Graphics Processing Units \\
+        \textbf{GNN} \> Graph Neural Network \\
+        \textbf{KNN} \> K-Nearest Neighbors \\
+        \textbf{LSTM} \> Long Short-Term Memory \\
+        \textbf{MAE} \> Mean Absolute Error \\
+        \textbf{MCC} \> Matthews Correlation Coefficient \\
+        \textbf{MD} \> Molecular Dynamics \\
+        \textbf{ML} \> Machine Learning \\
+        \textbf{MLP} \> Multilayer Perceptron \\
+        \textbf{MPNN} \> Message Passing Neural Network \\
+        \textbf{NN} \> Neural Network \\
+        \textbf{OPTICS} \> Ordering Points to Identify the Clustering Structure \\
+        \textbf{PC} \> Phosphatidylcholine \\
+        \textbf{PE} \> Phosphatidylethanolamine \\
+        \textbf{PG} \> Phosphatidylglycerol \\
+        \textbf{PCA} \> Principal Component Analysis \\
+        \textbf{PMF} \> Potential of Mean Force \\
+        \textbf{RF} \> Random Forest \\
+        \textbf{SCPNs} \> Self-Assembled Cyclic Peptide Nanotubes \\
+        \textbf{SVM} \> Support Vector Machines \\
+        \textbf{SVR} \> Support Vector Regression
+        \textbf{UA} \> united-atom \\
+        \textbf{WHO} \> World Health Organization \\
+    \end{tabbing}
+\end{flushleft}
+
+%% Summary
+
+\include{General_Sections/Summary}
+
+% Introduction
+\include{General_Sections/Introduction}
+
+% Objectives
+\include{General_Sections/Objectives}
+
+% Methods
+\include{General_Sections/Methods}
+
+% Results and Discussion
+\include{Results_Discussion/Results}
+
+% Unpublished Results
+\include{Results_Discussion/Unpublished}
+
+%General Discussion
+\include{General_Sections/GeneralDiscussion}
+
+%Conclusions
+\include{General_Sections/Conclusions}
+
+% References
+\chapter{References}
+\chapterquote{GROMACS reminds you: “It is unfortunate that the authors did not make better use of all the electric power energy that went into these massive computations.” (An anonymus referee)}
+\newpage
+
+\printbibliography[heading=none]
+
+%Conclusions
+\include{Appendix/Appendix}
+
+\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/Contraportada_tese.pdf} % Declaracion responsable
+
+\end{document}
