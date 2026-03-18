@@ -3266,7 +3266,7 @@
       \field{issue}{3}
       \field{journaltitle}{Journal of Medicinal Chemistry}
       \field{month}{2}
-      \field{title}{Multi_CycGT: A Deep Learning-Based Multimodal Model for Predicting the Membrane Permeability of Cyclic Peptides}
+      \field{title}{Multi\_CycGT: A Deep Learning-Based Multimodal Model for Predicting the Membrane Permeability of Cyclic Peptides}
       \field{volume}{67}
       \field{year}{2024}
       \field{pages}{1888\bibrangedash 1899}
