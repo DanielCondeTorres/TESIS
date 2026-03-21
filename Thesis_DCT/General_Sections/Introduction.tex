@@ -1,11 +1,27 @@
 \chapter{Introduction}
-\chapterquote{GROMACS reminds you: “On average, it takes twenty years for the world's largest super computer to shrink down to the size of your laptop.” (Pete Beckman)}
+\chapterquote{``We often speak of health, money, and love as the pillars of life, but they are all expressions of a single, fundamental dimension: \textbf{Time}. We invest in our wealth and our well-being for one solitary reason---to buy the freedom of time to live, and the time to love.''}{--- \textup{Andrés González} (\textit{La Pizarra de Andrés})}
 
 \newpage
 \section{Background: Membrane targeting to fight AMR.}
-As scientists, we are always striving to make a meaningful impact on society through our work. Still, it is not always possible to find a definitive solution to the problem at hand. Despite that, every effort in building new knowledge plays a role in moving toward the final goal. This project was envisioned with this idea in mind, aiming to provide the scientific community with new tools to deepen our understanding of cyclic peptides (CPs) in order to combat one of humanity's greatest threats in the years to come: antimicrobial resistance (AMR).
 
-The World Health Organization (WHO) has declared AMR as one of the top global public health concerns of the 21st century, linking it to an estimated 1.27 million deaths in 2019 and projecting up to 10 million deaths per year by 2050 if adequate action is not taken \cita{Murray2022}\textsuperscript{,}\cita{Tang2023}. AMR is a natural process driven by genetic changes, which lead to microorganisms no longer responding to antimicrobial medicines. Consequently, antibiotics lose their effectiveness, and infections become difficult or impossible to treat \cita{WHO}.
+From an early age, I was deeply fascinated by characters who used science and technology to understand and shape the world around them. Figures such as Tails, Bulma, and Iron Man—whose mastery of engineering and applied physics exemplifies the transformative power of knowledge—played a significant role in shaping my perspective. Although fictional, these characters conveyed a fundamental idea: that knowledge is a powerful tool for understanding and transforming reality. 
+This early exposure did not merely spark a general interest in science; it fostered a lasting curiosity for inquiry, critical thinking, and the systematic pursuit of understanding. Over time, this curiosity evolved into a genuine motivation for scientific research, ultimately leading me to pursue the study of physics and chemistry.
+
+This dissertation is born from the conviction that the analytical tools of physics can provide an additional vantage point to study the complexity of Antimicrobial Peptides (AMPs). Rather than seeking definitive solutions, the goal of this work is to help clarify some of the underlying mechanisms of these interactions. By doing so, I hope to offer a modest contribution to the scientific community’s knowledge, providing data and frameworks that might aid in the long-term fight against antimicrobial resistance. It is an invitation to see how the synergy between programming, molecular dynamics, and the emerging frontier of quantum computing can complement other disciplines in the collective pursuit of understanding one of the great biological challenges of our time. Rather than replacing traditional methods, this work explores how computational frameworks can serve as a digital microscope, offering a modest but necessary vantage point to simulate and eventually master the complex interactions of life at the atomic scale.
+
+
+
+
+To understand how Antimicrobial Peptides (AMPs) operate, we must first examine the stage upon which these interactions unfold: the lipid membrane. Rather than viewing lipids merely through the lens of chemical solubility, it is more productive to define them as the fundamental architectural units of biological boundaries. Among these, phospholipids are the primary constituents and the most relevant to the mechanical and structural integrity of the cell\cita{van2008membrane}. Structurally, a phospholipid is defined by a central alcohol backbone that serves as a bridge, anchoring a polar, phosphate-rich head group to a pair of nonpolar, hydrophobic chains.
+
+
+
+
+
+
+
+
+
 
 Conventional antibiotics, in general, exert their activity by binding to specific receptors, inhibiting the proliferation of microorganisms \cita{Lohner2009}. Because these targets can often evade antibiotic action through mutational or adaptive mechanisms, resistance readily emerges. Therefore, the development of new antimicrobial agents and therapies that aim at novel molecular candidates is a crucial aspect of this field \cita{Ahmed2024}. In this context, advances in lipidomics have revealed the bacterial membrane as a complex and tightly regulated system. Although bacterial membranes differ from eukaryotic ones at multiple levels, including overall organization and morphology, differences in lipid composition provide a particularly tractable basis for selective antimicrobial strategies. The differences in lipidic composition between eukaryotic and bacterial membranes open the possibility of exploiting the lipidic composition as a molecular target \cita{Sani2015}. While eukaryotic cell membranes are mainly formed by phosphatidylcholine (PC), representing 50\% of the lipids, and phosphatidylserine (PS), particularly abundant in the inner leaflet, the most abundant lipids in bacteria are phosphatidylglycerol (PG) and phosphatidylethanolamine (PE) \cita{Geiger2013}\textsuperscript{,}\cita{Vance2015}. As can be seen in Figure \ref{fig:Lipids}, PG and PS are anionic polar heads, whereas PC and PE carry zero net charge. The asymmetric lipid distribution in eukaryotic membranes results in a neutral surface charge \cita{Ikeda2006}, whereas bacterial membranes are generally negatively charged due to the presence of PG. Therefore, molecules that can be attracted by this negative charge can be good candidates to use bacteria lipid composition as molecular target.
 \FloatBarrier

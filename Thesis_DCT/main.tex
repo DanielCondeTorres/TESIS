@@ -102,9 +102,17 @@
 % Formatting for chapter pages
 \usepackage{titlesec}
 
-\newcommand{\chapterquote}[1]{%
+\newcommand{\chapterquote}[2]{%
     \vfill
-    \hfill \parbox{0.6\textwidth}{\raggedleft\textit{#1}}
+    \begin{flushright}
+        \begin{minipage}{0.8\textwidth}
+            \raggedleft
+            {\setstretch{1.2}\large\textit{#1}\par}
+            \vspace{0.4cm}
+            {\normalsize #2\par}
+        \end{minipage}
+    \end{flushright}
+    \vspace{1.5cm}
 }
 
 % Customizing chapter format
@@ -271,7 +279,9 @@
         \textbf{CG} \> Coarse-Grained \\
         \textbf{CV} \> Collective Variable \\
         \textbf{CNN} \> Convolutional Neural Network \\
-        \textbf{CPs} \> Cyclic Peptides \\
+        \textbf{COBYLA} \> Constrained Optimization By Linear Approximation \\
+        \textbf{CVar} \> Conditional Value at Risk \\
+        \textbf{DE} \> Differential Evolution \\
         \textbf{DFT} \> Density Functional Theory \\
         \textbf{DMPC} \> 1,2-Dimyristoyl-sn-glycero-3-phosphocholine \\
         \textbf{DMPE} \> 1,2-Dimyristoyl-sn-glycero-3-phosphoethanolamine \\
@@ -295,11 +305,15 @@
         \textbf{PG} \> Phosphatidylglycerol \\
         \textbf{PCA} \> Principal Component Analysis \\
         \textbf{PMF} \> Potential of Mean Force \\
+        \textbf{POPC} \> 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine \\
+        \textbf{QAOA} \> Quantum Approximate Optimization Algorithm \\
+        \textbf{QUBO} \> Quadratic Unconstrained Binary Optimization \\
         \textbf{RF} \> Random Forest \\
         \textbf{SCPNs} \> Self-Assembled Cyclic Peptide Nanotubes \\
         \textbf{SVM} \> Support Vector Machines \\
         \textbf{SVR} \> Support Vector Regression
         \textbf{UA} \> united-atom \\
+        \textbf{VQE} \> Variational Quantum Eigensolver \\
         \textbf{WHO} \> World Health Organization \\
     \end{tabbing}
 \end{flushleft}
@@ -331,7 +345,7 @@
 
 % References
 \chapter{References}
-\chapterquote{GROMACS reminds you: “It is unfortunate that the authors did not make better use of all the electric power energy that went into these massive computations.” (An anonymus referee)}
+\chapterquote{GROMACS reminds you: ``It is unfortunate that the authors did not make better use of all the electric power energy that went into these massive computations.''}{--- An anonymous referee}
 \newpage
 
 \printbibliography[heading=none]
