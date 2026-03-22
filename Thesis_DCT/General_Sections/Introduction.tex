@@ -10,10 +10,21 @@ This early exposure did not merely spark a general interest in science; it foste
 This dissertation is born from the conviction that the analytical tools of physics can provide an additional vantage point to study the complexity of Antimicrobial Peptides (AMPs). Rather than seeking definitive solutions, the goal of this work is to help clarify some of the underlying mechanisms of these interactions. By doing so, I hope to offer a modest contribution to the scientific community’s knowledge, providing data and frameworks that might aid in the long-term fight against antimicrobial resistance. It is an invitation to see how the synergy between programming, molecular dynamics, and the emerging frontier of quantum computing can complement other disciplines in the collective pursuit of understanding one of the great biological challenges of our time. Rather than replacing traditional methods, this work explores how computational frameworks can serve as a digital microscope, offering a modest but necessary vantage point to simulate and eventually master the complex interactions of life at the atomic scale.
 
 
-
+\subsection{The Lipid Membrane: A Selective Biological Landscape}
 
 To understand how Antimicrobial Peptides (AMPs) operate, we must first examine the stage upon which these interactions unfold: the lipid membrane. Rather than viewing lipids merely through the lens of chemical solubility, it is more productive to define them as the fundamental architectural units of biological boundaries. Among these, phospholipids are the primary constituents and the most relevant to the mechanical and structural integrity of the cell\cita{van2008membrane}. Structurally, a phospholipid is defined by a central alcohol backbone that serves as a bridge, anchoring a polar, phosphate-rich head group to a pair of nonpolar, hydrophobic chains.
 
+\subsubsection{Beyond Protein Targets: The Membrane as a Vulnerability}
+
+Traditional pharmacology has historically relied on antibiotics that bind to specific protein receptors or inhibit metabolic pathways \cite{Lohner2009}. However, this high specificity is also a strategic bottleneck; microorganisms can frequently bypass these effects through point mutations or adaptive metabolic shifts, leading to the rapid emergence of resistance. Consequently, there is a critical need for antimicrobial agents that target more fundamental and less mutable molecular features \cite{Ahmed2024}.
+
+Advances in lipidomics have repositioned the bacterial membrane as a sophisticated and highly regulated target. While the general bilayer organization is conserved across kingdoms, the divergent lipid signatures between prokaryotic and eukaryotic cells provide a robust basis for selective toxicity \cite{Sani2015}. Siendo tambien diferente en celulas cancerigenas Exposure of PS to the intercellular medium is a
+signal that triggers the action of macrophages, which will engulf the apoptotic cell.[ref] A similar exposure of PS to the external surface of the cell membrane in mammals
+has also been observed in a very different scenario: in cancer cells. In this
+case, abnormal expression of PS acts as a protection mechanism, as it inhibits the
+immune response of the organism.40 Cholesterol levels are another of the changes
+that cancer cells manifest differently from those healthy: Reduced cholesterol content
+can increase membrane fluidity, enhancing motility and facilitating metastasis.
 
 
 
@@ -27,8 +38,8 @@ Conventional antibiotics, in general, exert their activity by binding to specifi
 \FloatBarrier
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.95\linewidth]{General_Sections/Figures/Membrane_Lipids.png}
-    \caption{The scheme in the left shows the comparison of the lipid composition of mammalian cells and bacteria membranes. In a healthy mammal, the membrane presents lipid asymmetric: the outer leaflet is primarily composed of neutral phosphatidylcholines (blue), while the inner leaflet is enriched with phosphatidylethanolamines (gray) and anionic phosphatidylserines (green), which provide a net negative charge. On the other hand, bacteria contain mainly---both in the interior and exterior leaflet---phosphatidylethanolamines and anionic phosphatidylglycerols (red) making them negatively charged. The structures in the right represent the most common lipids in eukaryotic and bacteria cells. From top to bottom DMPC, DMPS, DMPG, and DMPE. The left figure was created using Matplotlib, while the molecular structures were sketched with ChemDraw.}
+    \includegraphics[width=0.95\linewidth]{General_Sections/Figures/Membrane_Lipids_dct.png}
+    \caption{\textbf{Comparative analysis of lipid membrane profiles.} The left panel illustrates the lipid composition across different biological models. In a healthy mammalian membrane, lipids are distributed asymmetrically: the outer leaflet consists primarily of neutral phosphatidylcholines (blue), while the inner leaflet is enriched with phosphatidylethanolamines (gray) and anionic phosphatidylserines (green), resulting in a net negative charge on the internal surface. In cancer cells, this structural asymmetry is lost and lipids become more evenly distributed, leading to the acquisition of a negative charge on the external surface. Bacterial membranes (e.g., E. coli) exhibit a different composition, containing phosphatidylethanolamines and anionic phosphatidylglycerols (red) in both the interior and exterior leaflets, which imparts a significant negative charge to the cell surface. The right panel displays the chemical structures of the primary lipids studied: DMPC, DMPS, DMPG, and DMPE (from top to bottom). The schematic representation was generated using Matplotlib, while the molecular structures were rendered in ChemDraw.}
     \label{fig:Lipids}
 \end{figure}
 \FloatBarrier
