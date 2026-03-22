@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  22 MAR 2026 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  22 MAR 2026 20:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,17 +1316,17 @@ Chapter 1.
 
 
 ] [27] [28]
-<General_Sections/Figures/Membrane_Lipids_dct.png, id=513, 862.203pt x 447.636pt>
-File: General_Sections/Figures/Membrane_Lipids_dct.png Graphic file (type png)
-<use General_Sections/Figures/Membrane_Lipids_dct.png>
-Package pdftex.def Info: General_Sections/Figures/Membrane_Lipids_dct.png  used on input line 41.
-(pdftex.def)             Requested size: 432.48051pt x 224.53464pt.
+<General_Sections/Figures/Membrane_Lipids_dct_2.png, id=513, 677.53125pt x 322.20375pt>
+File: General_Sections/Figures/Membrane_Lipids_dct_2.png Graphic file (type png)
+<use General_Sections/Figures/Membrane_Lipids_dct_2.png>
+Package pdftex.def Info: General_Sections/Figures/Membrane_Lipids_dct_2.png  used on input line 41.
+(pdftex.def)             Requested size: 432.48051pt x 205.6738pt.
 <General_Sections/Figures/AMP_Classification.jpg, id=522, 470.9595pt x 283.0575pt>
 File: General_Sections/Figures/AMP_Classification.jpg Graphic file (type jpg)
 <use General_Sections/Figures/AMP_Classification.jpg>
 Package pdftex.def Info: General_Sections/Figures/AMP_Classification.jpg  used on input line 54.
 (pdftex.def)             Requested size: 364.19667pt x 218.8965pt.
- [29 <./General_Sections/Figures/Membrane_Lipids_dct.png>] [30 <./General_Sections/Figures/AMP_Classification.jpg>]
+ [29 <./General_Sections/Figures/Membrane_Lipids_dct_2.png>] [30 <./General_Sections/Figures/AMP_Classification.jpg>]
 <General_Sections/Figures/AMPMOA.png, id=549, 1189.44376pt x 736.7525pt>
 File: General_Sections/Figures/AMPMOA.png Graphic file (type png)
 <use General_Sections/Figures/AMPMOA.png>
@@ -3468,14 +3468,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  40197 strings out of 467525
- 791892 string characters out of 5418982
+ 791906 string characters out of 5418982
  1720224 words of memory out of 5000000
  67144 multiletter control sequences out of 15000+600000
  742159 words of font info for 582 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,94p,2635b,2260s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/stix/stix-mathscr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (209 pages, 38156689 bytes).
+Output written on main.pdf (209 pages, 36713403 bytes).
 PDF statistics:
  3039 PDF objects out of 3580 (max. 8388607)
  2139 compressed objects within 22 object streams
