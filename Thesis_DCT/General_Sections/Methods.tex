@@ -1,56 +1,131 @@
 \chapter{Materials and Methods}\label{methods}
-\chapterquote{GROMACS reminds you: ` `I didn't know what MD was. I think I've managed to catch up.'' (Berk Hess)}
+\chapterquote{"My needle is not just a weapon; it is a tool of restoration. I will stitch this broken world back together, or I will watch it unravel entirely."
+— Hornet (Hollow Knight: Silksong)}
 
 \newpage
 
-Throughout this section, the general methods employed to perform the computational experiments for this PhD will be explained. First, a description of the simulation technique used, Molecular Dynamics, will be provided. Then, Principal Component Analysis (PCA), and, the Ordering Points to Identify the Clustering Structure (OPTICS) method, used to clusterize the data generated in Section \ref{chap2}, will be explained. Finally, the main layers that form the ML methods used in Sections \ref{chap2} and \ref{chap3} will be addressed.
+With the main objectives of this work in mind, the present chapter provides a description of the computational methods employed throughout this thesis. It begins with an overview of Molecular Dynamics (MD), the primary simulation technique used to generate and analyze the trajectories under study. This is followed by a summary of the analytical tools used to interpret the resulting data.
+Subsequently, the focus shifts from classical dynamics to the application of Quantum Computing. This emerging technology has been explored to investigate a wide range of molecular conformations that are difficult to resolve using purely classical methods. Together, these approaches provide the framework for the conformational sampling and analysis presented in the following sections.
 
-\section{Molecular Dynamics}
-Molecular Dynamics constitutes the main simulation technique of this work. In a nutshell, these are computer simulations that model the movement of molecules, and a subset of their internal degrees of freedom, over time. To do so, MD relies on the numerical integration of the equations of motion for all the atoms present in the system or, in the particular case of CG simulations, for the particles representing them. To run the simulations, the equations of motion are derived from a potential function that depends on the force field chosen. Moreover, several other algorithms are applied to ensure that the simulations are performed under the desired conditions. The purpose of this section is to provide the general methodological framework and the physical and algorithmic rationale behind the computational techniques used throughout the thesis (free MD and enhanced sampling). Study-specific simulation and training protocols (system composition, force field versions and parameterization, integration settings, thermostat/barostat choices, cut-offs, sampling times, replica/seed details, collective variables and biasing parameters) are reported in the corresponding Results chapters and in the Methods sections of each article/manuscript. Whenever protocols are reused without changes, the original reference is explicitly indicated; otherwise, deviations are stated.
-Although many works cover the fundamentals of MD simulations, the work of Daan Frenkel and Berend Smit has been used as a main reference for this section \cita{Frenkel2023}. Furthermore, since GROMACS has been used as MD engine for all the calculations \cita{Gromacs2015}, its documentation serves as an excellent resource for some of the topics covered in the section.
+
+\section{Molecular Dynamics: Principles}
+
+ Molecular Dynamics (MD) has emerged as a primary computational technique for investigating the time-dependent behavior of interacting particle systems. MD simulations numerically integrate the equations of motion for all atoms in a system, tracking the dynamical evolution of molecules and a subset of their internal degrees of freedom over time. Since its inception, MD has evolved remarkably: in their pioneering 1957 study, Adler and Wainwright simulated just over a hundred particles interacting via attractive square-well potentials to study phase transitions in hard-sphere systems \cite{alder1957phase}. Today, advances in computational power enable simulations of hundreds of thousands of atoms over long timescales, facilitating the exploration of physical phenomena at resolutions and durations once considered unattainable\cite{charron2025navigating,THORNBURG2026}
+
+In this thesis, MD constitutes the main simulation methodology. The equations of motion are derived from a potential energy function defined by the chosen force field, while additional algorithms ensure that simulations maintain the desired thermodynamic conditions, such as temperature and pressure.
+This section provides the general methodological framework and explains the physical and algorithmic principles underlying the computational approaches used throughout this work, including both conventional MD and enhanced sampling techniques. Study-specific simulation protocol are detailed in the corresponding Results chapters and Methods sections of each associated article or manuscript. When previously established protocols are reused without modification, the original reference is cited explicitly; any deviations are clearly documented.
+All simulations were performed using GROMACS\cite{Gromacs2015}, whose official documentation serves as a reliable reference for many of the technical details discussed in this section.
+
+
+
 \subsection{The Physics Behind Molecular Dynamics}
 
-As previously mentioned, MD is based on Newton's equations of motion, the core of classical mechanics. The term "classical" means that quantum effects, like those including electrons, are not accounted for explicitly. This approach has its roots in the Born-Oppenheimer approximation, which assumes that electrons, being about 1836 times lighter than protons, move much faster. As a result, they can reorganize themselves almost instantaneously after the movement of the atomic nuclei. As a result, the complex quantum mechanical problem is simplified to the time-evolution of a system of classical \textit{N} particles. However, obtaining an exact mathematical solution for the motion of these nuclei is impossible, as no analytical solution exists for a system of \(N \geq 3\) interacting particles; consequently, the trajectory cannot be expressed as a continuous function of time.
+Molecular Dynamics (MD) is grounded in Newton's equations of motion, which form the foundation of classical mechanics. The term \emph{classical} signifies that quantum effects, such as those governing electronic dynamics, are not treated explicitly. This pragmatic approach relies on the Born-Oppenheimer approximation, it is stated that the motion of the atomic nuclei and that of their electron clouds can be treated separately. It is therefore assumed that the electron clouds adjust their dynamics instantly when the atomic positions change, and that they always remain in the ground state\cita{born1927quantentheorie}.
 
-In practice, MD engines approximate the trajectory by numerically updating the system's coordinates and momenta over discrete time instants. By repeating this calculation over several steps, the dynamic behavior of the particles can be simulated. The general workflow of a standard MD algorithm is summarized in Figure \ref{fig:MDFlow}.
+Through this approximation, the inherently complex quantum mechanical problem is effectively reduced to the time evolution of a system of \(N\) classical particles. Nevertheless, obtaining an exact analytical solution for the motion of these nuclei remains impossible, as no general solution exists for a system of \(N \geq 3\) interacting particles. This challenge, known as the \emph{N-body problem}, has been extensively studied since Isaac Newton first formulated it in the 17th century in the context of celestial mechanics. The same limitation applies to any system of \(N\) interacting particles in a molecular context.
+
+The trajectories of many-particle systems cannot, in general, be expressed as continuous analytical functions of time; consequently, their evolution must be obtained through the numerical integration of the equations of motion using discrete time steps. Within this framework, Molecular Dynamics (MD) refers to a class of computational techniques designed to describe the time evolution of systems composed of interacting particles.
+In practice, MD simulations generate system trajectories by iteratively updating particle positions and momenta at successive time steps. Repetition of this procedure over a large number of iterations enables an accurate representation of the system’s dynamical behavior. The general workflow of a standard MD simulation is summarized in Figure \ref{fig:MDFlow}.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\linewidth]{General_Sections/Figures/MD_Workflow.png}
-    \caption{General workflow for an MD simulation. This scheme summarizes the key steps in a MD simulation. First, the user provides an initial state for the system, selects the force field, and defines the simulation conditions. The force field is used to determine the forces acting on each particle allowing to define the future positions and velocities. Next, corrections are applied based on the simulation conditions to match the defined temperature and/or pressure of the system. This process is iteratively repeated until matching a convergence criteria or reach the maximum number of steps.}
+    \includegraphics[width=0.9\linewidth]{General_Sections/Figures/MD_Workflow2.png}
+    \caption{This scheme illustrates the essential steps involved in a Molecular Dynamics (MD) simulation. The process begins with the definition of the initial state of the system, including the atomic coordinates and velocities, the selection of an appropriate force field, and the specification of the simulation conditions. The force field is then employed to compute the forces acting on each particle, which enables the time evolution of the system through the numerical integration of the equations of motion. At each time step, additional algorithms are applied to ensure that the system evolves under the desired thermodynamic conditions, such as constant temperature and/or pressure. This includes, for instance, the use of thermostats and barostats to control the corresponding ensemble. The propagation of positions and velocities, together with the enforcement of these conditions, is repeated iteratively over successive time steps. The simulation proceeds until a predefined convergence criterion is met or the maximum number of integration steps is reached.}
     \label{fig:MDFlow}
 \end{figure}
 
-To initialize this workflow, the user is required to define the initial coordinates of the particles in the system. The velocities are usually computed from a Maxwell-Boltzmann distribution at the desired temperature. In the next step, the forces within each particle are calculated. In the case of conservative forces, that is, those that depend only on the position of the particles, they can be described through the potential such as:
+The simulation process begins with system construction, including the selection of the force field, generation of the initial structure, solvent and ion setup, and energy minimization. Initial velocities are then assigned and simulation parameters are defined. At each time step, forces are computed from the potential energy function such as: 
 \begin{equation}\label{NG}
-    \mathbf{F_i} = - \nabla U(\mathbf{r_i})
+    \vec{F_i} = - \vec{\nabla} U(\vec{r_{i}})
 \end{equation}
-where \(\mathbf{F_i}\) is the force acting on the \(i^{th}\) particle of the system, \(\nabla\) is the gradient, and \(U\) is the potential function, which is shaped by a set of functions and parameters called \textit{force field}. The selection of the force field is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
+where \(\vec{F_i}\) is the force acting on the \(i^{th}\) particle of the system, \(\nabla\) is the gradient, and \(U\) is the potential function, which is shaped by a set of functions and parameters called \textit{force field}. The selection of the force field is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
 \begin{equation}\label{N2L}
-    \mathbf{F_i} = m_i \frac{d^2 \mathbf{r_i}}{dt^2}
+    \vec{F_i} = \frac{d\vec{p_i}}{dt}
 \end{equation}
-where \(m_i\) is the mass of the \(i^{th}\) particle, \(\mathbf{r_i}\) is its position, and \(t\) represents time. This integration employs the forces calculated in Equation \ref{NG} to update the positions for small increments in time, called time step (\(\Delta t\)). The Verlet and Leap-Frog integrators are among the most common algorithms to perform this task \supercite{Verlet1967}\textsuperscript{,}\cita{leapfrog}. These algorithms update the positions and velocities of the particles at time \(t+\Delta t\) using the forces acting on them at time \(t\), which in turn depend on the positions and velocities of the particles at that moment. The \textit{leap-frog} integrator is the default algorithm used in GROMACS, thus, it was used in this thesis to solve the second-order differential equation \ref{NG}. It takes the form:
-\begin{equation}
+where \(\vec{p_i}=m_{i}\cdot\vec{v}_{i}\) is the momentum of the \(i^{th}\) particle of the system, and \(t\) represents time. 
+In a purely continuous and theoretical framework, obtaining the trajectory of the particle would require integrating this second-order differential equation twice with respect to time ($t$). Given an initial position $\vec{r}_i(0)$ and velocity $\vec{v}_i(0)$, the exact analytical state of the system at any future time $t$ would be:
+
+\begin{equation}\label{eq:integral_v}
+    \vec{v}_i(t) = \vec{v}_i(0) + \int_{0}^{t} \frac{\vec{F}_i(t')}{m_i} dt'
+\end{equation}
+
+\begin{equation}\label{eq:integral_r}
+    \vec{r}_i(t) = \vec{r}_i(0) + \int_{0}^{t} \vec{v}_i(t') dt'
+\end{equation}
+
+However, because the force $\vec{F}_i$ acting on any single particle depends continuously on the ever-changing coordinates of all other interacting particles in the system, the integral in Equation \ref{eq:integral_v} has no general analytical solution for a system of $N \geq 3$ particles. Consequently, evaluating the temporal evolution of the system requires shifting from a continuous analytical integration to a discrete numerical approximation.
+
+This computational approach advances the simulation in finite, microscopic time increments, known as the time step ($\Delta t$). To achieve this, integration algorithms rely on the Taylor series expansion of the particle coordinates. For a small step forward in time ($t + \Delta t$), the position can be expanded as:
+
+\begin{equation}\label{eq:taylor_forward}
+    \vec{r}_i(t + \Delta t) = \vec{r}_i(t) + \vec{v}_i(t)\Delta t + \frac{1}{2}\vec{a}_i(t)\Delta t^2 + \frac{1}{6}\vec{j}_i(t)\Delta t^3 + \mathcal{O}(\Delta t^4)
+\end{equation}
+
+where $\vec{v}_i$ is the velocity, $\vec{a}_i$ is the acceleration ($\vec{F}_i/m_i$), $\vec{j}_i$ is the jerk (third derivative), and $\mathcal{O}(\Delta t^4)$ represents the local truncation error. Similarly, the position at a time step backward ($t - \Delta t$) is:
+
+\begin{equation}\label{eq:taylor_backward}
+    \vec{r}_i(t - \Delta t) = \vec{r}_i(t) - \vec{v}_i(t)\Delta t + \frac{1}{2}\vec{a}_i(t)\Delta t^2 - \frac{1}{6}\vec{j}_i(t)\Delta t^3 + \mathcal{O}(\Delta t^4)
+\end{equation}
+
+By summing Equation \ref{eq:taylor_forward} and Equation \ref{eq:taylor_backward}, the odd-order derivatives (including the velocity) cancel out. Rearranging the result yields the classic Verlet integration algorithm \cite{Verlet1967}:
+
+\begin{equation}\label{eq:verlet}
+    \vec{r}_i(t + \Delta t) = 2\vec{r}_i(t) - \vec{r}_i(t - \Delta t) + \frac{\vec{F}_i(t)}{m_i}\Delta t^2 + \mathcal{O}(\Delta t^4)
+\end{equation}
+
+While computationally efficient and highly stable, the standard Verlet algorithm presents inherent numerical drawbacks: it relies on subtracting large numbers (the positions) to obtain small differences, leading to precision loss; furthermore, velocities are not explicitly calculated at the same time step, hindering the accurate computation of kinetic energy and temperature coupling.
+
+To circumvent these limitations, the \textit{leap-frog} integrator is widely employed, serving as the default algorithm in the GROMACS simulation engine \cite{leapfrog}. The leap-frog method is algebraically equivalent to the Verlet algorithm but evaluates velocities at half-integer time steps ($t \pm \frac{1}{2}\Delta t$), resolving both the precision and velocity-handling issues. It updates the state of the system through the following sequence:
+
+\begin{equation}\label{eq:leapfrog}
     \begin{cases}
-        \mathbf{v}(t+\frac{1}{2}\Delta t) = \mathbf{v}(t+\frac{1}{2}\Delta t) + \cfrac{-\nabla U(\mathbf{r_i}) \Delta t}{m} \\
-        \mathbf{r}(t+\Delta t) = \mathbf{r}(t) + \mathbf{v}(t+\frac{1}{2}\Delta t) \Delta t
+        \vec{v}_i(t+\frac{1}{2}\Delta t) = \vec{v}_i(t-\frac{1}{2}\Delta t) + \cfrac{\vec{F}_i(t)}{m_i} \Delta t \\
+        \vec{r}_i(t+\Delta t) = \vec{r}_i(t) + \vec{v}_i(t+\frac{1}{2}\Delta t) \Delta t
     \end{cases}
 \end{equation}
-it should be noted that positions \(\mathbf{r}\) are integrated at integer time steps and the velocities \(\mathbf{v}\) at half-integer time steps, following a staggered "leap-frog" scheme where  \(\mathbf{r}\) and \(\mathbf{v}\) "leap" over each other's backs, as shown in Figure \ref{fig:LeapFrog}.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.9\linewidth]{General_Sections/Figures/LeapFrogIntegrator.png}
-    \caption{Scheme of the Leap-Frog integration method. Both positions and velocities are integrated after a time step \(\Delta t\), but with a delay of \(\Delta t/2\) resembling two frogs that jump one after the other. The figure was generated using Matplotlib.}
-    \label{fig:LeapFrog}
-\end{figure}
+
+Through this discrete iterative process, the computational engine continuously recalculates forces and updates coordinates, effectively tracing the multidimensional trajectory of the molecular system over time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Because Newton's equations conserve total energy of the system \textit{E}, and, by default simulations employ a fixed simulation cell volume \textit{V} and particle number \textit{N}, the leap-frog integrator naturally generates trajectories within the microcanonical (\textit{NVE}) ensemble.
+
 
 Nevertheless, most processes in nature, and experiments in the laboratory, occur at a constant temperature \textit{T} and/or pressure \textit{P}. Therefore, most simulations of biomolecular systems are performed within the isothermal-isobaric (\textit{NVT}) or the canonical (\textit{NPT}) ensembles. For this cases, MD engines use algorithms that keep these physical properties constants. Algorithms that regulate pressure are called barostats, and they maintain it at a constant value by rescaling the volume of the simulation cell. Several algorithms serve this purpose; in this thesis, the Berendsen\cita{BerendsenB}, stochastic cell rescaling\cita{CRB}, and Parrinello-Rahman\cita{PRB} barostats were employed for equilibration and production runs. On the other hand, algorithms that control the temperature of the system are called thermostats, and they adjust it by modifying the velocities of the particles. This is mainly achieved in two ways: by making some particles interact with a thermal bath, or by scaling all velocities to match a target temperature; the later being the principle underlying the velocity rescaling thermostat used in the present work\cita{Vresc}.
 
 Nevertheless, despite the thermodynamic control offered by these algorithms, the simulation of real-world systems is limited by the amount of particles that can be simulated using a realistic amount of computational resources. This limitation, necessitates confining the molecules to a finite volume; however, enclosing them with hard boundaries would introduce artificial particle-wall interactions that are unrealistic for biological environments. To avoid this, when the calculation of the new positions displaces a particle out of the simulation cell, the exact same particle "wraps-around" and re-enters from the opposite side.
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.55\linewidth]{General_Sections/Figures/pbc_image.png}
+    \includegraphics[width=0.55\linewidth]{General_Sections/Figures/pbc_diagram.png}
     \caption{Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib.}
     \label{fig:PBCs}
 \end{figure}
