@@ -21,28 +21,31 @@
 \contentsline {subsection}{\numberline {3.1.2}The Force Field}{51}{subsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.2.1}The Resolution of the Force Fields}{54}{subsubsection.3.1.2.1}%
 \contentsline {subsection}{\numberline {3.1.3}Metadynamics}{55}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Machine Learning}{58}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Unsupervised Learning}{58}{subsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.1}Principal Component Analysis}{58}{subsubsection.3.2.1.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.2}OPTICS clusterization}{60}{subsubsection.3.2.1.2}%
-\contentsline {subsection}{\numberline {3.2.2}Supervised Learning}{61}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}Multilayer Perceptron}{62}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}Convolutional Neural Networks}{64}{subsubsection.3.2.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.3}Long Short-Term Memory}{66}{subsubsection.3.2.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.2.4}Graph Neural Networks}{67}{subsubsection.3.2.2.4}%
-\contentsline {chapter}{\numberline {4}Results: Published Articles}{69}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Towards a Chirality-Aware Coarse-Grained Force Field}{70}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Uncovering the mechanisms of cyclic peptide self-assembly in membranes with the chirality-aware MA(R/S)TINI forcefield}{72}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}MA(R/S)TINI 3: An Enhanced Coarse-Grained Force Field for Accurate Modeling of Cyclic Peptide Self-Assembly and Membrane Interactions}{90}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}CYCLOPEp Builder: Facilitating cyclic peptide and nanotube research through a user-friendly web platform}{117}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Predicting membrane permeability using Machine Learning.}{126}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Unravelling Cyclic Peptide Membrane Permeability Prediction: A Study on Data Augmentation, Architecture Choices, and Representation Schemes}{127}{subsection.4.2.1}%
-\contentsline {chapter}{\numberline {5}Unpublished Results}{144}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Creating a Database of Cyclic Peptide Molecular Dynamics Results}{145}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}CYCLOPEpDB: A large-scale coarse-grained dataset enabling physics-informed learning of cyclic peptide–membrane interactions.}{147}{subsection.5.1.1}%
-\contentsline {chapter}{\numberline {6}General Discussion}{181}{chapter.6}%
-\contentsline {chapter}{\numberline {7}General Conclusions}{193}{chapter.7}%
-\contentsline {chapter}{\numberline {8}References}{196}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Appendix}{207}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Rights and Permissions for reproducing Images}{208}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Rights for reproduced content of published articles by the author}{209}{section.9.2}%
+\contentsline {section}{\numberline {3.2}Quantum Computing}{58}{section.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.0.1}Variational Quantum Eigensolver}{58}{subsubsection.3.2.0.1}%
+\contentsline {subsubsection}{\numberline {3.2.0.2}Quantum Approximate Optimization Algorithm}{60}{subsubsection.3.2.0.2}%
+\contentsline {subsubsection}{\numberline {3.2.0.3}Mathematical Formulation and Hamiltonian Mapping}{60}{subsubsection.3.2.0.3}%
+\contentsline {subsubsection}{\numberline {3.2.0.4}The QAOA Circuit Ansatz}{61}{subsubsection.3.2.0.4}%
+\contentsline {subsubsection}{\numberline {3.2.0.5}Objective Function and the Hybrid Optimization Loop}{61}{subsubsection.3.2.0.5}%
+\contentsline {subsubsection}{\numberline {3.2.0.6}OPTICS clusterization}{62}{subsubsection.3.2.0.6}%
+\contentsline {subsection}{\numberline {3.2.1}Supervised Learning}{63}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}Multilayer Perceptron}{64}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Convolutional Neural Networks}{66}{subsubsection.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.1.3}Long Short-Term Memory}{67}{subsubsection.3.2.1.3}%
+\contentsline {subsubsection}{\numberline {3.2.1.4}Graph Neural Networks}{69}{subsubsection.3.2.1.4}%
+\contentsline {chapter}{\numberline {4}Results: Published Articles}{71}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Towards a Chirality-Aware Coarse-Grained Force Field}{72}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Uncovering the mechanisms of cyclic peptide self-assembly in membranes with the chirality-aware MA(R/S)TINI forcefield}{74}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}MA(R/S)TINI 3: An Enhanced Coarse-Grained Force Field for Accurate Modeling of Cyclic Peptide Self-Assembly and Membrane Interactions}{92}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}CYCLOPEp Builder: Facilitating cyclic peptide and nanotube research through a user-friendly web platform}{119}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Predicting membrane permeability using Machine Learning.}{128}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Unravelling Cyclic Peptide Membrane Permeability Prediction: A Study on Data Augmentation, Architecture Choices, and Representation Schemes}{129}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {5}Unpublished Results}{146}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Creating a Database of Cyclic Peptide Molecular Dynamics Results}{147}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}CYCLOPEpDB: A large-scale coarse-grained dataset enabling physics-informed learning of cyclic peptide–membrane interactions.}{149}{subsection.5.1.1}%
+\contentsline {chapter}{\numberline {6}General Discussion}{183}{chapter.6}%
+\contentsline {chapter}{\numberline {7}General Conclusions}{195}{chapter.7}%
+\contentsline {chapter}{\numberline {8}References}{198}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Appendix}{209}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Rights and Permissions for reproducing Images}{210}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Rights for reproduced content of published articles by the author}{211}{section.9.2}%
