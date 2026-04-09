@@ -5805,172 +5805,6 @@
       \verb https://pubs.acs.org/doi/10.1021/jp071097f
       \endverb
     \endentry
-    \entry{martini3}{article}{}{}
-      \name{author}{26}{}{%
-        {{hash=54e8c1651600cb7e113463b84d4fc00e}{%
-           family={Souza},
-           familyi={S\bibinitperiod},
-           given={Paulo\bibnamedelimb C.\bibnamedelimi T.},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=15bb07af35bb73c970ee477f5486c16f}{%
-           family={Alessandri},
-           familyi={A\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=220f1bff7465859e1b047aa9298930e7}{%
-           family={Barnoud},
-           familyi={B\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=680440a922c6f8255dda9e826a90edb1}{%
-           family={Thallmair},
-           familyi={T\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=4bd1d2641a349dd553612c33142af31a}{%
-           family={Faustino},
-           familyi={F\bibinitperiod},
-           given={Ignacio},
-           giveni={I\bibinitperiod}}}%
-        {{hash=5ce097b934b7508642eccc020cb300b4}{%
-           family={Grünewald},
-           familyi={G\bibinitperiod},
-           given={Fabian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=af8624e5c7d8ba4f9a2f64479d8e780b}{%
-           family={Patmanidis},
-           familyi={P\bibinitperiod},
-           given={Ilias},
-           giveni={I\bibinitperiod}}}%
-        {{hash=b7d26f415b422c19155017fb40bd2685}{%
-           family={Abdizadeh},
-           familyi={A\bibinitperiod},
-           given={Haleh},
-           giveni={H\bibinitperiod}}}%
-        {{hash=280a147af70d7191e1b9d514b251828d}{%
-           family={Bruininks},
-           familyi={B\bibinitperiod},
-           given={Bart\bibnamedelimb M.\bibnamedelimi H.},
-           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=cbeb95d613cf19ebc584e15dccf41a73}{%
-           family={Wassenaar},
-           familyi={W\bibinitperiod},
-           given={Tsjerk\bibnamedelima A.},
-           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=acad255bf47a255f3488fa0b4126bc8b}{%
-           family={Kroon},
-           familyi={K\bibinitperiod},
-           given={Peter\bibnamedelima C.},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=6bdc458bca9aa6bb9139cc531c3d797b}{%
-           family={Melcr},
-           familyi={M\bibinitperiod},
-           given={Josef},
-           giveni={J\bibinitperiod}}}%
-        {{hash=956e072530cda4065214a67ae06c2321}{%
-           family={Nieto},
-           familyi={N\bibinitperiod},
-           given={Vincent},
-           giveni={V\bibinitperiod}}}%
-        {{hash=105e203028c0e5a3860df69aec4c3d13}{%
-           family={Corradi},
-           familyi={C\bibinitperiod},
-           given={Valentina},
-           giveni={V\bibinitperiod}}}%
-        {{hash=53455b06c0b7ca7e8659f9074b869b6e}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Hanif\bibnamedelima M.},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=de526e0b173d8ecb65021e69717ac8cf}{%
-           family={Domański},
-           familyi={D\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f0d41cd23ca50357e7562d37d9ba657d}{%
-           family={Javanainen},
-           familyi={J\bibinitperiod},
-           given={Matti},
-           giveni={M\bibinitperiod}}}%
-        {{hash=314c963d3509c8df5c823b2b2a0efc78}{%
-           family={Martinez-Seara},
-           familyi={M\bibinithyphendelim S\bibinitperiod},
-           given={Hector},
-           giveni={H\bibinitperiod}}}%
-        {{hash=0f28ab07670fcb9eee2537cd368ae057}{%
-           family={Reuter},
-           familyi={R\bibinitperiod},
-           given={Nathalie},
-           giveni={N\bibinitperiod}}}%
-        {{hash=150823e11aec187e5703632ab229b003}{%
-           family={Best},
-           familyi={B\bibinitperiod},
-           given={Robert\bibnamedelima B.},
-           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=460d97a5ad5140fc1e50f43c6e526cd4}{%
-           family={Vattulainen},
-           familyi={V\bibinitperiod},
-           given={Ilpo},
-           giveni={I\bibinitperiod}}}%
-        {{hash=b5ae263641ff93495fc2343e3f596a1c}{%
-           family={Monticelli},
-           familyi={M\bibinitperiod},
-           given={Luca},
-           giveni={L\bibinitperiod}}}%
-        {{hash=05a1d33db1d5dca0dcabe5a44d1ee178}{%
-           family={Periole},
-           familyi={P\bibinitperiod},
-           given={Xavier},
-           giveni={X\bibinitperiod}}}%
-        {{hash=abc3b49ac384d1f0b3e59c45ff6f8ee7}{%
-           family={Tieleman},
-           familyi={T\bibinitperiod},
-           given={D.\bibnamedelimi Peter},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=224c4d224294dbb8f6318a532ee70d3a}{%
-           family={Vries},
-           familyi={V\bibinitperiod},
-           given={Alex\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=1b9ca6751b85614b735b50f9d339ebc0}{%
-           family={Marrink},
-           familyi={M\bibinitperiod},
-           given={Siewert\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{b60528d9446b5ff1be4f238681945e9b}
-      \strng{fullhash}{8e559a154e471dc50f4daa13d6ff1d20}
-      \strng{fullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
-      \strng{bibnamehash}{b60528d9446b5ff1be4f238681945e9b}
-      \strng{authorbibnamehash}{b60528d9446b5ff1be4f238681945e9b}
-      \strng{authornamehash}{b60528d9446b5ff1be4f238681945e9b}
-      \strng{authorfullhash}{8e559a154e471dc50f4daa13d6ff1d20}
-      \strng{authorfullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1548-7091}
-      \field{issue}{4}
-      \field{journaltitle}{Nature Methods}
-      \field{month}{4}
-      \field{title}{Martini 3: a general purpose force field for coarse-grained molecular dynamics}
-      \field{volume}{18}
-      \field{year}{2021}
-      \field{pages}{382\bibrangedash 388}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1038/s41592-021-01098-3
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/s41592-021-01098-3
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/s41592-021-01098-3
-      \endverb
-    \endentry
     \entry{Feenstra1999}{article}{}{}
       \name{author}{3}{}{%
         {{hash=3ea8e149facfaaa8b3a2e134bb487ddd}{%
@@ -5997,8 +5831,8 @@
       \strng{authornamehash}{f0d9eb0c75c6324707b3e9df32efc9ed}
       \strng{authorfullhash}{8a952f40db7ce1b8cbc15e7392ef31db}
       \strng{authorfullhashraw}{8a952f40db7ce1b8cbc15e7392ef31db}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -6476,6 +6310,172 @@
       \endverb
       \verb{url}
       \verb https://pubs.acs.org/doi/10.1021/acs.jctc.5c00923
+      \endverb
+    \endentry
+    \entry{martini3}{article}{}{}
+      \name{author}{26}{}{%
+        {{hash=54e8c1651600cb7e113463b84d4fc00e}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Paulo\bibnamedelimb C.\bibnamedelimi T.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=15bb07af35bb73c970ee477f5486c16f}{%
+           family={Alessandri},
+           familyi={A\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=220f1bff7465859e1b047aa9298930e7}{%
+           family={Barnoud},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=680440a922c6f8255dda9e826a90edb1}{%
+           family={Thallmair},
+           familyi={T\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4bd1d2641a349dd553612c33142af31a}{%
+           family={Faustino},
+           familyi={F\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5ce097b934b7508642eccc020cb300b4}{%
+           family={Grünewald},
+           familyi={G\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=af8624e5c7d8ba4f9a2f64479d8e780b}{%
+           family={Patmanidis},
+           familyi={P\bibinitperiod},
+           given={Ilias},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b7d26f415b422c19155017fb40bd2685}{%
+           family={Abdizadeh},
+           familyi={A\bibinitperiod},
+           given={Haleh},
+           giveni={H\bibinitperiod}}}%
+        {{hash=280a147af70d7191e1b9d514b251828d}{%
+           family={Bruininks},
+           familyi={B\bibinitperiod},
+           given={Bart\bibnamedelimb M.\bibnamedelimi H.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=cbeb95d613cf19ebc584e15dccf41a73}{%
+           family={Wassenaar},
+           familyi={W\bibinitperiod},
+           given={Tsjerk\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=acad255bf47a255f3488fa0b4126bc8b}{%
+           family={Kroon},
+           familyi={K\bibinitperiod},
+           given={Peter\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6bdc458bca9aa6bb9139cc531c3d797b}{%
+           family={Melcr},
+           familyi={M\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+        {{hash=956e072530cda4065214a67ae06c2321}{%
+           family={Nieto},
+           familyi={N\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=105e203028c0e5a3860df69aec4c3d13}{%
+           family={Corradi},
+           familyi={C\bibinitperiod},
+           given={Valentina},
+           giveni={V\bibinitperiod}}}%
+        {{hash=53455b06c0b7ca7e8659f9074b869b6e}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Hanif\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=de526e0b173d8ecb65021e69717ac8cf}{%
+           family={Domański},
+           familyi={D\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f0d41cd23ca50357e7562d37d9ba657d}{%
+           family={Javanainen},
+           familyi={J\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod}}}%
+        {{hash=314c963d3509c8df5c823b2b2a0efc78}{%
+           family={Martinez-Seara},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={Hector},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0f28ab07670fcb9eee2537cd368ae057}{%
+           family={Reuter},
+           familyi={R\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=150823e11aec187e5703632ab229b003}{%
+           family={Best},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=460d97a5ad5140fc1e50f43c6e526cd4}{%
+           family={Vattulainen},
+           familyi={V\bibinitperiod},
+           given={Ilpo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b5ae263641ff93495fc2343e3f596a1c}{%
+           family={Monticelli},
+           familyi={M\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=05a1d33db1d5dca0dcabe5a44d1ee178}{%
+           family={Periole},
+           familyi={P\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=abc3b49ac384d1f0b3e59c45ff6f8ee7}{%
+           family={Tieleman},
+           familyi={T\bibinitperiod},
+           given={D.\bibnamedelimi Peter},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=224c4d224294dbb8f6318a532ee70d3a}{%
+           family={Vries},
+           familyi={V\bibinitperiod},
+           given={Alex\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=1b9ca6751b85614b735b50f9d339ebc0}{%
+           family={Marrink},
+           familyi={M\bibinitperiod},
+           given={Siewert\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b60528d9446b5ff1be4f238681945e9b}
+      \strng{fullhash}{8e559a154e471dc50f4daa13d6ff1d20}
+      \strng{fullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
+      \strng{bibnamehash}{b60528d9446b5ff1be4f238681945e9b}
+      \strng{authorbibnamehash}{b60528d9446b5ff1be4f238681945e9b}
+      \strng{authornamehash}{b60528d9446b5ff1be4f238681945e9b}
+      \strng{authorfullhash}{8e559a154e471dc50f4daa13d6ff1d20}
+      \strng{authorfullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1548-7091}
+      \field{issue}{4}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{4}
+      \field{title}{Martini 3: a general purpose force field for coarse-grained molecular dynamics}
+      \field{volume}{18}
+      \field{year}{2021}
+      \field{pages}{382\bibrangedash 388}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41592-021-01098-3
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-021-01098-3
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-021-01098-3
       \endverb
     \endentry
     \entry{plumed}{article}{}{}

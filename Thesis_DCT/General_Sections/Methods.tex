@@ -196,19 +196,18 @@ Up to now, several force field-dependent parameters such as force constants or e
 Throughout this section, the term \textit{particle} has been used instead of \textit{atom}. This choice is due to the fact that not all force fields use an atomistic representation of the systems. Some force fields, instead, group several atoms into a single particle. The type of approximation is known as resolution, and it represents an additional distinguishing feature among force fields.
 
 \subsubsection{The Resolution of the Force Fields}
-Force fields can be categorized into three groups based on their level of resolution, that is, whether the particles represent atoms or groups of atoms. The highest level of resolution involves explicitly representing every atom in a system. force fields that use this approach are known as atomistic or all-atoms (AA) force fields. Some of the most widely used AA force fields include CHARMM \cita{charmm}, AMBER \cita{gaff}, and OPLS families \cita{oplsaa}. These force fields provide the highest level of accuracy at the expense of higher computational cost, particularly for large systems with many water molecules, which greatly increase the number of particles.
-
-The next level of resolution corresponds to force fields that group non-polar hydrogens with the heavy atoms they are bounded to, representing them as a single particle. Polar hydrogens, on the other hand, are still represented as individual atoms. Force fields applying this parameterization are called united-atom (UA) force fields. This approach reduces the degrees of freedom of the system, thereby speeding up the simulations. In addition to the major force field developers cited earlier, who have also developed UA models, the GROMOS force field stands out as one of the most widely used \cita{gromos}.
-
-The final category of force fields groups multiple heavy atoms and their corresponding hydrogens into a single particle called \textit{bead}. These models are referred to as Coarse-Grained (CG) force fields. This approach greatly reduces the number of particles, enabling the simulation of larger systems at a lower computational cost, though with reduced accuracy (Fig. \ref{fig:AA2CG}). The Martini force field is one of the most well-known CG force fields for simulation of biological systems. Martini uses, on average, a 4-to-1 mapping, that is that, four heavy atoms and their hydrogens are grouped into a single bead, which in some cases, produces particles that represent whole functional groups.
+Force fields can be classified into three principal categories according to their level of resolution, namely, whether the particles explicitly represent individual atoms or groups of atoms.
+At the highest level of resolution are atomistic or all-atom (AA) force fields, in which every atom in the system is explicitly represented. Widely used AA force fields include CHARMM \cita{charmm}, AMBER \cita{gaff}, and the OPLS family \cita{oplsaa}. These models generally provide the highest level of accuracy; however, this comes at a substantial computational cost. This limitation becomes particularly significant in large systems, especially those containing a large number of water molecules, which considerably increase the total number of particles.
+An intermediate level of resolution is provided by united-atom (UA) force fields. In this approach, nonpolar hydrogen atoms are combined with the heavy atoms to which they are bonded and treated as a single interaction site, while polar hydrogens remain explicitly represented. This reduction in the number of particles decreases the degrees of freedom of the system and leads to improved computational efficiency. In addition to UA variants developed within the CHARMM, AMBER, and OPLS frameworks, the GROMOS force field is among the most widely used implementations of this approach \cita{gromos}.
+At the lowest level of resolution are coarse-grained (CG) force fields, in which multiple atoms, including both heavy atoms and their associated hydrogens, are grouped into a single interaction site commonly referred to as a bead. This strategy significantly reduces the number of particles, thereby enabling the simulation of larger systems and longer timescales at a lower computational cost, although at the expense of reduced atomic detail and accuracy (Fig. \ref{fig:AA2CG}). A prominent example is the Martini force field, which is widely employed in simulations of biological systems. Martini typically uses an approximate 4:1 mapping scheme, in which four heavy atoms and their associated hydrogens are represented by a single bead, often corresponding to an entire functional group.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.99\linewidth]{General_Sections/Figures/AA2CG.png}
-    \caption{Representation of the 3D structure of a CP with sequence \underline{L}L\underline{L}L\underline{L}L\underline{L}L using an AA force field (left) and its corresponding mapping into Martini CG (right). Underlined letters refer to \textit{D}-amino acids.}
+    \caption{Representation of the 3D structure of a lipid (up, POPC) and a peptide (bottom, KRRIRRAKKKEKRCFKKEKR) using an AA force field (left) and its corresponding mapping into Martini CG (right).}
     \label{fig:AA2CG}
 \end{figure}
 
-In the present thesis, first Martini 2 \cita{martini2}, and then Martini 3 \cita{martini3}, were used as the basis of MA(R/S)TINI, an adaptation of the original CG force fields that ensures a correct description of the self-assembly of CPs. The choice of a CG force field stems from the fact that spontaneous self-assembly takes place in the microsecond time scale, which is beyond the reach of AA simulations for SCPN-membrane systems. Coarse-Graining not only reduces the number of particles but also allows the use of larger timesteps. The timestep in MD simulations is determined by the fastest internal motion in the system under study, typically bond vibrations involving hydrogen atoms \cita{Feenstra1999}. Because Martini does not include explicit hydrogens, the timestep can be increased from 2 fs, as used in AA-MD, to 20 or 30 fs. This large increase allows for microsecond-long simulations at a much lower computational cost. Since molecular self-assembly takes place in the microsecond time-scale, CG-MD has been used for all the simulations performed in this thesis.
+In the study presented in this section, the Martini 2.2 coarse-grained (CG) force field \cita{martini2} was employed to investigate the interaction and recognition mechanisms between antimicrobial peptides (AMPs) and various biological membrane models. The selection of a CG force field stems from the fact that the interaction processes between peptides and membranes occur on the microsecond time scale, which is beyond the reach of conventional all-atom (AA) simulations for these systems. Coarse-graining not only reduces the complexity of the system by decreasing the number of particles but also allows the use of larger integration timesteps. The integration timestep in MD simulations is determined by the fastest internal motion in the system under study, typically bond vibrations involving hydrogen atoms \cita{Feenstra1999}. Since Martini does not include explicit hydrogens, the timestep can be increased from the 2 fs used in AA-MD to 20 or 30 fs. This substantial increase enables microsecond-long simulations at a much lower computational cost. To further enhance the sampling of these recognition events and accurately characterize the underlying free energy landscapes, Metadynamics simulations were integrated with the CG-MD framework, providing a robust methodology to decipher the specificity and energetics of these membrane-targeted interactions.
 
 \subsection{Metadynamics}
 Martini is among the most used CG force fields in research. It employs a building block principle with a predefined set of \textit{beads} that are combined to represent complex molecules, simplifying parameterization. This has extended its applicability beyond proteins\cita{MPro} and lipids\cita{Mlip} to polymers\cita{MPOL}, ionic liquids\cita{MIL} or carbon nanomaterials\cita{MCN}. Despite the improvements introduced in Martini 3 \supercite{martini3}, the model still necessitates refinement to accurately capture directional interactions like hydrogen bonding.
@@ -304,6 +303,43 @@ To fully comprehend these methodologies, it is crucial to emphasize their inhere
 
 \subsubsection{Variational Quantum Eigensolver}
 
+The Variational Quantum Eigensolver (VQE) is a flagship hybrid quantum-classical algorithm designed to find the ground state energy of a given Hamiltonian $\hat{H}$. It is particularly well-suited for the Noisy Intermediate-Scale Quantum (NISQ) era because it relies on shallow quantum circuits, shifting the burden of complexity to a classical optimizer.
+
+\paragraph{The Variational Principle}
+The theoretical foundation of VQE is the Rayleigh-Ritz variational principle from quantum mechanics. It states that for any normalized trial wavefunction $|\psi(\boldsymbol{\theta})\rangle$ (where $\boldsymbol{\theta}$ represents a set of adjustable parameters), the expectation value of the Hamiltonian $\hat{H}$ is always greater than or equal to the true ground state energy $E_0$:
+
+\begin{equation}
+E(\boldsymbol{\theta}) = \frac{\langle \psi(\boldsymbol{\theta}) | \hat{H} | \psi(\boldsymbol{\theta}) \rangle}{\langle \psi(\boldsymbol{\theta}) | \psi(\boldsymbol{\theta}) \rangle} \ge E_0
+\end{equation}
+
+By minimizing the cost function $E(\boldsymbol{\theta})$ with respect to the parameters $\boldsymbol{\theta}$, one can obtain an upper bound that serves as an approximation of the ground state energy. The quality of this approximation depends strictly on the expressibility of the trial wavefunction, often referred to as the \textit{ansatz}.
+
+\paragraph{Hamiltonian Representation}
+On a quantum computer, the Hamiltonian (which may represent the energy of a molecular conformation or a cost function for peptide folding) must be expressed as a linear combination of Pauli strings. Since any Hermitian matrix can be decomposed into the basis of Pauli operators $\{I, X, Y, Z\}$, the system Hamiltonian $\hat{H}$ is mapped as:
+
+\begin{equation}
+\hat{H} = \sum_{i} w_i \hat{P}_i
+\end{equation}
+
+where $w_i$ are real-valued coefficients and $\hat{P}_i \in \{I, X, Y, Z\}^{\otimes n}$ are tensor products of $n$ Pauli operators. Due to the linearity of the expectation value, the total energy is computed by summing the measurements of each individual Pauli term:
+
+\begin{equation}
+\langle \hat{H} \rangle_{\boldsymbol{\theta}} = \sum_{i} w_i \langle \psi(\boldsymbol{\theta}) | \hat{P}_i | \psi(\boldsymbol{\theta}) \rangle
+\end{equation}
+
+\paragraph{The Hybrid Optimization Loop}
+The VQE execution follows a symbiotic loop between the QPU and the CPU:
+\begin{enumerate}
+    \item \textbf{Quantum State Preparation:} The QPU prepares the trial state $|\psi(\boldsymbol{\theta})\rangle$ by applying a parameterized unitary circuit (the ansatz) $U(\boldsymbol{\theta})$ to an initial state $|0\rangle^{\otimes n}$.
+    \item \textbf{Measurement:} The expectation values of the Pauli strings $\langle \hat{P}_i \rangle$ are estimated by measuring the quantum state in the corresponding basis over multiple shots.
+    \item \textbf{Classical Optimization:} The total energy $E(\boldsymbol{\theta})$ is aggregated on the CPU and passed to a classical optimization algorithm (e.g., COBYLA, SLSQP, or SPSA). The optimizer computes a new set of parameters $\boldsymbol{\theta}'$ aimed at lowering the energy.
+    \item \textbf{Iteration:} The process repeats until convergence is reached, identifying the parameter set $\boldsymbol{\theta}^*$ that minimizes the Hamiltonian.
+\end{enumerate}
+
+The complete workflow and symbiotic relationship between the quantum and classical components are summarized in Figure \ref{fig:VQE_loop}.
+
+In the context of this thesis, VQE is utilized to explore the conformational space of peptides by mapping their potential energy surfaces onto a qubit space, where the global minimum corresponds to the most stable folding state.
+
 
 
 
@@ -331,8 +367,18 @@ To fully comprehend these methodologies, it is crucial to emphasize their inhere
 
 \begin{figure}[h]
     \centering
+    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/vqe_demonstration.jpg}
+    \caption{Schematic representation of the Variational Quantum Eigensolver (VQE) hybrid architecture. The process illustrates the iterative feedback loop between the Quantum Processing Unit (QPU), responsible for state preparation and measurement, and the Classical Processing Unit (CPU), which executes the optimization algorithm to update the variational parameters $\boldsymbol{\theta}$.}
+    \label{fig:VQE_loop}
+\end{figure}
+
+\subsection{Dimensionality Reduction}
+Principal Component Analysis (PCA) is a widely used statistical method for dimensionality reduction. It transforms a large set of variables into a smaller one that still contains most of the information of the original dataset.
+
+\begin{figure}[h]
+    \centering
     \includegraphics[width=0.6\linewidth]{General_Sections/Figures/PCA_demonstration.png}
-    \caption{Representation of PCA applied to a 2D dataset with correlated features. The colored arrows represent the principal components: the red arrow indicates the direction of maximum variance in the data (PC1), while the blue is orthogonal to it and captures the remaining variance (PC2). This illustrates how PCA identifies the most informative directions for dimensionality reduction. The graph was generated with Matplotlib using synthetic data in arbitrary units.}
+    \caption{Representation of PCA applied to a 2D dataset with correlated features. The colored arrows represent the principal components: the red arrow indicates the direction of maximum variance in the data (PC1), while the blue is orthogonal to it and captures the remaining variance (PC2). The graph was generated with Matplotlib using synthetic data in arbitrary units.}
     \label{fig:PCA}
 \end{figure}
 
