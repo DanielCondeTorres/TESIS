@@ -1,0 +1,897 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/bk12.clo))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/textpos/textpos.sty
+Grid set 16 x 16 = 38.39343pt x 49.68562pt
+TextBlockOrigin set to 0pt x 0pt
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)
+) (/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex)))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/times.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdfpages/pppdftex.def))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex-chem/chem-acs.cbx
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/chngcntr/chngcntr.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/tocloft/tocloft.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/placeins/placeins.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty)) (/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+)))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/t1ptm.fd) (./main.aux
+(./General_Sections/List_of_publications.aux) (./General_Sections/Summary.aux)
+(./General_Sections/Introduction.aux
+! Extra }, or forgotten \endgroup.
+l.177 }
+       
+) (./General_Sections/Objectives.aux) (./General_Sections/Methods.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 5
+       }
+! Extra }, or forgotten \endgroup.
+l.204 5}
+        
+! Extra }, or forgotten \endgroup.
+l.205 }
+       
+) (./Results_Discussion/Results.aux) (./Results_Discussion/Unpublished.aux)
+(./General_Sections/GeneralDiscussion.aux) (./General_Sections/Conclusions.aux)
+(./Appendix/Appendix.aux))
+(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/local/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/lscape.sty)))
+(/usr/local/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+No file main.bbl.
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-ptm.cfg) (./main.out
+) (./main.out) [1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+[2]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.239 \end{titlepage}
+                      [1 <./Logo_USC/logo_usc.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.247 ...ortada_Contraportada/Portada_interna.pdf}
+                                                   [2 <./Portada_Contraportada/
+Portada_interna.pdf>] [3 <./AuthorStatement.pdf>] [4 <./StatementResponsability
+.pdf>] [5] (./main.toc
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg) [6]
+Overfull \hbox (3.69666pt too wide) in paragraph at lines 35--35
+ [][] [][][]\T1/ptm/m/n/12 (-20) Constrained Op-ti-miza-tion BY Lin-ear Ap-prox
+-i-ma-tions (COBYLA)[][] []  
+) [7] (./General_Sections/List_of_publications.tex [8]) [9] [10] [11]
+(./General_Sections/Summary.tex [12]
+Underfull \vbox (badness 10000) has occurred while \output is active [13]
+[14]
+Underfull \vbox (badness 1264) has occurred while \output is active [15]
+[16] [17] [18]
+Underfull \vbox (badness 1264) has occurred while \output is active [19]
+[20] [21]
+Underfull \vbox (badness 1264) has occurred while \output is active [22]
+Underfull \vbox (badness 1264) has occurred while \output is active [23]
+[24]) [25] (./General_Sections/Introduction.tex
+Chapter 1.
+[26]
+
+LaTeX Warning: Citation 'van2008membrane' on page 27 undefined on input line 15
+.
+
+
+LaTeX Warning: Citation 'Lohner2009' on page 27 undefined on input line 19.
+
+
+LaTeX Warning: Citation 'Ahmed2024' on page 27 undefined on input line 19.
+
+[27]
+
+LaTeX Warning: Citation 'Lohner2009' on page 28 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Ahmed2024' on page 28 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Sani2015' on page 28 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Geiger2013' on page 28 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Vance2015' on page 28 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Ikeda2006' on page 28 undefined on input line 40.
+
+[28]
+
+LaTeX Warning: Citation 'Zasloff2002' on page 29 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'Midura-Nowaczek2014' on page 29 undefined on input lin
+e 50.
+
+[29 <./General_Sections/Figures/Membrane_Lipids_dct.png>]
+
+LaTeX Warning: Citation 'Hancock2006' on page 30 undefined on input line 53.
+
+
+LaTeX Warning: Citation 'Kumar2018' on page 30 undefined on input line 53.
+
+
+LaTeX Warning: Citation 'Wang2016' on page 30 undefined on input line 53.
+
+
+LaTeX Warning: Citation 'Huan2020' on page 30 undefined on input line 53.
+
+
+LaTeX Warning: Citation 'Zhang2021' on page 30 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'Yeaman2003' on page 30 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'Li2021' on page 30 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'Scocchi2016' on page 30 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'Mookherjee2020' on page 30 undefined on input line 63.
+
+
+
+LaTeX Warning: Citation 'BuiThiPhuong2024' on page 30 undefined on input line 6
+3.
+
+[30 <./General_Sections/Figures/AMP_Classification.jpg>]
+
+LaTeX Warning: Citation 'Ma2025' on page 31 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'Rossino2023' on page 31 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'Dijksteel2021' on page 31 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'Lyu2023' on page 31 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'Carmona2013' on page 31 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'Lucana2021' on page 31 undefined on input line 73.
+
+[31 <./General_Sections/Figures/AMPMOA.png>]
+
+LaTeX Warning: Citation 'Mika2011' on page 32 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'Abraham2014' on page 32 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'Chapman2012' on page 32 undefined on input line 78.
+
+
+LaTeX Warning: Citation 'Ghadiri1993' on page 32 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'DeSantis1974' on page 32 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'Claro2018' on page 32 undefined on input line 105.
+
+
+LaTeX Warning: Citation 'Amorn2003' on page 32 undefined on input line 105.
+
+
+LaTeX Warning: Citation 'Lamas2018' on page 32 undefined on input line 105.
+
+
+LaTeX Warning: Citation 'Ghadiri1994' on page 32 undefined on input line 107.
+
+
+LaTeX Warning: Citation 'Kim1998' on page 32 undefined on input line 107.
+
+
+LaTeX Warning: Citation 'Fernandez-Lopez2001' on page 32 undefined on input lin
+e 107.
+
+[32]
+
+LaTeX Warning: Citation 'Moral2023' on page 33 undefined on input line 117.
+
+
+LaTeX Warning: Citation 'Insua2023' on page 33 undefined on input line 117.
+
+[33 <./General_Sections/Figures/SchematicSCPN.png> <./General_Sections/Figures/
+PvsA.png> <./General_Sections/Figures/DirectedAssembly.png>]
+
+LaTeX Warning: Citation 'Cao2024' on page 34 undefined on input line 121.
+
+
+LaTeX Warning: Citation 'Yu2024' on page 34 undefined on input line 121.
+
+
+LaTeX Warning: Citation 'Ciccotti2022' on page 34 undefined on input line 125.
+
+
+LaTeX Warning: Citation 'Alder1957' on page 34 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'Verlet1967' on page 34 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'Rahman1971' on page 34 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'McCammon1977' on page 34 undefined on input line 127.
+
+[34]
+
+LaTeX Warning: Citation 'Andersen1980' on page 35 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'Parrinello1980' on page 35 undefined on input line 129
+.
+
+
+LaTeX Warning: Citation 'Parrinello1981' on page 35 undefined on input line 129
+.
+
+
+LaTeX Warning: Citation 'Nose1984' on page 35 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'Hoover1985' on page 35 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'Karplus2002' on page 35 undefined on input line 131.
+
+
+LaTeX Warning: Citation 'Sponer2018' on page 35 undefined on input line 131.
+
+
+LaTeX Warning: Citation 'Morrow2013' on page 35 undefined on input line 131.
+
+
+LaTeX Warning: Citation 'GF2016' on page 35 undefined on input line 133.
+
+
+LaTeX Warning: Citation 'Calvelo2019' on page 35 undefined on input line 133.
+
+
+LaTeX Warning: Citation 'Xandre2021' on page 35 undefined on input line 133.
+
+
+LaTeX Warning: Citation 'Conde2022' on page 35 undefined on input line 133.
+
+[35]
+
+LaTeX Warning: Citation 'Claro2020' on page 36 undefined on input line 135.
+
+
+LaTeX Warning: Citation 'Claro2021' on page 36 undefined on input line 135.
+
+[36]
+
+LaTeX Warning: Citation 'Samuel2000' on page 37 undefined on input line 146.
+
+
+LaTeX Warning: Citation 'Hebb2005' on page 37 undefined on input line 146.
+
+
+LaTeX Warning: Citation 'Rosenblatt1958' on page 37 undefined on input line 146
+.
+
+
+LaTeX Warning: Citation 'Rumelhart1986' on page 37 undefined on input line 148.
+
+
+
+LaTeX Warning: Citation 'Hochreiter1997' on page 37 undefined on input line 148
+.
+
+
+LaTeX Warning: Citation 'Krizhevsky2017' on page 37 undefined on input line 148
+.
+
+
+LaTeX Warning: Citation 'Behler2007' on page 37 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'Jumper2021' on page 37 undefined on input line 150.
+
+
+LaTeX Warning: Citation 'Manavalan2018' on page 37 undefined on input line 152.
+
+
+
+LaTeX Warning: Citation 'Wang2024' on page 37 undefined on input line 152.
+
+
+LaTeX Warning: Citation 'Li2024' on page 37 undefined on input line 152.
+
+
+LaTeX Warning: Citation 'CyclePermea' on page 37 undefined on input line 152.
+
+
+LaTeX Warning: Citation 'Feller2025' on page 37 undefined on input line 152.
+
+
+LaTeX Warning: Citation 'Tan2024' on page 37 undefined on input line 152.
+
+[37]
+
+LaTeX Warning: Citation 'Hui2023' on page 38 undefined on input line 154.
+
+
+LaTeX Warning: Citation 'Cherednichenko2025' on page 38 undefined on input line
+ 154.
+
+
+LaTeX Warning: Citation 'Hui2025' on page 38 undefined on input line 154.
+
+[38] (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [39]
+[40]) (./General_Sections/Objectives.tex
+Chapter 2.
+[41]
+Overfull \hbox (19.65709pt too wide) in paragraph at lines 18--19
+\T1/ptm/b/n/12 (-20) tions. \T1/ptm/m/n/12 (-20) By en-abling microsecond-scale
+ sim-u-la-tions of SCPN--membrane sys-tems, MA(R/S)TINI
+[42]
+
+LaTeX Warning: Citation 'Li2023' on page 43 undefined on input line 19.
+
+) [43] (./General_Sections/Methods.tex
+Chapter 3.
+[44]
+
+LaTeX Warning: Citation 'alder1957phase' on page 45 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation 'charron2025navigating' on page 45 undefined on input l
+ine 13.
+
+
+LaTeX Warning: Citation 'THORNBURG2026' on page 45 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'Gromacs2015' on page 45 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'born1927quantentheorie' on page 45 undefined on input 
+line 23.
+
+[45]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46] [47 <./General_Sections/Figures/MD_Workflow2.png>]
+
+LaTeX Warning: Citation 'Verlet1967' on page 48 undefined on input line 69.
+
+
+LaTeX Warning: Citation 'leapfrog' on page 48 undefined on input line 77.
+
+
+LaTeX Warning: Citation 'BerendsenB' on page 48 undefined on input line 123.
+
+
+LaTeX Warning: Citation 'CRB' on page 48 undefined on input line 123.
+
+
+LaTeX Warning: Citation 'PRB' on page 48 undefined on input line 123.
+
+
+LaTeX Warning: Citation 'Vresc' on page 48 undefined on input line 123.
+
+[48] [49 <./General_Sections/Figures/pbc_diagram.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[50] [51 <./General_Sections/Figures/FF_bonded.png>]
+
+LaTeX Warning: Citation 'pme' on page 52 undefined on input line 184.
+
+
+LaTeX Warning: Citation 'reacfield' on page 52 undefined on input line 184.
+
+
+LaTeX Warning: Citation 'Ewald1921' on page 52 undefined on input line 184.
+
+
+LaTeX Warning: Citation 'Darden1993' on page 52 undefined on input line 184.
+
+
+LaTeX Warning: Citation 'charmm' on page 52 undefined on input line 200.
+
+
+LaTeX Warning: Citation 'gaff' on page 52 undefined on input line 200.
+
+
+LaTeX Warning: Citation 'oplsaa' on page 52 undefined on input line 200.
+
+
+LaTeX Warning: Citation 'gromos' on page 52 undefined on input line 201.
+
+[52]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'martini2' on page 53 undefined on input line 210.
+
+
+LaTeX Warning: Citation 'Feenstra1999' on page 53 undefined on input line 210.
+
+
+Underfull \vbox (badness 2573) has occurred while \output is active [53]
+
+LaTeX Warning: Citation 'MPro' on page 54 undefined on input line 213.
+
+
+LaTeX Warning: Citation 'Mlip' on page 54 undefined on input line 213.
+
+
+LaTeX Warning: Citation 'MPOL' on page 54 undefined on input line 213.
+
+
+LaTeX Warning: Citation 'MIL' on page 54 undefined on input line 213.
+
+
+LaTeX Warning: Citation 'MCN' on page 54 undefined on input line 213.
+
+
+LaTeX Warning: Citation 'martini3' on page 54 undefined on input line 213.
+
+[54 <./General_Sections/Figures/AA2CG.png>]
+
+LaTeX Warning: Citation 'plumed' on page 55 undefined on input line 216.
+
+
+LaTeX Warning: Citation 'Laio2002' on page 55 undefined on input line 216.
+
+
+LaTeX Warning: Citation 'Barducci2008' on page 55 undefined on input line 216.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55] [56 <./General_Sections/Figures/GaussianDeposition.png>]
+Underfull \vbox (badness 2717) has occurred while \output is active [57]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[58] [59 <./General_Sections/Figures/vqe_demonstration.jpg>] [60 <./General_Sec
+tions/Figures/qaoa_demonstration.png>] [61]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [62] [63 <./General_Sections/Figures/PCA_demonstration.png>]
+(./Results_Discussion/Results.tex
+Chapter 4.
+[64]
+Overfull \hbox (27.31352pt too wide) in paragraph at lines 12--13
+[] 
+[65]
+Underfull \vbox (badness 10000) has occurred while \output is active [66]
+Overfull \vbox (32.82668pt too high) has occurred while \output is active
+[67 <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compres
+sed.pdf>] [68 <./Results_Discussion/Papers/Papers_principales/Introduction_lipi
+ds_compressed.pdf>] [69 <./Results_Discussion/Papers/Papers_principales/Introdu
+ction_lipids_compressed.pdf>] [70 <./Results_Discussion/Papers/Papers_principal
+es/Introduction_lipids_compressed.pdf>] [71 <./Results_Discussion/Papers/Papers
+_principales/Introduction_lipids_compressed.pdf>] [72 <./Results_Discussion/Pap
+ers/Papers_principales/Introduction_lipids_compressed.pdf>] [73 <./Results_Disc
+ussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>] [74 <./Re
+sults_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+[75 <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compres
+sed.pdf>] [76 <./Results_Discussion/Papers/Papers_principales/Introduction_lipi
+ds_compressed.pdf>] [77 <./Results_Discussion/Papers/Papers_principales/Introdu
+ction_lipids_compressed.pdf>] [78 <./Results_Discussion/Papers/Papers_principal
+es/Introduction_lipids_compressed.pdf>] [79 <./Results_Discussion/Papers/Papers
+_principales/Introduction_lipids_compressed.pdf>] [80 <./Results_Discussion/Pap
+ers/Papers_principales/Introduction_lipids_compressed.pdf>] [81 <./Results_Disc
+ussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>] [82 <./Re
+sults_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+[83 <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compres
+sed.pdf>] [84 <./Results_Discussion/Papers/Papers_principales/Introduction_lipi
+ds_compressed.pdf>] [85 <./Results_Discussion/Papers/Papers_principales/metadin
+amica.pdf>] [86 <./Results_Discussion/Papers/Papers_principales/metadinamica.pd
+f>] [87 <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+[88 <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>] [89 <./R
+esults_Discussion/Papers/Papers_principales/metadinamica.pdf>] [90 <./Results_D
+iscussion/Papers/Papers_principales/metadinamica.pdf>] [91 <./Results_Discussio
+n/Papers/Papers_principales/metadinamica.pdf>] [92 <./Results_Discussion/Papers
+/Papers_principales/metadinamica.pdf>] [93 <./Results_Discussion/Papers/Papers_
+principales/metadinamica.pdf>] [94 <./Results_Discussion/Papers/Papers_principa
+les/metadinamica.pdf>] [95 <./Results_Discussion/Papers/Papers_principales/meta
+dinamica.pdf>] [96 <./Results_Discussion/Papers/Papers_principales/metadinamica
+.pdf>] [97 <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+[98 <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>] [99 <./R
+esults_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>] [100 <./Resul
+ts_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>] [101 <./Results_D
+iscussion/Papers/Papers_principales/metadinamica_SI.pdf>] [102 <./Results_Discu
+ssion/Papers/Papers_principales/metadinamica_SI.pdf>] [103 <./Results_Discussio
+n/Papers/Papers_principales/metadinamica_SI.pdf>] [104 <./Results_Discussion/Pa
+pers/Papers_principales/metadinamica_SI.pdf>] [105 <./Results_Discussion/Papers
+/Papers_principales/metadinamica_SI.pdf>] [106 <./Results_Discussion/Papers/Pap
+ers_principales/metadinamica_SI.pdf>] [107 <./Results_Discussion/Papers/Papers_
+principales/metadinamica_SI.pdf>] [108 <./Results_Discussion/Papers/Papers_prin
+cipales/metadinamica_SI.pdf>] [109 <./Results_Discussion/Papers/Papers_principa
+les/metadinamica_SI.pdf>] [110 <./Results_Discussion/Papers/Papers_principales/
+metadinamica_SI.pdf>] [111 <./Results_Discussion/Papers/Papers_principales/meta
+dinamica_SI.pdf>] [112 <./Results_Discussion/Papers/Papers_principales/vqe_cesg
+a.pdf>] [113 <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+[114 <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>] [115 <./Re
+sults_Discussion/Papers/Papers_principales/vqe_cesga.pdf>] [116 <./Results_Disc
+ussion/Papers/Papers_principales/vqe_cesga.pdf>] [117 <./Results_Discussion/Pap
+ers/Papers_principales/vqe_cesga.pdf>] [118 <./Results_Discussion/Papers/Papers
+_principales/vqe_cesga.pdf>] [119 <./Results_Discussion/Papers/Papers_principal
+es/vqe_cesga.pdf>] [120 <./Results_Discussion/Papers/Papers_principales/vqe_ces
+ga.pdf>] [121] [122 <./Results_Discussion/Papers/PaperML.pdf>] [123 <./Results_
+Discussion/Papers/PaperML.pdf>] [124 <./Results_Discussion/Papers/PaperML.pdf>]
+[125 <./Results_Discussion/Papers/PaperML.pdf>] [126 <./Results_Discussion/Pape
+rs/PaperML.pdf>] [127 <./Results_Discussion/Papers/PaperML.pdf>] [128 <./Result
+s_Discussion/Papers/PaperML.pdf>] [129 <./Results_Discussion/Papers/PaperML.pdf
+>] [130 <./Results_Discussion/Papers/PaperML.pdf>] [131 <./Results_Discussion/P
+apers/PaperML.pdf>] [132 <./Results_Discussion/Papers/PaperML.pdf>] [133 <./Res
+ults_Discussion/Papers/PaperML.pdf>] [134 <./Results_Discussion/Papers/PaperML.
+pdf>] [135 <./Results_Discussion/Papers/PaperML.pdf>] [136 <./Results_Discussio
+n/Papers/PaperML.pdf>] [137 <./Results_Discussion/Papers/PaperML.pdf>] [138 <./
+Results_Discussion/Papers/PaperML.pdf>]) (./Results_Discussion/Unpublished.tex
+Chapter 5.
+[139]
+Overfull \hbox (10.05983pt too wide) in paragraph at lines 11--11
+|[]\T1/ptm/b/n/14.4 (-20) CYCLOPEpDB: A large-scale coarse-grained dataset en-a
+bling physics-
+
+Overfull \hbox (68.28383pt too wide) in paragraph at lines 13--19
+[] 
+[140]
+Underfull \vbox (badness 10000) has occurred while \output is active [141]
+Overfull \vbox (39.53426pt too high) has occurred while \output is active
+[142 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[143 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[144 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[145 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[146 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[147 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[148 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[149 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[150 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[151 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[152 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[153 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[154 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[155 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[156 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[157 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[158 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[159 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[160 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[161 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[162 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[163 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[164 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[165 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[166 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[167 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[168 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+[169 <./Appendix/Cabezon_2025_SI_final.pdf>] [170 <./Appendix/Cabezon_2025_SI_f
+inal.pdf>] [171 <./Appendix/Cabezon_2025_SI_final.pdf>] [172 <./Appendix/Cabezo
+n_2025_SI_final.pdf>] [173 <./Appendix/Cabezon_2025_SI_final.pdf>] [174 <./Appe
+ndix/Cabezon_2025_SI_final.pdf>] [175 <./Appendix/Cabezon_2025_SI_final.pdf>])
+(./General_Sections/GeneralDiscussion.tex
+Chapter 6.
+[176]
+Underfull \vbox (badness 4266) has occurred while \output is active [177]
+Underfull \vbox (badness 1264) has occurred while \output is active [178]
+Underfull \vbox (badness 4266) has occurred while \output is active [179]
+[180] [181] [182] [183]
+Overfull \hbox (10.16135pt too wide) in paragraph at lines 69--70
+[]\T1/ptm/m/n/12 (-20) Analysis of se-quence com-po-si-tion across clus-ters re
+-vealed strong elec-tro-static trends. Lipophilic
+[184] [185] [186]) [187] (./General_Sections/Conclusions.tex
+Chapter 7.
+[188]
+Underfull \vbox (badness 4266) has occurred while \output is active [189])
+[190]
+Chapter 8.
+[191]
+
+LaTeX Warning: Empty bibliography on input line 351.
+
+(./Appendix/Appendix.tex
+Chapter 9.
+[192]
+
+LaTeX Warning: Reference `fig:CNN' on page 193 undefined on input line 33.
+
+
+LaTeX Warning: Reference `fig:CNN' on page 193 undefined on input line 33.
+
+
+LaTeX Warning: Reference `fig:LSTM' on page 193 undefined on input line 40.
+
+
+LaTeX Warning: Reference `fig:LSTM' on page 193 undefined on input line 40.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[193 <./Appendix/Figures/Figure1.2.png> <./Appendix/Figures/License3.6.png> <./
+Appendix/Figures/License2.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [194 <./Appendix/Figures/Figure3.8.png> <./Appendix/Figures/PaperMARSTINI_Rig
+hts.png> <./Appendix/Figures/PaperMARSTINI3_Rights.png>] [195 <./Appendix/Figur
+es/CPBuilder_License.png> <./Appendix/Figures/CYCLOPs_Rights.png>] [196 <./Port
+ada_Contraportada/Contraportada_tese.pdf>] (./main.aux
+(./General_Sections/List_of_publications.aux) (./General_Sections/Summary.aux)
+(./General_Sections/Introduction.aux) (./General_Sections/Objectives.aux)
+(./General_Sections/Methods.aux) (./Results_Discussion/Results.aux)
+(./Results_Discussion/Unpublished.aux)
+(./General_Sections/GeneralDiscussion.aux) (./General_Sections/Conclusions.aux)
+(./Appendix/Appendix.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2026/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2026/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2026/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2026/texmf-dist/f
+onts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2026/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2026/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2026/texmf-dist/fon
+ts/type1/public/stix/stix-mathcal.pfb></usr/local/texlive/2026/texmf-dist/fonts
+/type1/public/stix/stix-mathex.pfb></usr/local/texlive/2026/texmf-dist/fonts/ty
+pe1/public/stix/stix-mathit.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1
+/public/stix/stix-mathrm.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/pu
+blic/stix/stix-mathscr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb
+i8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (198 pages, 34770608 bytes).
+Transcript written on main.log.

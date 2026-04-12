@@ -211,7 +211,7 @@ In the study presented in this section, the Martini 2.2 coarse-grained (CG) forc
 
 \subsection{Metadynamics}
 Martini is among the most used CG force fields in research. It employs a building block principle with a predefined set of \textit{beads} that are combined to represent complex molecules, simplifying parameterization. This has extended its applicability beyond proteins\cita{MPro} and lipids\cita{Mlip} to polymers\cita{MPOL}, ionic liquids\cita{MIL} or carbon nanomaterials\cita{MCN}. Despite the improvements introduced in Martini 3 \supercite{martini3}, the model still necessitates refinement to accurately capture directional interactions like hydrogen bonding.
-The primary goal of MA(R/S)TINI was to reproduce, at the CG level, the directionality observed in the interactions between AA CPs, thereby mitigating the overestimation of CP-CP interactions due to the Martini CG mapping. To seamlessly integrate the new mapping of atomic coordinates to CG beads into the original force field, the new CG representation should ideally reproduce the original interaction energy as accurately as possible. This requires computing the Free Energy Surface (FES) of the CP-CP interaction for both parameterizations and comparing the results. To approach this using MD simulations, one can estimate the probability of finding two CPs in the dimer state (\(P_d\)), and in the unbound (monomeric) state (\(P_m\)) over an equilibrated trajectory. Then, the free energy difference between these states can be expressed as \(\Delta G_{dimerization} = -k_bTln\left(\frac{P_d}{P_m}\right)\). However, the long timescales involved in both association and dissociation, along with the risk of being kinetically trapped in a local minima, often make it impractical to achieve sufficient sampling of both processes within a single unbiased MD simulation trajectory. In this regard, variations of MD have been proposed to approach such cases and fall under the category of enhanced sampling techniques.
+The primary goal of MA(R/S)TINI was to reproduce, at the CG level, the directionality observed in the interactions between AA CPs, thereby mitigating the overestimation of CP-CP interactions due to the Martini CG mapping. To seamlessly integrate the new mapping of atomic coordinates to CG beads into the original force field, the new CG representation should ideally reproduce the original interaction energy as accurately as possible. This requires computing the Free Energy Surface (FES) of the CP-CP interaction for both parameterizations and comparing the results. To approach this using MD simulations, one can estimate the probability of finding two CPs in the dimer state (\(P_d\)), and in the unbound (monomeric) state (\(P_m\)) over an equilibrated trajectory. Then, the free energy difference between these states can be expressed as \(\Delta G_{dimerization} = -k_B T \ln\left(\frac{P_d}{P_m}\right)\). However, the long timescales involved in both association and dissociation, along with the risk of being kinetically trapped in a local minima, often make it impractical to achieve sufficient sampling of both processes within a single unbiased MD simulation trajectory. In this regard, variations of MD have been proposed to approach such cases and fall under the category of enhanced sampling techniques.
 
 In this thesis, metadynamics, in its well tempered scheme, was used in Section \ref{chap1} as enhanced sampling method for the calculation of the FES relative to CP dimerization. In particular, the plugin PLUMED was used in combination with GROMACS to set up and run two dimensional potential of mean force (PMF) calculations \cita{plumed}. Therefore, the PLUMED documentation has been the main resource for this section, along with Parrinello's pioneering works \cita{Laio2002}\textsuperscript{,}\cita{Barducci2008}.
 
@@ -289,21 +289,122 @@ where \(T\) is the temperature of the system. When examining the two limit cases
 
 %%%%%%% CONTINUAR
 \section{Quantum Computing}
+Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics---specifically superposition, entanglement, and interference---to process information and solve complex combinatorial optimization problems that remain intractable for classical systems. This research is conducted within the \textbf{Noisy Intermediate-Scale Quantum (NISQ) era}, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction). The primary goal in this context is to achieve \textbf{Quantum Advantage}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
 
-Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics to process information and solve complex combinatorial optimization problems that remain intractable for classical computers. Throughout this thesis, we focused on combining biophysical intuition and quantum algorithmic frameworks to leverage the potential of near-term gate-based quantum devices in order to advance research on peptide folding and sequence design. In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms was used to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). 
+\subsection{Foundations of Quantum Information}
+To understand the application of quantum algorithms in molecular design, it is essential to define the basic units of information and the operations that manipulate them. As described in the fundamental work of Nielsen and Chuang \cite{nielsen2010quantum}, quantum information theory generalizes classical computation by utilizing the principles of Hilbert space.
 
-Consequently, the computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs). Specifically, the Variational Quantum Eigensolver (VQE) and the Quantum Approximate Optimization Algorithm (QAOA) were employed to tackle the energetic and combinatorial nature of these biological systems. The following sections will describe the theoretical foundations of the quantum methods utilized. While this section provides the conceptual overview of the VQA approaches used in this thesis, the exact implementation details required for reproducibility (Hamiltonian formulation, qubit mapping, ansatz architecture, circuit depth, classical optimizer selection, and environmental parameterization) are reported in the corresponding Results chapters and article/manuscript Methods.
+\subsubsection{Bits vs. Qubits}
+While a classical bit can only exist in one of two discrete states, $0$ or $1$, a quantum bit or \textbf{qubit} is a two-level quantum system that can exist in a linear combination (superposition) of both basis states:
+\begin{equation}
+|\psi\rangle = \alpha |0\rangle + \beta |1\rangle
+\end{equation}
+where $\alpha, \beta \in \mathbb{C}$ are probability amplitudes satisfying the normalization condition $|\alpha|^2 + |\beta|^2 = 1$. Geometrically, the state of a qubit is often represented as a point on the surface of the \textbf{Bloch Sphere} (Figure \ref{fig:bloch_sphere}). The state is parameterized by two angles, the polar angle $\theta \in [0, \pi]$ and the azimuthal angle $\phi \in [0, 2\pi)$, as defined by:
+\begin{equation}
+|\psi\rangle = \cos\left(\frac{\theta}{2}\right) |0\rangle + e^{i\phi} \sin\left(\frac{\theta}{2}\right) |1\rangle
+\end{equation}
+In this representation, the basis states $|0\rangle$ and $|1\rangle$ are located at the North and South poles, respectively, while superposition states lie on the equator.
 
-To fully comprehend these methodologies, it is crucial to emphasize their inherent hybrid nature. VQAs operate through a symbiotic feedback loop between a quantum processing unit (QPU) and a classical central processing unit (CPU). While the quantum device is uniquely suited to prepare highly entangled parameterized states and efficiently evaluate the problem's cost function, such as the molecular energy or the sequence fitness, classical optimization algorithms must be subsequently employed. These classical optimizers iteratively process the quantum measurements to update the circuit parameters, continuously driving the system toward the optimal global minimum.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{General_Sections/Figures/esfera_bloch_tesis.png}
+    \caption{The Bloch Sphere representation of a single qubit state. The angles $\theta$ and $\phi$ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle, |1\rangle$) and the X and Y axes represent the real and imaginary components of the superposition.}
+    \label{fig:bloch_sphere}
+\end{figure}
+\subsubsection{Hardware Architectures}
+Several physical platforms are currently being developed to realize qubits, each with distinct advantages in terms of coherence times and scalability.
 
+\paragraph{Trapped Ion Architecture}
+One of the most prominent hardwares used in this research context is the \textbf{Trapped Ion} architecture. In these systems, individual ions (typically $^{171}\text{Yb}^+$ or $^{40}\text{Ca}^+$) are confined in a vacuum using electromagnetic fields (Paul traps). Qubits are encoded in the internal electronic levels or hyperfine states of the ions. Gates are implemented using laser pulses or microwave radiation that manipulate both the internal states and the collective vibrational modes (phonons) of the ion chain, enabling high-fidelity long-range entanglement.
 
+\paragraph{Superconducting Qubits}
+Currently the most widely deployed architecture (e.g., by IBM, Google, and Rigetti), \textbf{Superconducting Qubits} utilize macroscopic circuits cooled to millikelvin temperatures. These circuits, containing Josephson junctions, behave as artificial atoms (Transmons). Superconducting qubits offer extremely fast gate speeds (nanoseconds) and are manufactured using standard lithographic techniques, facilitating a path toward large-scale integration. However, they typically suffer from shorter coherence times compared to ions and require complex cryogenic infrastructure.
 
+\paragraph{Photonic Quantum Computing}
+Another scaling paradigm utilizes \textbf{Photons} as qubits (Linear Optical Quantum Computing). In these systems, information is encoded in the polarization, path, or arrival time of individual photons. Photonic hardware is inherently robust against thermal noise and decoherence, making it ideal for room-temperature operation. Operations are performed using interferometers, beam splitters, and phase shifters, although entangling two photons remains a technical challenge typically addressed through measurement-based schemes or non-linear optical media.
 
+\subsubsection{Quantum Gates and Circuit Operations}
+Quantum computations are performed by applying unitary transformations (gates) to the qubits. Any operation on a single qubit can be visualized as a rotation of the state vector on the Bloch Sphere.
 
+\paragraph{Pauli Gates}
+The Pauli gates are the quantum analogs of classical operations:
+\begin{itemize}
+    \item \textbf{X Gate (NOT):} Performs a $180^\circ$ rotation around the X-axis, flipping $|0\rangle \to |1\rangle$ and $|1\rangle \to |0\rangle$.
+    \begin{equation}
+    X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
+    \end{equation}
+    \item \textbf{Y Gate:} Performs a $180^\circ$ rotation around the Y-axis.
+    \begin{equation}
+    Y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
+    \end{equation}
+    \item \textbf{Z Gate (Phase Flip):} Performs a $180^\circ$ rotation around the Z-axis, mapping $|1\rangle \to -|1\rangle$ while leaving $|0\rangle$ unchanged.
+    \begin{equation}
+    Z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
+    \end{equation}
+\end{itemize}
 
-\subsubsection{Variational Quantum Eigensolver}
+\paragraph{Hadamard Gate}
+The \textbf{Hadamard ($H$)} gate is crucial for creating superposition. It maps the computational basis states ($|0\rangle, |1\rangle$) to the equator of the Bloch Sphere (e.g., $H|0\rangle = |+\rangle = \frac{|0\rangle + |1\rangle}{\sqrt{2}}$):
+\begin{equation}
+H = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
+\end{equation}
 
-The Variational Quantum Eigensolver (VQE) is a flagship hybrid quantum-classical algorithm designed to find the ground state energy of a given Hamiltonian $\hat{H}$. It is particularly well-suited for the Noisy Intermediate-Scale Quantum (NISQ) era because it relies on shallow quantum circuits, shifting the burden of complexity to a classical optimizer.
+\paragraph{Rotation Gates}
+In Variational Quantum Algorithms, we utilize parameterized gates that allow for continuous rotations by an angle $\theta$. These are defined as the matrix exponentials of the Pauli operators:
+\begin{equation}
+R_x(\theta) = e^{-i\theta X/2}, \quad R_y(\theta) = e^{-i\theta Y/2}, \quad R_z(\theta) = e^{-i\theta Z/2}
+\end{equation}
+For example, the $R_z$ gate adjusts the relative phase $\phi$ between $|0\rangle$ and $|1\rangle$:
+\begin{equation}
+R_z(\theta) = \begin{pmatrix} e^{-i\theta/2} & 0 \\ 0 & e^{i\theta/2} \end{pmatrix}
+\end{equation}
+
+\paragraph{Two-Qubit Gates: Entanglement}
+The \textbf{Controlled-NOT ($CNOT$)} gate is the primary mechanism for generating entanglement. It flips the state of a target qubit ($q_t$) if and only if the control qubit ($q_c$) is in the state $|1\rangle$:
+\begin{equation}
+CNOT = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{pmatrix}
+\end{equation}
+When the control qubit is in a superposition, applying $CNOT$ produces Bell states, which are maximally entangled.
+
+\subsubsection{Measurement and Shots}
+Unlike classical reading, quantum measurement collapses the wavefunction into one of the computational basis states. To obtain a reliable estimate of the probability distribution (the expectation value), the quantum circuit must be executed and measured multiple times. Each individual execution and measurement is referred to as a \textbf{shot}. The precision of the resulting expectation value improves with the square root of the number of shots ($1/\sqrt{N_{shots}}$).
+
+In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs). Specifically, the Variational Quantum Eigensolver (VQE) and the Quantum Approximate Optimization Algorithm (QAOA) were employed to tackle the energetic and combinatorial nature of these biological systems.
+
+\subsection{The Variational Paradigm and Hamiltonian Representation}
+
+VQAs operate through a symbiotic feedback loop between a Quantum Processing Unit (QPU) and a classical Central Processing Unit (CPU). While the quantum device is uniquely suited to prepare highly entangled parameterized states and efficiently evaluate the problem's cost function, the classical CPU performs the optimization of these parameters. This hybrid approach circumvents the limitations of current hardware by utilizing shallow quantum circuits and transferring the burden of complexity to classical optimization routines.
+
+\paragraph{Quantum Software Ecosystem}
+The implementation of these algorithms is supported by highly optimized open-source software frameworks. In this research, we primarily leverage:
+\begin{itemize}
+    \item \textbf{Qiskit:} An IBM-developed SDK providing a full stack for circuit design, noise characterization, and execution on both simulators and real superconducting devices.
+    \item \textbf{PennyLane:} A cross-platform library centered on differentiable quantum programming, which facilitates the optimization of variational circuits by treating them as nodes in a computational graph, similar to standard deep learning frameworks.
+\end{itemize}
+These tools allow for the seamless integration of quantum kernels into classical optimization pipelines.
+
+\subsubsection{The Pauli Basis and Operator Mapping}
+To implement molecular or mathematical observables on a quantum architecture, the target operators must be expressed in a language compatible with qubit operations. In the context of VQAs, this is achieved by decomposing the Hamiltonian $\hat{H}$ into a linear combination of Pauli strings. The Pauli matrices, $\{\sigma_x, \sigma_y, \sigma_z\}$, together with the identity operator $I$, constitute a complete basis for the space of $2 \times 2$ Hermitian matrices:
+
+\begin{equation}
+I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \quad 
+\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad 
+\sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad 
+\sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
+\end{equation}
+
+These operators are both unitary and Hermitian, and their eigenvalues are always $\pm 1$. In a multi-qubit system of $n$ qubits, the Hamiltonian is represented as an element of the Pauli group $\mathcal{P}_n$, formed by the $4^n$ possible tensor products of these matrices:
+\begin{equation}
+\hat{H} = \sum_{i} w_i \hat{P}_i, \quad \text{where } \hat{P}_i \in \{I, X, Y, Z\}^{\otimes n}
+\end{equation}
+where $w_i$ are real-valued coefficients. Due to the linearity of the expectation value, the total energy is computed by summing the measurements of each individual Pauli term:
+\begin{equation}
+\langle \hat{H} \rangle_{\boldsymbol{\theta}} = \sum_{i} w_i \langle \psi(\boldsymbol{\theta}) | \hat{P}_i | \psi(\boldsymbol{\theta}) \rangle
+\end{equation}
+
+\subsubsection{Variational Quantum Eigensolver (VQE)}
+
+The Variational Quantum Eigensolver (VQE) is a flagship hybrid algorithm designed to find the ground state energy of a given Hamiltonian $\hat{H}$. It is particularly well-suited for the NISQ era because it relies on shallow quantum circuits, shifting the optimization of the wavefunction parameters to a classical solver.
 
 \paragraph{The Variational Principle}
 The theoretical foundation of VQE is the Rayleigh-Ritz variational principle from quantum mechanics. It states that for any normalized trial wavefunction $|\psi(\boldsymbol{\theta})\rangle$ (where $\boldsymbol{\theta}$ represents a set of adjustable parameters), the expectation value of the Hamiltonian $\hat{H}$ is always greater than or equal to the true ground state energy $E_0$:
@@ -314,26 +415,20 @@ E(\boldsymbol{\theta}) = \frac{\langle \psi(\boldsymbol{\theta}) | \hat{H} | \ps
 
 By minimizing the cost function $E(\boldsymbol{\theta})$ with respect to the parameters $\boldsymbol{\theta}$, one can obtain an upper bound that serves as an approximation of the ground state energy. The quality of this approximation depends strictly on the expressibility of the trial wavefunction, often referred to as the \textit{ansatz}.
 
-\paragraph{Hamiltonian Representation}
-On a quantum computer, the Hamiltonian (which may represent the energy of a molecular conformation or a cost function for peptide folding) must be expressed as a linear combination of Pauli strings. Since any Hermitian matrix can be decomposed into the basis of Pauli operators $\{I, X, Y, Z\}$, the system Hamiltonian $\hat{H}$ is mapped as:
-
-\begin{equation}
-\hat{H} = \sum_{i} w_i \hat{P}_i
-\end{equation}
-
-where $w_i$ are real-valued coefficients and $\hat{P}_i \in \{I, X, Y, Z\}^{\otimes n}$ are tensor products of $n$ Pauli operators. Due to the linearity of the expectation value, the total energy is computed by summing the measurements of each individual Pauli term:
-
-\begin{equation}
-\langle \hat{H} \rangle_{\boldsymbol{\theta}} = \sum_{i} w_i \langle \psi(\boldsymbol{\theta}) | \hat{P}_i | \psi(\boldsymbol{\theta}) \rangle
-\end{equation}
+\paragraph{Hardware-Efficient and Heuristic Ansätze}
+In the NISQ era, where qubit counts and coherence times are limited, specialized circuit templates are used to balance expressibility and circuit depth. Some of the most widely used heuristic ansätze include:
+\begin{itemize}
+    \item \textbf{RealAmplitudes:} A circuit consisting solely of parameterized Y-rotations ($R_y$) and CNOT entanglers. As it does not involve complex phases, the resulting state amplitudes are strictly real, making it efficient for problems where the ground state wavefunction is known to be real.
+    \item \textbf{EfficientSU2:} A more general architecture that utilizes layers of single-qubit SU2 rotations (typically $R_y$ and $R_z$) followed by entanglement layers. This ansatz is highly expressive and can explore the full Hilbert space of a multi-qubit system with relatively low gate depth.
+\end{itemize}
+The depth and entanglement strategy of these circuits can be tuned to match the topology of the underlying quantum hardware.
 
 \paragraph{The Hybrid Optimization Loop}
-The VQE execution follows a symbiotic loop between the QPU and the CPU:
+The VQE execution follows an iterative cycle between the QPU and the CPU:
 \begin{enumerate}
     \item \textbf{Quantum State Preparation:} The QPU prepares the trial state $|\psi(\boldsymbol{\theta})\rangle$ by applying a parameterized unitary circuit (the ansatz) $U(\boldsymbol{\theta})$ to an initial state $|0\rangle^{\otimes n}$.
     \item \textbf{Measurement:} The expectation values of the Pauli strings $\langle \hat{P}_i \rangle$ are estimated by measuring the quantum state in the corresponding basis over multiple shots.
-    \item \textbf{Classical Optimization:} The total energy $E(\boldsymbol{\theta})$ is aggregated on the CPU and passed to a classical optimization algorithm (e.g., COBYLA, SLSQP, or SPSA). The optimizer computes a new set of parameters $\boldsymbol{\theta}'$ aimed at lowering the energy.
-    \item \textbf{Iteration:} The process repeats until convergence is reached, identifying the parameter set $\boldsymbol{\theta}^*$ that minimizes the Hamiltonian.
+    \item \textbf{Classical Optimization:} The total energy $E(\boldsymbol{\theta})$ is aggregated on the CPU and passed to a classical optimization algorithm (e.g., COBYLA or Differential Evolution).
 \end{enumerate}
 
 The complete workflow and symbiotic relationship between the quantum and classical components are summarized in Figure \ref{fig:VQE_loop}.
@@ -372,251 +467,142 @@ In the context of this thesis, VQE is utilized to explore the conformational spa
     \label{fig:VQE_loop}
 \end{figure}
 
-\subsection{Dimensionality Reduction}
-Principal Component Analysis (PCA) is a widely used statistical method for dimensionality reduction. It transforms a large set of variables into a smaller one that still contains most of the information of the original dataset.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.6\linewidth]{General_Sections/Figures/PCA_demonstration.png}
-    \caption{Representation of PCA applied to a 2D dataset with correlated features. The colored arrows represent the principal components: the red arrow indicates the direction of maximum variance in the data (PC1), while the blue is orthogonal to it and captures the remaining variance (PC2). The graph was generated with Matplotlib using synthetic data in arbitrary units.}
-    \label{fig:PCA}
-\end{figure}
 
-As shown in Figure \ref{fig:PCA}, the first principal component (PC1) defines the direction along which variance of the data is maximized, meaning that it is the line that retains the most information from the original data. The second principal component (PC2) accounts for the next highest variance and must be orthogonal to PC1. Any subsequent components must be orthogonal to the preceding ones and explain any remaining variance.
-
-The PCA computation process starts by standardizing the initial variables to have a mean of zero and a standard deviation of one. Assuming a dataset \(\mathbf{X}\) with \(n\) samples and \(d\) variables:
+\subsection{Quadratic Unconstrained Binary Optimization (QUBO)}
+The optimization problems addressed in this research are formulated as Quadratic Unconstrained Binary Optimization (QUBO) models. A QUBO problem aims to minimize a quadratic function of binary variables $x \in \{0, 1\}^n$:
 \begin{equation}
-    \mathbf{\tilde{X}} = \frac{\mathbf{X}-\mu}{\sigma}
+\min_{x \in \{0,1\}^n} \quad f(x) = \sum_{i} c_i x_i + \sum_{i < j} Q_{ij} x_i x_j
 \end{equation}
-Where \(\mu\) is the vector of independent variable means, and \(\sigma\) is the vector of independent variable standard deviations.
+where $c_i$ represent the linear costs (e.g., the intrinsic stability of an isolated amino acid) and $Q_{ij}$ capture the quadratic interactions between variables. This format is mathematically equivalent to the Ising model used in statistical physics, making it the natural entry point for quantum optimization.
 
-Next, PCA calculates the covariance matrix, which summarizes the covariance associated with all pairwise combinations of the initial variables in the dataset.
+\subsubsection{Handling Constraints via Penalty Terms}
+Real-world combinatorial problems, such as biological sequence design, often subject to physical or chemical constraints (e.g., a fixed number of mutations or a required net charge). In the QUBO framework, these constraints are incorporated by adding \textbf{Penalty Terms} to the objective function. For a constraint of the form $Ax = b$, we define the penalized function:
 \begin{equation}
-    \mathbf{C}(x_j,x_k)=\frac{1}{n-1}\sum^n_{i=1}(x_{ij}-\bar{x}_j)(x_{ik}-\bar{x}_k) \quad \text{for }j,k=1,2,...,d
+f_{penalized}(x) = f(x) + \lambda \sum_k (A_k x - b_k)^2
 \end{equation}
-This results in a full \(d\times d\) covariance matrix, where each element accounts for the relationship between two variables.
+where $\lambda$ is a penalty coefficient (Lagrange multiplier) chosen to be sufficiently large such that violating the constraint results in a higher energy than any valid solution. After expanding the square, the resulting expression remains quadratic in $x$ (since $x_i^2 = x_i$ for binary variables), thus preserving the QUBO structure.
 
-Then, the eigenvectors and eigenvalues of the covariance matrix are computed.
-\begin{equation}
-    \mathbf{C}v_i=\lambda_iv_i
-\end{equation}
-Here, \(v_i\) an eigenvector that represents the direction of maximum variance in the data ,and \(\lambda_i\) is the corresponding eigenvalue, indicating how much variance is explained along that direction. At this point, the eigenvalues can be used to decide which components are worth to be considered for subsequent analysis. Typically, components with low eigenvalues can be neglected.
-
-Finally, the data is transformed into the new coordinate system formed by the top \(k\) eigenvectors (\(\mathbf{V}_k\)):
-\begin{equation}
-    \mathbf{Z} = \mathbf{\tilde{X}V}_k
-\end{equation}
-This creates a new dataset \(\mathbf{Z}\in\mathbb{R}^{n\times k}\), capturing most of the information but with fewer dimensions.
-
-\subsubsection{Quantum Approximate Optimization Algorithm}
-
-
-The Quantum Approximate Optimization Algorithm (QAOA) is a hybrid variational quantum-classical algorithm introduced by Farhi, Goldstone, and Gutmann in 2014, specifically designed to find approximate solutions to combinatorial optimization problems on near-term quantum devices. QAOA draws its theoretical foundations from the quantum adiabatic theorem and quantum annealing, digitizing the continuous-time adiabatic evolution into a discrete sequence of parameterized unitary gates. 
+\subsection{Quantum Approximate Optimization Algorithm (QAOA)}
+The Quantum Approximate Optimization Algorithm (QAOA) is a hybrid variational algorithm introduced by Farhi, Goldstone, and Gutmann in 2014, specifically designed to find approximate solutions to combinatorial optimization problems. QAOA draws its theoretical foundations from the quantum adiabatic theorem, digitizing the continuous-time adiabatic evolution into a discrete sequence of parameterized unitary gates. In the context of this thesis, QAOA is employed as a heuristic to navigate the high-dimensional discrete landscape of amino acid sequences in peptide design.
 
 \subsubsection{Mathematical Formulation and Hamiltonian Mapping}
-To process a classical combinatorial problem on a quantum computer, the objective function must first be embedded into the eigenspectrum of a quantum operator. Typically, combinatorial problems are expressed as Quadratic Unconstrained Binary Optimization (QUBO) models:
+To process a QUBO problem on a quantum processor, the classical objective function must be translated into the language of quantum observables. Each binary variable $x_i$ is mapped to a qubit $i$, and the variable values are associated with the eigenvalues of the Pauli-Z operator ($\hat{Z}_i \in \{1, -1\}$) via the affine transformation $x_i \to \frac{1 - \hat{Z}_i}{2}$. This mapping results in the \textbf{Cost Hamiltonian ($\hat{H}_C$)}:
 \begin{equation}
-\min_{\mathbf{x} \in \{0,1\}^n} \quad \mathbf{x}^T Q \mathbf{x} + \mathbf{c}^T \mathbf{x}
+\hat{H}_C = \sum_{i < j} J_{ij} \hat{Z}_i \hat{Z}_j + \sum_{i=1}^n h_i \hat{Z}_i + K
 \end{equation}
-where $\mathbf{x}$ is an $n$-dimensional vector of binary decision variables, and $Q$ is a real symmetric $n \times n$ matrix. 
+where $J_{ij}$ and $h_i$ are physical coupling constants and local fields derived from the QUBO matrix $Q$, and $K$ is a constant energy offset. The ground state of $\hat{H}_C$ corresponds precisely to the binary string that minimizes the original classical function.
 
-This classical formulation is mapped to a quantum mechanical observable by transforming the binary variables $x_i \in \{0, 1\}$ into spin variables $z_i \in \{-1, 1\}$ via the affine transformation $x_i = \frac{1 - z_i}{2}$. By substituting this relation into the QUBO objective, the problem is recast as an Ising spin-glass model. In the quantum realm, the classical spin variables $z_i$ are promoted to quantum Pauli-Z operators, $\hat{Z}_i$, which act on the $i$-th qubit in a $2^n$-dimensional Hilbert space. The classical objective function is thus encapsulated by the Cost Hamiltonian, $\hat{H}_C$:
-\begin{equation}
-\hat{H}_C = \sum_{i < j} J_{ij} \hat{Z}_i \hat{Z}_j + \sum_{i=1}^n h_i \hat{Z}_i
-\end{equation}
-where $J_{ij}$ and $h_i$ are real coefficients derived from the QUBO matrix $Q$ and vector $\mathbf{c}$. By construction, the target Hamiltonian $\hat{H}_C$ is diagonal in the computational basis, meaning its ground state (the state with the minimum eigenvalue) corresponds exactly to the optimal classical bitstring.
+\subsubsection{The QAOA Circuit Ansatz: Alternating Hamiltonians}
+QAOA approaches the solution by applying an alternating sequence of two non-commuting unitary operators to an initial uniform superposition state $|\psi_0\rangle = |+\rangle^{\otimes n}$. These unitaries are generated by two distinct Hamiltonians:
 
-\subsubsection{The QAOA Circuit Ansatz}
-QAOA approaches the ground state of $\hat{H}_C$ by applying an alternating sequence of two non-commuting unitary operators to an initial quantum state. The algorithm requires an integer depth parameter $p \ge 1$, which determines the number of layers in the quantum circuit and strictly defines the expressive power of the ansatz.
-
-The system is initialized in the uniform superposition of all $2^n$ computational basis states, which represents the ground state of the transverse-field mixer Hamiltonian:
-\begin{equation}
-|\psi_0\rangle = |+\rangle^{\otimes n} = \frac{1}{\sqrt{2^n}} \sum_{x \in \{0,1\}^n} |x\rangle
-\end{equation}
-where $|+\rangle$ is the positive eigenstate of the Pauli-X operator.
-
-The quantum evolution is governed by two parametrized unitary operators applied sequentially at each layer $k \in \{1, \dots, p\}$:
 \begin{enumerate}
-    \item \textbf{The Phase Separation (Cost) Operator:} 
+    \item \textbf{Cost Hamiltonian ($\hat{H}_C$):} As defined in the QUBO mapping, this Hamiltonian encodes the "landscape" of the optimization problem. The unitary operator $\hat{U}_C(\gamma) = e^{-i\gamma \hat{H}_C}$ is applied to imprint a phase on each computational basis state proportional to its cost:
     \begin{equation}
-    \hat{U}_C(\gamma_k) = e^{-i\gamma_k \hat{H}_C} = \prod_{i<j} e^{-i\gamma_k J_{ij} \hat{Z}_i \hat{Z}_j} \prod_{i=1}^n e^{-i\gamma_k h_i \hat{Z}_i}
+    \hat{U}_C(\gamma) \lvert x \rangle = e^{-i\gamma f(x)} \lvert x \rangle
     \end{equation}
-    where $\gamma_k \in [0, 2\pi)$. Since all terms in $\hat{H}_C$ commute, this multi-qubit unitary can be exactly decomposed into exact two-qubit ($ZZ$) and single-qubit ($Z$) rotations. This operator imprints a phase on each computational basis state proportional to its classical cost.
+    This phase separation step allows the circuit to distinguish between different candidate solutions.
     
-    \item \textbf{The Mixing Operator:}
+    \item \textbf{Mixing Hamiltonian ($\hat{H}_M$):} To allow for transitions between sequences and explore the solution space effectively, a "mixer" is required to counteract the phase-locking of the cost Hamiltonian. In this research, we use the standard transverse field mixer:
     \begin{equation}
-    \hat{U}_M(\beta_k) = e^{-i\beta_k \hat{H}_M} = \prod_{i=1}^n e^{-i\beta_k \hat{X}_i}
+    \hat{H}_M = \sum_{i=1}^n \hat{X}_i
     \end{equation}
-    where $\hat{H}_M = \sum_{i=1}^n \hat{X}_i$ is the mixer Hamiltonian and $\beta_k \in [0, \pi)$. This operator drives transitions between different computational basis states, inducing quantum interference and enabling the exploration of the solution space.
+    The corresponding unitary $\hat{U}_M(\beta) = e^{-i\beta \hat{H}_M}$ induces rotations around the X-axis for each qubit, enabling quantum tunneling and interference between different peptide sequences.
 \end{enumerate}
 
-The final parametrized trial wavefunction, characterized by the $2p$-dimensional parameter vectors $\boldsymbol{\gamma} = (\gamma_1, \dots, \gamma_p)$ and $\boldsymbol{\beta} = (\beta_1, \dots, \beta_p)$, is generated by the product of these alternating layers:
+The final trial wavefunction for a depth $p$ is constructed as:
 \begin{equation}
-|\psi(\boldsymbol{\gamma}, \boldsymbol{\beta})\rangle = \prod_{k=1}^p \Big[ \hat{U}_M(\beta_k) \hat{U}_C(\gamma_k) \Big] |+\rangle^{\otimes n}
+\lvert \psi(\gamma, \beta) \rangle = \hat{U}_M(\beta_p)\hat{U}_C(\gamma_p) \cdots \hat{U}_M(\beta_1)\hat{U}_C(\gamma_1) \lvert + \rangle^{\otimes n}
 \end{equation}
+The vectors of variational parameters $\gamma$ and $\beta$ are optimized classically to minimize the energy expectation value or a risk-based metric.
 
-\subsubsection{Objective Function and the Hybrid Optimization Loop}
-The execution of QAOA relies on a hybrid architecture where the Quantum Processing Unit (QPU) evaluates the objective function, and a classical CPU optimizes the parameters. The standard objective is to minimize the quantum expectation value of the Cost Hamiltonian:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/qaoa_demonstration.png}
+    \caption{Structure of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition, followed by alternating layers of the cost unitary $\hat{U}_C(\gamma)$ and the mixer unitary $\hat{U}_M(\beta)$. The final state is measured in the computational basis to sample outcomes.}
+    \label{fig:QAOA_circ}
+\end{figure}
+
+\subsubsection{Adiabatic Limit and Approximation Ratio}
+The theoretical robustness of QAOA is linked to the adiabatic theorem. As the depth $p$ increases, the sequence of unitaries can be interpreted as a Trotterized version of a time-dependent adiabatic schedule. If the parameters are adjusted such that they follow an annealing-like profile, the state will converge to the global minimum of $\hat{H}_C$ as $p \to \infty$. For finite $p$, the algorithm provides an approximate solution, characterized by the approximation ratio $\alpha$. 
+
+In our sequence design experiments, we depart from the standard approach of minimizing the mean expectation value. Instead, we optimize the convergence using the \textbf{Conditional Value at Risk (CVaR)} cost function.
+
+While the standard expectation value $E = \langle \hat{H}_C \rangle$ averages over all samples, CVaR focuses exclusively on the "tail" of the distribution. For a confidence level $\alpha \in (0, 1]$, the $CVaR_{\alpha}$ is defined as the average of the best $100\alpha\%$ of the measurements:
 \begin{equation}
-E(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \langle \psi(\boldsymbol{\gamma}, \boldsymbol{\beta}) | \hat{H}_C | \psi(\boldsymbol{\gamma}, \boldsymbol{\beta}) \rangle = \sum_{x \in \{0,1\}^n} P(x | \boldsymbol{\gamma}, \boldsymbol{\beta}) f(x)
+CVaR_{\alpha}(\boldsymbol{\theta}) = \frac{1}{\lceil \alpha K \rceil} \sum_{k=1}^{\lceil \alpha K \rceil} e_k
 \end{equation}
-where $P(x | \boldsymbol{\gamma}, \boldsymbol{\beta}) = |\langle x | \psi(\boldsymbol{\gamma}, \boldsymbol{\beta}) \rangle|^2$ is the probability of measuring the classical state $x$, and $f(x)$ is its associated classical cost.
+where $E = \{e_1, e_2, \dots, e_K\}$ is the set of energies from $K$ shots sorted in ascending order. 
 
-To evaluate $E(\boldsymbol{\gamma}, \boldsymbol{\beta})$, the QPU prepares the state $|\psi(\boldsymbol{\gamma}, \boldsymbol{\beta})\rangle$ and measures it in the computational (Z) basis. Due to the stochastic nature of quantum mechanics, this process must be repeated over $K$ measurement shots to obtain a statistically robust sample mean. The empirical estimation is then fed into a classical derivative-free optimizer (such as COBYLA) or a gradient-based method (utilizing the parameter-shift rule) to update $\boldsymbol{\gamma}$ and $\boldsymbol{\beta}$ iteratively. 
+By setting $\alpha$ to a small value (e.g., 0.1), the classical optimizer focuses on improving the probability of sampling the best solutions rather than shifting the entire distribution. This approach is particularly effective for discrete energy landscapes and NISQ devices, as it effectively mitigates the impact of noise and local minima by ignoring the high-energy "background" and focusing on the relevant low-energy states.
 
-As the circuit depth $p \to \infty$, QAOA is theoretically guaranteed to converge to the exact global optimum, mirroring the adiabatic theorem. However, for practical Noisy Intermediate-Scale Quantum (NISQ) implementations where $p$ must remain strictly finite to avoid decoherence, the sample mean expectation value often presents a highly flat optimization landscape (barren plateaus). In such scenarios, advanced aggregation metrics like the Conditional Value-at-Risk ($\text{CVaR}_\alpha$) are employed within the classical loop to focus the optimizer exclusively on the lowest-energy tail of the measurement distribution, drastically improving the algorithmic convergence rate.
+\subsection{Optimization Algorithms for Hybrid Workflows}
+A defining characteristic of Variational Quantum Algorithms is their reliance on a classical optimization loop to mitigate the limitations of current-generation quantum hardware. The objective functions generated by VQAs are often characterized by non-convex landscapes, stochasticity derived from finite measurement shots, and hardware-induced noise. Consequently, the selection of the classical optimizer is critical. In this research, we focus on derivative-free methods, which are particularly robust in the presence of noise and avoid the high computational cost of estimating gradients on NISQ devices.
 
+\subsubsection{Constrained Optimization BY Linear Approximations (COBYLA)}
+COBYLA is a deterministic, model-based trust-region algorithm originally developed by M. J. D. Powell for solving non-linearly constrained optimization problems. Unlike gradient-based methods, COBYLA operates by constructing linear approximations of both the objective function and the constraints. For an $n$-dimensional problem, these linear models are formed by interpolating the functions at the vertices of a simplex comprising $n+1$ points in the parameter space.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\subsubsection{OPTICS clusterization}
-
-Ordering Points To Identify the Clustering Structure (OPTICS) is an algorithm for finding density-based clusters \cita{Ankerst1999}. That means that a cluster is a set of data objects spread in the data space over a contiguous region of high data objects density, and is separated from other clusters by contiguous regions of low density data objects. Although closely related to DBSCAN \cita{Ester1996}, it was developed to address its main limitation in handling clusters of varying density. DBSCAN requires choosing a single neighborhood radius, \(\epsilon\), which defines the maximum distance between two points for them to be considered neighbors, and this becomes problematic when clusters have different local densities. OPTICS addresses this by computing clusters for multiple \(\epsilon\) values in a single run.
-
-To identify clusters, OPTICS arranges the data points in a linear order where spatially closest points become neighbors. Additionally, it computes the reachability distance for each point and its nearest neighbors, which quantifies how difficult it is to reach one point from another. Plotting the reachability distance against the new data ordering yields the reachability plot (Fig. \ref{fig:Optics}), a graph that helps to visualize the cluster structures. Since points in a cluster have a low reachability distance to their nearest neighbor, clusters appear as valleys in the reachability plot, separated by peaks of high reachability distance corresponding to the transition to a different cluster.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/OPTICS_demo.png}
-    \caption{OPTICS clustering applied to synthetic data. Top left shows the raw 2D point distribution; top right overlays the OPTICS spanning tree, with each point colored by its assigned cluster; bottom displays the reachability plot in OPTICS order, where valleys correspond to dense clusters and peaks indicate transitions between clusters. Graphs were generated with Matplotlib using synthetic data in arbitrary units.}
-    \label{fig:Optics}
-\end{figure}
-
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-
-\subsection{Supervised Learning}
-Supervised learning involves training algorithms on labeled data to predict outcomes and recognize patterns. Unlike unsupervised learning, each data entry is assigned one or more dependent variables, known as outputs or targets. In other words, supervised learning methods are given (multidimensional) input-output pairs with the objective of learning the underlying relationships between and predict the outcome of new data based on the input features. Depending on the nature of the problem and the dependent variables, supervised learning can be divided into classification and regression task.
-
-In a classification task, the aim is to assign data instances into specific groups or categories. Binary classification is a subtype of classification task in which each data point is assigned to one of two possible classes. For instance, in Section \ref{chap3}, CPs were classified into high-permeability or low-permeability categories. In contrast, in multi-class classification each instance is classified into one of multiple possible classes. This is the case presented in Section \ref{chap2}, where CPs were labeled as Lipophilic, Intermediate or Lipophobic. Furthermore, if a data point can belong to multiple categories simultaneously, the task is known as multi-label classification.
-
-In contrast to classification, in regression tasks the models try to predict continuous numerical values. This was used in both Section \ref{chap2} and Section \ref{chap3}. In Section \ref{chap2}, a pseudo-permeability value computed from MD simulations served as target, while in Section \ref{chap3}, experimentally derived permeability was used as the output variable.
-
-A plethora of algorithms have been developed to make predictions in a supervised learning fashion. Apart from their differences in the underlying mathematical methods, one can differentiate supervised learning algorithms based on their complexity. Common algorithms like \textit{K}-Nearest Neighbors, Decision Trees or Support Vector Machines (SVM) are of lower complexity and commonly used as benchmarks for more sophisticated models. In this thesis, the main predictive models used fall under the Neural Network (NN) category. NNs are high-complexity supervised models inspired by the structure and function of biological neural networks. They consist of connected units, often called nodes or neurons, typically aggregated into layers. When a ML model includes multiple NN layers, as in this research, it is referred to as a Deep Learning (DL) model. The following sections describe the main layers used to build the predictive models featured in this thesis.
-
-\subsubsection{Multilayer Perceptron}
-In multilayer perceptrons (MLPs), neurons are organized into successive fully connected layers, with all connections occurring between adjacent layers. An MLP is a specific type of feedforward neural network (FNN) containing at least one hidden layer. It consists of an input layer that receives the data, one or more hidden layers, and an output layer that produces the final prediction (Fig. \ref{fig:MLP}).
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.65\linewidth, trim = {0 100 0 50}, clip]{General_Sections/Figures/MLP_architecture.png}
-    \caption{Scheme of a Multilayer Perceptron. The image illustrates the architecture of a MLP with one input layer (green) that has 3 neurons, two hidden layers (black) with 6 and 4 neurons respectively, and an output layer of one neuron. The image was generated using Matplotlib.}
-    \label{fig:MLP}
-\end{figure}
-Each neuron in the hidden layer performs an affine transformation (a weighted linear combinations of the inputs plus a bias), the result of which is passed through a non-linear activation function before being forwarded to the next layer. Such a layered structure facilitates the learning of more complex relationships through a simpler and computationally efficient learning process. For this reason, MLPs form the basis of deep learning and are ubiquitous in modern NNs.
-
-The training process involves two main steps: forward and backward propagation. In the forward pass, instances from the training set are propagated through the neural network to compute outputs. Each neuron consists of multiple input connections \(x\), weights \(w\) assigned to the input connections, an activation fuction \(f\), and a single output \(y\). The inputs typically come from outputs of previous neurons, and one of them may serve as a bias term \(b\). The neuron first computes the weighted sum of the inputs as shown in Equation \ref{sum_neuron}, and then applies the activation function to obtain the output value (Eq. \ref{act_f}), the activation functions in MLPs are non-linear functions that transform the linear combination of inputs into the final output.
-\begin{equation}\label{sum_neuron}
-    z = \sum_ix_iw_i+b
+At each iteration $k$, the algorithm constructs a linear model of the objective function $\hat{f}_k(x)$ and linear models of the constraint functions $\hat{c}_{k,i}(x)$. It then formulates a trust-region subproblem bounded by a trust-region radius $\Delta_k$:
+\begin{equation}
+\begin{aligned}
+\min_{x \in \mathbb{R}^n} \quad & \hat{f}_k(x) \\
+\text{s.t.} \quad & \hat{c}_{k,i}(x) \le 0, \quad i \in I \\
+& \|x - x_k\| \le \Delta_k
+\end{aligned}
 \end{equation}
-\begin{equation}\label{act_f}
-    y = f(z)
-\end{equation}
+where $x_k$ is the center of the current trust region and $I$ is the set of constraint indices. COBYLA employs a two-stage approach to compute the next trial point, minimizing the maximum constraint violation before addressing the objective function. Furthermore, to maintain numerical stability, the algorithm incorporates a geometry-improving mechanism to ensure that the volume of the simplex does not collapse.
 
-After each instance \(x_i\), a loss function \(L\) is computed to measure the prediction error by comparing the predicted value to the ground truth \(y_i\). During the backward pass, the backpropagation algorithm passes the prediction error back through the network layer by layer to adjust the weights and reduce the error in future predictions. First, the chain rule (Eq. \ref{chain}) automatically computes the gradient of the error with respect to each weight. Then, the partial derivative of the loss function with respect to each weight is computed for the current set of weights \(W\), input features \(x_i\), and expected targets \(y_i\). This results in a vector \(G\) that points in the direction of the steepest increase in the loss (Eq. \ref{grad}). Finally, the loss is minimized by updating the weights in the opposite direction of the gradient (Eq. \ref{updateMLP}). The magnitude of the update to the weights \(W\) is influenced by the magnitude of the gradient \(G\) and a customary parameter \(\alpha\), know as learning rate.
-\begin{equation}\label{chain}
-    [f(g(x))]' = f'(g(x))\cdot g'(x)
-\end{equation}
-\begin{equation}\label{grad}
-    G= \left(\frac{\partial L(W:x_i,y_i)}{dw_1}, \frac{\partial L(W:x_i,y_i)}{dw_2},..., \frac{\partial L(W:x_i,y_i)}{dw_{|W|}} \right)
-\end{equation}
-\begin{equation}\label{updateMLP}
-    w_j \leftarrow w_j - \alpha \cdot \frac{\partial L(W:x_i,y_i)}{dw_j}
-\end{equation}
+\subsubsection{Differential Evolution (DE)}
+Differential Evolution (DE) is a stochastic, population-based metaheuristic introduced by R. Storn and K. Price for global optimization over continuous spaces. The algorithm is particularly effective for the multi-modal landscapes common in quantum computing, as it relies solely on objective function evaluations and avoids trapping in local minima through its evolutionary nature.
 
-This algorithm is known as Stochastic Gradient Descent (SGD) and serves as foundation for more advanced algorithms like the adaptive moment estimation (Adam) that has been used in this work.
-\subsubsection{Convolutional Neural Networks}
-Convolutional Neural Networks (CNNs) are a type of DL network particularly effective at handling data structured as multiple arrays, due to their ability to exploit spatial dependencies, where each input value is influenced by its surrounding context. Many types of data are in the form of multiple arrays: 1D for signals or sequences; 2D for images; and 3D for volumetric images or videos. Thus, CNNs became the standard in DL-based approaches to computer vision \cita{LeCun2015}.
+DE maintains a population of $NP$ real-valued parameter vectors. The evolutionary process is driven by three main operators:
+\begin{itemize}
+    \item \textbf{Mutation:} A mutant vector $\mathbf{v}_{i,g}$ is generated by adding the scaled difference between two randomly selected population members to a third base vector.
+    \item \textbf{Crossover:} The mutant vector is recombined with the target vector using a uniform crossover probability $C_r$ to form a trial vector $\mathbf{u}_{i,g}$.
+    \item \textbf{Selection:} DE employs a strictly greedy, one-to-one deterministic selection scheme, ensuring that the trial vector survives into the next generation only if it improves the objective value.
+\end{itemize}
 
-CNNs are generally composed of convolutional layers, pooling layers and a fully-connected layer, normally a MLP (Fig. \ref{fig:CNN}).
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.99\linewidth]{General_Sections/Figures/Typical_cnn.png}
-    \caption{Scheme of a typical CNN formed by two convolutional layers, two pooling layers that perform subsampling and a fully connected part that provides the final output. Image sourced from Wikimedia Commons under a Creative Commons license. Source: \href{https://commons.wikimedia.org/wiki/File:Typical_cnn.png}{Wikimedia}}
-    \label{fig:CNN}
-\end{figure}
-The convolutional layer consists of a set of learnable filters that slide over the input performing a dot product that provides the output called feature map or activation map. Its hyperparameters include the filter size or kernel size which determine the matrix used in the convolution operation and the stride that defines how far the filter moves every step. In Section \ref{chap3}, a kernel size of 3 and a stride of 1 was used to handle CP sequences. Figure \ref{fig:convex} exemplifies the effect of these hyperparameters when handling a sequence of six amino acids.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.7\linewidth]{General_Sections/Figures/ConvExample.png}
-    \caption{Schematic example of the convolution operation in a 1D convolutional layer using a kernel size of three and a stride of 1.}
-    \label{fig:convex}
-\end{figure}
-In this example, the kernel of size three performs a dot product between the features of the three amino acids it covers at each step resulting in a new vector representing that spatial position. In the next step, the filter moves one position to the right, as specified by the value of the stride parameter, performing a new dot product. The process is repeated until the kernel reaches the end of the sequence and the feature map is completed.
 
-Then the pooling layer performs a downsampling operation on the feature map which reduces the dimensions of the data by combining the outputs of neuron clusters at one layer into a single neuron in the next layer. Although not strictly necessary, as will be shown in Section \ref{chap3}, the pooling layers help to reduce the dimensions of the input to the fully-connected layer. For instance, consider an input image of size \(28 \times 28\), and a convolutional layer that outputs a \(24 \times 24 \times 16\) feature map. Since the fully-connected layer only handles 1D vectors, flattening the feature map will lead to a vector of size \(24 \cdot 24 \cdot 16=9216\). However, if a \(2 \times 2\) pooling layer with stride 2 is used, the feature map will shrink to \(12 \times 12 \times 16\) vector, which after flattening results in a vector of size 2304. This dimensionality reduction lowers the number of parameters and computations in the MLP which can help to avoid overfitting.
 
-Optionally, after the pooling layer, another convolutional layer can be used. When this happens the structure of the CNN becomes hierarchical, since later layers perform convolution on the feature maps of the previous layers. As a result, layers closer to the input capture simpler patterns, while deeper layers build on them to learn more abstract and complex features.
 
-Finally, the fully-connected layer works on a flattened feature vector extracted through the previous layers to perform a regression or a classification task.
-\subsubsection{Long Short-Term Memory}
-The Long Short-Term Memory (LSTM) is an enhanced version of the Recurrent Neural Networks (RNNs). RNNs are specialized in handling sequential or time-dependent data by retaining a hidden state that stores information from previous time steps and transfers it to subsequent ones. Nevertheless, RNNs have struggled to learn long-term dependencies, as the vanishing and exploding gradient problems hinder the flow of information across many time steps. As commented in section \ref{ML_intro}, Hochreiter and Schmidhuber, designed LSTM to mitigate the vanishing gradient problem of conventional RNNs \cita{Pascanu2013}. The vanishing gradient problem limits the ability of RNNs to learn long-term dependencies, due to gradients becoming smaller as the input sequence becomes larger, making earlier information irrelevant. On the other hand, the exploding gradient problem can be mitigated using the gradient clipping technique, which prevents gradients from becoming too large.
 
-In order to handle the vanishing gradient and allow long-term memory capabilities, LSTM implements a cell state \(C_t\), which is controlled by three gates (Fig. \ref{fig:LSTM}):
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/LSTM_cell.png}
-    \caption{Schematics of a LSTM cell. Arrows that split depict that the information is copied, orange rectangles represent layers, and lime circles element-wise operations whether multiplication or addition. Image adapted from Wikimedia commons under a Creative Commons license. Source: \href{https://commons.wikimedia.org/wiki/File:LSTM_cell.svg}{Wikimedia}}
-    \label{fig:LSTM}
-\end{figure}
-The input gate controls what information is stored in the cell state, the forget gate determines what information should be removed from the cell state, and the output gate controls what information should be passed to the output at the current step. This mechanism allows LSTM networks to control the flow of information by selectively retaining or discarding information at each time step.
 
-In Section \ref{chap3}, an LSTM layer is used as part of a NN to predict CP experimental membrane permeability. Although RNNs are typically used for tasks such as speech recognition, machine translation, and natural language processing, LSTM has been successfully applied to peptide function prediction \cita{Yi2019}\textsuperscript{,}\cita{Han2022}. This success may come from the fact that peptides are sequences of amino acids where non-adjacent residues can be spatially close, making long-range dependencies important.
 
-\subsubsection{Graph Neural Networks}
-Graph Neural Networks (GNNs) are specialized NNs designed to use graphs as input. Graphs are mathematical structures that model pairwise relations between objects. Each object is abstracted as a node (also called vertex) \(V\), and every pairwise connection is represented by an edge \(E\). Therefore, a graph is an ordered pair \(G=(V,E)\). GNNs have found applications in several fields like social media \cita{Fan2019}, knowledge graphs \cita{Hamaguchi2017}, or cyber security \cita{Wang2022}. Another prominent field for GNNs is chemistry, apart from AlphaFold, in which GNNs are one of the main building blocks, they are also well suited for drug design \cita{Stokes2020}. Their particular relevance for chemistry is due to the structural similarity of molecules and graphs. As illustrated in Figure \ref{fig:molgraph}, molecules can be represented as graphs, where atoms are nodes and chemical bonds are edges. Additionally, both nodes and edges can carry information through feature vectors, \(h_v\) for nodes and \(e_{vw}\) for edges, providing GNNs with complete molecular information \cita{Reiser2022}.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/mol2graph.png}
-    \caption{Conversion of the caffeine molecule into a graph, where atoms are nodes and bonds are edges.}
-    \label{fig:molgraph}
-\end{figure}
 
-The key feature of modern GNNs is the use of \textit{message passing}. In message passing, each node shares information with neighboring nodes via the edges that connect them, and aggregate that information to update their own feature vector. This mechanism not only provided a framework to model dependencies and interactions in graph data, but also included the representation of edges which was not present in Graph Convolutional Networks. This mechanism was included in 2017 with the advent of the Message Passing Neural Network (MPNN) which showed unprecedented performance in the prediction of molecular properties and became the foundation of subsequent GNNs \cita{Gilmer2017}.
 
-The MPNN framework consist of four phases: initialization, message passing, update and readout. First, the graph \(G\) is initialized with \(h_v^0\) node features and \(e_{vw}\) edge features, where \(v,w \in G\). In the message passing phase, messages \(m_v^{t+1}\) are calculated based on a message passing function \(M_t\), which takes into account the feature vector of the receptor node \(h_v^t\), the feature vector of the emitter neighbor node \(h_w^t\), and the feature vector of the edge \(e_{vw}\) that acts as channel (Eq. \ref{message}):
-\begin{equation}\label{message}
-    m_v^{t+1} = \sum_{w \in N(v)}M_t(h_v^t,h_w^t,e_{vw})
-\end{equation}
-Where \(N(v)= \{u \in V|(u,v) \in E\}\) is the set of neighbors of node \(v\). In the update phase, hidden states of the nodes \(h_v^{t+1}\) are computed by an update function \(U_t\) using the previous state of the node feature and the message computed in the previous phase (Eq. \ref{update}):
-\begin{equation}\label{update}
-    h_v^{t+1} = U_t(h_v^t,m_{v}^{t+1})
-\end{equation}
-Message passing and update processes are repeated \(T\) steps, until node \(v\) reaches a hidden state \(h_v^T\). Then, a readout function \(R\) computes a feature vector for the whole graph (Eq. \ref{readout}), which can then be used for regression or classification tasks.
-\begin{equation}\label{readout}
-    y = R(h_v^T, h_v^0)
-\end{equation}
 
-The MPNN scaffold allows a plethora of variations since NNs can be used as message, update, and readout functions. In Section \ref{chap2}, the original MPNN proposed by Gilmer and co-workers\supercite{Gilmer2017} was trained on CG-based graphs to perform both classification and regression tasks aimed at predicting MD results.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Challenges and Noise Mitigation in the NISQ Era}
+The transition from theoretical quantum algorithms to practical hardware implementation is hindered by several physical limitations inherent to current quantum processors. Understanding these challenges and the techniques to overcome them is crucial for interpreting the results of this thesis.
+
+\subsubsection{Decoherence and Gate Errors}
+The performance of NISQ devices is primarily limited by the interaction of qubits with their surrounding environment, a process known as \textbf{Decoherence}. This results in the loss of quantum information over time, characterized by the $T_1$ (relaxation) and $T_2$ (dephasing) timescales. Furthermore, individual gate operations and qubit measurements are subject to errors due to imperfect control signals and hardware cross-talk. Typical two-qubit gate fidelities on current hardware range from 95\% to 99.9\%, which restricts the maximum depth $p$ of the circuits that can be executed before noise dominates the output.
+
+\subsubsection{Error Mitigation Techniques}
+While full Fault-Tolerant Quantum Computing (FTQC) requires thousands of physical qubits to encode a single logical qubit, the NISQ era relies on \textbf{Quantum Error Mitigation (QEM)} to extract meaningful signals from noisy data without the need for additional qubits. Key techniques utilized in this field include:
+\begin{itemize}
+    \item \textbf{Zero-Noise Extrapolation (ZNE):} This technique involves intentionally increasing the noise level of a circuit (e.g., by stretching pulses or folding gates) and then extrapolating the results back to the theoretical "zero-noise" limit.
+    \item \textbf{Measurement Error Mitigation (Readout Mitigation):} Uses a calibration matrix (assignment matrix) to correct the probability distributions of measurement outcomes, compensating for qubits being misidentified during readout.
+    \item \textbf{Probabilistic Error Cancellation (PEC):} Represents a noise-free circuit as a quasi-probability distribution of noisy circuits, allowing for the cancellation of bias at the cost of increased sampling (shots).
+\end{itemize}
+By applying these post-processing methods, we can significantly improve the accuracy of energy estimations in VQE and the success probability of sequence sampling in QAOA.

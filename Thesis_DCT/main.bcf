@@ -2489,19 +2489,7 @@
     <bcf:citekey order="106" intorder="1">plumed</bcf:citekey>
     <bcf:citekey order="107" intorder="1">Laio2002</bcf:citekey>
     <bcf:citekey order="108" intorder="1">Barducci2008</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">Ankerst1999</bcf:citekey>
-    <bcf:citekey order="110" intorder="1">Ester1996</bcf:citekey>
-    <bcf:citekey order="111" intorder="1">LeCun2015</bcf:citekey>
-    <bcf:citekey order="112" intorder="1">Pascanu2013</bcf:citekey>
-    <bcf:citekey order="113" intorder="1">Yi2019</bcf:citekey>
-    <bcf:citekey order="114" intorder="1">Han2022</bcf:citekey>
-    <bcf:citekey order="115" intorder="1">Fan2019</bcf:citekey>
-    <bcf:citekey order="116" intorder="1">Hamaguchi2017</bcf:citekey>
-    <bcf:citekey order="117" intorder="1">Wang2022</bcf:citekey>
-    <bcf:citekey order="118" intorder="1">Stokes2020</bcf:citekey>
-    <bcf:citekey order="119" intorder="1">Reiser2022</bcf:citekey>
-    <bcf:citekey order="120" intorder="1">Gilmer2017</bcf:citekey>
-    <bcf:citekey order="121" intorder="1">Gilmer2017</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">nielsen2010quantum</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
