@@ -3521,1084 +3521,6 @@
       \endverb
       \keyw{Antimicrobial peptides,Coarse-grained molecular dynamics simulations,D,Differential scanning calorimetry,L-α-cyclic peptides,Polarized ATR-FTIR,Self-assembled cyclic peptide nanotubes}
     \endentry
-    \entry{Samuel2000}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=a34c1ec201fc249b01c996cf319ea383}{%
-           family={Samuel},
-           familyi={S\bibinitperiod},
-           given={A.\bibnamedelimi L.},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \strng{namehash}{a34c1ec201fc249b01c996cf319ea383}
-      \strng{fullhash}{a34c1ec201fc249b01c996cf319ea383}
-      \strng{fullhashraw}{a34c1ec201fc249b01c996cf319ea383}
-      \strng{bibnamehash}{a34c1ec201fc249b01c996cf319ea383}
-      \strng{authorbibnamehash}{a34c1ec201fc249b01c996cf319ea383}
-      \strng{authornamehash}{a34c1ec201fc249b01c996cf319ea383}
-      \strng{authorfullhash}{a34c1ec201fc249b01c996cf319ea383}
-      \strng{authorfullhashraw}{a34c1ec201fc249b01c996cf319ea383}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0018-8646}
-      \field{issue}{1.2}
-      \field{journaltitle}{IBM Journal of Research and Development}
-      \field{month}{1}
-      \field{title}{Some studies in machine learning using the game of checkers}
-      \field{volume}{44}
-      \field{year}{2000}
-      \field{pages}{206\bibrangedash 226}
-      \range{pages}{21}
-      \verb{doi}
-      \verb 10.1147/rd.441.0206
-      \endverb
-      \verb{urlraw}
-      \verb http://ieeexplore.ieee.org/document/5389202/
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/5389202/
-      \endverb
-    \endentry
-    \entry{Hebb2005}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=0936ba42efb531e9326dc3645bd832b1}{%
-           family={Hebb},
-           familyi={H\bibinitperiod},
-           given={D.O.},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Psychology Press}%
-      }
-      \strng{namehash}{0936ba42efb531e9326dc3645bd832b1}
-      \strng{fullhash}{0936ba42efb531e9326dc3645bd832b1}
-      \strng{fullhashraw}{0936ba42efb531e9326dc3645bd832b1}
-      \strng{bibnamehash}{0936ba42efb531e9326dc3645bd832b1}
-      \strng{authorbibnamehash}{0936ba42efb531e9326dc3645bd832b1}
-      \strng{authornamehash}{0936ba42efb531e9326dc3645bd832b1}
-      \strng{authorfullhash}{0936ba42efb531e9326dc3645bd832b1}
-      \strng{authorfullhashraw}{0936ba42efb531e9326dc3645bd832b1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9781410612403}
-      \field{journaltitle}{The Organization of Behavior}
-      \field{month}{4}
-      \field{title}{The Organization of Behavior}
-      \field{year}{2005}
-      \verb{doi}
-      \verb 10.4324/9781410612403
-      \endverb
-      \verb{urlraw}
-      \verb https://www.taylorfrancis.com/books/9781135631918
-      \endverb
-      \verb{url}
-      \verb https://www.taylorfrancis.com/books/9781135631918
-      \endverb
-    \endentry
-    \entry{Rosenblatt1958}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=1750cd87a34d44119e7a4aab9b8012c6}{%
-           family={Rosenblatt},
-           familyi={R\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{1750cd87a34d44119e7a4aab9b8012c6}
-      \strng{fullhash}{1750cd87a34d44119e7a4aab9b8012c6}
-      \strng{fullhashraw}{1750cd87a34d44119e7a4aab9b8012c6}
-      \strng{bibnamehash}{1750cd87a34d44119e7a4aab9b8012c6}
-      \strng{authorbibnamehash}{1750cd87a34d44119e7a4aab9b8012c6}
-      \strng{authornamehash}{1750cd87a34d44119e7a4aab9b8012c6}
-      \strng{authorfullhash}{1750cd87a34d44119e7a4aab9b8012c6}
-      \strng{authorfullhashraw}{1750cd87a34d44119e7a4aab9b8012c6}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1939-1471}
-      \field{issue}{6}
-      \field{journaltitle}{Psychological Review}
-      \field{month}{11}
-      \field{title}{The perceptron: A probabilistic model for information storage and organization in the brain.}
-      \field{volume}{65}
-      \field{year}{1958}
-      \field{pages}{386\bibrangedash 408}
-      \range{pages}{23}
-      \verb{doi}
-      \verb 10.1037/h0042519
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.apa.org/doi/10.1037/h0042519
-      \endverb
-      \verb{url}
-      \verb https://doi.apa.org/doi/10.1037/h0042519
-      \endverb
-      \keyw{PERCEPTION}
-    \endentry
-    \entry{Rumelhart1986}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=55cd5380bb5b15032a6d5a2015f56e3f}{%
-           family={Rumelhart},
-           familyi={R\bibinitperiod},
-           given={David\bibnamedelima E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=813bd95fe553e6079cd53a567b238287}{%
-           family={Hinton},
-           familyi={H\bibinitperiod},
-           given={Geoffrey\bibnamedelima E.},
-           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=6cbc29ad7fd57ffdb9ed4728418fd988}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={Ronald\bibnamedelima J.},
-           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{3c6614c24b144f1599c64619f275bade}
-      \strng{fullhash}{fd75cea68d6982b503a0cd84f7cc7b51}
-      \strng{fullhashraw}{fd75cea68d6982b503a0cd84f7cc7b51}
-      \strng{bibnamehash}{fd75cea68d6982b503a0cd84f7cc7b51}
-      \strng{authorbibnamehash}{fd75cea68d6982b503a0cd84f7cc7b51}
-      \strng{authornamehash}{3c6614c24b144f1599c64619f275bade}
-      \strng{authorfullhash}{fd75cea68d6982b503a0cd84f7cc7b51}
-      \strng{authorfullhashraw}{fd75cea68d6982b503a0cd84f7cc7b51}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0028-0836}
-      \field{issue}{6088}
-      \field{journaltitle}{Nature}
-      \field{month}{10}
-      \field{title}{Learning representations by back-propagating errors}
-      \field{volume}{323}
-      \field{year}{1986}
-      \field{pages}{533\bibrangedash 536}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1038/323533a0
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/323533a0
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/323533a0
-      \endverb
-      \keyw{Humanities and Social Sciences,Science,multidisciplinary}
-    \endentry
-    \entry{Hochreiter1997}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=41b31e29fb2bdbf9f5c9c1b0d5b3e815}{%
-           family={Hochreiter},
-           familyi={H\bibinitperiod},
-           given={Sepp},
-           giveni={S\bibinitperiod}}}%
-        {{hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
-           family={Schmidhuber},
-           familyi={S\bibinitperiod},
-           given={Jürgen},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Neural Comput}%
-      }
-      \strng{namehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \strng{fullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \strng{fullhashraw}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \strng{bibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \strng{authorbibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \strng{authornamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \strng{authorfullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \strng{authorfullhashraw}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0899-7667}
-      \field{issue}{8}
-      \field{journaltitle}{Neural Computation}
-      \field{month}{11}
-      \field{title}{Long Short-Term Memory}
-      \field{volume}{9}
-      \field{year}{1997}
-      \field{pages}{1735\bibrangedash 1780}
-      \range{pages}{46}
-      \verb{doi}
-      \verb 10.1162/neco.1997.9.8.1735
-      \endverb
-      \verb{urlraw}
-      \verb https://direct.mit.edu/neco/article/9/8/1735-1780/6109
-      \endverb
-      \verb{url}
-      \verb https://direct.mit.edu/neco/article/9/8/1735-1780/6109
-      \endverb
-      \keyw{Algorithms*,Computer*,J Schmidhuber,Learning,MEDLINE,Models,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,Nerve Net / physiology,Neural Networks,Neurological*,Non-U.S. Gov't,Psychological,PubMed Abstract,Research Support,S Hochreiter,Time Factors,doi:10.1162/neco.1997.9.8.1735,pmid:9377276}
-    \endentry
-    \entry{Krizhevsky2017}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
-           family={Krizhevsky},
-           familyi={K\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8d569d1d5b8b5a7836017a98b430f959}{%
-           family={Sutskever},
-           familyi={S\bibinitperiod},
-           given={Ilya},
-           giveni={I\bibinitperiod}}}%
-        {{hash=813bd95fe553e6079cd53a567b238287}{%
-           family={Hinton},
-           familyi={H\bibinitperiod},
-           given={Geoffrey\bibnamedelima E.},
-           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ACMPUB27New York, NY, USA}%
-      }
-      \strng{namehash}{dd291871bfa8ee64447232f1cca429aa}
-      \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{fullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{authornamehash}{dd291871bfa8ee64447232f1cca429aa}
-      \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
-      \strng{authorfullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0001-0782}
-      \field{issue}{6}
-      \field{journaltitle}{Communications of the ACM}
-      \field{month}{5}
-      \field{title}{ImageNet classification with deep convolutional neural networks}
-      \field{volume}{60}
-      \field{year}{2017}
-      \field{pages}{84\bibrangedash 90}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1145/3065386
-      \endverb
-      \verb{urlraw}
-      \verb https://dl.acm.org/doi/10.1145/3065386
-      \endverb
-      \verb{url}
-      \verb https://dl.acm.org/doi/10.1145/3065386
-      \endverb
-    \endentry
-    \entry{Behler2007}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=eb5240658f030eb9bd974d7ce12c74d2}{%
-           family={Behler},
-           familyi={B\bibinitperiod},
-           given={Jörg},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6f595160245adfcee55d0a5e4cdcd751}{%
-           family={Parrinello},
-           familyi={P\bibinitperiod},
-           given={Michele},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{67aefa9eeeefbd2f0f38051faa418680}
-      \strng{fullhash}{67aefa9eeeefbd2f0f38051faa418680}
-      \strng{fullhashraw}{67aefa9eeeefbd2f0f38051faa418680}
-      \strng{bibnamehash}{67aefa9eeeefbd2f0f38051faa418680}
-      \strng{authorbibnamehash}{67aefa9eeeefbd2f0f38051faa418680}
-      \strng{authornamehash}{67aefa9eeeefbd2f0f38051faa418680}
-      \strng{authorfullhash}{67aefa9eeeefbd2f0f38051faa418680}
-      \strng{authorfullhashraw}{67aefa9eeeefbd2f0f38051faa418680}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007}
-      \field{issue}{14}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{4}
-      \field{title}{Generalized Neural-Network Representation of High-Dimensional Potential-Energy Surfaces}
-      \field{volume}{98}
-      \field{year}{2007}
-      \field{pages}{146401}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.98.146401
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.98.146401
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.98.146401
-      \endverb
-    \endentry
-    \entry{Jumper2021}{article}{}{}
-      \name{author}{34}{}{%
-        {{hash=10a7a824028a842a17d901b4ec09993d}{%
-           family={Jumper},
-           familyi={J\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-        {{hash=173072a12c87679d6e0aeed7dbfb2abc}{%
-           family={Evans},
-           familyi={E\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-        {{hash=4295e4094c426f01903ac60155866130}{%
-           family={Pritzel},
-           familyi={P\bibinitperiod},
-           given={Alexander},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3e0f493c1ce741283206bf1f0d3c12f5}{%
-           family={Green},
-           familyi={G\bibinitperiod},
-           given={Tim},
-           giveni={T\bibinitperiod}}}%
-        {{hash=79e7b7b6d4522585cad02503c7d5c53c}{%
-           family={Figurnov},
-           familyi={F\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=8e46da9de9e53ea5d37089897d69cdd9}{%
-           family={Ronneberger},
-           familyi={R\bibinitperiod},
-           given={Olaf},
-           giveni={O\bibinitperiod}}}%
-        {{hash=c65f7c717e43948afa4c164334478ff0}{%
-           family={Tunyasuvunakool},
-           familyi={T\bibinitperiod},
-           given={Kathryn},
-           giveni={K\bibinitperiod}}}%
-        {{hash=8fdcc93ec2f81694fe0e05f9515307f0}{%
-           family={Bates},
-           familyi={B\bibinitperiod},
-           given={Russ},
-           giveni={R\bibinitperiod}}}%
-        {{hash=314115f4f8838d7bcb17334f981615d0}{%
-           family={Žídek},
-           familyi={Ž\bibinitperiod},
-           given={Augustin},
-           giveni={A\bibinitperiod}}}%
-        {{hash=4b3acabda3fd87e1abd111ed903b2d51}{%
-           family={Potapenko},
-           familyi={P\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9bb6bd16bbcdb2bb998f8bc4038abede}{%
-           family={Bridgland},
-           familyi={B\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod}}}%
-        {{hash=10928a06d1ffe00108ee7f051eef29a6}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Clemens},
-           giveni={C\bibinitperiod}}}%
-        {{hash=c8db325f01e156e511c9a87a5e890d22}{%
-           family={Kohl},
-           familyi={K\bibinitperiod},
-           given={Simon\bibnamedelimb A.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=8e2b07cf777b4e100518006a0306d430}{%
-           family={Ballard},
-           familyi={B\bibinitperiod},
-           given={Andrew\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=699f0d8b3b8c59a0bf815183b5a587d1}{%
-           family={Cowie},
-           familyi={C\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a4ad88ba00428c727fd7a7295f097c6d}{%
-           family={Romera-Paredes},
-           familyi={R\bibinithyphendelim P\bibinitperiod},
-           given={Bernardino},
-           giveni={B\bibinitperiod}}}%
-        {{hash=948ac64053194ba4926e57c400b43dae}{%
-           family={Nikolov},
-           familyi={N\bibinitperiod},
-           given={Stanislav},
-           giveni={S\bibinitperiod}}}%
-        {{hash=e44ef077603c4c2159908f44186dedfa}{%
-           family={Jain},
-           familyi={J\bibinitperiod},
-           given={Rishub},
-           giveni={R\bibinitperiod}}}%
-        {{hash=30e117447522ea5c589b531025c81621}{%
-           family={Adler},
-           familyi={A\bibinitperiod},
-           given={Jonas},
-           giveni={J\bibinitperiod}}}%
-        {{hash=329e447b0059cd0bc92227b1dd08c81e}{%
-           family={Back},
-           familyi={B\bibinitperiod},
-           given={Trevor},
-           giveni={T\bibinitperiod}}}%
-        {{hash=4e381e44037009b1cd834d794735c311}{%
-           family={Petersen},
-           familyi={P\bibinitperiod},
-           given={Stig},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d805812e442bf9b99ef9b60be3389113}{%
-           family={Reiman},
-           familyi={R\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=19819a31d99ee8ba869ec9b7fee14613}{%
-           family={Clancy},
-           familyi={C\bibinitperiod},
-           given={Ellen},
-           giveni={E\bibinitperiod}}}%
-        {{hash=00bb8dcd0d7dc6963e2b9481ce8e7cdf}{%
-           family={Zielinski},
-           familyi={Z\bibinitperiod},
-           given={Michal},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
-           family={Steinegger},
-           familyi={S\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d33020bce7d227c8dd58677580d8df0f}{%
-           family={Pacholska},
-           familyi={P\bibinitperiod},
-           given={Michalina},
-           giveni={M\bibinitperiod}}}%
-        {{hash=de7e7f4d56e896db85f56c06f77016a4}{%
-           family={Berghammer},
-           familyi={B\bibinitperiod},
-           given={Tamas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=0c0cd2e2fbeb23bb50214e8c94c61b08}{%
-           family={Bodenstein},
-           familyi={B\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=89dbd30410c2085cd059f32c57d4593e}{%
-           family={Silver},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=494b568c5dc85ba8f3f409635f9c5f25}{%
-           family={Vinyals},
-           familyi={V\bibinitperiod},
-           given={Oriol},
-           giveni={O\bibinitperiod}}}%
-        {{hash=211e54ca76df5d8c1de6957d48792545}{%
-           family={Senior},
-           familyi={S\bibinitperiod},
-           given={Andrew\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=481308b301166b521c74fde6566e97e6}{%
-           family={Kavukcuoglu},
-           familyi={K\bibinitperiod},
-           given={Koray},
-           giveni={K\bibinitperiod}}}%
-        {{hash=d0d21ff02dda6c0a7d09ef7436bd329b}{%
-           family={Kohli},
-           familyi={K\bibinitperiod},
-           given={Pushmeet},
-           giveni={P\bibinitperiod}}}%
-        {{hash=b160026950ebb1e2286dfb40c15482f5}{%
-           family={Hassabis},
-           familyi={H\bibinitperiod},
-           given={Demis},
-           giveni={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{385b84ff9ec134408fea9aeba42f4525}
-      \strng{fullhash}{fa5dce0980388f0460da0632f0c9ade1}
-      \strng{fullhashraw}{fa5dce0980388f0460da0632f0c9ade1}
-      \strng{bibnamehash}{385b84ff9ec134408fea9aeba42f4525}
-      \strng{authorbibnamehash}{385b84ff9ec134408fea9aeba42f4525}
-      \strng{authornamehash}{385b84ff9ec134408fea9aeba42f4525}
-      \strng{authorfullhash}{fa5dce0980388f0460da0632f0c9ade1}
-      \strng{authorfullhashraw}{fa5dce0980388f0460da0632f0c9ade1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0028-0836}
-      \field{issue}{7873}
-      \field{journaltitle}{Nature}
-      \field{month}{8}
-      \field{title}{Highly accurate protein structure prediction with AlphaFold}
-      \field{volume}{596}
-      \field{year}{2021}
-      \field{pages}{583\bibrangedash 589}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1038/s41586-021-03819-2
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/s41586-021-03819-2
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/s41586-021-03819-2
-      \endverb
-      \keyw{Computational biophysics,Machine learning,Protein structure predictions,Structural biology}
-    \endentry
-    \entry{Manavalan2018}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=997024fe07ab0213c79b8fb7b3fd3e6b}{%
-           family={Manavalan},
-           familyi={M\bibinitperiod},
-           given={Balachandran},
-           giveni={B\bibinitperiod}}}%
-        {{hash=9667af6e27effa40ac6c8940908ce899}{%
-           family={Subramaniyam},
-           familyi={S\bibinitperiod},
-           given={Sathiyamoorthy},
-           giveni={S\bibinitperiod}}}%
-        {{hash=1ffaf13bda1ffdb74b770e6f67aa62d7}{%
-           family={Shin},
-           familyi={S\bibinitperiod},
-           given={Tae\bibnamedelima Hwan},
-           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=3fdee42f13c57c043db4e31cf47bb4b2}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Myeong\bibnamedelima Ok},
-           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=2da4be25d5427af183de3352b4764ff2}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Gwang},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{0ff32a14e4f1076fe7dbbc995951ae24}
-      \strng{fullhash}{6ea984689d3a26542301d92195db0b30}
-      \strng{fullhashraw}{6ea984689d3a26542301d92195db0b30}
-      \strng{bibnamehash}{6ea984689d3a26542301d92195db0b30}
-      \strng{authorbibnamehash}{6ea984689d3a26542301d92195db0b30}
-      \strng{authornamehash}{0ff32a14e4f1076fe7dbbc995951ae24}
-      \strng{authorfullhash}{6ea984689d3a26542301d92195db0b30}
-      \strng{authorfullhashraw}{6ea984689d3a26542301d92195db0b30}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1535-3893}
-      \field{issue}{8}
-      \field{journaltitle}{Journal of Proteome Research}
-      \field{month}{8}
-      \field{title}{Machine-Learning-Based Prediction of Cell-Penetrating Peptides and Their Uptake Efficiency with Improved Accuracy}
-      \field{volume}{17}
-      \field{year}{2018}
-      \field{pages}{2715\bibrangedash 2726}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1021/acs.jproteome.8b00148
-      \endverb
-      \verb{urlraw}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00148
-      \endverb
-      \verb{url}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00148
-      \endverb
-      \keyw{cell-penetrating peptides,extremely randomized tree,feature selection,machine learning,random forest,uptake efficiency}
-    \endentry
-    \entry{Wang2024}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=a447d7ea8fb4f73f81849067d98a48c9}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Jen-Hung},
-           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=c616cfc5c6d606d6a4b4b4bdbd31f4cf}{%
-           family={Sung},
-           familyi={S\bibinitperiod},
-           given={Ting-Yi},
-           giveni={T\bibinithyphendelim Y\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{510c79ea8a3fab406de921a40ec77201}
-      \strng{fullhash}{510c79ea8a3fab406de921a40ec77201}
-      \strng{fullhashraw}{510c79ea8a3fab406de921a40ec77201}
-      \strng{bibnamehash}{510c79ea8a3fab406de921a40ec77201}
-      \strng{authorbibnamehash}{510c79ea8a3fab406de921a40ec77201}
-      \strng{authornamehash}{510c79ea8a3fab406de921a40ec77201}
-      \strng{authorfullhash}{510c79ea8a3fab406de921a40ec77201}
-      \strng{authorfullhashraw}{510c79ea8a3fab406de921a40ec77201}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2470-1343}
-      \field{issue}{29}
-      \field{journaltitle}{ACS Omega}
-      \field{month}{7}
-      \field{title}{ToxTeller: Predicting Peptide Toxicity Using Four Different Machine Learning Approaches}
-      \field{volume}{9}
-      \field{year}{2024}
-      \field{pages}{32116\bibrangedash 32123}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1021/acsomega.4c04246
-      \endverb
-      \verb{urlraw}
-      \verb https://pubs.acs.org/doi/10.1021/acsomega.4c04246
-      \endverb
-      \verb{url}
-      \verb https://pubs.acs.org/doi/10.1021/acsomega.4c04246
-      \endverb
-    \endentry
-    \entry{Li2024}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=e313a682fdf592c1688496d25b95c6f5}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Jianan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d7e7aa22e2e8c82e20b65e160d58df5f}{%
-           family={Yanagisawa},
-           familyi={Y\bibinitperiod},
-           given={Keisuke},
-           giveni={K\bibinitperiod}}}%
-        {{hash=4a61c5f0ef29591283bba46c0384e177}{%
-           family={Akiyama},
-           familyi={A\bibinitperiod},
-           given={Yutaka},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Oxford Academic}%
-      }
-      \strng{namehash}{4b2f6e1f3ae39c34645925af1cde5f5b}
-      \strng{fullhash}{d151e6a78802b2351b514b91c8441f87}
-      \strng{fullhashraw}{d151e6a78802b2351b514b91c8441f87}
-      \strng{bibnamehash}{d151e6a78802b2351b514b91c8441f87}
-      \strng{authorbibnamehash}{d151e6a78802b2351b514b91c8441f87}
-      \strng{authornamehash}{4b2f6e1f3ae39c34645925af1cde5f5b}
-      \strng{authorfullhash}{d151e6a78802b2351b514b91c8441f87}
-      \strng{authorfullhashraw}{d151e6a78802b2351b514b91c8441f87}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1467-5463}
-      \field{issue}{5}
-      \field{journaltitle}{Briefings in Bioinformatics}
-      \field{month}{7}
-      \field{title}{CycPeptMP: enhancing membrane permeability prediction of cyclic peptides with multi-level molecular features and data augmentation}
-      \field{volume}{25}
-      \field{year}{2024}
-      \field{pages}{417}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1093/bib/bbae417
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/bib/article/doi/10.1093/bib/bbae417/7743192
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/bib/article/doi/10.1093/bib/bbae417/7743192
-      \endverb
-      \keyw{cyclic peptide,data augmentation,deep learning,feature design,membrane permeability}
-    \endentry
-    \entry{CyclePermea}{inproceedings}{}{}
-      \name{author}{4}{}{%
-        {{hash=c174a85ed3755a4d44bfca138f147d7a}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Zixu},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=68acad7b295dd133e3239e15d789e215}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yangyang},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=6770108c3318a3d76890c15c39e968f4}{%
-           family={Ye},
-           familyi={Y\bibinitperiod},
-           given={Xiucai},
-           giveni={X\bibinitperiod}}}%
-        {{hash=d2cb027dcd4c3d4c4b678f8625aa8284}{%
-           family={Sakurai},
-           familyi={S\bibinitperiod},
-           given={Tetsuya},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{cf96385fd423a220a09e794eafdd171d}
-      \strng{fullhash}{88c5ac5db1b269620704ffc6898cc889}
-      \strng{fullhashraw}{88c5ac5db1b269620704ffc6898cc889}
-      \strng{bibnamehash}{88c5ac5db1b269620704ffc6898cc889}
-      \strng{authorbibnamehash}{88c5ac5db1b269620704ffc6898cc889}
-      \strng{authornamehash}{cf96385fd423a220a09e794eafdd171d}
-      \strng{authorfullhash}{88c5ac5db1b269620704ffc6898cc889}
-      \strng{authorfullhashraw}{88c5ac5db1b269620704ffc6898cc889}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2024 International Joint Conference on Neural Networks (IJCNN)}
-      \field{isbn}{979-8-3503-5931-2}
-      \field{month}{6}
-      \field{title}{CyclePermea: Membrane Permeability Prediction of Cyclic Peptides with a Multi-Loss Fusion Network}
-      \field{year}{2024}
-      \field{pages}{1\bibrangedash 8}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/ijcnn60899.2024.10650775
-      \endverb
-    \endentry
-    \entry{Feller2025}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=bcb97354901d26d998f65f55f82be22c}{%
-           family={Feller},
-           familyi={F\bibinitperiod},
-           given={Aaron\bibnamedelima L.},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=8e86aa1915156f8016600d977acef303}{%
-           family={Wilke},
-           familyi={W\bibinitperiod},
-           given={Claus\bibnamedelima O.},
-           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-      }
-      \strng{namehash}{d90df1f3b5e8cbdd166fd5d1aead0e7f}
-      \strng{fullhash}{d90df1f3b5e8cbdd166fd5d1aead0e7f}
-      \strng{fullhashraw}{d90df1f3b5e8cbdd166fd5d1aead0e7f}
-      \strng{bibnamehash}{d90df1f3b5e8cbdd166fd5d1aead0e7f}
-      \strng{authorbibnamehash}{d90df1f3b5e8cbdd166fd5d1aead0e7f}
-      \strng{authornamehash}{d90df1f3b5e8cbdd166fd5d1aead0e7f}
-      \strng{authorfullhash}{d90df1f3b5e8cbdd166fd5d1aead0e7f}
-      \strng{authorfullhashraw}{d90df1f3b5e8cbdd166fd5d1aead0e7f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1549-9596}
-      \field{issue}{2}
-      \field{journaltitle}{Journal of Chemical Information and Modeling}
-      \field{month}{1}
-      \field{title}{Peptide-Aware Chemical Language Model Successfully Predicts Membrane Diffusion of Cyclic Peptides}
-      \field{volume}{65}
-      \field{year}{2025}
-      \field{pages}{571\bibrangedash 579}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1021/acs.jcim.4c01441
-      \endverb
-    \endentry
-    \entry{Tan2024}{article}{}{}
-      \name{author}{8}{}{%
-        {{hash=868a3709375c347fe5f3cca358ad2422}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={Xiaorong},
-           giveni={X\bibinitperiod}}}%
-        {{hash=dc1c72cd61508e5a1a9cf2cb9fe76a11}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Qianhui},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=2436b5476e7783ef63e3aab9a05ed261}{%
-           family={Fang},
-           familyi={F\bibinitperiod},
-           given={Yanpeng},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=fec082f650a422bea54f6c7806b4dbd2}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Yingli},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=fa91db7fe68f65a4947983b89f69fd65}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Fei},
-           giveni={F\bibinitperiod}}}%
-        {{hash=908c831a5b63a0dfb248651468c233fe}{%
-           family={Zeng},
-           familyi={Z\bibinitperiod},
-           given={Wenbin},
-           giveni={W\bibinitperiod}}}%
-        {{hash=15443ceb15ae883d11b6c79272632e86}{%
-           family={Ouyang},
-           familyi={O\bibinitperiod},
-           given={Defang},
-           giveni={D\bibinitperiod}}}%
-        {{hash=c223e543947950fa7a1ab6ba1376c7e5}{%
-           family={Dong},
-           familyi={D\bibinitperiod},
-           given={Jie},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{e554246e3703ce894d98aed72652ae8d}
-      \strng{fullhash}{dcc460a47b556e7bfe93b1191f6af9e8}
-      \strng{fullhashraw}{dcc460a47b556e7bfe93b1191f6af9e8}
-      \strng{bibnamehash}{dcc460a47b556e7bfe93b1191f6af9e8}
-      \strng{authorbibnamehash}{dcc460a47b556e7bfe93b1191f6af9e8}
-      \strng{authornamehash}{e554246e3703ce894d98aed72652ae8d}
-      \strng{authorfullhash}{dcc460a47b556e7bfe93b1191f6af9e8}
-      \strng{authorfullhashraw}{dcc460a47b556e7bfe93b1191f6af9e8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{15438392}
-      \field{journaltitle}{Molecular Pharmaceutics}
-      \field{title}{Predicting Peptide Permeability Across Diverse Barriers: A Systematic Investigation}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.1021/acs.molpharmaceut.4C00478
-      \endverb
-      \keyw{cell permeability,drug delivery,graph neural network,machine learning,peptide,permeability prediction}
-    \endentry
-    \entry{Hui2023}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=3b9ea5313748f0eb5b13d5977941cefe}{%
-           family={Hui},
-           familyi={H\bibinitperiod},
-           given={Tiffani},
-           giveni={T\bibinitperiod}}}%
-        {{hash=baea4d9902adef1ea98829b47a873625}{%
-           family={Descoteaux},
-           familyi={D\bibinitperiod},
-           given={Marc\bibnamedelima L.},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=1578877aa91f0dd8a7291462fc3aaae7}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Jiayuan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=3a314393ca568d692ac03696d3383f69}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Yu-Shan},
-           giveni={Y\bibinithyphendelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{908e9502b1ed647c0520356349b925ad}
-      \strng{fullhash}{e0a5da7b8af1be0d92c2cdaef41c1360}
-      \strng{fullhashraw}{e0a5da7b8af1be0d92c2cdaef41c1360}
-      \strng{bibnamehash}{e0a5da7b8af1be0d92c2cdaef41c1360}
-      \strng{authorbibnamehash}{e0a5da7b8af1be0d92c2cdaef41c1360}
-      \strng{authornamehash}{908e9502b1ed647c0520356349b925ad}
-      \strng{authorfullhash}{e0a5da7b8af1be0d92c2cdaef41c1360}
-      \strng{authorfullhashraw}{e0a5da7b8af1be0d92c2cdaef41c1360}
-      \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1549-9618}
-      \field{issue}{14}
-      \field{journaltitle}{Journal of Chemical Theory and Computation}
-      \field{month}{7}
-      \field{title}{Training Neural Network Models Using Molecular Dynamics Simulation Results to Efficiently Predict Cyclic Hexapeptide Structural Ensembles}
-      \field{volume}{19}
-      \field{year}{2023}
-      \field{pages}{4757\bibrangedash 4769}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1021/acs.jctc.3c00154
-      \endverb
-      \verb{urlraw}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jctc.3c00154
-      \endverb
-      \verb{url}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jctc.3c00154
-      \endverb
-    \endentry
-    \entry{Cherednichenko2025}{article}{}{}
-      \name{author}{15}{}{%
-        {{hash=b093629be897fc97c94708059a944f21}{%
-           family={Cherednichenko},
-           familyi={C\bibinitperiod},
-           given={Anton},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5f4465ce56c0ed68fadc861096903420}{%
-           family={Afonin},
-           familyi={A\bibinitperiod},
-           given={Sergii},
-           giveni={S\bibinitperiod}}}%
-        {{hash=2727f5c9dfe0349a31b4e9eecd75825f}{%
-           family={Babii},
-           familyi={B\bibinitperiod},
-           given={Oleg},
-           giveni={O\bibinitperiod}}}%
-        {{hash=28e4201640580d402df644e77eab10a5}{%
-           family={Voitsitskyi},
-           familyi={V\bibinitperiod},
-           given={Taras},
-           giveni={T\bibinitperiod}}}%
-        {{hash=ad2ad97de864454c945aae15ff36a8e3}{%
-           family={Stratiichuk},
-           familyi={S\bibinitperiod},
-           given={Roman},
-           giveni={R\bibinitperiod}}}%
-        {{hash=e2b3dab644916e2640c2713db4eb64fe}{%
-           family={Koleiev},
-           familyi={K\bibinitperiod},
-           given={Ihor},
-           giveni={I\bibinitperiod}}}%
-        {{hash=02c7239659ce244ac9e2e17d2b1a8f24}{%
-           family={Vozniak},
-           familyi={V\bibinitperiod},
-           given={Volodymyr},
-           giveni={V\bibinitperiod}}}%
-        {{hash=1e915156c7ec583d9c5a635c2c954c06}{%
-           family={Shevchuk},
-           familyi={S\bibinitperiod},
-           given={Nazar},
-           giveni={N\bibinitperiod}}}%
-        {{hash=1b518aefe845d83cc1c83c10aa2ef19a}{%
-           family={Ostrovsky},
-           familyi={O\bibinitperiod},
-           given={Zakhar},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=54c225f0a8f44f3d23c91980b621d5d4}{%
-           family={Yesylevskyy},
-           familyi={Y\bibinitperiod},
-           given={Semen},
-           giveni={S\bibinitperiod}}}%
-        {{hash=8ae0c1a8f89183f93aa1961be939ddb3}{%
-           family={Nafiiev},
-           familyi={N\bibinitperiod},
-           given={Alan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=b442fe667e7a9c424a33a1ceac335992}{%
-           family={Starosyla},
-           familyi={S\bibinitperiod},
-           given={Serhii},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b2a688a98f91a1a02e5ed441de92e0c3}{%
-           family={Ulrich},
-           familyi={U\bibinitperiod},
-           given={Anne\bibnamedelima S.},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=b1765b4827e1eb60f9bcb052859c8c4f}{%
-           family={Jirgensons},
-           familyi={J\bibinitperiod},
-           given={Aigars},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1130384fb1d73f1eca25d5fce940bbfe}{%
-           family={Komarov},
-           familyi={K\bibinitperiod},
-           given={Igor\bibnamedelima V.},
-           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {John Wiley \& Sons, Ltd}%
-      }
-      \strng{namehash}{ba612490ebe7e0f0138dcbad570b525d}
-      \strng{fullhash}{1909319689f5cc2930a3024529632105}
-      \strng{fullhashraw}{1909319689f5cc2930a3024529632105}
-      \strng{bibnamehash}{1909319689f5cc2930a3024529632105}
-      \strng{authorbibnamehash}{1909319689f5cc2930a3024529632105}
-      \strng{authornamehash}{ba612490ebe7e0f0138dcbad570b525d}
-      \strng{authorfullhash}{1909319689f5cc2930a3024529632105}
-      \strng{authorfullhashraw}{1909319689f5cc2930a3024529632105}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1868-1743}
-      \field{issue}{7}
-      \field{journaltitle}{Molecular Informatics}
-      \field{month}{7}
-      \field{title}{Neural Network Models for Prediction of Biological Activity using Molecular Dynamics Data: A Case of Photoswitchable Peptides}
-      \field{volume}{44}
-      \field{year}{2025}
-      \field{pages}{e70001}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1002/minf.70001
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1002/minf.70001
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1002/minf.70001
-      \endverb
-      \keyw{biological activity,diarylethenes,molecular dynamics,neuronal network models,photoswitchable peptides}
-    \endentry
-    \entry{Hui2025}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=3b9ea5313748f0eb5b13d5977941cefe}{%
-           family={Hui},
-           familyi={H\bibinitperiod},
-           given={Tiffani},
-           giveni={T\bibinitperiod}}}%
-        {{hash=3b32326c310e2f8d7825630a9e0c8948}{%
-           family={Secor},
-           familyi={S\bibinitperiod},
-           given={Maxim},
-           giveni={M\bibinitperiod}}}%
-        {{hash=06ff24b7b57119979a6fab3377f6ae9c}{%
-           family={Ho},
-           familyi={H\bibinitperiod},
-           given={Minh\bibnamedelima Ngoc},
-           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=bdf062b8f3cc2dfb6ba265ffb05378c1}{%
-           family={Bayaraa},
-           familyi={B\bibinitperiod},
-           given={Nomindari},
-           giveni={N\bibinitperiod}}}%
-        {{hash=3a314393ca568d692ac03696d3383f69}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Yu-Shan},
-           giveni={Y\bibinithyphendelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{908e9502b1ed647c0520356349b925ad}
-      \strng{fullhash}{30f0090f803dc7172da7632db673a0f0}
-      \strng{fullhashraw}{30f0090f803dc7172da7632db673a0f0}
-      \strng{bibnamehash}{30f0090f803dc7172da7632db673a0f0}
-      \strng{authorbibnamehash}{30f0090f803dc7172da7632db673a0f0}
-      \strng{authornamehash}{908e9502b1ed647c0520356349b925ad}
-      \strng{authorfullhash}{30f0090f803dc7172da7632db673a0f0}
-      \strng{authorfullhashraw}{30f0090f803dc7172da7632db673a0f0}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1549-9596}
-      \field{issue}{4}
-      \field{journaltitle}{Journal of Chemical Information and Modeling}
-      \field{month}{2}
-      \field{title}{Molecular Dynamics (MD)-Derived Features for Canonical and Noncanonical Amino Acids}
-      \field{volume}{65}
-      \field{year}{2025}
-      \field{pages}{1837\bibrangedash 1849}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1021/acs.jcim.4c02102
-      \endverb
-      \verb{urlraw}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jcim.4c02102
-      \endverb
-      \verb{url}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jcim.4c02102
-      \endverb
-    \endentry
     \entry{Li2023}{article}{}{}
       \name{author}{6}{}{%
         {{hash=e313a682fdf592c1688496d25b95c6f5}{%
@@ -4640,9 +3562,9 @@
       \strng{authornamehash}{4b2f6e1f3ae39c34645925af1cde5f5b}
       \strng{authorfullhash}{494130f99a303f33c7e6a013f34c50f1}
       \strng{authorfullhashraw}{494130f99a303f33c7e6a013f34c50f1}
-      \field{extraname}{3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1549-9596}
@@ -4687,8 +3609,8 @@
       \strng{authornamehash}{01c0dfb9a380d9f8ae460e44dca8039a}
       \strng{authorfullhash}{01c0dfb9a380d9f8ae460e44dca8039a}
       \strng{authorfullhashraw}{01c0dfb9a380d9f8ae460e44dca8039a}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of chemical physics}
@@ -4768,8 +3690,8 @@
       \strng{authornamehash}{cce0fc9016218fd4b55f9770cf988609}
       \strng{authorfullhash}{2d270bdc623eaca840fbf667517460b1}
       \strng{authorfullhashraw}{2d270bdc623eaca840fbf667517460b1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Chemistry}
@@ -4879,8 +3801,8 @@
       \strng{authornamehash}{6ecf9fe49cf40239f2de99ee16c691cc}
       \strng{authorfullhash}{eff2ab91590a1b220bf7edf32410df78}
       \strng{authorfullhashraw}{eff2ab91590a1b220bf7edf32410df78}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0092-8674}
@@ -4948,8 +3870,8 @@
       \strng{authorfullhash}{a10fa3d4d6bf3d00aa48adadfa46c877}
       \strng{authorfullhashraw}{a10fa3d4d6bf3d00aa48adadfa46c877}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{23527110}
@@ -4992,8 +3914,8 @@
       \strng{authornamehash}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
       \strng{authorfullhash}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
       \strng{authorfullhashraw}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annalen der Physik}
@@ -5040,8 +3962,8 @@
       \strng{authornamehash}{ccf95cf519bf8915ba463e2d5ab0ecfb}
       \strng{authorfullhash}{ccf95cf519bf8915ba463e2d5ab0ecfb}
       \strng{authorfullhashraw}{ccf95cf519bf8915ba463e2d5ab0ecfb}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780367806934}
@@ -5101,8 +4023,8 @@
       \strng{authornamehash}{ac235143ded00ddbeff1f76cd807c462}
       \strng{authorfullhash}{887f1fb89db0fceed035049d60f6579a}
       \strng{authorfullhashraw}{887f1fb89db0fceed035049d60f6579a}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -5149,8 +4071,8 @@
       \strng{authornamehash}{487ead3276f058022968b985eeac43fd}
       \strng{authorfullhash}{487ead3276f058022968b985eeac43fd}
       \strng{authorfullhashraw}{487ead3276f058022968b985eeac43fd}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10897690}
@@ -5192,8 +4114,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -5245,8 +4167,8 @@
       \strng{authornamehash}{a353745f07a8a75d44af803cf5eb5323}
       \strng{authorfullhash}{bfec732c564a8247643cbc69c666f9f9}
       \strng{authorfullhashraw}{bfec732c564a8247643cbc69c666f9f9}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219606}
@@ -5313,8 +4235,8 @@
       \strng{authornamehash}{d23158ec68c3d1dc0367549d8e0d835e}
       \strng{authorfullhash}{12510623d7d2bc7f20479782d9d33a86}
       \strng{authorfullhashraw}{12510623d7d2bc7f20479782d9d33a86}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -5360,8 +4282,8 @@
       \strng{authornamehash}{730353c93cfd0e919b5a46a2e3a49c12}
       \strng{authorfullhash}{730353c93cfd0e919b5a46a2e3a49c12}
       \strng{authorfullhashraw}{730353c93cfd0e919b5a46a2e3a49c12}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -5402,8 +4324,8 @@
       \strng{authornamehash}{1237eddc38b2282893d8bd6775a2ca48}
       \strng{authorfullhash}{1237eddc38b2282893d8bd6775a2ca48}
       \strng{authorfullhashraw}{1237eddc38b2282893d8bd6775a2ca48}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0003-3804}
@@ -5454,8 +4376,8 @@
       \strng{authornamehash}{bba279c013b2167b688025a8dcf71f6b}
       \strng{authorfullhash}{539bc17ca29fdfcf960a176d1072ed1f}
       \strng{authorfullhashraw}{539bc17ca29fdfcf960a176d1072ed1f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -5546,8 +4468,8 @@
       \strng{authornamehash}{1b653a6d1f17910e4f5fff8d47c4e9a6}
       \strng{authorfullhash}{7848bb822d8d3db071d583989b30bf10}
       \strng{authorfullhashraw}{7848bb822d8d3db071d583989b30bf10}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -5609,9 +4531,9 @@
       \strng{authornamehash}{5094bb82370c54c7c7bef0d6af0372bd}
       \strng{authorfullhash}{cbac56920a5f6d0bf5a803c89491f9b6}
       \strng{authorfullhashraw}{cbac56920a5f6d0bf5a803c89491f9b6}
-      \field{extraname}{3}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -5663,8 +4585,8 @@
       \strng{authornamehash}{62d7e8dbc4763e1111cfd90567b20700}
       \strng{authorfullhash}{53b5a48b2ebe6c4cd961326273e2a970}
       \strng{authorfullhashraw}{53b5a48b2ebe6c4cd961326273e2a970}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0002-7863}
@@ -5717,8 +4639,8 @@
       \strng{authornamehash}{d58510549f29b1830a6d36bff7d0ed44}
       \strng{authorfullhash}{63c06dde09fe87d49cc566750026292e}
       \strng{authorfullhashraw}{63c06dde09fe87d49cc566750026292e}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -5782,8 +4704,8 @@
       \strng{authornamehash}{98acdb6f230e7bbbacd3034b30732d14}
       \strng{authorfullhash}{e8e98603db210ec3157d1f3f3de63a21}
       \strng{authorfullhashraw}{e8e98603db210ec3157d1f3f3de63a21}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1520-6106}
@@ -5831,8 +4753,8 @@
       \strng{authornamehash}{f0d9eb0c75c6324707b3e9df32efc9ed}
       \strng{authorfullhash}{8a952f40db7ce1b8cbc15e7392ef31db}
       \strng{authorfullhashraw}{8a952f40db7ce1b8cbc15e7392ef31db}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -5898,8 +4820,8 @@
       \strng{authornamehash}{201ec4eaa7265fcf42cdd6af5ef63847}
       \strng{authorfullhash}{12020e55fcf1aa56d5e50ad91df1eba7}
       \strng{authorfullhashraw}{12020e55fcf1aa56d5e50ad91df1eba7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1549-9618}
@@ -6085,8 +5007,8 @@
       \strng{authornamehash}{6b932adbfabb579ac0f37209f8592481}
       \strng{authorfullhash}{cd4febe423903c9d2181c74597654fab}
       \strng{authorfullhashraw}{cd4febe423903c9d2181c74597654fab}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2374-7943}
@@ -6152,8 +5074,8 @@
       \strng{authornamehash}{fe86f3489d68af94e2c136cb5c785b99}
       \strng{authorfullhash}{795056b518da4b87bcc8d485df625f92}
       \strng{authorfullhashraw}{795056b518da4b87bcc8d485df625f92}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-1723}
@@ -6217,8 +5139,8 @@
       \strng{authornamehash}{907f2397b4855cbace9ce1c288c366a7}
       \strng{authorfullhash}{509e846f62803cc11b6e0296ae0a81b9}
       \strng{authorfullhashraw}{509e846f62803cc11b6e0296ae0a81b9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1463-9262}
@@ -6289,8 +5211,8 @@
       \strng{authornamehash}{ea1013a5bcaee932563d609c22638e52}
       \strng{authorfullhash}{aee96b2db9308666adbcb96175499236}
       \strng{authorfullhashraw}{aee96b2db9308666adbcb96175499236}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1549-9618}
@@ -6455,8 +5377,8 @@
       \strng{authornamehash}{b60528d9446b5ff1be4f238681945e9b}
       \strng{authorfullhash}{8e559a154e471dc50f4daa13d6ff1d20}
       \strng{authorfullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1548-7091}
@@ -6862,8 +5784,8 @@
       \strng{authornamehash}{41dc57ddbbc83a34cec92db271931ca4}
       \strng{authorfullhash}{04ea3591090661b0afff5f4889638908}
       \strng{authorfullhashraw}{04ea3591090661b0afff5f4889638908}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1548-7091}
@@ -6910,8 +5832,8 @@
       \strng{authornamehash}{9e6fb99beaf19bbcb460241234b58a69}
       \strng{authorfullhash}{9e6fb99beaf19bbcb460241234b58a69}
       \strng{authorfullhashraw}{9e6fb99beaf19bbcb460241234b58a69}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0027-8424}
@@ -6959,8 +5881,8 @@
       \strng{authornamehash}{3d7c0acacb215025162ec9272c285921}
       \strng{authorfullhash}{195199b215593b55732f320994897d3b}
       \strng{authorfullhashraw}{195199b215593b55732f320994897d3b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -6983,7 +5905,13 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{farhi2014quantum}
+  \missing{feynman1982simulating}
+  \missing{mcclean2016theory}
   \missing{nielsen2010quantum}
+  \missing{peruzzo2014variational}
+  \missing{preskill2018quantum}
+  \missing{robert2021resource}
 \endrefsection
 \endinput
 
