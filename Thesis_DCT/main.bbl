@@ -652,6 +652,7 @@
       \strng{authornamehash}{1f5501cbfbe0b03b7a041a07b23e5e33}
       \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
       \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1128,6 +1129,7 @@
       \strng{authornamehash}{890ea41b501b363a2a12b2f3b964ac34}
       \strng{authorfullhash}{89edb61e81549c2c86fc43496a5f5dcb}
       \strng{authorfullhashraw}{89edb61e81549c2c86fc43496a5f5dcb}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -1619,660 +1621,344 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0005273613004586
       \endverb
     \endentry
-    \entry{Chapman2012}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=c52280ae4f0ac7e45659fe9b7fd741cf}{%
-           family={Chapman},
-           familyi={C\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-        {{hash=4b19452c0b92403a37708598ea12d67d}{%
-           family={Danial},
-           familyi={D\bibinitperiod},
-           given={Maarten},
-           giveni={M\bibinitperiod}}}%
-        {{hash=05d6bd75fd72c2bcd5dcaf3fbbcb5798}{%
-           family={Koh},
-           familyi={K\bibinitperiod},
-           given={Ming\bibnamedelima Liang},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=353cd559358bab153f2625e38812ff34}{%
-           family={Jolliffe},
-           familyi={J\bibinitperiod},
-           given={Katrina\bibnamedelima A.},
-           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=101193604f730d67faed7a5065d351f7}{%
-           family={Perrier},
+    \entry{salam2023antimicrobial}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=2fd3e650dcbdd3547bba3aa1feb60d63}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b9e9fbf8b4b683b2ef3c5fac0cca063e}{%
+           family={Al-Amin},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={M.\bibnamedelimi Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=7fdf144bfd433638e4b3d94c0e42097a}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c0bbf7496ad7e3d121d7c08adc6f8c33}{%
+           family={Pawar},
            familyi={P\bibinitperiod},
-           given={Sébastien},
-           giveni={S\bibinitperiod}}}%
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=72b05b22f467e9653af916546edc7da7}{%
+           family={Akhter},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=452f01c12c49c6921c257674a68faafd}{%
+           family={Rabaan},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=eef75733239c67710604a56c9da35ba6}{%
+           family={Alqumber},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {The Royal Society of Chemistry}%
-      }
-      \strng{namehash}{4bd74c8d17e8baab18f392cc1233de50}
-      \strng{fullhash}{eb6d36388647fcccd8db787d7d5bf82b}
-      \strng{fullhashraw}{eb6d36388647fcccd8db787d7d5bf82b}
-      \strng{bibnamehash}{eb6d36388647fcccd8db787d7d5bf82b}
-      \strng{authorbibnamehash}{eb6d36388647fcccd8db787d7d5bf82b}
-      \strng{authornamehash}{4bd74c8d17e8baab18f392cc1233de50}
-      \strng{authorfullhash}{eb6d36388647fcccd8db787d7d5bf82b}
-      \strng{authorfullhashraw}{eb6d36388647fcccd8db787d7d5bf82b}
+      \strng{namehash}{015b7c42176bdfe7122a7c5c593ea6f5}
+      \strng{fullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{fullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{bibnamehash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{authorbibnamehash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{authornamehash}{015b7c42176bdfe7122a7c5c593ea6f5}
+      \strng{authorfullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{authorfullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0306-0012}
-      \field{issue}{18}
-      \field{journaltitle}{Chemical Society Reviews}
-      \field{month}{8}
-      \field{title}{Design and properties of functional nanotubes from the self-assembly of cyclic peptide templates}
-      \field{volume}{41}
-      \field{year}{2012}
-      \field{pages}{6023}
+      \field{journaltitle}{Healthcare}
+      \field{number}{13}
+      \field{title}{Antimicrobial Resistance: A Growing Serious Threat for Global Public Health}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{1946}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1039/c2cs35172b
+      \verb 10.3390/healthcare11131946
       \endverb
       \verb{urlraw}
-      \verb https://xlink.rsc.org/?DOI=c2cs35172b
+      \verb https://doi.org/10.3390/healthcare11131946
       \endverb
       \verb{url}
-      \verb https://xlink.rsc.org/?DOI=c2cs35172b
+      \verb https://doi.org/10.3390/healthcare11131946
       \endverb
     \endentry
-    \entry{Ghadiri1993}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=621e1fe843ba83091bb1f06a62c95d79}{%
-           family={Ghadiri},
-           familyi={G\bibinitperiod},
-           given={M.\bibnamedelimi Reza},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=fc6e2d07397e18d4933eb69d074ea5af}{%
-           family={Granja},
-           familyi={G\bibinitperiod},
-           given={Juan\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=5a6743d7c3218aef8608c4c788cad064}{%
-           family={Milligan},
+    \entry{macnair2024alternative}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ae2b2f4f00d61191fec082b701afe098}{%
+           family={MacNair},
            familyi={M\bibinitperiod},
-           given={Ronald\bibnamedelima A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=038f2f8b4c04b91339207e590563250e}{%
-           family={McRee},
-           familyi={M\bibinitperiod},
-           given={Duncan\bibnamedelima E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=cb2e127cba76e28d69c6ee99572ea18c}{%
-           family={Khazanovich},
-           familyi={K\bibinitperiod},
-           given={Nina},
-           giveni={N\bibinitperiod}}}%
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a353bab137a6431678d5be8b2a97fad3}{%
+           family={Rutherford},
+           familyi={R\bibinitperiod},
+           given={S.\bibnamedelimi T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=6ddd5b4f8196483d049ab03640859c17}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Nature Publishing Group}%
       }
-      \strng{namehash}{c27f16a9607998e82226cd3189b4cd08}
-      \strng{fullhash}{0320bb2a36e18e16c0473ff76280a8c7}
-      \strng{fullhashraw}{0320bb2a36e18e16c0473ff76280a8c7}
-      \strng{bibnamehash}{0320bb2a36e18e16c0473ff76280a8c7}
-      \strng{authorbibnamehash}{0320bb2a36e18e16c0473ff76280a8c7}
-      \strng{authornamehash}{c27f16a9607998e82226cd3189b4cd08}
-      \strng{authorfullhash}{0320bb2a36e18e16c0473ff76280a8c7}
-      \strng{authorfullhashraw}{0320bb2a36e18e16c0473ff76280a8c7}
-      \field{extraname}{1}
+      \strng{namehash}{7736002ef78cbe841bec7f5ef1c9903e}
+      \strng{fullhash}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{fullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{bibnamehash}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{authorbibnamehash}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{authornamehash}{7736002ef78cbe841bec7f5ef1c9903e}
+      \strng{authorfullhash}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{authorfullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0028-0836}
-      \field{issue}{6453}
-      \field{journaltitle}{Nature}
-      \field{month}{12}
-      \field{title}{Self-assembling organic nanotubes based on a cyclic peptide architecture}
-      \field{volume}{366}
-      \field{year}{1993}
-      \field{pages}{324\bibrangedash 327}
-      \range{pages}{4}
+      \field{journaltitle}{Nature Reviews Microbiology}
+      \field{title}{Alternative therapeutic strategies to treat antibiotic-resistant pathogens}
+      \field{volume}{22}
+      \field{year}{2024}
+      \field{pages}{262\bibrangedash 275}
+      \range{pages}{14}
       \verb{doi}
-      \verb 10.1038/366324a0
+      \verb 10.1038/s41579-023-00993-0
       \endverb
       \verb{urlraw}
-      \verb https://www.nature.com/articles/366324a0
+      \verb https://doi.org/10.1038/s41579-023-00993-0
       \endverb
       \verb{url}
-      \verb https://www.nature.com/articles/366324a0
+      \verb https://doi.org/10.1038/s41579-023-00993-0
       \endverb
-      \keyw{Humanities and Social Sciences,Science,multidisciplinary}
     \endentry
-    \entry{DeSantis1974}{article}{}{}
+    \entry{Tang2023}{article}{}{}
       \name{author}{3}{}{%
-        {{hash=d52f5152c0d4d8d7b2081f3ba442e35f}{%
-           family={Santis},
-           familyi={S\bibinitperiod},
-           given={P.\bibnamedelimi De},
-           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=65646b62f957bf5f63f47f321892aee8}{%
-           family={Morosetti},
+        {{hash=ac1ff041289c0288a79f64d1753f0673}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Ka\bibnamedelima Wah\bibnamedelima Kelly},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=fdec7f08a2a8742d988eac76b0bf6fda}{%
+           family={Millar},
            familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=dd93b96e96754a20c257458e935da462}{%
-           family={Rizzo},
+           given={Beverley\bibnamedelima C},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e788c860261ff2653aec50929a3ebf6f}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Biomedical Science (IBMS)}%
+      }
+      \strng{namehash}{c54ca204871391ccfe79291879c7ad7a}
+      \strng{fullhash}{3c16f5a945563f024e1ecfea362890e4}
+      \strng{fullhashraw}{3c16f5a945563f024e1ecfea362890e4}
+      \strng{bibnamehash}{3c16f5a945563f024e1ecfea362890e4}
+      \strng{authorbibnamehash}{3c16f5a945563f024e1ecfea362890e4}
+      \strng{authornamehash}{c54ca204871391ccfe79291879c7ad7a}
+      \strng{authorfullhash}{3c16f5a945563f024e1ecfea362890e4}
+      \strng{authorfullhashraw}{3c16f5a945563f024e1ecfea362890e4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2474-0896}
+      \field{journaltitle}{British journal of biomedical science}
+      \field{month}{6}
+      \field{title}{Antimicrobial Resistance (AMR).}
+      \field{volume}{80}
+      \field{year}{2023}
+      \field{pages}{11387}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/bjbs.2023.11387
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/37448857 http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC10336207
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/37448857%20http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC10336207
+      \endverb
+      \keyw{AMR,antibiotic resistance,antimicrobial resistance,infection,one health}
+    \endentry
+    \entry{fermentation10110540}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=62d86406f04ae9009f7c16a444e6dbe4}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=42b03d7a28c97c101e0a62ee7baba8f9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=b39eb77841feb583b29382288a95e7f7}{%
+           family={Ren},
            familyi={R\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{f226f38cb4eb5f9cc6a7696612c5fc15}
-      \strng{fullhash}{b710e4765886a149efa7d5617a36e02f}
-      \strng{fullhashraw}{b710e4765886a149efa7d5617a36e02f}
-      \strng{bibnamehash}{b710e4765886a149efa7d5617a36e02f}
-      \strng{authorbibnamehash}{b710e4765886a149efa7d5617a36e02f}
-      \strng{authornamehash}{f226f38cb4eb5f9cc6a7696612c5fc15}
-      \strng{authorfullhash}{b710e4765886a149efa7d5617a36e02f}
-      \strng{authorfullhashraw}{b710e4765886a149efa7d5617a36e02f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0024-9297}
-      \field{issue}{1}
-      \field{journaltitle}{Macromolecules}
-      \field{month}{1}
-      \field{title}{Conformational Analysis of Regular Enantiomeric Sequences}
-      \field{volume}{7}
-      \field{year}{1974}
-      \field{pages}{52\bibrangedash 58}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1021/ma60037a011
-      \endverb
-      \verb{urlraw}
-      \verb https://pubs.acs.org/doi/abs/10.1021/ma60037a011
-      \endverb
-      \verb{url}
-      \verb https://pubs.acs.org/doi/abs/10.1021/ma60037a011
-      \endverb
-    \endentry
-    \entry{Claro2018}{inbook}{}{}
-      \name{author}{3}{}{%
-        {{hash=e790d92241d2b80015c57bada1829c5f}{%
-           family={Claro},
-           familyi={C\bibinitperiod},
-           given={Barbara},
-           giveni={B\bibinitperiod}}}%
-        {{hash=63f42968d63756558d8603ba5d95c126}{%
-           family={Bastos},
-           familyi={B\bibinitperiod},
-           given={Margarida},
+           given={Kexin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=29a6150c9f81f6ccfcf2a9d72aac22a6}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Tongtong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e986cbdd48a6f44f69f3bc2796c7c210}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zigang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=3724c562ff89f80037594dc648da30cc}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Meijuan},
            giveni={M\bibinitperiod}}}%
-        {{hash=a2a353207d6538894c649b665d69f8ec}{%
-           family={Garcia-Fandino},
-           familyi={G\bibinithyphendelim F\bibinitperiod},
-           given={Rebeca},
-           giveni={R\bibinitperiod}}}%
+        {{hash=99d37f5ccce8f74904c72cf490f131c5}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Zhiming},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=14965f6d4ea10e6654fac59edf0decb4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xian},
+           giveni={X\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{c532f8607a4552e85b52172f5414c3ab}
-      \strng{fullhash}{45e0f68b2644b4968b1f91ed6d856444}
-      \strng{fullhashraw}{45e0f68b2644b4968b1f91ed6d856444}
-      \strng{bibnamehash}{45e0f68b2644b4968b1f91ed6d856444}
-      \strng{authorbibnamehash}{45e0f68b2644b4968b1f91ed6d856444}
-      \strng{authornamehash}{c532f8607a4552e85b52172f5414c3ab}
-      \strng{authorfullhash}{45e0f68b2644b4968b1f91ed6d856444}
-      \strng{authorfullhashraw}{45e0f68b2644b4968b1f91ed6d856444}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Peptide Applications in Biomedicine, Biotechnology and Bioengineering}
-      \field{isbn}{9780081007365}
-      \field{month}{1}
-      \field{title}{Design and applications of cyclic peptides}
-      \field{year}{2018}
-      \field{pages}{87\bibrangedash 129}
-      \range{pages}{43}
-      \verb{doi}
-      \verb 10.1016/B978-0-08-100736-5.00004-1
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780081007365000041
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780081007365000041
-      \endverb
-      \keyw{Cyclic peptides,N- and C-termini,building blocks,combinatorial synthesis,rational design,θ-defensins}
-    \endentry
-    \entry{Amorn2003}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=8bd0f2dee7fcd150eaf9bbe14ebebe8f}{%
-           family={Amorín},
-           familyi={A\bibinitperiod},
-           given={Manuel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e0b63ab90ec346267c8471b17c3db546}{%
-           family={Castedo},
-           familyi={C\bibinitperiod},
-           given={Luis},
-           giveni={L\bibinitperiod}}}%
-        {{hash=fc6e2d07397e18d4933eb69d074ea5af}{%
-           family={Granja},
-           familyi={G\bibinitperiod},
-           given={Juan\bibnamedelima R},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{2fcc9906e1ee175e12629dbdc3ca1482}
-      \strng{fullhash}{e709c7fb56e9b7dc2bdcee5c7e4b6037}
-      \strng{fullhashraw}{e709c7fb56e9b7dc2bdcee5c7e4b6037}
-      \strng{bibnamehash}{e709c7fb56e9b7dc2bdcee5c7e4b6037}
-      \strng{authorbibnamehash}{e709c7fb56e9b7dc2bdcee5c7e4b6037}
-      \strng{authornamehash}{2fcc9906e1ee175e12629dbdc3ca1482}
-      \strng{authorfullhash}{e709c7fb56e9b7dc2bdcee5c7e4b6037}
-      \strng{authorfullhashraw}{e709c7fb56e9b7dc2bdcee5c7e4b6037}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0002-7863}
-      \field{issue}{10}
-      \field{journaltitle}{Journal of the American Chemical Society}
-      \field{month}{3}
-      \field{title}{New cyclic peptide assemblies with hydrophobic cavities: the structural and thermodynamic basis of a new class of peptide nanotubes.}
-      \field{volume}{125}
-      \field{year}{2003}
-      \field{pages}{2844\bibrangedash 5}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.1021/ja0296273
-      \endverb
-      \verb{urlraw}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/12617629
-      \endverb
-      \verb{url}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/12617629
-      \endverb
-    \endentry
-    \entry{Lamas2018}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=2b4cbbf94c326544d509407dd4a4aeb7}{%
-           family={Lamas},
-           familyi={L\bibinitperiod},
-           given={Alejandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=07cd7cb701df63c8a505abd3ac78a6d9}{%
-           family={Guerra},
-           familyi={G\bibinitperiod},
-           given={Arcadio},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8bd0f2dee7fcd150eaf9bbe14ebebe8f}{%
-           family={Amorín},
-           familyi={A\bibinitperiod},
-           given={Manuel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=fc6e2d07397e18d4933eb69d074ea5af}{%
-           family={Granja},
-           familyi={G\bibinitperiod},
-           given={Juan\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Royal Society of Chemistry}%
-      }
-      \strng{namehash}{071b5c8c65a305924a1c5d7a4062be02}
-      \strng{fullhash}{3622e500f4d887dcc0e34634b9f81549}
-      \strng{fullhashraw}{3622e500f4d887dcc0e34634b9f81549}
-      \strng{bibnamehash}{3622e500f4d887dcc0e34634b9f81549}
-      \strng{authorbibnamehash}{3622e500f4d887dcc0e34634b9f81549}
-      \strng{authornamehash}{071b5c8c65a305924a1c5d7a4062be02}
-      \strng{authorfullhash}{3622e500f4d887dcc0e34634b9f81549}
-      \strng{authorfullhashraw}{3622e500f4d887dcc0e34634b9f81549}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2041-6520}
-      \field{issue}{43}
-      \field{journaltitle}{Chemical Science}
-      \field{month}{11}
-      \field{title}{New self-assembling peptide nanotubes of large diameter using δ-amino acids}
-      \field{volume}{9}
-      \field{year}{2018}
-      \field{pages}{8228\bibrangedash 8233}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1039/C8SC02276C
-      \endverb
-      \verb{urlraw}
-      \verb https://xlink.rsc.org/?DOI=C8SC02276C
-      \endverb
-      \verb{url}
-      \verb https://xlink.rsc.org/?DOI=C8SC02276C
-      \endverb
-    \endentry
-    \entry{Ghadiri1994}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=621e1fe843ba83091bb1f06a62c95d79}{%
-           family={Ghadiri},
-           familyi={G\bibinitperiod},
-           given={M.\bibnamedelimi Reza},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=fc6e2d07397e18d4933eb69d074ea5af}{%
-           family={Granja},
-           familyi={G\bibinitperiod},
-           given={Juan\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=4746aeef9e578218c87c46d3ad7d6710}{%
-           family={Buehler},
-           familyi={B\bibinitperiod},
-           given={Lukas\bibnamedelima K.},
-           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature}%
-      }
-      \strng{namehash}{c27f16a9607998e82226cd3189b4cd08}
-      \strng{fullhash}{e72932b5176905db0f2124e01bfb1be9}
-      \strng{fullhashraw}{e72932b5176905db0f2124e01bfb1be9}
-      \strng{bibnamehash}{e72932b5176905db0f2124e01bfb1be9}
-      \strng{authorbibnamehash}{e72932b5176905db0f2124e01bfb1be9}
-      \strng{authornamehash}{c27f16a9607998e82226cd3189b4cd08}
-      \strng{authorfullhash}{e72932b5176905db0f2124e01bfb1be9}
-      \strng{authorfullhashraw}{e72932b5176905db0f2124e01bfb1be9}
+      \strng{namehash}{a4d95f105d9df95fcf8303c05b6e53ff}
+      \strng{fullhash}{64042eb956e1dbe1684bebd3b94a4de3}
+      \strng{fullhashraw}{64042eb956e1dbe1684bebd3b94a4de3}
+      \strng{bibnamehash}{64042eb956e1dbe1684bebd3b94a4de3}
+      \strng{authorbibnamehash}{64042eb956e1dbe1684bebd3b94a4de3}
+      \strng{authornamehash}{a4d95f105d9df95fcf8303c05b6e53ff}
+      \strng{authorfullhash}{64042eb956e1dbe1684bebd3b94a4de3}
+      \strng{authorfullhashraw}{64042eb956e1dbe1684bebd3b94a4de3}
       \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0028-0836}
-      \field{issue}{6478}
-      \field{journaltitle}{Nature}
-      \field{month}{5}
-      \field{title}{Artificial transmembrane ion channels from self-assembling peptide nanotubes}
-      \field{volume}{369}
-      \field{year}{1994}
-      \field{pages}{301\bibrangedash 304}
-      \range{pages}{4}
+      \field{abstract}{Antimicrobial peptides (AMPs) are bioactive macromolecules that exhibit antibacterial, antiviral, and immunomodulatory functions. They come from a wide range of sources and are found in all forms of life, from bacteria to plants, vertebrates, and invertebrates, and play an important role in controlling the spread of pathogens, promoting wound healing and treating tumors. Consequently, AMPs have emerged as promising alternatives to next-generation antibiotics. With advancements in systems biology and synthetic biology technologies, it has become possible to synthesize AMPs artificially. We can better understand their functional activities for further modification and development by investigating the mechanism of action underlying their antimicrobial properties. This review focuses on the structural aspects of AMPs while highlighting their significance for biological activity. Furthermore, it elucidates the membrane targeting mechanism and intracellular targets of these peptides while summarizing molecular modification approaches aimed at enhancing their antibacterial efficacy. Finally, this article outlines future challenges in the functional development of AMPs along with proposed strategies to overcome them.}
+      \field{issn}{2311-5637}
+      \field{journaltitle}{Fermentation}
+      \field{number}{11}
+      \field{title}{A Review of Antimicrobial Peptides: Structure, Mechanism of Action, and Molecular Optimization Strategies}
+      \field{volume}{10}
+      \field{year}{2024}
       \verb{doi}
-      \verb 10.1038/369301a0
+      \verb 10.3390/fermentation10110540
       \endverb
       \verb{urlraw}
-      \verb https://www.nature.com/articles/369301a0
+      \verb https://www.mdpi.com/2311-5637/10/11/540
       \endverb
       \verb{url}
-      \verb https://www.nature.com/articles/369301a0
+      \verb https://www.mdpi.com/2311-5637/10/11/540
       \endverb
     \endentry
-    \entry{Kim1998}{article}{}{}
+    \entry{microorganisms13112574}{article}{}{}
       \name{author}{3}{}{%
-        {{hash=da532f6ee4c932b256382ca09e4af1cd}{%
+        {{hash=7d2a80dd8c5dcccfb83012fde3dcc1e4}{%
            family={Kim},
            familyi={K\bibinitperiod},
-           given={Hui\bibnamedelima Sun},
-           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=8eea7777754b388c7f0eb02b855f2916}{%
-           family={Hartgerink},
+           given={Seong\bibnamedelima Hwan},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7c6f3dad5bc20d30bfb19bb34a389733}{%
+           family={Min},
+           familyi={M\bibinitperiod},
+           given={Yu-Hong},
+           giveni={Y\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=53bb0586b7f75d8710660649eb4314ab}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Min\bibnamedelima Chul},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5633e09ea4714e735a895dcfdc32d9b9}
+      \strng{fullhash}{cec47e8b1a371f821c725fc126fa872f}
+      \strng{fullhashraw}{cec47e8b1a371f821c725fc126fa872f}
+      \strng{bibnamehash}{cec47e8b1a371f821c725fc126fa872f}
+      \strng{authorbibnamehash}{cec47e8b1a371f821c725fc126fa872f}
+      \strng{authornamehash}{5633e09ea4714e735a895dcfdc32d9b9}
+      \strng{authorfullhash}{cec47e8b1a371f821c725fc126fa872f}
+      \strng{authorfullhashraw}{cec47e8b1a371f821c725fc126fa872f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antimicrobial peptides (AMPs), evolutionarily conserved components of the immune system, have attracted considerable attention as promising therapeutic candidates. Derived from diverse organisms, AMPs represent a heterogeneous class of molecules, typically cationic, which facilitates their initial electrostatic interaction with anionic microbial membranes. Unlike conventional single-target antibiotics, AMPs utilize rapid, multi-target mechanisms, primarily physical membrane disruption, which results in a significantly lower incidence of resistance emergence. Their broad-spectrum antimicrobial activity, capacity to modulate host immunity, and unique mechanisms of action make them inherently less susceptible to resistance compared with traditional antibiotics. Despite these advantages, the clinical translation of natural AMPs remains limited by several challenges, including poor in vivo stability, and potential cytotoxicity. Bioengineering technology offers innovative solutions to these limitations of AMPs. Two techniques have demonstrated promise: (i) a chimeric recombinant of AMPs with stable scaffold, such as human serum albumin and antibody Fc domain and (ii) chemical modification approaches, such as lipidation. This review provides a comprehensive overview of AMPs, highlighting their origins, structures, and mechanisms of antimicrobial activity, followed by recent advances in bioengineering platforms designed to overcome their therapeutic limitations. By integrating natural AMPs with bioengineering and nanotechnologies, AMPs may be developed into next-generation antibiotics.}
+      \field{issn}{2076-2607}
+      \field{journaltitle}{Microorganisms}
+      \field{number}{11}
+      \field{title}{Antimicrobial Peptides: Current Status, Mechanisms of Action, and Strategies to Overcome Therapeutic Limitations}
+      \field{volume}{13}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.3390/microorganisms13112574
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-2607/13/11/2574
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-2607/13/11/2574
+      \endverb
+    \endentry
+    \entry{10.3389/fmicb.2020.582779}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e07f50db80809aa81a28144093e3a02c}{%
+           family={Huan},
            familyi={H\bibinitperiod},
-           given={Jeffrey\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=621e1fe843ba83091bb1f06a62c95d79}{%
-           family={Ghadiri},
-           familyi={G\bibinitperiod},
-           given={M.\bibnamedelimi Reza},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{6b8a6d19c36d907d41ef9f6ef90fe643}
-      \strng{fullhash}{62c096cffee8c29a6fc27f04d7a4c92e}
-      \strng{fullhashraw}{62c096cffee8c29a6fc27f04d7a4c92e}
-      \strng{bibnamehash}{62c096cffee8c29a6fc27f04d7a4c92e}
-      \strng{authorbibnamehash}{62c096cffee8c29a6fc27f04d7a4c92e}
-      \strng{authornamehash}{6b8a6d19c36d907d41ef9f6ef90fe643}
-      \strng{authorfullhash}{62c096cffee8c29a6fc27f04d7a4c92e}
-      \strng{authorfullhashraw}{62c096cffee8c29a6fc27f04d7a4c92e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0002-7863}
-      \field{issue}{18}
-      \field{journaltitle}{Journal of the American Chemical Society}
-      \field{month}{5}
-      \field{title}{Oriented Self-Assembly of Cyclic Peptide Nanotubes in Lipid Membranes}
-      \field{volume}{120}
-      \field{year}{1998}
-      \field{pages}{4417\bibrangedash 4424}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1021/ja9735315
-      \endverb
-      \verb{urlraw}
-      \verb https://pubs.acs.org/doi/10.1021/ja9735315
-      \endverb
-      \verb{url}
-      \verb https://pubs.acs.org/doi/10.1021/ja9735315
-      \endverb
-    \endentry
-    \entry{Fernandez-Lopez2001}{article}{}{}
-      \name{author}{11}{}{%
-        {{hash=93139bbdd368d80b7cc0af8706c97403}{%
-           family={Fernandez-Lopez},
-           familyi={F\bibinithyphendelim L\bibinitperiod},
-           given={Sara},
-           giveni={S\bibinitperiod}}}%
-        {{hash=6d191fdf92f16ff2d03f859a3d662157}{%
-           family={Kim},
+           given={Yuchen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=08c267a8b1b6d2994d22984b5ab6e638}{%
+           family={Kong},
            familyi={K\bibinitperiod},
-           given={Hui-Sun},
-           giveni={H\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=b46d48f05a9b93723a4e948e07a32d2e}{%
-           family={Choi},
-           familyi={C\bibinitperiod},
-           given={Ellen\bibnamedelima C.},
-           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=5467464674527e69bda55d54c572b4e9}{%
-           family={Delgado},
-           familyi={D\bibinitperiod},
-           given={Mercedes},
-           giveni={M\bibinitperiod}}}%
-        {{hash=fc6e2d07397e18d4933eb69d074ea5af}{%
-           family={Granja},
-           familyi={G\bibinitperiod},
-           given={Juan\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=1265f622a1aa10aeaa7688af0c6998d0}{%
-           family={Khasanov},
-           familyi={K\bibinitperiod},
-           given={Alisher},
-           giveni={A\bibinitperiod}}}%
-        {{hash=01deae9624d935e25ad7cb4e44020abd}{%
-           family={Kraehenbuehl},
-           familyi={K\bibinitperiod},
-           given={Karin},
-           giveni={K\bibinitperiod}}}%
-        {{hash=b8fa2a9b55f6f308f7892089504394b9}{%
-           family={Long},
-           familyi={L\bibinitperiod},
-           given={Georgina},
-           giveni={G\bibinitperiod}}}%
-        {{hash=fa7d60d9be7cbd9e92486569c9d93e24}{%
-           family={Weinberger},
-           familyi={W\bibinitperiod},
-           given={Dana\bibnamedelima A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=d429720213a61af1c7f70f89471959a2}{%
-           family={Wilcoxen},
-           familyi={W\bibinitperiod},
-           given={Keith\bibnamedelima M.},
-           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=621e1fe843ba83091bb1f06a62c95d79}{%
-           family={Ghadiri},
-           familyi={G\bibinitperiod},
-           given={M.\bibnamedelimi Reza},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature}%
-      }
-      \strng{namehash}{4edb8fcb1bdc167e5c5868f7366bd9b7}
-      \strng{fullhash}{db152fa6485cfd86082385a75f258747}
-      \strng{fullhashraw}{db152fa6485cfd86082385a75f258747}
-      \strng{bibnamehash}{db152fa6485cfd86082385a75f258747}
-      \strng{authorbibnamehash}{db152fa6485cfd86082385a75f258747}
-      \strng{authornamehash}{4edb8fcb1bdc167e5c5868f7366bd9b7}
-      \strng{authorfullhash}{db152fa6485cfd86082385a75f258747}
-      \strng{authorfullhashraw}{db152fa6485cfd86082385a75f258747}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0028-0836}
-      \field{issue}{6845}
-      \field{journaltitle}{Nature}
-      \field{month}{7}
-      \field{title}{Antibacterial agents based on the cyclic d,l-α-peptide architecture}
-      \field{volume}{412}
-      \field{year}{2001}
-      \field{pages}{452\bibrangedash 455}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1038/35086601
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/35086601
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/35086601
-      \endverb
-    \endentry
-    \entry{Moral2023}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=25dce4000f73a25828d29b9271eb1b92}{%
-           family={Moral},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=1edc117c56ab19a0791f930dcd2c9b75}{%
+           family={Mou},
            familyi={M\bibinitperiod},
-           given={Rimjhim},
-           giveni={R\bibinitperiod}}}%
-        {{hash=fd3e95c3cacbe88487aa1404cac28d0b}{%
-           family={Paul},
-           familyi={P\bibinitperiod},
-           given={Sandip},
-           giveni={S\bibinitperiod}}}%
+           given={Haijin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=60e87aa1192815dd4aacfc5a0756ee8b}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Huaxi},
+           giveni={H\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {The Royal Society of Chemistry}%
-      }
-      \strng{namehash}{8fffe304d55c2fbf0425d5a94d13f0f1}
-      \strng{fullhash}{8fffe304d55c2fbf0425d5a94d13f0f1}
-      \strng{fullhashraw}{8fffe304d55c2fbf0425d5a94d13f0f1}
-      \strng{bibnamehash}{8fffe304d55c2fbf0425d5a94d13f0f1}
-      \strng{authorbibnamehash}{8fffe304d55c2fbf0425d5a94d13f0f1}
-      \strng{authornamehash}{8fffe304d55c2fbf0425d5a94d13f0f1}
-      \strng{authorfullhash}{8fffe304d55c2fbf0425d5a94d13f0f1}
-      \strng{authorfullhashraw}{8fffe304d55c2fbf0425d5a94d13f0f1}
+      \strng{namehash}{1f5501cbfbe0b03b7a041a07b23e5e33}
+      \strng{fullhash}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{fullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{bibnamehash}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{authorbibnamehash}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{authornamehash}{1f5501cbfbe0b03b7a041a07b23e5e33}
+      \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
+      \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1463-9076}
-      \field{issue}{7}
-      \field{journaltitle}{Physical Chemistry Chemical Physics}
-      \field{month}{2}
-      \field{title}{Influence of salt and temperature on the self-assembly of cyclic peptides in water: a molecular dynamics study}
-      \field{volume}{25}
-      \field{year}{2023}
-      \field{pages}{5406\bibrangedash 5422}
-      \range{pages}{17}
+      \field{abstract}{Antimicrobial peptides (AMPs) are a class of small peptides that widely exist in nature and they are an important part of the innate immune system of different organisms. AMPs have a wide range of inhibitory effects against bacteria, fungi, parasites and viruses. The emergence of antibiotic-resistant microorganisms and people’s increasing concerns about the use of antibiotics resulted in the development of AMPs, which have a good application prospect in medicine, food, animal husbandry, agriculture and aquaculture. This review introduces the progress of research on AMPs comprehensively and systematically, including their classification, mechanism of action, design methods, environmental factors affecting their activity, application status, future prospects in various fields and problems to be solved. The research progress on antivirus peptides, especially anti-coronavirus (COVID-19) peptides, has been introduced given the COVID-19 pandemic worldwide in 2020.}
+      \field{issn}{1664-302X}
+      \field{journaltitle}{Frontiers in Microbiology}
+      \field{title}{Antimicrobial Peptides: Classification, Design, Application and Research Progress in Multiple Fields}
+      \field{volume}{Volume 11 - 2020}
+      \field{year}{2020}
       \verb{doi}
-      \verb 10.1039/D2CP05160E
+      \verb 10.3389/fmicb.2020.582779
       \endverb
       \verb{urlraw}
-      \verb https://xlink.rsc.org/?DOI=D2CP05160E
+      \verb https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.582779
       \endverb
       \verb{url}
-      \verb https://xlink.rsc.org/?DOI=D2CP05160E
-      \endverb
-    \endentry
-    \entry{Insua2023}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=9edc2fda83e294df9e39e1076962650b}{%
-           family={Insua},
-           familyi={I\bibinitperiod},
-           given={Ignacio},
-           giveni={I\bibinitperiod}}}%
-        {{hash=169e4e1aa873a4253b2010eb33ed9e64}{%
-           family={Cardellini},
-           familyi={C\bibinitperiod},
-           given={Annalisa},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ed6eaa17f8dd2a43bb7cf4de6de23fed}{%
-           family={Díaz},
-           familyi={D\bibinitperiod},
-           given={Sandra},
-           giveni={S\bibinitperiod}}}%
-        {{hash=6b234adf41ab012d091e3873da8088be}{%
-           family={Bergueiro},
-           familyi={B\bibinitperiod},
-           given={Julian},
-           giveni={J\bibinitperiod}}}%
-        {{hash=fac0a994ddeab20b5dce5184268a4b85}{%
-           family={Capelli},
-           familyi={C\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=86f682dc03ee7ba1da1db7de5374e4ed}{%
-           family={Pavan},
-           familyi={P\bibinitperiod},
-           given={Giovanni\bibnamedelima M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=2c9e0cdadfa4c396a3cc0a05fd7c72d2}{%
-           family={Montenegro},
-           familyi={M\bibinitperiod},
-           given={Javier},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Royal Society of Chemistry}%
-      }
-      \strng{namehash}{64b09e943b35a374943b26c72aa4c5f9}
-      \strng{fullhash}{a9feb5968d9835eb50a29680cd3da521}
-      \strng{fullhashraw}{a9feb5968d9835eb50a29680cd3da521}
-      \strng{bibnamehash}{a9feb5968d9835eb50a29680cd3da521}
-      \strng{authorbibnamehash}{a9feb5968d9835eb50a29680cd3da521}
-      \strng{authornamehash}{64b09e943b35a374943b26c72aa4c5f9}
-      \strng{authorfullhash}{a9feb5968d9835eb50a29680cd3da521}
-      \strng{authorfullhashraw}{a9feb5968d9835eb50a29680cd3da521}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{1399114328}
-      \field{issn}{2041-6520}
-      \field{issue}{48}
-      \field{journaltitle}{Chemical Science}
-      \field{month}{12}
-      \field{title}{Self-assembly of cyclic peptide monolayers by hydrophobic supramolecular hinges}
-      \field{volume}{14}
-      \field{year}{2023}
-      \field{pages}{14074\bibrangedash 14081}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1039/D3SC03930G
-      \endverb
-      \verb{urlraw}
-      \verb https://xlink.rsc.org/?DOI=D3SC03930G
-      \endverb
-      \verb{url}
-      \verb https://xlink.rsc.org/?DOI=D3SC03930G
+      \verb https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.582779
       \endverb
     \endentry
     \entry{Cao2024}{article}{}{}
@@ -2334,8 +2020,8 @@
       \strng{authornamehash}{92773e5b64599069b71dde370c126c0e}
       \strng{authorfullhash}{962dbf3c45efac4f0d1a22262116c109}
       \strng{authorfullhashraw}{962dbf3c45efac4f0d1a22262116c109}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-2623}
@@ -2432,8 +2118,8 @@
       \strng{editornamehash}{380d66f714ba2e5fc3623c96e6fd611d}
       \strng{editorfullhash}{380d66f714ba2e5fc3623c96e6fd611d}
       \strng{editorfullhashraw}{380d66f714ba2e5fc3623c96e6fd611d}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1367-4811}
@@ -2486,8 +2172,8 @@
       \strng{authornamehash}{52e5f90d9bd2b63afdcb10a5e7991cfb}
       \strng{authorfullhash}{032bfd467aedab714d9ae897adca9044}
       \strng{authorfullhashraw}{032bfd467aedab714d9ae897adca9044}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1434-6028}
@@ -2813,8 +2499,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -2856,8 +2542,8 @@
       \strng{authornamehash}{db3457a5be5bcbb5d8935986f68c2507}
       \strng{authorfullhash}{db3457a5be5bcbb5d8935986f68c2507}
       \strng{authorfullhashraw}{db3457a5be5bcbb5d8935986f68c2507}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -2898,8 +2584,8 @@
       \strng{authornamehash}{de1fb5702a5bfaecaf843b90fd3ef692}
       \strng{authorfullhash}{de1fb5702a5bfaecaf843b90fd3ef692}
       \strng{authorfullhashraw}{de1fb5702a5bfaecaf843b90fd3ef692}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0556-2791}
@@ -2945,8 +2631,8 @@
       \strng{authornamehash}{6f1f9779fc2067e42d3da9227f63ee88}
       \strng{authorfullhash}{6f1f9779fc2067e42d3da9227f63ee88}
       \strng{authorfullhashraw}{6f1f9779fc2067e42d3da9227f63ee88}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10728368}
@@ -3419,9 +3105,9 @@
       \strng{authornamehash}{0f2a372ebeaf871b7487245b9c23e62a}
       \strng{authorfullhash}{ec543d02e629178b1dcdbe8cc09b68b5}
       \strng{authorfullhashraw}{ec543d02e629178b1dcdbe8cc09b68b5}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09277765}
@@ -3497,9 +3183,9 @@
       \strng{authornamehash}{0f2a372ebeaf871b7487245b9c23e62a}
       \strng{authorfullhash}{3c60264ff571cbb0a481719bec314859}
       \strng{authorfullhashraw}{3c60264ff571cbb0a481719bec314859}
-      \field{extraname}{3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09277765}
@@ -3609,8 +3295,8 @@
       \strng{authornamehash}{01c0dfb9a380d9f8ae460e44dca8039a}
       \strng{authorfullhash}{01c0dfb9a380d9f8ae460e44dca8039a}
       \strng{authorfullhashraw}{01c0dfb9a380d9f8ae460e44dca8039a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of chemical physics}
@@ -3690,8 +3376,8 @@
       \strng{authornamehash}{cce0fc9016218fd4b55f9770cf988609}
       \strng{authorfullhash}{2d270bdc623eaca840fbf667517460b1}
       \strng{authorfullhashraw}{2d270bdc623eaca840fbf667517460b1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Chemistry}
@@ -3801,8 +3487,8 @@
       \strng{authornamehash}{6ecf9fe49cf40239f2de99ee16c691cc}
       \strng{authorfullhash}{eff2ab91590a1b220bf7edf32410df78}
       \strng{authorfullhashraw}{eff2ab91590a1b220bf7edf32410df78}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0092-8674}
@@ -3870,8 +3556,8 @@
       \strng{authorfullhash}{a10fa3d4d6bf3d00aa48adadfa46c877}
       \strng{authorfullhashraw}{a10fa3d4d6bf3d00aa48adadfa46c877}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{23527110}
@@ -3914,8 +3600,8 @@
       \strng{authornamehash}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
       \strng{authorfullhash}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
       \strng{authorfullhashraw}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annalen der Physik}
@@ -4235,8 +3921,8 @@
       \strng{authornamehash}{d23158ec68c3d1dc0367549d8e0d835e}
       \strng{authorfullhash}{12510623d7d2bc7f20479782d9d33a86}
       \strng{authorfullhashraw}{12510623d7d2bc7f20479782d9d33a86}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -4282,8 +3968,8 @@
       \strng{authornamehash}{730353c93cfd0e919b5a46a2e3a49c12}
       \strng{authorfullhash}{730353c93cfd0e919b5a46a2e3a49c12}
       \strng{authorfullhashraw}{730353c93cfd0e919b5a46a2e3a49c12}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -4324,8 +4010,8 @@
       \strng{authornamehash}{1237eddc38b2282893d8bd6775a2ca48}
       \strng{authorfullhash}{1237eddc38b2282893d8bd6775a2ca48}
       \strng{authorfullhashraw}{1237eddc38b2282893d8bd6775a2ca48}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0003-3804}
@@ -4376,8 +4062,8 @@
       \strng{authornamehash}{bba279c013b2167b688025a8dcf71f6b}
       \strng{authorfullhash}{539bc17ca29fdfcf960a176d1072ed1f}
       \strng{authorfullhashraw}{539bc17ca29fdfcf960a176d1072ed1f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -4820,8 +4506,8 @@
       \strng{authornamehash}{201ec4eaa7265fcf42cdd6af5ef63847}
       \strng{authorfullhash}{12020e55fcf1aa56d5e50ad91df1eba7}
       \strng{authorfullhashraw}{12020e55fcf1aa56d5e50ad91df1eba7}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1549-9618}
@@ -5007,8 +4693,8 @@
       \strng{authornamehash}{6b932adbfabb579ac0f37209f8592481}
       \strng{authorfullhash}{cd4febe423903c9d2181c74597654fab}
       \strng{authorfullhashraw}{cd4febe423903c9d2181c74597654fab}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2374-7943}
@@ -5074,8 +4760,8 @@
       \strng{authornamehash}{fe86f3489d68af94e2c136cb5c785b99}
       \strng{authorfullhash}{795056b518da4b87bcc8d485df625f92}
       \strng{authorfullhashraw}{795056b518da4b87bcc8d485df625f92}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2041-1723}
@@ -5139,8 +4825,8 @@
       \strng{authornamehash}{907f2397b4855cbace9ce1c288c366a7}
       \strng{authorfullhash}{509e846f62803cc11b6e0296ae0a81b9}
       \strng{authorfullhashraw}{509e846f62803cc11b6e0296ae0a81b9}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1463-9262}

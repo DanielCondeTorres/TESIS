@@ -74,47 +74,161 @@ As of its latest update in December 2024, the Data Repository of Antimicrobial P
 
 In this context, there are already cyclic versions of AMPs that exhibit good activity \cita{Mika2011}\textsuperscript{,}\cita{Abraham2014}, highlighting CPs as a promising strategy to enhance natural AMPs or to design new sequences to mimic their function.
  
-\section{Self-Assembled Cyclic Peptide Nanotubes}
-Researchers, in their continuous effort to push the boundaries of science, have envisioned CPs not only as a means to improve AMPs, but also as promising building blocks for the formation of nanotubular structures driven by noncovalent interactions\cita{Chapman2012}. 
 
-The first self-assembled cyclic peptide nanotubes (SCPNs) were synthesized by Ghadiri in 1993, almost 20 years after they were first proposed by De Santis in 1974\cita{Ghadiri1993}\textsuperscript{,}\cita{DeSantis1974}. These CPs were formed by an even number of alternating \textit{D-} and \textit{L-}$\alpha$-amino acid residues. The alternating chirality leads to a flat, ring-shaped molecule, leaving the oxygens of the carbonyl groups (C=O) and the hydrogens of the amine groups (NH) oriented perpendicular to the plane of the CP. This unique geometry allows CPs to self-assemble by forming hydrogen bonds (H-bonds) with adjacent CPs, mimicking a $\beta$-sheet arrangement (Figure \ref{fig:SCPN}A).
+\section{The Global Crisis of Antimicrobial Resistance}
+The exponential rise of antimicrobial resistance (AMR) poses one of the most critical public health and economic threats of the 21st century\cita{salam2023antimicrobial}. With traditional antibiotics losing their efficacy due to the rapid mutation and adaptation of pathogens, the discovery and optimization of novel therapeutic agents is urgently required\cita{macnair2024alternative}. It is estimated that by 2050, more than 10  million deaths annually will be associated with AMR if current trends continue\cita{Tang2023}.
 
-\begin{figure}[htbp]
-  \centering
 
-  % Top image (A)
-  \begin{subfigure}{0.6\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{General_Sections/Figures/SchematicSCPN.png}
-  \end{subfigure}
 
-  % \vspace{1em} % vertical space between the two images
 
-  % Bottom image (B)
-  \begin{subfigure}{0.6\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{General_Sections/Figures/PvsA.png}
-  \end{subfigure}
 
-  \caption{\textbf{A} Schematic representation of a \textit{D,L-}$\alpha$-C and the corresponding assembly in a SCPN. \textbf{B} Representation of the parallel and antiparallel $\beta$-sheets formed by CPs.}
-  \label{fig:SCPN}
-\end{figure}
 
-Furthermore, in this planar conformation, all the C=O and NH groups of residues with the same chirality point in the same direction, giving rise to two distinct faces: a \textit{D-}face and a \textit{L-}face. This allows two CPs to assemble by forming either parallel or antiparallel $\beta$-sheet-like structures (Figure \ref{fig:SCPN}B).
 
-The resulting SCPNs have an internal cavity and an external surface, whose properties can be tailored during CP synthesis. The internal diameter can be adjusted by increasing the number of amino acids in the sequence. Moreover, hydrophobicity can be tuned by replacing some of the $\alpha$-residues with $\beta$-amino acids\cita{Claro2018} or $\gamma$-/$\delta$-cycloalkyl-like amino acids\cita{Amorn2003}\textsuperscript{,}\cita{Lamas2018}. In contrast, the nature of the external surface is determined by the choice of amino acids, and this has been observed to dictate the behaviour of the SCPNs in the presence of lipid bilayers, thereby shaping their applications.
 
-In 1994, Ghadiri's group showed that CPs with hydrophobic side-chains, such as Leu or Trp, could self-assemble within lipid bilayers (Figure \ref{fig:Assembly}), forming transmembrane channels capable of ion transport \cita{Ghadiri1994}\textsuperscript{,}\cita{Kim1998}. Subsequent studies revealed that the use of amphipathic CPs with well differentiated hydrophobic and hydrophilic regions, could align parallel to the surface of the membrane (Figure \ref{fig:Assembly}), showing good antimicrobial activity \cita{Fernandez-Lopez2001}. These findings highlight the potential to tune SCPN-membrane interactions through CP sequence engineering.
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.9\linewidth]{General_Sections/Figures/DirectedAssembly.png}
-    \caption{Representation of the disposition relative to the membrane adopted by hydrophobic SCPNs (left) and amphipathic SCPNs (right).}
-    \label{fig:Assembly}
-\end{figure}
-\FloatBarrier
 
-To effectively design SCPNs to exhibit specific properties or biological functions, it is important to decipher their mechanisms of action. This demands atomic-level resolution, which remains challenging for most experimental techniques. Furthermore, SCPNs---like other supramolecular systems---are highly dynamic. Thus, to fully understand the relationship between sequence, structure, and function, it is necessary to observe how these molecules interact with themselves and their environment in real time. Without the capability to understand the dynamic behavior and structural changes that define their activity, their design must rely on empirical approaches, as well as on serendipity. In this regard, computational techniques and, in particular, Molecular Dynamics (MD), have already proven to be useful tools to advance our understanding of SCPNs \cita{Moral2023}\textsuperscript{,}\cita{Insua2023}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In this context, antimicrobial peptides (AMPs),also known as endogenous therapeutic peptides (ETPs), have garnered immense attention. AMPs are ancient, evolutionarily conserved effector molecules of the innate immune system found across all domains of life, from bacteria and fungi to plants and mammals\cita{fermentation10110540},\cita{microorganisms13112574}. Unlike conventional small-molecule antibiotics, which typically target highly specific enzymatic pathways, AMPs employ rapid, physically driven, and multi-target mechanisms that significantly diminish the likelihood of bacteria developing mutational resistance\cita{microorganisms13112574},\cita{10.3389/fmicb.2020.582779}.
+
+\section{Physicochemical Properties and Structural Determinants}
+The biological functionality of an AMP is intrinsically linked to its primary amino acid sequence and resulting three-dimensional topology. Most native AMPs are short oligomers, typically comprising 10 to 60 amino acid residues. Their activity is governed by two main factors:
+
+\begin{itemize}
+    \item \textbf{Cationicity:} Most AMPs possess a net positive charge (typically ranging from +2 to +9), primarily due to the presence of Lysine (Lys, K) and Arginine (Arg, R) residues. This favors electrostatic interaction with the negatively charged membranes of pathogens.
+    \item \textbf{Amphipathicity:} AMPs exhibit a balance between hydrophilic and hydrophobic regions. This dual nature is essential for their insertion into the non-polar lipid core of biological membranes.
+\end{itemize}
+
+\subsection{Structural Classification}
+Based on the secondary structure they acquire when interacting with their targets, AMPs are generally classified into four archetypes:
+
+\begin{enumerate}
+    \item \textbf{$\alpha$-helical peptides:} These are the most abundant in nature (e.g., magainins, LL-37). They often remain in a random coil state in solution but undergo a conformational change to an $\alpha$-helix upon adsorption into the lipid bilayer.
+    \item \textbf{$\beta$-sheet peptides:} These structures are stabilized by intramolecular disulfide bridges (Cys-Cys bonds), providing high resistance to proteolytic degradation. Examples include human defensins.
+    \item \textbf{Loop/Cyclic peptides:} These form structures via head-to-tail cyclization or single disulfide bonds (e.g., bactenecins).
+    \item \textbf{Extended peptides:} These lack traditional secondary folding and are often rich in specific residues like Proline or Tryptophan (e.g., indolicidin).
+\end{enumerate}
+
+\section{Mechanisms of Membrane Disruption}
+The therapeutic action of membrane-targeting AMPs is achieved through the physical disruption of the cell membrane. This process occurs in two primary stages: initial electrostatic recruitment followed by hydrophobic partitioning. Once a critical concentration of peptides is adsorbed, the membrane structure is compromised through several proposed models:
+
+\subsection{Pore Formation Models}
+Depending on the peptide's characteristics, two main pore models are described:
+\begin{itemize}
+    \item \textbf{Barrel-stave model:} Peptides insert perpendicularly into the membrane, aggregating such that their hydrophobic faces interact with lipid tails while their hydrophilic faces form a central aqueous channel.
+    \item \textbf{Toroidal-pore model:} Peptides induce a local curvature in the membrane, causing the lipid headgroups to tilt and line the pore along with the peptides.
+\end{itemize}
+
+\subsection{Non-Pore Models}
+Alternatively, some peptides act via the \textbf{Carpet model}, where they accumulate parallel to the membrane surface. Upon reaching a threshold, they act like detergents, leading to the micellization and fragmentation of the bilayer without forming discrete pores.
+
+
+
+\section{Limitations of Experimental Techniques}
+Characterizing the interaction between AMPs and membranes is a complex task. Common techniques include Circular Dichroism (CD) for structural estimation, Nuclear Magnetic Resonance (NMR) for atomic-level 3D structures, and Fluorescence Spectroscopy for binding kinetics. 
+
+However, these methods face significant limitations. For instance, CD provides an ensemble average of many molecules rather than individual dynamics. Atomic Force Microscopy (AFM) can visualize membrane defects but often requires flat, supported bilayers that do not fully replicate the environment of vesicles in solution. Crucially, none of these methods provide time-resolved, atomic-level insights into the transition states of membrane disruption.
+
+\section{Simulation Approaches: Molecular Dynamics (MD)}
+Unlike experimental techniques, the simulation of systems involving peptides and lipid bilayers can provide atomistic, time-resolved trajectories of all particles in the system. This allows the study of peptide adsorption and folding at a level of detail beyond what is achieved experimentally.
+
+\subsection{Classical Molecular Dynamics}
+Classical MD computes the motion of particles by integrating Newton’s equations of motion. The accuracy of these simulations depends on the \textbf{Force Field} (FF), which provides the parameters for bonded and non-bonded interactions. The choice of FF is critical; if the selected FF does not capture the relevant interactions (e.g., specific protein-lipid affinities), the resulting trajectories will not represent the physical system.
+
+\subsection{Solvent and Membrane Representation}
+Early simulations used \textbf{implicit solvent} models to save computational costs, representing water as a continuous medium with a specific dielectric constant. However, this fails to capture specific hydrogen bonding between the peptide and water molecules. Modern MD favors \textbf{explicit solvent} and \textbf{explicit membranes}, where every lipid and water molecule is represented. While more accurate, this significantly increases the system size and computational demand.
+
+\section{Sampling Challenges and Enhanced Methods}
+The main limitation of atomistic MD is the timescale. Slow phenomena such as spontaneous peptide folding or pore formation often occur on microsecond to millisecond scales, which are difficult to reach with standard MD. To overcome this, several \textbf{Enhanced Sampling} techniques are employed:
+\begin{itemize}
+    \item \textbf{Replica-Exchange MD (REMD):} Running multiple simulations at different temperatures to cross energy barriers.
+    \item \textbf{Metadynamics:} Adding a history-dependent biasing potential to discourage the system from staying in local energy minima.
+    \item \textbf{Umbrella Sampling:} Constraining the system along a specific reaction coordinate (e.g., the distance between the peptide and the membrane center).
+\end{itemize}
+
+\subsection{Coarse-Grained (CG) Simulations}
+A Coarse-Grained representation improves sampling by reducing the degrees of freedom. In CG models, such as the \textbf{Martini force field}, groups of approximately four heavy atoms are mapped into a single interaction site (bead). 
+\begin{equation}
+    F_i = m_i \frac{d^2r_i}{dt^2}
+\end{equation}
+This smoothing of the free energy surface allows for simulations that are orders of magnitude longer. However, the loss of resolution—such as the absence of explicit hydrogen atoms—means that phenomena like precise H-bonding and secondary structure transitions cannot be fully described without additional constraints like elastic networks.
+
+
+
+\section{Pharmacological Barriers}
+Despite their potential, as of early 2026, only a few AMPs (e.g., daptomycin, polymyxins, and gramicidin D) are in clinical use. The transition from lab to clinic is hindered by:
+\begin{enumerate}
+    \item \textbf{Proteolytic Instability:} Rapid degradation by proteases in the blood.
+    \item \textbf{Cytotoxicity:} High concentrations can lead to hemolysis (destruction of red blood cells).
+    \item \textbf{Production Costs:} Large-scale chemical synthesis of long peptides remains expensive.
+\end{enumerate}
+
+\section{Advanced Design Strategies}
+Modern medicinal chemistry utilizes several strategies to "drug-optimize" AMPs:
+\begin{itemize}
+    \item \textbf{Peptide Stapling:} Introducing a chemical "bridge" (tether) between residues (e.g., positions $i$ and $i+7$) to lock the peptide into an $\alpha$-helical shape, increasing stability and potency.
+    \item \textbf{D-Amino Acids:} Using the mirror-image isomers of amino acids, which proteases cannot recognize, thus extending the peptide's half-life.
+    \item \textbf{Lipidation:} Attaching fatty acid chains to enhance membrane anchor properties.
+    \item \textbf{Peptidomimetics:} Creating synthetic molecules (like Brilacidin) that mimic the properties of AMPs but are not composed of standard peptide bonds.
+\end{itemize}
+
+Antimicrobial peptides represent a frontier in the fight against AMR. While experimental techniques provide the foundation for our understanding, Molecular Dynamics simulations bridge the gap by offering a molecular "movie" of the disruption process. The future of AMP-based therapy lies in the synergy between rational bioengineering and high-performance computational modeling to create stable, selective, and cost-effective agents for clinical use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \section{Computational Methods in Chemistry}
 
