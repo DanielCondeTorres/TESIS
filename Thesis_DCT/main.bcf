@@ -2476,6 +2476,17 @@
     <bcf:citekey order="93" intorder="1">Laio2002</bcf:citekey>
     <bcf:citekey order="94" intorder="1">Barducci2008</bcf:citekey>
     <bcf:citekey order="95" intorder="1">nielsen2010quantum</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">DANI_LIPIDOS</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">martini2</bcf:citekey>
+    <bcf:citekey order="97" intorder="2">martini3</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">DANI_LIPIDOS</bcf:citekey>
+    <bcf:citekey order="98" intorder="2">DANI_METADINAMICA</bcf:citekey>
+    <bcf:citekey order="99" intorder="1">robert2021resource</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">DANI_CUANTICA</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">robert2021resource</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">DANI_CUANTICA</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">DANI_CUANTICA</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">DANI_CUANTICA</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

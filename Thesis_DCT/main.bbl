@@ -3207,6 +3207,299 @@
       \endverb
       \keyw{Antimicrobial peptides,Coarse-grained molecular dynamics simulations,D,Differential scanning calorimetry,L-α-cyclic peptides,Polarized ATR-FTIR,Self-assembled cyclic peptide nanotubes}
     \endentry
+    \entry{feynman1982simulating}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=aac54ccf9c76aa4ba4310ed1334be7d8}{%
+           family={Feynman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima P},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{fullhash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{fullhashraw}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{bibnamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{authorbibnamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{authornamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{authorfullhash}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \strng{authorfullhashraw}{aac54ccf9c76aa4ba4310ed1334be7d8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of theoretical physics}
+      \field{number}{6-7}
+      \field{title}{Simulating physics with computers}
+      \field{volume}{21}
+      \field{year}{1982}
+      \field{pages}{467\bibrangedash 488}
+      \range{pages}{22}
+    \endentry
+    \entry{nielsen2010quantum}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=afe17482fc813e497188aee3b3783879}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=415ddff2f58b25977b1a2dedf18f4501}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Isaac\bibnamedelima L.},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{fullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{fullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{bibnamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorbibnamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \strng{authorfullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Computation and Quantum Information: 10th Anniversary Edition}
+      \field{year}{2010}
+    \endentry
+    \entry{preskill2018quantum}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fbe61da8813855105d0c727fa93b4b4d}{%
+           family={Preskill},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{fullhash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{fullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{bibnamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorbibnamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authornamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantum}
+      \field{title}{Quantum Computing in the NISQ era and beyond}
+      \field{volume}{2}
+      \field{year}{2018}
+      \field{pages}{79}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.22331/q-2018-08-06-79
+      \endverb
+    \endentry
+    \entry{peruzzo2014variational}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=da632f662bb1ab5c3e05ddb80b6cd201}{%
+           family={Peruzzo},
+           familyi={P\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=44d80c9bccbe7462fe524bbf9cd54a08}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Jarrod},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c0ad2cf76d13d7b9fb852ca865569241}{%
+           family={Shadbolt},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cbadbf9460f01d20432bc4fb34345309}{%
+           family={Yung},
+           familyi={Y\bibinitperiod},
+           given={Man-Hong},
+           giveni={M\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=30e428aa9e63bc24127324a4c1fefabc}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiao-Qi},
+           giveni={X\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=2d8133b5eb867e28af9ca9ea41105b5c}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c8e4de768a4ced864e5f9490e6a67454}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Jeremy\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{bddcbb30e0909355294b8653d4787a0e}
+      \strng{fullhash}{16fda0acd29f1276c07270659e70cdff}
+      \strng{fullhashraw}{16fda0acd29f1276c07270659e70cdff}
+      \strng{bibnamehash}{16fda0acd29f1276c07270659e70cdff}
+      \strng{authorbibnamehash}{16fda0acd29f1276c07270659e70cdff}
+      \strng{authornamehash}{bddcbb30e0909355294b8653d4787a0e}
+      \strng{authorfullhash}{16fda0acd29f1276c07270659e70cdff}
+      \strng{authorfullhashraw}{16fda0acd29f1276c07270659e70cdff}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature communications}
+      \field{number}{1}
+      \field{title}{A variational eigenvalue solver on a photonic quantum processor}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{4213}
+      \range{pages}{1}
+    \endentry
+    \entry{farhi2014quantum}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=5e61ee12360fc49d9013fbf8fe18db89}{%
+           family={Farhi},
+           familyi={F\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f2e6b451475e084ec5469a7bd9c9c6cf}{%
+           family={Goldstone},
+           familyi={G\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=39d938c535d4f5974b7e118bfc075b2f}{%
+           family={Gutmann},
+           familyi={G\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4678a579c5851929a69bc0b9a15a0a83}
+      \strng{fullhash}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{fullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{bibnamehash}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{authorbibnamehash}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{authornamehash}{4678a579c5851929a69bc0b9a15a0a83}
+      \strng{authorfullhash}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{authorfullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1411.4028}
+      \field{title}{A quantum approximate optimization algorithm}
+      \field{year}{2014}
+    \endentry
+    \entry{mcclean2016theory}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a253ddc1c4c24cde70238bd45dc9aeff}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Jarrod\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8c1a9ea5a335989d4957424b7cc2f7b9}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7bb1dcf8a93d1ecc6f9531ece93ef1fa}{%
+           family={Babbush},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{836c04a8ead66d709fbf0afad5433010}
+      \strng{fullhash}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{fullhashraw}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{bibnamehash}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{authorbibnamehash}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{authornamehash}{836c04a8ead66d709fbf0afad5433010}
+      \strng{authorfullhash}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{authorfullhashraw}{7e5c493347d687b6e14dc4b030f9aa64}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Journal of Physics}
+      \field{number}{2}
+      \field{title}{The theory of variational hybrid quantum-classical algorithms}
+      \field{volume}{18}
+      \field{year}{2016}
+      \field{pages}{023023}
+      \range{pages}{1}
+    \endentry
+    \entry{robert2021resource}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=aad7e7b0b68f7c3b1d0f268982013109}{%
+           family={Robert},
+           familyi={R\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e0ee62ff36d5893ed068567748b8466}{%
+           family={Barkoutsos},
+           familyi={B\bibinitperiod},
+           given={Panagiotis\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=43697d55280b4841e685e5008d047e19}{%
+           family={Woerner},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45d1289800b8218091acef2735bca88d}{%
+           family={Tavernelli},
+           familyi={T\bibinitperiod},
+           given={Ivano},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{521eaf63feb6c192cc3166296eb64a38}
+      \strng{fullhash}{22db2573886fd084a0319c8a56fff761}
+      \strng{fullhashraw}{22db2573886fd084a0319c8a56fff761}
+      \strng{bibnamehash}{22db2573886fd084a0319c8a56fff761}
+      \strng{authorbibnamehash}{22db2573886fd084a0319c8a56fff761}
+      \strng{authornamehash}{521eaf63feb6c192cc3166296eb64a38}
+      \strng{authorfullhash}{22db2573886fd084a0319c8a56fff761}
+      \strng{authorfullhashraw}{22db2573886fd084a0319c8a56fff761}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{npj Quantum Information}
+      \field{number}{1}
+      \field{title}{Resource-efficient quantum algorithm for protein folding}
+      \field{volume}{7}
+      \field{year}{2021}
+      \field{pages}{38}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41534-021-00368-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41534-021-00368-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41534-021-00368-4
+      \endverb
+    \endentry
     \entry{Li2023}{article}{}{}
       \name{author}{6}{}{%
         {{hash=e313a682fdf592c1688496d25b95c6f5}{%
@@ -5590,14 +5883,204 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.020603
       \endverb
     \endentry
+    \entry{DANI_LIPIDOS}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
+           family={Conde-Torres},
+           familyi={C\bibinithyphendelim T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e17f7d4e7087892f5b9b2bcf5cd3be47}{%
+           family={Blanco-González},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5af753eb09baf32d7b6422f91309c8ea}{%
+           family={Seco-González},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f24e7b93ec17e5510b1432b7a530127}{%
+           family={Suárez-Lestón},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Fabián},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ead79284dd93e4ad2552a8c355f9f171}{%
+           family={Cabezón},
+           familyi={C\bibinitperiod},
+           given={Alfonso},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c3af01ba9dae34c128e83366eb694642}{%
+           family={Antelo-Riveiro},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=89173c6cc73e6a66e3314aab41131d3d}{%
+           family={García-Fandiño},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{fullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{fullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{bibnamehash}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{authorbibnamehash}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{authorfullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{authorfullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
+      \field{issn}{1664-3224}
+      \field{journaltitle}{Frontiers in Immunology}
+      \field{title}{Unraveling lipid and inflammation interplay in cancer, aging and infection for novel theranostic approaches}
+      \field{volume}{Volume 15 - 2024}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.3389/fimmu.2024.1320779
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779
+      \endverb
+    \endentry
+    \entry{DANI_METADINAMICA}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
+           family={Conde-Torres},
+           familyi={C\bibinithyphendelim T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fbc376578a5dfdf58eaac1f56584feb3}{%
+           family={Calvelo},
+           familyi={C\bibinitperiod},
+           given={Martín},
+           giveni={M\bibinitperiod}}}%
+        {{hash=62904bc9ef12a76a4c186f6ebe0113ec}{%
+           family={Rovira},
+           familyi={R\bibinitperiod},
+           given={Carme},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=a2a353207d6538894c649b665d69f8ec}{%
+           family={Garcia-Fandino},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{fullhash}{4e45496e61c2ed3c6b882c09871d2689}
+      \strng{fullhashraw}{4e45496e61c2ed3c6b882c09871d2689}
+      \strng{bibnamehash}{4e45496e61c2ed3c6b882c09871d2689}
+      \strng{authorbibnamehash}{4e45496e61c2ed3c6b882c09871d2689}
+      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{authorfullhash}{4e45496e61c2ed3c6b882c09871d2689}
+      \strng{authorfullhashraw}{4e45496e61c2ed3c6b882c09871d2689}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antimicrobial peptides (AMPs) are increasingly recognized as potent therapeutic agents, with their selective affinity for pathological membranes, low toxicity profile, and minimal resistance development making them particularly attractive in the pharmaceutical landscape. This study offers a comprehensive analysis of the interaction between specific AMPs, including magainin-2, pleurocidin, CM15, LL37, and clavanin, with lipid bilayer models of very different compositions that have been ordinarily used as biological membrane models of healthy mammal, cancerous, and bacterial cells. Employing unbiased molecular dynamics simulations and metadynamics techniques, we have deciphered the intricate mechanisms by which these peptides recognize pathogenic and pathologic lipid patterns and integrate into lipid assemblies. Our findings reveal that the transverse component of the peptide's hydrophobic dipole moment is critical for membrane interaction, decisively influencing the molecule's orientation and expected therapeutic efficacy. Our approach also provides insight on the kinetic and dynamic dependence on the peptide orientation in the axial and azimuthal angles when coming close to the membrane. The aim is to establish a robust framework for the rational design of peptide-based, membrane-targeted therapies, as well as effective quantitative descriptors that can facilitate the automated design of novel AMPs for these therapies using machine learning methods.}
+      \field{issn}{2001-0370}
+      \field{journaltitle}{Computational and Structural Biotechnology Journal}
+      \field{title}{Unlocking the specificity of antimicrobial peptide interactions for membrane-targeted therapies}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{pages}{61\bibrangedash 74}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.csbj.2024.04.022
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2001037024000990
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2001037024000990
+      \endverb
+      \keyw{Antimicrobial peptides,Molecular dynamics,Lipid membranes,Enhanced sampling methods,Metadynamics,Potential of Mean Force (PMF),Free energy surface (FES)}
+    \endentry
+    \entry{DANI_CUANTICA}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
+           family={Conde-Torres},
+           familyi={C\bibinithyphendelim T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b51ac35c95162e7619f3f3d90e20b9b6}{%
+           family={Mussa-Juane},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={Mariamo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=503dae5306e6b25899a68bf89f34595b}{%
+           family={Faílde},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1a405fe996ced74d1d6d7065f6dd4a3a}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={Andrés},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89173c6cc73e6a66e3314aab41131d3d}{%
+           family={García-Fandiño},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{fullhash}{e999dabd205d32dabd69447c98289453}
+      \strng{fullhashraw}{e999dabd205d32dabd69447c98289453}
+      \strng{bibnamehash}{e999dabd205d32dabd69447c98289453}
+      \strng{authorbibnamehash}{e999dabd205d32dabd69447c98289453}
+      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{authorfullhash}{e999dabd205d32dabd69447c98289453}
+      \strng{authorfullhashraw}{e999dabd205d32dabd69447c98289453}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Antimicrobial peptides (AMPs) are crucial in the fight against infections and play significant roles in various health contexts, including cancer, autoimmune diseases, and aging. A key aspect of AMP functionality is their selective interaction with pathogen membranes, which often exhibit altered lipid compositions. These interactions are thought to induce a conformational shift in AMPs from random coil to alpha-helical structures, essential for their lytic activity. Traditional computational approaches have faced challenges in accurately modeling these structural changes, especially in membrane environments, thereby opening and opportunity for more advanced approaches. Method: This study extends an existing quantum computing algorithm, initially designed for peptide folding simulations in homogeneous environments, to address the complexities of AMP interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, resembling lipid membranes. The new method was tested on three 10-amino-acid-long peptides, each characterized by distinct hydrophobic, hydrophilic, or amphipathic properties, across different media and at interfaces between solvents of different polarity. Results: The developed method successfully modeled the structure of the peptides without increasing the number of qubits required compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite the current limitations in computational power and qubit availability, the findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly AMP folding at membrane models. Conclusions: This research highlights the promising applications of quantum computing in biomolecular simulations, paving the way for future advancements in the development of novel therapeutic agents. We aim to offer a new perspective on enhancing the accuracy and applicability of biomolecular simulations in the context of AMP interactions with membrane models.}
+      \field{issn}{0010-4825}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{Classical Simulations on Quantum Computers: Interface-Driven Peptide Folding on Simulated Membrane Surfaces}
+      \field{volume}{182}
+      \field{year}{2024}
+      \field{pages}{109157}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.compbiomed.2024.109157
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
+      \endverb
+      \keyw{Antimicrobial peptides,Quantum computing,Lipid membranes,Interface,Peptide folding}
+    \endentry
   \enddatalist
-  \missing{farhi2014quantum}
-  \missing{feynman1982simulating}
-  \missing{mcclean2016theory}
-  \missing{nielsen2010quantum}
-  \missing{peruzzo2014variational}
-  \missing{preskill2018quantum}
-  \missing{robert2021resource}
 \endrefsection
 \endinput
 

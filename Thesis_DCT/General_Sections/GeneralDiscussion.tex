@@ -2,71 +2,331 @@
 \chapterquote{GROMACS reminds you: ` `All models are wrong, but some are useful.'' (George Box)}
 
 \newpage
-\section{La Membrana como Centro de Datos: El Paradigma CAIn}
 
-El punto de partida de esta tesis doctoral es la reconceptualización de la membrana citoplasmática. Tradicionalmente vista como una simple barrera semipermeable, nuestra revisión en \textit{Frontiers in Immunology} (cita) la define como un \textbf{centro de procesamiento de señales e información biofísica}. El "Triángulo CAIn" (Cáncer, Envejecimiento e Infección) se postula aquí no como una tríada de enfermedades independientes, sino como estados patológicos que comparten una firma de "estrés lipídico".
+\section{The CAIn Triangle: Lipidomics as a Universal Vulnerability}
 
-\subsection{La Huella Lipídica de la Inflamación}
-El análisis detallado en (cita) revela que la pérdida de la asimetría lipídica es un evento universal en la transición hacia la patología. La externalización de la fosfatidilserina (PS) en células apoptóticas, senescentes y cancerosas no solo es una señal de "cómeme" para los macrófagos, sino que altera la capacitancia y el potencial electrostático de la superficie celular ($V_s$). Esta alteración es la que permite que los péptidos antimicrobianos (AMPs), que han evolucionado durante millones de años para reconocer la carga negativa de los lipopolisacáridos (LPS) y el fosfatidilglicerol (PG) en bacterias, puedan ser redirigidos hacia células tumorales o senescentes. 
+The conceptual cornerstone of this thesis is the definition of the \textbf{CAIn Triangle} (Cancer, Aging, and Infection). As detailed in our comprehensive review in \textit{Frontiers in Immunology} \cite{DANI_LIPIDOS}, these three global health challenges share a common biophysical denominator: the disruption of membrane homeostasis and chronic inflammation.
 
-La discusión aquí se centra en que el diseño de AMPs debe ser \textbf{contexto-dependiente}. No basta con diseñar un péptido catiónico; se requiere un diseño que considere la "línea base" de carga de la membrana diana, la cual varía drásticamente entre una bacteria Gram-negativa y un microambiente tumoral acidificado.
+\subsection{The Biophysical Signature of Pathological Membranes}
+In healthy eukaryotic cells, lipid asymmetry is maintained by ATP-dependent flippases, sequestering anionic phospholipids like phosphatidylserine (PS) in the inner leaflet. Our work establishes that in cancerous, senescent, and infected cells, this asymmetry collapses. This "lipid scrambling" results in a significant increase in the negative surface charge density. 
+\begin{itemize}
+    \item \textbf{Cancer:} The tumor microenvironment induces flippase inactivation and scramblase activation, exposing PS as a "molecular beacon."
+    \item \textbf{Aging:} Chronic low-grade inflammation (\textit{inflammaging}) leads to oxidative damage of lipids and loss of membrane integrity.
+    \item \textbf{Infection:} Bacterial membranes are inherently anionic, characterized by high concentrations of Phosphatidylglycerol (PG) and Cardiolipin.
+\end{itemize}
 
-\section{Mecánica Estadística de la Interacción Péptido-Membrana}
 
-Si la membrana es el objetivo, la Dinámica Molecular (MD) es nuestro microscopio. Sin embargo, como se argumenta en nuestro trabajo de \textit{CSBJ} (cita), la MD estándar es insuficiente para capturar eventos de baja probabilidad pero alto impacto, como la formación de poros.
 
-\subsection{Análisis de Energía Libre y Metadinámica}
-El uso de Metadinámica nos permitió mapear la superficie de energía libre (FES) de la adsorción. Un hallazgo crítico fue la identificación de variables colectivas (CVs) que van más allá de la simple distancia $z$. Definimos la interacción en función del \textbf{momento dipolar hidrofóbico ($\mu_H$)} y el ángulo de inclinación ($\theta$). 
+This thesis posits that this shared anionic profile creates a \textit{"mechanical vulnerability."} By targeting the membrane rather than a specific protein receptor, we can develop therapies—Antimicrobial Peptides (AMPs)—that are inherently resistant to traditional mutational escape mechanisms.
 
+This shared anionic profile creates a \textbf{"mechanical vulnerability"} that this thesis seeks to exploit. By targeting the membrane lipidome rather than mutating protein receptors, we can develop AMP-based therapies that are inherently more robust. However, the rational design of such peptides is hampered by the fact that infinitesimal changes in amino acid sequence or lipidic environment can completely modify the peptide’s conformational transition—from a disordered random coil to an active $\alpha$-helix—calling for a lens capable of resolving dynamics at the atomic level.
+
+\subsection{Methodological Challenges: Resolving the Resolution and Timescale Gaps}
+
+Experimentally addressing these interactions within the CAIn framework remains a formidable challenge. Conventional wet-lab assays, such as X-ray crystallography or NMR spectroscopy, often struggle with the inherent fluidity and heterogeneity of lipid bilayers. These techniques frequently condense complex, multi-stage dynamic processes into single, static scalar endpoints, failing to capture the transient intermediate states of peptide insertion. Furthermore, the variability in experimental protocols makes it nearly impossible to extract consistent sequence–function rules from existing literature.
+
+To overcome these limitations, Molecular Dynamics (MD) simulations have become an indispensable tool. All-atom MD provides the \textit{molecular movie} of peptide-membrane interaction with sub-nanometer resolution. However, the timescales relevant to study rare events such as spontaneous folding or pore formation are often computationally prohibitive, leaving simulations trapped in local energy minima. Coarse-grained (CG) models, such as the MARTINI family\cite{martini2,martini3}, address this by grouping atoms into interaction centers to extend sampling capabilities. Nevertheless, a critical limitation persists: standard MARTINI models often artificially constrain the peptide's secondary structure, rendering them blind to the folding dynamics driven by the membrane interface. In practice, this biases the insertion process and prevents the observation of the crucial coil-to-helix transition that governs AMP specificity.
+
+\subsection{Bridging the Gap: Enhanced Sampling and Quantum-Accelerated Design}
+
+This thesis embraces a multi-scale computational approach to bridge these gaps. First, we utilize \textbf{Enhanced Sampling (Metadynamics)} to force the exploration of the free-energy landscape, allowing us to quantify the specificity of canonical AMPs (such as LL37 and Magainin-2) against the diverse lipidic fingerprints of the CAIn Triangle \cite{DANI_LIPIDOS,DANI_METADINAMICA}. By reconstructing the Potential of Mean Force (PMF), we can identify the thermodynamic thresholds of insertion that static experimental data cannot resolve.
+
+
+Furthermore, the astronomical combinatorial space of peptide sequences (scaling as $20^L$) and the vast degrees of conformational freedom render classical optimization algorithms intrinsically inefficient, frequently trapping them in localized energy minima. To surmount this computational bottleneck, we transition toward the frontier of Quantum Computing. Quantum architectures offer a paradigm-shifting advantage for molecular design: by leveraging the fundamental principles of quantum superposition and entanglement, these systems can simultaneously evaluate highly complex, multidimensional energy landscapes. This capability provides a theoretical pathway to polynomial or even exponential speedups in identifying the ground-state conformations of complex physical Hamiltonians. 
+
+Drawing profound inspiration from the pioneering work of IBM \cite{robert2021resource} on the application of quantum algorithms to molecular simulations and lattice-based protein folding, we sought to translate these quantum advantages to the domain of membrane biophysics. However, classical quantum folding models typically assume a homogeneous solvent, which is insufficient for membrane-active peptides. Consequently, in this work, we present a novel Variational Quantum Eigensolver (VQE) algorithm specifically engineered for interfacial folding. By utilizing a polynomial approximation to smoothly represent the polar/apolar dielectric transition region of the lipid bilayer, we successfully map the intricate membrane-peptide interaction onto a quantum-compatible framework without exhausting the limited qubit resources of the NISQ era \cite{DANI_CUANTICA}.
+
+Finally, we move from analysis to \textit{de novo} design by formulating a Physics-Based Generative Hamiltonian (cita en proceso). Unlike "black-box" AI models that rely on evolutionary homology, our Hamiltonian is grounded in \textit{ab initio} physics and optimized via Quantum Approximate Optimization Algorithms (QAOA), providing a scalable and interpretable ecosystem for designing the next generation of membrane-active therapeutics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Unlocking the Biophysics of Specificity: A Metadynamics Approach to Membrane-Peptide Interactions}
+
+Bridging the macroscopic biological observations of the CAIn Triangle with atomic-level physical phenomena necessitates a methodology capable of resolving sub-microsecond interfacial dynamics. To achieve this, we employed a dual computational strategy combining extensive unbiased Molecular Dynamics (MD) with Well-Tempered Metadynamics (WT-MetaD). As detailed in our study published in the \textit{Computational and Structural Biotechnology Journal (CSBJ)}, this framework allowed us to rigorously dissect the interaction of a diverse set of canonical AMPs with highly specific lipidic environments.
+
+We modeled representative sequences encompassing varying lengths, net charges, and hydrophobicity profiles—specifically \textbf{LL-37, Magainin-2, Pleurocidin, CM15, and Clavanin}. These were evaluated against three heterogeneous coarse-grained (CG) membrane models carefully tailored to represent distinct physiological states: the zwitterionic mammalian envelope (pure POPC), a highly anionic multicomponent bacterial membrane, and a compromised cancerous cellular envelope characterized by externalized anionic lipids.
+
+\subsection{The Transversal Hydrophobic Dipole Moment ($\mu_H^\perp$) and Insertion Mechanics}
+
+A pivotal and universally observed finding of our research is that the partitioning of an amphipathic helix into a lipid bilayer transcends simple scalar translation along the membrane normal ($z$-axis); rather, it constitutes a highly orchestrated rotational mechanism. We identified the transversal component of the hydrophobic dipole moment ($\mu_H^\perp$) as the paramount biophysical determinant governing both membrane integration and final peptide orientation.
+
+Our unbiased MD simulations revealed a highly conserved, three-stage kinetic sequence across the studied AMPs:
+\begin{enumerate}
+    \item \textbf{Electrostatic Steering and Recruitment:} The initial encounter is kinetically dominated by long-range electrostatic attractions between the cationic residues of the AMP and the anionic lipid headgroups. This "antenna effect" significantly accelerates the diffusion of the peptide toward the pathological interface, contrasting sharply with the slower, collision-dependent encounters observed in neutral POPC systems.
+    \item \textbf{Adsorption and Tilt Alignment:} Upon reaching the water-lipid interface, the peptide rapidly aligns parallel to the membrane plane. It adopts a tilt angle (defined between the principal helical axis and the membrane normal) of approximately $90^\circ$, maximizing its interfacial contact area.
+    \item \textbf{Spin Transition and Hydrophobic Anchoring:} Crucially, adsorption is succeeded by an azimuthal rotation—a "spin" transition—wherein the peptide rotates along its own longitudinal axis to an angle of roughly $180^\circ$. This precise orientation directs the $\mu_H^\perp$ straight into the hydrophobic lipid core. Consequently, apolar side chains partition into the lipid tail region while cationic residues remain solvated and electrostatically anchored to the phosphate groups, thereby minimizing the thermodynamic penalty of desolvation and maximizing the stability of the docked state.
+\end{enumerate}
+
+A recognized limitation of coarse-grained models, particularly standard Martini 2.2, is the enforcement of a persistent $\alpha$-helical secondary structure via elastic networks. To ensure that our kinetic observations were not mere artifacts of this structural rigidity, we performed parallel control simulations utilizing an unrestrained random-coil conformation (e.g., the \textbf{2MAG-RC} construct for Magainin-2). These unrestrained trajectories confirmed that the secondary folding state is intrinsically coupled to the energetic landscape of membrane adsorption; the transition from a disordered coil to an amphipathic helix is thermodynamically driven by the minimization of solvent-exposed hydrophobic surface area upon bilayer contact.
+
+\subsection{Thermodynamic Quantification through Enhanced Sampling}
+
+While unbiased MD provides the mechanistic "movie" of insertion, it frequently suffers from severe sampling bottlenecks, leaving the system trapped in local kinetic minima. To rigorously quantify interaction specificity, we deployed Well-Tempered Metadynamics to reconstruct the multi-dimensional Free Energy Surfaces (2D FES) and the one-dimensional Potential of Mean Force (1D PMF) profiles.
+
+By employing carefully selected collective variables (CVs)—namely, the peptide-membrane center-of-mass distance ($z$), the cosine of the tilt angle ($\cos \theta$), and the spin angle ($\phi$)—we successfully mapped the complete energetic landscape of the adsorption process. Integration of the 1D PMF profiles allowed us to accurately determine the standard Gibbs free energy of adsorption ($\Delta G_{ads}^\circ$). Furthermore, we calculated the transfer free energy ($\Delta\Delta G^\circ$) between different membrane environments, establishing a rigorous, quantitative metric for biophysical selectivity.
+
+\subsection{The Exceptional Specificity of LL-37 and Dielectric Considerations}
+
+Our thermodynamic analyses unveiled profound differences among the studied sequences. The human cathelicidin \textbf{LL-37} exhibited the most exceptional biophysical specificity. Contrary to the simplified paradigm that AMPs experience strict repulsion at neutral surfaces, our FES analysis indicated that LL-37 is capable of transient binding to pure POPC membranes. However, its thermodynamic preference for pathogenic membranes is staggering: LL-37 demonstrated a highly favorable transfer free energy ($\Delta\Delta G^\circ \ll 0$) when relocating from healthy mammalian models to pathogenic envelopes.
+
+Crucially, we demonstrated that the depth of these energy wells is acutely sensitive to the treatment of electrostatics. By comparing standard CG water with \textbf{polarizable water (PW) models}, we showed that explicitly accounting for the steep dielectric gradient at the water-lipid interface dramatically alters the PMF profiles. The inclusion of electrostatic polarization yielded deeper, physically realistic energy minima, confirming that the initial stages of AMP recognition are predominantly governed by complex electrostatic screening and interfacial hydration networks.
+
+\subsection{Methodological Considerations and Limitations}
+
+Despite the robust mechanistic insights provided by this approach, several methodological limitations inherent to our computational setup must be acknowledged:
+\begin{itemize}
+    \item \textbf{Collective Variable (CV) Dependency:} The accuracy of Metadynamics is fundamentally reliant on the selection of appropriate CVs. While $z$, $\cos \theta$, and $\phi$ successfully capture the translation and rotation of the peptide, they do not explicitly account for slow, orthogonal degrees of freedom, such as local lipid reorganization, membrane thinning, or water defect formation. The omission of these variables may result in hidden barriers or hysteresis in the reconstructed free-energy landscapes.
+    \item \textbf{Single-Peptide vs. Cooperative Action:} The PMF profiles calculated in this study reflect the thermodynamics of a \textit{single} peptide interacting with an infinite, periodic membrane. However, the ultimate microbicidal action of AMPs (e.g., toroidal pore formation or the carpet mechanism) is highly cooperative and concentration-dependent. Thus, while our $\Delta G_{ads}^\circ$ values perfectly describe initial recognition and binding affinity, they do not encompass the energetic cost of subsequent oligomerization or membrane lysis.
+    \item \textbf{Loss of Atomistic Granularity:} While the use of polarizable water mitigates some dielectric artifacts, the Martini CG framework still smooths out critical atomistic interactions. Specific hydrogen-bonding networks, cation-$\pi$ interactions, and precise lipid-protein salt bridges are averaged into effective potentials. This loss of chemical granularity may lead to an underestimation of sequence-specific variations, a limitation that ultimately motivated the development of the \textit{ab initio} quantum-assisted Hamiltonians presented in subsequent chapters of this thesis.
+    \item \textbf{Secondary Structure Rigidity:} As previously noted, the enforcement of a fixed $\alpha$-helix in Martini 2.2 precludes the observation of the coupled folding-and-binding mechanism. While we validated this with random-coil controls, the lack of conformational plasticity in standard CG-MD remains a simplification that ignores the entropy-enthalpy compensation associated with the coil-to-helix transition upon bilayer contact.
+\end{itemize}
+
+Ultimately, by resolving these metrics and acknowledging their boundaries, we establish a quantitative theoretical baseline that proves indispensable for the subsequent rational design of novel, membrane-selective therapeutics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Quantum Computing Approaches to Peptide-Membrane Interfaces}
+
+While classical Molecular Dynamics (MD) and enhanced sampling techniques provide invaluable insights into the thermodynamics of membrane adsorption, they traditionally encounter severe sampling bottlenecks when attempting to model complex structural transitions \textit{in silico}. A defining characteristic of Antimicrobial Peptide (AMP) functionality is their selective interaction with pathogenic membranes, an event that induces a profound conformational shift from a disordered random coil state to a functionally active $\alpha$-helical structure. Capturing this spontaneous folding process at the membrane interface has historically challenged classical computational approaches due to the "time-scale gap" and the ruggedness of the energy landscape, thereby opening a critical window for the implementation of \textbf{Quantum Computing (QC)} methodologies.
+
+\subsection{Quantum Advantage and Theoretical Foundations}
+The transition toward quantum architectures is motivated by the inherent limitations of classical algorithms in navigating the astronomical combinatorial space of peptide sequences ($20^L$) and their associated conformational degrees of freedom. Quantum computing offers paradigm-shifting advantages for biophysical modeling:
+\begin{itemize}
+    \item \textbf{Quantum Superposition:} Unlike classical bits, qubits can exist in a superposition of states, allowing the simultaneous evaluation of a vast number of peptide conformations within a single quantum state.
+    \item \textbf{Entanglement:} The ability to entangle qubits enables the representation of complex, non-local correlations between amino acid residues, essential for capturing the cooperative nature of protein folding.
+    \item \textbf{High-Dimensional Navigation:} Quantum algorithms can navigate high-dimensional energy landscapes more efficiently, potentially bypassing local minima that frequently trap classical simulations.
+\end{itemize}
+
+Our approach draws inspiration from the pioneering work of \textbf{Robert, Tavernelli, and colleagues} \cite{robert2021resource}, who established a resource-efficient quantum algorithm for protein folding using the Variational Quantum Eigensolver (VQE) on a tetrahedral lattice. However, while their framework was fundamental for folding in homogeneous environments, the action of AMPs is an \textbf{interfacial phenomenon}, occurring at the dielectric and polarity boundary between hydrophilic and hydrophobic phases.
+
+\subsection{Pro: Smooth Interfacial Modeling and Algorithmic Innovation}
+A major technical contribution of our work \cite{DANI_CUANTICA} is the mathematical extension of the quantum folding framework to address the complexities of a biphasic environment. A primary challenge in interfacial modeling is representing the abrupt transition between the polar aqueous phase and the non-polar lipid core. 
+
+While a standard step function (or sign function) might seem an intuitive choice to represent the membrane boundary, it introduces non-differentiable discontinuities that are highly deleterious for the classical optimizers used in variational quantum algorithms. To circumvent this, we implemented a \textbf{smooth polynomial approximation} of the interfacial potential. This approach offers two significant advantages:
+\begin{enumerate}
+    \item \textbf{Optimization Convergence:} The continuous and differentiable nature of the polynomial ensures a smoother energy landscape, facilitating the convergence of the VQE optimizer as it searches for the global minimum.
+    \item \textbf{Biophysical Realism:} Physically, the water-lipid interface is not a discrete geometric plane but a gradient of polarity, hydration, and dielectric constant. A smooth polynomial approximation emulates the "soft" transition of a real lipid bilayer far more accurately than a rigid step function, capturing the essential physics of the interfacial environment.
+\end{enumerate}
+
+By mapping the peptide onto a tetrahedral lattice and utilizing a modified Miyazawa-Jernigan (MJ) potential integrated with this polynomial term, the algorithm successfully identified optimal conformations for hydrophobic, hydrophilic, and amphipathic sequences using only \textbf{22 logical qubits}. This demonstrates that high-efficiency algorithmic scaling is feasible for complex interfacial phenomena using current resources.
+
+\subsection{Limitations and Constraints of the Quantum Approach}
+Despite the promising results and the proof-of-concept feasibility, several limitations inherent to the current \textbf{NISQ (Noisy Intermediate-Scale Quantum)} era must be critically acknowledged:
+\begin{itemize}
+    \item \textbf{Noise and Gate Fidelity:} Current quantum hardware is highly susceptible to environmental noise and decoherence. In the VQE process, noise in the quantum circuit can lead to inaccuracies in the expectation value of the Hamiltonian, potentially yielding sub-optimal or non-physical conformations.
+    \item \textbf{Lattice Discretization:} The use of a tetrahedral lattice is a necessary coarse-graining step to minimize qubit requirements. However, this geometric discretization sacrifices the fine-grained side-chain rotameric detail and the continuous conformational freedom available in all-atom classical MD. Subtle interactions, such as precise hydrogen-bonding networks or cation-$\pi$ orientations, may be averaged or lost in the lattice approximation.
+    \item \textbf{Scalability and Qubit Connectivity:} While our method is highly efficient for 10-amino-acid-long peptides, scaling to larger, clinically relevant peptides (e.g., LL-37 with 37 residues) requires a significant increase in both qubit count and, more importantly, qubit connectivity. Current hardware architectures still struggle with the high-degree connectivity required for complex pairwise interaction maps.
+    \item \textbf{Single-Chain Limitation:} Our current implementation focuses on the folding of a single peptide at the interface. However, membrane disruption often involves cooperative, multi-peptide effects (e.g., oligomerization to form a pore). Incorporating these multi-body interactions into a quantum Hamiltonian remains a significant future challenge.
+\end{itemize}
+
+\subsection{Concluding Remarks on the Quantum Strategy}
+In summary, the transition to quantum algorithms for interface-driven folding addresses a critical gap in classical biophysics. By replacing the problematic step function with a smooth polynomial approximation, we have established a robust framework that respects the mathematical requirements of quantum optimization and the physical reality of the membrane interface. As quantum hardware matures toward the fault-tolerant era, this methodology will serve as a foundational pillar for the rational, physics-driven design of novel membrane-active therapeutics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{A Physics-Based Generative Hamiltonian for Environment-Conditioned Sequence Design}
+
+While classical molecular dynamics and quantum folding algorithms provide profound mechanistic insights into the conformational dynamics of existing peptides, the rational \textit{de novo} design of sequences tailored for the specific lipidic environments of the CAIn Triangle requires an inverse, generative approach. To this end, this thesis presents a novel physics-based generative Hamiltonian for the environment-conditioned design of membrane-parallel $\alpha$-helical peptides.
+
+\subsection{Overcoming the Evolutionary Constraints of Deep-Learning Models}
+Traditional design strategies, including state-of-the-art deep-learning models such as AlphaFold 3 or statistical methods like Direct Coupling Analysis (DCA), rely heavily on Multiple Sequence Alignments (MSAs) and the presence of evolutionary conservation. While highly effective for globular proteins, these models are often "environment-blind" or limited by the availability of homology data for non-standard biological interfaces. 
+
+In contrast, our Hamiltonian acts as a \textbf{forward-predictive physical model} \cite{DANI_CUANTICA}. By building the energy landscape from \textit{ab initio} biophysical principles—such as residue-specific helix propensities and pairwise desolvatation energies—we enable the design of peptides for pathological membranes (e.g., highly anionic tumor surfaces) where evolution may not have explored the sequence space. This ensures that every design decision is physically interpretable and not biased by existing biological databases.
+
+\subsection{Hamiltonian Formulation and Algorithmic Portability}
+The total Hamiltonian ($H_{total}$) integrates multiple energetic contributions that define the stability of an $\alpha$-helix at a specific depth within a membrane:
 \begin{equation}
-\Delta G_{ads} = \int_{z_{bulk}}^{z_{mem}} \langle F_z \rangle dz + \text{términos de desolvatación}
+    H_{total} = H_{local} + H_{pair} + H_{elec} + H_{neigh} + H_{pol} + H_{chg}
 \end{equation}
+This includes $H_{local}$ (residue propensities), $H_{pair}$ (pairwise interactions based on the Miyazawa-Jernigan matrix), and critically, $H_{pol}$ and $H_{chg}$, which account for the solvent-dependent polarity and the coupling with the membrane's surface charge.
 
-En (cita), demostramos que los AMPs más eficientes no son necesariamente los que tienen el $\Delta G$ de adsorción más bajo, sino aquellos que presentan una barrera mínima para la transición de un estado "adsorbido-paralelo" (S-state) a un estado "insertado-perpendicular" (I-state). Esta transición está gobernada por los \textbf{defectos de empaquetamiento lipídico}. Nuestros resultados sugieren que los AMPs actúan como catalizadores de estos defectos, reduciendo la energía de formación de poros en un factor de $10^2$ en membranas aniónicas.
+To ensure \textbf{algorithmic portability}, the sequence space was encoded using a compact binary representation. This allows the same physical objective function to be solved across multiple backends:
+\begin{itemize}
+    \item \textbf{Classical Enumeration:} For small peptides ($L=4$), providing an exact global minimum.
+    \item \textbf{Simulated Annealing (SA):} For larger, clinically relevant sequences, efficiently traversing the landscape.
+    \item \textbf{Quantum Approximate Optimization Algorithm (QAOA):} Implementing a hybrid quantum-classical workflow to explore the combinatorial space through quantum parallelism \cite{DANI_CUANTICA}.
+\end{itemize}
 
-\section{Arquitectura del Hamiltoniano de Diseño Generativo}
+\subsection{The Helix Design Studio: Bridging Theory and Practical Application}
+A critical contribution of this work is the deployment of the Hamiltonian into a user-facing ecosystem: the \textbf{Helix Design Studio} (\url{https://helix-design-studio--0000007.greenisland-6a997d38.eastus.azurecontainerapps.io/}). Recognizing that the complexity of QUBO (Quadratic Unconstrained Binary Optimization) and Z-score normalization can be a barrier for experimental biologists, this web platform serves as a "biophysical laboratory" in the cloud.
 
-El paso del análisis al diseño racional se materializó en el desarrollo de un Hamiltoniano físico (cita). El problema del diseño de péptidos se suele tratar mediante aprendizaje automático (ML), pero el ML carece de interpretabilidad física. Nuestro Hamiltoniano combina la \textbf{Mecánica Estadística de polímeros} con la \textbf{Química Cuántica de interacciones residuales}.
+\subsubsection{Functionality and Real-Time Evaluation}
+The platform allows researchers to input any peptide sequence and obtain a real-time characterization of its stability across various media:
+\begin{enumerate}
+    \item \textbf{Environment Selection:} Users can toggle between aqueous (polar), apolar (chloroform-like), and interfacial environments (anionic or neutral).
+    \item \textbf{Z-score Profiling:} The tool automatically calculates the Z-score of the sequence against a 50,000-decoy ensemble, providing a statistical measure of how "unique" or optimized a sequence is for its target.
+    \item \textbf{Visualization of the Hydrophobic Moment:} It renders the amphipathicity and the alignment of the hydrophobic dipole moment, facilitating the identification of "spin" states discussed in previous chapters.
+\end{enumerate}
+By hosting this tool online, we ensure that the \textbf{reproducibility} of our physics-based model is absolute, allowing for high-throughput pre-screening of candidate AMPs before committing to expensive wet-lab synthesis.
 
-\subsection{El Paisaje de Energía de Diseño}
-Definimos la energía de una secuencia $\sigma$ en un entorno $\phi$ como:
-\begin{equation}
-\mathcal{H}(\sigma, \phi) = \sum_{i=1}^L E_{self}(s_i, \phi) + \sum_{i<j} J_{ij}(s_i, s_j) \cdot e^{-r_{ij}/\lambda} + \Omega(\text{anfipatía})
-\end{equation}
+\subsection{Validation via All-Atom Explicit Solvent Simulations}
+To rigorously validate the Hamiltonian's predictions, we performed 50 ns all-atom Molecular Dynamics (MD) simulations in explicit water and chloroform. 
+\begin{itemize}
+    \item \textbf{Structural Fidelity:} Polar-optimized designs retained 79\% of their helicity in water, while apolar controls unfolded rapidly. 
+    \item \textbf{Environmental Inversion:} In chloroform, the stability was perfectly inverted, with apolar-optimized sequences exhibiting robust 85\% helicity.
+\end{itemize}
+This cross-validation confirms that the Hamiltonian accurately dictates sequence stability at the atomistic level, bridging the gap between simplified QUBO models and full-solvent reality.
 
-Donde $J_{ij}$ es la matriz de interacción de contacto basada en los potenciales de Miyazawa-Jernigan, corregidos por la polaridad del medio $\phi$. La innovación de este trabajo es el término $\Omega$, que penaliza secuencias que no logran un equilibrio perfecto entre su cara hidrofóbica e hidrofílica cuando adoptan una conformación $\alpha$-helicoidal.
+\subsection{Interfacial Benchmarking and "One-vs-Rest" Specificity}
+The framework was utilized to benchmark canonical AMPs (LL-37, Melittin, Magainin-2). The Hamiltonian correctly identified these as thermodynamic "winners" at anionic interfaces. Leveraging this, we implemented a \textbf{"One-vs-Rest" specificity design mode}. By maximizing affinity for an anionic target (Cancer/Infection) while applying a penalty against neutral membranes (Healthy), the algorithm prioritizes sequences that are exclusively active at pathological sites—a hallmark of the ideal therapeutic agent.
 
-\subsection{Normalización y Comparabilidad Inter-Sistemas}
-Uno de los puntos más discutidos en (cita) es la necesidad de la \textbf{Z-score normalization}. Sin ella, el diseño favorecería sistemáticamente péptidos más largos simplemente por la acumulación de términos atractivos. 
-\begin{equation}
-Z = \frac{\mathcal{H}_{obs} - \mu_{decoy}}{\sigma_{decoy}}
-\end{equation}
-Este procedimiento permite que nuestro algoritmo de diseño sea "agnóstico a la longitud", una característica crucial para explorar espacios de secuencia heterogéneos y encontrar el "mínimo global" de toxicidad versus actividad.
+\subsection{Methodological Limitations and Future Outlook}
+Despite its success, the model possesses inherent limitations:
+\begin{itemize}
+    \item \textbf{Fixed Scaffold Approximation:} The QUBO currently assumes a rigid $\alpha$-helical backbone, ignoring potential kinks or non-helical states.
+    \item \textbf{Implicit Dielectric Treatment:} While the polynomial approximation suavely mimics the interface, it does not explicitly model the individual lipid-headgroup hydrogen bonds.
+    \item \textbf{Qubit Constraints:} In the quantum backend, reduced amino-acid alphabets (via k-means) are necessary due to current NISQ hardware limits, which may sacrifice some side-chain granularity.
+\end{itemize}
 
-\section{Computación Cuántica: Superando el Límite de Church-Turing}
+\section{Final Synthesis: Toward a Unified Theranostic Pipeline}
 
-La magnitud del espacio de búsqueda para un péptido de 20 aminoácidos ($20^{20}$) es tal que incluso los superordenadores más potentes tardarían eones en encontrar la secuencia óptima mediante búsqueda exhaustiva. Esta tesis propone que la solución reside en el \textbf{paralelismo cuántico} (cita).
+The work presented in this thesis converges into a unified computational ecosystem centered on the \textbf{CAIn Triangle}. By linking the identification of lipid-centric biomarkers with mechanistic quantification (MD/Metadynamics) and automated \textit{de novo} design (Generative Hamiltonian), we provide a complete pipeline for personalized medicine. 
 
-\subsection{Codificación y QAOA}
-En la información suplementaria de (cita), detallamos cómo mapear el Hamiltoniano de diseño a un sistema de Qubits. Utilizamos una codificación binaria que aprovecha las simetrías de los aminoácidos (clasificándolos por carga y tamaño) para reducir el número de compuertas cuánticas. El algoritmo QAOA actúa aplicando alternativamente un Hamiltoniano de mezcla y un Hamiltoniano de problema, permitiendo que la función de onda del sistema colapse hacia la secuencia de mínima energía.
-
-\subsection{VQE para el Plegamiento en Interfaces}
-El trabajo en \textit{Computers in Biology and Medicine} (cita) es pionero al utilizar el algoritmo \textbf{Variational Quantum Eigensolver (VQE)} para predecir el plegamiento helicoidal. La dificultad estriba en que el potencial de la membrana es una función no lineal. Nuestra solución fue la \textbf{aproximación polinómica de la función de transferencia de energía libre}:
-\begin{equation}
-V_{int}(z) \approx \sum_{n=0}^k c_n z^n \rightarrow \hat{O}_{quantum}
-\end{equation}
-Los resultados muestran que los procesadores cuánticos actuales, a pesar del ruido (NISQ), son capaces de identificar estados conformacionales estables en la interfaz que coinciden con nuestras simulaciones de MD atomística, pero a una fracción del costo computacional de muestreo.
-
-\section{Sinergia Metodológica y el Futuro de la Teranóstica}
-
-La integración de estos cinco trabajos conforma un ecosistema único. La revisión inicial (cita) nos dio el "qué" (el lípido como diana); los estudios de MD (cita) nos dieron el "cómo" (el mecanismo físico); y los trabajos de diseño y computación cuántica (cita) nos dan el "con qué" (las secuencias optimizadas).
-
-\subsection{Hacia un Diseño de Precisión}
-La principal implicación de esta tesis es que el diseño de fármacos del futuro no será una búsqueda en bibliotecas químicas existentes, sino un \textbf{cálculo de primeros principios}. Al combinar Hamiltonianos de diseño con aceleración cuántica, podemos generar "péptidos a la carta" para un paciente específico, analizando previamente el perfil lipídico de sus células tumorales o de la cepa bacteriana que le infecta.
-
-\subsection{Limitaciones y Perspectivas}
-No obstante, persisten desafíos. La computación cuántica aún requiere corrección de errores (Fault-Tolerance) para manejar proteínas más grandes. Asimismo, la MD atomística sigue estando limitada por los campos de fuerzas (Force Fields), que a menudo subestiman la polarización de los lípidos. Futuras líneas de investigación deberían integrar \textbf{Campos de Fuerza Polarizables} con el Hamiltoniano de diseño para capturar efectos de pH local en el microambiente tumoral.
-
-\section{Conclusiones Finales del Capítulo}
-
-A lo largo de esta discusión, hemos demostrado que la intersección entre la biofísica de membranas y la computación avanzada ofrece soluciones disruptivas a la crisis de la resistencia antimicrobiana. El cambio de paradigma de "objetivo proteico" a "objetivo lipídico", apoyado por el rigor matemático de los Hamiltonianos cuánticos, abre una vía sin precedentes para la medicina de precisión del siglo XXI.
+The deployment of the \textbf{Helix Design Studio} represents the final step in this pipeline: making advanced biophysics accessible for the rapid development of next-generation, membrane-active agents. As quantum hardware matures and lipidomic profiling becomes standard, calculating the "code of the cure" for a specific patient's lipid profile will move from a theoretical possibility to a clinical reality, fundamentally transforming our approach to multidrug resistance and cancer.
