@@ -253,7 +253,38 @@ This gap between atomistic accuracy and CG scalability highlights the need for c
 Looking forward, MD continue to benefit from advances in high-performance computing, including the deployment of exascale architectures, which enable increasingly large and long simulations of complex molecular systems. In parallel, the breakthrough of AI, and in particular Machine Learning (ML), is profoundly revolutionizing the field. Beyond their application as classification or prediction tools, ML-based approaches are increasingly integrated into the core of theoretical chemistry through the development of ML potentials, which offer a promising route to accelerate MD while preserving atomic accuracy.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \subsection{Quantum Computing}\label{QC_intro}
+
+A fundamental challenge in the study of antimicrobial peptides arises from the enormous size of both sequence and conformational spaces. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes.
+
+This complexity is closely related to the Levinthal paradox, which highlights the apparent contradiction between the astronomical number of possible conformations and the relatively fast folding times observed in nature. This paradox suggests that peptide folding is guided by structured energy landscapes rather than random exploration, yet accurately characterizing these landscapes remains a major computational challenge.
+
+From a computational perspective, the protein folding problem has been shown to be NP-hard under several simplified models, implying that no efficient classical algorithm is known to solve it in the general case. This intrinsic computational complexity further limits the applicability of classical methods when attempting to explore both sequence and conformational spaces in a systematic manner.
+
+Recent advances in machine learning approaches, most notably AlphaFold, have achieved remarkable success in predicting static protein structures from amino acid sequences. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches.
+
+Classical approaches, such as molecular dynamics simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally prohibitive.
+
+These limitations motivate the exploration of alternative computational paradigms capable of addressing the exponential and combinatorial complexity of biomolecular systems. In this context, quantum computing offers a fundamentally different framework, in which the principles of superposition and entanglement enable the representation and manipulation of high-dimensional quantum states more naturally. Although current quantum hardware remains limited, these approaches provide a promising avenue for tackling the intrinsic complexity of peptide folding and sequence exploration problems.
+
+
+
 The emergence of Quantum Computing represents a paradigm shift in our ability to process information, rooted in the fundamental principles of quantum mechanics. The field's conceptual origin is often traced back to Richard Feynman's 1982 observation that simulating nature—which is inherently quantum mechanical—requires a machine that operates on the same principles \cita{feynman1982simulating}. As detailed in the seminal work of Nielsen and Chuang \cita{nielsen2010quantum}, quantum computation transcends the limits of the classical Turing machine by utilizing qubits, which can exist in superpositions and entangled states. This allows for the exploration of a Hilbert space that grows exponentially with the number of qubits, offering a route to solve computational problems that are practically intractable for even the most powerful classical supercomputers.
 
 The theoretical promise of quantum advantage was first demonstrated through algorithms such as Shor's for factoring integers and Grover's for database searching. However, the current state of technology, known as the Noisy Intermediate-Scale Quantum (NISQ) era \cita{preskill2018quantum}, is characterized by devices with limited qubit counts and high error rates. Despite these limitations, the development of hybrid quantum-classical algorithms has opened new avenues for practical applications. These algorithms, such as the Variational Quantum Eigensolver (VQE) \cita{peruzzo2014variational} and the Quantum Approximate Optimization Algorithm (QAOA) \cita{farhi2014quantum}, distribute the computational load between a quantum processor and a classical optimizer, making them remarkably robust against the noise inherent to current hardware.

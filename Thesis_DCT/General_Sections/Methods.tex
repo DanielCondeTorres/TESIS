@@ -209,37 +209,156 @@ At the lowest level of resolution are coarse-grained (CG) force fields, in which
 
 In the study presented in this section, the Martini 2.2 coarse-grained (CG) force field \cita{martini2} was employed to investigate the interaction and recognition mechanisms between antimicrobial peptides (AMPs) and various biological membrane models. The selection of a CG force field stems from the fact that the interaction processes between peptides and membranes occur on the microsecond time scale, which is beyond the reach of conventional all-atom (AA) simulations for these systems. Coarse-graining not only reduces the complexity of the system by decreasing the number of particles but also allows the use of larger integration timesteps. The integration timestep in MD simulations is determined by the fastest internal motion in the system under study, typically bond vibrations involving hydrogen atoms \cita{Feenstra1999}. Since Martini does not include explicit hydrogens, the timestep can be increased from the 2 fs used in AA-MD to 20 or 30 fs. This substantial increase enables microsecond-long simulations at a much lower computational cost. To further enhance the sampling of these recognition events and accurately characterize the underlying free energy landscapes, Metadynamics simulations were integrated with the CG-MD framework, providing a robust methodology to decipher the specificity and energetics of these membrane-targeted interactions.
 
-\subsection{Metadynamics}
-Martini is among the most used CG force fields in research. It employs a building block principle with a predefined set of \textit{beads} that are combined to represent complex molecules, simplifying parameterization. This has extended its applicability beyond proteins\cita{MPro} and lipids\cita{Mlip} to polymers\cita{MPOL}, ionic liquids\cita{MIL} or carbon nanomaterials\cita{MCN}. Despite the improvements introduced in Martini 3 \supercite{martini3}, the model still necessitates refinement to accurately capture directional interactions like hydrogen bonding.
-The primary goal of MA(R/S)TINI was to reproduce, at the CG level, the directionality observed in the interactions between AA CPs, thereby mitigating the overestimation of CP-CP interactions due to the Martini CG mapping. To seamlessly integrate the new mapping of atomic coordinates to CG beads into the original force field, the new CG representation should ideally reproduce the original interaction energy as accurately as possible. This requires computing the Free Energy Surface (FES) of the CP-CP interaction for both parameterizations and comparing the results. To approach this using MD simulations, one can estimate the probability of finding two CPs in the dimer state (\(P_d\)), and in the unbound (monomeric) state (\(P_m\)) over an equilibrated trajectory. Then, the free energy difference between these states can be expressed as \(\Delta G_{dimerization} = -k_B T \ln\left(\frac{P_d}{P_m}\right)\). However, the long timescales involved in both association and dissociation, along with the risk of being kinetically trapped in a local minima, often make it impractical to achieve sufficient sampling of both processes within a single unbiased MD simulation trajectory. In this regard, variations of MD have been proposed to approach such cases and fall under the category of enhanced sampling techniques.
+\subsection{Standard Metadynamics (MetaD)}
 
-In this thesis, metadynamics, in its well tempered scheme, was used in Section \ref{chap1} as enhanced sampling method for the calculation of the FES relative to CP dimerization. In particular, the plugin PLUMED was used in combination with GROMACS to set up and run two dimensional potential of mean force (PMF) calculations \cita{plumed}. Therefore, the PLUMED documentation has been the main resource for this section, along with Parrinello's pioneering works \cita{Laio2002}\textsuperscript{,}\cita{Barducci2008}.
+Conventional molecular dynamics (MD) simulations are often hindered by the timescale problem, trapping the system in local minima of the free energy surface (FES) separated by high energy barriers \cite{Laio2002}. To overcome this ergodicity issue, Metadynamics (MetaD) introduces a history-dependent bias potential along a set of predefined slow degrees of freedom, known as collective variables (CVs), denoted as $\vec{s}(\mathbf{q})$.
 
-Metadynamics is a biased MD method in which the free energy is estimated as a function of a few selected degrees of freedom \(\vec{s}\), known as collective variables (CVs), each defined as a function of the particle positions (\(\vec{s}\equiv\vec{s}(\{\vec{q}\})\)). However, CVs are not restricted solely to the Cartesian coordinates; they can also include other geometric descriptors based on them, such as angles or dihedrals or even more complex variables like a Root Mean Square Deviation. In this method, the dynamics of a system at finite temperature is biased by a history-dependent potential, constructed as a sum of Gaussian kernels that are deposited along the trajectory of the CVs:
+The bias potential is constructed by periodically depositing Gaussian kernels along the trajectory in the CV space. Mathematically, the potential at time $t$ is expressed as:
 \begin{equation}
-    V(\vec{s},t)=\sum_{k\tau<t}W(k\tau)\exp\left(-\sum_{i=1}^d\frac{(s_i-s_i(q(k\tau)))^2}{2\sigma_i^2} \right)
+V(\vec{s},t) = \sum_{ k \tau < t} W(k \tau) \exp\left( -\sum_{i=1}^{d} \frac{(s_i-s_i(\mathbf{q}(k \tau)))^2}{2\sigma_i^2} \right)
 \end{equation}
-where \(\tau\) is the Gaussian deposition stride, \(\sigma_i\) the width of the Gaussian for the \textit{i}th CV, and \(W(k\tau)\) the height of the Gaussian. Furthermore, in the long-time limit, the bias potential converges to the negative of the free energy as a function of the CVs:
-\begin{equation}\label{eq:metaD}
-    V(\vec{s},t\rightarrow\infty)=-F(\vec{s})+C
+where $\tau$ is the deposition stride, $W(k \tau)$ is the Gaussian height, and $\sigma_i$ represents the Gaussian width for the $i$-th CV. This repulsive potential discourages the system from revisiting previously sampled configurations, forcing it to cross free energy barriers and explore new regions of the phase space. In the long-time limit, the accumulated bias potential converges to the exact negative of the underlying free energy surface, $F(\vec{s})$, up to an arbitrary additive constant $C$:
+\begin{equation}
+V(\vec{s},t\rightarrow \infty) = -F(\vec{s}) + C
 \end{equation}
-The effect of metadynamics is exemplified in Figure \ref{fig:metad}, where the system is eventually pushed away from a local minimum, enabling explorations of new regions in the CV space. After sufficient simulation time, the sum of the Gaussians is expected to compensate the underlying FES, providing an estimate of its dependence on the CVs.
+yielding a direct estimate of the relevant thermodynamics of the system without requiring prior knowledge of the reaction pathways.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\linewidth]{General_Sections/Figures/GaussianDeposition.png}
-    \caption{Progressive evolution of a one-dimensional model potential \(V(x)\) by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}
+    \caption{Progressive evolution of a one-dimensional model potential $V(x)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}
     \label{fig:metad}
 \end{figure}
 
-However, determining when to stop a metadynamics run can be challenging, and continuing the simulation carries the risk that the system is irreversibly pushed in regions of the configurational space which are not physically relevant. These problems were addressed in a posterior scheme called well-tempered metadynamics. In well-tempered metadynamics, the height of the Gaussian is decreased with simulation time according to:
+\subsection{Well-Tempered Metadynamics (WTMetaD)}
+
+In standard MetaD, the continuous addition of constant-height Gaussians prevents the bias potential from converging to a stationary state, causing the free energy estimator to indefinitely oscillate around the true value and pushing the system into unreasonably high-energy regions. To achieve smooth asymptotic convergence, the Well-Tempered Metadynamics (WTMetaD) algorithm dynamically scales the Gaussian height based on the accumulated bias \cite{Barducci2008}. The height at time $t = k\tau$ is updated according to:
 \begin{equation}
-    W(k\tau) = W_0\text{exp}\left(-\frac{V(\vec{s}(q(k\tau)),k\tau)}{k_B\Delta T}\right)
+W (k \tau ) = W_0 \exp \left( -\frac{V(\vec{s}(\mathbf{q}(k \tau)),k \tau)}{k_B\Delta T} \right )
 \end{equation}
-where \(W_0\) is an initial Gaussian height, \(\Delta T\) an input parameter with the dimension of a temperature, and \(k_B\) the Boltzmann constant. By rescaling the Gaussian height, the bias potential gradually converges in the long-time limit, though it never fully compensate the underlying free energy:
-\begin{equation}\label{eq:wtmetaD}
-    V(\vec{s},t\rightarrow\infty)=-\frac{\Delta T}{T+\Delta T}F(\vec{s})+C
+where $W_0$ is the initial height, $k_B$ is the Boltzmann constant, and $\Delta T$ is a tunable temperature parameter regulating the decay rate of the bias.
+
+This modification allows the CVs to sample a distribution corresponding to an effectively elevated temperature $T + \Delta T$. The extent of the exploration is controlled by the bias factor $\gamma$, defined as:
+\begin{equation}
+\gamma = \frac{T+\Delta T}{T}
 \end{equation}
-where \(T\) is the temperature of the system. When examining the two limit cases, one can see that when \(\Delta T=0\), Equation \ref{eq:wtmetaD} corresponds to standard MD. But, when \(\Delta T\rightarrow\infty\) it becomes standard metadynamics (Eq. \ref{eq:metaD}). In intermediate regimes, the computed FES corresponds to the target temperature \(T\), with the transverse degrees of freedom correctly sampled.
+Under this formulation, the long-time convergence relationship is modified such that the bias potential only partially compensates the underlying free energy:
+\begin{equation}
+V(\vec{s},t\rightarrow \infty) = -\frac{\Delta T}{T+\Delta T}F(\vec{s}) + C = -\left(1 - \frac{1}{\gamma}\right)F(\vec{s}) + C
+\end{equation}
+If $\gamma = 1$, the method collapses back to standard unbiased molecular dynamics, whereas $\gamma \to \infty$ recovers the standard MetaD behavior. Thus, WTMetaD provides a highly stable approach for free energy reconstruction.
+
+\subsection{Thermodynamic Reweighting}
+
+Because the system evolves under a modified Hamiltonian $H'(\mathbf{q}, \mathbf{p}) = H(\mathbf{q}, \mathbf{p}) + V(\vec{s}, t)$, the sampled conformations belong to a biased probability distribution $P'(\mathbf{q}, \mathbf{p})$. To recover the unbiased thermodynamic properties of the canonical ensemble for observables that were not explicitly biased, a statistical reweighting procedure must be applied.
+
+The unbiased probability distribution $P(\mathbf{q}, \mathbf{p})$ is related to the biased one by exponentially discounting the applied bias potential:
+\begin{equation}
+P(\mathbf{q}, \mathbf{p}) \propto P'(\mathbf{q}, \mathbf{p}) \exp\left(\frac{V(\vec{s}(\mathbf{q}))}{k_B T}\right)
+\end{equation}
+By assigning a statistical weight proportional to $\exp(V/k_BT)$ to each sampled frame, the unbiased free energy landscapes can be properly projected onto any other set of coordinates without running new simulations.
+
+\subsection{On-the-fly Probability Enhanced Sampling (OPES)}
+
+More recently, the On-the-fly Probability Enhanced Sampling (OPES) method was introduced as a robust alternative to Metadynamics that directly targets a specific probability distribution $p^{\text{tg}}(\mathbf{s})$. By default, OPES targets the well-tempered distribution $p^{\text{WT}}(\mathbf{s}) \propto [P(\mathbf{s})]^{1/\gamma}$. 
+
+Unlike MetaD, which builds a penalty potential strictly from trajectory history, OPES rapidly optimizes the bias on-the-fly by estimating the unbiased distribution in the CV space via Kernel Density Estimation (KDE). This resolves the traditional exploration-convergence trade-off by reaching a quasi-static bias regime very quickly. Furthermore, OPES utilizes a dynamic normalization factor and an internal compression algorithm to prevent the number of kernels from growing linearly with simulation time, enabling much faster and native compatibility with standard reweighting techniques.
+
+\subsection{Selection and Formulation of Collective Variables}
+
+The success of any enhanced sampling technique relies heavily on the appropriate selection of Collective Variables (CVs). These variables must capture the slow degrees of freedom that govern the transitions between the relevant metastable states. For the study of Antimicrobial Peptides (AMPs) interacting with lipid membranes, the CVs are typically geometric and thermodynamic descriptors of the association process.
+
+\subsubsection{Geometrical Framework of the Peptide--Membrane System}
+To mathematically define the relevant collective variables, we consider a peptide interacting with a lipid membrane, conceptually described as two effective rigid bodies. The membrane is approximated by its center of mass (COM) and a local normal axis, whereas the peptide is approximated by vectors defined through its backbone and terminal residues. The system is embedded in a three-dimensional Euclidean space with Cartesian coordinates $\vec{r} = (x, y, z)$, where the $z$-axis is conventionally defined as the normal to the membrane plane.
+
+\subsubsection{Distance and Insertion Depth}
+Let $\vec{R}_{\mathrm{mem}}$ and $\vec{R}_{\mathrm{pep}}$ represent the centers of mass of the membrane and the peptide, respectively:
+\begin{equation}
+\vec{R}_{\mathrm{mem}} = \frac{1}{M} \sum_{i \in \mathrm{mem}} m_i \vec{r}_i, \qquad \vec{R}_{\mathrm{pep}} = \frac{1}{P} \sum_{j \in \mathrm{pep}} m_j \vec{r}_j
+\end{equation}
+The peptide--membrane separation vector is defined as $\vec{D} = \vec{R}_{\mathrm{pep}} - \vec{R}_{\mathrm{mem}}$. 
+
+The primary collective variable describing the peptide's insertion depth is the projection of this separation vector along the membrane normal:
+\begin{equation}
+D_z = \vec{D} \cdot \hat{z}
+\end{equation}
+The full Euclidean distance is given by $D = \|\vec{D}\| = \sqrt{D_x^2 + D_y^2 + D_z^2}$. However, $D_z$ uniquely governs the translational degree of freedom along the axis of penetration into the lipid bilayer.
+
+\subsubsection{Peptide Orientation and Tilt Angle}
+The internal axis of the peptide is defined using its terminal centers of mass, specifically the N-terminus ($\vec{N}$) and C-terminus ($\vec{C}$):
+\begin{equation}
+\vec{N} = \vec{r}_{\mathrm{N-term}}, \qquad \vec{C} = \vec{r}_{\mathrm{C-term}}
+\end{equation}
+The peptide axis vector is defined as $\vec{b} = \vec{C} - \vec{N}$, with its normalized unit vector being $\hat{b} = \vec{b} / \|\vec{b}\|$.
+
+The \textbf{tilt angle} $\theta$ (analogous to the pitch in Euler-angle terminology) describes the inclination of the peptide relative to the membrane normal:
+\begin{equation}
+\theta = \arccos\left( \hat{b} \cdot \hat{z} \right)
+\end{equation}
+Consequently, $\theta = 0^\circ$ corresponds to a peptide fully aligned with the membrane normal (transmembrane orientation), whereas $\theta = 90^\circ$ indicates a peptide lying parallel to the membrane surface.
+
+\subsubsection{Spin and Azimuthal Orientation}
+To fully resolve the membrane-bound state, it is necessary to describe the rotation of the peptide around its own axis, known as the \textbf{spin} or rolling angle $\phi$. To rigorously define this variable, we project the peptide axis onto the membrane plane ($xy$-plane):
+\begin{equation}
+\vec{b}_\perp = \hat{b} - (\hat{b} \cdot \hat{z})\hat{z}
+\end{equation}
+
+Next, two orthonormal vectors are constructed within the membrane plane to establish a local reference frame:
+\begin{equation}
+\hat{t} = \frac{\hat{z} \times \hat{b}}{\|\hat{z} \times \hat{b}\|} \quad \text{and} \quad \hat{n} = \hat{b} \times \hat{t}
+\end{equation}
+A molecular reference vector $\hat{k} = \vec{k} / \|\vec{k}\|$ is then derived from weighted backbone contributions to track the radial orientation of the peptide's side chains. The spin angle $\phi$ is calculated from the projection of this molecular vector onto the local reference frame:
+\begin{equation}
+\phi = \mathrm{sgn}\left( \hat{b} \cdot (\hat{t} \times \hat{k}_\perp) \right) \cdot \arccos\left( \hat{k}_\perp \cdot \hat{t} \right)
+\end{equation}
+where the sign correction ensures a continuous mapping of the full $360^\circ$ rotation.
+
+\subsubsection{Physical Interpretation in Euler Angles}
+The full orientation of a rigid body in 3D requires three rotational degrees of freedom, which map directly to Euler angles: pitch ($\theta$), roll ($\phi$), and yaw ($\psi$). In the context of our peptide--membrane system:
+\begin{itemize}
+    \item \textbf{Tilt / Pitch ($\theta$):} Captures the inclination of the peptide axis relative to the membrane normal.
+    \item \textbf{Spin / Roll ($\phi$):} Captures the rotation of the peptide side-chain distribution around its own longitudinal axis.
+    \item \textbf{Yaw ($\psi$):} Represents the rotation of the peptide axis projection within the membrane plane. Due to the inherent fluid and symmetric nature of the lipid bilayer in the $xy$-plane, this degree of freedom is functionally degenerate and absorbed into the in-plane reference choice.
+\end{itemize}
+
+Ultimately, the complex association mechanism can be effectively reduced to the essential translational degree of freedom (insertion depth, $D_z$) and the two principal rotational degrees of freedom (tilt $\theta$ and spin $\phi$). These collective variables constitute a robust phase space for describing the specific thermodynamic binding modes of AMPs at the membrane interface.
+
+\subsection{Dimensionality Reduction of Free Energy Surfaces}
+
+When analyzing complex multidimensional Free Energy Surfaces (FES), it is often necessary to project a high-dimensional FES onto a lower-dimensional subspace to identify the most relevant reaction coordinates. For a two-dimensional free energy surface $F(s_1, s_2)$ defined by two collective variables (CVs), projecting the landscape onto a single variable $s_1$ cannot be done by simply taking a cross-section or selecting the minimum energy path along $s_2$. Instead, a rigorous thermodynamic projection requires converting the free energy into a probability distribution, marginalizing the unwanted degrees of freedom, and converting back to a free energy profile.
+
+The relationship between the 2D free energy $F(s_1, s_2)$ and the joint equilibrium probability density $P(s_1, s_2)$ is given by the inverse Boltzmann distribution:
+\begin{equation}
+    F(s_1, s_2) = -k_B T \ln P(s_1, s_2) + C
+\end{equation}
+where $k_B$ is the Boltzmann constant, $T$ is the temperature of the system, and $C$ is an arbitrary additive constant. By rearranging this expression, the statistical weight of any given state in the CV space can be written as:
+\begin{equation}
+    P(s_1, s_2) \propto \exp\left( -\frac{F(s_1, s_2)}{k_B T} \right)
+\end{equation}
+
+To obtain the thermodynamic projection of the FES along the collective variable $s_1$, we must compute the marginal probability distribution $P(s_1)$. This is achieved by integrating the joint probability density over the entire accessible configurational space of the variable to be discarded, $s_2$:
+\begin{equation}
+    P(s_1) = \int P(s_1, s_2) \, ds_2 \propto \int \exp\left( -\frac{F(s_1, s_2)}{k_B T} \right) \, ds_2
+\end{equation}
+
+Finally, the projected one-dimensional free energy profile $F(s_1)$ is reconstructed by applying the Boltzmann inversion to the marginal probability distribution:
+\begin{equation}
+    F(s_1) = -k_B T \ln P(s_1) + C'
+\end{equation}
+Substituting the integral expression of $P(s_1)$ into this equation yields the exact analytical formulation for the dimensionality reduction of the FES:
+\begin{equation}
+    F(s_1) = -k_B T \ln \left[ \int \exp\left( -\frac{F(s_1, s_2)}{k_B T} \right) \, ds_2 \right] + C''
+\end{equation}
+where the constant $C''$ absorbs all normalization factors. In practice, since only relative free energy differences ($\Delta F$) possess physical meaning, this constant is conventionally chosen such that the global minimum of the projected one-dimensional FES is set to zero.
+
+\subsubsection{Computational Implementation}
+In computational practice, this thermodynamic projection is performed automatically during post-processing by utilizing tools such as the \texttt{sum\_hills} utility in the PLUMED package. For instance, to project a multidimensional metadynamics FES onto a single collective variable $s_1$, the following command line can be used:
+
+\begin{verbatim}
+plumed sum_hills --hills HILLS --idw s1 --kt 2.5
+\end{verbatim}
+
+The \texttt{--idw} flag specifies the target collective variable(s) to be retained for the final free energy or histogram calculation, meaning all other unlisted variables will be integrated out mathematically. Because this numerical integration relies strictly on the calculation of exponential Boltzmann weights, it is mandatory to provide the system's thermal energy factor through the \texttt{--kt} flag (in energy units consistent with the simulation) to correctly evaluate the integral.
 
 
 
@@ -288,22 +407,59 @@ where \(T\) is the temperature of the system. When examining the two limit cases
 
 
 %%%%%%% CONTINUAR
-\section{Quantum Computing}
+\section{Quantum Computing}ç
+A fundamental challenge in the study of antimicrobial peptides arises from the enormous size of both sequence and conformational spaces. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes.
+
+This complexity is closely related to the Levinthal paradox, which highlights the apparent contradiction between the astronomical number of possible conformations and the relatively fast folding times observed in nature. This paradox suggests that peptide folding is guided by structured energy landscapes rather than random exploration, yet accurately characterizing these landscapes remains a major computational challenge.
+
+From a computational perspective, the protein folding problem has been shown to be NP-hard under several simplified models, implying that no efficient classical algorithm is known to solve it in the general case. This intrinsic computational complexity further limits the applicability of classical methods when attempting to explore both sequence and conformational spaces in a systematic manner.
+
+Recent advances in machine learning approaches, most notably AlphaFold, have achieved remarkable success in predicting static protein structures from amino acid sequences. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches.
+
+Classical approaches, such as molecular dynamics simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally prohibitive.
+
+These limitations motivate the exploration of alternative computational paradigms capable of addressing the exponential and combinatorial complexity of biomolecular systems. In this context, quantum computing offers a fundamentally different framework, in which the principles of superposition and entanglement enable the representation and manipulation of high-dimensional quantum states more naturally. Although current quantum hardware remains limited, these approaches provide a promising avenue for tackling the intrinsic complexity of peptide folding and sequence exploration problems.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics---specifically superposition, entanglement, and interference---to process information and solve complex combinatorial optimization problems that remain intractable for classical systems. This research is conducted within the \textbf{Noisy Intermediate-Scale Quantum (NISQ) era}, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction). The primary goal in this context is to achieve \textbf{Quantum Advantage}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
 
 \subsection{Foundations of Quantum Information}
 To understand the application of quantum algorithms in molecular design, it is essential to define the basic units of information and the operations that manipulate them. As described in the fundamental work of Nielsen and Chuang \cite{nielsen2010quantum}, quantum information theory generalizes classical computation by utilizing the principles of Hilbert space.
 
 \subsubsection{Bits vs. Qubits}
-While a classical bit can only exist in one of two discrete states, $0$ or $1$, a quantum bit or \textbf{qubit} is a two-level quantum system that can exist in a linear combination (superposition) of both basis states:
+Just as a classical computer uses bits that are either $0$ or $1$ and that can physically be represented as a low and a high voltage in a wire, a quantum computer uses quantum bits or \textbf{qubits} $|0\rangle$ or $|1\rangle$, often referred to as computational basis states. A qubit can, for instance, be physically manifested as two distinct energy levels of an atom (e.g., ground state $|0\rangle$ and excited state $|1\rangle$) or by the number of Cooper pairs on a superconducting island formed by a Josephson junction and a capacitor. 
+
+Qubits are described mathematically using Dirac's ``ket'' notation. A typical choice to represent the computational basis states is as column vectors:
 \begin{equation}
-|\psi\rangle = \alpha |0\rangle + \beta |1\rangle
+|0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}, \quad |1\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}
 \end{equation}
-where $\alpha, \beta \in \mathbb{C}$ are probability amplitudes satisfying the normalization condition $|\alpha|^2 + |\beta|^2 = 1$. Geometrically, the state of a qubit is often represented as a point on the surface of the \textbf{Bloch Sphere} (Figure \ref{fig:bloch_sphere}). The state is parameterized by two angles, the polar angle $\theta \in [0, \pi]$ and the azimuthal angle $\phi \in [0, 2\pi)$, as defined by:
+Qubits are represented as vectors instead of single scalar numbers because quantum systems can exist in a linear combination or ``superposition'' of both basis states simultaneously. This coherent superposition for a general qubit state can be described as:
 \begin{equation}
-|\psi\rangle = \cos\left(\frac{\theta}{2}\right) |0\rangle + e^{i\phi} \sin\left(\frac{\theta}{2}\right) |1\rangle
+|\psi\rangle = \alpha |0\rangle + \beta |1\rangle = \begin{pmatrix} \alpha \\ \beta \end{pmatrix}
 \end{equation}
-In this representation, the basis states $|0\rangle$ and $|1\rangle$ are located at the North and South poles, respectively, while superposition states lie on the equator.
+where $\alpha, \beta \in \mathbb{C}$ are probability amplitudes. The sum of their absolute squares must equal 1 to ensure proper normalization of the qubit state, meaning $|\alpha|^2 + |\beta|^2 = 1$. The act of measuring the qubit thus irrevocably affects its state, causing it to collapse into either $|0\rangle$ or $|1\rangle$. Specifically, when measured in the computational basis, there is a $|\alpha|^2$ probability of finding the system in the $|0\rangle$ state, and a $|\beta|^2$ probability of finding it in the $|1\rangle$ state.
+
+A single qubit's quantum state can be geometrically visualized as a unit vector inside a unit sphere called the Bloch sphere, as illustrated in Figure \ref{fig:bloch_sphere}. The state of the qubit can be parameterized in terms of a polar angle $\theta$ and an azimuthal angle $\phi$ as:
+\begin{equation}
+|\psi\rangle = \cos\left(\frac{\theta}{2}\right) |0\rangle + e^{i\phi} \sin\left(\frac{\theta}{2}\right) |1\rangle, \quad 0 \le \theta \le \pi, \quad 0 \le \phi \le 2\pi
+\end{equation}
 
 \begin{figure}[h]
     \centering
@@ -311,6 +467,66 @@ In this representation, the basis states $|0\rangle$ and $|1\rangle$ are located
     \caption{The Bloch Sphere representation of a single qubit state. The angles $\theta$ and $\phi$ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle, |1\rangle$) and the X and Y axes represent the real and imaginary components of the superposition.}
     \label{fig:bloch_sphere}
 \end{figure}
+
+
+\subsection{Multi-Qubit Systems}
+The fundamental principles governing single qubits naturally extend to systems comprising multiple qubits, constructing their joint state space through the tensor product. For instance, considering a system of $N$ qubits, its most general state can be expressed as a coherent superposition of all possible binary strings of length $N$, denoted by $z \in \{0,1\}^N$. Each of these $2^N$ binary strings is associated with a complex probability amplitude $\alpha_z$, resulting in the following representation:
+\begin{equation}
+|\psi\rangle = \sum_{z \in \{0,1\}^N} \alpha_z |z\rangle, \quad \text{with} \quad \sum_{z \in \{0,1\}^N} |\alpha_z|^2 = 1
+\end{equation}
+The critical requirement is that the sum of the squares of the absolute values of these complex amplitudes must strictly equal $1$, ensuring that the total probability is conserved within this larger system. This extension underlines the extraordinary scalability of quantum computing, demonstrating that the information capacity—or memory—available with every added qubit grows exponentially, spanning a $2^N$-dimensional Hilbert space.
+
+\subsection{Unitary Dynamics and Quantum Gates}
+Analogous to classical computers, which employ elementary logic gates such as AND or NOT to carry out deterministic operations on bits, quantum computers utilize quantum gates to manipulate the probability amplitudes of one or several qubits. The continuous time evolution of these probability amplitudes in a closed quantum system is fundamentally governed by the linear differential Schr\"odinger equation:
+\begin{equation}
+i\hbar \frac{d|\psi(t)\rangle}{dt} = \hat{H} |\psi(t)\rangle
+\end{equation}
+In this equation, $\hbar$ is the reduced Planck's constant (often assigned a value of $1$ in theoretical formulations by adopting natural units). The system's total energy is encapsulated by the Hamiltonian operator $\hat{H}$, whose eigenvalues correspond to the allowed energy levels. For an $N$-qubit system, the Hamiltonian can be represented as a $2^N \times 2^N$ Hermitian matrix with $2^N$ eigenstates $|\psi_i\rangle$ and corresponding energy eigenvalues $E_i$ such that $\hat{H}|\psi_i\rangle = E_i|\psi_i\rangle$. Thus, there exists a specific basis where the Hamiltonian is diagonal:
+\begin{equation}
+\hat{H} = \sum_{i=1}^{2^N} E_i |\psi_i\rangle\langle\psi_i|
+\end{equation}
+When the Hamiltonian is time-independent, the formal solution to the Schr\"odinger equation is elegantly given in terms of the unitary time-evolution operator $\hat{U}(t)$:
+\begin{equation}
+\hat{U}(t) = e^{-i\hat{H}t}
+\end{equation}
+If the initial state of the system $|\psi(0)\rangle$ is known, all future states can be deterministically computed by applying this unitary operator, yielding $|\psi(t)\rangle = \hat{U}(t)|\psi(0)\rangle$. This unitary evolution ensures that the normalization of the quantum state is strictly conserved over time.
+
+In the context of quantum computing, this continuous-time evolution is approximated or synthesized by discrete unitary operations known as quantum gates. Any operation on a single qubit can be visualized as a rotation of the state vector on the Bloch sphere.
+
+\subsubsection{Pauli and Rotation Gates}
+The most foundational operators for single-qubit manipulation are the Pauli matrices, which are the quantum analogs of classical operations. They are both unitary and Hermitian:
+\begin{equation}
+\sigma_x \equiv X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad 
+\sigma_y \equiv Y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad 
+\sigma_z \equiv Z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
+\end{equation}
+For example, the Pauli-$X$ gate acts as a quantum bit-flip (analogous to NOT), mapping $X|0\rangle = |1\rangle$ and $X|1\rangle = |0\rangle$. The Pauli-$Z$ gate acts as a phase-flip, mapping $Z|1\rangle = -|1\rangle$ while leaving $|0\rangle$ unchanged.
+
+Another fundamental single-qubit gate is the \textbf{Hadamard gate ($H$)}, which is critical for generating superposition by mapping the computational basis states onto the equator of the Bloch sphere:
+\begin{equation}
+H = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
+\end{equation}
+In Variational Quantum Algorithms, parameterized gates that allow for continuous rotations by an angle $\theta$ are heavily utilized. These are defined as the matrix exponentials of the Pauli operators:
+\begin{equation}
+R_x(\theta) = e^{-i\theta X/2}, \quad R_y(\theta) = e^{-i\theta Y/2}, \quad R_z(\theta) = e^{-i\theta Z/2}
+\end{equation}
+For example, the $R_z$ gate adjusts the relative phase $\phi$ between $|0\rangle$ and $|1\rangle$:
+\begin{equation}
+R_z(\theta) = \begin{pmatrix} e^{-i\theta/2} & 0 \\ 0 & e^{i\theta/2} \end{pmatrix}
+\end{equation}
+
+\subsubsection{Two-Qubit Gates: Entanglement}
+The \textbf{Controlled-NOT ($CNOT$)} gate is the primary mechanism for generating entanglement. It flips the state of a target qubit ($q_t$) if and only if the control qubit ($q_c$) is in the state $|1\rangle$:
+\begin{equation}
+CNOT = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{pmatrix}
+\end{equation}
+When the control qubit is in a superposition, applying $CNOT$ produces Bell states, which are maximally entangled.
+
+\subsection{Measurement and Hardware Architectures}
+Unlike classical reading, quantum measurement in the computational basis is a non-unitary process that collapses the wavefunction into one of the basis vectors. To obtain a reliable estimate of the probability distribution (the expectation value), the quantum circuit must be executed and measured multiple times. Each individual execution and measurement is referred to as a \textbf{shot}. The precision of the resulting expectation value improves with the square root of the number of shots ($1/\sqrt{N_{shots}}$).
+
+In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs). Specifically, the Variational Quantum Eigensolver (VQE) and the Quantum Approximate Optimization Algorithm (QAOA) were employed to tackle the energetic and combinatorial nature of these biological systems.
+
 \subsubsection{Hardware Architectures}
 Several physical platforms are currently being developed to realize qubits, each with distinct advantages in terms of coherence times and scalability.
 
@@ -323,53 +539,77 @@ Currently the most widely deployed architecture (e.g., by IBM, Google, and Riget
 \paragraph{Photonic Quantum Computing}
 Another scaling paradigm utilizes \textbf{Photons} as qubits (Linear Optical Quantum Computing). In these systems, information is encoded in the polarization, path, or arrival time of individual photons. Photonic hardware is inherently robust against thermal noise and decoherence, making it ideal for room-temperature operation. Operations are performed using interferometers, beam splitters, and phase shifters, although entangling two photons remains a technical challenge typically addressed through measurement-based schemes or non-linear optical media.
 
-\subsubsection{Quantum Gates and Circuit Operations}
-Quantum computations are performed by applying unitary transformations (gates) to the qubits. Any operation on a single qubit can be visualized as a rotation of the state vector on the Bloch Sphere.
+\subsection{Connection to Quantum Circuits}
+In the context of quantum computing, the continuous-time evolution governed by the Schr\"odinger equation is approximated by discrete unitary operations (quantum gates). Each quantum gate can be interpreted as the exponential of an effective Hamiltonian acting over a finite time interval.
 
-\paragraph{Pauli Gates}
-The Pauli gates are the quantum analogs of classical operations:
-\begin{itemize}
-    \item \textbf{X Gate (NOT):} Performs a $180^\circ$ rotation around the X-axis, flipping $|0\rangle \to |1\rangle$ and $|1\rangle \to |0\rangle$.
-    \begin{equation}
-    X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
-    \end{equation}
-    \item \textbf{Y Gate:} Performs a $180^\circ$ rotation around the Y-axis.
-    \begin{equation}
-    Y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
-    \end{equation}
-    \item \textbf{Z Gate (Phase Flip):} Performs a $180^\circ$ rotation around the Z-axis, mapping $|1\rangle \to -|1\rangle$ while leaving $|0\rangle$ unchanged.
-    \begin{equation}
-    Z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
-    \end{equation}
-\end{itemize}
+Thus, a quantum circuit can be viewed as a discretized implementation of quantum dynamics:
 
-\paragraph{Hadamard Gate}
-The \textbf{Hadamard ($H$)} gate is crucial for creating superposition. It maps the computational basis states ($|0\rangle, |1\rangle$) to the equator of the Bloch Sphere (e.g., $H|0\rangle = |+\rangle = \frac{|0\rangle + |1\rangle}{\sqrt{2}}$):
 \begin{equation}
-H = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
+U \approx \prod_k e^{-i \hat{H}_k \Delta t_k}
 \end{equation}
 
-\paragraph{Rotation Gates}
-In Variational Quantum Algorithms, we utilize parameterized gates that allow for continuous rotations by an angle $\theta$. These are defined as the matrix exponentials of the Pauli operators:
+This perspective is particularly relevant in variational quantum algorithms, where parameterized quantum circuits are constructed to approximate the evolution of molecular Hamiltonians
+
+\subsection{Parameterized Quantum Circuits (Ansatz)}
+
+In variational quantum algorithms, the quantum state is prepared using a parameterized quantum circuit, also known as an \emph{ansatz}. This circuit depends on a set of classical parameters \(\boldsymbol{\theta}\), which are optimized iteratively using a classical optimization routine.
+
+Formally, the trial quantum state is written as:
+
 \begin{equation}
-R_x(\theta) = e^{-i\theta X/2}, \quad R_y(\theta) = e^{-i\theta Y/2}, \quad R_z(\theta) = e^{-i\theta Z/2}
-\end{equation}
-For example, the $R_z$ gate adjusts the relative phase $\phi$ between $|0\rangle$ and $|1\rangle$:
-\begin{equation}
-R_z(\theta) = \begin{pmatrix} e^{-i\theta/2} & 0 \\ 0 & e^{i\theta/2} \end{pmatrix}
+|\psi(\boldsymbol{\theta})\rangle = U(\boldsymbol{\theta}) |0\rangle^{\otimes n}
 \end{equation}
 
-\paragraph{Two-Qubit Gates: Entanglement}
-The \textbf{Controlled-NOT ($CNOT$)} gate is the primary mechanism for generating entanglement. It flips the state of a target qubit ($q_t$) if and only if the control qubit ($q_c$) is in the state $|1\rangle$:
+where \(U(\boldsymbol{\theta})\) is a unitary operator composed of a sequence of parameter-dependent quantum gates.
+
+A typical ansatz can be expressed as a layered structure:
+
 \begin{equation}
-CNOT = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{pmatrix}
+U(\boldsymbol{\theta}) = \prod_{l=1}^{L} U_l(\boldsymbol{\theta}_l)
 \end{equation}
-When the control qubit is in a superposition, applying $CNOT$ produces Bell states, which are maximally entangled.
 
-\subsubsection{Measurement and Shots}
-Unlike classical reading, quantum measurement collapses the wavefunction into one of the computational basis states. To obtain a reliable estimate of the probability distribution (the expectation value), the quantum circuit must be executed and measured multiple times. Each individual execution and measurement is referred to as a \textbf{shot}. The precision of the resulting expectation value improves with the square root of the number of shots ($1/\sqrt{N_{shots}}$).
+where each layer \(U_l\) contains single-qubit rotations and entangling operations, such as CNOT gates, which introduce non-classical correlations between qubits.
 
-In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs). Specifically, the Variational Quantum Eigensolver (VQE) and the Quantum Approximate Optimization Algorithm (QAOA) were employed to tackle the energetic and combinatorial nature of these biological systems.
+The choice of ansatz plays a critical role in the expressibility of the quantum circuit and directly impacts the performance of variational algorithms such as the Variational Quantum Eigensolver (VQE).
+
+\subsection{Expectation Values and Cost Functions}
+
+The objective of variational quantum algorithms is to minimize a cost function defined as the expectation value of a Hamiltonian operator \(\hat{H}\) with respect to the parameterized state:
+
+\begin{equation}
+C(\boldsymbol{\theta}) = \langle \psi(\boldsymbol{\theta}) | \hat{H} | \psi(\boldsymbol{\theta}) \rangle
+\end{equation}
+
+This quantity corresponds to the expected energy of the quantum system described by \(\hat{H}\).
+
+In practice, the Hamiltonian is decomposed into a sum of Pauli operators:
+
+\begin{equation}
+\hat{H} = \sum_i c_i P_i
+\end{equation}
+
+where \(c_i \in \mathbb{R}\) and \(P_i\) are tensor products of Pauli matrices.
+
+The expectation value can then be evaluated as:
+
+\begin{equation}
+C(\boldsymbol{\theta}) = \sum_i c_i \langle \psi(\boldsymbol{\theta}) | P_i | \psi(\boldsymbol{\theta}) \rangle
+\end{equation}
+
+Each term is estimated on a quantum device via repeated measurements, producing a statistical estimate of the cost function.
+
+\subsection{Variational Optimization Loop}
+
+The evaluation of \(C(\boldsymbol{\theta})\) is embedded within a hybrid quantum-classical optimization loop:
+
+\begin{enumerate}
+    \item Prepare the quantum state \( |\psi(\boldsymbol{\theta})\rangle \)
+    \item Measure the expectation value \( C(\boldsymbol{\theta}) \)
+    \item Update parameters \( \boldsymbol{\theta} \rightarrow \boldsymbol{\theta}' \) using a classical optimizer
+    \item Repeat until convergence
+\end{enumerate}
+
+This hybrid structure enables near-term quantum devices to tackle problems in quantum chemistry and combinatorial optimization despite hardware limitations.
 
 \subsection{The Variational Paradigm and Hamiltonian Representation}
 
@@ -483,45 +723,75 @@ f_{penalized}(x) = f(x) + \lambda \sum_k (A_k x - b_k)^2
 \end{equation}
 where $\lambda$ is a penalty coefficient (Lagrange multiplier) chosen to be sufficiently large such that violating the constraint results in a higher energy than any valid solution. After expanding the square, the resulting expression remains quadratic in $x$ (since $x_i^2 = x_i$ for binary variables), thus preserving the QUBO structure.
 
-\subsection{Quantum Approximate Optimization Algorithm (QAOA)}
-The Quantum Approximate Optimization Algorithm (QAOA) is a hybrid variational algorithm introduced by Farhi, Goldstone, and Gutmann in 2014, specifically designed to find approximate solutions to combinatorial optimization problems. QAOA draws its theoretical foundations from the quantum adiabatic theorem, digitizing the continuous-time adiabatic evolution into a discrete sequence of parameterized unitary gates. In the context of this thesis, QAOA is employed as a heuristic to navigate the high-dimensional discrete landscape of amino acid sequences in peptide design.
+\subsection{The Quantum Approximate Optimization Algorithm (QAOA)}
+The Quantum Approximate Optimization Algorithm (QAOA) is a versatile and powerful hybrid quantum algorithm introduced by Farhi, Goldstone, and Gutmann in 2014 for solving combinatorial optimization problems on near-term quantum hardware \cite{farhi2014quantum}. It seamlessly combines classical optimization and quantum computing, leveraging the unique capabilities of quantum devices to navigate complex energy landscapes. QAOA has garnered significant attention due to its potential applications in diverse areas—including aviation, finance, machine learning, and logistics—where finding optimal solutions is of paramount importance.
 
-\subsubsection{Mathematical Formulation and Hamiltonian Mapping}
-To process a QUBO problem on a quantum processor, the classical objective function must be translated into the language of quantum observables. Each binary variable $x_i$ is mapped to a qubit $i$, and the variable values are associated with the eigenvalues of the Pauli-Z operator ($\hat{Z}_i \in \{1, -1\}$) via the affine transformation $x_i \to \frac{1 - \hat{Z}_i}{2}$. This mapping results in the \textbf{Cost Hamiltonian ($\hat{H}_C$)}:
+At its core, QAOA employs a variational approach that aims to approximate the solution to a given optimization problem by preparing a trial state on the quantum computer, which is parameterized by a set of classical angles. The classical optimization component of the algorithm is responsible for adjusting these parameters iteratively to minimize the expected value of the problem's cost function. This iterative nature allows QAOA to gradually refine the search within the Hilbert space to locate the optimal solution. Because it relies on shallow quantum circuits, this approach is exceptionally well-suited for Noisy Intermediate-Scale Quantum (NISQ) devices with limited coherence times and circuit depths. 
+
+\subsubsection{From the Quantum Adiabatic Algorithm to the QAOA}
+The theoretical foundations of QAOA are heavily inspired by the Quantum Adiabatic Algorithm (QAA). The QAA utilizes adiabatic evolution to slowly transition a quantum system from the easily prepared lowest energy eigenstate of an initial Hamiltonian to the unknown lowest energy eigenstate of a cost Hamiltonian. The time-dependent QAA Hamiltonian is formulated as the sum of two non-commuting operators:
 \begin{equation}
-\hat{H}_C = \sum_{i < j} J_{ij} \hat{Z}_i \hat{Z}_j + \sum_{i=1}^n h_i \hat{Z}_i + K
+\hat{H}(t) = (1 - s(t))\hat{H}_B + s(t)\hat{H}_C
 \end{equation}
-where $J_{ij}$ and $h_i$ are physical coupling constants and local fields derived from the QUBO matrix $Q$, and $K$ is a constant energy offset. The ground state of $\hat{H}_C$ corresponds precisely to the binary string that minimizes the original classical function.
-
-\subsubsection{The QAOA Circuit Ansatz: Alternating Hamiltonians}
-QAOA approaches the solution by applying an alternating sequence of two non-commuting unitary operators to an initial uniform superposition state $|\psi_0\rangle = |+\rangle^{\otimes n}$. These unitaries are generated by two distinct Hamiltonians:
-
-\begin{enumerate}
-    \item \textbf{Cost Hamiltonian ($\hat{H}_C$):} As defined in the QUBO mapping, this Hamiltonian encodes the "landscape" of the optimization problem. The unitary operator $\hat{U}_C(\gamma) = e^{-i\gamma \hat{H}_C}$ is applied to imprint a phase on each computational basis state proportional to its cost:
-    \begin{equation}
-    \hat{U}_C(\gamma) \lvert x \rangle = e^{-i\gamma f(x)} \lvert x \rangle
-    \end{equation}
-    This phase separation step allows the circuit to distinguish between different candidate solutions.
-    
-    \item \textbf{Mixing Hamiltonian ($\hat{H}_M$):} To allow for transitions between sequences and explore the solution space effectively, a "mixer" is required to counteract the phase-locking of the cost Hamiltonian. In this research, we use the standard transverse field mixer:
-    \begin{equation}
-    \hat{H}_M = \sum_{i=1}^n \hat{X}_i
-    \end{equation}
-    The corresponding unitary $\hat{U}_M(\beta) = e^{-i\beta \hat{H}_M}$ induces rotations around the X-axis for each qubit, enabling quantum tunneling and interference between different peptide sequences.
-\end{enumerate}
-
-The final trial wavefunction for a depth $p$ is constructed as:
+where $s(0) = 0$ and $s(T) = 1$, with $T$ denoting the total running time of the algorithm. The initial mixing Hamiltonian ($\hat{H}_B$) has an easily prepared ground state. For an $N$-qubit system, the standard initial Hamiltonian is defined as:
 \begin{equation}
-\lvert \psi(\gamma, \beta) \rangle = \hat{U}_M(\beta_p)\hat{U}_C(\gamma_p) \cdots \hat{U}_M(\beta_1)\hat{U}_C(\gamma_1) \lvert + \rangle^{\otimes n}
+\hat{H}_B = - \sum_{i=1}^N \sigma_i^x
 \end{equation}
-The vectors of variational parameters $\gamma$ and $\beta$ are optimized classically to minimize the energy expectation value or a risk-based metric.
+whose ground state is the uniform superposition $|+\rangle^{\otimes N}$. 
+
+The cost Hamiltonian ($\hat{H}_C$) typically encodes the objective function of the problem, and its ground state is hard to prepare. For combinatorial optimization problems formatted as QUBOs, $\hat{H}_C$ is naturally expressed in the form of an Ising Hamiltonian. To process a QUBO problem on a quantum processor, each binary variable $x_i$ is mapped to a qubit $i$, and the variable values are associated with the eigenvalues of the Pauli-Z operator ($\sigma_i^z \in \{1, -1\}$) via the affine transformation $x_i \to \frac{1 - \sigma_i^z}{2}$. This mapping results in the Ising cost Hamiltonian:
+\begin{equation}
+\hat{H}_C = \sum_{i=1}^N h_i \sigma_i^z + \sum_{i<j} J_{ij} \sigma_i^z \sigma_j^z + K
+\end{equation}
+where the local fields $h_i$ and the physical couplings $J_{ij}$ are derived directly from the QUBO matrix $Q$, and $K$ is a constant energy offset. The ground state of $\hat{H}_C$ corresponds precisely to the binary string that minimizes the original classical function.
+
+To ensure the highest likelihood of ending up in the ground state of the cost Hamiltonian, the adiabatic theorem states that the total evolution time $T$ must be on the order of $\mathcal{O}(1/\Delta E_{min}^2)$, where $\Delta E_{min}$ signifies the minimum energy gap between the two lowest instantaneous energy eigenstates during the evolution. 
+
+QAOA is based on the critical insight that it is possible to simulate the continuous QAA evolution on a gate-based quantum computer using \textbf{Trotterization}. The trotterization of the continuous time-evolving operator can be expressed as:
+\begin{equation}
+\hat{U}(T) \equiv \mathcal{T} \exp\left[ -i \int_0^T \hat{H}(t) dt \right] \approx \prod_{k=1}^p \exp\left[ -i \hat{H}(k\Delta t)\Delta t \right]
+\label{eq:trotter1}
+\end{equation}
+where $\mathcal{T}$ represents the time-ordering operator, and $p$ is a large integer, which results in $\Delta t = T/p$ being a sufficiently small time segment. For two non-commuting operators $\hat{A}$ and $\hat{B}$, the Trotter formula allows the decomposition:
+\begin{equation}
+e^{i(\hat{A}+\hat{B})\Delta t} = e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t} + \mathcal{O}(\Delta t^2)
+\end{equation}
+Applying this formula to the discretized time evolution operator in Equation \ref{eq:trotter1} yields:
+\begin{equation}
+\hat{U}(T) \approx \prod_{k=1}^p \exp\left[ -i(1 - s(k\Delta t))\hat{H}_B\Delta t \right] \exp\left[ -i s(k\Delta t)\hat{H}_C\Delta t \right]
+\label{eq:trotter2}
+\end{equation}
+As a result, it becomes feasible to approximate the continuous adiabatic process by alternately applying the unitary operators generated by $\hat{H}_C$ and $\hat{H}_B$ in a sequential, digitized manner.
+
+\subsubsection{QAOA State Preparation and Circuit Ansatz}
+Farhi, Goldstone, and Gutmann introduced a groundbreaking yet remarkably simple heuristic approach: they proposed truncating the infinite product in Equation \ref{eq:trotter2} to an arbitrary positive integer depth $p$, and entirely redefining the fixed, time-dependent exponents as free variational parameters. Specifically, the terms $(1 - s(k\Delta t))\Delta t$ are replaced by $\beta_k$, and the terms $s(k\Delta t)\Delta t$ are replaced by $\gamma_k$. Consequently, the rigid time segments transform into angles subject to classical optimization:
+\begin{equation}
+\hat{U}(\vec{\gamma}, \vec{\beta}) = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C}, \quad p \in \mathbb{Z}^+
+\end{equation}
+Generally, the negative sign in the mixing Hamiltonian $\hat{H}_B$ is absorbed into the parameter $\beta_k$, such that $\hat{H}_B$ is simply redefined as $\hat{H}_B = \sum_{i=1}^N \sigma_i^x$. 
+
+The final trial wavefunction—or ansatz state—prepared by the QAOA circuit of depth $p$ is thus expressed as:
+\begin{equation}
+|\psi_p(\vec{\gamma}, \vec{\beta})\rangle = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C} |+\rangle^{\otimes N}
+\end{equation}
+where $\vec{\gamma} = (\gamma_1, \gamma_2, \dots, \gamma_p)$ and $\vec{\beta} = (\beta_1, \beta_2, \dots, \beta_p)$ are vectors of classical parameters. Because the eigenvalues of the Pauli-$X$ operator are $\pm 1$, the operator $e^{\pm i\pi\hat{H}_B} = \prod_i (-I_i)$ merely introduces a global phase. Therefore, each $\beta_k$ strictly lies within the range $[0, \pi]$. Similarly, if the eigenvalues of the cost Hamiltonian are integers (which is common for unweighted QUBO formulations), the parameters $\gamma_k$ are periodic and bound between $[0, 2\pi]$.
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\linewidth]{General_Sections/Figures/qaoa_demonstration.png}
-    \caption{Structure of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition, followed by alternating layers of the cost unitary $\hat{U}_C(\gamma)$ and the mixer unitary $\hat{U}_M(\beta)$. The final state is measured in the computational basis to sample outcomes.}
+    \caption{Schematic representation of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition $|+\rangle^{\otimes N}$, followed by alternating layers of the cost unitary $e^{-i\gamma_k \hat{H}_C}$ and the mixer unitary $e^{-i\beta_k \hat{H}_B}$. Finally, the state is measured in the computational basis.}
     \label{fig:QAOA_circ}
 \end{figure}
+
+\subsubsection{Expectation Value, Optimization Loop, and MaxCut}
+To determine the optimal angles $(\vec{\gamma}, \vec{\beta})$, a cost function must be constructed that can be evaluated on the quantum computer and minimized by a classical optimizer. Typically, this cost function is defined as the expectation value of the cost Hamiltonian with respect to the parameterized final state:
+\begin{equation}
+F_p(\vec{\gamma}, \vec{\beta}) = \langle \psi_p(\vec{\gamma}, \vec{\beta}) | \hat{H}_C | \psi_p(\vec{\gamma}, \vec{\beta}) \rangle
+\end{equation}
+Minimizing this expectation value ensures that the variational state occupies a larger proportion of the low-energy eigenstates of $\hat{H}_C$. In practice, the hybrid workflow proceeds iteratively: the quantum processor prepares the state and measures $F_p(\vec{\gamma}, \vec{\beta})$, and the classical computer updates the parameters to descend the cost landscape until convergence is achieved. While significant research has been conducted on classical optimization strategies, noise and finite sampling errors present unique challenges on real hardware.
+
+Finally, a well-studied baseline problem heavily utilized in the context of QAOA is the \textbf{MaxCut} problem. It serves as a standard benchmark because it is mathematically nontrivial yet conceptually straightforward, and was the original problem studied by Farhi et al. to demonstrate QAOA's performance guarantees \cite{farhi2014quantum}. The objective of MaxCut is strictly combinatorial: given a graph $G = (V, E)$ with vertices $V$ and edges $E$, the goal is to partition the vertices into two disjoint subsets such that the sum of the edge weights connecting the two subsets—the ``cut''—is maximized. This binary classification easily maps onto an Ising Hamiltonian, making it the perfect testbed for hybrid quantum optimization algorithms. In the context of this thesis, QAOA is similarly employed as a heuristic to navigate the high-dimensional discrete landscape of amino acid sequences in peptide design.
+
 
 \subsubsection{Adiabatic Limit and Approximation Ratio}
 The theoretical robustness of QAOA is linked to the adiabatic theorem. As the depth $p$ increases, the sequence of unitaries can be interpreted as a Trotterized version of a time-dependent adiabatic schedule. If the parameters are adjusted such that they follow an annealing-like profile, the state will converge to the global minimum of $\hat{H}_C$ as $p \to \infty$. For finite $p$, the algorithm provides an approximate solution, characterized by the approximation ratio $\alpha$. 
