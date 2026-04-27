@@ -1,6 +1,5 @@
 \chapter{Materials and Methods}\label{methods}
-\chapterquote{"My needle is not just a weapon; it is a tool of restoration. I will stitch this broken world back together, or I will watch it unravel entirely."
-— Hornet (Hollow Knight: Silksong)}
+\chapterquote{"My needle is not just a weapon; it is a tool of restoration. I will stitch this broken world back together, or I will watch it unravel entirely."}{--- Hornet (Hollow Knight: Silksong)}
 
 \newpage
 
@@ -136,12 +135,12 @@ In the last step, the MD engine writes the new positions, velocities, thermodyna
 \subsection{The Force Field}
 The force field (FF) is the set of equations used to compute the potential energy as well as the set of parameters used to modulate those equations. In general, a force field splits the potential function into a bonded and a non-bonded terms as follows:
 \begin{equation}
-    U(\mathbf{r}) = U_{bonded}(\mathbf{r}) + U_{non-bonded}(\mathbf{r})
+    U(\vec{r}) = U_{bonded}(\vec{r}) + U_{non-bonded}(\vec{r})
 \end{equation}
 
 The bonded term describes the interaction between atoms separated by no more than 3 covalent bonds. It can be expanded as follows:
 \begin{equation}
-    U_{bonded}(\mathbf{r}) = U_{bonds}(\mathbf{r}) + U_{angles}(\mathbf{r}) + U_{proper\ dihedrals}(\mathbf{r}) + U_{improper\ dihedrals}(\mathbf{r})
+    U_{bonded}(\vec{r}) = U_{bonds}(\vec{r}) + U_{angles}(\vec{r}) + U_{proper\ dihedrals}(\vec{r}) + U_{improper\ dihedrals}(\vec{r})
 \end{equation}
 \begin{figure}[h]
     \centering
@@ -157,7 +156,7 @@ The first term relates to the stretching of the bond between two atoms (Fig. \re
 \begin{equation}\label{eq:angle}
     U_{angles}(\theta_{ijk}) = \frac{1}{2}k_{ijk}(\theta_{ijk}-\theta_{ijk}^{0})^2
 \end{equation}
-where \(k_{ij}\) is the force constant; \(\mathbf{r_{ij}}\) is the vector connecting particles \(i\) and \(j\); and \(\mathbf{r_{ij}^{0}}\) is the equilibrium bond distance. Similarly, in equation \ref{eq:angle}: \(k_{ijk}\) is the force constant; \(\theta_{ijk}\) is the angle formed by three consecutively bonded particles at any given time; and \(\theta_{ijk}^0\) is the equilibrium angle. Thus, in these two equations, \(k_{ij}\), \(k_{ijk}\), \(\mathbf{r_{ij}^{0}}\), and \(\theta_{ijk}^0\) are force field-specific parameters.
+where \(k_{ij}\) is the force constant; \(\vec{r}_{ij}\) is the vector connecting particles \(i\) and \(j\); and \(\vec{r}_{ij}^{0}\) is the equilibrium bond distance. Similarly, in equation \ref{eq:angle}: \(k_{ijk}\) is the force constant; \(\theta_{ijk}\) is the angle formed by three consecutively bonded particles at any given time; and \(\theta_{ijk}^0\) is the equilibrium angle. Thus, in these two equations, \(k_{ij}\), \(k_{ijk}\), \(\vec{r}_{ij}^{0}\), and \(\theta_{ijk}^0\) are force field-specific parameters.
 
 The last two terms describe different types of torsions or 1-4 interactions. On the one hand, \textit{proper dihedrals} relate to the dihedral angle between four consecutively connected particles, which is computed as the angle between the plane formed by particles \(ijk\) and the plane formed by \(jkl\):
 \begin{equation}
@@ -173,21 +172,21 @@ where \(k_{ijkl}\) represents the force constant; \(\xi_{ijkl}\) is the angle be
 
 The non-bonded term of the potential function can also be expanded into different contributions:
 \begin{equation}
-    U_{non-bonded}(\mathbf{r}) = U_{electrostatic}(\mathbf{r}) + U_{VdW}(\mathbf{r})
+    U_{non-bonded}(\vec{r}) = U_{electrostatic}(\vec{r}) + U_{VdW}(\vec{r})
 \end{equation}
 The first term uses a coulomb potential to describe the electrostatic interactions between charged particles. The potential takes the form:
 \begin{equation}
-    U_{electrostatic}(\mathbf{r}_{ij}) = k_e\frac{q_i q_j}{\epsilon_r \mathbf{r}_{ij}} \qquad \text{with} \quad k_e=\frac{1}{4\pi\epsilon_0}
+    U_{electrostatic}(\vec{r}_{ij}) = k_e\frac{q_i q_j}{\epsilon_r \vec{r}_{ij}} \qquad \text{with} \quad k_e=\frac{1}{4\pi\epsilon_0}
 \end{equation}
-In this equation, \(k_e\) is Coulomb's constant, which incorporates the vacuum dielectric constant \(\epsilon_0\); \(q_i \text{ and }q_j\) are the electric charges of the interacting particles; \(\epsilon_r\) is the dielectric constant of the solvent; and \(\mathbf{r}_{ij}\) is the distance between the two particles. In this case, the force field-dependent parameters are the partial charges \(q\), which in typical MD simulations are considered to be time- and configuration-independent.
+In this equation, \(k_e\) is Coulomb's constant, which incorporates the vacuum dielectric constant \(\epsilon_0\); \(q_i \text{ and }q_j\) are the electric charges of the interacting particles; \(\epsilon_r\) is the dielectric constant of the solvent; and \(\vec{r}_{ij}\) is the distance between the two particles. In this case, the force field-dependent parameters are the partial charges \(q\), which in typical MD simulations are considered to be time- and configuration-independent.
 
-It is important to note that non-bonded interactions are calculated for every pair of particles, including periodic images, causing the computational cost to scale as \(\mathcal{O}(N^2)\). The treatment of long-range electrostatic interactions is particularly demanding because the Coulomb potential decays slowly (\(\mathbf{r}^{-1}\)) with distance. To handle this, methods such as Particle-Mesh Ewald (PME) or the reaction field are commonly used \cita{pme}\textsuperscript{,}\cita{reacfield}. These techniques separate the Coulomb potential into short- and long-range components, reducing the scaling to \(\mathcal{O}(N \log(N))\) thereby improving efficiency \cita{Ewald1921}\textsuperscript{,}\cita{Darden1993}.
+It is important to note that non-bonded interactions are calculated for every pair of particles, including periodic images, causing the computational cost to scale as \(\mathcal{O}(N^2)\). The treatment of long-range electrostatic interactions is particularly demanding because the Coulomb potential decays slowly (\(\vec{r}^{-1}\)) with distance. To handle this, methods such as Particle-Mesh Ewald (PME) or the reaction field are commonly used \cita{pme}\textsuperscript{,}\cita{reacfield}. These techniques separate the Coulomb potential into short- and long-range components, reducing the scaling to \(\mathcal{O}(N \log(N))\) thereby improving efficiency \cita{Ewald1921}\textsuperscript{,}\cita{Darden1993}.
 
 The second term represents van der Waals interactions, which are intermolecular forces acting between particles. These are typically modeled using the Lennard-Jones potential, consisting of an attractive term and a repulsive term. The potential is expressed as follows:
 \begin{equation}
-    U_{VdW}(\mathbf{r}_{ij}) = 4\epsilon_{ij} \left( \left( \frac{\sigma_{ij}}{\mathbf{r}_{ij}} \right)^{12}- \left( \frac{\sigma_{ij}}{\mathbf{r}_{ij}}\right)^{6}\right)
+    U_{VdW}(\vec{r}_{ij}) = 4\epsilon_{ij} \left( \left( \frac{\sigma_{ij}}{\vec{r}_{ij}} \right)^{12}- \left( \frac{\sigma_{ij}}{\vec{r}_{ij}}\right)^{6}\right)
 \end{equation}
-Where \(\epsilon_{ij}\) represents the depth of the potential well; \(\sigma_{ij}\) defines the distance at which the van der Waals potential between two particles is zero; and \(\mathbf{r}_{ij}\) is the distance between the pair of particles. Here, the force field-dependent parameters are \(\epsilon_{ij}\) and \(\sigma_{ij}\).
+Where \(\epsilon_{ij}\) represents the depth of the potential well; \(\sigma_{ij}\) defines the distance at which the van der Waals potential between two particles is zero; and \(\vec{r}_{ij}\) is the distance between the pair of particles. Here, the force field-dependent parameters are \(\epsilon_{ij}\) and \(\sigma_{ij}\).
 
 Additionally, some force fields include \textit{cross terms}, which couple two (or more) of the previous interaction potentials. While they offer a more accurate representation of the system, they come at the expense of higher computational cost.
 
@@ -211,13 +210,13 @@ In the study presented in this section, the Martini 2.2 coarse-grained (CG) forc
 
 \subsection{Standard Metadynamics (MetaD)}
 
-Conventional molecular dynamics (MD) simulations are often hindered by the timescale problem, trapping the system in local minima of the free energy surface (FES) separated by high energy barriers \cite{Laio2002}. To overcome this ergodicity issue, Metadynamics (MetaD) introduces a history-dependent bias potential along a set of predefined slow degrees of freedom, known as collective variables (CVs), denoted as $\vec{s}(\mathbf{q})$.
+Conventional molecular dynamics (MD) simulations are often hindered by the timescale problem, trapping the system in local minima of the free energy surface (FES) separated by high energy barriers \cite{Laio2002}. To overcome this ergodicity issue, Metadynamics (MetaD) introduces a history-dependent bias potential along a set of predefined slow degrees of freedom, known as collective variables (CVs), denoted as $\vec{s}(\vec{q})$.
 
 The bias potential is constructed by periodically depositing Gaussian kernels along the trajectory in the CV space. Mathematically, the potential at time $t$ is expressed as:
 \begin{equation}
-V(\vec{s},t) = \sum_{ k \tau < t} W(k \tau) \exp\left( -\sum_{i=1}^{d} \frac{(s_i-s_i(\mathbf{q}(k \tau)))^2}{2\sigma_i^2} \right)
+V(\vec{s},t) = \sum_{ k \tau < t} W(k \tau) \exp\left( -\sum_{i=1}^{d} \frac{(s_i-s_i(\vec{q}(k \tau)))^2}{2\sigma_i^2} \right)
 \end{equation}
-where $\tau$ is the deposition stride, $W(k \tau)$ is the Gaussian height, and $\sigma_i$ represents the Gaussian width for the $i$-th CV. This repulsive potential discourages the system from revisiting previously sampled configurations, forcing it to cross free energy barriers and explore new regions of the phase space. In the long-time limit, the accumulated bias potential converges to the exact negative of the underlying free energy surface, $F(\vec{s})$, up to an arbitrary additive constant $C$:
+where $\tau$ is the deposition stride, $W(k \tau)$ is the Gaussian height, and $\sigma_i$ represents the Gaussian width for the $i$-th CV. Here, $\vec{q}(k \tau)$ denotes the microscopic coordinates (atomic positions) of the system at time $k \tau$, meaning that $s_i(\vec{q}(k \tau))$ represents the center of the Gaussian kernel in the CV space. This repulsive potential discourages the system from revisiting previously sampled configurations, forcing it to cross free energy barriers and explore new regions of the phase space. In the long-time limit, the accumulated bias potential converges to the exact negative of the underlying free energy surface, $F(\vec{s})$, up to an arbitrary additive constant $C$:
 \begin{equation}
 V(\vec{s},t\rightarrow \infty) = -F(\vec{s}) + C
 \end{equation}
@@ -225,8 +224,8 @@ yielding a direct estimate of the relevant thermodynamics of the system without 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/GaussianDeposition.png}
-    \caption{Progressive evolution of a one-dimensional model potential $V(x)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}
+    \includesvg[width=0.8\linewidth]{General_Sections/Figures/metadynamics_comparison.svg}
+    \caption{Progressive evolution of a one-dimensional model potential $V(s)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}
     \label{fig:metad}
 \end{figure}
 
@@ -234,7 +233,7 @@ yielding a direct estimate of the relevant thermodynamics of the system without 
 
 In standard MetaD, the continuous addition of constant-height Gaussians prevents the bias potential from converging to a stationary state, causing the free energy estimator to indefinitely oscillate around the true value and pushing the system into unreasonably high-energy regions. To achieve smooth asymptotic convergence, the Well-Tempered Metadynamics (WTMetaD) algorithm dynamically scales the Gaussian height based on the accumulated bias \cite{Barducci2008}. The height at time $t = k\tau$ is updated according to:
 \begin{equation}
-W (k \tau ) = W_0 \exp \left( -\frac{V(\vec{s}(\mathbf{q}(k \tau)),k \tau)}{k_B\Delta T} \right )
+W (k \tau ) = W_0 \exp \left( -\frac{V(\vec{s}(\vec{q}(k \tau)),k \tau)}{k_B\Delta T} \right )
 \end{equation}
 where $W_0$ is the initial height, $k_B$ is the Boltzmann constant, and $\Delta T$ is a tunable temperature parameter regulating the decay rate of the bias.
 
@@ -250,19 +249,13 @@ If $\gamma = 1$, the method collapses back to standard unbiased molecular dynami
 
 \subsection{Thermodynamic Reweighting}
 
-Because the system evolves under a modified Hamiltonian $H'(\mathbf{q}, \mathbf{p}) = H(\mathbf{q}, \mathbf{p}) + V(\vec{s}, t)$, the sampled conformations belong to a biased probability distribution $P'(\mathbf{q}, \mathbf{p})$. To recover the unbiased thermodynamic properties of the canonical ensemble for observables that were not explicitly biased, a statistical reweighting procedure must be applied.
-
-The unbiased probability distribution $P(\mathbf{q}, \mathbf{p})$ is related to the biased one by exponentially discounting the applied bias potential:
+Because the system evolves under a modified Hamiltonian $H'(\vec{q}, \vec{p}) = H(\vec{q}, \vec{p}) + V(\vec{s}, t)$, the sampled conformations belong to a biased probability distribution $P'(\vec{q}, \vec{p})$. To recover the unbiased thermodynamic properties of the canonical ensemble for observables that were not explicitly biased, a statistical reweighting procedure must be applied.
+The unbiased probability distribution $P(\vec{q}, \vec{p})$ is related to the biased one by exponentially discounting the applied bias potential:
 \begin{equation}
-P(\mathbf{q}, \mathbf{p}) \propto P'(\mathbf{q}, \mathbf{p}) \exp\left(\frac{V(\vec{s}(\mathbf{q}))}{k_B T}\right)
+P(\vec{q}, \vec{p}) \propto P'(\vec{q}, \vec{p}) \exp\left(\frac{V(\vec{s}(\vec{q}))}{k_B T}\right)
 \end{equation}
 By assigning a statistical weight proportional to $\exp(V/k_BT)$ to each sampled frame, the unbiased free energy landscapes can be properly projected onto any other set of coordinates without running new simulations.
 
-\subsection{On-the-fly Probability Enhanced Sampling (OPES)}
-
-More recently, the On-the-fly Probability Enhanced Sampling (OPES) method was introduced as a robust alternative to Metadynamics that directly targets a specific probability distribution $p^{\text{tg}}(\mathbf{s})$. By default, OPES targets the well-tempered distribution $p^{\text{WT}}(\mathbf{s}) \propto [P(\mathbf{s})]^{1/\gamma}$. 
-
-Unlike MetaD, which builds a penalty potential strictly from trajectory history, OPES rapidly optimizes the bias on-the-fly by estimating the unbiased distribution in the CV space via Kernel Density Estimation (KDE). This resolves the traditional exploration-convergence trade-off by reaching a quasi-static bias regime very quickly. Furthermore, OPES utilizes a dynamic normalization factor and an internal compression algorithm to prevent the number of kernels from growing linearly with simulation time, enabling much faster and native compatibility with standard reweighting techniques.
 
 \subsection{Selection and Formulation of Collective Variables}
 
@@ -321,7 +314,21 @@ The full orientation of a rigid body in 3D requires three rotational degrees of 
     \item \textbf{Yaw ($\psi$):} Represents the rotation of the peptide axis projection within the membrane plane. Due to the inherent fluid and symmetric nature of the lipid bilayer in the $xy$-plane, this degree of freedom is functionally degenerate and absorbed into the in-plane reference choice.
 \end{itemize}
 
-Ultimately, the complex association mechanism can be effectively reduced to the essential translational degree of freedom (insertion depth, $D_z$) and the two principal rotational degrees of freedom (tilt $\theta$ and spin $\phi$). These collective variables constitute a robust phase space for describing the specific thermodynamic binding modes of AMPs at the membrane interface.
+Ultimately, the complex association mechanism can be effectively reduced to the essential translational degree of freedom (insertion depth, $D_z$) and the two principal rotational degrees of freedom (tilt $\theta$ and spin $\phi$). These collective variables constitute a robust phase space for describing the specific thermodynamic binding modes of AMPs at the membrane interface\ref{fig:eulers_angles}.
+
+
+\begin{figure}[h]
+    \centering
+    \includesvg[width=0.8\linewidth]{General_Sections/Figures/helix_geometry.svg}
+    \caption{\textbf{Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} 
+    The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb{R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi, \theta, \phi)$, corresponding to the Euler angles. 
+    The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta$ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi$ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi$ represents the internal rotation of the helix about its longitudinal axis $\mathbf{\hat{n}}$. 
+    Assuming an infinite, homogeneous, and isotropic membrane in the $XY$ plane, the system exhibits translational symmetry along $X$ and $Y$, as well as rotational symmetry around the $Z$-axis. Consequently, the potential energy of the system is independent of $x, y$, and $\psi$ (ignorable coordinates), effectively reducing the configurational study to the three biologically relevant degrees of freedom: insertion depth ($z$), tilt ($\theta$), and internal rotation ($\phi$).}
+    \label{fig:eulers_angles}
+\end{figure}
+
+
+
 
 \subsection{Dimensionality Reduction of Free Energy Surfaces}
 
@@ -364,9 +371,56 @@ The \texttt{--idw} flag specifies the target collective variable(s) to be retain
 
 
 
+%STATISTICAL METHODS
+\section{Statistical Methods and Error Analysis}
+
+Most of the previous analyses generated a time series representing the evolution of different physical magnitudes throughout the simulation. However, further statistical processing is required to extract significant conclusions about the molecular behavior of the simulated systems. In Molecular Dynamics (MD), properties are generally calculated as either ensemble or temporal averages\cite{tratamiento_datos_fisicos}.
+
+\subsection{Ensemble and Temporal Averages}
+
+For a system with $N$ discrete observations, the ensemble average of a magnitude $x$ is defined as:
+\begin{equation}
+    \langle x \rangle = \frac{1}{N} \sum_{n=1}^{N} x_n
+\end{equation}
+
+In MD, where $x$ is a function of time $x(t)$, the theoretical temporal average over a period $T$ is given by:
+\begin{equation}
+    \bar{x} = \frac{1}{T} \int_{t_0}^{t_0+T} x(t') dt'
+\end{equation}
+
+Since MD simulations provide data at discrete time intervals $\Delta t$, the practical implementation of the temporal average is equivalent to the ensemble average of the trajectory frames:
+\begin{equation}
+    \bar{x} \approx \frac{1}{N} \sum_{n=1}^{N} x(t_0 + n\Delta t)
+\end{equation}
+where $T = N\Delta t$. It is important to note that $\Delta t$ refers to the frequency at which coordinates are saved for analysis, which may be a multiple of the integration time step to avoid redundant data.
 
 
+\subsection{The Autocorrelation Problem and Block Averaging}
 
+Most of the analyses performed in this work generate time series of physical magnitudes. To extract statistically significant conclusions, it is necessary to quantify the uncertainty associated with the calculated averages. Following the treatment by G{\'o}mez Rodr{\'\i}guez et al. \cite{tratamiento_datos_fisicos}, for a set of $N$ observations, the dispersion of the data is characterized by the sample variance $s^2(x)$, estimated as:
+\begin{equation}
+    s^2(x) = \frac{1}{N-1} \sum_{n=1}^{N} (x_n - \langle x \rangle)^2 \label{eq:variance}
+\end{equation}
+where $\langle x \rangle$ is the sample mean. From this, the sample standard deviation $s(x) = \sqrt{s^2(x)}$ is derived, representing the magnitude of the fluctuations of individual data points. 
+
+However, for error estimation, we must distinguish $s(x)$ from the standard deviation of the mean (or standard error), denoted as $\sigma_{\langle x \rangle}$, which represents the uncertainty in the determination of the average. If the $N$ observations were statistically independent and uncorrelated, this uncertainty would be given by:
+\begin{equation}
+    \sigma_{\langle x \rangle} = \frac{s(x)}{\sqrt{N}} \label{eq:std_error_uncorrelated}
+\end{equation}
+
+A fundamental challenge in Molecular Dynamics (MD) simulations is that consecutive data points in a trajectory are not independent but temporally correlated. When such autocorrelation exists, the assumption of independence in Equation \ref{eq:std_error_uncorrelated} is no longer valid. In this scenario, using the total number of frames $N$ leads to a severe underestimation of the true uncertainty, as the effective number of independent samples is significantly lower.
+
+To overcome this, we employ the Block Averaging method as described by Flyvbjerg and Petersen \cite{block_average}. This technique consists of transforming the original data set of $N$ observations into a new set of $N' = N/k$ \textit{blocked} observations, where $k$ is the block size. The mean of each block $i$ is calculated as:
+\begin{equation}
+    M_i = \frac{1}{k} \sum_{j=1}^{k} x_{(i-1)k+j}
+\end{equation}
+
+As the block size $k$ increases, the correlation between the means of adjacent blocks decreases. The estimated error (standard deviation of the mean) is then computed for different block sizes until it reaches a plateau, which indicates that the blocks have become statistically independent. The final uncertainty $\sigma$ and its associated error $\sigma_{\sigma}$ are calculated as:
+\begin{equation}
+    \sigma \approx \sqrt{\frac{s^2(M)}{N'-1}}, \quad \sigma_{\sigma} \approx \frac{\sigma}{\sqrt{2(N'-1)}}
+\end{equation}
+
+This methodology ensures that the reported error bars for free energy surfaces and other magnitudes are statistically robust and account for the sampling limitations of the simulation.
 
 
 
@@ -407,7 +461,7 @@ The \texttt{--idw} flag specifies the target collective variable(s) to be retain
 
 
 %%%%%%% CONTINUAR
-\section{Quantum Computing}ç
+\section{Quantum Computing}
 A fundamental challenge in the study of antimicrobial peptides arises from the enormous size of both sequence and conformational spaces. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes.
 
 This complexity is closely related to the Levinthal paradox, which highlights the apparent contradiction between the astronomical number of possible conformations and the relatively fast folding times observed in nature. This paradox suggests that peptide folding is guided by structured energy landscapes rather than random exploration, yet accurately characterizing these landscapes remains a major computational challenge.
@@ -827,8 +881,8 @@ Differential Evolution (DE) is a stochastic, population-based metaheuristic intr
 
 DE maintains a population of $NP$ real-valued parameter vectors. The evolutionary process is driven by three main operators:
 \begin{itemize}
-    \item \textbf{Mutation:} A mutant vector $\mathbf{v}_{i,g}$ is generated by adding the scaled difference between two randomly selected population members to a third base vector.
-    \item \textbf{Crossover:} The mutant vector is recombined with the target vector using a uniform crossover probability $C_r$ to form a trial vector $\mathbf{u}_{i,g}$.
+    \item \textbf{Mutation:} A mutant vector $\vec{v}_{i,g}$ is generated by adding the scaled difference between two randomly selected population members to a third base vector.
+    \item \textbf{Crossover:} The mutant vector is recombined with the target vector using a uniform crossover probability $C_r$ to form a trial vector $\vec{u}_{i,g}$.
     \item \textbf{Selection:} DE employs a strictly greedy, one-to-one deterministic selection scheme, ensuring that the trial vector survives into the next generation only if it improves the objective value.
 \end{itemize}
 
