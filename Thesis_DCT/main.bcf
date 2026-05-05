@@ -2468,23 +2468,25 @@
     <bcf:citekey order="85" intorder="1">Feenstra1999</bcf:citekey>
     <bcf:citekey order="86" intorder="1">Laio2002</bcf:citekey>
     <bcf:citekey order="87" intorder="1">Barducci2008</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">tratamiento_datos_fisicos</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">Woo2005</bcf:citekey>
     <bcf:citekey order="89" intorder="1">tratamiento_datos_fisicos</bcf:citekey>
-    <bcf:citekey order="90" intorder="1">block_average</bcf:citekey>
-    <bcf:citekey order="91" intorder="1">nielsen2010quantum</bcf:citekey>
-    <bcf:citekey order="92" intorder="1">farhi2014quantum</bcf:citekey>
-    <bcf:citekey order="93" intorder="1">farhi2014quantum</bcf:citekey>
-    <bcf:citekey order="94" intorder="1">DANI_LIPIDOS</bcf:citekey>
-    <bcf:citekey order="95" intorder="1">martini2</bcf:citekey>
-    <bcf:citekey order="95" intorder="2">martini3</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">tratamiento_datos_fisicos</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">block_average</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">Lloyd1982</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">nielsen2010quantum</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">farhi2014quantum</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">farhi2014quantum</bcf:citekey>
     <bcf:citekey order="96" intorder="1">DANI_LIPIDOS</bcf:citekey>
-    <bcf:citekey order="96" intorder="2">DANI_METADINAMICA</bcf:citekey>
-    <bcf:citekey order="97" intorder="1">robert2021resource</bcf:citekey>
-    <bcf:citekey order="98" intorder="1">DANI_CUANTICA</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">martini2</bcf:citekey>
+    <bcf:citekey order="97" intorder="2">martini3</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">DANI_LIPIDOS</bcf:citekey>
+    <bcf:citekey order="98" intorder="2">DANI_METADINAMICA</bcf:citekey>
     <bcf:citekey order="99" intorder="1">robert2021resource</bcf:citekey>
     <bcf:citekey order="100" intorder="1">DANI_CUANTICA</bcf:citekey>
-    <bcf:citekey order="101" intorder="1">DANI_CUANTICA</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">robert2021resource</bcf:citekey>
     <bcf:citekey order="102" intorder="1">DANI_CUANTICA</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">DANI_CUANTICA</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">DANI_CUANTICA</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
