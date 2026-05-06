@@ -43,21 +43,15 @@
 % Include pdf into manuscript
 \usepackage{pdfpages}
 
-% Bibliography setup. Uses ACS style with references as footnotes
-\usepackage[style=chem-acs, backend=biber]{biblatex}
+\usepackage{csquotes}
+\usepackage[style=chem-acs, backend=biber, articletitle=true, doi=true]{biblatex}
 \addbibresource{references.bib}  % Load external .bib 
-\usepackage{chngcntr}
-\counterwithout{footnote}{chapter}
-%%
-\newcommand{\cita}{}
-\renewcommand{\cita}[1]{\footfullcite{#1}} % Renames foofullcite to cite
 
 
 % \renewcommand{\cite}[1]{\citation{#1}}
 
 
-% Formatting for footnotes (ensures ACS footnotes appear correctly)
-\renewcommand{\footnoterule}{\vspace*{-3pt}\hrule width 8cm\vspace*{3pt}} % Horizontal line for footnotes until 8cm (middle of page)
+
 %Page has 21 cm - 5 cm for margins = 16cm so 8cm is middle.
 
 
@@ -88,18 +82,7 @@
     \renewcommand{\footrulewidth}{0pt} % Remove footer line
 }
 
-% Dedication Page
-\newcommand{\dedication}{
-    \clearpage
-    \thispagestyle{empty} % No headers or footers
-    \vspace*{10cm} % Adjust vertical spacing
-    \begin{flushright} % Right-align text
-        \textit{
-            A mi familia.
-        }
-    \end{flushright}
-    \clearpage
-}
+
 
 % Formatting for chapter pages
 \usepackage{titlesec}
@@ -257,7 +240,8 @@
 % \includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{authorization_rgf.pdf} % Authorization Rebeca
 % \includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{authorization_apg.pdf} % Authorization angel
 
-\dedication
+
+\include{General_Sections/Acknowledgements}
 
 \tableofcontents
 
@@ -349,7 +333,7 @@
 
 % References
 \chapter{References}
-\chapterquote{GROMACS reminds you: ``It is unfortunate that the authors did not make better use of all the electric power energy that went into these massive computations.''}{--- An anonymous referee}
+\chapterquote{``Everyone, please! Share your energy with me!''}{--- Son Goku, Dragon Ball Z}
 \newpage
 
 \printbibliography[heading=none]

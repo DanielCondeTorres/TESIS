@@ -1,18 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[46] biber-darwin:342> INFO - === Tue May  5, 2026, 13:25:00
-[58] Biber.pm:421> INFO - Reading 'main.bcf'
-[119] Biber.pm:1002> INFO - Found 92 citekeys in bib section 0
-[127] Biber.pm:4487> INFO - Processing section 0
-[135] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[139] bibtex.pm:1713> INFO - LaTeX decoding ...
-[251] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[736] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[736] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[736] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[736] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[776] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[811] bbl.pm:779> INFO - Output to main.bbl
-[811] Biber.pm:132> WARN - I didn't find a database entry for 'Woo2005' (section 0)
-[811] Biber.pm:132> WARN - I didn't find a database entry for 'Lloyd1982' (section 0)
-[811] Biber.pm:134> INFO - WARNINGS: 2
+[43] biber-darwin:342> INFO - === Wed May  6, 2026, 13:57:04
+[53] Biber.pm:421> INFO - Reading 'main.bcf'
+[116] Biber.pm:1002> INFO - Found 101 citekeys in bib section 0
+[125] Biber.pm:4487> INFO - Processing section 0
+[131] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[136] bibtex.pm:1713> INFO - LaTeX decoding ...
+[261] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[787] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[787] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[787] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[788] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[830] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[869] bbl.pm:779> INFO - Output to main.bbl
+[870] Biber.pm:132> WARN - legacy month field 'Jul' in entry 'perdomo_1' is not an integer - this will probably not sort properly.
+[870] Biber.pm:134> INFO - WARNINGS: 1

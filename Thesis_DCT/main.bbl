@@ -297,8 +297,8 @@
       \strng{authornamehash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhashraw}{b9a5e2c88543b957544f1ae9a5428e84}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1398-9219}
@@ -350,8 +350,8 @@
       \strng{authornamehash}{ec705a0562360b64e499516cf16c849c}
       \strng{authorfullhash}{4794a5f4c3ffa75672fadd0cece24907}
       \strng{authorfullhashraw}{4794a5f4c3ffa75672fadd0cece24907}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0918-6158}
@@ -393,8 +393,8 @@
       \strng{authornamehash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhashraw}{280c9c28b5987fd68cba3c8a67f28bee}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -740,6 +740,7 @@
       \strng{authornamehash}{6d8c49efc43411c6344872fcfddfc7a3}
       \strng{authorfullhash}{3360d95f636bf376e82b8406c098f1b9}
       \strng{authorfullhashraw}{3360d95f636bf376e82b8406c098f1b9}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -860,7 +861,6 @@
       \strng{authornamehash}{6dbf1533bea154bc3d0894f8b78706e6}
       \strng{authorfullhash}{a8ea2bffd2691e66c627901482fc7013}
       \strng{authorfullhashraw}{a8ea2bffd2691e66c627901482fc7013}
-      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -975,8 +975,8 @@
       \strng{authornamehash}{35b9195b76c35f2858eae7c1f5717fc8}
       \strng{authorfullhash}{34a88d335cad3f5552a18319387fc739}
       \strng{authorfullhashraw}{34a88d335cad3f5552a18319387fc739}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1474-1784}
@@ -1039,8 +1039,8 @@
       \strng{authornamehash}{3d7f4e2b1ad59eef98eb73a549dca42a}
       \strng{authorfullhash}{79b8b1f4d2ceb59295ddbac7482fa3a1}
       \strng{authorfullhashraw}{79b8b1f4d2ceb59295ddbac7482fa3a1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1860-7187}
@@ -1130,8 +1130,8 @@
       \strng{authorfullhash}{89edb61e81549c2c86fc43496a5f5dcb}
       \strng{authorfullhashraw}{89edb61e81549c2c86fc43496a5f5dcb}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
@@ -1667,8 +1667,8 @@
       \strng{authornamehash}{015b7c42176bdfe7122a7c5c593ea6f5}
       \strng{authorfullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
       \strng{authorfullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Healthcare}
@@ -1717,8 +1717,8 @@
       \strng{authornamehash}{7736002ef78cbe841bec7f5ef1c9903e}
       \strng{authorfullhash}{ab73865f61e68527b824bcae9f2b3a40}
       \strng{authorfullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Reviews Microbiology}
@@ -1766,8 +1766,8 @@
       \strng{authornamehash}{c54ca204871391ccfe79291879c7ad7a}
       \strng{authorfullhash}{3c16f5a945563f024e1ecfea362890e4}
       \strng{authorfullhashraw}{3c16f5a945563f024e1ecfea362890e4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2474-0896}
@@ -1841,8 +1841,8 @@
       \strng{authorfullhash}{64042eb956e1dbe1684bebd3b94a4de3}
       \strng{authorfullhashraw}{64042eb956e1dbe1684bebd3b94a4de3}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are bioactive macromolecules that exhibit antibacterial, antiviral, and immunomodulatory functions. They come from a wide range of sources and are found in all forms of life, from bacteria to plants, vertebrates, and invertebrates, and play an important role in controlling the spread of pathogens, promoting wound healing and treating tumors. Consequently, AMPs have emerged as promising alternatives to next-generation antibiotics. With advancements in systems biology and synthetic biology technologies, it has become possible to synthesize AMPs artificially. We can better understand their functional activities for further modification and development by investigating the mechanism of action underlying their antimicrobial properties. This review focuses on the structural aspects of AMPs while highlighting their significance for biological activity. Furthermore, it elucidates the membrane targeting mechanism and intracellular targets of these peptides while summarizing molecular modification approaches aimed at enhancing their antibacterial efficacy. Finally, this article outlines future challenges in the functional development of AMPs along with proposed strategies to overcome them.}
@@ -1888,8 +1888,8 @@
       \strng{authornamehash}{5633e09ea4714e735a895dcfdc32d9b9}
       \strng{authorfullhash}{cec47e8b1a371f821c725fc126fa872f}
       \strng{authorfullhashraw}{cec47e8b1a371f821c725fc126fa872f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs), evolutionarily conserved components of the immune system, have attracted considerable attention as promising therapeutic candidates. Derived from diverse organisms, AMPs represent a heterogeneous class of molecules, typically cationic, which facilitates their initial electrostatic interaction with anionic microbial membranes. Unlike conventional single-target antibiotics, AMPs utilize rapid, multi-target mechanisms, primarily physical membrane disruption, which results in a significantly lower incidence of resistance emergence. Their broad-spectrum antimicrobial activity, capacity to modulate host immunity, and unique mechanisms of action make them inherently less susceptible to resistance compared with traditional antibiotics. Despite these advantages, the clinical translation of natural AMPs remains limited by several challenges, including poor in vivo stability, and potential cytotoxicity. Bioengineering technology offers innovative solutions to these limitations of AMPs. Two techniques have demonstrated promise: (i) a chimeric recombinant of AMPs with stable scaffold, such as human serum albumin and antibody Fc domain and (ii) chemical modification approaches, such as lipidation. This review provides a comprehensive overview of AMPs, highlighting their origins, structures, and mechanisms of antimicrobial activity, followed by recent advances in bioengineering platforms designed to overcome their therapeutic limitations. By integrating natural AMPs with bioengineering and nanotechnologies, AMPs may be developed into next-generation antibiotics.}
@@ -2219,8 +2219,8 @@
       \strng{authornamehash}{d8a23cfffb586cef31caeb6d5b7345c4}
       \strng{authorfullhash}{d8a23cfffb586cef31caeb6d5b7345c4}
       \strng{authorfullhashraw}{d8a23cfffb586cef31caeb6d5b7345c4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -2261,8 +2261,8 @@
       \strng{authornamehash}{b665c644852d672fc230756e66313c23}
       \strng{authorfullhash}{b665c644852d672fc230756e66313c23}
       \strng{authorfullhashraw}{b665c644852d672fc230756e66313c23}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-899X}
@@ -2308,8 +2308,8 @@
       \strng{authornamehash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhashraw}{b385882cc9faa1401f0fdcbf7e6ab2d7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -2360,8 +2360,8 @@
       \strng{authornamehash}{e302b9eb1e80e19fb391368e6b6a7aeb}
       \strng{authorfullhash}{526bda1a09c7ebd7f0d37dd4e7433763}
       \strng{authorfullhashraw}{526bda1a09c7ebd7f0d37dd4e7433763}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -2403,8 +2403,8 @@
       \strng{authornamehash}{c2ccd5a62111861f450f8e14a4cb8790}
       \strng{authorfullhash}{c2ccd5a62111861f450f8e14a4cb8790}
       \strng{authorfullhashraw}{c2ccd5a62111861f450f8e14a4cb8790}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -2451,8 +2451,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -2499,8 +2499,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -2729,8 +2729,8 @@
       \strng{authornamehash}{157bbf124c21fb4c14cd30452581c7e9}
       \strng{authorfullhash}{9f1d256532ba85c66e847ba793f6d842}
       \strng{authorfullhashraw}{9f1d256532ba85c66e847ba793f6d842}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0009-2665}
@@ -2778,8 +2778,8 @@
       \strng{authornamehash}{a8650a53bf9d19d05b1f312b36139cd2}
       \strng{authorfullhash}{7a91a3d0c6f6fa975557f8f5d423068b}
       \strng{authorfullhashraw}{7a91a3d0c6f6fa975557f8f5d423068b}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0743-7463}
@@ -2835,8 +2835,8 @@
       \strng{authornamehash}{af4972b1249f683429fc16914ccaec7e}
       \strng{authorfullhash}{288bc43896a7e0ec7d5e538304bf5e19}
       \strng{authorfullhashraw}{288bc43896a7e0ec7d5e538304bf5e19}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1936-0851}
@@ -2888,8 +2888,8 @@
       \strng{authornamehash}{22e2e7d67e552c5bc8527b1b318fbd29}
       \strng{authorfullhash}{cc3925d7bf1f2c6d66d532739ec10db6}
       \strng{authorfullhashraw}{cc3925d7bf1f2c6d66d532739ec10db6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1463-9076}
@@ -2960,8 +2960,8 @@
       \strng{authornamehash}{94761d45f3b71d616a065288e2a13122}
       \strng{authorfullhash}{ddd0ed96899f9025a4802d948175ab5a}
       \strng{authorfullhashraw}{ddd0ed96899f9025a4802d948175ab5a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2296-2646}
@@ -3022,8 +3022,8 @@
       \strng{authornamehash}{55ff66bd96d6616f31842c8e000a707e}
       \strng{authorfullhash}{e817160828e288939597638b701f22c9}
       \strng{authorfullhashraw}{e817160828e288939597638b701f22c9}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1422-0067}
@@ -3106,8 +3106,8 @@
       \strng{authorfullhash}{ec543d02e629178b1dcdbe8cc09b68b5}
       \strng{authorfullhashraw}{ec543d02e629178b1dcdbe8cc09b68b5}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09277765}
@@ -3184,8 +3184,8 @@
       \strng{authorfullhash}{3c60264ff571cbb0a481719bec314859}
       \strng{authorfullhashraw}{3c60264ff571cbb0a481719bec314859}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09277765}
@@ -3226,8 +3226,8 @@
       \strng{authornamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
       \strng{authorfullhash}{aac54ccf9c76aa4ba4310ed1334be7d8}
       \strng{authorfullhashraw}{aac54ccf9c76aa4ba4310ed1334be7d8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International journal of theoretical physics}
@@ -3262,8 +3262,8 @@
       \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum Computation and Quantum Information: 10th Anniversary Edition}
@@ -3285,8 +3285,8 @@
       \strng{authornamehash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantum}
@@ -3353,8 +3353,8 @@
       \strng{authornamehash}{bddcbb30e0909355294b8653d4787a0e}
       \strng{authorfullhash}{16fda0acd29f1276c07270659e70cdff}
       \strng{authorfullhashraw}{16fda0acd29f1276c07270659e70cdff}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature communications}
@@ -3391,8 +3391,8 @@
       \strng{authornamehash}{4678a579c5851929a69bc0b9a15a0a83}
       \strng{authorfullhash}{20254ebc49b7f7e3467958f0e39320cd}
       \strng{authorfullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1411.4028}
@@ -3433,8 +3433,8 @@
       \strng{authornamehash}{836c04a8ead66d709fbf0afad5433010}
       \strng{authorfullhash}{7e5c493347d687b6e14dc4b030f9aa64}
       \strng{authorfullhashraw}{7e5c493347d687b6e14dc4b030f9aa64}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New Journal of Physics}
@@ -3479,8 +3479,8 @@
       \strng{authornamehash}{521eaf63feb6c192cc3166296eb64a38}
       \strng{authorfullhash}{22db2573886fd084a0319c8a56fff761}
       \strng{authorfullhashraw}{22db2573886fd084a0319c8a56fff761}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{npj Quantum Information}
@@ -3500,69 +3500,617 @@
       \verb https://doi.org/10.1038/s41534-021-00368-4
       \endverb
     \endentry
-    \entry{Li2023}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=e313a682fdf592c1688496d25b95c6f5}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Jianan},
+    \entry{hypothesis}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=56a3b2016e690222c387a63c5912d1be}{%
+           family={Cresca},
+           familyi={C\bibinitperiod},
+           given={Sofia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=570925b30ffa449492cf5622a5bb63a2}{%
+           family={Borišek},
+           familyi={B\bibinitperiod},
+           given={Jure},
            giveni={J\bibinitperiod}}}%
-        {{hash=d7e7aa22e2e8c82e20b65e160d58df5f}{%
-           family={Yanagisawa},
-           familyi={Y\bibinitperiod},
-           given={Keisuke},
-           giveni={K\bibinitperiod}}}%
-        {{hash=b9b15570bcec2015ff67d556a6991512}{%
-           family={Sugita},
-           familyi={S\bibinitperiod},
-           given={Masatake},
-           giveni={M\bibinitperiod}}}%
-        {{hash=8acb34669b743cf58523851fc103a31c}{%
-           family={Fujie},
-           familyi={F\bibinitperiod},
-           given={Takuya},
-           giveni={T\bibinitperiod}}}%
-        {{hash=130846020e0c2c445f35f38f031bd898}{%
-           family={Ohue},
-           familyi={O\bibinitperiod},
-           given={Masahito},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4a61c5f0ef29591283bba46c0384e177}{%
-           family={Akiyama},
-           familyi={A\bibinitperiod},
-           given={Yutaka},
-           giveni={Y\bibinitperiod}}}%
+        {{hash=714eacc5950d03c5b95406f2144a1a39}{%
+           family={Magistrato},
+           familyi={M\bibinitperiod},
+           given={Alessandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1e6ecdbe416a03fe9a8bc40ba101a9e2}{%
+           family={Križaj},
+           familyi={K\bibinitperiod},
+           given={Igor},
+           giveni={I\bibinitperiod}}}%
       }
-      \strng{namehash}{4b2f6e1f3ae39c34645925af1cde5f5b}
-      \strng{fullhash}{494130f99a303f33c7e6a013f34c50f1}
-      \strng{fullhashraw}{494130f99a303f33c7e6a013f34c50f1}
-      \strng{bibnamehash}{494130f99a303f33c7e6a013f34c50f1}
-      \strng{authorbibnamehash}{494130f99a303f33c7e6a013f34c50f1}
-      \strng{authornamehash}{4b2f6e1f3ae39c34645925af1cde5f5b}
-      \strng{authorfullhash}{494130f99a303f33c7e6a013f34c50f1}
-      \strng{authorfullhashraw}{494130f99a303f33c7e6a013f34c50f1}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \strng{namehash}{bbd6006e9ec109ac0031d09123318b68}
+      \strng{fullhash}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{fullhashraw}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{bibnamehash}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{authorbibnamehash}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{authornamehash}{bbd6006e9ec109ac0031d09123318b68}
+      \strng{authorfullhash}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{authorfullhashraw}{5161965e79b7082c70d11e1b6ec7da8b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1549-9596}
-      \field{issue}{7}
       \field{journaltitle}{Journal of Chemical Information and Modeling}
-      \field{month}{4}
-      \field{title}{CycPeptMPDB: A Comprehensive Database of Membrane Permeability of Cyclic Peptides}
-      \field{volume}{63}
-      \field{year}{2023}
-      \field{pages}{2240\bibrangedash 2250}
-      \range{pages}{11}
+      \field{note}{PMID: 41662490}
+      \field{number}{4}
+      \field{title}{Current Status of Molecular Dynamics Simulations of Membrane Permeabilization by Antimicrobial Peptides and Pore-Forming Proteins: A Review}
+      \field{volume}{66}
+      \field{year}{2026}
+      \field{pages}{1982\bibrangedash 2005}
+      \range{pages}{24}
       \verb{doi}
-      \verb 10.1021/acs.jcim.2c01573
+      \verb 10.1021/acs.jcim.5c02731
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1021/acs.jcim.5c02731
       \endverb
       \verb{urlraw}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jcim.2c01573
+      \verb https://doi.org/10.1021/acs.jcim.5c02731
       \endverb
       \verb{url}
-      \verb https://pubs.acs.org/doi/10.1021/acs.jcim.2c01573
+      \verb https://doi.org/10.1021/acs.jcim.5c02731
+      \endverb
+    \endentry
+    \entry{srm_methods}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=4fa328e9fe84fad65134eca8385a591b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xiaoming},
+           giveni={X\bibinitperiod}}}%
+        {{hash=200f9c1ccb6bcf871e73f3cfd80f3efc}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhanshu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5fc14d4f21cdd132711fb8aa4b9c26e9}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Jiaxuan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c7905d3683e86c148202145e4b6e5b7c}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=00484a2d5c6d6f07871908e2804a5416}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=aef6ff3ee0a19b473959c8508a6aefb7}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{d20e9f35fab3e0f11911e44b8e5e15ed}
+      \strng{fullhash}{653e97e3604ba0bc6b3d2fd045798659}
+      \strng{fullhashraw}{653e97e3604ba0bc6b3d2fd045798659}
+      \strng{bibnamehash}{653e97e3604ba0bc6b3d2fd045798659}
+      \strng{authorbibnamehash}{653e97e3604ba0bc6b3d2fd045798659}
+      \strng{authornamehash}{d20e9f35fab3e0f11911e44b8e5e15ed}
+      \strng{authorfullhash}{653e97e3604ba0bc6b3d2fd045798659}
+      \strng{authorfullhashraw}{653e97e3604ba0bc6b3d2fd045798659}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Peptide molecules, as fundamental structural units in biological systems, play pivotal roles in diverse biological processes and have garnered substantial attention in biomolecular self-assembly research. Their structural simplicity and high design flexibility make peptides key players in the development of novel biomaterials. High-resolution imaging techniques have provided profound insights into peptide assembly. Recently, the development of cutting-edge technologies, such as super-resolution microscopy (SRM) with unparalleled spatiotemporal resolution, has further advanced peptide assembly research. These advancements enable both the mechanistic exploration of peptide assembly pathways and the rational design of peptide-based functional materials. In this mini review, we systematically examine the structural diversity of peptide assemblies, including micelles, tubes, particles, fibers and hydrogel, as investigated by various high-resolution imaging techniques, with a focus on their assembly characterization and dynamic process. We also summarize the interaction networks of peptide assemblies with proteins, polymers and microbes, providing further insight into the interactions between peptide assemblies and other molecules. Furthermore, we emphasize the transformative role of high-resolution imaging techniques in addressing long-standing challenges in peptide nanotechnology. We anticipate that this review will accelerate the advancement of peptide assembly characterization, thereby fostering the creation of next-generation functional biomaterials.}
+      \field{issn}{1422-0067}
+      \field{journaltitle}{International Journal of Molecular Sciences}
+      \field{number}{9}
+      \field{title}{Probing Peptide Assembly and Interaction via High-Resolution Imaging Techniques: A Mini Review}
+      \field{volume}{26}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.3390/ijms26093998
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1422-0067/26/9/3998
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1422-0067/26/9/3998
+      \endverb
+    \endentry
+    \entry{opes}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=69126aa5bc402abcc39fae52ff88364e}{%
+           family={Invernizzi},
+           familyi={I\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6f595160245adfcee55d0a5e4cdcd751}{%
+           family={Parrinello},
+           familyi={P\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{75383882fda67662f5af47b0bcd86fbe}
+      \strng{fullhash}{75383882fda67662f5af47b0bcd86fbe}
+      \strng{fullhashraw}{75383882fda67662f5af47b0bcd86fbe}
+      \strng{bibnamehash}{75383882fda67662f5af47b0bcd86fbe}
+      \strng{authorbibnamehash}{75383882fda67662f5af47b0bcd86fbe}
+      \strng{authornamehash}{75383882fda67662f5af47b0bcd86fbe}
+      \strng{authorfullhash}{75383882fda67662f5af47b0bcd86fbe}
+      \strng{authorfullhashraw}{75383882fda67662f5af47b0bcd86fbe}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry Letters}
+      \field{number}{7}
+      \field{title}{Rethinking Metadynamics: From Bias Potentials to Probability Distributions}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{2731\bibrangedash 2736}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/acs.jpclett.0c00497
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.jpclett.0c00497
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.jpclett.0c00497
+      \endverb
+    \endentry
+    \entry{steered_md}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=c178fd8c9111491d9d27a04792dd0592}{%
+           family={Izrailev},
+           familyi={I\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c5492cc92c02a408e20abe70d5588b0c}{%
+           family={Stepaniants},
+           familyi={S\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a389bf1bab4226022cabd248d0505028}{%
+           family={Isralewitz},
+           familyi={I\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3820935d3743826fbfd804e472ceeae4}{%
+           family={Kosztin},
+           familyi={K\bibinitperiod},
+           given={Dorina},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9f17fcafaa69a542bb0e3303f4d2991b}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1d3a0e46560cacd88782e1a897fe9830}{%
+           family={Molnar},
+           familyi={M\bibinitperiod},
+           given={Ferenc},
+           giveni={F\bibinitperiod}}}%
+        {{hash=06d5fa0350bbe542320fecaa0952231e}{%
+           family={Wriggers},
+           familyi={W\bibinitperiod},
+           given={Willy},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fd251781d5b08598251387a7a775e009}{%
+           family={Schulten},
+           familyi={S\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=e905651daeb00c171d30b5c25b8838da}{%
+           family={Deuflhard},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=140c88a934dd76d511401dac370e0ff0}{%
+           family={Hermans},
+           familyi={H\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b5ffeba7d86ad6809db3c9d1d850227e}{%
+           family={Leimkuhler},
+           familyi={L\bibinitperiod},
+           given={Benedict},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b107c185243d376bc199247cd271d6e9}{%
+           family={Mark},
+           familyi={M\bibinitperiod},
+           given={Alan\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=21a4c00eea337f7cb6fc92ea50a4a408}{%
+           family={Reich},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=53c2b05f57333124c35dfd0d131e796a}{%
+           family={Skeel},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{88fc6dcf237e2c7498057fbed3faa721}
+      \strng{fullhash}{52f07657f8c9b08284d41452471c9b85}
+      \strng{fullhashraw}{52f07657f8c9b08284d41452471c9b85}
+      \strng{bibnamehash}{52f07657f8c9b08284d41452471c9b85}
+      \strng{authorbibnamehash}{52f07657f8c9b08284d41452471c9b85}
+      \strng{authornamehash}{88fc6dcf237e2c7498057fbed3faa721}
+      \strng{authorfullhash}{52f07657f8c9b08284d41452471c9b85}
+      \strng{authorfullhashraw}{52f07657f8c9b08284d41452471c9b85}
+      \strng{editorbibnamehash}{3ca3c2b539c68947377997f9668a1cc1}
+      \strng{editornamehash}{185523292c0f8a75242c8101b6cf46a5}
+      \strng{editorfullhash}{3ca3c2b539c68947377997f9668a1cc1}
+      \strng{editorfullhashraw}{3ca3c2b539c68947377997f9668a1cc1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Steered molecular dynamics (SMD) induces unbinding of ligands and conformational changes in biomolecules on time scales accessible to molecular dynamics simulations. Time-dependent external forces are applied to a system, and the responses of the system are analyzed. SMD has already provided important qualitative insights into biologically relevant problems, as demonstrated here for applications ranging from identification of ligand binding pathways to explanation of elastic properties of proteins. First attempts to deduce potentials of mean force by discounting irreversible work performed on the system are summarized. The non-equilibrium statistical mechanics underlying analysis of SMD data is outlined.}
+      \field{booktitle}{Computational Molecular Dynamics: Challenges, Methods, Ideas}
+      \field{isbn}{978-3-642-58360-5}
+      \field{title}{Steered Molecular Dynamics}
+      \field{year}{1999}
+      \field{pages}{39\bibrangedash 65}
+      \range{pages}{27}
+    \endentry
+    \entry{umbrella_sampling}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=19c5ead3b2599c877e08697117dea27b}{%
+           family={Kästner},
+           familyi={K\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{19c5ead3b2599c877e08697117dea27b}
+      \strng{fullhash}{19c5ead3b2599c877e08697117dea27b}
+      \strng{fullhashraw}{19c5ead3b2599c877e08697117dea27b}
+      \strng{bibnamehash}{19c5ead3b2599c877e08697117dea27b}
+      \strng{authorbibnamehash}{19c5ead3b2599c877e08697117dea27b}
+      \strng{authornamehash}{19c5ead3b2599c877e08697117dea27b}
+      \strng{authorfullhash}{19c5ead3b2599c877e08697117dea27b}
+      \strng{authorfullhashraw}{19c5ead3b2599c877e08697117dea27b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The calculation of free-energy differences is one of the main challenges in computational biology and biochemistry. Umbrella sampling, biased molecular dynamics (MD), is one of the methods that provide free energy along a reaction coordinate. Here, the method is derived in a historic overview and is compared with related methods like thermodynamic integration, slow growth, steered MD, or the Jarzynski-based fast-growth technique. In umbrella sampling, bias potentials along a (one- or more-dimensional) reaction coordinate drive a system from one thermodynamic state to another (e.g., reactant and product). The intermediate steps are covered by a series of windows, at each of which an MD simulation is performed. The bias potentials can have any functional form. Often, harmonic potentials are used for their simplicity. From the sampled distribution of the system along the reaction coordinate, the change in free energy in each window can be calculated. The windows are then combined by methods like the weighted histogram analysis method or umbrella integration. If the bias potential is adapted to result in an even distribution between the end states, then this whole range can be spanned by one window (adaptive-bias umbrella sampling). In this case, the free-energy change is directly obtained from the bias. The sampling in each window can be improved by replica exchange methods; either by exchange between successive windows or by running additional simulations at higher temperatures. © 2011 John Wiley \& Sons, Ltd. WIREs Comput Mol Sci 2011 1 932–942 DOI: 10.1002/wcms.66 This article is categorized under: Molecular and Statistical Mechanics > Molecular Dynamics and Monte-Carlo Methods}
+      \field{journaltitle}{WIREs Computational Molecular Science}
+      \field{number}{6}
+      \field{title}{Umbrella sampling}
+      \field{volume}{1}
+      \field{year}{2011}
+      \field{pages}{932\bibrangedash 942}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1002/wcms.66
+      \endverb
+      \verb{eprint}
+      \verb https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.66
+      \endverb
+      \verb{urlraw}
+      \verb https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.66
+      \endverb
+      \verb{url}
+      \verb https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.66
+      \endverb
+    \endentry
+    \entry{Barducci2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=54c26c54fc693ae558410db324b68a86}{%
+           family={Barducci},
+           familyi={B\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3a08369b9654b9012f43088cd1c4626c}{%
+           family={Bussi},
+           familyi={B\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6f595160245adfcee55d0a5e4cdcd751}{%
+           family={Parrinello},
+           familyi={P\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d7c0acacb215025162ec9272c285921}
+      \strng{fullhash}{195199b215593b55732f320994897d3b}
+      \strng{fullhashraw}{195199b215593b55732f320994897d3b}
+      \strng{bibnamehash}{195199b215593b55732f320994897d3b}
+      \strng{authorbibnamehash}{195199b215593b55732f320994897d3b}
+      \strng{authornamehash}{3d7c0acacb215025162ec9272c285921}
+      \strng{authorfullhash}{195199b215593b55732f320994897d3b}
+      \strng{authorfullhashraw}{195199b215593b55732f320994897d3b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9007}
+      \field{issue}{2}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{1}
+      \field{title}{Well-Tempered Metadynamics: A Smoothly Converging and Tunable Free-Energy Method}
+      \field{volume}{100}
+      \field{year}{2008}
+      \field{pages}{020603}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.100.020603
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.020603
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.020603
+      \endverb
+    \endentry
+    \entry{Levinthal_paradox}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b954c248c62a1efadd8e5bf9425e37}{%
+           family={{Levinthal, Cyrus}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{fullhash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{fullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{bibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorbibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authornamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorfullhash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorfullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Chim. Phys.}
+      \field{title}{Are there pathways for protein folding?}
+      \field{volume}{65}
+      \field{year}{1968}
+      \field{pages}{44\bibrangedash 45}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1051/jcp/1968650044
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/jcp/1968650044
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/jcp/1968650044
+      \endverb
+    \endentry
+    \entry{Levinthal_paradox_2}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=849420acb54d842586fb16952e69bd53}{%
+           family={Dill},
+           familyi={D\bibinitperiod},
+           given={Ken\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1257ee4002a7399c60126989d6b3f237}{%
+           family={MacCallum},
+           familyi={M\bibinitperiod},
+           given={Justin\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{fullhash}{3280fac4e2f192c60604f22264684d07}
+      \strng{fullhashraw}{3280fac4e2f192c60604f22264684d07}
+      \strng{bibnamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorbibnamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
+      \field{journaltitle}{Science}
+      \field{number}{6110}
+      \field{title}{The Protein-Folding Problem, 50 Years On}
+      \field{volume}{338}
+      \field{year}{2012}
+      \field{pages}{1042\bibrangedash 1046}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.1219021
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.1219021
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.1219021
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.1219021
+      \endverb
+    \endentry
+    \entry{biology_quantum_computing}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=db1669f889b9b0e3c8757822c772862e}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Soumen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=325c350c0c0f0eef7ca5016b90497719}{%
+           family={Bhattacharya},
+           familyi={B\bibinitperiod},
+           given={Manojit},
+           giveni={M\bibinitperiod}}}%
+        {{hash=51652a068245d448502457729e1b3333}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sang-Soo},
+           giveni={S\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=3b93cc4276937dcc5b905459b7d9a5e1}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={Chiranjib},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a75e201b1b9d8cd4822deab5d26aa76e}
+      \strng{fullhash}{8a7fd7c765a5a190bbf237cb76a72dbe}
+      \strng{fullhashraw}{8a7fd7c765a5a190bbf237cb76a72dbe}
+      \strng{bibnamehash}{8a7fd7c765a5a190bbf237cb76a72dbe}
+      \strng{authorbibnamehash}{8a7fd7c765a5a190bbf237cb76a72dbe}
+      \strng{authornamehash}{a75e201b1b9d8cd4822deab5d26aa76e}
+      \strng{authorfullhash}{8a7fd7c765a5a190bbf237cb76a72dbe}
+      \strng{authorfullhashraw}{8a7fd7c765a5a190bbf237cb76a72dbe}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Modern biological science is trying to solve the fundamental complex problems of molecular biology, which include protein folding, drug discovery, simulation of macromolecular structure, genome assembly, and many more. Currently, quantum computing (QC), a rapidly emerging technology exploiting quantum mechanical phenomena, has developed to address current significant physical, chemical, biological issues, and complex questions. The present review discusses quantum computing technology and its status in solving molecular biology problems, especially in the next-generation computational biology scenario. First, the article explained the basic concept of quantum computing, the functioning of quantum systems where information is stored as qubits, and data storage capacity using quantum gates. Second, the review discussed quantum computing components, such as quantum hardware, quantum processors, and quantum annealing. At the same time, article also discussed quantum algorithms, such as the grover search algorithm and discrete and factorization algorithms. Furthermore, the article discussed the different applications of quantum computing to understand the next-generation biological problems, such as simulation and modeling of biological macromolecules, computational biology problems, data analysis in bioinformatics, protein folding, molecular biology problems, modeling of gene regulatory networks, drug discovery and development, mechano-biology, and RNA folding. Finally, the article represented different probable prospects of quantum computing in molecular biology.}
+      \field{issn}{1559-0305}
+      \field{journaltitle}{Molecular Biotechnology}
+      \field{number}{2}
+      \field{title}{Quantum Computing in the Next-Generation Computational Biology Landscape: From Protein Folding to Molecular Dynamics}
+      \field{volume}{66}
+      \field{year}{2024}
+      \field{pages}{163\bibrangedash 178}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s12033-023-00765-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s12033-023-00765-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12033-023-00765-4
+      \endverb
+    \endentry
+    \entry{perdomo_1}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=14b587a42a887789b2a7882224de9af4}{%
+           family={Perdomo},
+           familyi={P\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0081fa39b28eab4e480ffacc9d4670b5}{%
+           family={Truncik},
+           familyi={T\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=502cb8d6c056ecfdaf5e9bbdd2d68dbd}{%
+           family={Tubert-Brohman},
+           familyi={T\bibinithyphendelim B\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=134308db4b614764c50ccf337f121627}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={Geordie},
+           giveni={G\bibinitperiod}}}%
+        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{39f86154acf3661193a34af8391f887d}
+      \strng{fullhash}{39047f71384a185719590ab58bd21fa8}
+      \strng{fullhashraw}{39047f71384a185719590ab58bd21fa8}
+      \strng{bibnamehash}{39047f71384a185719590ab58bd21fa8}
+      \strng{authorbibnamehash}{39047f71384a185719590ab58bd21fa8}
+      \strng{authornamehash}{39f86154acf3661193a34af8391f887d}
+      \strng{authorfullhash}{39047f71384a185719590ab58bd21fa8}
+      \strng{authorfullhashraw}{39047f71384a185719590ab58bd21fa8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{7}
+      \field{title}{Construction of model Hamiltonians for adiabatic quantum computation and its application to finding low-energy conformations of lattice protein models}
+      \field{volume}{78}
+      \field{year}{2008}
+      \field{pages}{012320}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.78.012320
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.78.012320
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.78.012320
+      \endverb
+    \endentry
+    \entry{perdomo_2}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=0fde2bb22ba651286b6251542260c1f5}{%
+           family={Perdomo-Ortiz},
+           familyi={P\bibinithyphendelim O\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eb8f3a8dad6d7e2b9ef127c24cc13b7e}{%
+           family={Dickson},
+           familyi={D\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3e3c829835db3adea93e4cefc2953813}{%
+           family={Drew-Brook},
+           familyi={D\bibinithyphendelim B\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod}}}%
+        {{hash=134308db4b614764c50ccf337f121627}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={Geordie},
+           giveni={G\bibinitperiod}}}%
+        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{46ea1c14f7caca5ff662107b48ee7a5e}
+      \strng{fullhash}{897bc932e75e035b65080ce3033d90be}
+      \strng{fullhashraw}{897bc932e75e035b65080ce3033d90be}
+      \strng{bibnamehash}{897bc932e75e035b65080ce3033d90be}
+      \strng{authorbibnamehash}{897bc932e75e035b65080ce3033d90be}
+      \strng{authornamehash}{46ea1c14f7caca5ff662107b48ee7a5e}
+      \strng{authorfullhash}{897bc932e75e035b65080ce3033d90be}
+      \strng{authorfullhashraw}{897bc932e75e035b65080ce3033d90be}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lattice protein folding models are a cornerstone of computational biophysics. Although these models are a coarse grained representation, they provide useful insight into the energy landscape of natural proteins. Finding low-energy threedimensional structures is an intractable problem even in the simplest model, the Hydrophobic-Polar (HP) model. Description of protein-like properties are more accurately described by generalized models, such as the one proposed by Miyazawa and Jernigan (MJ), which explicitly take into account the unique interactions among all 20 amino acids. There is theoretical and experimental evidence of the advantage of solving classical optimization problems using quantum annealing over its classical analogue (simulated annealing). In this report, we present a benchmark implementation of quantum annealing for lattice protein folding problems (six different experiments up to 81 superconducting quantum bits). This first implementation of a biophysical problem paves the way towards studying optimization problems in biophysics and statistical mechanics using quantum devices.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{Finding low-energy conformations of lattice protein models by quantum annealing}
+      \field{volume}{2}
+      \field{year}{2012}
+      \field{pages}{571}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep00571
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/srep00571
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/srep00571
       \endverb
     \endentry
     \entry{alder1957phase}{article}{}{}
@@ -3941,8 +4489,8 @@
       \strng{authornamehash}{ccf95cf519bf8915ba463e2d5ab0ecfb}
       \strng{authorfullhash}{ccf95cf519bf8915ba463e2d5ab0ecfb}
       \strng{authorfullhashraw}{ccf95cf519bf8915ba463e2d5ab0ecfb}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780367806934}
@@ -4002,8 +4550,8 @@
       \strng{authornamehash}{ac235143ded00ddbeff1f76cd807c462}
       \strng{authorfullhash}{887f1fb89db0fceed035049d60f6579a}
       \strng{authorfullhashraw}{887f1fb89db0fceed035049d60f6579a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -4050,8 +4598,8 @@
       \strng{authornamehash}{487ead3276f058022968b985eeac43fd}
       \strng{authorfullhash}{487ead3276f058022968b985eeac43fd}
       \strng{authorfullhashraw}{487ead3276f058022968b985eeac43fd}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10897690}
@@ -4093,8 +4641,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -4447,8 +4995,8 @@
       \strng{authornamehash}{1b653a6d1f17910e4f5fff8d47c4e9a6}
       \strng{authorfullhash}{7848bb822d8d3db071d583989b30bf10}
       \strng{authorfullhashraw}{7848bb822d8d3db071d583989b30bf10}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -4511,8 +5059,8 @@
       \strng{authorfullhash}{cbac56920a5f6d0bf5a803c89491f9b6}
       \strng{authorfullhashraw}{cbac56920a5f6d0bf5a803c89491f9b6}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -4564,8 +5112,8 @@
       \strng{authornamehash}{62d7e8dbc4763e1111cfd90567b20700}
       \strng{authorfullhash}{53b5a48b2ebe6c4cd961326273e2a970}
       \strng{authorfullhashraw}{53b5a48b2ebe6c4cd961326273e2a970}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0002-7863}
@@ -4618,8 +5166,8 @@
       \strng{authornamehash}{d58510549f29b1830a6d36bff7d0ed44}
       \strng{authorfullhash}{63c06dde09fe87d49cc566750026292e}
       \strng{authorfullhashraw}{63c06dde09fe87d49cc566750026292e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -4683,8 +5231,8 @@
       \strng{authornamehash}{98acdb6f230e7bbbacd3034b30732d14}
       \strng{authorfullhash}{e8e98603db210ec3157d1f3f3de63a21}
       \strng{authorfullhashraw}{e8e98603db210ec3157d1f3f3de63a21}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1520-6106}
@@ -4732,8 +5280,8 @@
       \strng{authornamehash}{f0d9eb0c75c6324707b3e9df32efc9ed}
       \strng{authorfullhash}{8a952f40db7ce1b8cbc15e7392ef31db}
       \strng{authorfullhashraw}{8a952f40db7ce1b8cbc15e7392ef31db}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -4779,8 +5327,8 @@
       \strng{authornamehash}{9e6fb99beaf19bbcb460241234b58a69}
       \strng{authorfullhash}{9e6fb99beaf19bbcb460241234b58a69}
       \strng{authorfullhashraw}{9e6fb99beaf19bbcb460241234b58a69}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0027-8424}
@@ -4802,53 +5350,43 @@
       \verb https://pnas.org/doi/full/10.1073/pnas.202427399
       \endverb
     \endentry
-    \entry{Barducci2008}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=54c26c54fc693ae558410db324b68a86}{%
-           family={Barducci},
-           familyi={B\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3a08369b9654b9012f43088cd1c4626c}{%
-           family={Bussi},
-           familyi={B\bibinitperiod},
-           given={Giovanni},
-           giveni={G\bibinitperiod}}}%
-        {{hash=6f595160245adfcee55d0a5e4cdcd751}{%
-           family={Parrinello},
-           familyi={P\bibinitperiod},
-           given={Michele},
-           giveni={M\bibinitperiod}}}%
+    \entry{Woo2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=af97061c72db12519805069a647c18e3}{%
+           family={Woo},
+           familyi={W\bibinitperiod},
+           given={Hyung-June},
+           giveni={H\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=29682b3859b2bdb0ab7bbd47a8918ca7}{%
+           family={Roux},
+           familyi={R\bibinitperiod},
+           given={Benoı̂t},
+           giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{3d7c0acacb215025162ec9272c285921}
-      \strng{fullhash}{195199b215593b55732f320994897d3b}
-      \strng{fullhashraw}{195199b215593b55732f320994897d3b}
-      \strng{bibnamehash}{195199b215593b55732f320994897d3b}
-      \strng{authorbibnamehash}{195199b215593b55732f320994897d3b}
-      \strng{authornamehash}{3d7c0acacb215025162ec9272c285921}
-      \strng{authorfullhash}{195199b215593b55732f320994897d3b}
-      \strng{authorfullhashraw}{195199b215593b55732f320994897d3b}
+      \list{publisher}{1}{%
+        {National Acad Sciences}%
+      }
+      \strng{namehash}{ab206eb02ae330c0ddf1d7499f7485c8}
+      \strng{fullhash}{ab206eb02ae330c0ddf1d7499f7485c8}
+      \strng{fullhashraw}{ab206eb02ae330c0ddf1d7499f7485c8}
+      \strng{bibnamehash}{ab206eb02ae330c0ddf1d7499f7485c8}
+      \strng{authorbibnamehash}{ab206eb02ae330c0ddf1d7499f7485c8}
+      \strng{authornamehash}{ab206eb02ae330c0ddf1d7499f7485c8}
+      \strng{authorfullhash}{ab206eb02ae330c0ddf1d7499f7485c8}
+      \strng{authorfullhashraw}{ab206eb02ae330c0ddf1d7499f7485c8}
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0031-9007}
-      \field{issue}{2}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{1}
-      \field{title}{Well-Tempered Metadynamics: A Smoothly Converging and Tunable Free-Energy Method}
-      \field{volume}{100}
-      \field{year}{2008}
-      \field{pages}{020603}
-      \range{pages}{1}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{19}
+      \field{title}{Calculation of absolute protein-ligand binding free energy from computer simulations}
+      \field{volume}{102}
+      \field{year}{2005}
+      \field{pages}{6825\bibrangedash 6830}
+      \range{pages}{6}
       \verb{doi}
-      \verb 10.1103/PhysRevLett.100.020603
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.020603
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.100.020603
+      \verb 10.1073/pnas.0409005102
       \endverb
     \endentry
     \entry{tratamiento_datos_fisicos}{book}{}{}
@@ -4916,8 +5454,8 @@
       \strng{authornamehash}{6c96180627881f73bf82831aa5c91c5d}
       \strng{authorfullhash}{6c96180627881f73bf82831aa5c91c5d}
       \strng{authorfullhashraw}{6c96180627881f73bf82831aa5c91c5d}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We describe how the true statistical error on an average of correlated data can be obtained with ease and efficiency by a renormalization group method. The method is illustrated with numerical and analytical examples, having finite as well as infinite range correlations.}
@@ -4941,6 +5479,40 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1063/1.457480
+      \endverb
+    \endentry
+    \entry{Lloyd1982}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=876f8afa1045b9ae3db2a8af93dda664}{%
+           family={Lloyd},
+           familyi={L\bibinitperiod},
+           given={Stuart\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{876f8afa1045b9ae3db2a8af93dda664}
+      \strng{fullhash}{876f8afa1045b9ae3db2a8af93dda664}
+      \strng{fullhashraw}{876f8afa1045b9ae3db2a8af93dda664}
+      \strng{bibnamehash}{876f8afa1045b9ae3db2a8af93dda664}
+      \strng{authorbibnamehash}{876f8afa1045b9ae3db2a8af93dda664}
+      \strng{authornamehash}{876f8afa1045b9ae3db2a8af93dda664}
+      \strng{authorfullhash}{876f8afa1045b9ae3db2a8af93dda664}
+      \strng{authorfullhashraw}{876f8afa1045b9ae3db2a8af93dda664}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Theory}
+      \field{number}{2}
+      \field{title}{Least squares quantization in PCM}
+      \field{volume}{28}
+      \field{year}{1982}
+      \field{pages}{129\bibrangedash 137}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TIT.1982.1056489
       \endverb
     \endentry
     \entry{DANI_LIPIDOS}{article}{}{}
@@ -4995,8 +5567,8 @@
       \strng{authorfullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
       \strng{authorfullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
@@ -5283,8 +5855,8 @@
       \strng{authorfullhash}{e999dabd205d32dabd69447c98289453}
       \strng{authorfullhashraw}{e999dabd205d32dabd69447c98289453}
       \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Background: Antimicrobial peptides (AMPs) are crucial in the fight against infections and play significant roles in various health contexts, including cancer, autoimmune diseases, and aging. A key aspect of AMP functionality is their selective interaction with pathogen membranes, which often exhibit altered lipid compositions. These interactions are thought to induce a conformational shift in AMPs from random coil to alpha-helical structures, essential for their lytic activity. Traditional computational approaches have faced challenges in accurately modeling these structural changes, especially in membrane environments, thereby opening and opportunity for more advanced approaches. Method: This study extends an existing quantum computing algorithm, initially designed for peptide folding simulations in homogeneous environments, to address the complexities of AMP interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, resembling lipid membranes. The new method was tested on three 10-amino-acid-long peptides, each characterized by distinct hydrophobic, hydrophilic, or amphipathic properties, across different media and at interfaces between solvents of different polarity. Results: The developed method successfully modeled the structure of the peptides without increasing the number of qubits required compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite the current limitations in computational power and qubit availability, the findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly AMP folding at membrane models. Conclusions: This research highlights the promising applications of quantum computing in biomolecular simulations, paving the way for future advancements in the development of novel therapeutic agents. We aim to offer a new perspective on enhancing the accuracy and applicability of biomolecular simulations in the context of AMP interactions with membrane models.}
@@ -5307,8 +5879,6 @@
       \keyw{Antimicrobial peptides,Quantum computing,Lipid membranes,Interface,Peptide folding}
     \endentry
   \enddatalist
-  \missing{Lloyd1982}
-  \missing{Woo2005}
 \endrefsection
 \endinput
 

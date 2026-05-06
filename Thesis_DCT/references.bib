@@ -1859,6 +1859,13 @@
   year      = {2017}
 }
 
+
+
+
+
+
+
+%ENHANCE SAMPLING METHODS
 @article{plumed,
   author    = {Massimiliano Bonomi and Giovanni Bussi and Carlo Camilloni and Gareth A. Tribello and Pavel Banáš and Alessandro Barducci and Mattia Bernetti and Peter G. Bolhuis and Sandro Bottaro and Davide Branduardi and Riccardo Capelli and Paolo Carloni and Michele Ceriotti and Andrea Cesari and Haochuan Chen and Wei Chen and Francesco Colizzi and Sandip De and Marco De La Pierre and Davide Donadio and Viktor Drobot and Bernd Ensing and Andrew L. Ferguson and Marta Filizola and James S. Fraser and Haohao Fu and Piero Gasparotto and Francesco Luigi Gervasio and Federico Giberti and Alejandro Gil-Ley and Toni Giorgino and Gabriella T. Heller and Glen M. Hocky and Marcella Iannuzzi and Michele Invernizzi and Kim E. Jelfs and Alexander Jussupow and Evgeny Kirilin and Alessandro Laio and Vittorio Limongelli and Kresten Lindorff-Larsen and Thomas Löhr and Fabrizio Marinelli and Layla Martin-Samos and Matteo Masetti and Ralf Meyer and Angelos Michaelides and Carla Molteni and Tetsuya Morishita and Marco Nava and Cristina Paissoni and Elena Papaleo and Michele Parrinello and Jim Pfaendtner and Pablo Piaggi and Giovanni Maria Piccini and Adriana Pietropaolo and Fabio Pietrucci and Silvio Pipolo and Davide Provasi and David Quigley and Paolo Raiteri and Stefano Raniolo and Jakub Rydzewski and Matteo Salvalaglio and Gabriele Cesare Sosso and Vojtěch Spiwok and Jiří Šponer and David W.H. Swenson and Pratyush Tiwary and Omar Valsson and Michele Vendruscolo and Gregory A. Voth and Andrew White},
   doi       = {10.1038/s41592-019-0506-8},
@@ -1906,7 +1913,58 @@
 }
 
 
+@article{umbrella_sampling,
+  author   = {Kästner, Johannes},
+  title    = {Umbrella sampling},
+  journal  = {WIREs Computational Molecular Science},
+  volume   = {1},
+  number   = {6},
+  pages    = {932-942},
+  doi      = {https://doi.org/10.1002/wcms.66},
+  url      = {https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.66},
+  eprint   = {https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.66},
+  abstract = {Abstract The calculation of free-energy differences is one of the main challenges in computational biology and biochemistry. Umbrella sampling, biased molecular dynamics (MD), is one of the methods that provide free energy along a reaction coordinate. Here, the method is derived in a historic overview and is compared with related methods like thermodynamic integration, slow growth, steered MD, or the Jarzynski-based fast-growth technique. In umbrella sampling, bias potentials along a (one- or more-dimensional) reaction coordinate drive a system from one thermodynamic state to another (e.g., reactant and product). The intermediate steps are covered by a series of windows, at each of which an MD simulation is performed. The bias potentials can have any functional form. Often, harmonic potentials are used for their simplicity. From the sampled distribution of the system along the reaction coordinate, the change in free energy in each window can be calculated. The windows are then combined by methods like the weighted histogram analysis method or umbrella integration. If the bias potential is adapted to result in an even distribution between the end states, then this whole range can be spanned by one window (adaptive-bias umbrella sampling). In this case, the free-energy change is directly obtained from the bias. The sampling in each window can be improved by replica exchange methods; either by exchange between successive windows or by running additional simulations at higher temperatures. © 2011 John Wiley \& Sons, Ltd. WIREs Comput Mol Sci 2011 1 932–942 DOI: 10.1002/wcms.66 This article is categorized under: Molecular and Statistical Mechanics > Molecular Dynamics and Monte-Carlo Methods},
+  year     = {2011}
+}
 
+
+
+@inproceedings{steered_md,
+  author    = {Izrailev, Sergei
+               and Stepaniants, Sergey
+               and Isralewitz, Barry
+               and Kosztin, Dorina
+               and Lu, Hui
+               and Molnar, Ferenc
+               and Wriggers, Willy
+               and Schulten, Klaus},
+  editor    = {Deuflhard, Peter
+               and Hermans, Jan
+               and Leimkuhler, Benedict
+               and Mark, Alan E.
+               and Reich, Sebastian
+               and Skeel, Robert D.},
+  title     = {Steered Molecular Dynamics},
+  booktitle = {Computational Molecular Dynamics: Challenges, Methods, Ideas},
+  year      = {1999},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {39--65},
+  abstract  = {Steered molecular dynamics (SMD) induces unbinding of ligands and conformational changes in biomolecules on time scales accessible to molecular dynamics simulations. Time-dependent external forces are applied to a system, and the responses of the system are analyzed. SMD has already provided important qualitative insights into biologically relevant problems, as demonstrated here for applications ranging from identification of ligand binding pathways to explanation of elastic properties of proteins. First attempts to deduce potentials of mean force by discounting irreversible work performed on the system are summarized. The non-equilibrium statistical mechanics underlying analysis of SMD data is outlined.},
+  isbn      = {978-3-642-58360-5}
+}
+@article{opes,
+  author    = {Invernizzi, Michele and Parrinello, Michele},
+  title     = {Rethinking Metadynamics: From Bias Potentials to Probability Distributions},
+  journal   = {The Journal of Physical Chemistry Letters},
+  volume    = {11},
+  number    = {7},
+  pages     = {2731--2736},
+  year      = {2020},
+  publisher = {American Chemical Society},
+  doi       = {10.1021/acs.jpclett.0c00497},
+  url       = {https://doi.org/10.1021/acs.jpclett.0c00497}
+}
 
 
 
@@ -1933,7 +1991,6 @@
   doi       = {10.1038/s41579-023-00993-0},
   url       = {https://doi.org/10.1038/s41579-023-00993-0}
 }
-
 
 
 
@@ -2005,6 +2062,78 @@
   abstract = {Antimicrobial peptides (AMPs) are a class of small peptides that widely exist in nature and they are an important part of the innate immune system of different organisms. AMPs have a wide range of inhibitory effects against bacteria, fungi, parasites and viruses. The emergence of antibiotic-resistant microorganisms and people’s increasing concerns about the use of antibiotics resulted in the development of AMPs, which have a good application prospect in medicine, food, animal husbandry, agriculture and aquaculture. This review introduces the progress of research on AMPs comprehensively and systematically, including their classification, mechanism of action, design methods, environmental factors affecting their activity, application status, future prospects in various fields and problems to be solved. The research progress on antivirus peptides, especially anti-coronavirus (COVID-19) peptides, has been introduced given the COVID-19 pandemic worldwide in 2020.}
 }
 
+
+
+
+
+
+%ARTICULOS DANI
+@article{DANI_LIPIDOS,
+  author   = {Conde-Torres, Daniel  and Blanco-González, Alexandre  and Seco-González, Alejandro  and Suárez-Lestón, Fabián  and Cabezón, Alfonso  and Antelo-Riveiro, Paula  and Piñeiro, Ángel  and García-Fandiño, Rebeca },
+  title    = {Unraveling lipid and inflammation interplay in cancer, aging and infection for novel theranostic approaches},
+  journal  = {Frontiers in Immunology},
+  volume   = {Volume 15 - 2024},
+  year     = {2024},
+  url      = {https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779},
+  doi      = {10.3389/fimmu.2024.1320779},
+  issn     = {1664-3224},
+  abstract = {The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
+}
+
+@article{DANI_METADINAMICA,
+  title    = {Unlocking the specificity of antimicrobial peptide interactions for membrane-targeted therapies},
+  journal  = {Computational and Structural Biotechnology Journal},
+  volume   = {25},
+  pages    = {61-74},
+  year     = {2024},
+  issn     = {2001-0370},
+  doi      = {https://doi.org/10.1016/j.csbj.2024.04.022},
+  url      = {https://www.sciencedirect.com/science/article/pii/S2001037024000990},
+  author   = {Daniel Conde-Torres and Martín Calvelo and Carme Rovira and Ángel Piñeiro and Rebeca Garcia-Fandino},
+  keywords = {Antimicrobial peptides, Molecular dynamics, Lipid membranes, Enhanced sampling methods, Metadynamics, Potential of Mean Force (PMF), Free energy surface (FES)},
+  abstract = {Antimicrobial peptides (AMPs) are increasingly recognized as potent therapeutic agents, with their selective affinity for pathological membranes, low toxicity profile, and minimal resistance development making them particularly attractive in the pharmaceutical landscape. This study offers a comprehensive analysis of the interaction between specific AMPs, including magainin-2, pleurocidin, CM15, LL37, and clavanin, with lipid bilayer models of very different compositions that have been ordinarily used as biological membrane models of healthy mammal, cancerous, and bacterial cells. Employing unbiased molecular dynamics simulations and metadynamics techniques, we have deciphered the intricate mechanisms by which these peptides recognize pathogenic and pathologic lipid patterns and integrate into lipid assemblies. Our findings reveal that the transverse component of the peptide's hydrophobic dipole moment is critical for membrane interaction, decisively influencing the molecule's orientation and expected therapeutic efficacy. Our approach also provides insight on the kinetic and dynamic dependence on the peptide orientation in the axial and azimuthal angles when coming close to the membrane. The aim is to establish a robust framework for the rational design of peptide-based, membrane-targeted therapies, as well as effective quantitative descriptors that can facilitate the automated design of novel AMPs for these therapies using machine learning methods.}
+}
+
+
+
+@article{DANI_CUANTICA,
+  title    = {Classical Simulations on Quantum Computers: Interface-Driven Peptide Folding on Simulated Membrane Surfaces},
+  journal  = {Computers in Biology and Medicine},
+  volume   = {182},
+  pages    = {109157},
+  year     = {2024},
+  issn     = {0010-4825},
+  doi      = {https://doi.org/10.1016/j.compbiomed.2024.109157},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0010482524012423},
+  author   = {Daniel Conde-Torres and Mariamo Mussa-Juane and Daniel Faílde and Andrés Gómez and Rebeca García-Fandiño and Ángel Piñeiro},
+  keywords = {Antimicrobial peptides, Quantum computing, Lipid membranes, Interface, Peptide folding},
+  abstract = {Background:
+              Antimicrobial peptides (AMPs) are crucial in the fight against infections and play significant roles in various health contexts, including cancer, autoimmune diseases, and aging. A key aspect of AMP functionality is their selective interaction with pathogen membranes, which often exhibit altered lipid compositions. These interactions are thought to induce a conformational shift in AMPs from random coil to alpha-helical structures, essential for their lytic activity. Traditional computational approaches have faced challenges in accurately modeling these structural changes, especially in membrane environments, thereby opening and opportunity for more advanced approaches.
+              Method:
+              This study extends an existing quantum computing algorithm, initially designed for peptide folding simulations in homogeneous environments, to address the complexities of AMP interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, resembling lipid membranes. The new method was tested on three 10-amino-acid-long peptides, each characterized by distinct hydrophobic, hydrophilic, or amphipathic properties, across different media and at interfaces between solvents of different polarity.
+              Results:
+              The developed method successfully modeled the structure of the peptides without increasing the number of qubits required compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite the current limitations in computational power and qubit availability, the findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly AMP folding at membrane models.
+              Conclusions:
+              This research highlights the promising applications of quantum computing in biomolecular simulations, paving the way for future advancements in the development of novel therapeutic agents. We aim to offer a new perspective on enhancing the accuracy and applicability of biomolecular simulations in the context of AMP interactions with membrane models.}
+}
+
+
+
+%PAPERS CUANTICA
+@article{robert2021resource,
+  title     = {Resource-efficient quantum algorithm for protein folding},
+  author    = {Robert, Anton and Barkoutsos, Panagiotis K. and Woerner, Stefan and Tavernelli, Ivano},
+  journal   = {npj Quantum Information},
+  volume    = {7},
+  number    = {1},
+  pages     = {38},
+  year      = {2021},
+  publisher = {Nature Publishing Group UK London},
+  doi       = {10.1038/s41534-021-00368-4},
+  url       = {https://doi.org/10.1038/s41534-021-00368-4}
+}
+
+
 @article{feynman1982simulating,
   title     = {Simulating physics with computers},
   author    = {Feynman, Richard P},
@@ -2063,86 +2192,74 @@
 }
 
 
+@article{Levinthal_paradox,
+  author  = {{Levinthal, Cyrus}},
+  title   = {Are there pathways for protein folding?},
+  doi     = {10.1051/jcp/1968650044},
+  url     = {https://doi.org/10.1051/jcp/1968650044},
+  journal = {J. Chim. Phys.},
+  year    = 1968,
+  volume  = 65,
+  pages   = {44-45}
+}
 
+@article{Levinthal_paradox_2,
+  author   = {Ken A. Dill  and Justin L. MacCallum },
+  title    = {The Protein-Folding Problem, 50 Years On},
+  journal  = {Science},
+  volume   = {338},
+  number   = {6110},
+  pages    = {1042-1046},
+  year     = {2012},
+  doi      = {10.1126/science.1219021},
+  url      = {https://www.science.org/doi/abs/10.1126/science.1219021},
+  eprint   = {https://www.science.org/doi/pdf/10.1126/science.1219021},
+  abstract = {Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
+}
 
-
-%ARTICULOS DANI
-@article{DANI_LIPIDOS,
-  author   = {Conde-Torres, Daniel  and Blanco-González, Alexandre  and Seco-González, Alejandro  and Suárez-Lestón, Fabián  and Cabezón, Alfonso  and Antelo-Riveiro, Paula  and Piñeiro, Ángel  and García-Fandiño, Rebeca },
-  title    = {Unraveling lipid and inflammation interplay in cancer, aging and infection for novel theranostic approaches},
-  journal  = {Frontiers in Immunology},
-  volume   = {Volume 15 - 2024},
+@article{biology_quantum_computing,
+  author   = {Pal, Soumen and Bhattacharya, Manojit and Lee, Sang-Soo and Chakraborty, Chiranjib},
+  title    = {Quantum Computing in the Next-Generation Computational Biology Landscape: From Protein Folding to Molecular Dynamics},
+  journal  = {Molecular Biotechnology},
+  volume   = {66},
+  number   = {2},
+  pages    = {163--178},
   year     = {2024},
-  url      = {https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779},
-  doi      = {10.3389/fimmu.2024.1320779},
-  issn     = {1664-3224},
-  abstract = {The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
-}
-
-@article{DANI_METADINAMICA,
-  title    = {Unlocking the specificity of antimicrobial peptide interactions for membrane-targeted therapies},
-  journal  = {Computational and Structural Biotechnology Journal},
-  volume   = {25},
-  pages    = {61-74},
-  year     = {2024},
-  issn     = {2001-0370},
-  doi      = {https://doi.org/10.1016/j.csbj.2024.04.022},
-  url      = {https://www.sciencedirect.com/science/article/pii/S2001037024000990},
-  author   = {Daniel Conde-Torres and Martín Calvelo and Carme Rovira and Ángel Piñeiro and Rebeca Garcia-Fandino},
-  keywords = {Antimicrobial peptides, Molecular dynamics, Lipid membranes, Enhanced sampling methods, Metadynamics, Potential of Mean Force (PMF), Free energy surface (FES)},
-  abstract = {Antimicrobial peptides (AMPs) are increasingly recognized as potent therapeutic agents, with their selective affinity for pathological membranes, low toxicity profile, and minimal resistance development making them particularly attractive in the pharmaceutical landscape. This study offers a comprehensive analysis of the interaction between specific AMPs, including magainin-2, pleurocidin, CM15, LL37, and clavanin, with lipid bilayer models of very different compositions that have been ordinarily used as biological membrane models of healthy mammal, cancerous, and bacterial cells. Employing unbiased molecular dynamics simulations and metadynamics techniques, we have deciphered the intricate mechanisms by which these peptides recognize pathogenic and pathologic lipid patterns and integrate into lipid assemblies. Our findings reveal that the transverse component of the peptide's hydrophobic dipole moment is critical for membrane interaction, decisively influencing the molecule's orientation and expected therapeutic efficacy. Our approach also provides insight on the kinetic and dynamic dependence on the peptide orientation in the axial and azimuthal angles when coming close to the membrane. The aim is to establish a robust framework for the rational design of peptide-based, membrane-targeted therapies, as well as effective quantitative descriptors that can facilitate the automated design of novel AMPs for these therapies using machine learning methods.}
+  doi      = {10.1007/s12033-023-00765-4},
+  url      = {https://doi.org/10.1007/s12033-023-00765-4},
+  issn     = {1559-0305},
+  abstract = {Modern biological science is trying to solve the fundamental complex problems of molecular biology, which include protein folding, drug discovery, simulation of macromolecular structure, genome assembly, and many more. Currently, quantum computing (QC), a rapidly emerging technology exploiting quantum mechanical phenomena, has developed to address current significant physical, chemical, biological issues, and complex questions. The present review discusses quantum computing technology and its status in solving molecular biology problems, especially in the next-generation computational biology scenario. First, the article explained the basic concept of quantum computing, the functioning of quantum systems where information is stored as qubits, and data storage capacity using quantum gates. Second, the review discussed quantum computing components, such as quantum hardware, quantum processors, and quantum annealing. At the same time, article also discussed quantum algorithms, such as the grover search algorithm and discrete and factorization algorithms. Furthermore, the article discussed the different applications of quantum computing to understand the next-generation biological problems, such as simulation and modeling of biological macromolecules, computational biology problems, data analysis in bioinformatics, protein folding, molecular biology problems, modeling of gene regulatory networks, drug discovery and development, mechano-biology, and RNA folding. Finally, the article represented different probable prospects of quantum computing in molecular biology.}
 }
 
 
-
-@article{DANI_CUANTICA,
-  title    = {Classical Simulations on Quantum Computers: Interface-Driven Peptide Folding on Simulated Membrane Surfaces},
-  journal  = {Computers in Biology and Medicine},
-  volume   = {182},
-  pages    = {109157},
-  year     = {2024},
-  issn     = {0010-4825},
-  doi      = {https://doi.org/10.1016/j.compbiomed.2024.109157},
-  url      = {https://www.sciencedirect.com/science/article/pii/S0010482524012423},
-  author   = {Daniel Conde-Torres and Mariamo Mussa-Juane and Daniel Faílde and Andrés Gómez and Rebeca García-Fandiño and Ángel Piñeiro},
-  keywords = {Antimicrobial peptides, Quantum computing, Lipid membranes, Interface, Peptide folding},
-  abstract = {Background:
-              Antimicrobial peptides (AMPs) are crucial in the fight against infections and play significant roles in various health contexts, including cancer, autoimmune diseases, and aging. A key aspect of AMP functionality is their selective interaction with pathogen membranes, which often exhibit altered lipid compositions. These interactions are thought to induce a conformational shift in AMPs from random coil to alpha-helical structures, essential for their lytic activity. Traditional computational approaches have faced challenges in accurately modeling these structural changes, especially in membrane environments, thereby opening and opportunity for more advanced approaches.
-              Method:
-              This study extends an existing quantum computing algorithm, initially designed for peptide folding simulations in homogeneous environments, to address the complexities of AMP interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, resembling lipid membranes. The new method was tested on three 10-amino-acid-long peptides, each characterized by distinct hydrophobic, hydrophilic, or amphipathic properties, across different media and at interfaces between solvents of different polarity.
-              Results:
-              The developed method successfully modeled the structure of the peptides without increasing the number of qubits required compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite the current limitations in computational power and qubit availability, the findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly AMP folding at membrane models.
-              Conclusions:
-              This research highlights the promising applications of quantum computing in biomolecular simulations, paving the way for future advancements in the development of novel therapeutic agents. We aim to offer a new perspective on enhancing the accuracy and applicability of biomolecular simulations in the context of AMP interactions with membrane models.}
+@article{perdomo_1,
+  title     = {Construction of model Hamiltonians for adiabatic quantum computation and its application to finding low-energy conformations of lattice protein models},
+  author    = {Perdomo, Alejandro and Truncik, Colin and Tubert-Brohman, Ivan and Rose, Geordie and Aspuru-Guzik, Al\'an},
+  journal   = {Phys. Rev. A},
+  volume    = {78},
+  issue     = {1},
+  pages     = {012320},
+  numpages  = {15},
+  year      = {2008},
+  month     = {Jul},
+  publisher = {American Physical Society},
+  doi       = {10.1103/PhysRevA.78.012320},
+  url       = {https://link.aps.org/doi/10.1103/PhysRevA.78.012320}
 }
 
-
-
-%PAPERS IMPORTANTES 
-@article{robert2021resource,
-  title     = {Resource-efficient quantum algorithm for protein folding},
-  author    = {Robert, Anton and Barkoutsos, Panagiotis K. and Woerner, Stefan and Tavernelli, Ivano},
-  journal   = {npj Quantum Information},
-  volume    = {7},
-  number    = {1},
-  pages     = {38},
-  year      = {2021},
-  publisher = {Nature Publishing Group UK London},
-  doi       = {10.1038/s41534-021-00368-4},
-  url       = {https://doi.org/10.1038/s41534-021-00368-4}
+@article{perdomo_2,
+  author   = {Perdomo-Ortiz, Alejandro and Dickson, Neil and Drew-Brook, Marshall and Rose, Geordie and Aspuru-Guzik, Alán},
+  title    = {Finding low-energy conformations of lattice protein models by quantum annealing},
+  journal  = {Scientific Reports},
+  volume   = {2},
+  number   = {1},
+  pages    = {571},
+  year     = {2012},
+  doi      = {10.1038/srep00571},
+  url      = {https://doi.org/10.1038/srep00571},
+  issn     = {2045-2322},
+  abstract = {Lattice protein folding models are a cornerstone of computational biophysics. Although these models are a coarse grained representation, they provide useful insight into the energy landscape of natural proteins. Finding low-energy threedimensional structures is an intractable problem even in the simplest model, the Hydrophobic-Polar (HP) model. Description of protein-like properties are more accurately described by generalized models, such as the one proposed by Miyazawa and Jernigan (MJ), which explicitly take into account the unique interactions among all 20 amino acids. There is theoretical and experimental evidence of the advantage of solving classical optimization problems using quantum annealing over its classical analogue (simulated annealing). In this report, we present a benchmark implementation of quantum annealing for lattice protein folding problems (six different experiments up to 81 superconducting quantum bits). This first implementation of a biophysical problem paves the way towards studying optimization problems in biophysics and statistical mechanics using quantum devices.}
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 %METODOS ESTADISTICOS
@@ -2173,4 +2290,62 @@
   note      = {eBook (HTML5 - Streaming)},
   address   = {Santiago de Compostela, Spain},
   language  = {spanish}
+}
+
+
+
+
+%OBJETIVOS CITAS
+@article{hypothesis,
+  author  = {Cresca, Sofia and Borišek, Jure and Magistrato, Alessandra and Križaj, Igor},
+  title   = {Current Status of Molecular Dynamics Simulations of Membrane Permeabilization by Antimicrobial Peptides and Pore-Forming Proteins: A Review},
+  journal = {Journal of Chemical Information and Modeling},
+  volume  = {66},
+  number  = {4},
+  pages   = {1982-2005},
+  year    = {2026},
+  doi     = {10.1021/acs.jcim.5c02731},
+  note    = {PMID: 41662490},
+  url     = {https://doi.org/10.1021/acs.jcim.5c02731},
+  eprint  = {https://doi.org/10.1021/acs.jcim.5c02731}
+}
+
+
+@article{srm_methods,
+  author         = {Zhang, Xiaoming and Yang, Zhanshu and Lin, Jiaxuan and Zhou, Wei and Sun, Nan and Jia, Yi},
+  title          = {Probing Peptide Assembly and Interaction via High-Resolution Imaging Techniques: A Mini Review},
+  journal        = {International Journal of Molecular Sciences},
+  volume         = {26},
+  year           = {2025},
+  number         = {9},
+  article-number = {3998},
+  url            = {https://www.mdpi.com/1422-0067/26/9/3998},
+  pubmedid       = {40362238},
+  issn           = {1422-0067},
+  abstract       = {Peptide molecules, as fundamental structural units in biological systems, play pivotal roles in diverse biological processes and have garnered substantial attention in biomolecular self-assembly research. Their structural simplicity and high design flexibility make peptides key players in the development of novel biomaterials. High-resolution imaging techniques have provided profound insights into peptide assembly. Recently, the development of cutting-edge technologies, such as super-resolution microscopy (SRM) with unparalleled spatiotemporal resolution, has further advanced peptide assembly research. These advancements enable both the mechanistic exploration of peptide assembly pathways and the rational design of peptide-based functional materials. In this mini review, we systematically examine the structural diversity of peptide assemblies, including micelles, tubes, particles, fibers and hydrogel, as investigated by various high-resolution imaging techniques, with a focus on their assembly characterization and dynamic process. We also summarize the interaction networks of peptide assemblies with proteins, polymers and microbes, providing further insight into the interactions between peptide assemblies and other molecules. Furthermore, we emphasize the transformative role of high-resolution imaging techniques in addressing long-standing challenges in peptide nanotechnology. We anticipate that this review will accelerate the advancement of peptide assembly characterization, thereby fostering the creation of next-generation functional biomaterials.},
+  doi            = {10.3390/ijms26093998}
+}
+
+@article{Lloyd1982,
+  title={Least squares quantization in PCM},
+  author={Lloyd, Stuart P.},
+  journal={IEEE Transactions on Information Theory},
+  volume={28},
+  number={2},
+  pages={129--137},
+  year={1982},
+  publisher={IEEE},
+  doi={10.1109/TIT.1982.1056489}
+}
+
+@article{Woo2005,
+  title={Calculation of absolute protein-ligand binding free energy from computer simulations},
+  author={Woo, Hyung-June and Roux, Beno{\^\i}t},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={102},
+  number={19},
+  pages={6825--6830},
+  year={2005},
+  publisher={National Acad Sciences},
+  doi={10.1073/pnas.0409005102}
 }
