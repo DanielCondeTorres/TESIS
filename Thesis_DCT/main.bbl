@@ -19,6 +19,35 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{galileo}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=98fad4f15b35cc6a0ad311bb7a254f1b}{%
+           family={Galilei},
+           familyi={G\bibinitperiod},
+           given={Galileo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Roma}%
+      }
+      \list{publisher}{1}{%
+        {Giacomo Mascardi}%
+      }
+      \strng{namehash}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \strng{fullhash}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \strng{fullhashraw}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \strng{bibnamehash}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \strng{authorbibnamehash}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \strng{authornamehash}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \strng{authorfullhash}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \strng{authorfullhashraw}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Il Saggiatore}
+      \field{year}{1623}
+    \endentry
     \entry{van2008membrane}{article}{}{}
       \name{author}{3}{}{%
         {{hash=d8b5b25952d0138da72804a90acefb37}{%
@@ -48,8 +77,8 @@
       \strng{authornamehash}{62ca8551282ad4961f299a8461fe43e3}
       \strng{authorfullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
       \strng{authorfullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature reviews Molecular cell biology}
@@ -82,8 +111,8 @@
       \strng{authornamehash}{b69523294f9a9ad42a60b09ee03f4901}
       \strng{authorfullhash}{b69523294f9a9ad42a60b09ee03f4901}
       \strng{authorfullhashraw}{b69523294f9a9ad42a60b09ee03f4901}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0231-5882}
@@ -155,8 +184,8 @@
       \strng{authornamehash}{0f64b2b392bdc45bb37f766c75ad2fef}
       \strng{authorfullhash}{fd8d08f131285aa83735cf09a216b8f4}
       \strng{authorfullhashraw}{fd8d08f131285aa83735cf09a216b8f4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2949916X}
@@ -208,8 +237,8 @@
       \strng{authornamehash}{aa862a1b1ea64b25612189c0d56e180e}
       \strng{authorfullhash}{41cdf574d58aea3649e337a055bd55b8}
       \strng{authorfullhashraw}{41cdf574d58aea3649e337a055bd55b8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219258}
@@ -254,8 +283,8 @@
       \strng{authornamehash}{213bdf5df62c74f9cf24c542b19a8033}
       \strng{authorfullhash}{9a81174d9e0640b7a7bfa9500f17e54e}
       \strng{authorfullhashraw}{9a81174d9e0640b7a7bfa9500f17e54e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0006-3002}
@@ -297,8 +326,8 @@
       \strng{authornamehash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhashraw}{b9a5e2c88543b957544f1ae9a5428e84}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1398-9219}
@@ -350,8 +379,8 @@
       \strng{authornamehash}{ec705a0562360b64e499516cf16c849c}
       \strng{authorfullhash}{4794a5f4c3ffa75672fadd0cece24907}
       \strng{authorfullhashraw}{4794a5f4c3ffa75672fadd0cece24907}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0918-6158}
@@ -393,8 +422,8 @@
       \strng{authornamehash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhashraw}{280c9c28b5987fd68cba3c8a67f28bee}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -1130,8 +1159,8 @@
       \strng{authorfullhash}{89edb61e81549c2c86fc43496a5f5dcb}
       \strng{authorfullhashraw}{89edb61e81549c2c86fc43496a5f5dcb}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
@@ -1888,8 +1917,8 @@
       \strng{authornamehash}{5633e09ea4714e735a895dcfdc32d9b9}
       \strng{authorfullhash}{cec47e8b1a371f821c725fc126fa872f}
       \strng{authorfullhashraw}{cec47e8b1a371f821c725fc126fa872f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs), evolutionarily conserved components of the immune system, have attracted considerable attention as promising therapeutic candidates. Derived from diverse organisms, AMPs represent a heterogeneous class of molecules, typically cationic, which facilitates their initial electrostatic interaction with anionic microbial membranes. Unlike conventional single-target antibiotics, AMPs utilize rapid, multi-target mechanisms, primarily physical membrane disruption, which results in a significantly lower incidence of resistance emergence. Their broad-spectrum antimicrobial activity, capacity to modulate host immunity, and unique mechanisms of action make them inherently less susceptible to resistance compared with traditional antibiotics. Despite these advantages, the clinical translation of natural AMPs remains limited by several challenges, including poor in vivo stability, and potential cytotoxicity. Bioengineering technology offers innovative solutions to these limitations of AMPs. Two techniques have demonstrated promise: (i) a chimeric recombinant of AMPs with stable scaffold, such as human serum albumin and antibody Fc domain and (ii) chemical modification approaches, such as lipidation. This review provides a comprehensive overview of AMPs, highlighting their origins, structures, and mechanisms of antimicrobial activity, followed by recent advances in bioengineering platforms designed to overcome their therapeutic limitations. By integrating natural AMPs with bioengineering and nanotechnologies, AMPs may be developed into next-generation antibiotics.}
@@ -2451,8 +2480,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -2499,8 +2528,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -3391,8 +3420,8 @@
       \strng{authornamehash}{4678a579c5851929a69bc0b9a15a0a83}
       \strng{authorfullhash}{20254ebc49b7f7e3467958f0e39320cd}
       \strng{authorfullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1411.4028}
@@ -4641,8 +4670,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -5327,8 +5356,8 @@
       \strng{authornamehash}{9e6fb99beaf19bbcb460241234b58a69}
       \strng{authorfullhash}{9e6fb99beaf19bbcb460241234b58a69}
       \strng{authorfullhashraw}{9e6fb99beaf19bbcb460241234b58a69}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0027-8424}
@@ -5567,8 +5596,8 @@
       \strng{authorfullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
       \strng{authorfullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}

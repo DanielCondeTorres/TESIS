@@ -57,6 +57,19 @@ In summary, this work highlights the importance of chemically informed molecular
 
 In conclusion, this doctoral thesis provides CYCLOPEp, an open-source online platform integrating three complementary components aimed at accelerating cyclic peptide research. CYCLOPEpBuilder enables the automated generation of three-dimensional structures and topologies of \textit{D,L}-$\alpha$-Cyclic Peptides and self-assembled cyclic peptide nanotubes, either for simulation or structure visualization. Different levels of resolution are available, including the MA(R/S)TINI coarse-grained models specifically tailored to reproduce cyclic peptide characteristics at a reduced computational cost. CYCLOPEpDB provides an extensive database of coarse-grained Molecular Dynamics simulations of \textit{D,L}-$\alpha$-cyclic octapeptides in the presence of a bacterial membrane model, at the MA(R/S)TINI 3 resolution level. The database includes precomputed analyses and simulation-derived descriptors that can be directly used for data analysis and Machine Learning. Finally, CYCLOPS integrates Machine Learning models trained on experimental cyclic peptide permeability data to predict membrane permeability. Its sequence builder supports more than 300 monomers, enabling the construction of cyclic peptides of varying lengths and cyclization schemes. The results of this thesis offer a solid platform for the study of cyclic peptides using computational tools. We expect CYCLOPEp to serve as a valuable resource for the scientific community by facilitating the access to computational tools and data, and by supporting the integration of computational modeling techniques with wet-lab experiments toward the rational design of cyclic peptides with antimicrobial activity.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 \subsection*{Resumo}
 
 A resistencia antimicrobiana foi declarada pola Organización Mundial da Saúde como unha das principais preocupacións de saúde global do noso século. Asociouse con máis dun millón de mortes en 2019 e proxéctase que causará ata 10 millóns de mortes ao ano para 2050 se non se toman medidas. A resistencia antimicrobiana está estreitamente ligada ao mal uso e abuso dos antibióticos, o que desencadea procesos evolutivos naturais nos que as bacterias acaban desenvolvendo mecanismos para evadir estes compostos. Como consecuencia, os antibióticos perden progresivamente a súa eficacia, deixando á humanidade cada vez máis vulnerable fronte ás infeccións. A maioría dos antibióticos convencionais actúan uníndose a dianas celulares específicas e inhibindo a proliferación microbiana. Dado que o desenvolvemento de novos antibióticos que presenten un modo de acción similar fará que as bacterias acaben desenvolvendo resistencia contra eles, é necesario un cambio de paradigma.
@@ -109,3 +122,150 @@ Para facilitar unha ampla accesibilidade e un uso práctico, o modelo experiment
 En resumo, este traballo destaca a importancia das representacións moleculares quimicamente informadas e das estratexias de aumento de datos prudentes co fin de construír modelos exactos para a predición da permeabilidade de péptidos cíclicos. Ademais, proporciona unha plataforma de uso sinxelo que ofrece accesibilidade a ferramentas de Aprendizaxe Automática a investigadores sen experiencia.
 
 En conclusión, esta tese doutoral proporciona CYCLOPEp, unha plataforma en liña e de código aberto que integra tres compoñentes complementarios destinados a acelerar a investigación en péptidos cíclicos. CYCLOPEpBuilder permite a xeración automatizada de estruturas tridimensionais e topoloxías de \textit{D,L}-$\alpha$-Péptidos Cíclicos e nanotubos de péptidos cíclicos autoensamblados, xa sexa para simulación ou visualización de estruturas. Están dispoñibles diferentes niveis de resolución, incluíndo os modelos \textit{coarse-grained} MA(R/S)TINI especificamente adaptados para reproducir as características dos péptidos cíclicos cun custo computacional reducido. CYCLOPEpDB proporciona unha extensa base de datos de simulacións de Dinámica Molecular \textit{coarse-grained} de \textit{D,L}-$\alpha$-octapéptidos cíclicos en presenza dun modelo de membrana bacteriana, ao nivel de resolución MA(R/S)TINI 3. A base de datos inclúe análises precalculadas e descritores derivados da simulación que poden ser utilizados directamente para a análise de datos e a Aprendizaxe Automática. Finalmente, CYCLOPS integra modelos de Aprendizaxe Automática adestrados con datos experimentais de permeabilidade de péptidos cíclicos para predicir a permeabilidade de membrana. O seu construtor de secuencias soporta máis de 300 monómeros, permitindo a construción de péptidos cíclicos de lonxitudes e esquemas de ciclación variables. Os resultados desta tese ofrecen unha plataforma sólida para o estudo de péptidos cíclicos utilizando ferramentas computacionais. Esperamos que CYCLOPEp sirva como un recurso valioso para a comunidade científica facilitando o acceso a ferramentas computacionais e datos, e apoiando a integración de técnicas de modelado computacional con experimentos de laboratorio cara ao deseño racional de péptidos cíclicos con actividade antimicrobiana.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection*{Resumen}
+Una barrera de escasos nanómetros define la frontera física entre la vida y la materia inerte. A nivel celular, la vida depende por completo de la integridad, la dinámica y la funcionalidad de este límite: la membrana celular. Se trata de una estructura compleja, flexible y dinámica que garantiza la estabilidad de la célula y regula el intercambio bidireccional de materia y energía con su entorno. Sin embargo, cuando la homeostasis de esta delicada interfaz molecular fracasa, las consecuencias trascienden la escala celular y desencadenan escenarios patológicos severos.
+
+Tradicionalmente, patologías derivadas de este tipo de fallos, con un altísimo impacto clínico y social —como el cáncer, las enfermedades infecciosas y las patologías degenerativas asociadas al envejecimiento—, han sido estudiadas, diagnosticadas y tratadas como entidades clínicas completamente independientes. El punto de partida de esta tesis doctoral postula que estas tres grandes condiciones fisiopatológicas no están aisladas, sino que conforman los vértices de lo que se ha denominado el «Triángulo CAIn» (Cáncer, Envejecimiento [Aging] e Infección).
+
+La revisión exhaustiva de la literatura demuestra que existen correlaciones bidireccionales muy estrechas entre ellas. Por ejemplo, está ampliamente documentado que las infecciones crónicas inducen un estado inflamatorio persistente capaz de derivar en transformaciones oncogénicas, como ocurre con Helicobacter pylori en el cáncer gástrico. A su vez, el envejecimiento conlleva un proceso de inmunosenescencia que incrementa drásticamente tanto la incidencia de neoplasias como la susceptibilidad a enfermedades infecciosas. Más allá de sus vínculos clínicos, esta tesis identifica el denominador común fundamental que conecta estos tres vértices: la alteración anómala y sistemática de los perfiles lipídicos en esa frontera nanométrica original.
+
+El fundamento estructural de toda membrana reside en los fosfolípidos. En medios acuosos, estas moléculas anfifílicas se autoensamblan de forma espontánea, un fenómeno gobernado por contribuciones entrópicas del solvente y estabilizado entálpicamente mediante interacciones intermoleculares entre las cadenas lipídicas. En condiciones normales, la membrana plasmática de una célula sana de mamífero es altamente asimétrica. La capa externa, expuesta al medio extracelular, está dominada por lípidos zwitteriónicos (eléctricamente neutros), como la fosfatidilcolina. Por el contrario, la capa interna aloja principalmente fosfatidiletanolaminas y fosfatidilserinas, siendo estas últimas de carácter aniónico. La célula consume energía activamente para mantener esta asimetría, vital para su supervivencia.
+
+No obstante, en los escenarios que conforman el triángulo CAIn, los mecanismos que mantienen este equilibrio colapsan. En el cáncer, las células muestran una tendencia a la simetrización de la membrana; los lípidos aniónicos que debían estar restringidos a la cara interna se externalizan. Como resultado, la superficie de la célula cancerosa adquiere una carga neta negativa. De manera análoga, esta alta densidad de carga negativa es una característica inherente a los patógenos. Bacterias como E. coli, por ejemplo, presentan membranas constituidas en gran medida por lípidos aniónicos como el fosfatidilglicerol.
+
+En definitiva, las propiedades fisicoquímicas y la composición lipídica de las membranas en un tejido sano difieren drásticamente de las de los patógenos o las células tumorales. Esta exposición anómala de cargas negativas en la superficie celular proporciona una diana terapéutica excepcional. Representa un enfoque ortogonal a los tratamientos tradicionales, permitiendo que el sistema inmune y ciertas moléculas terapéuticas reconozcan y ataquen selectivamente a las células enfermas, sin comprometer la integridad de la frontera vital en las células sanas.
+
+Entre los mecanismos biológicos que explotan estas diferencias en la composición lipídica, destaca el empleado por el sistema inmunitario innato de multitud de organismos, incluidos los seres humanos. En esta primera línea de defensa participan los péptidos antimicrobianos (AMPs, por sus siglas en inglés). Estas moléculas son pequeñas cadenas de aminoácidos capaces de reconocer y destruir selectivamente a microorganismos (incluyendo bacterias Gram-positivas y Gram-negativas), hongos y células tumorales. Aunque presentan una gran diversidad estructural, los AMPs comparten propiedades fundamentales: suelen ser secuencias cortas, poseen una carga neta positiva (catiónica) y exhiben un marcado carácter anfifílico.
+
+La actividad biológica de los AMPs está íntimamente ligada a su naturaleza fisicoquímica, la cual dirige su mecanismo de acción. En una fase inicial, las regiones catiónicas del péptido promueven una fuerte atracción electrostática hacia las membranas cargadas negativamente de las células objetivo. Una vez adsorbidos en la superficie celular, muchos de estos péptidos experimentan un cambio conformacional, adoptando frecuentemente una estructura helicoidal. Este plegamiento anfifílico amplifica la interacción con la bicapa: los residuos hidrofóbicos se insertan hacia el núcleo no polar de las colas lipídicas, mientras que los dominios polares se mantienen orientados hacia el exterior acuoso y las cabezas de los fosfolípidos.
+
+Estas fuerzas combinadas provocan la acumulación progresiva de los AMPs en la membrana. Al alcanzar una concentración crítica, los péptidos se agregan y desencadenan efectos membranolíticos. Existen diversos mecanismos para explicar este proceso, como la formación de poros que permiten la fuga de material citoplasmático o la extracción directa de lípidos. En cualquier escenario, la disrupción de la integridad de la bicapa culmina inexorablemente en la muerte celular.
+
+A diferencia de las terapias farmacológicas convencionales, la acción de los AMPs no depende del reconocimiento de un receptor proteico específico, sino de las propiedades fisicoquímicas generales de la membrana diana. Este mecanismo de acción inespecífico a nivel de receptor hace que resulten mucho menos vulnerables a los mecanismos clásicos de resistencia antimicrobiana. Por este motivo, durante las últimas décadas se ha invertido un enorme esfuerzo en el desarrollo de estas moléculas. Sin embargo, su aplicación práctica clínica todavía se ve obstaculizada por limitaciones intrínsecas, tales como los altos costes de producción o una eficacia reducida en entornos in vivo.
+
+Superar estas barreras y optimizar el diseño de nuevos AMPs exige caracterizar en profundidad su interacción con la membrana celular, centrándose principalmente en la estructura que adoptan tras la adsorción y en sus mecanismos de acción específicos.
+
+Habitualmente, el estudio de los AMPs se aborda desde un enfoque experimental multidisciplinar para proporcionar una perspectiva global y compensar las limitaciones inherentes a cada metodología. Sin embargo, a pesar de los notables avances en las técnicas analíticas y estructurales, resulta extremadamente complejo capturar de forma simultánea la evolución temporal continua del proceso de inserción y los detalles conformacionales a resolución atómica. Es en este punto donde las aproximaciones computacionales se vuelven indispensables para complementar los datos experimentales.
+
+A pesar de su enorme potencial terapéutico, la traslación clínica de los AMPs se ha visto fuertemente limitada por la falta de una comprensión exhaustiva, a nivel atómico, de sus mecanismos de acción. Para superar las barreras de las técnicas experimentales, el estudio de estos sistemas complejos requiere de herramientas computacionales. En este contexto, esta tesis doctoral aborda dicho reto mediante un enfoque computacional multiescala, abarcando desde la dinámica molecular clásica hasta algoritmos de computación cuántica.
+
+Tradicionalmente, la interacción de los AMPs con las membranas celulares se ha estudiado mediante simulaciones de Dinámica Molecular (MD, por sus siglas en inglés). La MD es un método que resuelve las ecuaciones clásicas del movimiento para obtener la evolución temporal de las posiciones y velocidades de un sistema de partículas. Al ser un método puramente clásico, no modela explícitamente los fenómenos de origen cuántico de los electrones. Esta simplificación es, precisamente, lo que le permite simular sistemas moleculares en escalas de tiempo y dimensiones mucho mayores que otras aproximaciones, convirtiéndola en una herramienta indispensable para el estudio de bicapas lipídicas y grandes biomoléculas.
+
+Pese a que la complejidad de los sistemas simulados mediante MD ha crecido en paralelo a la capacidad de cálculo de los ordenadores modernos, siguen existiendo limitaciones. El elevado coste computacional y las altas barreras de energía restringen los fenómenos de interacción péptido-membrana que pueden ser capturados espontáneamente. Para superar este obstáculo, esta tesis recurre a técnicas de muestreo avanzado, como la Metadinámica. Estos métodos permiten forzar la exploración del sistema para reconstruir con precisión los paisajes de energía libre y cuantificar variables críticas, como la orientación espacial y el momento dipolar hidrofóbico del péptido al penetrar en diferentes modelos de membrana (sana, bacteriana y tumoral).
+
+Más allá de la caracterización biofísica, la creación de nuevas secuencias terapéuticas exige un paso adicional. En la actualidad, la inmensa cantidad de datos generados en la investigación se explota frecuentemente para entrenar modelos predictivos estadísticos con el fin de desarrollar nuevas terapias. Sin embargo, en el diseño de AMPs, los enfoques puramente predictivos a menudo carecen de interpretabilidad física y presentan serias dificultades para evaluar secuencias en interfaces heterogéneas, como la frontera agua-lípido.
+
+Por ello, alejándose de los modelos predictivos de caja negra, esta tesis postula un marco de estudio y diseño basado estrictamente en las interacciones físicas del sistema. Para la generación y plegamiento de nuevas secuencias, se explora el uso de algoritmos de computación cuántica (como VQE y QAOA) y optimización heurística que evalúan los péptidos mediante Hamiltonianos directamente condicionados por el entorno interfacial.
+
+En definitiva, esta tesis explora la utilidad de las simulaciones de MD y metadinámica para extraer descriptores físicos rigurosos de la interacción péptido-membrana, los cuales se emplean en conjunción con algoritmos cuánticos y clásicos de diseño. El objetivo no es solo lograr una comprensión atómica de los mecanismos de selectividad, sino establecer un marco físico, estructurado y escalable, para el diseño racional de nuevas terapias dirigidas a membrana.
+
+
+El capítulo de Introducción profundiza en la estructura de las membranas celulares y su relevancia fisiopatológica. Continúa con una exposición sobre los péptidos antimicrobianos (AMPs) —con especial énfasis en aquellos dirigidos a membrana— y las técnicas experimentales empleadas en su estudio. Posteriormente, se explica cómo la Dinámica Molecular (MD) y las técnicas de muestreo avanzado, como la Metadinámica, complementan el estudio experimental abordando detalles atómicos y termodinámicos que las metodologías in vitro no pueden capturar de forma continua. El capítulo finaliza exponiendo las vías computacionales actuales para el desarrollo de nuevos AMPs, planteando la integración de estos conocimientos físicos con los recientes avances en computación clásica y cuántica.
+
+Esta introducción sirve como base teórica para formular los Objetivos de este trabajo. De forma global, la tesis persigue enlazar la caracterización biofísica profunda de la interacción péptido-membrana con algoritmos de optimización cuántica y clásica, trazando una evolución metódica: desde el desafío de predecir conformaciones espaciales hasta la formulación de un diseño racional de secuencias. Para alcanzar esta meta, se establecen los siguientes objetivos específicos:
+\begin{itemize}
+    \item Primer objetivo: Analizar la interacción de distintos AMPs con diversos modelos de bicapas lipídicas (sanas y patológicas) mediante simulaciones de MD y Metadinámica. El fin es identificar y cuantificar descriptores físicos rigurosos —tales como la orientación del momento dipolar hidrofóbico transversal o las energías libres de adsorción— que dictan el mecanismo de acción y la selectividad de estas moléculas.
+    \item Segundo objetivo: Evaluar la viabilidad de la computación cuántica para predecir la conformación de péptidos en interfaces lipídicas. Para ello, se implementan algoritmos híbridos, como el Variational Quantum Eigensolver (VQE), empleando modelos de red (lattices) para aproximar el espacio espacial. Este paso aborda el reto fundamental de mapear un problema de naturaleza inherentemente continua (el plegamiento tridimensional) sobre el hardware intrínsecamente discreto de los ordenadores cuánticos actuales.
+    \item Tercer objetivo: Pivotar hacia un enfoque de optimización de secuencias, un problema de naturaleza puramente discreta (la selección combinatoria de aminoácidos), para maximizar la idoneidad y el rendimiento del hardware cuántico. Esto se materializa en el desarrollo de un Hamiltoniano de diseño condicionado por el entorno interfacial. Su resolución mediante algoritmos como QAOA y heurística clásica permite generar secuencias terapéuticas de novo orientadas a dianas específicas. Como resultado final, este marco físico se consolida en una plataforma de código abierto (Helix Design Studio), democratizando el diseño de péptidos en entornos heterogéneos.
+\end{itemize}
+
+Para alcanzar los objetivos planteados, esta tesis utiliza un enfoque computacional multiescala. Las simulaciones de Dinámica Molecular (MD) atomística detallan las interacciones moleculares, pero su coste computacional limita el estudio de fenómenos colectivos como el autoensamblaje o la agregación peptídica. Para abordar escalas espaciales y temporales mayores, se emplean modelos de Dinámica Molecular de grano grueso (Coarse-Grained, CG). Dado que campos de fuerza estándar como Martini no contemplan explícitamente propiedades como la quiralidad, este trabajo implementa los ajustes necesarios para modelar estas interacciones con precisión y evitar geometrías de empaquetamiento irreales.
+
+A nivel estructural, el documento avanza desde la caracterización biofísica hasta el diseño computacional. El capítulo de Metodología detalla los procedimientos empleados, comenzando por los fundamentos teóricos de la MD y las técnicas de muestreo avanzado, como la Metadinámica. Seguidamente, se describen los protocolos de simulación, la composición de los distintos modelos de membrana y los parámetros aplicados en cada etapa.
+
+Posteriormente, se explican las técnicas de análisis utilizadas sobre las trayectorias. Estas incluyen la evaluación de los cambios conformacionales de los péptidos, el cálculo de las energías de interacción y la medición de las alteraciones estructurales inducidas en las bicapas lipídicas. El capítulo concluye detallando los algoritmos de optimización (clásicos y cuánticos) formulados para resolver los Hamiltonianos de diseño y generar las nuevas secuencias peptídicas.
+
+
+El primer bloque de resultados de esta tesis se deriva de un estudio bibliográfico sistemático de la literatura científica actual, centrado en la intersección de la inmunología, la oncología y la gerontología. El principal hito de esta fase fue la conceptualización y propuesta del «Triángulo CAIn» (Cáncer, Aging e Infección), un marco teórico que unifica estas tres condiciones bajo un nexo fisiopatológico común.
+
+A partir del análisis de los datos reportados en la literatura, se identificó que el estado inflamatorio crónico y persistente es el motor que vincula de forma bidireccional los tres vértices del triángulo. El estudio permitió concluir que:
+
+\begin{itemize}
+\item Correlación clínica: Existe una relación mecánica probada donde la inflamación derivada de infecciones crónicas actúa como precursor de procesos oncogénicos, mientras que la inmunosenescencia propia del envejecimiento facilita tanto la susceptibilidad a patógenos como la progresión tumoral.
+
+\item El lipidoma como denominador común: El análisis bibliográfico reveló que, independientemente del origen de la patología, existe una alteración sistemática y convergente en la composición lipídica de las membranas celulares afectadas. El hallazgo más significativo fue la identificación de la pérdida de asimetría de la bicapa como un marcador universal.
+
+\item Diana teranóstica: Se determinó que la exposición de lípidos aniónicos —principalmente fosfatidilserina— en la cara externa de la membrana plasmática no solo es una consecuencia del daño celular, sino que constituye una diana física específica para el desarrollo de nuevas estrategias teranósticas.
+\end{itemize}
+
+Este resultado bibliográfico permite concluir que la membrana plasmática deja de ser un mero límite celular para convertirse en una plataforma de información sobre el estado patológico del organismo. Esta sistematización teórica justifica el desarrollo de los capítulos posteriores de esta tesis, centrados en el diseño de moléculas (AMPs) capaces de reconocer de forma selectiva estas firmas lipídicas identificadas.
+
+
+El segundo bloque de resultados expone la caracterización biofísica cuantitativa de la interacción entre péptidos antimicrobianos (AMPs) y diferentes modelos de membrana. Para superar las limitaciones de la simulación clásica, se emplearon simulaciones de Dinámica Molecular (MD) acopladas a técnicas de muestreo avanzado (Metadinámica). Esta aproximación permitió reconstruir las superficies de energía libre (FES) y calcular el potencial de fuerza media (PMF) asociados al proceso de adsorción e inserción peptídica.
+
+Se analizaron comparativamente modelos de membranas sanas (zwitteriónicas, representativas de mamífero) frente a membranas patológicas (aniónicas, representativas de bacterias y células tumorales). Los cálculos termodinámicos demostraron que la selectividad de los AMPs está directamente gobernada por los perfiles de composición lipídica. Específicamente, se cuantificó que las membranas aniónicas reducen drásticamente las barreras energéticas para la inserción del péptido. Los resultados mostraron que, en estos entornos, la interacción electrostática inicial guía al péptido hacia una orientación interfacial óptima, permitiendo que el componente transversal del momento dipolar hidrofóbico penetre en el núcleo lipídico de forma termodinámicamente favorable.
+
+Por el contrario, los perfiles de energía libre obtenidos sobre membranas de mamífero sanas revelaron la existencia de altas barreras energéticas que penalizan severamente la inserción profunda del péptido. En estos sistemas, los datos confirmaron que el péptido se mantiene confinado predominantemente en un estado de adsorción superficial transitoria. Mediante este análisis, se logró extraer y cuantificar los descriptores físicos rigurosos (FES, PMF y orientación espacial) que rigen la interacción péptido-membrana en función de la carga superficial objetivo.
+
+
+El tercer bloque de resultados detalla la aplicación de algoritmos de computación cuántica para predecir el plegamiento de péptidos antimicrobianos en la interfaz agua-lípido. Para abordar este problema, se discretizó el espacio conformacional continuo mediante modelos de red (lattices tridimensionales), formulando un Hamiltoniano físico que codifica explícitamente la hidrofobicidad de los residuos, las interacciones electrostáticas y el efecto limitante del entorno interfacial de la membrana.
+
+Se evaluó el rendimiento del algoritmo híbrido Variational Quantum Eigensolver (VQE) mediante su ejecución en simuladores cuánticos. Los resultados obtenidos confirmaron que el modelo VQE es capaz de identificar el estado fundamental del sistema. Las simulaciones lograron reproducir con exactitud las conformaciones plegadas de mínima energía (estructuras anfipáticas óptimas) inducidas por la presencia de la bicapa, obteniendo una concordancia directa con los métodos de resolución clásica exacta.
+
+Adicionalmente, el estudio cuantificó el coste computacional y los requisitos de codificación sobre el hardware cuántico actual (dispositivos NISQ). Los datos métricos extraídos demostraron que el mapeo de trayectorias espaciales sobre redes discretas genera un incremento drástico en el número de qubits necesarios a medida que aumenta la longitud de la cadena peptídica. Estos resultados permitieron establecer empíricamente los límites actuales de escalabilidad del enfoque geométrico para la predicción de conformaciones estructurales complejas.
+
+
+El cuarto y último bloque de resultados presenta el desarrollo de un marco físico interpretable para el diseño de novo de secuencias peptídicas $\alpha$-helicoidales condicionadas por su entorno. Como respuesta a las limitaciones de escalabilidad de los modelos de predicción conformacional en red, el problema geométrico continuo se reformuló hacia la optimización discreta de secuencias (selección combinatoria de aminoácidos), un enfoque inherentemente más idóneo para su resolución algorítmica.
+
+Para llevar a cabo este diseño, se desarrolló un Hamiltoniano basado estrictamente en principios físicos. Este modelo integra en una única función de energía las variables termodinámicas críticas identificadas en las etapas anteriores: la propensión helicoidal intrínseca, las interacciones inter-residuo, la electrostática, la exposición anisotrópica al disolvente (momento dipolar hidrofóbico) y la geometría específica de la interfaz lipídica.
+
+Con el objetivo de permitir la comparación directa entre secuencias de diferente longitud y frente a distintos entornos de membrana, el modelo implementó una normalización estadística rigurosa. Todas las contribuciones energéticas fueron reescaladas y expresadas como Z-scores respecto a conjuntos de secuencias aleatorias de referencia, estableciendo un paisaje de diseño normalizado e independiente del tamaño del sistema.
+
+La resolución de este Hamiltoniano, validada mediante métodos de heurística clásica y algoritmos de optimización cuántica (QAOA), demostró la viabilidad de generar secuencias terapéuticas optimizadas específicamente para dianas interfaciales patológicas. Finalmente, la integración de estos modelos físicos y algoritmos de evaluación cristalizó en el desarrollo del Helix Design Studio. Esta plataforma de software de código abierto consolida la base teórica y computacional de la tesis, proporcionando una herramienta accesible y automatizada para el diseño racional de péptidos en entornos heterogéneos.
+
+
+
+El cuerpo de este manuscrito concluye con un capítulo dedicado a las principales Conclusiones derivadas de las distintas etapas de la investigación. En su conjunto, esta tesis ha abordado el estudio de la selectividad y el diseño de sistemas péptido-membrana desde un enfoque multiescala, fundamentado estrictamente en principios físicos, que enlaza la biofísica computacional con algoritmos de optimización avanzados.
+
+En una primera fase, la revisión sistemática de la literatura permitió establecer el marco teórico del «Triángulo CAIn» (Cáncer, Envejecimiento e Infección). Este estudio identificó la pérdida de asimetría lipídica y la consiguiente exposición de cargas negativas en la superficie celular como un nexo fisiopatológico común y una diana teranóstica de carácter universal.
+
+Para comprender el reconocimiento de esta diana a nivel atómico, se emplearon simulaciones de Dinámica Molecular y Metadinámica. La aplicación de estas técnicas permitió cuantificar los descriptores termodinámicos —como las superficies de energía libre (FES) y el potencial de fuerza media (PMF)— que gobiernan la selectividad de los péptidos antimicrobianos (AMPs). De este modo, se demostró a nivel físico cómo las membranas aniónicas reducen drásticamente las barreras energéticas para la inserción del momento dipolar hidrofóbico en el núcleo lipídico.
+
+A partir de la caracterización de estos descriptores, se evaluó la viabilidad de la computación cuántica para predecir el plegamiento interfacial de los péptidos. Si bien algoritmos híbridos como el VQE demostraron su eficacia para identificar conformaciones óptimas en modelos discretos de red (lattices), los resultados también evidenciaron las actuales limitaciones de escalabilidad del hardware cuántico (NISQ) al intentar mapear un problema espacial de naturaleza continua.
+
+En respuesta a esta barrera técnica, el enfoque metodológico pivotó hacia un escenario computacionalmente más idóneo y de naturaleza inherentemente discreta: la optimización combinatoria de secuencias. Para ello, se formuló un Hamiltoniano de diseño condicionado por el entorno que integra variables físicas rigurosas (electrostática, propensión helicoidal e hidrofobicidad) y cuya resolución es viable tanto mediante heurística clásica como a través de algoritmos cuánticos (QAOA).
+
+Finalmente, todo este marco teórico y matemático ha cristalizado en el desarrollo del Helix Design Studio. Esta plataforma de software de código abierto automatiza la generación de novo de secuencias peptídicas, evaluadas y normalizadas mediante Z-scores. En conclusión, los resultados de esta tesis demuestran que la integración de una descripción termodinámica precisa con las nuevas arquitecturas de computación permite superar la dependencia de los modelos estadísticos de "caja negra", estableciendo un marco metodológico sólido, físico y escalable para el diseño racional de nuevas terapias dirigidas a membrana.
+
+
+
+
+
+
+
+
+
+
