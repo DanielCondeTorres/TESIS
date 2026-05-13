@@ -1,128 +1,128 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Acknowledgements}{5}{Doc-Start}%
-\contentsline {chapter}{List of Publications}{11}{Doc-Start}%
-\contentsline {chapter}{Abbreviations and Acronyms}{13}{Item.5}%
-\contentsline {chapter}{Summary}{15}{Item.5}%
-\contentsline {chapter}{\numberline {1}Introduction}{38}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Background: Membrane targeting to fight AMR.}{39}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}The Lipid Membrane: A Selective Biological Landscape}{39}{subsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1.1}Beyond Protein Targets: The Membrane as a Vulnerability}{40}{subsubsection.1.1.1.1}%
-\contentsline {section}{\numberline {1.2}Antimicrobial Peptides}{42}{section.1.2}%
-\contentsline {section}{\numberline {1.3}The Global Crisis of Antimicrobial Resistance}{43}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Physicochemical Properties and Structural Determinants}{44}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Structural Classification}{44}{subsection.1.4.1}%
-\contentsline {section}{\numberline {1.5}Mechanisms of Membrane Disruption}{45}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Pore Formation Models}{45}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Non-Pore Models}{45}{subsection.1.5.2}%
-\contentsline {section}{\numberline {1.6}Limitations of Experimental Techniques}{45}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Simulation Approaches: Molecular Dynamics (MD)}{45}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Classical Molecular Dynamics}{46}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Solvent and Membrane Representation}{46}{subsection.1.7.2}%
-\contentsline {section}{\numberline {1.8}Sampling Challenges and Enhanced Methods}{46}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Coarse-Grained (CG) Simulations}{46}{subsection.1.8.1}%
-\contentsline {section}{\numberline {1.9}Pharmacological Barriers}{47}{section.1.9}%
-\contentsline {section}{\numberline {1.10}Advanced Design Strategies}{47}{section.1.10}%
-\contentsline {section}{\numberline {1.11}Computational Methods in Chemistry}{47}{section.1.11}%
-\contentsline {subsection}{\numberline {1.11.1}Molecular Dynamics}{48}{subsection.1.11.1}%
-\contentsline {subsection}{\numberline {1.11.2}Quantum Computing}{50}{subsection.1.11.2}%
-\contentsline {section}{\numberline {1.12}Dissertation Structure}{52}{section.1.12}%
-\contentsline {chapter}{\numberline {2}Hypothesis and Objectives}{54}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Hypothesis}{55}{section.2.1}%
-\contentsline {section}{\numberline {2.2}General and specific Objectives}{55}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Materials and Methods}{58}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Molecular Dynamics: Principles}{59}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}The Physics Behind Molecular Dynamics}{59}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}The Force Field}{64}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}The Resolution of the Force Fields}{66}{subsubsection.3.1.2.1}%
-\contentsline {subsection}{\numberline {3.1.3}Standard Metadynamics (MetaD)}{68}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Well-Tempered Metadynamics (WTMetaD)}{68}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Thermodynamic Reweighting}{70}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}Selection and Formulation of Collective Variables}{70}{subsection.3.1.6}%
-\contentsline {subsubsection}{\numberline {3.1.6.1}Geometrical Framework of the Peptide--Membrane System}{70}{subsubsection.3.1.6.1}%
-\contentsline {subsubsection}{\numberline {3.1.6.2}Distance and Insertion Depth}{70}{subsubsection.3.1.6.2}%
-\contentsline {subsubsection}{\numberline {3.1.6.3}Peptide Orientation and Tilt Angle}{71}{subsubsection.3.1.6.3}%
-\contentsline {subsubsection}{\numberline {3.1.6.4}Spin and Azimuthal Orientation}{71}{subsubsection.3.1.6.4}%
-\contentsline {subsubsection}{\numberline {3.1.6.5}Physical Interpretation in Euler Angles}{72}{subsubsection.3.1.6.5}%
-\contentsline {subsection}{\numberline {3.1.7}Dimensionality Reduction of Free Energy Surfaces}{72}{subsection.3.1.7}%
-\contentsline {subsubsection}{\numberline {3.1.7.1}Computational Implementation}{73}{subsubsection.3.1.7.1}%
-\contentsline {subsection}{\numberline {3.1.8}Calculation of the Standard Binding Free Energy ($\Delta G^0$)}{74}{subsection.3.1.8}%
-\contentsline {section}{\numberline {3.2}Statistical Methods and Error Analysis}{75}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Ensemble and Temporal Averages}{75}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}The Autocorrelation Problem and Block Averaging}{75}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Principal Component Analysis (PCA)}{76}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}K-means Clustering}{77}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Quantum Computing}{78}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Foundations of Quantum Information}{79}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Bits vs. Qubits}{79}{subsubsection.3.3.1.1}%
-\contentsline {subsection}{\numberline {3.3.2}Multi-Qubit Systems}{80}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Unitary Dynamics and Quantum Gates}{81}{subsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.3.1}Pauli and Rotation Gates}{81}{subsubsection.3.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.3.2}Two-Qubit Gates: Entanglement}{82}{subsubsection.3.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.4}Measurement and Hardware Architectures}{82}{subsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.4.1}Hardware Architectures}{83}{subsubsection.3.3.4.1}%
-\contentsline {paragraph}{Trapped Ion Architecture}{83}{paragraph*.11}%
-\contentsline {paragraph}{Superconducting Qubits}{83}{paragraph*.12}%
-\contentsline {paragraph}{Photonic Quantum Computing}{83}{paragraph*.13}%
-\contentsline {subsection}{\numberline {3.3.5}Connection to Quantum Circuits}{83}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Parameterized Quantum Circuits (Ansatz)}{84}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}Expectation Values and Cost Functions}{84}{subsection.3.3.7}%
-\contentsline {subsection}{\numberline {3.3.8}Variational Optimization Loop}{85}{subsection.3.3.8}%
-\contentsline {subsection}{\numberline {3.3.9}The Variational Paradigm and Hamiltonian Representation}{85}{subsection.3.3.9}%
-\contentsline {paragraph}{Quantum Software Ecosystem}{85}{paragraph*.14}%
-\contentsline {subsubsection}{\numberline {3.3.9.1}The Pauli Basis and Operator Mapping}{86}{subsubsection.3.3.9.1}%
-\contentsline {subsubsection}{\numberline {3.3.9.2}Variational Quantum Eigensolver (VQE)}{86}{subsubsection.3.3.9.2}%
-\contentsline {paragraph}{The Variational Principle}{86}{paragraph*.15}%
-\contentsline {paragraph}{Hardware-Efficient and Heuristic Ansätze}{87}{paragraph*.16}%
-\contentsline {paragraph}{The Hybrid Optimization Loop}{87}{paragraph*.17}%
-\contentsline {subsection}{\numberline {3.3.10}Quadratic Unconstrained Binary Optimization (QUBO)}{87}{subsection.3.3.10}%
-\contentsline {subsubsection}{\numberline {3.3.10.1}Handling Constraints via Penalty Terms}{88}{subsubsection.3.3.10.1}%
-\contentsline {subsection}{\numberline {3.3.11}The Quantum Approximate Optimization Algorithm (QAOA)}{88}{subsection.3.3.11}%
-\contentsline {subsubsection}{\numberline {3.3.11.1}From the Quantum Adiabatic Algorithm to the QAOA}{88}{subsubsection.3.3.11.1}%
-\contentsline {subsubsection}{\numberline {3.3.11.2}QAOA State Preparation and Circuit Ansatz}{90}{subsubsection.3.3.11.2}%
-\contentsline {subsubsection}{\numberline {3.3.11.3}Expectation Value, Optimization Loop, and MaxCut}{90}{subsubsection.3.3.11.3}%
-\contentsline {subsubsection}{\numberline {3.3.11.4}Adiabatic Limit and Approximation Ratio}{91}{subsubsection.3.3.11.4}%
-\contentsline {subsection}{\numberline {3.3.12}Optimization Algorithms for Hybrid Workflows}{92}{subsection.3.3.12}%
-\contentsline {subsubsection}{\numberline {3.3.12.1}Constrained Optimization BY Linear Approximations (COBYLA)}{92}{subsubsection.3.3.12.1}%
-\contentsline {subsubsection}{\numberline {3.3.12.2}Differential Evolution (DE)}{92}{subsubsection.3.3.12.2}%
-\contentsline {subsection}{\numberline {3.3.13}Challenges and Noise Mitigation in the NISQ Era}{93}{subsection.3.3.13}%
-\contentsline {subsubsection}{\numberline {3.3.13.1}Decoherence and Gate Errors}{93}{subsubsection.3.3.13.1}%
-\contentsline {subsubsection}{\numberline {3.3.13.2}Error Mitigation Techniques}{93}{subsubsection.3.3.13.2}%
-\contentsline {chapter}{\numberline {4}Results: Published Articles}{98}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Towards a Chirality-Aware Coarse-Grained Force Field}{99}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Uncovering the mechanisms of cyclic peptide self-assembly in membranes with the chirality-aware MA(R/S)TINI forcefield}{101}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}MA(R/S)TINI 3: An Enhanced Coarse-Grained Force Field for Accurate Modeling of Cyclic Peptide Self-Assembly and Membrane Interactions}{119}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}CYCLOPEp Builder: Facilitating cyclic peptide and nanotube research through a user-friendly web platform}{146}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Predicting membrane permeability using Machine Learning.}{155}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Unravelling Cyclic Peptide Membrane Permeability Prediction: A Study on Data Augmentation, Architecture Choices, and Representation Schemes}{156}{subsection.4.2.1}%
-\contentsline {chapter}{\numberline {5}Unpublished Results}{173}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Creating a Database of Cyclic Peptide Molecular Dynamics Results}{174}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}CYCLOPEpDB: A large-scale coarse-grained dataset enabling physics-informed learning of cyclic peptide–membrane interactions.}{176}{subsection.5.1.1}%
-\contentsline {chapter}{\numberline {6}General Discussion}{210}{chapter.6}%
-\contentsline {section}{\numberline {6.1}The CAIn Triangle: Lipidomics as a Universal Vulnerability}{211}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}The Biophysical Signature of Pathological Membranes}{211}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Methodological Challenges: Resolving the Resolution and Timescale Gaps}{211}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}Bridging the Gap: Enhanced Sampling and Quantum-Accelerated Design}{212}{subsection.6.1.3}%
-\contentsline {section}{\numberline {6.2}Unlocking the Biophysics of Specificity: A Metadynamics Approach to Membrane-Peptide Interactions}{213}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}The Transversal Hydrophobic Dipole Moment ($\mu _H^\perp $) and Insertion Mechanics}{213}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Thermodynamic Quantification through Enhanced Sampling}{214}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}The Exceptional Specificity of LL-37 and Dielectric Considerations}{215}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Methodological Considerations and Limitations}{215}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Quantum Computing Approaches to Peptide-Membrane Interfaces}{216}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Quantum Advantage and Theoretical Foundations}{216}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Pro: Smooth Interfacial Modeling and Algorithmic Innovation}{217}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Limitations and Constraints of the Quantum Approach}{218}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Concluding Remarks on the Quantum Strategy}{218}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}A Physics-Based Generative Hamiltonian for Environment-Conditioned Sequence Design}{218}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Overcoming the Evolutionary Constraints of Deep-Learning Models}{219}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Hamiltonian Formulation and Algorithmic Portability}{219}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}The Helix Design Studio: Bridging Theory and Practical Application}{220}{subsection.6.4.3}%
-\contentsline {subsubsection}{\numberline {6.4.3.1}Functionality and Real-Time Evaluation}{220}{subsubsection.6.4.3.1}%
-\contentsline {subsection}{\numberline {6.4.4}Validation via All-Atom Explicit Solvent Simulations}{220}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}Interfacial Benchmarking and "One-vs-Rest" Specificity}{221}{subsection.6.4.5}%
-\contentsline {subsection}{\numberline {6.4.6}Methodological Limitations and Future Outlook}{221}{subsection.6.4.6}%
-\contentsline {section}{\numberline {6.5}Final Synthesis: Toward a Unified Theranostic Pipeline}{221}{section.6.5}%
-\contentsline {chapter}{\numberline {7}General Conclusions}{222}{chapter.7}%
-\contentsline {chapter}{\numberline {8}References}{225}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Appendix}{235}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Rights and Permissions for reproducing Images}{236}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Rights for reproduced content of published articles by the author}{237}{section.9.2}%
+\contentsline {chapter}{List of Publications}{8}{Doc-Start}%
+\contentsline {chapter}{Abbreviations and Acronyms}{10}{Item.5}%
+\contentsline {chapter}{Summary}{12}{Item.5}%
+\contentsline {chapter}{\numberline {1}Introduction}{35}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background: Membrane targeting to fight AMR.}{36}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}The Lipid Membrane: A Selective Biological Landscape}{36}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}Beyond Protein Targets: The Membrane as a Vulnerability}{37}{subsubsection.1.1.1.1}%
+\contentsline {section}{\numberline {1.2}Antimicrobial Peptides}{39}{section.1.2}%
+\contentsline {section}{\numberline {1.3}The Global Crisis of Antimicrobial Resistance}{40}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Physicochemical Properties and Structural Determinants}{41}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Structural Classification}{41}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}Mechanisms of Membrane Disruption}{42}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Pore Formation Models}{42}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Non-Pore Models}{42}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Limitations of Experimental Techniques}{42}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Simulation Approaches: Molecular Dynamics (MD)}{42}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Classical Molecular Dynamics}{43}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Solvent and Membrane Representation}{43}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}Sampling Challenges and Enhanced Methods}{43}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Coarse-Grained (CG) Simulations}{43}{subsection.1.8.1}%
+\contentsline {section}{\numberline {1.9}Pharmacological Barriers}{44}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Advanced Design Strategies}{44}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Computational Methods in Chemistry}{44}{section.1.11}%
+\contentsline {subsection}{\numberline {1.11.1}Molecular Dynamics}{45}{subsection.1.11.1}%
+\contentsline {subsection}{\numberline {1.11.2}Quantum Computing}{47}{subsection.1.11.2}%
+\contentsline {section}{\numberline {1.12}Dissertation Structure}{49}{section.1.12}%
+\contentsline {chapter}{\numberline {2}Hypothesis and Objectives}{51}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Hypothesis}{52}{section.2.1}%
+\contentsline {section}{\numberline {2.2}General and specific Objectives}{52}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Materials and Methods}{55}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Molecular Dynamics: Principles}{56}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}The Physics Behind Molecular Dynamics}{56}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}The Force Field}{61}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}The Resolution of the Force Fields}{63}{subsubsection.3.1.2.1}%
+\contentsline {subsection}{\numberline {3.1.3}Standard Metadynamics (MetaD)}{65}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Well-Tempered Metadynamics (WTMetaD)}{65}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Thermodynamic Reweighting}{67}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Selection and Formulation of Collective Variables}{67}{subsection.3.1.6}%
+\contentsline {subsubsection}{\numberline {3.1.6.1}Geometrical Framework of the Peptide--Membrane System}{67}{subsubsection.3.1.6.1}%
+\contentsline {subsubsection}{\numberline {3.1.6.2}Distance and Insertion Depth}{67}{subsubsection.3.1.6.2}%
+\contentsline {subsubsection}{\numberline {3.1.6.3}Peptide Orientation and Tilt Angle}{68}{subsubsection.3.1.6.3}%
+\contentsline {subsubsection}{\numberline {3.1.6.4}Spin and Azimuthal Orientation}{68}{subsubsection.3.1.6.4}%
+\contentsline {subsubsection}{\numberline {3.1.6.5}Physical Interpretation in Euler Angles}{69}{subsubsection.3.1.6.5}%
+\contentsline {subsection}{\numberline {3.1.7}Dimensionality Reduction of Free Energy Surfaces}{69}{subsection.3.1.7}%
+\contentsline {subsubsection}{\numberline {3.1.7.1}Computational Implementation}{70}{subsubsection.3.1.7.1}%
+\contentsline {subsection}{\numberline {3.1.8}Calculation of the Standard Binding Free Energy ($\Delta G^0$)}{71}{subsection.3.1.8}%
+\contentsline {section}{\numberline {3.2}Statistical Methods and Error Analysis}{72}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Ensemble and Temporal Averages}{72}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}The Autocorrelation Problem and Block Averaging}{72}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Principal Component Analysis (PCA)}{73}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}K-means Clustering}{74}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Quantum Computing}{75}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Foundations of Quantum Information}{76}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Bits vs. Qubits}{76}{subsubsection.3.3.1.1}%
+\contentsline {subsection}{\numberline {3.3.2}Multi-Qubit Systems}{77}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Unitary Dynamics and Quantum Gates}{78}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Pauli and Rotation Gates}{78}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Two-Qubit Gates: Entanglement}{79}{subsubsection.3.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.4}Measurement and Hardware Architectures}{79}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.4.1}Hardware Architectures}{80}{subsubsection.3.3.4.1}%
+\contentsline {paragraph}{Trapped Ion Architecture}{80}{paragraph*.11}%
+\contentsline {paragraph}{Superconducting Qubits}{80}{paragraph*.12}%
+\contentsline {paragraph}{Photonic Quantum Computing}{80}{paragraph*.13}%
+\contentsline {subsection}{\numberline {3.3.5}Connection to Quantum Circuits}{80}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Parameterized Quantum Circuits (Ansatz)}{81}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Expectation Values and Cost Functions}{81}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Variational Optimization Loop}{82}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.9}The Variational Paradigm and Hamiltonian Representation}{82}{subsection.3.3.9}%
+\contentsline {paragraph}{Quantum Software Ecosystem}{82}{paragraph*.14}%
+\contentsline {subsubsection}{\numberline {3.3.9.1}The Pauli Basis and Operator Mapping}{83}{subsubsection.3.3.9.1}%
+\contentsline {subsubsection}{\numberline {3.3.9.2}Variational Quantum Eigensolver (VQE)}{83}{subsubsection.3.3.9.2}%
+\contentsline {paragraph}{The Variational Principle}{83}{paragraph*.15}%
+\contentsline {paragraph}{Hardware-Efficient and Heuristic Ansätze}{84}{paragraph*.16}%
+\contentsline {paragraph}{The Hybrid Optimization Loop}{84}{paragraph*.17}%
+\contentsline {subsection}{\numberline {3.3.10}Quadratic Unconstrained Binary Optimization (QUBO)}{84}{subsection.3.3.10}%
+\contentsline {subsubsection}{\numberline {3.3.10.1}Handling Constraints via Penalty Terms}{85}{subsubsection.3.3.10.1}%
+\contentsline {subsection}{\numberline {3.3.11}The Quantum Approximate Optimization Algorithm (QAOA)}{85}{subsection.3.3.11}%
+\contentsline {subsubsection}{\numberline {3.3.11.1}From the Quantum Adiabatic Algorithm to the QAOA}{85}{subsubsection.3.3.11.1}%
+\contentsline {subsubsection}{\numberline {3.3.11.2}QAOA State Preparation and Circuit Ansatz}{87}{subsubsection.3.3.11.2}%
+\contentsline {subsubsection}{\numberline {3.3.11.3}Expectation Value, Optimization Loop, and MaxCut}{87}{subsubsection.3.3.11.3}%
+\contentsline {subsubsection}{\numberline {3.3.11.4}Adiabatic Limit and Approximation Ratio}{88}{subsubsection.3.3.11.4}%
+\contentsline {subsection}{\numberline {3.3.12}Optimization Algorithms for Hybrid Workflows}{89}{subsection.3.3.12}%
+\contentsline {subsubsection}{\numberline {3.3.12.1}Constrained Optimization BY Linear Approximations (COBYLA)}{89}{subsubsection.3.3.12.1}%
+\contentsline {subsubsection}{\numberline {3.3.12.2}Differential Evolution (DE)}{89}{subsubsection.3.3.12.2}%
+\contentsline {subsection}{\numberline {3.3.13}Challenges and Noise Mitigation in the NISQ Era}{90}{subsection.3.3.13}%
+\contentsline {subsubsection}{\numberline {3.3.13.1}Decoherence and Gate Errors}{90}{subsubsection.3.3.13.1}%
+\contentsline {subsubsection}{\numberline {3.3.13.2}Error Mitigation Techniques}{90}{subsubsection.3.3.13.2}%
+\contentsline {chapter}{\numberline {4}Results: Published Articles}{95}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Cain Triangle}{96}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Unraveling lipid and inflammation interplay in cancer, aging and infection for novel theranostic approaches}{98}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Metadynamics}{116}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Unlocking the specificity of antimicrobial peptide interactions for membrane-targeted therapies}{117}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Classical Simulations on Quantum Computers: Interface-Driven Peptide Folding on Simulated Membrane Surfaces}{144}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Unpublished Results}{153}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Developing an environment-conditioned sequence-design tool for predefined $\alpha $-helical states.}{154}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}HeliHelix: A large-scale coarse-grained dataset enabling physics-informed learning of cyclic peptide–membrane interactions.}{155}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Bibliometric study and research on the use of peptides as drugs.}{189}{subsection.5.1.2}%
+\contentsline {chapter}{\numberline {6}General Discussion}{216}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The CAIn Triangle: Lipidomics as a Universal Vulnerability}{217}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}The Biophysical Signature of Pathological Membranes}{217}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Methodological Challenges: Resolving the Resolution and Timescale Gaps}{217}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Bridging the Gap: Enhanced Sampling and Quantum-Accelerated Design}{218}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Unlocking the Biophysics of Specificity: A Metadynamics Approach to Membrane-Peptide Interactions}{219}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}The Transversal Hydrophobic Dipole Moment ($\mu _H^\perp $) and Insertion Mechanics}{219}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Thermodynamic Quantification through Enhanced Sampling}{220}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}The Exceptional Specificity of LL-37 and Dielectric Considerations}{221}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Methodological Considerations and Limitations}{221}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Quantum Computing Approaches to Peptide-Membrane Interfaces}{222}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Quantum Advantage and Theoretical Foundations}{222}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Pro: Smooth Interfacial Modeling and Algorithmic Innovation}{223}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Limitations and Constraints of the Quantum Approach}{224}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Concluding Remarks on the Quantum Strategy}{224}{subsection.6.3.4}%
+\contentsline {section}{\numberline {6.4}A Physics-Based Generative Hamiltonian for Environment-Conditioned Sequence Design}{224}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Overcoming the Evolutionary Constraints of Deep-Learning Models}{225}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Hamiltonian Formulation and Algorithmic Portability}{225}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}The Helix Design Studio: Bridging Theory and Practical Application}{226}{subsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}Functionality and Real-Time Evaluation}{226}{subsubsection.6.4.3.1}%
+\contentsline {subsection}{\numberline {6.4.4}Validation via All-Atom Explicit Solvent Simulations}{226}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.5}Interfacial Benchmarking and "One-vs-Rest" Specificity}{227}{subsection.6.4.5}%
+\contentsline {subsection}{\numberline {6.4.6}Methodological Limitations and Future Outlook}{227}{subsection.6.4.6}%
+\contentsline {section}{\numberline {6.5}Final Synthesis: Toward a Unified Theranostic Pipeline}{227}{section.6.5}%
+\contentsline {chapter}{\numberline {7}General Conclusions}{228}{chapter.7}%
+\contentsline {chapter}{\numberline {8}References}{231}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Appendix}{241}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Rights and Permissions for reproducing Images}{242}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Rights for reproduced content of published articles by the author}{243}{section.9.2}%
