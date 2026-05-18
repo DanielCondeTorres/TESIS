@@ -48,92 +48,913 @@
       \field{title}{Il Saggiatore}
       \field{year}{1623}
     \endentry
-    \entry{van2008membrane}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=d8b5b25952d0138da72804a90acefb37}{%
-           family={Van\bibnamedelima Meer},
-           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Gerrit},
-           giveni={G\bibinitperiod}}}%
-        {{hash=3dd12b1efa21bc1f361943d191760a4e}{%
-           family={Voelker},
-           familyi={V\bibinitperiod},
-           given={Dennis\bibnamedelima R},
-           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=494a1da5438b37731c3ca9764456e2a9}{%
-           family={Feigenson},
+    \entry{Murray2022}{article}{}{}
+      \name{author}{175}{}{%
+        {{hash=d39647fc6f5b8f85d041b0adbed9b52e}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Christopher\bibnamedelimb J\bibnamedelima L},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=9325504ea66ca0c8cc7503d83d4c10af}{%
+           family={Ikuta},
+           familyi={I\bibinitperiod},
+           given={Kevin\bibnamedelima Shunji},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=92fe0bdf3c4ff9136ace48a2dd79933d}{%
+           family={Sharara},
+           familyi={S\bibinitperiod},
+           given={Fablina},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ff975ead02faa29bd43b83c485f3c081}{%
+           family={Swetschinski},
+           familyi={S\bibinitperiod},
+           given={Lucien},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e608c2a470a45db70763345d746e2991}{%
+           family={Aguilar},
+           familyi={A\bibinitperiod},
+           given={Gisela\bibnamedelima Robles},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4c0f43003980f4facb6d2c29d2934668}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Authia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f1b00ffc3f6f9b097ec533890071bf0a}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Chieh},
+           giveni={C\bibinitperiod}}}%
+        {{hash=80cd5ad3d9e8dd17d45bcfc3fa25c80e}{%
+           family={Bisignano},
+           familyi={B\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ab4b13672f3c9e08f32629ddef5d502e}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Puja},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c9d9b1ca4622674b93335a592b6867c8}{%
+           family={Wool},
+           familyi={W\bibinitperiod},
+           given={Eve},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2ec4432e986a5a1eb11e7150f5bd28b1}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Sarah\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=1f3c34a3845bee449c1bd47e1e1777e3}{%
+           family={Browne},
+           familyi={B\bibinitperiod},
+           given={Annie\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d6b7a0c8d41892fec72e673d2be09e83}{%
+           family={Chipeta},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima Give},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=de33719923061206678404aa0ac7f240}{%
+           family={Fell},
            familyi={F\bibinitperiod},
-           given={Gerald\bibnamedelima W},
-           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+           given={Frederick},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ee15f643858afb03f1c86c2ad30d685b}{%
+           family={Hackett},
+           familyi={H\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9bc2007ba09746b63cc18bc27ba35517}{%
+           family={Haines-Woodhouse},
+           familyi={H\bibinithyphendelim W\bibinitperiod},
+           given={Georgina},
+           giveni={G\bibinitperiod}}}%
+        {{hash=83eb3a9a39121ec5eaa6cdc150373cae}{%
+           family={Hamadani},
+           familyi={H\bibinitperiod},
+           given={Bahar\bibnamedelimb H\bibnamedelima Kashef},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=72792a29c2422ec7fd49d2b973dc82c7}{%
+           family={Kumaran},
+           familyi={K\bibinitperiod},
+           given={Emmanuelle\bibnamedelimb A\bibnamedelima P},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=07f9d899ae623cee6f3840dd829b59fb}{%
+           family={McManigal},
+           familyi={M\bibinitperiod},
+           given={Barney},
+           giveni={B\bibinitperiod}}}%
+        {{hash=48d42549de6197270ed47948130418ad}{%
+           family={Achalapong},
+           familyi={A\bibinitperiod},
+           given={Sureeruk},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c065a00d5bad674e910094abb11efeb}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Ramesh},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a671407bd88d1be2dbd33337eb1ced05}{%
+           family={Akech},
+           familyi={A\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=92ab0900e022465a1c23d0019dd0ce35}{%
+           family={Albertson},
+           familyi={A\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d28ac3f588879d54ae036465a10cfa85}{%
+           family={Amuasi},
+           familyi={A\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=db652c40ffba593fe5fc092cea643a38}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ffa9e4eef250ebc05630b073d9d45f9c}{%
+           family={Aravkin},
+           familyi={A\bibinitperiod},
+           given={Aleskandr},
+           giveni={A\bibinitperiod}}}%
+        {{hash=294e686a417618c53e8f8af465bc6e11}{%
+           family={Ashley},
+           familyi={A\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6b87fda918a98087e6d69d4422974f89}{%
+           family={Babin},
+           familyi={B\bibinitperiod},
+           given={François-Xavier},
+           giveni={F\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=7fedd8de22a6bb86bca8769095362819}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={Freddie},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3d84792f39e712eae0a841e3afe3ab61}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f93187c85f7aed517332b3a6b578f15}{%
+           family={Basnyat},
+           familyi={B\bibinitperiod},
+           given={Buddha},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cec051209f7dd376516d82b5f704f5e5}{%
+           family={Bekker},
+           familyi={B\bibinitperiod},
+           given={Adrie},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a583d3641d844fd466cf95eaf9df1b0f}{%
+           family={Bender},
+           familyi={B\bibinitperiod},
+           given={Rose},
+           giveni={R\bibinitperiod}}}%
+        {{hash=724ccda0dc3a6fcda22ad8bffaf48638}{%
+           family={Berkley},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=43219460204c33a8c734463b19352ec8}{%
+           family={Bethou},
+           familyi={B\bibinitperiod},
+           given={Adhisivam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=73d5d1e51f534750bfb5abab77d610b3}{%
+           family={Bielicki},
+           familyi={B\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a0d2dc1aa878125ce8685e8383f07da9}{%
+           family={Boonkasidecha},
+           familyi={B\bibinitperiod},
+           given={Suppawat},
+           giveni={S\bibinitperiod}}}%
+        {{hash=57acf75f7087a9757453302a5782c168}{%
+           family={Bukosia},
+           familyi={B\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f77ab1fa43da86c2400ea8ae5d00bcd7}{%
+           family={Carvalheiro},
+           familyi={C\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=abcce207a5d14fd9156142897acd95d5}{%
+           family={Castañeda-Orjuela},
+           familyi={C\bibinithyphendelim O\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2522f2a3249f21c02c80f91a54736caf}{%
+           family={Chansamouth},
+           familyi={C\bibinitperiod},
+           given={Vilada},
+           giveni={V\bibinitperiod}}}%
+        {{hash=324a0461d108c4c8e32e88589f21770e}{%
+           family={Chaurasia},
+           familyi={C\bibinitperiod},
+           given={Suman},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d124df20092f5a231fbe689e65f37f58}{%
+           family={Chiurchiù},
+           familyi={C\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+        {{hash=863366d96368529ab3f458338e204bb2}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Fazle},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3e6b5cdc90498c6088383f17fb376e60}{%
+           family={Donatien},
+           familyi={D\bibinitperiod},
+           given={Rafai\bibnamedelima Clotaire},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=8f8e5d4eb82c2a49f552a9933fc71b71}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Aislinn\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=21d20d77b671676edc08ab64da3eb052}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a3f3895059d8abc6e6478e73e27c11bb}{%
+           family={Cressey},
+           familyi={C\bibinitperiod},
+           given={Tim\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=acba989976e9db2e74ae0f33e4724bd8}{%
+           family={Criollo-Mora},
+           familyi={C\bibinithyphendelim M\bibinitperiod},
+           given={Elia},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4e3f6c53a0df6ae395c1c262aa04d861}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d9099488c41b1066e0a08e7276f82281}{%
+           family={Darboe},
+           familyi={D\bibinitperiod},
+           given={Saffiatou},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f8bce2a9a9eb7f2d4fd49f2d9c9480d}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Nicholas\bibnamedelimb P\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b11c7c9c7b5e7ff85014d8b768359d1e}{%
+           family={Luca},
+           familyi={L\bibinitperiod},
+           given={Maia\bibnamedelima De},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5dc28500a1dcf9e5175b61bd7b7008c5}{%
+           family={Dokova},
+           familyi={D\bibinitperiod},
+           given={Klara},
+           giveni={K\bibinitperiod}}}%
+        {{hash=70dcec81c1f9dc1d619a66c855f92912}{%
+           family={Dramowski},
+           familyi={D\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0823cf08633f07d72f24971bc915bd21}{%
+           family={Dunachie},
+           familyi={D\bibinitperiod},
+           given={Susanna\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=cb9fdba30a83cae8b2b0cbaeb6171144}{%
+           family={Bich},
+           familyi={B\bibinitperiod},
+           given={Thuy\bibnamedelima Duong},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=23f3861d8959a7deefc4cce7b3ea2ee0}{%
+           family={Eckmanns},
+           familyi={E\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e38097324790554489810159fdbd1e35}{%
+           family={Eibach},
+           familyi={E\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c7e3664c6e89a681a18984686abed256}{%
+           family={Emami},
+           familyi={E\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=525bbe264169eb4d07722b37b0a4e998}{%
+           family={Feasey},
+           familyi={F\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e4830a17b6c9db5774b850ad277ecaf8}{%
+           family={Fisher-Pearson},
+           familyi={F\bibinithyphendelim P\bibinitperiod},
+           given={Natasha},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f21b24db90827e5d8ff897ddc151ba86}{%
+           family={Forrest},
+           familyi={F\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=91042f08234ba443ea05770dcba57708}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Coralith},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ade7898ea82ca775f485075bf57253fc}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Denise},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b421afcb2a045ff71d55f4a2bb46b8b3}{%
+           family={Gastmeier},
+           familyi={G\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c3c139bef902ebd8d6cf3b77943068ef}{%
+           family={Giref},
+           familyi={G\bibinitperiod},
+           given={Ababi\bibnamedelima Zergaw},
+           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=68552004768f5db0fa6e01cf47d9c4d8}{%
+           family={Greer},
+           familyi={G\bibinitperiod},
+           given={Rachel\bibnamedelima Claire},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f4b195f8bd01c801670f48daff8b64e7}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Vikas},
+           giveni={V\bibinitperiod}}}%
+        {{hash=05ba4bf051e2273e326256c62920f154}{%
+           family={Haller},
+           familyi={H\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1d8ed218680751b5387aeb1e8b23f817}{%
+           family={Haselbeck},
+           familyi={H\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fd610c8afe891528a8628d6ccb932fa8}{%
+           family={Hay},
+           familyi={H\bibinitperiod},
+           given={Simon\bibnamedelima I},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=35e32ebf8203d296f096948249510106}{%
+           family={Holm},
+           familyi={H\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bfacbb92e92112784ac2c648d23d4d31}{%
+           family={Hopkins},
+           familyi={H\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f8b2ac9f809e72a81810de6377610ddb}{%
+           family={Hsia},
+           familyi={H\bibinitperiod},
+           given={Yingfen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2b7a1bcdb70ff7c8433ace6d5188024e}{%
+           family={Iregbu},
+           familyi={I\bibinitperiod},
+           given={Kenneth\bibnamedelima C},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=14f5ec8d14caf385e03265ee95b1e7c6}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=640138f7b3ea306c74b91b9e8532aed7}{%
+           family={Jarovsky},
+           familyi={J\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=be9fa29168365b3834e959c807c666b9}{%
+           family={Javanmardi},
+           familyi={J\bibinitperiod},
+           given={Fatemeh},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0237b566a7da9839f24e598019a957d4}{%
+           family={Jenney},
+           familyi={J\bibinitperiod},
+           given={Adam\bibnamedelimb W\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3dee41d5bf2fab7ac87d36b42992f72d}{%
+           family={Khorana},
+           familyi={K\bibinitperiod},
+           given={Meera},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4c42e49724fa41dd36bd5f360c8daea2}{%
+           family={Khusuwan},
+           familyi={K\bibinitperiod},
+           given={Suwimon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=251ec61f3ebf83d793f06d7e05205ded}{%
+           family={Kissoon},
+           familyi={K\bibinitperiod},
+           given={Niranjan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2f46ab9cbaab329978ee06ff7d93feee}{%
+           family={Kobeissi},
+           familyi={K\bibinitperiod},
+           given={Elsa},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9a532def73bc16716de2b2f3c7a47092}{%
+           family={Kostyanev},
+           familyi={K\bibinitperiod},
+           given={Tomislav},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4e8f108fd906ff858e4a190a3a2f7a8c}{%
+           family={Krapp},
+           familyi={K\bibinitperiod},
+           given={Fiorella},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f2a31e5250bbefd7c096745c3929b239}{%
+           family={Krumkamp},
+           familyi={K\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=eb6a64cf20a5b21db872c9ca0d491ed9}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b755ac9ac0af03dc7443327d86c86f6}{%
+           family={Kyu},
+           familyi={K\bibinitperiod},
+           given={Hmwe\bibnamedelima Hmwe},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e8685542c696fc4ad179307c32f1c25a}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Cherry},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e4b76ff91fe2f691b523dc308f98d4b6}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Kruy},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ed9398631affe1f3c775c1fe89b32f58}{%
+           family={Limmathurotsakul},
+           familyi={L\bibinitperiod},
+           given={Direk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=70678becdafff59c8d42258487e50fcf}{%
+           family={Loftus},
+           familyi={L\bibinitperiod},
+           given={Michael\bibnamedelima James},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b5a025aa609fe4201515aa71c9152b88}{%
+           family={Lunn},
+           familyi={L\bibinitperiod},
+           given={Miles},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fa3d8c93ccc6b2a733c88d595cca52ce}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jianing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=182f03b82057df33b2d7461ff7d7d269}{%
+           family={Manoharan},
+           familyi={M\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9a9ba063a24efab9c82188972de839ef}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a0d2b340dfab7acfff3e8b0eaedffb17}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2a1d3a0cb81a91aa76c59f607e95806}{%
+           family={Mayxay},
+           familyi={M\bibinitperiod},
+           given={Mayfong},
+           giveni={M\bibinitperiod}}}%
+        {{hash=75f932b167b183c62a3455bcdf990c58}{%
+           family={Mturi},
+           familyi={M\bibinitperiod},
+           given={Neema},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1761b7dd4f5d92d9e5144e31b879f383}{%
+           family={Munera-Huertas},
+           familyi={M\bibinithyphendelim H\bibinitperiod},
+           given={Tatiana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=88918f780768e772aa9a2d8e95e8c37c}{%
+           family={Musicha},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=21c3d2a521517500065aaa0e157ea93f}{%
+           family={Musila},
+           familyi={M\bibinitperiod},
+           given={Lilian\bibnamedelima A},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0e80da9a46b57443c2930cf53a488617}{%
+           family={Mussi-Pinhata},
+           familyi={M\bibinithyphendelim P\bibinitperiod},
+           given={Marisa\bibnamedelima Marcia},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3689a5a5d4c536f37ed98ac62761c50b}{%
+           family={Naidu},
+           familyi={N\bibinitperiod},
+           given={Ravi\bibnamedelima Narayan},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=69ae93b6998faccf93942b3539592940}{%
+           family={Nakamura},
+           familyi={N\bibinitperiod},
+           given={Tomoka},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7b800252f7f75aa59fea9de207cf700c}{%
+           family={Nanavati},
+           familyi={N\bibinitperiod},
+           given={Ruchi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3e40f9adc195ed4694dd1e645a2d5a3c}{%
+           family={Nangia},
+           familyi={N\bibinitperiod},
+           given={Sushma},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9f6ba0875581a5669fc94d5f65002256}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d7bea1c5874c5e85a7fea0d8da6f189f}{%
+           family={Ngoun},
+           familyi={N\bibinitperiod},
+           given={Chanpheaktra},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9a4718c0703b8c40e780147366b03d13}{%
+           family={Novotney},
+           familyi={N\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d787115465723796a327e9cb24ec885f}{%
+           family={Nwakanma},
+           familyi={N\bibinitperiod},
+           given={Davis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6ad597902c9b0920ebcfc7024a12b2f5}{%
+           family={Obiero},
+           familyi={O\bibinitperiod},
+           given={Christina\bibnamedelima W},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=00e5e4e6e4eb1ef9a48af1054b66e3b3}{%
+           family={Ochoa},
+           familyi={O\bibinitperiod},
+           given={Theresa\bibnamedelima J},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=138cced2f8914f6bb50200ba547cf7e4}{%
+           family={Olivas-Martinez},
+           familyi={O\bibinithyphendelim M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0cdfde7c9cc5e8b8862878155561437b}{%
+           family={Olliaro},
+           familyi={O\bibinitperiod},
+           given={Piero},
+           giveni={P\bibinitperiod}}}%
+        {{hash=569b2c6befd781e720fba3edb5ccc01f}{%
+           family={Ooko},
+           familyi={O\bibinitperiod},
+           given={Ednah},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a4c53ceef5739108cf3aad80ab4f64e2}{%
+           family={Ortiz-Brizuela},
+           familyi={O\bibinithyphendelim B\bibinitperiod},
+           given={Edgar},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ed423ddf0c5692293c568e7f6360ac4c}{%
+           family={Ounchanum},
+           familyi={O\bibinitperiod},
+           given={Pradthana},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3e9db9f5e749ff3f18896ad2db2ec78e}{%
+           family={Pak},
+           familyi={P\bibinitperiod},
+           given={Gideok\bibnamedelima D},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=bc4bc3ea03a3e3ac9d08e9f3f3696a5a}{%
+           family={Paredes},
+           familyi={P\bibinitperiod},
+           given={Jose\bibnamedelima Luis},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0e6c4598b7d59bfc99a5fb0841c2fa1e}{%
+           family={Peleg},
+           familyi={P\bibinitperiod},
+           given={Anton\bibnamedelima Yariv},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=e0502153c0e97c406c68559db3b65bfc}{%
+           family={Perrone},
+           familyi={P\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=42ed2a1cb91bf824c62e26967046892a}{%
+           family={Phe},
+           familyi={P\bibinitperiod},
+           given={Thong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=19bc7541f54e06616b3adc539d82356d}{%
+           family={Phommasone},
+           familyi={P\bibinitperiod},
+           given={Koukeo},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c243b87d419bfacb88e867936fe8ef4d}{%
+           family={Plakkal},
+           familyi={P\bibinitperiod},
+           given={Nishad},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b24c28e9a98c939e7a210c910e647ffb}{%
+           family={Ponce-de-Leon},
+           familyi={P\bibinithyphendelim L\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=68dbb93b7652d2dbcff64b1fc2903145}{%
+           family={Raad},
+           familyi={R\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b12723873ee956f94ed186c41a0aeac3}{%
+           family={Ramdin},
+           familyi={R\bibinitperiod},
+           given={Tanusha},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1b90f8e0d868be8ee33655032c2674af}{%
+           family={Rattanavong},
+           familyi={R\bibinitperiod},
+           given={Sayaphet},
+           giveni={S\bibinitperiod}}}%
+        {{hash=300093124cd3a95de2ed0199276ad48e}{%
+           family={Riddell},
+           familyi={R\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0cb9cc4b345aaea9d5a5820100bcfaf9}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Tamalee},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5203181a019ca463ce848f55fa25576d}{%
+           family={Robotham},
+           familyi={R\bibinitperiod},
+           given={Julie\bibnamedelima Victoria},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=deabf36c09863e0fc46cc82b2f8392ed}{%
+           family={Roca},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=96dfe7f9a41e290e62a7e8c95e2760a0}{%
+           family={Rosenthal},
+           familyi={R\bibinitperiod},
+           given={Victor\bibnamedelima Daniel},
+           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=3942c1a2b057001fda9eb7c9591cfea1}{%
+           family={Rudd},
+           familyi={R\bibinitperiod},
+           given={Kristina\bibnamedelima E},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3fdaf1d99c0a0ebbc6545099ce43e219}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Neal},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1e22ee01b66d4d7773bc238e56ba8994}{%
+           family={Sader},
+           familyi={S\bibinitperiod},
+           given={Helio\bibnamedelima S},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=bcea071aea430258e65d13765439f3c0}{%
+           family={Saengchan},
+           familyi={S\bibinitperiod},
+           given={Weerawut},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f0ac6d8184ab209df2e67beacb092846}{%
+           family={Schnall},
+           familyi={S\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=185c6fbbfaa9fb84ad5beb281475de75}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelimb Anthony\bibnamedelima Gerard},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0dd4838d20fb599c28a1b8c4c2716012}{%
+           family={Seekaew},
+           familyi={S\bibinitperiod},
+           given={Samroeng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0b0f636347d05b3b92ea430ca94b1832}{%
+           family={Sharland},
+           familyi={S\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6b25d0466139107e1f8d6e80bc44f683}{%
+           family={Shivamallappa},
+           familyi={S\bibinitperiod},
+           given={Madhusudhan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5f956026bf2bd3159856d6d65e7351b1}{%
+           family={Sifuentes-Osornio},
+           familyi={S\bibinithyphendelim O\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ead04a2d9f662b3cb94061dbe65fb7fa}{%
+           family={Simpson},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3d2c5df418d629551411ad67deb6eab5}{%
+           family={Steenkeste},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e86c95bcc2da344a0a884ec109b870a1}{%
+           family={Stewardson},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima James},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a0c63d82edd548e0679bf89c06075cf0}{%
+           family={Stoeva},
+           familyi={S\bibinitperiod},
+           given={Temenuga},
+           giveni={T\bibinitperiod}}}%
+        {{hash=51d47e527fb1b2aab4ad394faeb0a63a}{%
+           family={Tasak},
+           familyi={T\bibinitperiod},
+           given={Nidanuch},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d6471aa626b08f83b41ddf0cfffaedf6}{%
+           family={Thaiprakong},
+           familyi={T\bibinitperiod},
+           given={Areerat},
+           giveni={A\bibinitperiod}}}%
+        {{hash=765801ef5b7ea8f698018437ca9e9e6b}{%
+           family={Thwaites},
+           familyi={T\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ae0e0dd52afe8e6f9d083e96e2eacad2}{%
+           family={Tigoi},
+           familyi={T\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+        {{hash=93c116f3cf630ca2e4f988433bad9386}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9166bc1dc6c1e230ceef6e3566a43f32}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e6c744fc69ac659e33fdb9edc49a901a}{%
+           family={Doorn},
+           familyi={D\bibinitperiod},
+           given={H\bibnamedelima Rogier},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=bf33c2b052397d149eb5f65085301475}{%
+           family={Velaphi},
+           familyi={V\bibinitperiod},
+           given={Sithembiso},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ac711e2edd71cfe15393c562f134084f}{%
+           family={Vongpradith},
+           familyi={V\bibinitperiod},
+           given={Avina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9aa0bdb9ca9af9050714fb006bf44a93}{%
+           family={Vongsouvath},
+           familyi={V\bibinitperiod},
+           given={Manivanh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=81fa36ef9113a5cea4352c1ef567f7e6}{%
+           family={Vu},
+           familyi={V\bibinitperiod},
+           given={Huong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=639f64383ce53b23a44eaff2faa48b4c}{%
+           family={Walsh},
+           familyi={W\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=721ac9d1e588714f335fab252c18c95b}{%
+           family={Walson},
+           familyi={W\bibinitperiod},
+           given={Judd\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8c9a1dd3015400451252337c6c7f9483}{%
+           family={Waner},
+           familyi={W\bibinitperiod},
+           given={Seymour},
+           giveni={S\bibinitperiod}}}%
+        {{hash=15fef9af7eb59180a3d7c68150af8f7c}{%
+           family={Wangrangsimakul},
+           familyi={W\bibinitperiod},
+           given={Tri},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d29527fa06088197b0203e6518fc469f}{%
+           family={Wannapinij},
+           familyi={W\bibinitperiod},
+           given={Prapass},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6b8ed4f69b26b4613157e6494b859fc0}{%
+           family={Wozniak},
+           familyi={W\bibinitperiod},
+           given={Teresa},
+           giveni={T\bibinitperiod}}}%
+        {{hash=222916bd02fc4f6a5b1a9df345ebef8d}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Tracey\bibnamedelimb E\bibnamedelimb M\bibnamedelimb W\bibnamedelima Young},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=c9016d56420f4df308900de0023fc933}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Kalvin\bibnamedelima C},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=05fe66e8b4eb6dd8303e7517398cb8ca}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=08ee0a5636e7a83f086ff09b2673d406}{%
+           family={Sartorius},
+           familyi={S\bibinitperiod},
+           given={Benn},
+           giveni={B\bibinitperiod}}}%
+        {{hash=95046a5f589ba5abfa9251a17ae8a6b4}{%
+           family={Lopez},
+           familyi={L\bibinitperiod},
+           given={Alan\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=84ba3b55d981d155ba6807f75b04c507}{%
+           family={Stergachis},
+           familyi={S\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d86c8a0711f768aaea6f59cf24b0de99}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Catrin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=09762365df63d643812b3071aa95e6e7}{%
+           family={Dolecek},
+           familyi={D\bibinitperiod},
+           given={Christiane},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8590261a2dec6e655ce669b321060f91}{%
+           family={Naghavi},
+           familyi={N\bibinitperiod},
+           given={Mohsen},
+           giveni={M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Nature Publishing Group UK London}%
+        {Elsevier B.V.}%
       }
-      \strng{namehash}{62ca8551282ad4961f299a8461fe43e3}
-      \strng{fullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{fullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{bibnamehash}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{authorbibnamehash}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{authornamehash}{62ca8551282ad4961f299a8461fe43e3}
-      \strng{authorfullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{authorfullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
+      \strng{namehash}{6a031b798ecb6ff133ce98a846bf5fdb}
+      \strng{fullhash}{96879434654fe25cfa80c40bad6d4acb}
+      \strng{fullhashraw}{96879434654fe25cfa80c40bad6d4acb}
+      \strng{bibnamehash}{6a031b798ecb6ff133ce98a846bf5fdb}
+      \strng{authorbibnamehash}{6a031b798ecb6ff133ce98a846bf5fdb}
+      \strng{authornamehash}{6a031b798ecb6ff133ce98a846bf5fdb}
+      \strng{authorfullhash}{96879434654fe25cfa80c40bad6d4acb}
+      \strng{authorfullhashraw}{96879434654fe25cfa80c40bad6d4acb}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature reviews Molecular cell biology}
-      \field{number}{2}
-      \field{title}{Membrane lipids: where they are and how they behave}
-      \field{volume}{9}
-      \field{year}{2008}
-      \field{pages}{112\bibrangedash 124}
-      \range{pages}{13}
+      \field{issn}{01406736}
+      \field{issue}{10325}
+      \field{journaltitle}{The Lancet}
+      \field{month}{2}
+      \field{title}{Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis}
+      \field{volume}{399}
+      \field{year}{2022}
+      \field{pages}{629\bibrangedash 655}
+      \range{pages}{27}
       \verb{doi}
-      \verb https://doi.org/10.1038/nrm2330
+      \verb 10.1016/S0140-6736(21)02724-0
       \endverb
-    \endentry
-    \entry{Lohner2009}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=b69523294f9a9ad42a60b09ee03f4901}{%
-           family={Lohner},
-           familyi={L\bibinitperiod},
-           given={Karl},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Gen Physiol Biophys}%
-      }
-      \strng{namehash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{fullhash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{fullhashraw}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{bibnamehash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{authorbibnamehash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{authornamehash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{authorfullhash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{authorfullhashraw}{b69523294f9a9ad42a60b09ee03f4901}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0231-5882}
-      \field{issue}{2}
-      \field{journaltitle}{General physiology and biophysics}
-      \field{month}{6}
-      \field{title}{New strategies for novel antibiotics: peptides targeting bacterial cell membranes.}
-      \field{volume}{28}
-      \field{year}{2009}
-      \field{pages}{105\bibrangedash 16}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.4149/gpb_2009_02_105
-      \endverb
-      \verb{urlraw}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/19592707
-      \endverb
-      \verb{url}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/19592707
-      \endverb
-      \keyw{Animals,Anti-Bacterial Agents / pharmacology*,Antimicrobial Cationic Peptides / pharmacology*,Bacteria / drug effects*,Bacterial Physiological Phenomena / drug effects*,Biological,Cell Membrane / drug effects*,Cell Membrane / physiology,Drug Design,Humans,Karl Lohner,MEDLINE,Membrane Lipids*,Models,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,PubMed Abstract,Review,doi:10.4149/gpb_2009_02_105,pmid:19592707}
     \endentry
     \entry{Ahmed2024}{article}{}{}
       \name{author}{7}{}{%
@@ -184,8 +1005,8 @@
       \strng{authornamehash}{0f64b2b392bdc45bb37f766c75ad2fef}
       \strng{authorfullhash}{fd8d08f131285aa83735cf09a216b8f4}
       \strng{authorfullhashraw}{fd8d08f131285aa83735cf09a216b8f4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2949916X}
@@ -204,6 +1025,517 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S2949916X24000343
+      \endverb
+    \endentry
+    \entry{WHO}{misc}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance}
+      \field{note}{Accessed : 27/06/2025}
+      \field{title}{Antimicrobial resistance}
+    \endentry
+    \entry{van2008membrane}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d8b5b25952d0138da72804a90acefb37}{%
+           family={Van\bibnamedelima Meer},
+           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Gerrit},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3dd12b1efa21bc1f361943d191760a4e}{%
+           family={Voelker},
+           familyi={V\bibinitperiod},
+           given={Dennis\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=494a1da5438b37731c3ca9764456e2a9}{%
+           family={Feigenson},
+           familyi={F\bibinitperiod},
+           given={Gerald\bibnamedelima W},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{62ca8551282ad4961f299a8461fe43e3}
+      \strng{fullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
+      \strng{fullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
+      \strng{bibnamehash}{67757bdbf1bfbd7232eb1f4f5d32d918}
+      \strng{authorbibnamehash}{67757bdbf1bfbd7232eb1f4f5d32d918}
+      \strng{authornamehash}{62ca8551282ad4961f299a8461fe43e3}
+      \strng{authorfullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
+      \strng{authorfullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature reviews Molecular cell biology}
+      \field{number}{2}
+      \field{title}{Membrane lipids: where they are and how they behave}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{pages}{112\bibrangedash 124}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1038/nrm2330
+      \endverb
+    \endentry
+    \entry{self-assembly}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ca29df22dd26c2e9accbd893b1185453}{%
+           family={Israelachvili},
+           familyi={I\bibinitperiod},
+           given={Jacob\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=467dad85c4b4ec4cb1119daee1565ff3}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi John},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3d0ec90f4d0e2fba203371e317130af8}{%
+           family={Ninham},
+           familyi={N\bibinitperiod},
+           given={Barry\bibnamedelima W.},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{bfb075ff3ab011012a51f0298638072c}
+      \strng{fullhash}{99cab381704666df3d3cfa0525842d30}
+      \strng{fullhashraw}{99cab381704666df3d3cfa0525842d30}
+      \strng{bibnamehash}{99cab381704666df3d3cfa0525842d30}
+      \strng{authorbibnamehash}{99cab381704666df3d3cfa0525842d30}
+      \strng{authornamehash}{bfb075ff3ab011012a51f0298638072c}
+      \strng{authorfullhash}{99cab381704666df3d3cfa0525842d30}
+      \strng{authorfullhashraw}{99cab381704666df3d3cfa0525842d30}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A simple theory is developed that accounts for many of the observed physical properties of micelles{,} both globular and rod-like{,} and of bilayer vesicles composed of ionic or zwitterionic amphiphiles. The main point of departure from previous theories lies in the recognition and elucidation of the role of geometric constraints in self-assembly. The linking together of thermodynamics{,} interaction free energies and geometry results in a general framework which permits extension to more complicated self-assembly problems.}
+      \field{issue}{0}
+      \field{journaltitle}{J. Chem. Soc.{,} Faraday Trans. 2}
+      \field{title}{Theory of self-assembly of hydrocarbon amphiphiles into micelles and bilayers}
+      \field{volume}{72}
+      \field{year}{1976}
+      \field{pages}{1525\bibrangedash 1568}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1039/F29767201525
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/F29767201525
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/F29767201525
+      \endverb
+    \endentry
+    \entry{cationic-anionic-interaction}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e0ac0812744f3bc431044aedeceb99ff}{%
+           family={Brogden},
+           familyi={B\bibinitperiod},
+           given={Kim\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0ac0812744f3bc431044aedeceb99ff}
+      \strng{fullhash}{e0ac0812744f3bc431044aedeceb99ff}
+      \strng{fullhashraw}{e0ac0812744f3bc431044aedeceb99ff}
+      \strng{bibnamehash}{e0ac0812744f3bc431044aedeceb99ff}
+      \strng{authorbibnamehash}{e0ac0812744f3bc431044aedeceb99ff}
+      \strng{authornamehash}{e0ac0812744f3bc431044aedeceb99ff}
+      \strng{authorfullhash}{e0ac0812744f3bc431044aedeceb99ff}
+      \strng{authorfullhashraw}{e0ac0812744f3bc431044aedeceb99ff}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1740-1534}
+      \field{journaltitle}{Nature Reviews Microbiology}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Antimicrobial peptides: pore formers or metabolic inhibitors in bacteria?}
+      \field{volume}{3}
+      \field{year}{2005}
+      \field{pages}{238\bibrangedash 250}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1038/nrmicro1098
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nrmicro1098
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nrmicro1098
+      \endverb
+    \endentry
+    \entry{Lohner2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b69523294f9a9ad42a60b09ee03f4901}{%
+           family={Lohner},
+           familyi={L\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Gen Physiol Biophys}%
+      }
+      \strng{namehash}{b69523294f9a9ad42a60b09ee03f4901}
+      \strng{fullhash}{b69523294f9a9ad42a60b09ee03f4901}
+      \strng{fullhashraw}{b69523294f9a9ad42a60b09ee03f4901}
+      \strng{bibnamehash}{b69523294f9a9ad42a60b09ee03f4901}
+      \strng{authorbibnamehash}{b69523294f9a9ad42a60b09ee03f4901}
+      \strng{authornamehash}{b69523294f9a9ad42a60b09ee03f4901}
+      \strng{authorfullhash}{b69523294f9a9ad42a60b09ee03f4901}
+      \strng{authorfullhashraw}{b69523294f9a9ad42a60b09ee03f4901}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0231-5882}
+      \field{issue}{2}
+      \field{journaltitle}{General physiology and biophysics}
+      \field{month}{6}
+      \field{title}{New strategies for novel antibiotics: peptides targeting bacterial cell membranes.}
+      \field{volume}{28}
+      \field{year}{2009}
+      \field{pages}{105\bibrangedash 16}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.4149/gpb_2009_02_105
+      \endverb
+      \verb{urlraw}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/19592707
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/19592707
+      \endverb
+      \keyw{Animals,Anti-Bacterial Agents / pharmacology*,Antimicrobial Cationic Peptides / pharmacology*,Bacteria / drug effects*,Bacterial Physiological Phenomena / drug effects*,Biological,Cell Membrane / drug effects*,Cell Membrane / physiology,Drug Design,Humans,Karl Lohner,MEDLINE,Membrane Lipids*,Models,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,PubMed Abstract,Review,doi:10.4149/gpb_2009_02_105,pmid:19592707}
+    \endentry
+    \entry{bilayer_asimetry_1}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=95493fdd0fd28147eef2c4811b570684}{%
+           family={Daleke},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{95493fdd0fd28147eef2c4811b570684}
+      \strng{fullhash}{95493fdd0fd28147eef2c4811b570684}
+      \strng{fullhashraw}{95493fdd0fd28147eef2c4811b570684}
+      \strng{bibnamehash}{95493fdd0fd28147eef2c4811b570684}
+      \strng{authorbibnamehash}{95493fdd0fd28147eef2c4811b570684}
+      \strng{authornamehash}{95493fdd0fd28147eef2c4811b570684}
+      \strng{authorfullhash}{95493fdd0fd28147eef2c4811b570684}
+      \strng{authorfullhashraw}{95493fdd0fd28147eef2c4811b570684}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lipids in biological membranes are asymmetrically distributed across the bilayer; the amine-containing phospholipids are enriched on the cytoplasmic surface of the plasma membrane, while the choline-containing and sphingolipids are enriched on the outer surface. The maintenance of transbilayer lipid asymmetry is essential for normal membrane function, and disruption of this asymmetry is associated with cell activation or pathologic conditions. Lipid asymmetry is generated primarily by selective synthesis of lipids on one side of the membrane. Because passive lipid transbilayer diffusion is slow, a number of proteins have evolved to either dissipate or maintain this lipid gradient. These proteins fall into three classes: 1) cytofacially-directed, ATP-dependent transporters (“flippases”); 2) exofacially-directed, ATP-dependent transporters (“floppases”); and 3) bidirectional, ATP-independent transporters (“scramblases”). The flippase is highly selective for phosphatidylserine and functions to keep this lipid sequestered from the cell surface. Floppase activity has been associated with the ABC class of transmembrane transporters. Although they are primarily nonspecific, at least two members of this class display selectivity for their substrate lipid. Scramblases are inherently nonspecific and function to randomize the distribution of newly synthesized lipids in the endoplasmic reticulum or plasma membrane lipids in activated cells. It is the combined action of these proteins and the physical properties of the membrane bilayer that generate and maintain transbilayer lipid asymmetry.}
+      \field{issn}{0022-2275}
+      \field{journaltitle}{Journal of Lipid Research}
+      \field{number}{2}
+      \field{title}{Regulation of transbilayer plasma membrane phospholipid asymmetry}
+      \field{volume}{44}
+      \field{year}{2003}
+      \field{pages}{233\bibrangedash 242}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1194/jlr.R200019-JLR200
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022227520312104
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022227520312104
+      \endverb
+      \keyw{flippase,floppase,scramblase,phosphatidylserine}
+    \endentry
+    \entry{bilayer_asimetry_2}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=5c066c9e716d0dd7a845407edd592946}{%
+           family={Yeung},
+           familyi={Y\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4c2bdd132ef6f3625e892b6d1eea7135}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Gary\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=97f09b6c46a1cb582b43a475cd875b2b}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Jialan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a4557b941d88bbb6abad6e8b0e231013}{%
+           family={Silvius},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ae854b09ad27c3e03e349bf705d1c6f0}{%
+           family={Kapus},
+           familyi={K\bibinitperiod},
+           given={Andras},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6fb7756f1e7262b06f0359e02651047a}{%
+           family={Grinstein},
+           familyi={G\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{455836b8c079086da42cd99d9ddac7a5}
+      \strng{fullhash}{a74610583ea2e06cbe37bacaae249050}
+      \strng{fullhashraw}{a74610583ea2e06cbe37bacaae249050}
+      \strng{bibnamehash}{a74610583ea2e06cbe37bacaae249050}
+      \strng{authorbibnamehash}{a74610583ea2e06cbe37bacaae249050}
+      \strng{authornamehash}{455836b8c079086da42cd99d9ddac7a5}
+      \strng{authorfullhash}{a74610583ea2e06cbe37bacaae249050}
+      \strng{authorfullhashraw}{a74610583ea2e06cbe37bacaae249050}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electrostatic interactions with negatively charged membranes contribute to the subcellular targeting of proteins with polybasic clusters or cationic domains. Although the anionic phospholipid phosphatidylserine is comparatively abundant, its contribution to the surface charge of individual cellular membranes is unknown, partly because of the lack of reagents to analyze its distribution in intact cells. We developed a biosensor to study the subcellular distribution of phosphatidylserine and found that it binds the cytosolic leaflets of the plasma membrane, as well as endosomes and lysosomes. The negative charge associated with the presence of phosphatidylserine directed proteins with moderately positive charge to the endocytic pathway. More strongly cationic proteins, normally associated with the plasma membrane, relocalized to endocytic compartments when the plasma membrane surface charge decreased on calcium influx.}
+      \field{journaltitle}{Science}
+      \field{number}{5860}
+      \field{title}{Membrane Phosphatidylserine Regulates Surface Charge and Protein Localization}
+      \field{volume}{319}
+      \field{year}{2008}
+      \field{pages}{210\bibrangedash 213}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1152066
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.1152066
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.1152066
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.1152066
+      \endverb
+    \endentry
+    \entry{bilayer_asimetry_3}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a06816bfb8a1a089010267cebca87634}{%
+           family={Mouritsen},
+           familyi={M\bibinitperiod},
+           given={Ole\bibnamedelima G.},
+           giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d6d4eaf927aaf56b23aae6c91a453b99}{%
+           family={Zuckermann},
+           familyi={Z\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cc4969d0a887f968a9d66d41fb2569f}
+      \strng{fullhash}{5cc4969d0a887f968a9d66d41fb2569f}
+      \strng{fullhashraw}{5cc4969d0a887f968a9d66d41fb2569f}
+      \strng{bibnamehash}{5cc4969d0a887f968a9d66d41fb2569f}
+      \strng{authorbibnamehash}{5cc4969d0a887f968a9d66d41fb2569f}
+      \strng{authornamehash}{5cc4969d0a887f968a9d66d41fb2569f}
+      \strng{authorfullhash}{5cc4969d0a887f968a9d66d41fb2569f}
+      \strng{authorfullhashraw}{5cc4969d0a887f968a9d66d41fb2569f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Cholesterol (or other higher sterols such as ergosterol and phytosterols) is universally present in large amounts (20–40 mol\%) in eukaryotic plasma membranes, whereas it is universally absent in the membranes of prokaryotes. Cholesterol has a unique ability to increase lipid order in fluid membranes while maintaining fluidity and diffusion rates. Cholesterol imparts low permeability barriers to lipid membranes and provides for large mechanical coherence. A short topical review is given of these special properties of cholesterol in relation to the structure of membranes, with results drawn from a variety of theoretical and experimental studies. Particular focus is put on cholesterol's ability to promote a special membrane phase, the liquidordered phase, which is unique for cholesterol (and other higher sterols like ergosterol) and absent in membranes containing the cholesterol precursor lanosterol. Cholesterol's role in the formation of special membrane domains and so-called rafts is discussed.}
+      \field{journaltitle}{Lipids}
+      \field{number}{11}
+      \field{title}{What's so special about cholesterol?}
+      \field{volume}{39}
+      \field{year}{2004}
+      \field{pages}{1101\bibrangedash 1113}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1007/s11745-004-1336-x
+      \endverb
+      \verb{eprint}
+      \verb https://aocs.onlinelibrary.wiley.com/doi/pdf/10.1007/s11745-004-1336-x
+      \endverb
+      \verb{urlraw}
+      \verb https://aocs.onlinelibrary.wiley.com/doi/abs/10.1007/s11745-004-1336-x
+      \endverb
+      \verb{url}
+      \verb https://aocs.onlinelibrary.wiley.com/doi/abs/10.1007/s11745-004-1336-x
+      \endverb
+    \endentry
+    \entry{bacterial_bilayer_1}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c5d456e6b3709808b61d5b39a5327d5f}{%
+           family={Raetz},
+           familyi={R\bibinitperiod},
+           given={CR},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d4cdf31978c20d4f9d109c4ab85d90b0}{%
+           family={Dowhan},
+           familyi={D\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{fullhash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{fullhashraw}{2204348988cca2c7a6e87921d174d37f}
+      \strng{bibnamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorbibnamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authornamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorfullhash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorfullhashraw}{2204348988cca2c7a6e87921d174d37f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biological Chemistry}
+      \field{number}{3}
+      \field{title}{Biosynthesis and function of phospholipids in Escherichia coli.}
+      \field{volume}{265}
+      \field{year}{1990}
+      \field{pages}{1235\bibrangedash 1238}
+      \range{pages}{4}
+    \endentry
+    \entry{bacterial_bilayer_2}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ec1f555accaf2fba1d5634fc603c12fd}{%
+           family={Sohlenkamp},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9fd2c19b5eae3b2179be24470c349ba0}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={Otto},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2e18c9481251603c4f1b9b7d0deb4de}
+      \strng{fullhash}{e2e18c9481251603c4f1b9b7d0deb4de}
+      \strng{fullhashraw}{e2e18c9481251603c4f1b9b7d0deb4de}
+      \strng{bibnamehash}{e2e18c9481251603c4f1b9b7d0deb4de}
+      \strng{authorbibnamehash}{e2e18c9481251603c4f1b9b7d0deb4de}
+      \strng{authornamehash}{e2e18c9481251603c4f1b9b7d0deb4de}
+      \strng{authorfullhash}{e2e18c9481251603c4f1b9b7d0deb4de}
+      \strng{authorfullhashraw}{e2e18c9481251603c4f1b9b7d0deb4de}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{For many decades, Escherichia coli was the main model organism for the study of bacterial membrane lipids. The results obtained served as a blueprint for membrane lipid biochemistry, but it is clear now that there is no such thing as a typical bacterial membrane lipid composition. Different bacterial species display different membrane compositions and even the membrane composition of cells belonging to a single species is not constant, but depends on the environmental conditions to which the cells are exposed. Bacterial membranes present a large diversity of amphiphilic lipids, including the common phospholipids phosphatidylglycerol, phosphatidylethanolamine and cardiolipin, the less frequent phospholipids phosphatidylcholine, and phosphatidylinositol and a variety of other membrane lipids, such as for example ornithine lipids, glycolipids, sphingolipids or hopanoids among others. In this review, we give an overview about the membrane lipid structures known in bacteria, the different metabolic pathways involved in their formation, and the distribution of membrane lipids and metabolic pathways across taxonomical groups.}
+      \field{issn}{0168-6445}
+      \field{journaltitle}{FEMS Microbiology Reviews}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Bacterial membrane lipids: diversity in structures and pathways}
+      \field{volume}{40}
+      \field{year}{2016}
+      \field{pages}{133\bibrangedash 159}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1093/femsre/fuv008
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/femsre/article-pdf/40/1/133/10741007/fuv008.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/femsre/fuv008
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/femsre/fuv008
+      \endverb
+    \endentry
+    \entry{bacterial_bilayer_3}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d2679de5fd2d52838ade0528596a670a}{%
+           family={Epand},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5968f7f9f5d3b99f1a7a29108ec1af2b}{%
+           family={Epand},
+           familyi={E\bibinitperiod},
+           given={Raquel\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f75efa4c26326c215f952e07eda412f}
+      \strng{fullhash}{0f75efa4c26326c215f952e07eda412f}
+      \strng{fullhashraw}{0f75efa4c26326c215f952e07eda412f}
+      \strng{bibnamehash}{0f75efa4c26326c215f952e07eda412f}
+      \strng{authorbibnamehash}{0f75efa4c26326c215f952e07eda412f}
+      \strng{authornamehash}{0f75efa4c26326c215f952e07eda412f}
+      \strng{authorfullhash}{0f75efa4c26326c215f952e07eda412f}
+      \strng{authorfullhashraw}{0f75efa4c26326c215f952e07eda412f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There has been increasing interest in recent years in describing the lateral organization of membranes and the formation of membrane domains. Much of the focus in this area has been on the formation of cholesterol-rich domains in mammalian membranes. However, it is likely that there are domains in all biological membranes. One of the challenges has been to define the chemical composition, lifetime and size of these domains. There is evidence that bacteria have domains that are enriched in cardiolipin. In addition, the formation of lipid domains can be induced in bacteria by clustering negatively charged lipids with polycationic substances. Many antimicrobial compounds have multiple positive charges. Such polycationic compounds can sequester anionic lipids to induce lipid phase separation. The molecular interactions among lipids and their lateral packing density will be different in a domain from its environment. This will lead to phase boundary defects that will lower the permeability barrier between the cell and its surroundings. The formation of these clusters of anionic lipids may also alter the stability or composition of existing membrane domains that may affect bacterial function. Interestingly many antimicrobial agents are polycationic and therefore likely have some effect in promoting lipid phase segregation between anionic and zwitterionic lipids. However, this mechanism is expected to be most important for substances with sequential positive charges contained within a flexible molecule that can adapt to the arrangement of charged groups on the surface of the bacterial cell. When this mechanism is dominant it can allow the prediction of the bacterial species that will be most affected by the agent as a consequence of the nature of the lipid composition of the bacterial membrane.}
+      \field{issn}{0005-2736}
+      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Biomembranes}
+      \field{note}{Lipid Interactions, Domain Formation, and Lateral Structure of Membranes}
+      \field{number}{1}
+      \field{title}{Lipid domains in bacterial membranes and the action of antimicrobial agents}
+      \field{volume}{1788}
+      \field{year}{2009}
+      \field{pages}{289\bibrangedash 294}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.bbamem.2008.08.023
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0005273608002733
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0005273608002733
+      \endverb
+      \keyw{Bacterial outer membrane,Cell wall,Antimicrobial agent,Bacterial membrane,Cationic sterol derivative,Gram negative bacteria,Phosphatidylethanolamine,Phase separation,Phase boundary defect}
+    \endentry
+    \entry{bacteria_bilayer_4}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=89c60fbef71d08af53c97ed657991a12}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong-Mei},
+           giveni={Y\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=52e1fd9cbf6d23126db7d86eea5210c5}{%
+           family={Rock},
+           familyi={R\bibinitperiod},
+           given={Charles\bibnamedelima O.},
+           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0602f96df866fe1064025c62a140784}
+      \strng{fullhash}{d0602f96df866fe1064025c62a140784}
+      \strng{fullhashraw}{d0602f96df866fe1064025c62a140784}
+      \strng{bibnamehash}{d0602f96df866fe1064025c62a140784}
+      \strng{authorbibnamehash}{d0602f96df866fe1064025c62a140784}
+      \strng{authornamehash}{d0602f96df866fe1064025c62a140784}
+      \strng{authorfullhash}{d0602f96df866fe1064025c62a140784}
+      \strng{authorfullhashraw}{d0602f96df866fe1064025c62a140784}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1740-1534}
+      \field{journaltitle}{Nature Reviews Microbiology}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Membrane lipid homeostasis in bacteria}
+      \field{volume}{6}
+      \field{year}{2008}
+      \field{pages}{222\bibrangedash 233}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1038/nrmicro1839
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nrmicro1839
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nrmicro1839
       \endverb
     \endentry
     \entry{Sani2015}{article}{}{}
@@ -237,8 +1569,8 @@
       \strng{authornamehash}{aa862a1b1ea64b25612189c0d56e180e}
       \strng{authorfullhash}{41cdf574d58aea3649e337a055bd55b8}
       \strng{authorfullhashraw}{41cdf574d58aea3649e337a055bd55b8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219258}
@@ -283,8 +1615,8 @@
       \strng{authornamehash}{213bdf5df62c74f9cf24c542b19a8033}
       \strng{authorfullhash}{9a81174d9e0640b7a7bfa9500f17e54e}
       \strng{authorfullhashraw}{9a81174d9e0640b7a7bfa9500f17e54e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0006-3002}
@@ -326,8 +1658,8 @@
       \strng{authornamehash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhashraw}{b9a5e2c88543b957544f1ae9a5428e84}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1398-9219}
@@ -379,8 +1711,8 @@
       \strng{authornamehash}{ec705a0562360b64e499516cf16c849c}
       \strng{authorfullhash}{4794a5f4c3ffa75672fadd0cece24907}
       \strng{authorfullhashraw}{4794a5f4c3ffa75672fadd0cece24907}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0918-6158}
@@ -470,8 +1802,8 @@
       \strng{authornamehash}{0c788c880d3a848ff992e4db13ba1292}
       \strng{authorfullhash}{0c788c880d3a848ff992e4db13ba1292}
       \strng{authorfullhashraw}{0c788c880d3a848ff992e4db13ba1292}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1177-391X}
@@ -516,8 +1848,8 @@
       \strng{authornamehash}{6e84705b1df179a3f393b49105d3099b}
       \strng{authorfullhash}{6e84705b1df179a3f393b49105d3099b}
       \strng{authorfullhashraw}{6e84705b1df179a3f393b49105d3099b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1546-1696}
@@ -569,8 +1901,8 @@
       \strng{authornamehash}{cbcf0bd8e38069a9c78ed5413ba7cafa}
       \strng{authorfullhash}{c66fa81572f20e79072d48c6080c4d46}
       \strng{authorfullhashraw}{c66fa81572f20e79072d48c6080c4d46}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2218-273X}
@@ -623,8 +1955,8 @@
       \strng{authorfullhash}{03f2fb6a8dfb7f2119a944cd1ac135f8}
       \strng{authorfullhashraw}{03f2fb6a8dfb7f2119a944cd1ac135f8}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
@@ -682,8 +2014,8 @@
       \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
       \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1664-302X}
@@ -770,8 +2102,8 @@
       \strng{authorfullhash}{3360d95f636bf376e82b8406c098f1b9}
       \strng{authorfullhashraw}{3360d95f636bf376e82b8406c098f1b9}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2054-9369}
@@ -818,8 +2150,8 @@
       \strng{authornamehash}{b7c623dd6d037c88f9dbf332446bebf0}
       \strng{authorfullhash}{b7c623dd6d037c88f9dbf332446bebf0}
       \strng{authorfullhashraw}{b7c623dd6d037c88f9dbf332446bebf0}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-6997}
@@ -890,8 +2222,8 @@
       \strng{authornamehash}{6dbf1533bea154bc3d0894f8b78706e6}
       \strng{authorfullhash}{a8ea2bffd2691e66c627901482fc7013}
       \strng{authorfullhashraw}{a8ea2bffd2691e66c627901482fc7013}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09242244}
@@ -947,8 +2279,8 @@
       \strng{authornamehash}{caaf4763ed72a7e7ccdbb13011b7f43e}
       \strng{authorfullhash}{6d5826eab5a0bb7c8f2d8332ce1befd8}
       \strng{authorfullhashraw}{6d5826eab5a0bb7c8f2d8332ce1befd8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1873-4294}
@@ -1004,8 +2336,8 @@
       \strng{authornamehash}{35b9195b76c35f2858eae7c1f5717fc8}
       \strng{authorfullhash}{34a88d335cad3f5552a18319387fc739}
       \strng{authorfullhashraw}{34a88d335cad3f5552a18319387fc739}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1474-1784}
@@ -1068,8 +2400,8 @@
       \strng{authornamehash}{3d7f4e2b1ad59eef98eb73a549dca42a}
       \strng{authorfullhash}{79b8b1f4d2ceb59295ddbac7482fa3a1}
       \strng{authorfullhashraw}{79b8b1f4d2ceb59295ddbac7482fa3a1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1860-7187}
@@ -1230,8 +2562,8 @@
       \strng{authornamehash}{8455b92b818193a4a28312b999cc5211}
       \strng{authorfullhash}{3fcdc7e21e0d1ec160c935f784f3abe5}
       \strng{authorfullhashraw}{3fcdc7e21e0d1ec160c935f784f3abe5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1420-3049}
@@ -1287,8 +2619,8 @@
       \strng{authornamehash}{748c71d2a2765a2f928a3be854ea4c5b}
       \strng{authorfullhash}{a5034e507f3ee95c14b2044274e2795a}
       \strng{authorfullhashraw}{a5034e507f3ee95c14b2044274e2795a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1664-302X}
@@ -1343,8 +2675,8 @@
       \strng{authornamehash}{61751a41456613839d3be798f2bd03b3}
       \strng{authorfullhash}{980eab405a673022f84b16d7385243a6}
       \strng{authorfullhashraw}{980eab405a673022f84b16d7385243a6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2079-6382}
@@ -1405,8 +2737,8 @@
       \strng{authornamehash}{6546d6ab9325200c764b835fc3b7b626}
       \strng{authorfullhash}{fb369f272289151885768f29f08c5aa3}
       \strng{authorfullhashraw}{fb369f272289151885768f29f08c5aa3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1572-3887}
@@ -1472,8 +2804,8 @@
       \strng{authornamehash}{f70df441c9aee8d683ffd5300ae29e26}
       \strng{authorfullhash}{a4063ce9792ed771ed3ed4adcdcfd96e}
       \strng{authorfullhashraw}{a4063ce9792ed771ed3ed4adcdcfd96e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1999-4923}
@@ -1554,8 +2886,8 @@
       \strng{authornamehash}{9566de14de47d2eb646c9d33d2874329}
       \strng{authorfullhash}{2f6223bfece91399b166d0b3382fb9bf}
       \strng{authorfullhashraw}{2f6223bfece91399b166d0b3382fb9bf}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00052736}
@@ -1627,8 +2959,8 @@
       \strng{authorfullhash}{1383bf7c1c3464730bf812c5cf8d0c40}
       \strng{authorfullhashraw}{1383bf7c1c3464730bf812c5cf8d0c40}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00052736}
@@ -1696,8 +3028,8 @@
       \strng{authornamehash}{015b7c42176bdfe7122a7c5c593ea6f5}
       \strng{authorfullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
       \strng{authorfullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Healthcare}
@@ -1746,8 +3078,8 @@
       \strng{authornamehash}{7736002ef78cbe841bec7f5ef1c9903e}
       \strng{authorfullhash}{ab73865f61e68527b824bcae9f2b3a40}
       \strng{authorfullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Reviews Microbiology}
@@ -1795,8 +3127,8 @@
       \strng{authornamehash}{c54ca204871391ccfe79291879c7ad7a}
       \strng{authorfullhash}{3c16f5a945563f024e1ecfea362890e4}
       \strng{authorfullhashraw}{3c16f5a945563f024e1ecfea362890e4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2474-0896}
@@ -1870,8 +3202,8 @@
       \strng{authorfullhash}{64042eb956e1dbe1684bebd3b94a4de3}
       \strng{authorfullhashraw}{64042eb956e1dbe1684bebd3b94a4de3}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are bioactive macromolecules that exhibit antibacterial, antiviral, and immunomodulatory functions. They come from a wide range of sources and are found in all forms of life, from bacteria to plants, vertebrates, and invertebrates, and play an important role in controlling the spread of pathogens, promoting wound healing and treating tumors. Consequently, AMPs have emerged as promising alternatives to next-generation antibiotics. With advancements in systems biology and synthetic biology technologies, it has become possible to synthesize AMPs artificially. We can better understand their functional activities for further modification and development by investigating the mechanism of action underlying their antimicrobial properties. This review focuses on the structural aspects of AMPs while highlighting their significance for biological activity. Furthermore, it elucidates the membrane targeting mechanism and intracellular targets of these peptides while summarizing molecular modification approaches aimed at enhancing their antibacterial efficacy. Finally, this article outlines future challenges in the functional development of AMPs along with proposed strategies to overcome them.}
@@ -1970,8 +3302,8 @@
       \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
       \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are a class of small peptides that widely exist in nature and they are an important part of the innate immune system of different organisms. AMPs have a wide range of inhibitory effects against bacteria, fungi, parasites and viruses. The emergence of antibiotic-resistant microorganisms and people’s increasing concerns about the use of antibiotics resulted in the development of AMPs, which have a good application prospect in medicine, food, animal husbandry, agriculture and aquaculture. This review introduces the progress of research on AMPs comprehensively and systematically, including their classification, mechanism of action, design methods, environmental factors affecting their activity, application status, future prospects in various fields and problems to be solved. The research progress on antivirus peptides, especially anti-coronavirus (COVID-19) peptides, has been introduced given the COVID-19 pandemic worldwide in 2020.}
@@ -2049,8 +3381,8 @@
       \strng{authornamehash}{92773e5b64599069b71dde370c126c0e}
       \strng{authorfullhash}{962dbf3c45efac4f0d1a22262116c109}
       \strng{authorfullhashraw}{962dbf3c45efac4f0d1a22262116c109}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-2623}
@@ -2147,8 +3479,8 @@
       \strng{editornamehash}{380d66f714ba2e5fc3623c96e6fd611d}
       \strng{editorfullhash}{380d66f714ba2e5fc3623c96e6fd611d}
       \strng{editorfullhashraw}{380d66f714ba2e5fc3623c96e6fd611d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1367-4811}
@@ -2201,8 +3533,8 @@
       \strng{authornamehash}{52e5f90d9bd2b63afdcb10a5e7991cfb}
       \strng{authorfullhash}{032bfd467aedab714d9ae897adca9044}
       \strng{authorfullhashraw}{032bfd467aedab714d9ae897adca9044}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1434-6028}
@@ -2248,8 +3580,8 @@
       \strng{authornamehash}{d8a23cfffb586cef31caeb6d5b7345c4}
       \strng{authorfullhash}{d8a23cfffb586cef31caeb6d5b7345c4}
       \strng{authorfullhashraw}{d8a23cfffb586cef31caeb6d5b7345c4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -2290,8 +3622,8 @@
       \strng{authornamehash}{b665c644852d672fc230756e66313c23}
       \strng{authorfullhash}{b665c644852d672fc230756e66313c23}
       \strng{authorfullhashraw}{b665c644852d672fc230756e66313c23}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-899X}
@@ -2337,8 +3669,8 @@
       \strng{authornamehash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhashraw}{b385882cc9faa1401f0fdcbf7e6ab2d7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -2389,8 +3721,8 @@
       \strng{authornamehash}{e302b9eb1e80e19fb391368e6b6a7aeb}
       \strng{authorfullhash}{526bda1a09c7ebd7f0d37dd4e7433763}
       \strng{authorfullhashraw}{526bda1a09c7ebd7f0d37dd4e7433763}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -2432,8 +3764,8 @@
       \strng{authornamehash}{c2ccd5a62111861f450f8e14a4cb8790}
       \strng{authorfullhash}{c2ccd5a62111861f450f8e14a4cb8790}
       \strng{authorfullhashraw}{c2ccd5a62111861f450f8e14a4cb8790}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -2571,8 +3903,8 @@
       \strng{authornamehash}{db3457a5be5bcbb5d8935986f68c2507}
       \strng{authorfullhash}{db3457a5be5bcbb5d8935986f68c2507}
       \strng{authorfullhashraw}{db3457a5be5bcbb5d8935986f68c2507}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -2613,8 +3945,8 @@
       \strng{authornamehash}{de1fb5702a5bfaecaf843b90fd3ef692}
       \strng{authorfullhash}{de1fb5702a5bfaecaf843b90fd3ef692}
       \strng{authorfullhashraw}{de1fb5702a5bfaecaf843b90fd3ef692}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0556-2791}
@@ -2660,8 +3992,8 @@
       \strng{authornamehash}{6f1f9779fc2067e42d3da9227f63ee88}
       \strng{authorfullhash}{6f1f9779fc2067e42d3da9227f63ee88}
       \strng{authorfullhashraw}{6f1f9779fc2067e42d3da9227f63ee88}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10728368}
@@ -2758,8 +4090,8 @@
       \strng{authornamehash}{157bbf124c21fb4c14cd30452581c7e9}
       \strng{authorfullhash}{9f1d256532ba85c66e847ba793f6d842}
       \strng{authorfullhashraw}{9f1d256532ba85c66e847ba793f6d842}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0009-2665}
@@ -2807,8 +4139,8 @@
       \strng{authornamehash}{a8650a53bf9d19d05b1f312b36139cd2}
       \strng{authorfullhash}{7a91a3d0c6f6fa975557f8f5d423068b}
       \strng{authorfullhashraw}{7a91a3d0c6f6fa975557f8f5d423068b}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0743-7463}
@@ -2864,8 +4196,8 @@
       \strng{authornamehash}{af4972b1249f683429fc16914ccaec7e}
       \strng{authorfullhash}{288bc43896a7e0ec7d5e538304bf5e19}
       \strng{authorfullhashraw}{288bc43896a7e0ec7d5e538304bf5e19}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1936-0851}
@@ -2917,8 +4249,8 @@
       \strng{authornamehash}{22e2e7d67e552c5bc8527b1b318fbd29}
       \strng{authorfullhash}{cc3925d7bf1f2c6d66d532739ec10db6}
       \strng{authorfullhashraw}{cc3925d7bf1f2c6d66d532739ec10db6}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1463-9076}
@@ -2989,8 +4321,8 @@
       \strng{authornamehash}{94761d45f3b71d616a065288e2a13122}
       \strng{authorfullhash}{ddd0ed96899f9025a4802d948175ab5a}
       \strng{authorfullhashraw}{ddd0ed96899f9025a4802d948175ab5a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2296-2646}
@@ -3051,8 +4383,8 @@
       \strng{authornamehash}{55ff66bd96d6616f31842c8e000a707e}
       \strng{authorfullhash}{e817160828e288939597638b701f22c9}
       \strng{authorfullhashraw}{e817160828e288939597638b701f22c9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1422-0067}
@@ -3135,8 +4467,8 @@
       \strng{authorfullhash}{ec543d02e629178b1dcdbe8cc09b68b5}
       \strng{authorfullhashraw}{ec543d02e629178b1dcdbe8cc09b68b5}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09277765}
@@ -3213,8 +4545,8 @@
       \strng{authorfullhash}{3c60264ff571cbb0a481719bec314859}
       \strng{authorfullhashraw}{3c60264ff571cbb0a481719bec314859}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09277765}
@@ -3255,8 +4587,8 @@
       \strng{authornamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
       \strng{authorfullhash}{aac54ccf9c76aa4ba4310ed1334be7d8}
       \strng{authorfullhashraw}{aac54ccf9c76aa4ba4310ed1334be7d8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International journal of theoretical physics}
@@ -3291,8 +4623,8 @@
       \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum Computation and Quantum Information: 10th Anniversary Edition}
@@ -3314,8 +4646,8 @@
       \strng{authornamehash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantum}
@@ -3382,8 +4714,8 @@
       \strng{authornamehash}{bddcbb30e0909355294b8653d4787a0e}
       \strng{authorfullhash}{16fda0acd29f1276c07270659e70cdff}
       \strng{authorfullhashraw}{16fda0acd29f1276c07270659e70cdff}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature communications}
@@ -3462,8 +4794,8 @@
       \strng{authornamehash}{836c04a8ead66d709fbf0afad5433010}
       \strng{authorfullhash}{7e5c493347d687b6e14dc4b030f9aa64}
       \strng{authorfullhashraw}{7e5c493347d687b6e14dc4b030f9aa64}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New Journal of Physics}
@@ -3508,8 +4840,8 @@
       \strng{authornamehash}{521eaf63feb6c192cc3166296eb64a38}
       \strng{authorfullhash}{22db2573886fd084a0319c8a56fff761}
       \strng{authorfullhashraw}{22db2573886fd084a0319c8a56fff761}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{npj Quantum Information}
@@ -3560,8 +4892,8 @@
       \strng{authornamehash}{bbd6006e9ec109ac0031d09123318b68}
       \strng{authorfullhash}{5161965e79b7082c70d11e1b6ec7da8b}
       \strng{authorfullhashraw}{5161965e79b7082c70d11e1b6ec7da8b}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Chemical Information and Modeling}
@@ -3627,8 +4959,8 @@
       \strng{authorfullhash}{653e97e3604ba0bc6b3d2fd045798659}
       \strng{authorfullhashraw}{653e97e3604ba0bc6b3d2fd045798659}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Peptide molecules, as fundamental structural units in biological systems, play pivotal roles in diverse biological processes and have garnered substantial attention in biomolecular self-assembly research. Their structural simplicity and high design flexibility make peptides key players in the development of novel biomaterials. High-resolution imaging techniques have provided profound insights into peptide assembly. Recently, the development of cutting-edge technologies, such as super-resolution microscopy (SRM) with unparalleled spatiotemporal resolution, has further advanced peptide assembly research. These advancements enable both the mechanistic exploration of peptide assembly pathways and the rational design of peptide-based functional materials. In this mini review, we systematically examine the structural diversity of peptide assemblies, including micelles, tubes, particles, fibers and hydrogel, as investigated by various high-resolution imaging techniques, with a focus on their assembly characterization and dynamic process. We also summarize the interaction networks of peptide assemblies with proteins, polymers and microbes, providing further insight into the interactions between peptide assemblies and other molecules. Furthermore, we emphasize the transformative role of high-resolution imaging techniques in addressing long-standing challenges in peptide nanotechnology. We anticipate that this review will accelerate the advancement of peptide assembly characterization, thereby fostering the creation of next-generation functional biomaterials.}
@@ -3672,8 +5004,8 @@
       \strng{authornamehash}{75383882fda67662f5af47b0bcd86fbe}
       \strng{authorfullhash}{75383882fda67662f5af47b0bcd86fbe}
       \strng{authorfullhashraw}{75383882fda67662f5af47b0bcd86fbe}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Physical Chemistry Letters}
@@ -3786,8 +5118,8 @@
       \strng{editornamehash}{185523292c0f8a75242c8101b6cf46a5}
       \strng{editorfullhash}{3ca3c2b539c68947377997f9668a1cc1}
       \strng{editorfullhashraw}{3ca3c2b539c68947377997f9668a1cc1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Steered molecular dynamics (SMD) induces unbinding of ligands and conformational changes in biomolecules on time scales accessible to molecular dynamics simulations. Time-dependent external forces are applied to a system, and the responses of the system are analyzed. SMD has already provided important qualitative insights into biologically relevant problems, as demonstrated here for applications ranging from identification of ligand binding pathways to explanation of elastic properties of proteins. First attempts to deduce potentials of mean force by discounting irreversible work performed on the system are summarized. The non-equilibrium statistical mechanics underlying analysis of SMD data is outlined.}
@@ -3814,8 +5146,8 @@
       \strng{authornamehash}{19c5ead3b2599c877e08697117dea27b}
       \strng{authorfullhash}{19c5ead3b2599c877e08697117dea27b}
       \strng{authorfullhashraw}{19c5ead3b2599c877e08697117dea27b}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract The calculation of free-energy differences is one of the main challenges in computational biology and biochemistry. Umbrella sampling, biased molecular dynamics (MD), is one of the methods that provide free energy along a reaction coordinate. Here, the method is derived in a historic overview and is compared with related methods like thermodynamic integration, slow growth, steered MD, or the Jarzynski-based fast-growth technique. In umbrella sampling, bias potentials along a (one- or more-dimensional) reaction coordinate drive a system from one thermodynamic state to another (e.g., reactant and product). The intermediate steps are covered by a series of windows, at each of which an MD simulation is performed. The bias potentials can have any functional form. Often, harmonic potentials are used for their simplicity. From the sampled distribution of the system along the reaction coordinate, the change in free energy in each window can be calculated. The windows are then combined by methods like the weighted histogram analysis method or umbrella integration. If the bias potential is adapted to result in an even distribution between the end states, then this whole range can be spanned by one window (adaptive-bias umbrella sampling). In this case, the free-energy change is directly obtained from the bias. The sampling in each window can be improved by replica exchange methods; either by exchange between successive windows or by running additional simulations at higher temperatures. © 2011 John Wiley \& Sons, Ltd. WIREs Comput Mol Sci 2011 1 932–942 DOI: 10.1002/wcms.66 This article is categorized under: Molecular and Statistical Mechanics > Molecular Dynamics and Monte-Carlo Methods}
@@ -3865,8 +5197,8 @@
       \strng{authornamehash}{3d7c0acacb215025162ec9272c285921}
       \strng{authorfullhash}{195199b215593b55732f320994897d3b}
       \strng{authorfullhashraw}{195199b215593b55732f320994897d3b}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -3902,8 +5234,8 @@
       \strng{authornamehash}{a4b954c248c62a1efadd8e5bf9425e37}
       \strng{authorfullhash}{a4b954c248c62a1efadd8e5bf9425e37}
       \strng{authorfullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Chim. Phys.}
@@ -3943,8 +5275,8 @@
       \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
       \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
       \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
@@ -3999,8 +5331,8 @@
       \strng{authornamehash}{a75e201b1b9d8cd4822deab5d26aa76e}
       \strng{authorfullhash}{8a7fd7c765a5a190bbf237cb76a72dbe}
       \strng{authorfullhashraw}{8a7fd7c765a5a190bbf237cb76a72dbe}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Modern biological science is trying to solve the fundamental complex problems of molecular biology, which include protein folding, drug discovery, simulation of macromolecular structure, genome assembly, and many more. Currently, quantum computing (QC), a rapidly emerging technology exploiting quantum mechanical phenomena, has developed to address current significant physical, chemical, biological issues, and complex questions. The present review discusses quantum computing technology and its status in solving molecular biology problems, especially in the next-generation computational biology scenario. First, the article explained the basic concept of quantum computing, the functioning of quantum systems where information is stored as qubits, and data storage capacity using quantum gates. Second, the review discussed quantum computing components, such as quantum hardware, quantum processors, and quantum annealing. At the same time, article also discussed quantum algorithms, such as the grover search algorithm and discrete and factorization algorithms. Furthermore, the article discussed the different applications of quantum computing to understand the next-generation biological problems, such as simulation and modeling of biological macromolecules, computational biology problems, data analysis in bioinformatics, protein folding, molecular biology problems, modeling of gene regulatory networks, drug discovery and development, mechano-biology, and RNA folding. Finally, the article represented different probable prospects of quantum computing in molecular biology.}
@@ -4061,8 +5393,8 @@
       \strng{authornamehash}{39f86154acf3661193a34af8391f887d}
       \strng{authorfullhash}{39047f71384a185719590ab58bd21fa8}
       \strng{authorfullhashraw}{39047f71384a185719590ab58bd21fa8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -4119,8 +5451,8 @@
       \strng{authornamehash}{46ea1c14f7caca5ff662107b48ee7a5e}
       \strng{authorfullhash}{897bc932e75e035b65080ce3033d90be}
       \strng{authorfullhashraw}{897bc932e75e035b65080ce3033d90be}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Lattice protein folding models are a cornerstone of computational biophysics. Although these models are a coarse grained representation, they provide useful insight into the energy landscape of natural proteins. Finding low-energy threedimensional structures is an intractable problem even in the simplest model, the Hydrophobic-Polar (HP) model. Description of protein-like properties are more accurately described by generalized models, such as the one proposed by Miyazawa and Jernigan (MJ), which explicitly take into account the unique interactions among all 20 amino acids. There is theoretical and experimental evidence of the advantage of solving classical optimization problems using quantum annealing over its classical analogue (simulated annealing). In this report, we present a benchmark implementation of quantum annealing for lattice protein folding problems (six different experiments up to 81 superconducting quantum bits). This first implementation of a biophysical problem paves the way towards studying optimization problems in biophysics and statistical mechanics using quantum devices.}
@@ -4165,8 +5497,8 @@
       \strng{authornamehash}{01c0dfb9a380d9f8ae460e44dca8039a}
       \strng{authorfullhash}{01c0dfb9a380d9f8ae460e44dca8039a}
       \strng{authorfullhashraw}{01c0dfb9a380d9f8ae460e44dca8039a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of chemical physics}
@@ -4246,8 +5578,8 @@
       \strng{authornamehash}{cce0fc9016218fd4b55f9770cf988609}
       \strng{authorfullhash}{2d270bdc623eaca840fbf667517460b1}
       \strng{authorfullhashraw}{2d270bdc623eaca840fbf667517460b1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Chemistry}
@@ -4357,8 +5689,8 @@
       \strng{authornamehash}{6ecf9fe49cf40239f2de99ee16c691cc}
       \strng{authorfullhash}{eff2ab91590a1b220bf7edf32410df78}
       \strng{authorfullhashraw}{eff2ab91590a1b220bf7edf32410df78}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0092-8674}
@@ -4426,8 +5758,8 @@
       \strng{authorfullhash}{a10fa3d4d6bf3d00aa48adadfa46c877}
       \strng{authorfullhashraw}{a10fa3d4d6bf3d00aa48adadfa46c877}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{23527110}
@@ -4470,8 +5802,8 @@
       \strng{authornamehash}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
       \strng{authorfullhash}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
       \strng{authorfullhashraw}{d67cb7db9fe99d3f0ed3cf56f7b0c2c0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annalen der Physik}
@@ -4518,8 +5850,8 @@
       \strng{authornamehash}{ccf95cf519bf8915ba463e2d5ab0ecfb}
       \strng{authorfullhash}{ccf95cf519bf8915ba463e2d5ab0ecfb}
       \strng{authorfullhashraw}{ccf95cf519bf8915ba463e2d5ab0ecfb}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780367806934}
@@ -4579,8 +5911,8 @@
       \strng{authornamehash}{ac235143ded00ddbeff1f76cd807c462}
       \strng{authorfullhash}{887f1fb89db0fceed035049d60f6579a}
       \strng{authorfullhashraw}{887f1fb89db0fceed035049d60f6579a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -4627,8 +5959,8 @@
       \strng{authornamehash}{487ead3276f058022968b985eeac43fd}
       \strng{authorfullhash}{487ead3276f058022968b985eeac43fd}
       \strng{authorfullhashraw}{487ead3276f058022968b985eeac43fd}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10897690}
@@ -4723,8 +6055,8 @@
       \strng{authornamehash}{a353745f07a8a75d44af803cf5eb5323}
       \strng{authorfullhash}{bfec732c564a8247643cbc69c666f9f9}
       \strng{authorfullhashraw}{bfec732c564a8247643cbc69c666f9f9}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219606}
@@ -4791,8 +6123,8 @@
       \strng{authornamehash}{d23158ec68c3d1dc0367549d8e0d835e}
       \strng{authorfullhash}{12510623d7d2bc7f20479782d9d33a86}
       \strng{authorfullhashraw}{12510623d7d2bc7f20479782d9d33a86}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -4838,8 +6170,8 @@
       \strng{authornamehash}{730353c93cfd0e919b5a46a2e3a49c12}
       \strng{authorfullhash}{730353c93cfd0e919b5a46a2e3a49c12}
       \strng{authorfullhashraw}{730353c93cfd0e919b5a46a2e3a49c12}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -4880,8 +6212,8 @@
       \strng{authornamehash}{1237eddc38b2282893d8bd6775a2ca48}
       \strng{authorfullhash}{1237eddc38b2282893d8bd6775a2ca48}
       \strng{authorfullhashraw}{1237eddc38b2282893d8bd6775a2ca48}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0003-3804}
@@ -4932,8 +6264,8 @@
       \strng{authornamehash}{bba279c013b2167b688025a8dcf71f6b}
       \strng{authorfullhash}{539bc17ca29fdfcf960a176d1072ed1f}
       \strng{authorfullhashraw}{539bc17ca29fdfcf960a176d1072ed1f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -5024,8 +6356,8 @@
       \strng{authornamehash}{1b653a6d1f17910e4f5fff8d47c4e9a6}
       \strng{authorfullhash}{7848bb822d8d3db071d583989b30bf10}
       \strng{authorfullhashraw}{7848bb822d8d3db071d583989b30bf10}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -5088,8 +6420,8 @@
       \strng{authorfullhash}{cbac56920a5f6d0bf5a803c89491f9b6}
       \strng{authorfullhashraw}{cbac56920a5f6d0bf5a803c89491f9b6}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -5141,8 +6473,8 @@
       \strng{authornamehash}{62d7e8dbc4763e1111cfd90567b20700}
       \strng{authorfullhash}{53b5a48b2ebe6c4cd961326273e2a970}
       \strng{authorfullhashraw}{53b5a48b2ebe6c4cd961326273e2a970}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0002-7863}
@@ -5195,8 +6527,8 @@
       \strng{authornamehash}{d58510549f29b1830a6d36bff7d0ed44}
       \strng{authorfullhash}{63c06dde09fe87d49cc566750026292e}
       \strng{authorfullhashraw}{63c06dde09fe87d49cc566750026292e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -5260,8 +6592,8 @@
       \strng{authornamehash}{98acdb6f230e7bbbacd3034b30732d14}
       \strng{authorfullhash}{e8e98603db210ec3157d1f3f3de63a21}
       \strng{authorfullhashraw}{e8e98603db210ec3157d1f3f3de63a21}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1520-6106}
@@ -5309,8 +6641,8 @@
       \strng{authornamehash}{f0d9eb0c75c6324707b3e9df32efc9ed}
       \strng{authorfullhash}{8a952f40db7ce1b8cbc15e7392ef31db}
       \strng{authorfullhashraw}{8a952f40db7ce1b8cbc15e7392ef31db}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -5403,8 +6735,8 @@
       \strng{authornamehash}{ab206eb02ae330c0ddf1d7499f7485c8}
       \strng{authorfullhash}{ab206eb02ae330c0ddf1d7499f7485c8}
       \strng{authorfullhashraw}{ab206eb02ae330c0ddf1d7499f7485c8}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the National Academy of Sciences}
@@ -5453,8 +6785,8 @@
       \strng{authornamehash}{0952b8288f861ce73e5898e9ec196150}
       \strng{authorfullhash}{8813ed008bec4cb462210b7d988921d1}
       \strng{authorfullhashraw}{8813ed008bec4cb462210b7d988921d1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-84-9887-473-0}
@@ -5483,8 +6815,8 @@
       \strng{authornamehash}{6c96180627881f73bf82831aa5c91c5d}
       \strng{authorfullhash}{6c96180627881f73bf82831aa5c91c5d}
       \strng{authorfullhashraw}{6c96180627881f73bf82831aa5c91c5d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We describe how the true statistical error on an average of correlated data can be obtained with ease and efficiency by a renormalization group method. The method is illustrated with numerical and analytical examples, having finite as well as infinite range correlations.}
@@ -5529,8 +6861,8 @@
       \strng{authornamehash}{876f8afa1045b9ae3db2a8af93dda664}
       \strng{authorfullhash}{876f8afa1045b9ae3db2a8af93dda664}
       \strng{authorfullhashraw}{876f8afa1045b9ae3db2a8af93dda664}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Information Theory}
@@ -5759,8 +7091,8 @@
       \strng{authornamehash}{b60528d9446b5ff1be4f238681945e9b}
       \strng{authorfullhash}{8e559a154e471dc50f4daa13d6ff1d20}
       \strng{authorfullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1548-7091}
@@ -5819,8 +7151,8 @@
       \strng{authorfullhash}{4e45496e61c2ed3c6b882c09871d2689}
       \strng{authorfullhashraw}{4e45496e61c2ed3c6b882c09871d2689}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are increasingly recognized as potent therapeutic agents, with their selective affinity for pathological membranes, low toxicity profile, and minimal resistance development making them particularly attractive in the pharmaceutical landscape. This study offers a comprehensive analysis of the interaction between specific AMPs, including magainin-2, pleurocidin, CM15, LL37, and clavanin, with lipid bilayer models of very different compositions that have been ordinarily used as biological membrane models of healthy mammal, cancerous, and bacterial cells. Employing unbiased molecular dynamics simulations and metadynamics techniques, we have deciphered the intricate mechanisms by which these peptides recognize pathogenic and pathologic lipid patterns and integrate into lipid assemblies. Our findings reveal that the transverse component of the peptide's hydrophobic dipole moment is critical for membrane interaction, decisively influencing the molecule's orientation and expected therapeutic efficacy. Our approach also provides insight on the kinetic and dynamic dependence on the peptide orientation in the axial and azimuthal angles when coming close to the membrane. The aim is to establish a robust framework for the rational design of peptide-based, membrane-targeted therapies, as well as effective quantitative descriptors that can facilitate the automated design of novel AMPs for these therapies using machine learning methods.}
@@ -5884,8 +7216,8 @@
       \strng{authorfullhash}{e999dabd205d32dabd69447c98289453}
       \strng{authorfullhashraw}{e999dabd205d32dabd69447c98289453}
       \field{extraname}{3}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Background: Antimicrobial peptides (AMPs) are crucial in the fight against infections and play significant roles in various health contexts, including cancer, autoimmune diseases, and aging. A key aspect of AMP functionality is their selective interaction with pathogen membranes, which often exhibit altered lipid compositions. These interactions are thought to induce a conformational shift in AMPs from random coil to alpha-helical structures, essential for their lytic activity. Traditional computational approaches have faced challenges in accurately modeling these structural changes, especially in membrane environments, thereby opening and opportunity for more advanced approaches. Method: This study extends an existing quantum computing algorithm, initially designed for peptide folding simulations in homogeneous environments, to address the complexities of AMP interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, resembling lipid membranes. The new method was tested on three 10-amino-acid-long peptides, each characterized by distinct hydrophobic, hydrophilic, or amphipathic properties, across different media and at interfaces between solvents of different polarity. Results: The developed method successfully modeled the structure of the peptides without increasing the number of qubits required compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite the current limitations in computational power and qubit availability, the findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly AMP folding at membrane models. Conclusions: This research highlights the promising applications of quantum computing in biomolecular simulations, paving the way for future advancements in the development of novel therapeutic agents. We aim to offer a new perspective on enhancing the accuracy and applicability of biomolecular simulations in the context of AMP interactions with membrane models.}
