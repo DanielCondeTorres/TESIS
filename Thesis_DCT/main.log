@@ -1461,4 +1461,1765 @@ Package pdftex.def Info: General_Sections/Figures/AMP_Classification.jpg  used o
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28 <./General_
+[28 <./General_Sections/Figures/Membrane_Lipids_dct.png>]
+<General_Sections/Figures/AMPMOA.png, id=914, 1189.44376pt x 736.7525pt>
+File: General_Sections/Figures/AMPMOA.png Graphic file (type png)
+<use General_Sections/Figures/AMPMOA.png>
+Package pdftex.def Info: General_Sections/Figures/AMPMOA.png  used on input line 72.
+(pdftex.def)             Requested size: 314.11954pt x 194.56396pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <./General_Sections/Figures/AMP_Classification.jpg>] [30 <./General_Sections/Figures/AMPMOA.png>] [31] [32] [33] [34] [35]
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+ [36] [37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+
+LaTeX Warning: Reference `chap3' on page 39 undefined on input line 309.
+
+[39] [40])
+\openout2 = `General_Sections/Objectives.aux'.
+
+ (./General_Sections/Objectives.tex
+Chapter 2.
+[41
+
+
+
+
+] [42]
+
+LaTeX Warning: Reference `chap3' on page 43 undefined on input line 23.
+
+
+LaTeX Warning: Reference `chap3' on page 43 undefined on input line 25.
+
+) [43] [44]
+\openout2 = `General_Sections/Methods.aux'.
+
+ (./General_Sections/Methods.tex
+Chapter 3.
+[45
+
+
+
+
+] [46]
+<General_Sections/Figures/MD_Workflow2.png, id=1130, 821.031pt x 535.893pt>
+File: General_Sections/Figures/MD_Workflow2.png Graphic file (type png)
+<use General_Sections/Figures/MD_Workflow2.png>
+Package pdftex.def Info: General_Sections/Figures/MD_Workflow2.png  used on input line 30.
+(pdftex.def)             Requested size: 409.71692pt x 267.43068pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47] [48 <./General_Sections/Figures/MD_Workflow2.png>] [49]
+<General_Sections/Figures/pbc_diagram.png, id=1166, 459.6372pt x 459.51675pt>
+File: General_Sections/Figures/pbc_diagram.png Graphic file (type png)
+<use General_Sections/Figures/pbc_diagram.png>
+Package pdftex.def Info: General_Sections/Figures/pbc_diagram.png  used on input line 127.
+(pdftex.def)             Requested size: 250.38564pt x 250.32298pt.
+ [50 <./General_Sections/Figures/pbc_diagram.png>]
+<General_Sections/Figures/FF_bonded.png, id=1180, 595.023pt x 349.305pt>
+File: General_Sections/Figures/FF_bonded.png Graphic file (type png)
+<use General_Sections/Figures/FF_bonded.png>
+Package pdftex.def Info: General_Sections/Figures/FF_bonded.png  used on input line 147.
+(pdftex.def)             Requested size: 364.19667pt x 213.80594pt.
+ [51 <./General_Sections/Figures/FF_bonded.png>]
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [52]
+<General_Sections/Figures/AA2CG.png, id=1213, 563.10374pt x 287.0725pt>
+File: General_Sections/Figures/AA2CG.png Graphic file (type png)
+<use General_Sections/Figures/AA2CG.png>
+Package pdftex.def Info: General_Sections/Figures/AA2CG.png  used on input line 204.
+(pdftex.def)             Requested size: 450.69417pt x 229.7678pt.
+ [53] [54 <./General_Sections/Figures/AA2CG.png>]
+Package svg Info: Last page of `./svg-inkscape/metadynamics_comparison_svg-tex.pdf' is 1 on input line 227.
+ (./svg-inkscape/metadynamics_comparison_svg-tex.pdf_tex
+<./svg-inkscape/metadynamics_comparison_svg-tex.pdf, id=1239, page=1, 563.93106pt x 455.75267pt>
+File: ./svg-inkscape/metadynamics_comparison_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/metadynamics_comparison_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/metadynamics_comparison_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 364.19667pt x 294.34418pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./svg-inkscape/metadynamics_comparison_svg-tex.pdf>] [57] [58]
+Package svg Info: Last page of `./svg-inkscape/helix_geometry_svg-tex.pdf' is 1 on input line 322.
+ (./svg-inkscape/helix_geometry_svg-tex.pdf_tex
+<./svg-inkscape/helix_geometry_svg-tex.pdf, id=1358, page=1, 570.93298pt x 570.93298pt>
+File: ./svg-inkscape/helix_geometry_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/helix_geometry_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/helix_geometry_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 364.19667pt x 364.21106pt.
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[59]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 362.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 374.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Delta' on input line 374.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 374.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 374.
+
+
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+ [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61] [62] [63] [64] [65]
+Underfull \vbox (badness 3189) has occurred while \output is active []
+
+ [66]
+<General_Sections/Figures/esfera_bloch_tesis.png, id=1433, 737.154pt x 737.154pt>
+File: General_Sections/Figures/esfera_bloch_tesis.png Graphic file (type png)
+<use General_Sections/Figures/esfera_bloch_tesis.png>
+Package pdftex.def Info: General_Sections/Figures/esfera_bloch_tesis.png  used on input line 588.
+(pdftex.def)             Requested size: 273.14923pt x 273.15889pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 5460) has occurred while \output is active []
+
+ [67] [68]
+
+LaTeX Warning: Reference `chap3' on page 69 undefined on input line 650.
+
+[69] [70] [71] [72] [73]
+<General_Sections/Figures/vqe_demonstration.jpg, id=1501, 1531.7225pt x 712.6625pt>
+File: General_Sections/Figures/vqe_demonstration.jpg Graphic file (type jpg)
+<use General_Sections/Figures/vqe_demonstration.jpg>
+Package pdftex.def Info: General_Sections/Figures/vqe_demonstration.jpg  used on input line 827.
+(pdftex.def)             Requested size: 364.19667pt x 169.44397pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[74] [75]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+<General_Sections/Figures/qaoa_demonstration.png, id=1529, 344.28625pt x 168.63pt>
+File: General_Sections/Figures/qaoa_demonstration.png Graphic file (type png)
+<use General_Sections/Figures/qaoa_demonstration.png>
+Package pdftex.def Info: General_Sections/Figures/qaoa_demonstration.png  used on input line 903.
+(pdftex.def)             Requested size: 364.19667pt x 178.38412pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[77] [78] [79] [80]) [81] [82 <./svg-inkscape/helix_geometry_svg-tex.pdf>] [83 <./General_Sections/Figures/esfera_bloch_tesis.png> <./General_Sections/Figures/vqe_demonstration.jpg>] [84 <./General_Sections/Figures/qaoa_demonstration.png>]
+\openout2 = `Results_Discussion/Results.aux'.
+
+ (./Results_Discussion/Results.tex
+Chapter 4.
+[85
+
+
+
+
+] [86
+
+]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1747, page=1, 597.62169pt x 844.81926pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 482.55763pt x 682.18576pt.
+
+Overfull \hbox (27.31352pt too wide) in paragraph at lines 11--12
+[] 
+ []
+
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1748, 597.62169pt x 844.81926pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf  used on input line 14.
+(pdftex.def)             Requested size: 597.62022pt x 844.8172pt.
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1750, page=2, 597.62169pt x 844.81926pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page2 used on input line 14.
+(pdftex.def)             Requested size: 523.52794pt x 740.14319pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page2 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
+Overfull \vbox (32.82668pt too high) has occurred while \output is active []
+
+ [88 <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page2 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page2 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page2 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+ [89
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1819, page=3, 597.62169pt x 844.81926pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page3 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page3 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page3 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+ [90
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1832, page=4, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page4 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page4 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page4 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [91
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1843, page=5, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page5 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page5 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page5 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [92
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1855, page=6, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page6 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page6 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page6 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [93
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1863, page=7, 597.62169pt x 844.81926pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page7 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page7 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page7 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+ [94
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1872, page=8, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page8 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page8 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page8 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [95
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1877, page=9, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page9 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page9 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page9 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [96
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1882, page=10, 597.62169pt x 844.81926pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page10 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page10 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page10 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+ [97
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1889, page=11, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page11 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page11 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page11 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [98
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1894, page=12, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page12 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page12 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page12 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [99
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1903, page=13, 597.62169pt x 844.81926pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page13 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page13 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page13 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+ [100
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1909, page=14, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page14 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page14 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page14 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [101
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1914, page=15, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 15>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page15 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 15>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page15 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 15>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page15 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [102
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1930, page=16, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 16>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page16 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 16>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page16 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 16>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page16 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [103
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1936, page=17, 597.62169pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 17>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page17 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 17>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page17 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 17>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page17 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
+ [104
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>]
+<Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, id=1941, page=18, 597.62169pt x 844.81926pt>
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 18>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page18 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 18>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page18 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf, page 18>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf , page18 used on input line 14.
+(pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
+ [105
+
+ <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pdf>] [106
+
+]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=1953, page=1, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page1 used on input line 22.
+(pdftex.def)             Requested size: 455.24411pt x 606.98848pt.
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=1954, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf  used on input line 25.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=1956, page=2, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page2 used on input line 25.
+(pdftex.def)             Requested size: 546.29153pt x 728.39348pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page2 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [107 <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page2 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page2 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page2 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [108
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2022, page=3, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page3 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page3 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page3 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [109
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2033, page=4, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page4 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page4 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page4 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [110
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2062, page=5, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page5 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page5 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page5 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [111
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2075, page=6, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page6 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page6 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page6 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [112
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2087, page=7, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page7 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page7 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page7 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [113
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2096, page=8, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page8 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page8 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page8 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [114
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2106, page=9, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page9 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page9 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page9 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [115
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2116, page=10, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page10 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page10 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page10 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [116
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2125, page=11, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page11 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page11 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page11 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [117
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2134, page=12, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page12 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page12 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page12 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [118
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2140, page=13, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page13 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page13 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page13 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [119
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2146, page=14, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page14 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page14 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica.pdf , page14 used on input line 25.
+(pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
+ [120
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2152, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf  used on input line 27.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2154, page=1, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 546.29153pt x 707.01161pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [121
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2203, page=2, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page2 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page2 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page2 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [122
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2213, page=3, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page3 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page3 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page3 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [123
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2222, page=4, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page4 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page4 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page4 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [124
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2236, page=5, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page5 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page5 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page5 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [125
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2243, page=6, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page6 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page6 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page6 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [126
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2250, page=7, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page7 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page7 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page7 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [127
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2262, page=8, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page8 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page8 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page8 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [128
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2269, page=9, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page9 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page9 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page9 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [129
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2276, page=10, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page10 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page10 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page10 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [130
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2283, page=11, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page11 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page11 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page11 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [131
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2291, page=12, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page12 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page12 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page12 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [132
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2297, page=13, 614.295pt x 794.97pt>
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page13 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page13 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf , page13 used on input line 27.
+(pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
+ [133
+
+ <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2314, page=1, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page1 used on input line 32.
+(pdftex.def)             Requested size: 455.24411pt x 606.98848pt.
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2315, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf  used on input line 35.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2317, page=2, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page2 used on input line 35.
+(pdftex.def)             Requested size: 523.52794pt x 698.03918pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page2 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [134 <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page2 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page2 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page2 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [135
+
+ <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2406, page=3, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page3 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page3 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page3 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [136
+
+ <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2429, page=4, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page4 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page4 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page4 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [137
+
+ <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2447, page=5, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page5 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page5 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page5 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [138
+
+ <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2461, page=6, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page6 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page6 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page6 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [139
+
+ <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2471, page=7, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page7 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page7 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page7 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [140
+
+ <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2480, page=8, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page8 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page8 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page8 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [141
+
+ <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2489, page=9, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page9 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page9 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf , page9 used on input line 35.
+(pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
+ [142
+
+ <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>])
+\openout2 = `Results_Discussion/Unpublished.aux'.
+
+ (./Results_Discussion/Unpublished.tex
+Chapter 5.
+[143
+
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2499, page=1, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page1 used on input line 9.
+(pdftex.def)             Requested size: 409.71692pt x 579.45982pt.
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2500, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf  used on input line 11.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2502, page=2, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page2 used on input line 11.
+(pdftex.def)             Requested size: 500.77129pt x 708.23584pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page2 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+[144
+
+] [145 <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page2 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page2 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page2 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [146
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2578, page=3, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page3 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page3 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page3 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [147
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2641, page=4, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page4 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page4 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page4 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [148
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2703, page=5, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page5 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page5 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page5 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [149
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2709, page=6, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page6 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page6 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page6 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [150
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2749, page=7, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page7 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page7 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page7 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [151
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2775, page=8, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page8 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page8 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page8 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [152
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2792, page=9, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page9 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page9 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page9 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [153
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2797, page=10, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page10 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page10 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page10 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [154
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2802, page=11, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page11 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page11 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page11 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [155
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2807, page=12, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page12 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page12 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page12 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [156
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2812, page=13, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page13 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page13 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page13 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [157
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2818, page=14, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page14 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page14 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page14 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [158
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2823, page=15, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 15>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page15 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 15>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page15 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 15>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page15 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [159
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2828, page=16, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 16>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page16 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 16>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page16 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 16>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page16 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [160
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2833, page=17, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 17>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page17 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 17>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page17 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 17>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page17 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [161
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2838, page=18, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 18>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page18 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 18>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page18 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 18>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page18 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [162
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2843, page=19, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 19>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page19 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 19>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page19 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 19>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page19 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [163
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2849, page=20, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 20>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page20 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 20>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page20 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, page 20>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf , page20 used on input line 11.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [164
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=2854, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf  used on input line 13.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=2856, page=1, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 500.77129pt x 708.23584pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [165
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=2890, page=2, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [166
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=2928, page=3, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [167
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=2955, page=4, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page4 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page4 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page4 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [168
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=2964, page=5, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page5 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page5 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page5 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [169
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=2985, page=6, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page6 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page6 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 6>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page6 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [170
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=2990, page=7, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page7 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page7 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 7>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page7 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [171
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=3002, page=8, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page8 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page8 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 8>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page8 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [172
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=3010, page=9, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page9 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page9 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 9>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page9 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [173
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=3018, page=10, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page10 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page10 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 10>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page10 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [174
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=3028, page=11, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page11 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page11 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 11>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page11 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [175
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=3039, page=12, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page12 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page12 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 12>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page12 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [176
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=3065, page=13, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page13 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page13 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 13>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page13 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [177
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=3071, page=14, 597.50829pt x 845.0471pt>
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page14 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page14 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, page 14>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf , page14 used on input line 13.
+(pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
+ [178
+
+ <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3080, page=1, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 1>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 500.77129pt x 667.69705pt.
+
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 18--19
+[] 
+ []
+
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3081, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf  used on input line 20.
+(pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3083, page=2, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 500.77129pt x 667.69705pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+[179 <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 2>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page2 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+ [180
+
+ <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3158, page=3, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 3>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page3 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+ [181
+
+ <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3167, page=4, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page4 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page4 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 4>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page4 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+ [182
+
+ <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3172, page=5, 597.50829pt x 796.67737pt>
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page5 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, page 5>
+Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf , page5 used on input line 20.
+(pdftex.def)             Requested size: 714.02502pt x 952.03296pt.
+File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic file (type pdf)
+<use Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf

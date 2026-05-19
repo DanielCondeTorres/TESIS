@@ -17,4 +17,234 @@
 \newlabel{eq:taylor_backward}{{3.6}{49}{The Physics Behind Molecular Dynamics}{equation.3.6}{}}
 \newlabel{eq:verlet}{{3.7}{49}{The Physics Behind Molecular Dynamics}{equation.3.7}{}}
 \newlabel{eq:leapfrog}{{3.8}{49}{The Physics Behind Molecular Dynamics}{equation.3.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib.}}{50}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:PBCs}{{3.2}{50}{Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}The Force Field}{51}{subsection.3.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Schematic representation of the bonded interactions included in the bonded term of the potential function. \textbf  {A} depicts the bond stretching, \textbf  {B} angle bending, \textbf  {C} the torsion of a proper dihedral and \textbf  {D} the bending of an improper dihedral}}{51}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:FF_bonded}{{3.3}{51}{Schematic representation of the bonded interactions included in the bonded term of the potential function. \textbf {A} depicts the bond stretching, \textbf {B} angle bending, \textbf {C} the torsion of a proper dihedral and \textbf {D} the bending of an improper dihedral}{figure.caption.6}{}}
+\newlabel{eq:angle}{{3.12}{52}{The Force Field}{equation.3.12}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2.1}The Resolution of the Force Fields}{53}{subsubsection.3.1.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Representation of the 3D structure of a lipid (up, POPC) and a peptide (bottom, KRRIRRAKKKEKRCFKKEKR) using an AA force field (left) and its corresponding mapping into Martini CG (right).}}{54}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:AA2CG}{{3.4}{54}{Representation of the 3D structure of a lipid (up, POPC) and a peptide (bottom, KRRIRRAKKKEKRCFKKEKR) using an AA force field (left) and its corresponding mapping into Martini CG (right)}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Standard Metadynamics (MetaD)}{55}{subsection.3.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Well-Tempered Metadynamics (WTMetaD)}{55}{subsection.3.1.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Progressive evolution of a one-dimensional model potential $V(s)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}}{56}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:metad}{{3.5}{56}{Progressive evolution of a one-dimensional model potential $V(s)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.5}Thermodynamic Reweighting}{57}{subsection.3.1.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.6}Selection and Formulation of Collective Variables}{57}{subsection.3.1.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.6.1}Geometrical Framework of the Peptide--Membrane System}{57}{subsubsection.3.1.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.6.2}Distance and Insertion Depth}{57}{subsubsection.3.1.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.6.3}Peptide Orientation and Tilt Angle}{58}{subsubsection.3.1.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.6.4}Spin and Azimuthal Orientation}{58}{subsubsection.3.1.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.6.5}Physical Interpretation in Euler Angles}{59}{subsubsection.3.1.6.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.7}Dimensionality Reduction of Free Energy Surfaces}{59}{subsection.3.1.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.7.1}Computational Implementation}{60}{subsubsection.3.1.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.8}Calculation of the Standard Binding Free Energy ($\Delta G^0$)}{61}{subsection.3.1.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Statistical Methods and Error Analysis}{62}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Ensemble and Temporal Averages}{62}{subsection.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}The Autocorrelation Problem and Block Averaging}{62}{subsection.3.2.2}\protected@file@percent }
+\newlabel{eq:variance}{{3.45}{63}{The Autocorrelation Problem and Block Averaging}{equation.3.45}{}}
+\newlabel{eq:std_error_uncorrelated}{{3.46}{63}{The Autocorrelation Problem and Block Averaging}{equation.3.46}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Principal Component Analysis (PCA)}{63}{subsection.3.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}K-means Clustering}{64}{subsection.3.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Quantum Computing}{65}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Foundations of Quantum Information}{66}{subsection.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1.1}Bits vs. Qubits}{66}{subsubsection.3.3.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Multi-Qubit Systems}{67}{subsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Unitary Dynamics and Quantum Gates}{68}{subsection.3.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.1}Pauli and Rotation Gates}{68}{subsubsection.3.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.2}Two-Qubit Gates: Entanglement}{69}{subsubsection.3.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Measurement and Hardware Architectures}{69}{subsection.3.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4.1}Hardware Architectures}{70}{subsubsection.3.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Trapped Ion Architecture}{70}{paragraph*.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Superconducting Qubits}{70}{paragraph*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Photonic Quantum Computing}{70}{paragraph*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}Connection to Quantum Circuits}{70}{subsection.3.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.6}Parameterized Quantum Circuits (Ansatz)}{71}{subsection.3.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.7}Expectation Values and Cost Functions}{71}{subsection.3.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.8}Variational Optimization Loop}{72}{subsection.3.3.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.9}The Variational Paradigm and Hamiltonian Representation}{72}{subsection.3.3.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Quantum Software Ecosystem}{72}{paragraph*.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.9.1}The Pauli Basis and Operator Mapping}{73}{subsubsection.3.3.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.9.2}Variational Quantum Eigensolver (VQE)}{73}{subsubsection.3.3.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{The Variational Principle}{73}{paragraph*.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Hardware-Efficient and Heuristic Ansätze}{74}{paragraph*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{The Hybrid Optimization Loop}{74}{paragraph*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.10}Quadratic Unconstrained Binary Optimization (QUBO)}{74}{subsection.3.3.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.10.1}Handling Constraints via Penalty Terms}{75}{subsubsection.3.3.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.11}The Quantum Approximate Optimization Algorithm (QAOA)}{75}{subsection.3.3.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.11.1}From the Quantum Adiabatic Algorithm to the QAOA}{75}{subsubsection.3.3.11.1}\protected@file@percent }
+\newlabel{eq:trotter1}{{3.80}{76}{From the Quantum Adiabatic Algorithm to the QAOA}{equation.3.80}{}}
+\newlabel{eq:trotter2}{{3.82}{77}{From the Quantum Adiabatic Algorithm to the QAOA}{equation.3.82}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.11.2}QAOA State Preparation and Circuit Ansatz}{77}{subsubsection.3.3.11.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.11.3}Expectation Value, Optimization Loop, and MaxCut}{77}{subsubsection.3.3.11.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.11.4}Adiabatic Limit and Approximation Ratio}{78}{subsubsection.3.3.11.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.12}Optimization Algorithms for Hybrid Workflows}{79}{subsection.3.3.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.12.1}Constrained Optimization BY Linear Approximations (COBYLA)}{79}{subsubsection.3.3.12.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.12.2}Differential Evolution (DE)}{79}{subsubsection.3.3.12.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.13}Challenges and Noise Mitigation in the NISQ Era}{80}{subsection.3.3.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.13.1}Decoherence and Gate Errors}{80}{subsubsection.3.3.13.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.13.2}Error Mitigation Techniques}{80}{subsubsection.3.3.13.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces \textbf  {Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb  {R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi , \theta , \phi )$, corresponding to the Euler angles. The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta $ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi $ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi $ represents the internal rotation of the helix about its longitudinal axis $\mathbf  {\hat  {n}}$. Assuming an infinite, homogeneous, and isotropic membrane in the $XY$ plane, the system exhibits translational symmetry along $X$ and $Y$, as well as rotational symmetry around the $Z$-axis. Consequently, the potential energy of the system is independent of $x, y$, and $\psi $ (ignorable coordinates), effectively reducing the configurational study to the three biologically relevant degrees of freedom: insertion depth ($z$), tilt ($\theta $), and internal rotation ($\phi $).}}{82}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:eulers_angles}{{3.6}{82}{\textbf {Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb {R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi , \theta , \phi )$, corresponding to the Euler angles. The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta $ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi $ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi $ represents the internal rotation of the helix about its longitudinal axis $\mathbf {\hat {n}}$. Assuming an infinite, homogeneous, and isotropic membrane in the $XY$ plane, the system exhibits translational symmetry along $X$ and $Y$, as well as rotational symmetry around the $Z$-axis. Consequently, the potential energy of the system is independent of $x, y$, and $\psi $ (ignorable coordinates), effectively reducing the configurational study to the three biologically relevant degrees of freedom: insertion depth ($z$), tilt ($\theta $), and internal rotation ($\phi $)}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces The Bloch Sphere representation of a single qubit state. The angles $\theta $ and $\phi $ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle , |1\rangle $) and the X and Y axes represent the real and imaginary components of the superposition.}}{83}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:bloch_sphere}{{3.7}{83}{The Bloch Sphere representation of a single qubit state. The angles $\theta $ and $\phi $ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle , |1\rangle $) and the X and Y axes represent the real and imaginary components of the superposition}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic representation of the Variational Quantum Eigensolver (VQE) hybrid architecture. The process illustrates the iterative feedback loop between the Quantum Processing Unit (QPU), responsible for state preparation and measurement, and the Classical Processing Unit (CPU), which executes the optimization algorithm to update the variational parameters $\boldsymbol  {\theta }$.}}{83}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:VQE_loop}{{3.8}{83}{Schematic representation of the Variational Quantum Eigensolver (VQE) hybrid architecture. The process illustrates the iterative feedback loop between the Quantum Processing Unit (QPU), responsible for state preparation and measurement, and the Classical Processing Unit (CPU), which executes the optimization algorithm to update the variational parameters $\boldsymbol {\theta }$}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic representation of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition $|+\rangle ^{\otimes N}$, followed by alternating layers of the cost unitary $e^{-i\gamma _k \hat  {H}_C}$ and the mixer unitary $e^{-i\beta _k \hat  {H}_B}$. Finally, the state is measured in the computational basis.}}{84}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:QAOA_circ}{{3.9}{84}{Schematic representation of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition $|+\rangle ^{\otimes N}$, followed by alternating layers of the cost unitary $e^{-i\gamma _k \hat {H}_C}$ and the mixer unitary $e^{-i\beta _k \hat {H}_B}$. Finally, the state is measured in the computational basis}{figure.caption.19}{}}
+\@setckpt{General_Sections/Methods}{
+\setcounter{page}{85}
+\setcounter{equation}{87}
+\setcounter{enumi}{3}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{3}
+\setcounter{subsection}{13}
+\setcounter{subsubsection}{2}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{9}
+\setcounter{table}{0}
+\setcounter{svg@param@lastpage}{0}
+\setcounter{svg@param@currpage}{-1}
+\setcounter{caption@flags}{2}
+\setcounter{continuedfloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{AM@survey}{0}
+\setcounter{tabx@nest}{0}
+\setcounter{listtotal}{0}
+\setcounter{listcount}{0}
+\setcounter{liststart}{0}
+\setcounter{liststop}{0}
+\setcounter{citecount}{0}
+\setcounter{citetotal}{0}
+\setcounter{multicitecount}{0}
+\setcounter{multicitetotal}{0}
+\setcounter{instcount}{125}
+\setcounter{maxnames}{2}
+\setcounter{minnames}{1}
+\setcounter{maxitems}{3}
+\setcounter{minitems}{1}
+\setcounter{citecounter}{0}
+\setcounter{maxcitecounter}{0}
+\setcounter{savedcitecounter}{0}
+\setcounter{uniquelist}{0}
+\setcounter{uniquename}{0}
+\setcounter{refsection}{0}
+\setcounter{refsegment}{0}
+\setcounter{maxextratitle}{0}
+\setcounter{maxextratitleyear}{0}
+\setcounter{maxextraname}{3}
+\setcounter{maxextradate}{0}
+\setcounter{maxextraalpha}{0}
+\setcounter{abbrvpenalty}{50}
+\setcounter{highnamepenalty}{50}
+\setcounter{lownamepenalty}{25}
+\setcounter{maxparens}{3}
+\setcounter{parenlevel}{0}
+\setcounter{blx@maxsection}{0}
+\setcounter{mincomprange}{10}
+\setcounter{maxcomprange}{100000}
+\setcounter{mincompwidth}{1}
+\setcounter{afterword}{0}
+\setcounter{savedafterword}{0}
+\setcounter{annotator}{0}
+\setcounter{savedannotator}{0}
+\setcounter{author}{0}
+\setcounter{savedauthor}{0}
+\setcounter{bookauthor}{0}
+\setcounter{savedbookauthor}{0}
+\setcounter{commentator}{0}
+\setcounter{savedcommentator}{0}
+\setcounter{editor}{0}
+\setcounter{savededitor}{0}
+\setcounter{editora}{0}
+\setcounter{savededitora}{0}
+\setcounter{editorb}{0}
+\setcounter{savededitorb}{0}
+\setcounter{editorc}{0}
+\setcounter{savededitorc}{0}
+\setcounter{foreword}{0}
+\setcounter{savedforeword}{0}
+\setcounter{holder}{0}
+\setcounter{savedholder}{0}
+\setcounter{introduction}{0}
+\setcounter{savedintroduction}{0}
+\setcounter{namea}{0}
+\setcounter{savednamea}{0}
+\setcounter{nameb}{0}
+\setcounter{savednameb}{0}
+\setcounter{namec}{0}
+\setcounter{savednamec}{0}
+\setcounter{translator}{0}
+\setcounter{savedtranslator}{0}
+\setcounter{shortauthor}{0}
+\setcounter{savedshortauthor}{0}
+\setcounter{shorteditor}{0}
+\setcounter{savedshorteditor}{0}
+\setcounter{labelname}{0}
+\setcounter{savedlabelname}{0}
+\setcounter{institution}{0}
+\setcounter{savedinstitution}{0}
+\setcounter{lista}{0}
+\setcounter{savedlista}{0}
+\setcounter{listb}{0}
+\setcounter{savedlistb}{0}
+\setcounter{listc}{0}
+\setcounter{savedlistc}{0}
+\setcounter{listd}{0}
+\setcounter{savedlistd}{0}
+\setcounter{liste}{0}
+\setcounter{savedliste}{0}
+\setcounter{listf}{0}
+\setcounter{savedlistf}{0}
+\setcounter{location}{0}
+\setcounter{savedlocation}{0}
+\setcounter{organization}{0}
+\setcounter{savedorganization}{0}
+\setcounter{origlocation}{0}
+\setcounter{savedoriglocation}{0}
+\setcounter{origpublisher}{0}
+\setcounter{savedorigpublisher}{0}
+\setcounter{publisher}{0}
+\setcounter{savedpublisher}{0}
+\setcounter{language}{0}
+\setcounter{savedlanguage}{0}
+\setcounter{origlanguage}{0}
+\setcounter{savedoriglanguage}{0}
+\setcounter{pageref}{0}
+\setcounter{savedpageref}{0}
+\setcounter{textcitecount}{0}
+\setcounter{textcitetotal}{0}
+\setcounter{textcitemaxnames}{0}
+\setcounter{biburlbigbreakpenalty}{100}
+\setcounter{biburlbreakpenalty}{200}
+\setcounter{biburlnumpenalty}{0}
+\setcounter{biburlucpenalty}{0}
+\setcounter{biburllcpenalty}{0}
+\setcounter{smartand}{1}
+\setcounter{bbx:relatedcount}{0}
+\setcounter{bbx:relatedtotal}{0}
+\setcounter{cbx@tempcnta}{0}
+\setcounter{cbx@tempcntb}{71}
+\setcounter{cbx@tempcntc}{0}
+\setcounter{cbx@tempcntd}{-1}
+\setcounter{lofdepth}{1}
+\setcounter{lotdepth}{1}
+\setcounter{parentequation}{0}
+\setcounter{dummy}{0}
+\setcounter{aaa}{0}
+\setcounter{wirenumberpermute}{0}
+\setcounter{float@type}{4}
+\setcounter{section@level}{0}
+\setcounter{Item}{23}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{81}
+}
