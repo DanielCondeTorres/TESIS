@@ -1538,6 +1538,310 @@
       \verb https://doi.org/10.1038/nrmicro1839
       \endverb
     \endentry
+    \entry{cancer_bilayer_1}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4441273a7f8ad69dc303a6a0d58026f7}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={Toshihide},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c75d2affd65e43e076b07bb14436f8b8}{%
+           family={Menon},
+           familyi={M\bibinitperiod},
+           given={Anant\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{381189647b34965fe01644a9cdf9f9e3}
+      \strng{fullhash}{381189647b34965fe01644a9cdf9f9e3}
+      \strng{fullhashraw}{381189647b34965fe01644a9cdf9f9e3}
+      \strng{bibnamehash}{381189647b34965fe01644a9cdf9f9e3}
+      \strng{authorbibnamehash}{381189647b34965fe01644a9cdf9f9e3}
+      \strng{authornamehash}{381189647b34965fe01644a9cdf9f9e3}
+      \strng{authorfullhash}{381189647b34965fe01644a9cdf9f9e3}
+      \strng{authorfullhashraw}{381189647b34965fe01644a9cdf9f9e3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{8}
+      \field{title}{Transbilayer lipid asymmetry}
+      \field{volume}{28}
+      \field{year}{2018}
+      \field{pages}{R386\bibrangedash R391}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cub.2018.01.007
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.cub.2018.01.007
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.cub.2018.01.007
+      \endverb
+    \endentry
+    \entry{cancer_bilayer_2}{article}{}{}
+      \name{author}{16}{}{%
+        {{hash=6c14f549dc996fb600b43a0d7b03d870}{%
+           family={Birge},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=5a46b02ef63f21bd938371745087f5fe}{%
+           family={Boeltz},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a545bd13ef1e9c1672bfb284155fc1ad}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=13e31c4b7edd970d4d655aeeaf5a74bf}{%
+           family={Carlson},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a08a46725112e0973c34bf6e1f717b24}{%
+           family={Wanderley},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=30dc47a103132429d21626392cd8a721}{%
+           family={Calianese},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=263fdf83e0d84815e9fd37566a56a913}{%
+           family={Barcinski},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ad5d29e4a3d3d4463296075df173e022}{%
+           family={Brekken},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bf1afb45a50313a87b61c9f7a08f8989}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4e4f66ec3f53b671617728642a5c4563}{%
+           family={Hutchins},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=5d078f706f2296c27dfcdc7bd6f82ad2}{%
+           family={Freimark},
+           familyi={F\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3ef80fa1c1f6497d02816ec393f96e33}{%
+           family={Empig},
+           familyi={E\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f66be3bf5692fc5bf2cce961d32f484e}{%
+           family={Mercer},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e3fb84b1dcf1b020f292711015476379}{%
+           family={Schroit},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e54788e0ba58152e3d8a3da0b79740af}{%
+           family={Schett},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=fbe4efa1838234c832b4c3f0d32b7d10}{%
+           family={Herrmann},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9da73ff6e2baa8548afb2c901f4b573}
+      \strng{fullhash}{23a535b29d621eb68e60199e031bdbd3}
+      \strng{fullhashraw}{23a535b29d621eb68e60199e031bdbd3}
+      \strng{bibnamehash}{c9da73ff6e2baa8548afb2c901f4b573}
+      \strng{authorbibnamehash}{c9da73ff6e2baa8548afb2c901f4b573}
+      \strng{authornamehash}{c9da73ff6e2baa8548afb2c901f4b573}
+      \strng{authorfullhash}{23a535b29d621eb68e60199e031bdbd3}
+      \strng{authorfullhashraw}{23a535b29d621eb68e60199e031bdbd3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-5403}
+      \field{journaltitle}{Cell Death \& Differentiation}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Phosphatidylserine is a global immunosuppressive signal in efferocytosis, infectious disease, and cancer}
+      \field{volume}{23}
+      \field{year}{2016}
+      \field{pages}{962\bibrangedash 978}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1038/cdd.2016.11
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/cdd.2016.11
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/cdd.2016.11
+      \endverb
+    \endentry
+    \entry{cancer_bilayer_3}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=75f25bc7de8cd28a7e0f58dcad509fd0}{%
+           family={Kur},
+           familyi={K\bibinitperiod},
+           given={Ivan-Maximiliano},
+           giveni={I\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=731700785f8f0a2acaf7f8f12eef405d}{%
+           family={Weigert},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d243d7deb8010bebba7fc5cc55519c77}
+      \strng{fullhash}{d243d7deb8010bebba7fc5cc55519c77}
+      \strng{fullhashraw}{d243d7deb8010bebba7fc5cc55519c77}
+      \strng{bibnamehash}{d243d7deb8010bebba7fc5cc55519c77}
+      \strng{authorbibnamehash}{d243d7deb8010bebba7fc5cc55519c77}
+      \strng{authornamehash}{d243d7deb8010bebba7fc5cc55519c77}
+      \strng{authorfullhash}{d243d7deb8010bebba7fc5cc55519c77}
+      \strng{authorfullhashraw}{d243d7deb8010bebba7fc5cc55519c77}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-2013}
+      \field{journaltitle}{Pflügers Archiv - European Journal of Physiology}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Phosphatidylserine externalization as immune checkpoint in cancer}
+      \field{volume}{476}
+      \field{year}{2024}
+      \field{pages}{1789\bibrangedash 1802}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s00424-024-02948-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00424-024-02948-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00424-024-02948-7
+      \endverb
+    \endentry
+    \entry{cancer_bilayer_4}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=6fb1f62d9c1ecc2401af20539820d593}{%
+           family={Szlasa},
+           familyi={S\bibinitperiod},
+           given={Wojciech},
+           giveni={W\bibinitperiod}}}%
+        {{hash=2c422447132bfdcf5abf21c0d550ef19}{%
+           family={Zendran},
+           familyi={Z\bibinitperiod},
+           given={Iga},
+           giveni={I\bibinitperiod}}}%
+        {{hash=af84810da4d345a403c7d5a4ca66306f}{%
+           family={Zalesiñska},
+           familyi={Z\bibinitperiod},
+           given={Aleksandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8890d0f6b1dd5957583476c0e02ecdec}{%
+           family={Tarek},
+           familyi={T\bibinitperiod},
+           given={Mounir},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd14062a52f0ab7774798b1f1f1b2b93}{%
+           family={Kulbacka},
+           familyi={K\bibinitperiod},
+           given={Julita},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2dff3d90997705623b35c1dc76e9bc2}
+      \strng{fullhash}{cb84637151147a4f610363559cc60bd7}
+      \strng{fullhashraw}{cb84637151147a4f610363559cc60bd7}
+      \strng{bibnamehash}{cb84637151147a4f610363559cc60bd7}
+      \strng{authorbibnamehash}{cb84637151147a4f610363559cc60bd7}
+      \strng{authornamehash}{f2dff3d90997705623b35c1dc76e9bc2}
+      \strng{authorfullhash}{cb84637151147a4f610363559cc60bd7}
+      \strng{authorfullhashraw}{cb84637151147a4f610363559cc60bd7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1573-6881}
+      \field{journaltitle}{Journal of Bioenergetics and Biomembranes}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Lipid composition of the cancer cell membrane}
+      \field{volume}{52}
+      \field{year}{2020}
+      \field{pages}{321\bibrangedash 342}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s10863-020-09846-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10863-020-09846-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10863-020-09846-4
+      \endverb
+    \endentry
+    \entry{membrane_therapy}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a6b48b83df0a4c0f01da0c87ff9ba545}{%
+           family={Escribá},
+           familyi={E\bibinitperiod},
+           given={Pablo\bibnamedelima V.},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a6b48b83df0a4c0f01da0c87ff9ba545}
+      \strng{fullhash}{a6b48b83df0a4c0f01da0c87ff9ba545}
+      \strng{fullhashraw}{a6b48b83df0a4c0f01da0c87ff9ba545}
+      \strng{bibnamehash}{a6b48b83df0a4c0f01da0c87ff9ba545}
+      \strng{authorbibnamehash}{a6b48b83df0a4c0f01da0c87ff9ba545}
+      \strng{authornamehash}{a6b48b83df0a4c0f01da0c87ff9ba545}
+      \strng{authorfullhash}{a6b48b83df0a4c0f01da0c87ff9ba545}
+      \strng{authorfullhashraw}{a6b48b83df0a4c0f01da0c87ff9ba545}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although most drugs bind to proteins and regulate their activity, some drugs act through a new therapeutic approach called membrane-lipid therapy and bind to lipids, thus modulating the structure of membranes. Most cellular functions are highly dependent on the lipid environment because they are controlled by proteins in or around membranes. The wide variety of cell and organelle membranes and the existence of special lipid regions (e.g. microvilli) and domains (e.g. lipid rafts) support the possibility of designing specific lipid therapies. Indeed, recent evidence suggests that lipid therapy might have potential for the treatment of cancer, cardiovascular pathologies, neurodegenerative processes, obesity, metabolic disorders, inflammation, and infectious and autoimmune diseases.}
+      \field{issn}{1471-4914}
+      \field{journaltitle}{Trends in Molecular Medicine}
+      \field{number}{1}
+      \field{title}{Membrane-lipid therapy: a new approach in molecular medicine}
+      \field{volume}{12}
+      \field{year}{2006}
+      \field{pages}{34\bibrangedash 43}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.molmed.2005.11.004
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.molmed.2005.11.004
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.molmed.2005.11.004
+      \endverb
+    \endentry
     \entry{Sani2015}{article}{}{}
       \name{author}{4}{}{%
         {{hash=7d504fba9f6614b4fe7ed37719507743}{%
@@ -1569,8 +1873,8 @@
       \strng{authornamehash}{aa862a1b1ea64b25612189c0d56e180e}
       \strng{authorfullhash}{41cdf574d58aea3649e337a055bd55b8}
       \strng{authorfullhashraw}{41cdf574d58aea3649e337a055bd55b8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219258}
@@ -1615,8 +1919,8 @@
       \strng{authornamehash}{213bdf5df62c74f9cf24c542b19a8033}
       \strng{authorfullhash}{9a81174d9e0640b7a7bfa9500f17e54e}
       \strng{authorfullhashraw}{9a81174d9e0640b7a7bfa9500f17e54e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0006-3002}
@@ -1658,8 +1962,8 @@
       \strng{authornamehash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhashraw}{b9a5e2c88543b957544f1ae9a5428e84}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1398-9219}
@@ -1711,8 +2015,8 @@
       \strng{authornamehash}{ec705a0562360b64e499516cf16c849c}
       \strng{authorfullhash}{4794a5f4c3ffa75672fadd0cece24907}
       \strng{authorfullhashraw}{4794a5f4c3ffa75672fadd0cece24907}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0918-6158}
@@ -1754,8 +2058,8 @@
       \strng{authornamehash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhashraw}{280c9c28b5987fd68cba3c8a67f28bee}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -2222,8 +2526,8 @@
       \strng{authornamehash}{6dbf1533bea154bc3d0894f8b78706e6}
       \strng{authorfullhash}{a8ea2bffd2691e66c627901482fc7013}
       \strng{authorfullhashraw}{a8ea2bffd2691e66c627901482fc7013}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09242244}
@@ -2279,8 +2583,8 @@
       \strng{authornamehash}{caaf4763ed72a7e7ccdbb13011b7f43e}
       \strng{authorfullhash}{6d5826eab5a0bb7c8f2d8332ce1befd8}
       \strng{authorfullhashraw}{6d5826eab5a0bb7c8f2d8332ce1befd8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1873-4294}
@@ -2336,8 +2640,8 @@
       \strng{authornamehash}{35b9195b76c35f2858eae7c1f5717fc8}
       \strng{authorfullhash}{34a88d335cad3f5552a18319387fc739}
       \strng{authorfullhashraw}{34a88d335cad3f5552a18319387fc739}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1474-1784}
@@ -2400,8 +2704,8 @@
       \strng{authornamehash}{3d7f4e2b1ad59eef98eb73a549dca42a}
       \strng{authorfullhash}{79b8b1f4d2ceb59295ddbac7482fa3a1}
       \strng{authorfullhashraw}{79b8b1f4d2ceb59295ddbac7482fa3a1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1860-7187}
@@ -2491,8 +2795,8 @@
       \strng{authorfullhash}{89edb61e81549c2c86fc43496a5f5dcb}
       \strng{authorfullhashraw}{89edb61e81549c2c86fc43496a5f5dcb}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
@@ -3078,8 +3382,8 @@
       \strng{authornamehash}{7736002ef78cbe841bec7f5ef1c9903e}
       \strng{authorfullhash}{ab73865f61e68527b824bcae9f2b3a40}
       \strng{authorfullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Reviews Microbiology}
@@ -3127,8 +3431,8 @@
       \strng{authornamehash}{c54ca204871391ccfe79291879c7ad7a}
       \strng{authorfullhash}{3c16f5a945563f024e1ecfea362890e4}
       \strng{authorfullhashraw}{3c16f5a945563f024e1ecfea362890e4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2474-0896}
@@ -3202,8 +3506,8 @@
       \strng{authorfullhash}{64042eb956e1dbe1684bebd3b94a4de3}
       \strng{authorfullhashraw}{64042eb956e1dbe1684bebd3b94a4de3}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are bioactive macromolecules that exhibit antibacterial, antiviral, and immunomodulatory functions. They come from a wide range of sources and are found in all forms of life, from bacteria to plants, vertebrates, and invertebrates, and play an important role in controlling the spread of pathogens, promoting wound healing and treating tumors. Consequently, AMPs have emerged as promising alternatives to next-generation antibiotics. With advancements in systems biology and synthetic biology technologies, it has become possible to synthesize AMPs artificially. We can better understand their functional activities for further modification and development by investigating the mechanism of action underlying their antimicrobial properties. This review focuses on the structural aspects of AMPs while highlighting their significance for biological activity. Furthermore, it elucidates the membrane targeting mechanism and intracellular targets of these peptides while summarizing molecular modification approaches aimed at enhancing their antibacterial efficacy. Finally, this article outlines future challenges in the functional development of AMPs along with proposed strategies to overcome them.}
@@ -3249,8 +3553,8 @@
       \strng{authornamehash}{5633e09ea4714e735a895dcfdc32d9b9}
       \strng{authorfullhash}{cec47e8b1a371f821c725fc126fa872f}
       \strng{authorfullhashraw}{cec47e8b1a371f821c725fc126fa872f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs), evolutionarily conserved components of the immune system, have attracted considerable attention as promising therapeutic candidates. Derived from diverse organisms, AMPs represent a heterogeneous class of molecules, typically cationic, which facilitates their initial electrostatic interaction with anionic microbial membranes. Unlike conventional single-target antibiotics, AMPs utilize rapid, multi-target mechanisms, primarily physical membrane disruption, which results in a significantly lower incidence of resistance emergence. Their broad-spectrum antimicrobial activity, capacity to modulate host immunity, and unique mechanisms of action make them inherently less susceptible to resistance compared with traditional antibiotics. Despite these advantages, the clinical translation of natural AMPs remains limited by several challenges, including poor in vivo stability, and potential cytotoxicity. Bioengineering technology offers innovative solutions to these limitations of AMPs. Two techniques have demonstrated promise: (i) a chimeric recombinant of AMPs with stable scaffold, such as human serum albumin and antibody Fc domain and (ii) chemical modification approaches, such as lipidation. This review provides a comprehensive overview of AMPs, highlighting their origins, structures, and mechanisms of antimicrobial activity, followed by recent advances in bioengineering platforms designed to overcome their therapeutic limitations. By integrating natural AMPs with bioengineering and nanotechnologies, AMPs may be developed into next-generation antibiotics.}
@@ -3669,8 +3973,8 @@
       \strng{authornamehash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhashraw}{b385882cc9faa1401f0fdcbf7e6ab2d7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -3721,8 +4025,8 @@
       \strng{authornamehash}{e302b9eb1e80e19fb391368e6b6a7aeb}
       \strng{authorfullhash}{526bda1a09c7ebd7f0d37dd4e7433763}
       \strng{authorfullhashraw}{526bda1a09c7ebd7f0d37dd4e7433763}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -3764,8 +4068,8 @@
       \strng{authornamehash}{c2ccd5a62111861f450f8e14a4cb8790}
       \strng{authorfullhash}{c2ccd5a62111861f450f8e14a4cb8790}
       \strng{authorfullhashraw}{c2ccd5a62111861f450f8e14a4cb8790}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -3812,8 +4116,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -3860,8 +4164,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -4623,8 +4927,8 @@
       \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum Computation and Quantum Information: 10th Anniversary Edition}
@@ -4646,8 +4950,8 @@
       \strng{authornamehash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantum}
@@ -4714,8 +5018,8 @@
       \strng{authornamehash}{bddcbb30e0909355294b8653d4787a0e}
       \strng{authorfullhash}{16fda0acd29f1276c07270659e70cdff}
       \strng{authorfullhashraw}{16fda0acd29f1276c07270659e70cdff}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature communications}
@@ -4752,8 +5056,8 @@
       \strng{authornamehash}{4678a579c5851929a69bc0b9a15a0a83}
       \strng{authorfullhash}{20254ebc49b7f7e3467958f0e39320cd}
       \strng{authorfullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:1411.4028}
@@ -5234,8 +5538,8 @@
       \strng{authornamehash}{a4b954c248c62a1efadd8e5bf9425e37}
       \strng{authorfullhash}{a4b954c248c62a1efadd8e5bf9425e37}
       \strng{authorfullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{J. Chim. Phys.}
@@ -5275,8 +5579,8 @@
       \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
       \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
       \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
@@ -5331,8 +5635,8 @@
       \strng{authornamehash}{a75e201b1b9d8cd4822deab5d26aa76e}
       \strng{authorfullhash}{8a7fd7c765a5a190bbf237cb76a72dbe}
       \strng{authorfullhashraw}{8a7fd7c765a5a190bbf237cb76a72dbe}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Modern biological science is trying to solve the fundamental complex problems of molecular biology, which include protein folding, drug discovery, simulation of macromolecular structure, genome assembly, and many more. Currently, quantum computing (QC), a rapidly emerging technology exploiting quantum mechanical phenomena, has developed to address current significant physical, chemical, biological issues, and complex questions. The present review discusses quantum computing technology and its status in solving molecular biology problems, especially in the next-generation computational biology scenario. First, the article explained the basic concept of quantum computing, the functioning of quantum systems where information is stored as qubits, and data storage capacity using quantum gates. Second, the review discussed quantum computing components, such as quantum hardware, quantum processors, and quantum annealing. At the same time, article also discussed quantum algorithms, such as the grover search algorithm and discrete and factorization algorithms. Furthermore, the article discussed the different applications of quantum computing to understand the next-generation biological problems, such as simulation and modeling of biological macromolecules, computational biology problems, data analysis in bioinformatics, protein folding, molecular biology problems, modeling of gene regulatory networks, drug discovery and development, mechano-biology, and RNA folding. Finally, the article represented different probable prospects of quantum computing in molecular biology.}
@@ -5393,8 +5697,8 @@
       \strng{authornamehash}{39f86154acf3661193a34af8391f887d}
       \strng{authorfullhash}{39047f71384a185719590ab58bd21fa8}
       \strng{authorfullhashraw}{39047f71384a185719590ab58bd21fa8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
@@ -5451,8 +5755,8 @@
       \strng{authornamehash}{46ea1c14f7caca5ff662107b48ee7a5e}
       \strng{authorfullhash}{897bc932e75e035b65080ce3033d90be}
       \strng{authorfullhashraw}{897bc932e75e035b65080ce3033d90be}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Lattice protein folding models are a cornerstone of computational biophysics. Although these models are a coarse grained representation, they provide useful insight into the energy landscape of natural proteins. Finding low-energy threedimensional structures is an intractable problem even in the simplest model, the Hydrophobic-Polar (HP) model. Description of protein-like properties are more accurately described by generalized models, such as the one proposed by Miyazawa and Jernigan (MJ), which explicitly take into account the unique interactions among all 20 amino acids. There is theoretical and experimental evidence of the advantage of solving classical optimization problems using quantum annealing over its classical analogue (simulated annealing). In this report, we present a benchmark implementation of quantum annealing for lattice protein folding problems (six different experiments up to 81 superconducting quantum bits). This first implementation of a biophysical problem paves the way towards studying optimization problems in biophysics and statistical mechanics using quantum devices.}
@@ -5850,8 +6154,8 @@
       \strng{authornamehash}{ccf95cf519bf8915ba463e2d5ab0ecfb}
       \strng{authorfullhash}{ccf95cf519bf8915ba463e2d5ab0ecfb}
       \strng{authorfullhashraw}{ccf95cf519bf8915ba463e2d5ab0ecfb}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780367806934}
@@ -5911,8 +6215,8 @@
       \strng{authornamehash}{ac235143ded00ddbeff1f76cd807c462}
       \strng{authorfullhash}{887f1fb89db0fceed035049d60f6579a}
       \strng{authorfullhashraw}{887f1fb89db0fceed035049d60f6579a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -5959,8 +6263,8 @@
       \strng{authornamehash}{487ead3276f058022968b985eeac43fd}
       \strng{authorfullhash}{487ead3276f058022968b985eeac43fd}
       \strng{authorfullhashraw}{487ead3276f058022968b985eeac43fd}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10897690}
@@ -6002,8 +6306,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -6527,8 +6831,8 @@
       \strng{authornamehash}{d58510549f29b1830a6d36bff7d0ed44}
       \strng{authorfullhash}{63c06dde09fe87d49cc566750026292e}
       \strng{authorfullhashraw}{63c06dde09fe87d49cc566750026292e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -6592,8 +6896,8 @@
       \strng{authornamehash}{98acdb6f230e7bbbacd3034b30732d14}
       \strng{authorfullhash}{e8e98603db210ec3157d1f3f3de63a21}
       \strng{authorfullhashraw}{e8e98603db210ec3157d1f3f3de63a21}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1520-6106}
@@ -6641,8 +6945,8 @@
       \strng{authornamehash}{f0d9eb0c75c6324707b3e9df32efc9ed}
       \strng{authorfullhash}{8a952f40db7ce1b8cbc15e7392ef31db}
       \strng{authorfullhashraw}{8a952f40db7ce1b8cbc15e7392ef31db}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0192-8651}
@@ -6688,8 +6992,8 @@
       \strng{authornamehash}{9e6fb99beaf19bbcb460241234b58a69}
       \strng{authorfullhash}{9e6fb99beaf19bbcb460241234b58a69}
       \strng{authorfullhashraw}{9e6fb99beaf19bbcb460241234b58a69}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0027-8424}
@@ -6928,8 +7232,8 @@
       \strng{authorfullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
       \strng{authorfullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
