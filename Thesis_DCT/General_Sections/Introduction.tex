@@ -18,15 +18,15 @@ To understand how Antimicrobial Peptides (AMPs) operate, we must first examine t
 
 Traditional pharmacology has historically relied on antibiotics that bind to specific protein receptors or inhibit metabolic pathways \cite{Lohner2009}. While this high specificity can be effective, it also represents a strategic limitation, as microorganisms can rapidly bypass these effects through point mutations or adaptive metabolic shifts, leading to the emergence of resistance. Consequently, there is a critical need for antimicrobial agents that target more fundamental and less mutable molecular features \cite{Ahmed2024}.
 
-The lipid composition of cellular membranes represents a promising target in this context, as it plays a central role in the physiology and pathology of diverse cell types, ranging from bacteria to mammalian cells, including cancer cells. In healthy mammalian cells, the cytoplasmic membrane exhibits asymmetry: the outer leaflet is enriched in phosphatidylcholine (PC), cholesterol, and sphingomyelin, while the inner leaflet primarily contains phosphatidylethanolamine (PE) and phosphatidylserine (PS)\cite{bilayer_asimetry_1}. This asymmetry generates a neutral external surface and a negatively charged internal surface, facilitating electrostatic interactions with cytoplasmic proteins and contributing to membrane stability and fluidity, a property further modulated by cholesterol\cite{bilayer_asimetry_2,bilayer_asimetry_3}.
+The lipid composition of cellular membranes represents a promising target in this context, as it plays a central role in the physiology and pathology of diverse cell types, ranging from bacteria to mammalian cells, including cancer cells. The differences in lipidic composition open the possibility of exploiting the lipidic composition as a molecular target \cite{Sani2015}. In healthy mammalian cells, the cytoplasmic membrane exhibits asymmetry\cite{Ikeda2006}: the outer leaflet is enriched in phosphatidylcholine (PC), cholesterol, and sphingomyelin, while the inner leaflet primarily contains phosphatidylethanolamine (PE) and phosphatidylserine (PS)\cite{bilayer_asimetry_1}. This asymmetry generates a neutral external surface and a negatively charged internal surface, facilitating electrostatic interactions with cytoplasmic proteins and contributing to membrane stability and fluidity, a property further modulated by cholesterol\cite{bilayer_asimetry_2,bilayer_asimetry_3}.
 
-Bacterial membranes, in contrast, display markedly different lipid compositions that vary across species. For example, in Gram-negative bacteria such as \textit{Escherichia coli}, the cytoplasmic membrane is predominantly composed of PE ($\approx$75\%), PG ($\approx$20\%), and a smaller fraction of cardiolipin\cite{bacterial_bilayer_1,bacterial_bilayer_2}, contrasting sharply with mammalian membranes. These differences define the bilayer structure and influence essential processes such as molecular transport and signaling\cite{bacterial_bilayer_3}. Furthermore, the relative proportions of bacterial membrane lipids can change during the cell cycle, enabling adaptation to environmental stressors\cite{bacteria_bilayer_4}.
+Bacterial membranes, in contrast, display markedly different lipid compositions that vary across species. For example, in Gram-negative bacteria such as \textit{Escherichia coli}, the cytoplasmic membrane is predominantly composed of PE ($\approx$75\%), PG ($\approx$20\%), and a smaller fraction of cardiolipin\cite{bacterial_bilayer_1,bacterial_bilayer_2,Geiger2013,Vance2015}, contrasting sharply with mammalian membranes. These differences define the bilayer structure and influence essential processes such as molecular transport and signaling\cite{bacterial_bilayer_3}. Furthermore, the relative proportions of bacterial membrane lipids can change during the cell cycle, enabling adaptation to environmental stressors\cite{bacteria_bilayer_4}.
 
 Cancer cells also exhibit distinctive alterations in membrane lipid composition that facilitate tumor progression and immune evasion. A key feature is the abnormal external exposure of PS, which in healthy cells signals macrophages to engulf apoptotic cells\cite{cancer_bilayer_1}. In cancer cells, however, this external PS acts as a protective mechanism by inhibiting immune responses\cite{cancer_bilayer_2,cancer_bilayer_3}. Reduced cholesterol levels in cancer membranes further increase fluidity, enhancing cellular motility and promoting metastasis\cite{cancer_bilayer_4}.
 
 
 
-These observations highlight that the lipid composition of membranes is not only a fundamental determinant of cell function but also a promising target for therapeutic intervention. By focusing on membrane lipids, it may be possible to develop selective antimicrobial or anticancer strategies that act on structural features less susceptible to rapid resistance, offering an advantage over conventional drugs that target specific proteins or metabolic pathways\cite{membrane_therapy}.
+These observations highlight that the lipid composition of membranes is not only a fundamental determinant of cell function but also a promising target for therapeutic intervention. By focusing on membrane lipids, it may be possible to develop selective antimicrobial or anticancer strategies that act on structural features less susceptible to rapid resistance, offering an advantage over conventional drugs that target specific proteins or metabolic pathways\cite{membrane_therapy}. This shift away from volatile protein receptors is precisely where contemporary lipidomics provides its greatest value, unveiling the cell membrane not as a static perimeter, but as a complex, tightly regulated system \cite{lipidomics_1,lipidomics_2}. While these cellular boundaries diverge from healthy eukaryotic tissues across multiple morphological and organizational levels \cite{bacterial_bilayer_1,bacterial_bilayer_2, cancer_bilayer_1,cancer_bilayer_2,cancer_bilayer_3,cancer_bilayer_4}, it is this precise variation in lipid composition that offers a uniquely tractable basis for engineering highly selective antimicrobial and anticancer strategies \cite{lipidomics_4}.
 
 
 
@@ -39,10 +39,6 @@ These observations highlight that the lipid composition of membranes is not only
 
 
 
-
-
-
-Conventional antibiotics, in general, exert their activity by binding to specific receptors, inhibiting the proliferation of microorganisms \cite{Lohner2009}. Because these targets can often evade antibiotic action through mutational or adaptive mechanisms, resistance readily emerges. Therefore, the development of new antimicrobial agents and therapies that aim at novel molecular candidates is a crucial aspect of this field \cite{Ahmed2024}. In this context, advances in lipidomics have revealed the bacterial membrane as a complex and tightly regulated system. Although bacterial membranes differ from eukaryotic ones at multiple levels, including overall organization and morphology, differences in lipid composition provide a particularly tractable basis for selective antimicrobial strategies. The differences in lipidic composition between eukaryotic and bacterial membranes open the possibility of exploiting the lipidic composition as a molecular target \cite{Sani2015}. While eukaryotic cell membranes are mainly formed by phosphatidylcholine (PC), representing 50\% of the lipids, and phosphatidylserine (PS), particularly abundant in the inner leaflet, the most abundant lipids in bacteria are phosphatidylglycerol (PG) and phosphatidylethanolamine (PE) \cite{Geiger2013,Vance2015}. As can be seen in Figure \ref{fig:Lipids}, PG and PS are anionic polar heads, whereas PC and PE carry zero net charge. The asymmetric lipid distribution in eukaryotic membranes results in a neutral surface charge \cite{Ikeda2006}, whereas bacterial membranes are generally negatively charged due to the presence of PG. Therefore, molecules that can be attracted by this negative charge can be good candidates to use bacteria lipid composition as molecular target.
 \FloatBarrier
 \begin{figure}[h]
     \centering
@@ -54,13 +50,38 @@ Conventional antibiotics, in general, exert their activity by binding to specifi
 
 In the search for new antimicrobial strategies, nature provides an important source of inspiration. As part of their innate immune systems, many animals and plants produce antimicrobial peptides (AMPs) across a variety of tissues and cell types \cite{Zasloff2002}. These peptides have attracted particular interest due to their ability to exploit fundamental physicochemical differences between bacterial and eukaryotic membranes, and are often hypothesized to interact preferentially with membrane compositions enriched in negatively charged lipids\cite{Midura-Nowaczek2014}.
 
-\section{Antimicrobial Peptides}
-Antimicrobial Peptides are a class of small peptides that are widely found in nature. They exhibit structural and functional diversity and are active against Gram-positive and Gram-negative bacteria, fungi, parasites, and viruses \cite{Hancock2006,Kumar2018}. AMPs typically consist of 10 to 60 amino acids, and almost all AMPs are cationic, although several anionic AMPs have been reported, with up to 187 entries listed in the antimicrobial peptide database APD3 as of December 2024 \cite{Wang2016}. The diversity of AMPs makes their classification difficult, which can be based on: source, activity, structural characteristics, and amino acid-rich species (Figure \ref{fig:AMPClass})\cite{Huan2020}.
+\section{The Global Crisis of Antimicrobial Resistance}
+
+The exponential rise of antimicrobial resistance (AMR) poses one of the most critical public health and economic threats of the 21st century \cite{salam2023antimicrobial}. With traditional antibiotics losing their efficacy due to the rapid mutation and adaptation of pathogens, the discovery and optimization of novel therapeutic agents is urgently required \cite{macnair2024alternative}. Indeed, it is estimated that by 2050, more than 10 million deaths annually will be associated with AMR if current trends continue \cite{Tang2023}.
+
+To address this impending clinical crisis, research has pivoted toward ancient host-defense mechanisms, among which Antimicrobial Peptides (AMPs) have garnered immense attention. AMPs are ancient, evolutionarily conserved effector molecules of the innate immune system found across all domains of life, from bacteria and fungi to plants and mammals \cite{Hancock2006, Kumar2018, fermentation10110540, microorganisms13112574}. Unlike conventional small-molecule antibiotics, which typically target highly specific enzymatic pathways, AMPs employ rapid, physically driven, and multi-target mechanisms—primarily driven by biophysical membrane disruption—that significantly diminish the likelihood of bacteria developing mutational resistance \cite{microorganisms13112574, 10.3389/fmicb.2020.582779}.
+
+Structurally, these peptides represent a highly diverse class of small biomolecules, typically consisting of 10 to 60 amino acids. While the vast majority are inherently cationic to facilitate electrostatic recruitment toward the anionic surfaces of microbial envelopes, several anionic AMPs have also been reported, with up to 187 entries listed in the Antimicrobial Peptide Database (APD3) as of December 2024 \cite{Wang2016}. This extensive structural and functional diversity makes a unified classification challenging; nevertheless, they are broadly categorized based on their biological source, spectrum of activity, conformation, or amino acid-rich motifs (Figure \ref{fig:AMPClass}) \cite{Huan2020}.
+
 % \FloatBarrier
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/AMP_Classification.jpg}
-    \caption{Classification of Antimicrobial Peptides. Image taken from the work of Huan, Y. \textit{et al} under a Creative Commons License.}
+    \begin{subfigure}[b]{0.32\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{General_Sections/Figures/AMPs/pleurocidin.pdf}
+        \caption{$\alpha$-helical: pleurocidin}
+        \label{fig:AMP_alpha}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{General_Sections/Figures/AMPs/thanatin.pdf}
+        \caption{$\beta$-sheet: thanatin}
+        \label{fig:AMP_beta}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.32\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{General_Sections/Figures/AMPs/indolicidin.pdf}
+        \caption{Others: indolicidin}
+        \label{fig:AMP_other}
+    \end{subfigure}
+    \caption{Structure of antimicrobial peptides. AMPs are typically present four main types of structure: (a) $\alpha$-helical, pleurocidin [PDB ID: 1Z64]\cite{1z64}, (b) $\beta$-sheet, thanatin [PDB ID: 9ILX]\cite{9ILX}, (c) others, indolicidin [PDB ID: 1G89]\cite{1g89}. Structures were obtained from the RCSB Protein Data Bank\cite{PDB} and visualized using VMD (Visual Molecular Dynamics)\cite{VMD} colored by residue type: apolar/hydrophobic (white), cationic (blue), and polar neutral (green).}
     \label{fig:AMPClass}
 \end{figure}
 % \FloatBarrier
@@ -69,46 +90,17 @@ Their biological activity is commonly linked to their cationic nature, which all
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.69\linewidth]{General_Sections/Figures/AMPMOA.png}
-    \caption{Indirect (non-lytic) and direct (membrane-related) mechanisms of bacterial killing proposed for AMPs. Image taken from the work of Mookherjee, N. \textit{et al}, copyright by Springer Nature.}
+    \includegraphics[width=0.69\linewidth]{General_Sections/Figures/AMPs/amp_attack.jpg}
+    \caption{Structural diversity of AMPs and their membrane-disrupting mechanisms. (A) AMPs adopt diverse structural motifs, including $\alpha$-helices (magainin), extended structures (indolicidin), $\beta$-sheets (human defensin), and mixed conformations (protegrin-1), which influence their mode of action. (B) AMPs interact with bacterial membranes through various mechanisms, including membrane adsorption, pore formation (barrel stave, toroidal pore), the carpet model, electroporation, lipid clustering, and non-lytic depolarization. Reprinted from \textit{Advances in Colloid and Interface Science}, Vol 350, Paula Antelo-Riveiro, Rebeca Garcia-Fandino, Ángel Piñeiro, ``Antimicrobial peptides at (lipid) interfaces: Insights from monolayer models'', 103775,\cite{paper_paula} Copyright (2026). This is an open access article under the CC BY 4.0 license (\url{https://creativecommons.org/licenses/by/4.0/}).}
     \label{fig:AMPMOA}
 \end{figure}
 \FloatBarrier
 
 As of its latest update in December 2024, the Data Repository of Antimicrobial Peptides (DRAMP)\cite{Ma2025} lists 35918 entries under the query "antimicrobial". Nevertheless, only a few AMPs have reached clinical trials, and just 80 peptide-based drugs have been approved worldwide\cite{Rossino2023}. A major limitation of AMPs is their metabolic instability, as they are rapidly degraded by proteolytic enzymes\cite{Dijksteel2021}. They also tend to exhibit toxicity toward host cells, which limits their therapeutic application\cite{Lyu2023}. In addition, they tend to have short half-lives and are quickly cleared from the bloodstream, which results in poor bioavailability. To overcome these limitations, various strategies have been investigated, such us incorporating non-natural amino acids and peptide cyclization to improve stability and minimize degradation\cite{Carmona2013,Lucana2021}.
 
-In this context, there are already cyclic versions of AMPs that exhibit good activity \cite{Mika2011,Abraham2014}, highlighting CPs as a promising strategy to enhance natural AMPs or to design new sequences to mimic their function.
+In this context, ... poner algo de lo que voy a hacer en la tesis???
  
 
-\section{The Global Crisis of Antimicrobial Resistance}
-The exponential rise of antimicrobial resistance (AMR) poses one of the most critical public health and economic threats of the 21st century\cite{salam2023antimicrobial}. With traditional antibiotics losing their efficacy due to the rapid mutation and adaptation of pathogens, the discovery and optimization of novel therapeutic agents is urgently required\cite{macnair2024alternative}. It is estimated that by 2050, more than 10  million deaths annually will be associated with AMR if current trends continue\cite{Tang2023}.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-In this context, antimicrobial peptides (AMPs),also known as endogenous therapeutic peptides (ETPs), have garnered immense attention. AMPs are ancient, evolutionarily conserved effector molecules of the innate immune system found across all domains of life, from bacteria and fungi to plants and mammals\cite{fermentation10110540},\cite{microorganisms13112574}. Unlike conventional small-molecule antibiotics, which typically target highly specific enzymatic pathways, AMPs employ rapid, physically driven, and multi-target mechanisms that significantly diminish the likelihood of bacteria developing mutational resistance\cite{microorganisms13112574},\cite{10.3389/fmicb.2020.582779}.
 
 \section{Physicochemical Properties and Structural Determinants}
 The biological functionality of an AMP is intrinsically linked to its primary amino acid sequence and resulting three-dimensional topology. Most native AMPs are short oligomers, typically comprising 10 to 60 amino acid residues. Their activity is governed by two main factors:
@@ -144,10 +136,9 @@ Alternatively, some peptides act via the \textbf{Carpet model}, where they accum
 
 
 \section{Limitations of Experimental Techniques}
-Characterizing the interaction between AMPs and membranes is a complex task. Common techniques include Circular Dichroism (CD) for structural estimation, Nuclear Magnetic Resonance (NMR) for atomic-level 3D structures, and Fluorescence Spectroscopy for binding kinetics. 
-
-However, these methods face significant limitations. For instance, CD provides an ensemble average of many molecules rather than individual dynamics. Atomic Force Microscopy (AFM) can visualize membrane defects but often requires flat, supported bilayers that do not fully replicate the environment of vesicles in solution. Crucially, none of these methods provide time-resolved, atomic-level insights into the transition states of membrane disruption.
-
+The study of Antimicrobial Peptides (AMPs) and their interactions with lipid membranes is highly complex, typically requiring simplified experimental models such as surfactant micelles, binary lipid mixtures, or helix-stabilizing co-solvents like TFE \cite{paper_paula, experiments_1,experiments_2,experiments_3}. While these controlled environments are easier to manipulate than real pathogens, their vast diversity complicates cross-literature comparisons. Because the secondary structure of membrane-targeting AMPs—especially those with $\alpha$-helical content—is highly sensitive to its medium \cite{experiment_4,experiment_5}, it is challenging to directly extrapolate these experimental findings to real physiological conditions without ensuring identical testing parameters.
+To characterize these interactions, researchers rely heavily on a combination of structural and kinetic techniques, primarily Circular Dichroism (CD), Nuclear Magnetic Resonance (NMR), and Fluorescence spectroscopy\cite{general_1,cd_1,cd_2,nmr_1,nmr_2,fluo_1,afm_1}. CD estimates secondary structure and membrane distribution \cite{cd_1,cd_2} by measuring the differential absorption of circularly polarized light\cite{cd_4}, though it only provides an ensemble average rather than individual molecular details\cite{cd_3}. NMR complements this by generating 3-dimensional average structures using magnetic spin alignment\cite{nmr_1,nmr_2}. Meanwhile, fluorescence assays, utilizing intrinsic amino acids like Tryptophan or covalently attached tags \cite{fluo_1}, help quantify membrane binding and vesicle leakage\cite{fluo_3,fluo_4}, although artificial fluorophores must be used cautiously to avoid altering the peptide's inherent physicochemical properties\cite{fluo_2}.
+Finally, morphological and thermodynamic behaviors are assessed using Atomic Force Microscopy (AFM) and calorimetry. AFM visualizes topological defects and pore formation mechanisms\cite{afm_1,afm_2}, but it is limited by the requirement of unnaturally flat supported bilayers that fail to replicate the curvature of vesicles in solution\cite{afm_6}. Calorimetry measures enthalpy changes to determine binding affinity and selectivity\cite{afm_4,afm_5}. Despite the necessity of combining these diverse techniques to build a comprehensive picture, a critical overarching limitation remains: none of these conventional experimental methods can independently provide time-resolved, atomic-level insights into the dynamic processes of AMP-membrane interactions\cite{afm_1,afm_2,cd_3}.
 \section{Simulation Approaches: Molecular Dynamics (MD)}
 Unlike experimental techniques, the simulation of systems involving peptides and lipid bilayers can provide atomistic, time-resolved trajectories of all particles in the system. This allows the study of peptide adsorption and folding at a level of detail beyond what is achieved experimentally.
 
