@@ -4102,6 +4102,7 @@
       \strng{authornamehash}{f7fff317bd48a5a4e8a771770e895267}
       \strng{authorfullhash}{e330c721bd17d47d928a2b0de0d220be}
       \strng{authorfullhashraw}{e330c721bd17d47d928a2b0de0d220be}
+      \field{extraname}{1}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -4175,6 +4176,76 @@
       \endverb
       \verb{url}
       \verb https://www.pnas.org/doi/abs/10.1073/pnas.1212665109
+      \endverb
+    \endentry
+    \entry{experiment_5}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=4b07ac1c9db699f54799c9f6e1d19aef}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Shiyu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1c692477be7fe2d24085032346337cfc}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Guangxu},
+           giveni={G\bibinitperiod}}}%
+        {{hash=cd3253450200b2adebbb7a644699a6a4}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yibing},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fa9eeaa883cada11f0f9a48f8d2e1ca3}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Mingjun},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fc04b1b59bd8e05e9c845e59d738211b}{%
+           family={Shan},
+           familyi={S\bibinitperiod},
+           given={Yuping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6b05e86eafb5f01002c15de5140295e7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongda},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e8622380f54d2d9127e4610dfcfccc66}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yuxin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5a166563ac1069de8bebac04d733081}
+      \strng{fullhash}{1e9d6efa95d5e13887133a3ee6b4ac52}
+      \strng{fullhashraw}{1e9d6efa95d5e13887133a3ee6b4ac52}
+      \strng{bibnamehash}{1e9d6efa95d5e13887133a3ee6b4ac52}
+      \strng{authorbibnamehash}{1e9d6efa95d5e13887133a3ee6b4ac52}
+      \strng{authornamehash}{b5a166563ac1069de8bebac04d733081}
+      \strng{authorfullhash}{1e9d6efa95d5e13887133a3ee6b4ac52}
+      \strng{authorfullhashraw}{1e9d6efa95d5e13887133a3ee6b4ac52}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this study, to systematically investigate the targeting specificity of membrane-active peptides on different types of cell membranes, we evaluated the effects of peptides on different large unilamellar vesicles mimicking prokaryotic, normal eukaryotic, and cancer cell membranes by single-molecule force spectroscopy and spectrum technology. We revealed that cationic membrane-active peptides can exclusively target negatively charged prokaryotic and cancer cell model membranes rather than normal eukaryotic cell model membranes. Using Acholeplasma laidlawii, 3T3-L1, and HeLa cells to represent prokaryotic cells, normal eukaryotic cells, and cancer cells in atomic force microscopy experiments, respectively, we further studied that the single-molecule targeting interaction between peptides and biological membranes. Antimicrobial and anticancer activities of peptides exhibited strong correlations with the interaction probability determined by single-molecule force spectroscopy, which illustrates strong correlations of peptide biological activities and peptide hydrophobicity and charge. Peptide specificity significantly depends on the lipid compositions of different cell membranes, which validates the de novo design of peptide therapeutics against bacteria and cancers.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{Specificity and mechanism of action of alpha-helical membrane-active peptides interacting with model and biological membranes by single-molecule force spectroscopy}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{29145}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep29145
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/srep29145
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/srep29145
       \endverb
     \endentry
     \entry{general_1}{article}{}{}
@@ -9035,7 +9106,6 @@
       \keyw{Antimicrobial peptides,Quantum computing,Lipid membranes,Interface,Peptide folding}
     \endentry
   \enddatalist
-  \missing{experiment_5}
 \endrefsection
 \endinput
 

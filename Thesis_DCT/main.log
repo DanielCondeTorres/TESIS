@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  21 MAY 2026 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  26 MAY 2026 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1503,15 +1503,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                experiment_5
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 183.
 Package biblatex Info: Reference segment=0 on input line 183.
 LaTeX Info: Redefining \microtypecontext on input line 183.
@@ -1535,8 +1527,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package hyperref Info: Link coloring ON on input line 183.
-
-(./main.out) (./main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1799,19 +1790,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [29 <./General_Sections/Figures/AMPs/amp_attack.jpg>] [30]
+ [29 <./General_Sections/Figures/AMPs/amp_attack.jpg>] [30] [31] [32] [33] [34]
 
-LaTeX Warning: Citation 'experiment_5' on page 31 undefined on input line 139.
-
-[31] [32] [33] [34]
 Underfull \vbox (badness 1264) has occurred while \output is active []
 
  [35]
-[36] [37] [38]
-
-LaTeX Warning: Reference `chap3' on page 39 undefined on input line 300.
-
-[39])
+[36] [37] [38] [39])
 \openout2 = `General_Sections/Objectives.aux'.
 
  (./General_Sections/Objectives.tex
@@ -1839,7 +1823,7 @@ Chapter 3.
 
 
 ] [45]
-<General_Sections/Figures/MD_Workflow2.png, id=1205, 821.031pt x 535.893pt>
+<General_Sections/Figures/MD_Workflow2.png, id=1203, 821.031pt x 535.893pt>
 File: General_Sections/Figures/MD_Workflow2.png Graphic file (type png)
 <use General_Sections/Figures/MD_Workflow2.png>
 Package pdftex.def Info: General_Sections/Figures/MD_Workflow2.png  used on inp
@@ -1854,14 +1838,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
 [47 <./General_Sections/Figures/MD_Workflow2.png>] [48]
-<General_Sections/Figures/pbc_diagram.png, id=1240, 459.6372pt x 459.51675pt>
+<General_Sections/Figures/pbc_diagram.png, id=1238, 459.6372pt x 459.51675pt>
 File: General_Sections/Figures/pbc_diagram.png Graphic file (type png)
 <use General_Sections/Figures/pbc_diagram.png>
 Package pdftex.def Info: General_Sections/Figures/pbc_diagram.png  used on inpu
 t line 127.
 (pdftex.def)             Requested size: 250.38564pt x 250.32298pt.
  [49 <./General_Sections/Figures/pbc_diagram.png>]
-<General_Sections/Figures/FF_bonded.png, id=1254, 595.023pt x 349.305pt>
+<General_Sections/Figures/FF_bonded.png, id=1252, 595.023pt x 349.305pt>
 File: General_Sections/Figures/FF_bonded.png Graphic file (type png)
 <use General_Sections/Figures/FF_bonded.png>
 Package pdftex.def Info: General_Sections/Figures/FF_bonded.png  used on input 
@@ -1871,7 +1855,7 @@ line 147.
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
  [51]
-<General_Sections/Figures/AA2CG.png, id=1288, 563.10374pt x 287.0725pt>
+<General_Sections/Figures/AA2CG.png, id=1286, 563.10374pt x 287.0725pt>
 File: General_Sections/Figures/AA2CG.png Graphic file (type png)
 <use General_Sections/Figures/AA2CG.png>
 Package pdftex.def Info: General_Sections/Figures/AA2CG.png  used on input line
@@ -1883,7 +1867,7 @@ Package svg Info: Last page of `./svg-inkscape/metadynamics_comparison_svg-tex.
 pdf' is 1 on input line 227.
 
 (./svg-inkscape/metadynamics_comparison_svg-tex.pdf_tex
-<./svg-inkscape/metadynamics_comparison_svg-tex.pdf, id=1314, page=1, 563.93106
+<./svg-inkscape/metadynamics_comparison_svg-tex.pdf, id=1312, page=1, 563.93106
 pt x 455.75267pt>
 File: ./svg-inkscape/metadynamics_comparison_svg-tex.pdf Graphic file (type pdf
 )
@@ -1903,7 +1887,7 @@ Package svg Info: Last page of `./svg-inkscape/helix_geometry_svg-tex.pdf' is 1
  on input line 322.
 
 (./svg-inkscape/helix_geometry_svg-tex.pdf_tex
-<./svg-inkscape/helix_geometry_svg-tex.pdf, id=1433, page=1, 570.93298pt x 570.
+<./svg-inkscape/helix_geometry_svg-tex.pdf, id=1431, page=1, 570.93298pt x 570.
 93298pt>
 File: ./svg-inkscape/helix_geometry_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/helix_geometry_svg-tex.pdf, page 1>
@@ -1942,7 +1926,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 3189) has occurred while \output is active []
 
  [65]
-<General_Sections/Figures/esfera_bloch_tesis.png, id=1506, 737.154pt x 737.154p
+<General_Sections/Figures/esfera_bloch_tesis.png, id=1504, 737.154pt x 737.154p
 t>
 File: General_Sections/Figures/esfera_bloch_tesis.png Graphic file (type png)
 <use General_Sections/Figures/esfera_bloch_tesis.png>
@@ -1962,7 +1946,7 @@ Underfull \vbox (badness 5460) has occurred while \output is active []
 LaTeX Warning: Reference `chap3' on page 68 undefined on input line 650.
 
 [68] [69] [70] [71] [72]
-<General_Sections/Figures/vqe_demonstration.jpg, id=1573, 1531.7225pt x 712.662
+<General_Sections/Figures/vqe_demonstration.jpg, id=1571, 1531.7225pt x 712.662
 5pt>
 File: General_Sections/Figures/vqe_demonstration.jpg Graphic file (type jpg)
 <use General_Sections/Figures/vqe_demonstration.jpg>
@@ -1977,7 +1961,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]
-<General_Sections/Figures/qaoa_demonstration.png, id=1602, 344.28625pt x 168.63
+<General_Sections/Figures/qaoa_demonstration.png, id=1600, 344.28625pt x 168.63
 pt>
 File: General_Sections/Figures/qaoa_demonstration.png Graphic file (type png)
 <use General_Sections/Figures/qaoa_demonstration.png>
@@ -2005,7 +1989,7 @@ Chapter 4.
 
 ]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1820, page=1, 597.62169pt x 844.81926pt>
+f, id=1818, page=1, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2019,7 +2003,7 @@ Overfull \hbox (27.31352pt too wide) in paragraph at lines 11--12
  []
 
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1821, 597.62169pt x 844.81926pt>
+f, id=1819, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2028,7 +2012,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf  used on input line 14.
 (pdftex.def)             Requested size: 597.62022pt x 844.8172pt.
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1823, page=2, 597.62169pt x 844.81926pt>
+f, id=1821, page=2, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2078,7 +2062,7 @@ ion_lipids_compressed.pdf , page2 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1892, page=3, 597.62169pt x 844.81926pt>
+f, id=1890, page=3, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2105,7 +2089,7 @@ ion_lipids_compressed.pdf , page3 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1905, page=4, 597.62169pt x 845.0471pt>
+f, id=1903, page=4, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2132,7 +2116,7 @@ ion_lipids_compressed.pdf , page4 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1916, page=5, 597.62169pt x 845.0471pt>
+f, id=1914, page=5, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2159,7 +2143,7 @@ ion_lipids_compressed.pdf , page5 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1929, page=6, 597.62169pt x 845.0471pt>
+f, id=1927, page=6, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2186,7 +2170,7 @@ ion_lipids_compressed.pdf , page6 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1937, page=7, 597.62169pt x 844.81926pt>
+f, id=1935, page=7, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2213,7 +2197,7 @@ ion_lipids_compressed.pdf , page7 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1946, page=8, 597.62169pt x 845.0471pt>
+f, id=1944, page=8, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2240,7 +2224,7 @@ ion_lipids_compressed.pdf , page8 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1951, page=9, 597.62169pt x 845.0471pt>
+f, id=1949, page=9, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2267,7 +2251,7 @@ ion_lipids_compressed.pdf , page9 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1956, page=10, 597.62169pt x 844.81926pt>
+f, id=1954, page=10, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2294,7 +2278,7 @@ ion_lipids_compressed.pdf , page10 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1962, page=11, 597.62169pt x 845.0471pt>
+f, id=1960, page=11, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2321,7 +2305,7 @@ ion_lipids_compressed.pdf , page11 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1968, page=12, 597.62169pt x 845.0471pt>
+f, id=1966, page=12, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2348,7 +2332,7 @@ ion_lipids_compressed.pdf , page12 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1976, page=13, 597.62169pt x 844.81926pt>
+f, id=1974, page=13, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2375,7 +2359,7 @@ ion_lipids_compressed.pdf , page13 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1982, page=14, 597.62169pt x 845.0471pt>
+f, id=1980, page=14, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2402,7 +2386,7 @@ ion_lipids_compressed.pdf , page14 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=1987, page=15, 597.62169pt x 845.0471pt>
+f, id=1985, page=15, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2429,7 +2413,7 @@ ion_lipids_compressed.pdf , page15 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2003, page=16, 597.62169pt x 845.0471pt>
+f, id=2001, page=16, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2457,7 +2441,7 @@ ion_lipids_compressed.pdf , page16 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2008, page=17, 597.62169pt x 845.0471pt>
+f, id=2006, page=17, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2484,7 +2468,7 @@ ion_lipids_compressed.pdf , page17 used on input line 14.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2014, page=18, 597.62169pt x 844.81926pt>
+f, id=2012, page=18, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2512,7 +2496,7 @@ ion_lipids_compressed.pdf , page18 used on input line 14.
 .pdf>] [105
 
 ]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2026, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2024, page=1
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2520,7 +2504,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page1 used on input line 22.
 (pdftex.def)             Requested size: 455.24411pt x 606.98848pt.
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2027, 597.50
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2025, 597.50
 829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2528,7 +2512,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf  used on input line 25.
 (pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2029, page=2
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2027, page=2
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2564,7 +2548,7 @@ ica.pdf , page2 used on input line 25.
  [107
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2096, page=3
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2094, page=3
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2587,7 +2571,7 @@ ica.pdf , page3 used on input line 25.
  [108
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2106, page=4
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2104, page=4
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2610,7 +2594,7 @@ ica.pdf , page4 used on input line 25.
  [109
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2136, page=5
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2134, page=5
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2633,7 +2617,7 @@ ica.pdf , page5 used on input line 25.
  [110
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2149, page=6
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2147, page=6
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2656,7 +2640,7 @@ ica.pdf , page6 used on input line 25.
  [111
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2160, page=7
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2158, page=7
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2680,7 +2664,7 @@ ica.pdf , page7 used on input line 25.
 [112
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2169, page=8
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2167, page=8
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2704,7 +2688,7 @@ ica.pdf , page8 used on input line 25.
 [113
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2179, page=9
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2177, page=9
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2728,7 +2712,7 @@ ica.pdf , page9 used on input line 25.
 [114
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2188, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2186, page=1
 0, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2752,7 +2736,7 @@ ica.pdf , page10 used on input line 25.
 [115
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2198, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2196, page=1
 1, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2776,7 +2760,7 @@ ica.pdf , page11 used on input line 25.
 [116
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2207, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2205, page=1
 2, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2800,7 +2784,7 @@ ica.pdf , page12 used on input line 25.
 [117
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2213, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2211, page=1
 3, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2824,7 +2808,7 @@ ica.pdf , page13 used on input line 25.
 [118
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2219, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=2217, page=1
 4, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -2848,7 +2832,7 @@ ica.pdf , page14 used on input line 25.
 [119
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2225, 614
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2223, 614
 .295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -2856,7 +2840,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf  used on input line 27.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2227, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2225, pag
 e=1, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -2892,7 +2876,7 @@ ica_SI.pdf , page1 used on input line 27.
 [120
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2275, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2273, pag
 e=2, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -2916,7 +2900,7 @@ ica_SI.pdf , page2 used on input line 27.
 [121
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2286, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2284, pag
 e=3, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -2940,7 +2924,7 @@ ica_SI.pdf , page3 used on input line 27.
 [122
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2296, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2294, pag
 e=4, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -2964,7 +2948,7 @@ ica_SI.pdf , page4 used on input line 27.
 [123
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2310, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2308, pag
 e=5, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -2988,7 +2972,7 @@ ica_SI.pdf , page5 used on input line 27.
 [124
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2317, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2315, pag
 e=6, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3012,7 +2996,7 @@ ica_SI.pdf , page6 used on input line 27.
 [125
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2324, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2322, pag
 e=7, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3036,7 +3020,7 @@ ica_SI.pdf , page7 used on input line 27.
 [126
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2335, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2333, pag
 e=8, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3060,7 +3044,7 @@ ica_SI.pdf , page8 used on input line 27.
 [127
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2343, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2341, pag
 e=9, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3084,7 +3068,7 @@ ica_SI.pdf , page9 used on input line 27.
 [128
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2350, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2348, pag
 e=10, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3111,7 +3095,7 @@ ica_SI.pdf , page10 used on input line 27.
 [129
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2357, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2355, pag
 e=11, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3138,7 +3122,7 @@ ica_SI.pdf , page11 used on input line 27.
 [130
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2364, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2362, pag
 e=12, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3165,7 +3149,7 @@ ica_SI.pdf , page12 used on input line 27.
 [131
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2370, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=2368, pag
 e=13, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3192,7 +3176,7 @@ ica_SI.pdf , page13 used on input line 27.
 [132
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2386, page=1, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2384, page=1, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3200,7 +3184,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page1 used on input line 32.
 (pdftex.def)             Requested size: 455.24411pt x 606.98848pt.
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2387, 597.50829
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2385, 597.50829
 pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3208,7 +3192,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf  used on input line 35.
 (pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2389, page=2, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2387, page=2, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3245,7 +3229,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
  [134
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2479, page=3, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2477, page=3, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3268,7 +3252,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
  [135
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2503, page=4, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2501, page=4, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3291,7 +3275,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
  [136
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2521, page=5, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2519, page=5, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3314,7 +3298,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
  [137
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2535, page=6, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2533, page=6, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3337,7 +3321,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
  [138
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2544, page=7, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2542, page=7, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3360,7 +3344,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
  [139
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2554, page=8, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2552, page=8, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3383,7 +3367,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
  [140
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2563, page=9, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=2561, page=9, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -3430,7 +3414,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 5.
 
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2572, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2571, 
 page=1, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3439,7 +3423,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page1 used on input line 9.
 (pdftex.def)             Requested size: 409.71692pt x 579.45982pt.
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2573, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2572, 
 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3447,7 +3431,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf  used on input line 11.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2575, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2574, 
 page=2, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3490,7 +3474,7 @@ an_design.pdf , page2 used on input line 11.
  [145
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2651, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2650, 
 page=3, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3516,7 +3500,7 @@ an_design.pdf , page3 used on input line 11.
  [146
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2715, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2714, 
 page=4, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3542,7 +3526,7 @@ an_design.pdf , page4 used on input line 11.
  [147
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2777, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2776, 
 page=5, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3568,7 +3552,7 @@ an_design.pdf , page5 used on input line 11.
  [148
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2783, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2782, 
 page=6, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3594,7 +3578,7 @@ an_design.pdf , page6 used on input line 11.
 [149
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2822, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2821, 
 page=7, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3621,7 +3605,7 @@ an_design.pdf , page7 used on input line 11.
 [150
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2847, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2846, 
 page=8, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3648,7 +3632,7 @@ an_design.pdf , page8 used on input line 11.
 [151
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2865, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2864, 
 page=9, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3675,7 +3659,7 @@ an_design.pdf , page9 used on input line 11.
 [152
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2870, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2869, 
 page=10, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3702,7 +3686,7 @@ an_design.pdf , page10 used on input line 11.
 [153
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2875, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2874, 
 page=11, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3729,7 +3713,7 @@ an_design.pdf , page11 used on input line 11.
 [154
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2880, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2879, 
 page=12, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3756,7 +3740,7 @@ an_design.pdf , page12 used on input line 11.
 [155
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2885, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2884, 
 page=13, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3783,7 +3767,7 @@ an_design.pdf , page13 used on input line 11.
 [156
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2890, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2889, 
 page=14, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3810,7 +3794,7 @@ an_design.pdf , page14 used on input line 11.
 [157
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2896, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2895, 
 page=15, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3837,7 +3821,7 @@ an_design.pdf , page15 used on input line 11.
 [158
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2901, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2900, 
 page=16, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3864,7 +3848,7 @@ an_design.pdf , page16 used on input line 11.
 [159
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2906, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2905, 
 page=17, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3891,7 +3875,7 @@ an_design.pdf , page17 used on input line 11.
 [160
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2911, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2910, 
 page=18, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3918,7 +3902,7 @@ an_design.pdf , page18 used on input line 11.
 [161
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2916, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2915, 
 page=19, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3945,7 +3929,7 @@ an_design.pdf , page19 used on input line 11.
 [162
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2922, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=2920, 
 page=20, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -3973,15 +3957,15 @@ an_design.pdf , page20 used on input line 11.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=292
-8, 597.50829pt x 845.0471pt>
+7, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf  used on input line 13.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=293
-0, page=1, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=292
+9, page=1, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4022,7 +4006,7 @@ an_design_si.pdf , page1 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=296
-4, page=2, 597.50829pt x 845.0471pt>
+3, page=2, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4048,7 +4032,7 @@ an_design_si.pdf , page2 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=300
-1, page=3, 597.50829pt x 845.0471pt>
+0, page=3, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4074,7 +4058,7 @@ an_design_si.pdf , page3 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=302
-8, page=4, 597.50829pt x 845.0471pt>
+7, page=4, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4100,7 +4084,7 @@ an_design_si.pdf , page4 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=303
-7, page=5, 597.50829pt x 845.0471pt>
+6, page=5, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4126,7 +4110,7 @@ an_design_si.pdf , page5 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=305
-7, page=6, 597.50829pt x 845.0471pt>
+6, page=6, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4152,7 +4136,7 @@ an_design_si.pdf , page6 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=306
-3, page=7, 597.50829pt x 845.0471pt>
+2, page=7, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4178,7 +4162,7 @@ an_design_si.pdf , page7 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=307
-6, page=8, 597.50829pt x 845.0471pt>
+5, page=8, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4204,7 +4188,7 @@ an_design_si.pdf , page8 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=308
-4, page=9, 597.50829pt x 845.0471pt>
+3, page=9, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4230,7 +4214,7 @@ an_design_si.pdf , page9 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=309
-2, page=10, 597.50829pt x 845.0471pt>
+1, page=10, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4256,7 +4240,7 @@ an_design_si.pdf , page10 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=310
-2, page=11, 597.50829pt x 845.0471pt>
+1, page=11, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4282,7 +4266,7 @@ an_design_si.pdf , page11 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=311
-2, page=12, 597.50829pt x 845.0471pt>
+1, page=12, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4308,7 +4292,7 @@ an_design_si.pdf , page12 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=313
-9, page=13, 597.50829pt x 845.0471pt>
+8, page=13, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4334,7 +4318,7 @@ an_design_si.pdf , page13 used on input line 13.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=314
-4, page=14, 597.50829pt x 845.0471pt>
+3, page=14, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -4359,7 +4343,7 @@ an_design_si.pdf , page14 used on input line 13.
  [177
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3153, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3152, page=1
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4372,7 +4356,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 18--19
 [] 
  []
 
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3154, 597.50
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3153, 597.50
 829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4380,7 +4364,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf  used on input line 20.
 (pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3156, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3155, page=2
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4417,7 +4401,7 @@ ria.pdf , page2 used on input line 20.
 [179
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3231, page=3
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3230, page=3
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4441,7 +4425,7 @@ ria.pdf , page3 used on input line 20.
 [180
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3239, page=4
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3238, page=4
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4465,7 +4449,7 @@ ria.pdf , page4 used on input line 20.
 [181
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3245, page=5
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3244, page=5
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4489,7 +4473,7 @@ ria.pdf , page5 used on input line 20.
 [182
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3251, page=6
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3249, page=6
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4513,7 +4497,7 @@ ria.pdf , page6 used on input line 20.
 [183
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3279, page=7
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3278, page=7
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4537,7 +4521,7 @@ ria.pdf , page7 used on input line 20.
 [184
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3284, page=8
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3283, page=8
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4561,7 +4545,7 @@ ria.pdf , page8 used on input line 20.
 [185
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3290, page=9
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3289, page=9
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4585,7 +4569,7 @@ ria.pdf , page9 used on input line 20.
 [186
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3296, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3295, page=1
 0, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4609,7 +4593,7 @@ ria.pdf , page10 used on input line 20.
 [187
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3303, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3302, page=1
 1, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4633,7 +4617,7 @@ ria.pdf , page11 used on input line 20.
 [188
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3310, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3309, page=1
 2, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4657,7 +4641,7 @@ ria.pdf , page12 used on input line 20.
 [189
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3316, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3315, page=1
 3, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4681,7 +4665,7 @@ ria.pdf , page13 used on input line 20.
 [190
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3322, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3321, page=1
 4, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4705,7 +4689,7 @@ ria.pdf , page14 used on input line 20.
 [191
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3327, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3326, page=1
 5, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4729,7 +4713,7 @@ ria.pdf , page15 used on input line 20.
 [192
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3332, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3331, page=1
 6, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4753,7 +4737,7 @@ ria.pdf , page16 used on input line 20.
 [193
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3338, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3337, page=1
 7, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4777,7 +4761,7 @@ ria.pdf , page17 used on input line 20.
 [194
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3344, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3343, page=1
 8, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4801,7 +4785,7 @@ ria.pdf , page18 used on input line 20.
 [195
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3350, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3349, page=1
 9, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4825,7 +4809,7 @@ ria.pdf , page19 used on input line 20.
 [196
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3355, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3354, page=2
 0, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4849,7 +4833,7 @@ ria.pdf , page20 used on input line 20.
 [197
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3370, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3369, page=2
 1, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4873,7 +4857,7 @@ ria.pdf , page21 used on input line 20.
 [198
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3382, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3381, page=2
 2, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4897,7 +4881,7 @@ ria.pdf , page22 used on input line 20.
 [199
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3389, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3388, page=2
 3, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4921,7 +4905,7 @@ ria.pdf , page23 used on input line 20.
 [200
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3394, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3393, page=2
 4, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4945,7 +4929,7 @@ ria.pdf , page24 used on input line 20.
 [201
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3399, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3398, page=2
 5, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4969,7 +4953,7 @@ ria.pdf , page25 used on input line 20.
 [202
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3407, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3406, page=2
 6, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -4993,7 +4977,7 @@ ria.pdf , page26 used on input line 20.
 [203
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3412, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=3411, page=2
 7, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5087,13 +5071,13 @@ Overfull \hbox (4.89365pt too wide) in paragraph at lines 360--360
 m/fact-sheets/detail/antimicrobial-
  []
 
-[221] [222] [223] [224] [225] [226] [227]
+[221] [222] [223] [224] [225] [226] [227] [228]
 Overfull \hbox (8.19098pt too wide) in paragraph at lines 360--360
 []\T1/ptm/m/n/12 (-20) Calvelo, M.; Granja, J. R.; Garcia-Fandino, R. Com-pet-i
 -tive double-switched self-assembled
  []
 
-[228] [229] [230] [231] [232] [233]
+[229] [230] [231] [232] [233]
 \openout2 = `Appendix/Appendix.aux'.
 
  (./Appendix/Appendix.tex
@@ -5270,10 +5254,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44793 strings out of 467525
- 913484 string characters out of 5418982
- 1952205 words of memory out of 5000000
- 71641 multiletter control sequences out of 15000+600000
+ 44796 strings out of 467525
+ 913634 string characters out of 5418982
+ 1955004 words of memory out of 5000000
+ 71643 multiletter control sequences out of 15000+600000
  742536 words of font info for 552 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,108p,2285b,2359s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5329,10 +5313,10 @@ ix-mathscr.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/courier/ucrr
 sr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
 texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 26/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (238 pages, 36445810 bytes).
+Output written on main.pdf (238 pages, 36445963 bytes).
 PDF statistics:
  4116 PDF objects out of 4296 (max. 8388607)
  3035 compressed objects within 31 object streams
- 647 named destinations out of 1000 (max. 500000)
+ 648 named destinations out of 1000 (max. 500000)
  105737 words of extra memory for PDF output out of 106986 (max. 10000000)
 
