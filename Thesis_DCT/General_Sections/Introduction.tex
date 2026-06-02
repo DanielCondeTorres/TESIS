@@ -50,14 +50,43 @@ These observations highlight that the lipid composition of membranes is not only
 
 In the search for new antimicrobial strategies, nature provides an important source of inspiration. As part of their innate immune systems, many animals and plants produce antimicrobial peptides (AMPs) across a variety of tissues and cell types \cite{Zasloff2002}. These peptides have attracted particular interest due to their ability to exploit fundamental physicochemical differences between bacterial and eukaryotic membranes, and are often hypothesized to interact preferentially with membrane compositions enriched in negatively charged lipids\cite{Midura-Nowaczek2014}.
 
+
+
+
+
+
 \section{The Global Crisis of Antimicrobial Resistance}
 
 The exponential rise of antimicrobial resistance (AMR) poses one of the most critical public health and economic threats of the 21st century \cite{salam2023antimicrobial}. With traditional antibiotics losing their efficacy due to the rapid mutation and adaptation of pathogens, the discovery and optimization of novel therapeutic agents is urgently required \cite{macnair2024alternative}. Indeed, it is estimated that by 2050, more than 10 million deaths annually will be associated with AMR if current trends continue \cite{Tang2023}.
 
-To address this impending clinical crisis, research has pivoted toward ancient host-defense mechanisms, among which Antimicrobial Peptides (AMPs) have garnered immense attention. AMPs are ancient, evolutionarily conserved effector molecules of the innate immune system found across all domains of life, from bacteria and fungi to plants and mammals \cite{Hancock2006, Kumar2018, fermentation10110540, microorganisms13112574}. Unlike conventional small-molecule antibiotics, which typically target highly specific enzymatic pathways, AMPs employ rapid, physically driven, and multi-target mechanisms—primarily driven by biophysical membrane disruption—that significantly diminish the likelihood of bacteria developing mutational resistance \cite{microorganisms13112574, 10.3389/fmicb.2020.582779}.
+To address this impending clinical crisis, research has pivoted toward ancient host-defense mechanisms, among which Antimicrobial Peptides (AMPs) have garnered immense attention. AMPs are ancient, evolutionarily conserved effector molecules of the innate immune system found across all domains of life, from bacteria and fungi to plants and mammals \cite{Hancock2006, Kumar2018, fermentation10110540, microorganisms13112574}. Unlike conventional small-molecule antibiotics, which typically target highly specific enzymatic pathways, AMPs employ rapid, physically driven, and multi-target mechanisms that significantly diminish the likelihood of pathogens developing mutational resistance \cite{microorganisms13112574, 10.3389/fmicb.2020.582779}.
 
-Structurally, these peptides represent a highly diverse class of small biomolecules, typically consisting of 10 to 60 amino acids. While the vast majority are inherently cationic to facilitate electrostatic recruitment toward the anionic surfaces of microbial envelopes, several anionic AMPs have also been reported, with up to 187 entries listed in the Antimicrobial Peptide Database (APD3) as of December 2024 \cite{Wang2016}. This extensive structural and functional diversity makes a unified classification challenging; nevertheless, they are broadly categorized based on their biological source, spectrum of activity, conformation, or amino acid-rich motifs (Figure \ref{fig:AMPClass}) \cite{Huan2020}.
+The sheer scale of this molecular diversity is captured by the Antimicrobial Peptide Database (APD6)\footnote{\url{https://aps.unmc.edu/}}. As of June 2026, it documents 6,604 total sequences, of which 196 are registered as strictly anionic \cite{Wang2016}. This extensive biological variety makes a unified classification challenging, requiring a detailed breakdown of their underlying physicochemical properties to understand their targeted efficacy \cite{Huan2020}.
 
+
+% \FloatBarrier
+
+\section{Physicochemical Properties and Structural Determinants}
+
+The biological functionality of an AMP is intrinsically linked to its primary amino acid sequence and resulting three-dimensional topology. Structurally, these peptides represent a diverse class of small oligomers, typically comprising 10 to 100 amino acid residues \cite{Zasloff2002, numero_aa_amps,doi:10.1128/cmr.00056-05}. Their therapeutic activity is primarily governed by two biophysical pillars\cite{Mookherjee2020}:
+
+\begin{itemize}
+    \item \textbf{Cationicity:} The vast majority of AMPs possess a net positive charge (typically ranging from +2 to +13), primarily due to the presence of Lysine (Lys, K) and Arginine (Arg, R) residues\cite{numero_aa_amps}. This cationic nature is crucial for the initial electrostatic recruitment and selective interaction with the negatively charged membranes of invading pathogens, rather than the neutrally charged membranes of eukaryotic host cells \cite{Zasloff2002, Mookherjee2020, Zhang2021}.
+    \item \textbf{Amphipathicity:} AMPs exhibit a highly regulated balance between hydrophilic and hydrophobic regions, usually presenting a hydrophobicity of around 30\% to 60\% \cite{hidrofobicidad_amps, Yeaman2003}. This dual nature is essential for their insertion and partitioning into the non-polar lipid core of biological membranes.
+\end{itemize}
+
+
+
+
+\subsection{Structural Classification}
+In many cases, AMPs remain largely unstructured in aqueous solution but undergo a rapid conformational transition upon interacting with lipid membranes, a process that maximizes their amphipathic character \cite{Li2021}. Based on the secondary structure they acquire at the target interface, AMPs are generally classified into four archetypes (Figure \ref{fig:AMPClass})\cite{fermentation10110540,doi:10.1128/cmr.00056-05}:
+
+\begin{enumerate}
+    \item \textbf{$\alpha$-helical peptides:} The most abundant in nature (e.g., magainins, pleurocidin, LL-37). They fold into an $\alpha$-helix upon adsorption into the lipid bilayer.
+    \item \textbf{$\beta$-sheet peptides:} Structures stabilized by intramolecular disulfide bridges (Cys-Cys bonds), providing high resistance to proteolytic degradation (e.g., human defensins, thanatin).
+    \item \textbf{Loop/Cyclic peptides:} Structures formed via head-to-tail cyclization or single disulfide bonds (e.g., bactenecins).
+    \item \textbf{Extended peptides:} Sequences that lack traditional secondary folding and are often rich in specific residues like Proline or Tryptophan (e.g., indolicidin).
+\end{enumerate}
 % \FloatBarrier
 \begin{figure}[h]
     \centering
@@ -84,9 +113,24 @@ Structurally, these peptides represent a highly diverse class of small biomolecu
     \caption{Structure of antimicrobial peptides. AMPs are typically present four main types of structure: (a) $\alpha$-helical, pleurocidin [PDB ID: 1Z64]\cite{1z64}, (b) $\beta$-sheet, thanatin [PDB ID: 9ILX]\cite{9ILX}, (c) others, indolicidin [PDB ID: 1G89]\cite{1g89}. Structures were obtained from the RCSB Protein Data Bank\cite{PDB} and visualized using VMD (Visual Molecular Dynamics)\cite{VMD} colored by residue type: apolar/hydrophobic (white), cationic (blue), and polar neutral (green).}
     \label{fig:AMPClass}
 \end{figure}
-% \FloatBarrier
 
-Their biological activity is commonly linked to their cationic nature, which allows electrostatic interactions with the negatively charged membranes of invading pathogens rather than with the neutrally charged membranes of eukaryotic cells \cite{Zhang2021}. Additionally, hydrophobicity---defined as the percentage of hydrophobic residues---is another key feature, as it influences the ability of AMPs to partition into membrane lipid bilayers \cite{Yeaman2003}. AMPs usually present a hydrophobicity of around 50\%, which, together with their cationicity, typically leads to amphipathic structures. In many cases, AMPs are largely unstructured in aqueous solution but undergo a conformational transition to $\alpha$-helical structures upon interaction with lipid membranes, a process that enhances their amphipathic character and membrane-disruptive potential \cite{Li2021}. While some AMPs display their antimicrobial activity by means of non-lytic mechanisms \cite{Scocchi2016}, the most common modes of action involve membranolytic effects driven by their amphiphatic nature (Figure \ref{fig:AMPMOA}). In a first stage, electrostatic interactions with negatively charged components of the membranes promote the accumulation of AMPs. Next, the membrane's non-polar core interacts with the peptides' hydrophobic residues, facilitating their insertion, disturbing membrane structure, and ultimately leading to cell death\cite{Mookherjee2020,BuiThiPhuong2024}.
+
+
+
+\section{Mechanisms of Membrane Disruption}
+While some AMPs display their antimicrobial activity by means of intracellular, non-lytic mechanisms \cite{Scocchi2016}, the most common modes of action involve membranolytic effects driven by their amphipathic nature (Figure \ref{fig:AMPMOA}). The therapeutic action of membrane-targeting AMPs is achieved through a two-stage physical disruption: initial electrostatic accumulation at the membrane surface, followed by the hydrophobic partitioning of the peptide into the non-polar core, which disturbs the lipid bilayer structure and ultimately leads to cell death \cite{Mookherjee2020, BuiThiPhuong2024}. 
+
+Once a critical concentration of peptides is adsorbed, the membrane is compromised through several proposed models:
+
+\begin{itemize}
+    \item \textbf{Pore Formation Models (Barrel-stave and Toroidal-pore):} In the barrel-stave model, peptides insert perpendicularly into the membrane, aggregating such that their hydrophobic faces interact with lipid tails while their hydrophilic faces form a central aqueous channel. In the toroidal-pore model, peptides induce local curvature, causing the lipid headgroups to tilt and line the pore alongside the peptides.
+    \item \textbf{Non-Pore Models (Carpet model):} Peptides accumulate parallel to the membrane surface. Upon reaching a threshold concentration, they act like detergents, leading to the micellization and fragmentation of the bilayer without forming discrete, stable pores.
+\end{itemize}
+
+
+
+
+
 
 \begin{figure}[h]
     \centering
@@ -96,59 +140,59 @@ Their biological activity is commonly linked to their cationic nature, which all
 \end{figure}
 \FloatBarrier
 
-As of its latest update in December 2024  [Retrieved June 2026], the Data Repository of Antimicrobial Peptides (DRAMP)\cite{Ma2025} lists 35918 entries under the query \textir{antimicrobial}. Nevertheless, only a few AMPs have reached clinical trials, and over 100 peptide-based drugs have been approved worldwide\cite{Rossino2023,Pereira2024}. A major limitation of AMPs is their metabolic instability, as they are rapidly degraded by proteolytic enzymes\cite{Dijksteel2021}. They also tend to exhibit toxicity toward host cells, which limits their therapeutic application\cite{Lyu2023}. In addition, they tend to have short half-lives and are quickly cleared from the bloodstream, which results in poor bioavailability. To overcome these limitations, various strategies have been investigated, such us incorporating non-natural amino acids and peptide cyclization to improve stability and minimize degradation\cite{Carmona2013,Lucana2021}.
-
-In this context, this thesis addresses these computational and biophysical bottlenecks by focusing on unlocking the specificity of antimicrobial peptide interactions for membrane-targeted therapies. Instead of relying on empirical chemical modifications, this work establishes a foundational framework aimed at a precise, molecular-level understanding of peptide-lipid recognition. By dissecting the fundamental forces that govern how these biomolecules distinguish between diverse cellular membranes, we provide the mechanistic groundwork needed to exploit lipid composition as a highly selective therapeutic target.
-
-Building upon this conceptual milestone, the subsequent phases of this research transition into advanced computational methodologies to model and engineer these interactions from first principles. Specifically, we explore the frontier of structural biology by performing classical simulations on quantum computers to investigate interface-driven peptide folding on simulated membrane surfaces, capturing the highly dynamic conformational changes that occur precisely at the lipid-water boundary. Ultimately, the insights gained from these quantum-simulated systems are translated into practical blueprints for the environment-conditioned design of $\alpha$-helical peptides, effectively establishing a predictive framework for the targeted design of membrane-specific peptides.
- 
 
 
-\section{Physicochemical Properties and Structural Determinants}
-The biological functionality of an AMP is intrinsically linked to its primary amino acid sequence and resulting three-dimensional topology. Most native AMPs are short oligomers, typically comprising 10 to 60 amino acid residues. Their activity is governed by two main factors:
+\section{Current Bottlenecks in AMP Development}
 
-\begin{itemize}
-    \item \textbf{Cationicity:} Most AMPs possess a net positive charge (typically ranging from +2 to +9), primarily due to the presence of Lysine (Lys, K) and Arginine (Arg, R) residues. This favors electrostatic interaction with the negatively charged membranes of pathogens.
-    \item \textbf{Amphipathicity:} AMPs exhibit a balance between hydrophilic and hydrophobic regions. This dual nature is essential for their insertion into the non-polar lipid core of biological membranes.
-\end{itemize}
+Despite this potent and physically driven mechanism of action, translating AMPs into clinical therapies remains a significant challenge. As of its latest update in December 2024 [Retrieved June 2026], the Data Repository of Antimicrobial Peptides (DRAMP) \cite{Ma2025} lists 35,918 entries under the query \textit{antimicrobial}. Nevertheless, only a few AMPs have reached clinical trials, and barely over 100 peptide-based drugs have been approved worldwide \cite{Rossino2023, Pereira2024, amps_aprobados}. 
 
-\subsection{Structural Classification}
-Based on the secondary structure they acquire when interacting with their targets, AMPs are generally classified into four archetypes:
+A major limitation is their metabolic instability, as they are rapidly degraded by proteolytic enzymes \cite{Dijksteel2021,degradacion_1,degradacion_2}. They also tend to exhibit toxicity toward host mammalian cells, which severely restricts their systemic therapeutic application \cite{Lyu2023}. In addition, they frequently possess short half-lives and are quickly cleared from the bloodstream, resulting in poor bioavailability. To overcome these limitations, various strategies have been investigated, such as incorporating non-natural amino acids and peptide cyclization to improve stability and minimize degradation \cite{Carmona2013, Lucana2021}.
 
-\begin{enumerate}
-    \item \textbf{$\alpha$-helical peptides:} These are the most abundant in nature (e.g., magainins, LL-37). They often remain in a random coil state in solution but undergo a conformational change to an $\alpha$-helix upon adsorption into the lipid bilayer.
-    \item \textbf{$\beta$-sheet peptides:} These structures are stabilized by intramolecular disulfide bridges (Cys-Cys bonds), providing high resistance to proteolytic degradation. Examples include human defensins.
-    \item \textbf{Loop/Cyclic peptides:} These form structures via head-to-tail cyclization or single disulfide bonds (e.g., bactenecins).
-    \item \textbf{Extended peptides:} These lack traditional secondary folding and are often rich in specific residues like Proline or Tryptophan (e.g., indolicidin).
-\end{enumerate}
+\subsection{Limitations of Experimental Techniques}
 
-\section{Mechanisms of Membrane Disruption}
-The therapeutic action of membrane-targeting AMPs is achieved through the physical disruption of the cell membrane. This process occurs in two primary stages: initial electrostatic recruitment followed by hydrophobic partitioning. Once a critical concentration of peptides is adsorbed, the membrane structure is compromised through several proposed models:
+The study of Antimicrobial Peptides (AMPs) and their interactions with lipid bilayers is inherently complex. Because real biological membranes are highly heterogeneous, experimental characterizations rely heavily on simplified mimetic models, such as surfactant micelles, binary lipid mixtures, or helix-stabilizing co-solvents like TFE \cite{paper_paula, experiments_1,experiments_2,experiments_3}. While these controlled environments facilitate reproducible biophysical measurements, they introduce a significant structural bias. The secondary structure of membrane-targeting AMPs, especially those with transient $\alpha$-helical content, is exquisitely sensitive to its surrounding medium \cite{experiment_4,experiment_5}. Furthermore, methodologies that require physical modifications, such as fluorescence assays utilizing bulky extrinsic tags \cite{fluo_1,fluo_3,fluo_4}, risk altering the intrinsic physicochemical properties of the peptide \cite{fluo_2}. This extreme sensitivity, coupled with the vast diversity of experimental setups across the literature, makes it exceedingly difficult to extrapolate \textit{in vitro} findings directly to physiological conditions.
 
-\subsection{Pore Formation Models}
-Depending on the peptide's characteristics, two main pore models are described:
-\begin{itemize}
-    \item \textbf{Barrel-stave model:} Peptides insert perpendicularly into the membrane, aggregating such that their hydrophobic faces interact with lipid tails while their hydrophilic faces form a central aqueous channel.
-    \item \textbf{Toroidal-pore model:} Peptides induce a local curvature in the membrane, causing the lipid headgroups to tilt and line the pore along with the peptides.
-\end{itemize}
+Beyond the challenges of environmental replication, biophysical techniques face inherent limitations regarding spatial and temporal resolution. Structural and thermodynamic methods, such as Circular Dichroism (CD), Nuclear Magnetic Resonance (NMR), and calorimetry, are indispensable for estimating global secondary structure, 3D conformations, and binding affinities \cite{general_1,cd_1,cd_2,nmr_1,nmr_2,afm_4,afm_5}. However, techniques like CD measure the differential absorption of circularly polarized light \cite{cd_4} to provide macroscopic, ensemble-averaged data, rather than resolving individual molecular events \cite{cd_3}. Conversely, morphological tools like Atomic Force Microscopy (AFM) can successfully visualize topological defects and pore formation mechanisms \cite{afm_1,afm_2}. Yet, AFM is physically constrained by the requirement of unnaturally flat supported bilayers, failing to replicate the dynamic curvature and tension of free-standing vesicles in solution \cite{afm_6}.
 
-\subsection{Non-Pore Models}
-Alternatively, some peptides act via the \textbf{Carpet model}, where they accumulate parallel to the membrane surface. Upon reaching a threshold, they act like detergents, leading to the micellization and fragmentation of the bilayer without forming discrete pores.
+Ultimately, while combining these diverse spectroscopic, microscopic, and thermodynamic techniques is essential to build a macroscopic picture of AMP activity, a critical gap remains. None of these conventional experimental methods can independently provide continuous, time-resolved, atomic-level insights into the dynamic processes of peptide folding, insertion, and membrane disruption \cite{afm_1,afm_2,cd_3}. This fundamental limitation highlights the necessity of advanced computational simulations to bridge the gap between static experimental observations and the precise molecular mechanisms governing peptide-lipid interactions.
 
 
 
-\section{Limitations of Experimental Techniques}
-The study of Antimicrobial Peptides (AMPs) and their interactions with lipid membranes is highly complex, typically requiring simplified experimental models such as surfactant micelles, binary lipid mixtures, or helix-stabilizing co-solvents like TFE \cite{paper_paula, experiments_1,experiments_2,experiments_3}. While these controlled environments are easier to manipulate than real pathogens, their vast diversity complicates cross-literature comparisons. Because the secondary structure of membrane-targeting AMPs—especially those with $\alpha$-helical content—is highly sensitive to its medium \cite{experiment_4,experiment_5}, it is challenging to directly extrapolate these experimental findings to real physiological conditions without ensuring identical testing parameters.
-To characterize these interactions, researchers rely heavily on a combination of structural and kinetic techniques, primarily Circular Dichroism (CD), Nuclear Magnetic Resonance (NMR), and Fluorescence spectroscopy\cite{general_1,cd_1,cd_2,nmr_1,nmr_2,fluo_1,afm_1}. CD estimates secondary structure and membrane distribution \cite{cd_1,cd_2} by measuring the differential absorption of circularly polarized light\cite{cd_4}, though it only provides an ensemble average rather than individual molecular details\cite{cd_3}. NMR complements this by generating 3-dimensional average structures using magnetic spin alignment\cite{nmr_1,nmr_2}. Meanwhile, fluorescence assays, utilizing intrinsic amino acids like Tryptophan or covalently attached tags \cite{fluo_1}, help quantify membrane binding and vesicle leakage\cite{fluo_3,fluo_4}, although artificial fluorophores must be used cautiously to avoid altering the peptide's inherent physicochemical properties\cite{fluo_2}.
-Finally, morphological and thermodynamic behaviors are assessed using Atomic Force Microscopy (AFM) and calorimetry. AFM visualizes topological defects and pore formation mechanisms\cite{afm_1,afm_2}, but it is limited by the requirement of unnaturally flat supported bilayers that fail to replicate the curvature of vesicles in solution\cite{afm_6}. Calorimetry measures enthalpy changes to determine binding affinity and selectivity\cite{afm_4,afm_5}. Despite the necessity of combining these diverse techniques to build a comprehensive picture, a critical overarching limitation remains: none of these conventional experimental methods can independently provide time-resolved, atomic-level insights into the dynamic processes of AMP-membrane interactions\cite{afm_1,afm_2,cd_3}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \section{Simulation Approaches: Molecular Dynamics (MD)}
-Unlike experimental techniques, the simulation of systems involving peptides and lipid bilayers can provide atomistic, time-resolved trajectories of all particles in the system. This allows the study of peptide adsorption and folding at a level of detail beyond what is achieved experimentally.
+To overcome the observational barriers inherent to \textit{in vitro} assays, \textit{in silico} approaches have emerged as an indispensable tool in biophysical research. Unlike conventional experimental techniques that yield macroscopic or time-averaged data, the simulation of systems involving peptides and lipid bilayers, specifically through MD, provides continuous, atomistic, and time-resolved trajectories of all particles in the system\cite{md_microscopio,Sousa2010}. By solving the classical equations of motion over time, MD effectively acts as a computational microscope, allowing the study of peptide adsorption, interfacial folding, and membrane disruption at a level of spatial and temporal detail far beyond what can be achieved experimentally\cite{TIELEMAN1997235}.
 
 \subsection{Classical Molecular Dynamics}
-Classical MD computes the motion of particles by integrating Newton’s equations of motion. The accuracy of these simulations depends on the \textbf{Force Field} (FF), which provides the parameters for bonded and non-bonded interactions. The choice of FF is critical; if the selected FF does not capture the relevant interactions (e.g., specific protein-lipid affinities), the resulting trajectories will not represent the physical system.
+Classical MD computes the motion of particles by integrating Newton’s equations of motion\cite{leyesnewton}. The accuracy of these simulations depends on the Force Field (FF), which provides the parameters for bonded and non-bonded interactions. The choice of FF is critical; if the selected FF does not capture the relevant interactions (e.g., specific protein-lipid affinities), the resulting trajectories will not represent the physical system\cite{braun2018best,force_field_protocol}.
 
 \subsection{Solvent and Membrane Representation}
-Early simulations used \textbf{implicit solvent} models to save computational costs, representing water as a continuous medium with a specific dielectric constant. However, this fails to capture specific hydrogen bonding between the peptide and water molecules. Modern MD favors \textbf{explicit solvent} and \textbf{explicit membranes}, where every lipid and water molecule is represented. While more accurate, this significantly increases the system size and computational demand.
+Early simulations used implicit solvent models to save computational costs, representing water as a continuous medium with a specific dielectric constant. However, this fails to capture specific hydrogen bonding between the peptide and water molecules. Modern MD favors explicit solvent and explicit membranes, where every lipid and water molecule is represented. While more accurate, this significantly increases the system size and computational demand.
+
+
+
 
 \section{Sampling Challenges and Enhanced Methods}
 The main limitation of atomistic MD is the timescale. Slow phenomena such as spontaneous peptide folding or pore formation often occur on microsecond to millisecond scales, which are difficult to reach with standard MD. To overcome this, several \textbf{Enhanced Sampling} techniques are employed:
@@ -167,99 +211,36 @@ This smoothing of the free energy surface allows for simulations that are orders
 
 
 
-\section{Pharmacological Barriers}
-Despite their potential, as of early 2026, only a few AMPs (e.g., daptomycin, polymyxins, and gramicidin D) are in clinical use. The transition from lab to clinic is hindered by:
-\begin{enumerate}
-    \item \textbf{Proteolytic Instability:} Rapid degradation by proteases in the blood.
-    \item \textbf{Cytotoxicity:} High concentrations can lead to hemolysis (destruction of red blood cells).
-    \item \textbf{Production Costs:} Large-scale chemical synthesis of long peptides remains expensive.
-\end{enumerate}
-
-\section{Advanced Design Strategies}
-Modern medicinal chemistry utilizes several strategies to "drug-optimize" AMPs:
-\begin{itemize}
-    \item \textbf{Peptide Stapling:} Introducing a chemical "bridge" (tether) between residues (e.g., positions $i$ and $i+7$) to lock the peptide into an $\alpha$-helical shape, increasing stability and potency.
-    \item \textbf{D-Amino Acids:} Using the mirror-image isomers of amino acids, which proteases cannot recognize, thus extending the peptide's half-life.
-    \item \textbf{Lipidation:} Attaching fatty acid chains to enhance membrane anchor properties.
-    \item \textbf{Peptidomimetics:} Creating synthetic molecules (like Brilacidin) that mimic the properties of AMPs but are not composed of standard peptide bonds.
-\end{itemize}
-
-Antimicrobial peptides represent a frontier in the fight against AMR. While experimental techniques provide the foundation for our understanding, Molecular Dynamics simulations bridge the gap by offering a molecular "movie" of the disruption process. The future of AMP-based therapy lies in the synergy between rational bioengineering and high-performance computational modeling to create stable, selective, and cost-effective agents for clinical use.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 \section{Computational Methods in Chemistry}
 
-As the performance of computational methods is tightly linked to the available computational power, advances in supercomputing and simulation techniques are pushing the boundaries of molecular simulations of biological systems. In parallel, the breakthrough of Artificial Intelligence (AI) is revolutionizing science, by enabling the analysis of huge databases to make accurate predictions. In the field of molecular biophysics and chemistry, MD simulations and ML approaches are increasingly recognized as complementary tools. While ML models have already demonstrated the ability to predict properties such as CP membrane permeability directly from experimental data \cite{Cao2024,Yu2024}, MD simulations provide a unique advantage by generating physically consistent, time-resolved trajectories that describe molecular structure, dynamics, and interactions under well-defined conditions. This makes MD-derived data particularly suitable for training and validating ML models, especially in systems where experimental characterization is challenging. This synergy between Molecular Dynamics and Artificial Intelligence is the main foundation of this doctoral thesis. By combining physics-based modeling with data-driven approaches, this work aims to bridge molecular-level mechanisms and predictive capabilities, contributing to emerging paradigms in computational chemistry.
+To overcome the observational barriers inherent to \textit{in vitro} assays, \textit{in silico} approaches have emerged as an indispensable tool in biophysical research. As the performance of these methods is tightly linked to available computational power, continuous advances in supercomputing have pushed the boundaries of molecular simulations, allowing researchers to study complex biological systems with unprecedented detail. Computational chemistry offers a rigorous, physics-based framework to interrogate the structural, thermodynamic, and kinetic properties of biomolecules\cite{Karplus2002,Hollingsworth2018}. 
 
-\subsection{Molecular Dynamics}
+Within the context of Antimicrobial Peptides (AMPs), modeling their behavior requires traversing multiple scales of complexity. On one hand, researchers must explicitly capture the continuous, time-resolved mechanics of peptide-membrane interactions, a task ideally suited for Classical Molecular Dynamics\cite{advances_3}. On the other hand, addressing the astronomical combinatorics of peptide folding and sequence design requires breaking through the computational ceilings of classical architectures, paving the way for emerging paradigms such as Artificial Intelligence (AI) and Quantum Computing (QC)\cite{avances_1,avances_2}. In this thesis, we navigate this multiscale computational landscape, integrating advanced classical simulations with quantum algorithms to bridge molecular-level mechanisms and predictive drug design.
 
-MD is a simulation technique used to study the evolution over time of molecular systems by explicitly modeling the motion of atoms or interaction sites through the numerical integration of Newton's equations of motion. At each time step, the forces acting on the particles are computed using force fields, a set of equations and parameters that describe different inter and intramolecular interactions \cite{Ciccotti2022}.
+\subsection{Molecular Dynamics (MD)}
 
-The first MD simulation dates back to 1957, when Wainwright and Alder simulated systems of hard spheres using a discontinuous potential \cite{Alder1957}. The next step was taken by Rahman in 1964, who simulated liquid argon using a Lennard-Jones pairwise additive potential to account for the interactions between argon atoms. During an era in which computers were scarce and limited in speed and memory, advances in algorithms were essential. In 1967, for example, Verlet proposed a stable numerical integration scheme for Newton's equations, an approach that is still widely used today \cite{Verlet1967}. Later on, in 1971, Rahman and Stillinger published for the first time an MD study on a model of liquid water \cite{Rahman1971}, demonstrating that its structure is formed by a dynamic network of hydrogen bonds. Although today this may seem like routine work, at the time it led the scientific community to believe that if it was possible to simulate water, the medium of the chemistry of life, why not simulate biomolecules themselves? The breakthrough came in 1977, when a group led by Karplus published the first MD simulation of a simple protein \cite{McCammon1977}.
+Unlike conventional experimental techniques that yield macroscopic or time-averaged data, the simulation of systems involving peptides and lipid bilayers through MD provides continuous, atomistic trajectories of all particles in the system \cite{md_microscopio,Sousa2010}. By solving the classical equations of motion over time, MD effectively acts as a computational microscope, allowing the study of peptide adsorption, interfacial folding, and membrane disruption at a level of spatial and temporal detail far beyond what can be achieved experimentally \cite{TIELEMAN1997235}.
 
-During the early 1980s significant progress was made in developing algorithms to sample conditions relevant to experiments. Standard MD simulations operate in the microcanonical (constant energy) ensemble, since Newton's equations of motion conserve the total energy. Andersen was the first to propose a method for achieving constant-pressure MD simulations by extending the dynamical variables of the system to include the volume \cite{Andersen1980}. He was later followed by Parrinello and Rahman, who extended the scheme to include shape fluctuations as well \cite{Parrinello1980,Parrinello1981}. Building on Andersen's work, Nosé introduced a new dynamical variable, coupling the kinetic energy of the atoms to the external temperature, allowing MD to sample the canonical ensemble \cite{Nose1984}. Hoover later refined this approach leading to what is known as Nosé-Hoover thermostat \cite{Hoover1985}, widely used in MD simulations today.
+The first MD simulation dates back to 1957, when Wainwright and Alder simulated systems of hard spheres \cite{Alder1957}. The next step was taken by Rahman in 1964, who simulated liquid argon using a Lennard-Jones potential. In 1967, Verlet proposed a stable numerical integration scheme for Newton's equations, an approach still widely used today \cite{Verlet1967}. In 1971, Rahman and Stillinger published the first MD study on a model of liquid water \cite{Rahman1971}, and the definitive breakthrough for biology came in 1977, when a group led by Karplus published the first MD simulation of a simple protein \cite{McCammon1977}. During the 1980s, significant progress was made to sample relevant experimental conditions, introducing thermostats and barostats by Andersen \cite{Andersen1980}, Parrinello and Rahman \cite{Parrinello1980,Parrinello1981}, Nosé \cite{Nose1984}, and Hoover \cite{Hoover1985}. Since then, MD has grown exponentially, earning Martin Karplus, Arieh Warshel, and Michael Levitt the 2013 Nobel Prize in Chemistry.
 
-Since then, both the size of the simulated systems and the simulation times have grown exponentially, making it common to find studies in the literature on proteins, DNA/RNA complexes or self-assembly processes such as micelle formation \cite{Karplus2002,Sponer2018,Morrow2013}. More broadly, the impact of molecular simulation approaches on chemical research was formally recognized with the award of the 2013 Nobel Prize in Chemistry to Martin Karplus, Arieh Warshel and Michael Levitt for "the development of multiscale models for complex chemical systems".
-%%%
-Within this broader landscape, MD simulations have also been applied to the study of cyclic peptides (CPs) and self-assembled cyclic peptide nanotubes (SCPNs), providing molecular-level insight into their conformational behavior, self-assembly mechanisms, and interactions with lipid membranes. Atomistic MD studies offer a level of structural and dynamical detail difficult to access experimentally, helping to elucidate how peptide sequence, chirality, and amphipathicity influence supramolecular organization. Despite these capabilities, previous research in our group has focused specifically on embedded nanotubes, investigating their stability and implications for membrane structure \cite{GF2016,Calvelo2019,Xandre2021,Conde2022}. A shared feature of the cited works was the use of pre-assembled nanotubes that were manually inserted into lipid bilayers, a necessity driven by the high computational cost of the application of atomistic MD to CP and SCPN systems. Key processes such as peptide self-assembly, membrane insertion, and supramolecular rearrangement typically occur on microsecond to millisecond timescales and involve large peptide–membrane assemblies, placing them beyond the practical reach of routine atomistic simulations.
+\subsubsection{Classical Mechanics and Force Fields}
+Classical MD computes the motion of particles by integrating Newton’s equations of motion \cite{leyesnewton}. The accuracy of these simulations depends fundamentally on the Force Field (FF), which provides the parameterized empirical equations for bonded and non-bonded interactions. The choice of FF is critical; if the selected model fails to accurately capture the relevant non-covalent interactions (e.g., specific peptide-lipid affinities), the resulting trajectories will diverge from reality and fail to represent the physical system \cite{braun2018best,force_field_protocol}.
 
-To overcome these limitations, coarse-grained (CG) Molecular Dynamics approaches have been increasingly adopted, as they enable the simulation of larger systems over longer timescales. CG models have been successfully applied to study the interactions of various CP sequences with lipid bilayers, starting either from a pre-assembled nanotube in solution or from randomly positioned units that self-assemble \cite{Claro2020,Claro2021}. However, while CG models are well suited to capture collective phenomena such as aggregation and membrane remodeling, their reduced resolution often compromises the accurate description of direction-specific interactions, including hydrogen-bond networks, backbone geometry, and chirality-dependent stacking. These features are particularly critical for CPs and SCPNs, whose self-assembly is governed by highly directional hydrogen bonding and precise geometric constraints. As a result, existing CG force fields may fail to faithfully reproduce key aspects of cyclic peptide self-assembly and membrane interactions, despite their favorable computational efficiency.
+\subsubsection{Solvent and Membrane Representation}
+Early simulations used implicit solvent models to save computational costs, representing water as a continuous medium with a specific dielectric constant. However, this fails to capture specific hydrogen bonding between the peptide and water molecules, a crucial factor in secondary structure formation. Modern MD favors explicit solvent and explicit membranes, where every lipid and water molecule is represented. While more accurate, this significantly increases the system size and computational demand.
 
-This gap between atomistic accuracy and CG scalability highlights the need for computational strategies that preserve essential structural features of cyclic peptides while enabling systematic, large-scale simulations and data-driven analysis.
+\subsection{Sampling Challenges and Enhanced Methods}
 
-Looking forward, MD continue to benefit from advances in high-performance computing, including the deployment of exascale architectures, which enable increasingly large and long simulations of complex molecular systems. In parallel, the breakthrough of AI, and in particular Machine Learning (ML), is profoundly revolutionizing the field. Beyond their application as classification or prediction tools, ML-based approaches are increasingly integrated into the core of theoretical chemistry through the development of ML potentials, which offer a promising route to accelerate MD while preserving atomic accuracy.
+Within this broader landscape, MD simulations have been extensively applied to the study of AMPs. However, the main limitation of atomistic MD is the timescale. Slow phenomena relevant to AMPs, such as spontaneous environment-conditioned folding, membrane partitioning, and pore formation, often occur on microsecond to millisecond scales \cite{GF2016,Calvelo2019,Xandre2021,Conde2022}. To overcome this, several \textbf{Enhanced Sampling} techniques are employed:
 
+\begin{itemize}
+    \item \textbf{Replica-Exchange MD (REMD):} Running multiple simulations at different temperatures to cross energy barriers.
+    \item \textbf{Metadynamics:} Adding a history-dependent biasing potential to discourage the system from staying in local energy minima.
+    \item \textbf{Umbrella Sampling:} Constraining the system along a specific reaction coordinate (e.g., the distance between the peptide and the membrane center).
+\end{itemize}
 
-
-
-
-
-
-
-
-
-
+\subsubsection{Coarse-Grained (CG) Simulations and Their Limitations}
+To access longer timescales, Coarse-Grained (CG) approaches, such as the \textbf{Martini force field}, map groups of approximately four heavy atoms into a single interaction site (bead). This smoothing of the free energy surface allows for simulations that are orders of magnitude longer \cite{Claro2020,Claro2021}. However, while well-suited to capture collective phenomena such as global membrane remodeling, their reduced resolution compromises the accurate description of specific atomic-level events. The loss of explicit hydrogen atoms means that highly dynamic, environment-conditioned folding transitions (e.g., the coil-to-helix transition of AMPs upon membrane contact) cannot be fully described without additional artificial constraints like elastic networks, leaving a crucial gap between atomistic accuracy and CG scalability.
 
 
 
@@ -292,6 +273,25 @@ In the realm of chemistry and biophysics, quantum computing is poised to revolut
 The integration of quantum computing into the existing biophysical toolbox offers a complementary approach to traditional Molecular Dynamics (MD) simulations. While MD provides the time-resolved trajectories and thermodynamic properties of large-scale systems, quantum kernels can be used to resolve the specific energetic contributions or optimization subproblems that drive molecular recognition and self-assembly. For peptide research, particularly in the design of antimicrobial and cyclic peptides, this synergy allows for a multi-scale perspective where quantum algorithms guide the optimization of sequences that are subsequently validated through classical atomistic simulations. This PhD dissertation explores this intersection, leveraging the unique capabilities of quantum optimization to address the challenges of molecular design in complex environments such as lipid membranes.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Scope and Framework of this Thesis}
+
+In this context, this thesis addresses these computational and biophysical bottlenecks by focusing on unlocking the specificity of antimicrobial peptide interactions for membrane-targeted therapies. Instead of relying on empirical chemical modifications, this work establishes a foundational framework aimed at a precise, molecular-level understanding of peptide-lipid recognition. By dissecting the fundamental forces that govern how these biomolecules distinguish between diverse cellular membranes, we provide the mechanistic groundwork needed to exploit lipid composition as a highly selective therapeutic target.
+
+Building upon this conceptual milestone, the subsequent phases of this research transition into advanced computational methodologies to model and engineer these interactions from first principles. Specifically, we explore the frontier of structural biology by performing classical simulations on quantum computers to investigate interface-driven peptide folding on simulated membrane surfaces, capturing the highly dynamic conformational changes that occur precisely at the lipid-water boundary. Ultimately, the insights gained from these quantum-simulated systems are translated into practical blueprints for the environment-conditioned design of $\alpha$-helical peptides, effectively establishing a predictive framework for the targeted design of membrane-specific peptides.
 \section{Dissertation Structure}
 
 This PhD dissertation is structured into seven main sections and one supplementary section. The manuscript first delves into the pathophysiological context behind the work, introducing the CAIn Triangle (Cancer, Aging, and Infection) and the challenge of antimicrobial resistance (AMR). It then presents Antimicrobial Peptides (AMPs) and the computational techniques used to study them. After that, the objectives of this research are presented, followed by a technical explanation of the materials and methods. Subsequently, the scientific results are presented as a compendium of articles, comprising the most relevant publications and manuscripts related to this thesis, divided into two results sections. Finally, the contributions are discussed as a whole in order to draw a general list of conclusions. In particular, the document is structured as follows:
