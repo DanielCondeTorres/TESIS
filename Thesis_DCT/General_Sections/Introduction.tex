@@ -158,89 +158,57 @@ Ultimately, while combining these diverse spectroscopic, microscopic, and thermo
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{Simulation Approaches: Molecular Dynamics (MD)}
-To overcome the observational barriers inherent to \textit{in vitro} assays, \textit{in silico} approaches have emerged as an indispensable tool in biophysical research. Unlike conventional experimental techniques that yield macroscopic or time-averaged data, the simulation of systems involving peptides and lipid bilayers, specifically through MD, provides continuous, atomistic, and time-resolved trajectories of all particles in the system\cite{md_microscopio,Sousa2010}. By solving the classical equations of motion over time, MD effectively acts as a computational microscope, allowing the study of peptide adsorption, interfacial folding, and membrane disruption at a level of spatial and temporal detail far beyond what can be achieved experimentally\cite{TIELEMAN1997235}.
-
-\subsection{Classical Molecular Dynamics}
-Classical MD computes the motion of particles by integrating Newton’s equations of motion\cite{leyesnewton}. The accuracy of these simulations depends on the Force Field (FF), which provides the parameters for bonded and non-bonded interactions. The choice of FF is critical; if the selected FF does not capture the relevant interactions (e.g., specific protein-lipid affinities), the resulting trajectories will not represent the physical system\cite{braun2018best,force_field_protocol}.
-
-\subsection{Solvent and Membrane Representation}
-Early simulations used implicit solvent models to save computational costs, representing water as a continuous medium with a specific dielectric constant. However, this fails to capture specific hydrogen bonding between the peptide and water molecules. Modern MD favors explicit solvent and explicit membranes, where every lipid and water molecule is represented. While more accurate, this significantly increases the system size and computational demand.
-
-
-
-
-\section{Sampling Challenges and Enhanced Methods}
-The main limitation of atomistic MD is the timescale. Slow phenomena such as spontaneous peptide folding or pore formation often occur on microsecond to millisecond scales, which are difficult to reach with standard MD. To overcome this, several \textbf{Enhanced Sampling} techniques are employed:
-\begin{itemize}
-    \item \textbf{Replica-Exchange MD (REMD):} Running multiple simulations at different temperatures to cross energy barriers.
-    \item \textbf{Metadynamics:} Adding a history-dependent biasing potential to discourage the system from staying in local energy minima.
-    \item \textbf{Umbrella Sampling:} Constraining the system along a specific reaction coordinate (e.g., the distance between the peptide and the membrane center).
-\end{itemize}
-
-\subsection{Coarse-Grained (CG) Simulations}
-A Coarse-Grained representation improves sampling by reducing the degrees of freedom. In CG models, such as the \textbf{Martini force field}, groups of approximately four heavy atoms are mapped into a single interaction site (bead). 
-\begin{equation}
-    F_i = m_i \frac{d^2r_i}{dt^2}
-\end{equation}
-This smoothing of the free energy surface allows for simulations that are orders of magnitude longer. However, the loss of resolution—such as the absence of explicit hydrogen atoms—means that phenomena like precise H-bonding and secondary structure transitions cannot be fully described without additional constraints like elastic networks.
-
-
-
 \section{Computational Methods in Chemistry}
 
-To overcome the observational barriers inherent to \textit{in vitro} assays, \textit{in silico} approaches have emerged as an indispensable tool in biophysical research. As the performance of these methods is tightly linked to available computational power, continuous advances in supercomputing have pushed the boundaries of molecular simulations, allowing researchers to study complex biological systems with unprecedented detail. Computational chemistry offers a rigorous, physics-based framework to interrogate the structural, thermodynamic, and kinetic properties of biomolecules\cite{Karplus2002,Hollingsworth2018}. 
+To overcome the observational barriers inherent to \textit{in vitro} assays, \textit{in silico} approaches have emerged as an indispensable tool in biophysical research. As the performance of these methods is tightly linked to available computational power, continuous advances in supercomputing have pushed the boundaries of molecular simulations, allowing researchers to study complex biological systems with unprecedented detail\cite{Melo2023}. Computational chemistry offers a rigorous, physics-based framework to interrogate the structural, thermodynamic, and kinetic properties of biomolecules\cite{Karplus2002,Hollingsworth2018}. 
 
-Within the context of Antimicrobial Peptides (AMPs), modeling their behavior requires traversing multiple scales of complexity. On one hand, researchers must explicitly capture the continuous, time-resolved mechanics of peptide-membrane interactions, a task ideally suited for Classical Molecular Dynamics\cite{advances_3}. On the other hand, addressing the astronomical combinatorics of peptide folding and sequence design requires breaking through the computational ceilings of classical architectures, paving the way for emerging paradigms such as Artificial Intelligence (AI) and Quantum Computing (QC)\cite{avances_1,avances_2}. In this thesis, we navigate this multiscale computational landscape, integrating advanced classical simulations with quantum algorithms to bridge molecular-level mechanisms and predictive drug design.
+Within the context of Antimicrobial Peptides (AMPs), modeling their behavior requires traversing multiple scales of complexity. On one hand, researchers must explicitly capture the continuous, time-resolved mechanics of peptide-membrane interactions, a task ideally suited for Classical Molecular Dynamics\cite{advances_3}. On the other, addressing the astronomical combinatorics of peptide folding and sequence design requires breaking through the computational ceilings of classical architectures\cite{robert2021resource}, paving the way for emerging paradigms such as Artificial Intelligence (AI) and Quantum Computing (QC)\cite{avances_1,avances_2}. In this thesis, we navigate this multiscale computational landscape, integrating advanced classical simulations with quantum algorithms to bridge molecular-level mechanisms and predictive drug design.
 
 \subsection{Molecular Dynamics (MD)}
 
+
 Unlike conventional experimental techniques that yield macroscopic or time-averaged data, the simulation of systems involving peptides and lipid bilayers through MD provides continuous, atomistic trajectories of all particles in the system \cite{md_microscopio,Sousa2010}. By solving the classical equations of motion over time, MD effectively acts as a computational microscope, allowing the study of peptide adsorption, interfacial folding, and membrane disruption at a level of spatial and temporal detail far beyond what can be achieved experimentally \cite{TIELEMAN1997235}.
 
-The first MD simulation dates back to 1957, when Wainwright and Alder simulated systems of hard spheres \cite{Alder1957}. The next step was taken by Rahman in 1964, who simulated liquid argon using a Lennard-Jones potential. In 1967, Verlet proposed a stable numerical integration scheme for Newton's equations, an approach still widely used today \cite{Verlet1967}. In 1971, Rahman and Stillinger published the first MD study on a model of liquid water \cite{Rahman1971}, and the definitive breakthrough for biology came in 1977, when a group led by Karplus published the first MD simulation of a simple protein \cite{McCammon1977}. During the 1980s, significant progress was made to sample relevant experimental conditions, introducing thermostats and barostats by Andersen \cite{Andersen1980}, Parrinello and Rahman \cite{Parrinello1980,Parrinello1981}, Nosé \cite{Nose1984}, and Hoover \cite{Hoover1985}. Since then, MD has grown exponentially, earning Martin Karplus, Arieh Warshel, and Michael Levitt the 2013 Nobel Prize in Chemistry.
+The first MD simulation dates back to 1957, when Wainwright and Alder simulated systems of hard spheres \cite{Alder1957}. The next step was taken by Rahman in 1964, who simulated liquid argon using a Lennard-Jones potential\cite{rahman1964correlations}. In 1967, Verlet proposed a stable numerical integration scheme for Newton's equations, an approach still widely used today \cite{Verlet1967}. In 1971, Rahman and Stillinger published the first MD study on a model of liquid water \cite{Rahman1971}, and the definitive breakthrough for biology came in 1977, when a group led by Karplus published the first MD simulation of a simple protein \cite{McCammon1977}. During the 1980s, significant algorithmic advances enabled MD to accurately sample physiological conditions, driven by the introduction of robust thermostats and barostats by Andersen \cite{Andersen1980}, Parrinello and Rahman \cite{Parrinello1980,Parrinello1981}, Nosé \cite{Nose1984}, and Hoover \cite{Hoover1985}. Concurrently, conceptual breakthroughs in dimensionality reduction \cite{Levitt1975} and the integration of quantum and classical mechanics (QM/MM) \cite{WARSHEL1976227, Warshel1972} expanded the applicability of these simulations to complex biological reactions. This continuous exponential growth in both methodological rigor and computational scale ultimately culminated in the 2013 Nobel Prize in Chemistry, awarded to Martin Karplus, Arieh Warshel, and Michael Levitt for the development of multiscale models for complex chemical systems.
+
+Building on this historical legacy, the field is currently undergoing a significant paradigm shift driven by the integration of Artificial Intelligence\cite{cecilia_1}. While traditional empirical force fields, particularly at the coarse-grained (CG) level, suffer from reduced resolution and fixed functional forms that limit their accuracy, modern Machine Learning (ML) architectures offer a powerful alternative\cite{cecilia_1}. By training deep neural networks on massive datasets of high-resolution all-atom simulations, state-of-the-art ML potentials can construct bottom-up, transferable CG models that successfully bridge the gap between atomistic accuracy and coarse-grained computational efficiency \cite{cecilia_2}. This breakthrough enables the predictive exploration of complex protein landscapes and rare conformational transitions at a fraction of the traditional computational cost, marking the next frontier in biophysical simulations\cite{cecilia_2}.
+
 
 \subsubsection{Classical Mechanics and Force Fields}
 Classical MD computes the motion of particles by integrating Newton’s equations of motion \cite{leyesnewton}. The accuracy of these simulations depends fundamentally on the Force Field (FF), which provides the parameterized empirical equations for bonded and non-bonded interactions. The choice of FF is critical; if the selected model fails to accurately capture the relevant non-covalent interactions (e.g., specific peptide-lipid affinities), the resulting trajectories will diverge from reality and fail to represent the physical system \cite{braun2018best,force_field_protocol}.
 
+
+
+
 \subsubsection{Solvent and Membrane Representation}
-Early simulations used implicit solvent models to save computational costs, representing water as a continuous medium with a specific dielectric constant. However, this fails to capture specific hydrogen bonding between the peptide and water molecules, a crucial factor in secondary structure formation. Modern MD favors explicit solvent and explicit membranes, where every lipid and water molecule is represented. While more accurate, this significantly increases the system size and computational demand.
 
-\subsection{Sampling Challenges and Enhanced Methods}
+To mitigate the immense computational cost of calculating forces for thousands of water molecules, early methodologies, tracing back to the pioneering dipole models of Warshel and Levitt \cite{WARSHEL1976227}, relied heavily on implicit solvent representations. These approaches treat the solvent as a continuous polarizable medium with a macroscopic dielectric constant, effectively reducing the system's degrees of freedom \cite{implicit_solvent_model}. However, continuum models inherently fail to capture the highly directional, discrete hydrogen-bonding networks established between the peptide backbone and individual water molecules. In the context of AMPs, this limitation is critical: the dynamic competition between peptide-water and intramolecular peptide-peptide hydrogen bonds is the fundamental driving force governing their characteristic environment-conditioned folding (e.g., the transition from a disordered coil in solution to an amphipathic $\alpha$-helix at the lipid interface).
 
-Within this broader landscape, MD simulations have been extensively applied to the study of AMPs. However, the main limitation of atomistic MD is the timescale. Slow phenomena relevant to AMPs, such as spontaneous environment-conditioned folding, membrane partitioning, and pore formation, often occur on microsecond to millisecond scales \cite{GF2016,Calvelo2019,Xandre2021,Conde2022}. To overcome this, several \textbf{Enhanced Sampling} techniques are employed:
+Consequently, modern atomistic MD relies almost exclusively on explicit solvation and fully detailed, multicomponent lipid bilayers to study peptide-membrane interactions. While this explicit representation accurately captures the complex interfacial mechanics, lipid hydration shells, and thermodynamic forces governing peptide adsorption \cite{Kabelka2021, Marrink2019}, it comes at a severe price. The explicit inclusion of water and lipid molecules typically accounts for over 90\% of the atoms in the simulation box, drastically amplifying the computational burden and severely restricting the accessible timescales for observing spontaneous folding and membrane disruption events\cite{Frenkel2023, implicit_solvent_model,martini2}.
+
+
+To bridge this critical timescale gap and capture the slow, complex phenomena relevant to AMPs, such as membrane partitioning, spontaneous pore formation, and peptide aggregation \cite{GF2016,Calvelo2019,Xandre2021,Conde2022}, researchers typically rely on two complementary computational strategies: reducing the system's degrees of freedom or algorithmically accelerating the exploration of the energy landscape.
+
+\subsection{Dimensionality Reduction: Coarse-Grained (CG) Simulations}
+To access longer timescales and larger spatial dimensions, Coarse-Grained (CG) approaches, such as the widely used Martini force field, map groups of approximately four heavy atoms into a single interaction site (bead)\cite{martini2}. This dimensional reduction and the subsequent smoothing of the free energy surface allow for simulations that are orders of magnitude faster than atomistic MD \cite{Claro2020,Claro2021}. However, while CG models are exceptionally well-suited to capture collective phenomena such as global membrane remodeling and lipid sorting, their reduced resolution inherently compromises the accurate description of specific atomic-level events. Crucially for AMPs, the loss of explicit hydrogen atoms means that highly dynamic, environment-conditioned folding transitions (e.g., the coil-to-helix transition upon membrane contact) cannot be spontaneously described without additional artificial constraints, such as elastic networks. This limitation leaves a crucial gap between atomistic accuracy and CG scalability\cite{limitation_martini_1,cecilia_2,SIRAH}.
+
+
+
+\subsection{Algorithmic Acceleration: Enhanced Sampling Methods}
+While CG models significantly extend accessible timescales, deep free-energy basins and high kinetic barriers can still trap the system in local minima. Consequently, the spontaneous observation of rare events—such as deep membrane insertion, specific lipid recruitment, or pore formation—remains highly challenging. To systematically overcome these barriers, regardless of the chosen resolution (atomistic or coarse-grained), MD is frequently coupled with Enhanced Sampling techniques\cite{limitation_martini_1,limitation_martini_2,steered_md_1,steered_md_2,Richardson2024}. These methods manipulate the thermodynamic ensembles or the underlying potential energy surface to accelerate the exploration of the conformational space and reconstruct the free-energy landscapes. In the context of AMP-membrane interactions, where such combinations have successfully unveiled the specificity of peptide orientations\cite{samson_umbrella_sampling}, the most prominent techniques include:
 
 \begin{itemize}
-    \item \textbf{Replica-Exchange MD (REMD):} Running multiple simulations at different temperatures to cross energy barriers.
-    \item \textbf{Metadynamics:} Adding a history-dependent biasing potential to discourage the system from staying in local energy minima.
-    \item \textbf{Umbrella Sampling:} Constraining the system along a specific reaction coordinate (e.g., the distance between the peptide and the membrane center).
+    \item \textbf{Replica-Exchange MD (REMD):} A generalized ensemble method that runs multiple parallel simulations at varying temperatures, allowing configurations to swap and preventing the system from becoming trapped in local energy minima \cite{replica}.
+    \item \textbf{Metadynamics:} A technique that adds a history-dependent, Gaussian biasing potential to the free energy surface, effectively \textit{filling} the local minima visited by the system and forcing it to explore new conformations along a set of collective variables (CVs) \cite{Laio2002, plumed, opes, Barducci2008}.
+    \item \textbf{Umbrella Sampling:} A stratification method that restrains the system along a predefined reaction coordinate (e.g., the distance between the peptide center of mass and the membrane core) using a harmonic bias, allowing for the extraction of the Potential of Mean Force (PMF) across the transition pathway \cite{umbrella_sampling_origen, umbrella_sampling}.
+    \item \textbf{Steered MD (SMD):} A non-equilibrium acceleration approach where time-dependent external forces are applied to pull the peptide along a specific vector or reaction coordinate \cite{steered_md}. In AMP studies, SMD is extensively employed as a powerful tool to force membrane permeation and generate the continuous pathway of initial conformations required to seed subsequent equilibrium methods like Umbrella Sampling\cite{steered_md_2,steered_md_1}.
 \end{itemize}
 
-\subsubsection{Coarse-Grained (CG) Simulations and Their Limitations}
-To access longer timescales, Coarse-Grained (CG) approaches, such as the \textbf{Martini force field}, map groups of approximately four heavy atoms into a single interaction site (bead). This smoothing of the free energy surface allows for simulations that are orders of magnitude longer \cite{Claro2020,Claro2021}. However, while well-suited to capture collective phenomena such as global membrane remodeling, their reduced resolution compromises the accurate description of specific atomic-level events. The loss of explicit hydrogen atoms means that highly dynamic, environment-conditioned folding transitions (e.g., the coil-to-helix transition of AMPs upon membrane contact) cannot be fully described without additional artificial constraints like elastic networks, leaving a crucial gap between atomistic accuracy and CG scalability.
+
+
+
+
+
 
 
 

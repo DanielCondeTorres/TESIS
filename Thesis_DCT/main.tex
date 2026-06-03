@@ -23,8 +23,9 @@
 \usepackage[absolute,overlay]{textpos}  % for positioning labels inside images
 
 % Margins and spacing
-\usepackage[a4paper, margin=2.5cm]{geometry} 
+\usepackage[a4paper, top=2.5cm, bottom=3.2cm, left=2.5cm, right=2.5cm]{geometry} 
 \setlength{\headheight}{15pt}
+\setlength{\footskip}{55pt}
 \usepackage{setspace} 
 \usepackage{xcolor}
 \usepackage{tikz}
@@ -71,9 +72,21 @@
 % Horizontal line under header
 \renewcommand{\headrulewidth}{0.4pt} 
 
-% Define footers (page numbers)
-\fancyfoot[LE]{\thepage} % Left side on even pages
-\fancyfoot[RO]{\thepage} % Right side on odd pages
+% Macro to insert the folding peptide image based on page progress
+\newcommand{\insertpeptide}{%
+  \ifnum\value{page}>0 % Ensure page number is positive
+    \setrefcountdefault{240}% Set fallback to 240 if LastPage is not yet defined
+    \edef\totalpagesnum{\getpagerefnumber{LastPage}}%
+    % Calculate index: round(1 + (page - 1)/(total_pages - 1) * 239) and clamp between 1 and 240
+    \edef\imgindex{\fpeval{min(240, max(1, round(1 + (\thepage - 1) / (\totalpagesnum - 1) * 239, 0)))}}%
+    % Load the image (scaled to 2.1cm height so it is clearly visible in the footer)
+    \raisebox{-0.32\height}{\includegraphics[height=2.1cm]{FOLDING_PEPTIDE_PICTURE/folding_\imgindex.png}}%
+  \fi
+}
+
+% Define footers (page numbers and folding peptide on outer corners)
+\fancyfoot[LE]{\insertpeptide\quad\thepage} % Even pages: peptide on left, page number on right
+\fancyfoot[RO]{\thepage\quad\insertpeptide} % Odd pages: page number on left, peptide on right
 
 % Remove headers & footers from cover, index, and chapter pages
 \fancypagestyle{plain}{%
@@ -175,6 +188,9 @@
 \usepackage{amssymb}
 
 \usepackage{mathtools}
+
+\usepackage{refcount}
+\usepackage{xfp}
 
 % Hyperlinks (Loaded last for compatibility)
 \usepackage[colorlinks=true, linkcolor=USCBlue, citecolor=USCBlue, urlcolor=USCBlue]{hyperref}
@@ -362,6 +378,7 @@
 %Conclusions
 \include{Appendix/Appendix}
 
+\label{LastPage}
 \includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/Contraportada_tese.pdf} % Declaracion responsable
 
 \end{document}
