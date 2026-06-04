@@ -3519,7 +3519,7 @@ year = {2021}
   issn     = {1476-4687},
   abstract = {Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort, the structures of around 100,000 unique proteins have been determined, but this represents a small fraction of the billions of known protein sequences. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’—has been an important open research problem for more than 50 years. Despite recent progress, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14), demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.}
 }
-@article{advances_3,
+@article{avances_3,
 author = {Tieleman, D. P. and Sansom, M. S. P.},
 title = {Molecular dynamics simulations of antimicrobial peptides: From membrane binding to trans-membrane channels},
 journal = {International Journal of Quantum Chemistry},
@@ -3749,3 +3749,94 @@ DOI = {10.3390/biom8030077}
   issn      = {1520-6106}
 }
 
+
+
+
+
+
+
+
+
+
+@article{PROTEINMPNN,
+author = {J. Dauparas  and I. Anishchenko  and N. Bennett  and H. Bai  and R. J. Ragotte  and L. F. Milles  and B. I. M. Wicky  and A. Courbet  and R. J. de Haas  and N. Bethel  and P. J. Y. Leung  and T. F. Huddy  and S. Pellock  and D. Tischer  and F. Chan  and B. Koepnick  and H. Nguyen  and A. Kang  and B. Sankaran  and A. K. Bera  and N. P. King  and D. Baker },
+title = {Robust deep learning–based protein sequence design using ProteinMPNN},
+journal = {Science},
+volume = {378},
+number = {6615},
+pages = {49-56},
+year = {2022},
+doi = {10.1126/science.add2187},
+URL = {https://www.science.org/doi/abs/10.1126/science.add2187},
+eprint = {https://www.science.org/doi/pdf/10.1126/science.add2187},
+abstract = {Although deep learning has revolutionized protein structure prediction, almost all experimentally characterized de novo protein designs have been generated using physically based approaches such as Rosetta. Here, we describe a deep learning–based protein sequence design method, ProteinMPNN, that has outstanding performance in both in silico and experimental tests. On native protein backbones, ProteinMPNN has a sequence recovery of 52.4\% compared with 32.9\% for Rosetta. The amino acid sequence at different positions can be coupled between single or multiple chains, enabling application to a wide range of current protein design challenges. We demonstrate the broad utility and high accuracy of ProteinMPNN using x-ray crystallography, cryo–electron microscopy, and functional studies by rescuing previously failed designs, which were made using Rosetta or AlphaFold, of protein monomers, cyclic homo-oligomers, tetrahedral nanoparticles, and target-binding proteins. Deep learning approaches such as Alphafold and Rosettafold have made reliable protein structure prediction broadly accessible. For the inverse problem, finding a sequence that folds to a desired structure, most approaches remain based on energy optimization. In two papers, a range of protein design problems were addressed through deep learning methods. Dauparas et al. built on recent deep learning protein design approaches to develop a method called ProteinMPNN. They validated designs experimentally and showed that ProteinMPNN can rescue previously failed designs made using Rosetta or Alphafold. Wicky et al. started from a random sequence and used Monte Carlo sequence search coupled with structure prediction by Alphafold to design cyclic homo-oligomers. Although the designs were generated to achieve stable expression, the sequences had to be regenerated using ProteinMPNN. This approach allowed for the design of a range of experimentally validated cyclic oligomers and paves the way for the design of increasingly complex assemblies. —VV A network-based protein design enables the generation of cyclic homo-oligomers across the nanoscopic scale.}}
+
+
+
+
+
+@article{ROSETTA,
+  author    = {Alford, Rebecca F. and Leaver-Fay, Andrew and Jeliazkov, Jeliazko R. and O'Meara, Matthew J. and DiMaio, Frank P. and Park, Hahnbeom and Shapovalov, Maxim V. and Renfrew, P. Douglas and Mulligan, Vikram K. and Kappel, Kalli and Labonte, Jason W. and Pacella, Michael S. and Bonneau, Richard and Bradley, Philip and Dunbrack, Jr., Roland L. and Das, Rhiju and Baker, David and Kuhlman, Brian and Kortemme, Tanja and Gray, Jeffrey J.},
+  title     = {The {{Rosetta}} All-Atom Energy Function for Macromolecular Modeling and Design},
+  journal   = {Journal of Chemical Theory and Computation},
+  volume    = {13},
+  number    = {6},
+  pages     = {3031--3048},
+  year      = {2017},
+  publisher = {American Chemical Society},
+  doi       = {10.1021/acs.jctc.7b00125},
+  url       = {https://doi.org/10.1021/acs.jctc.7b00125},
+  issn      = {1549-9618}
+}
+
+
+
+@article{limitaciones_md,
+    author = {Ray, Dhiman},
+    title = {Integrating path sampling with enhanced sampling for rare-event kinetics},
+    journal = {The Journal of Chemical Physics},
+    volume = {161},
+    number = {22},
+    pages = {224106},
+    year = {2024},
+    month = {12},
+    abstract = {Studying the kinetics of long-timescale rare events is a fundamental challenge in molecular simulation. To address this problem, we propose an integration of two different rare-event sampling philosophies: biased enhanced sampling and unbiased path sampling. Enhanced sampling methods, e.g., metadynamics, can facilitate the crossing of free energy barriers by applying an external bias potential. On the contrary, path sampling methods like weighted ensemble do not apply any biasing force but accelerate the exploration of rugged free energy surfaces through trajectory resampling. We show that a judicious combination of the weighted ensemble with a metadynamics-like algorithm can synergize the strengths and mitigate the deficiencies of path sampling and enhanced sampling approaches. The resulting integrated sampling (IS) algorithm improves the computational efficiency of calculating the kinetics of peptide conformational transitions, protein unfolding, and the dissociation of a ligand–receptor complex. Furthermore, the IS approach can direct sampling along the minimum free energy pathway even when the collective variable used for biasing is suboptimal. These advantages make the IS algorithm suitable for studying the kinetics of complex molecular systems of biological and pharmaceutical relevance.},
+    issn = {0021-9606},
+    doi = {10.1063/5.0239303},
+    url = {https://doi.org/10.1063/5.0239303},
+    eprint = {https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0239303/20287144/224106_1_5.0239303.pdf},
+}
+
+
+
+
+
+%QUANTUM COMPUTING AND BIOLOGY
+@article{quantum_biology_1,
+author = {Baiardi, Alberto and Christandl, Matthias and Reiher, Markus},
+title = {Quantum Computing for Molecular Biology},
+journal = {ChemBioChem},
+volume = {24},
+number = {13},
+pages = {e202300120},
+keywords = {Quantum Computing, Molecular Biology, Quantum Chemistry, Quantum Biology, Molecular Simulations},
+doi = {https://doi.org/10.1002/cbic.202300120},
+url = {https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cbic.202300120},
+eprint = {https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/cbic.202300120},
+abstract = {Abstract Molecular biology and biochemistry interpret microscopic processes in the living world in terms of molecular structures and their interactions, which are quantum mechanical by their very nature. Whereas the theoretical foundations of these interactions are well established, the computational solution of the relevant quantum mechanical equations is very hard. However, much of molecular function in biology can be understood in terms of classical mechanics, where the interactions of electrons and nuclei have been mapped onto effective classical surrogate potentials that model the interaction of atoms or even larger entities. The simple mathematical structure of these potentials offers huge computational advantages; however, this comes at the cost that all quantum correlations and the rigorous many-particle nature of the interactions are omitted. In this work, we discuss how quantum computation may advance the practical usefulness of the quantum foundations of molecular biology by offering computational advantages for simulations of biomolecules. We not only discuss typical quantum mechanical problems of the electronic structure of biomolecules in this context, but also consider the dominating classical problems (such as protein folding and drug design) as well as data-driven approaches of bioinformatics and the degree to which they might become amenable to quantum simulation and quantum computation.},
+year = {2023}
+}
+
+@article{quantum_biology_2,
+  author   = {Ghamsari, Morteza Sasani},
+  title    = {Quantum computing applications in biology},
+  journal  = {Discover Computing},
+  year     = {2025},
+  volume   = {28},
+  number   = {1},
+  pages    = {276},
+  doi      = {10.1007/s10791-025-09803-y},
+  url      = {https://doi.org/10.1007/s10791-025-09803-y},
+  issn     = {2948-2992},
+  abstract = {Recently, there has been significant interest in quantum technology, which utilizes various quantum phenomena, including quantum coherence, entanglement, interference, and superposition, among others. Consequently, many attempts are recently being made to apply quantum computing in biological sciences due to its potential advancements. This paper seeks to fill that gap by highlighting the direct biological applications of quantum computing, providing a novel contribution to the field. The Goal of this paper is to offer a thorough examination of both current and potential applications of this technology, within the field of biology. First, quantum computing principles and the challenges they face are explained. Quantum machine learning, is also, introduced which opens a window to biological applications of quantum computation. Then, numerous, existing, potentially crucial, biological applications of quantum computing, which greatly enhance healthcare and quality of life, particularly in the broad field of genetics, drug design, molecular biology, and bioinformatics, are being discussed.}
+}

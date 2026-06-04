@@ -7962,6 +7962,61 @@
       \endverb
       \keyw{Antimicrobial peptides,Coarse-grained molecular dynamics simulations,D,Differential scanning calorimetry,L-α-cyclic peptides,Polarized ATR-FTIR,Self-assembled cyclic peptide nanotubes}
     \endentry
+    \entry{limitation_martini_1}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=fa2482c6eba0d54d45ec63dff92c2e49}{%
+           family={Borges-Araújo},
+           familyi={B\bibinithyphendelim A\bibinitperiod},
+           given={Luís},
+           giveni={L\bibinitperiod}}}%
+        {{hash=259c08e94f260bbac2c6858a7f5c7465}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Gilberto\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=97d5ea94e2b0e819782dc7f8bcacb995}{%
+           family={Valério},
+           familyi={V\bibinitperiod},
+           given={Mariana},
+           giveni={M\bibinitperiod}}}%
+        {{hash=54e8c1651600cb7e113463b84d4fc00e}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Paulo\bibnamedelima C.T.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c3975e30365f24d88780e782541ca492}
+      \strng{fullhash}{1047cc8eabf214930cb84c2ce2c3e20e}
+      \strng{fullhashraw}{1047cc8eabf214930cb84c2ce2c3e20e}
+      \strng{bibnamehash}{1047cc8eabf214930cb84c2ce2c3e20e}
+      \strng{authorbibnamehash}{1047cc8eabf214930cb84c2ce2c3e20e}
+      \strng{authornamehash}{c3975e30365f24d88780e782541ca492}
+      \strng{authorfullhash}{1047cc8eabf214930cb84c2ce2c3e20e}
+      \strng{authorfullhashraw}{1047cc8eabf214930cb84c2ce2c3e20e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Coarse-grained (CG) protein models have become indispensable tools for studying many biological protein details, from conformational dynamics to the organization of protein macro-complexes, and even the interaction of proteins with other molecules. The Martini force field is one of the most widely used CG models for bio-molecular simulations, partly because of the enormous success of its protein model. With the recent release of a new and improved version of the Martini force field – Martini 3 – a new iteration of its protein model was also made available. The Martini 3 protein force field is an evolution of its Martini 2 counterpart, aimed at improving many of the shortcomings that had been previously identified. In this mini-review, we first provide a general overview of the model and then focus on the successful advances made in the short time since its release, many of which would not have been possible before. Furthermore, we discuss reported limitations, potential directions for model improvement and comment on what the likely future development and application avenues are.}
+      \field{issn}{1570-9639}
+      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics}
+      \field{number}{4}
+      \field{title}{Assessing the Martini 3 protein model: A review of its path and potential}
+      \field{volume}{1872}
+      \field{year}{2024}
+      \field{pages}{141014}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.bbapap.2024.141014
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1570963924000219
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1570963924000219
+      \endverb
+      \keyw{Molecular dynamics simulations,Coarse-grained models,Martini model,Protein dynamics,Protein-lipid interactions,Protein-small molecule binding,Protein-protein interactions}
+    \endentry
     \entry{SIRAH}{article}{}{}
       \name{author}{6}{}{%
         {{hash=8f7ef7967dc7e2fd35faccc9bd416c81}{%
@@ -8028,61 +8083,6 @@
       \verb https://doi.org/10.1021/ct5007746
       \endverb
     \endentry
-    \entry{limitation_martini_1}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=fa2482c6eba0d54d45ec63dff92c2e49}{%
-           family={Borges-Araújo},
-           familyi={B\bibinithyphendelim A\bibinitperiod},
-           given={Luís},
-           giveni={L\bibinitperiod}}}%
-        {{hash=259c08e94f260bbac2c6858a7f5c7465}{%
-           family={Pereira},
-           familyi={P\bibinitperiod},
-           given={Gilberto\bibnamedelima P.},
-           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=97d5ea94e2b0e819782dc7f8bcacb995}{%
-           family={Valério},
-           familyi={V\bibinitperiod},
-           given={Mariana},
-           giveni={M\bibinitperiod}}}%
-        {{hash=54e8c1651600cb7e113463b84d4fc00e}{%
-           family={Souza},
-           familyi={S\bibinitperiod},
-           given={Paulo\bibnamedelima C.T.},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{c3975e30365f24d88780e782541ca492}
-      \strng{fullhash}{1047cc8eabf214930cb84c2ce2c3e20e}
-      \strng{fullhashraw}{1047cc8eabf214930cb84c2ce2c3e20e}
-      \strng{bibnamehash}{1047cc8eabf214930cb84c2ce2c3e20e}
-      \strng{authorbibnamehash}{1047cc8eabf214930cb84c2ce2c3e20e}
-      \strng{authornamehash}{c3975e30365f24d88780e782541ca492}
-      \strng{authorfullhash}{1047cc8eabf214930cb84c2ce2c3e20e}
-      \strng{authorfullhashraw}{1047cc8eabf214930cb84c2ce2c3e20e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Coarse-grained (CG) protein models have become indispensable tools for studying many biological protein details, from conformational dynamics to the organization of protein macro-complexes, and even the interaction of proteins with other molecules. The Martini force field is one of the most widely used CG models for bio-molecular simulations, partly because of the enormous success of its protein model. With the recent release of a new and improved version of the Martini force field – Martini 3 – a new iteration of its protein model was also made available. The Martini 3 protein force field is an evolution of its Martini 2 counterpart, aimed at improving many of the shortcomings that had been previously identified. In this mini-review, we first provide a general overview of the model and then focus on the successful advances made in the short time since its release, many of which would not have been possible before. Furthermore, we discuss reported limitations, potential directions for model improvement and comment on what the likely future development and application avenues are.}
-      \field{issn}{1570-9639}
-      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics}
-      \field{number}{4}
-      \field{title}{Assessing the Martini 3 protein model: A review of its path and potential}
-      \field{volume}{1872}
-      \field{year}{2024}
-      \field{pages}{141014}
-      \range{pages}{1}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.bbapap.2024.141014
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S1570963924000219
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S1570963924000219
-      \endverb
-      \keyw{Molecular dynamics simulations,Coarse-grained models,Martini model,Protein dynamics,Protein-lipid interactions,Protein-small molecule binding,Protein-protein interactions}
-    \endentry
     \entry{limitation_martini_2}{article}{}{}
       \name{author}{3}{}{%
         {{hash=96218b2008377ebdd7b1a9cd2f568186}{%
@@ -8130,7 +8130,7 @@
       \verb https://www.mdpi.com/2218-273X/8/3/77
       \endverb
     \endentry
-    \entry{steered_md_2}{article}{}{}
+    \entry{steered_md_1}{article}{}{}
       \name{author}{4}{}{%
         {{hash=8a7ca4626848b9bc10c0a1fdc231aae5}{%
            family={Catalina-Hernández},
@@ -8184,6 +8184,67 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1021/acs.jcim.4c01940
+      \endverb
+    \endentry
+    \entry{steered_md_2}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=de526e0b173d8ecb65021e69717ac8cf}{%
+           family={Domański},
+           familyi={D\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5c31f577441f61def257784074e25fd2}{%
+           family={Hedger},
+           familyi={H\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=150823e11aec187e5703632ab229b003}{%
+           family={Best},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=fc73b1fc18843ef8e2caaa5b474f641d}{%
+           family={Stansfeld},
+           familyi={S\bibinitperiod},
+           given={Phillip\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ea55422b6cdd653733d0ad1c259fbdc4}{%
+           family={Sansom},
+           familyi={S\bibinitperiod},
+           given={Mark\bibnamedelimb S.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{7761a0ff637dce72b14ae14a8b30c97a}
+      \strng{fullhash}{ef3e7a16925c2d6059fd34722e529dde}
+      \strng{fullhashraw}{ef3e7a16925c2d6059fd34722e529dde}
+      \strng{bibnamehash}{ef3e7a16925c2d6059fd34722e529dde}
+      \strng{authorbibnamehash}{ef3e7a16925c2d6059fd34722e529dde}
+      \strng{authornamehash}{7761a0ff637dce72b14ae14a8b30c97a}
+      \strng{authorfullhash}{ef3e7a16925c2d6059fd34722e529dde}
+      \strng{authorfullhashraw}{ef3e7a16925c2d6059fd34722e529dde}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1520-6106}
+      \field{journaltitle}{The Journal of Physical Chemistry B}
+      \field{number}{15}
+      \field{title}{Convergence and Sampling in Determining Free Energy Landscapes for Membrane Protein Association}
+      \field{volume}{121}
+      \field{year}{2017}
+      \field{pages}{3364\bibrangedash 3375}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1021/acs.jpcb.6b08445
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.jpcb.6b08445
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.jpcb.6b08445
       \endverb
     \endentry
     \entry{Richardson2024}{article}{}{}
@@ -11352,8 +11413,6 @@
       \keyw{Antimicrobial peptides,Quantum computing,Lipid membranes,Interface,Peptide folding}
     \endentry
   \enddatalist
-  \missing{limitation_martini}
-  \missing{steered_md_1}
 \endrefsection
 \endinput
 
