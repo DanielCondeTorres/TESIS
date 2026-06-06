@@ -5710,7 +5710,7 @@
       \verb https://doi.org/10.1016/j.neuron.2018.08.011
       \endverb
     \endentry
-    \entry{advances_3}{article}{}{}
+    \entry{avances_3}{article}{}{}
       \name{author}{2}{}{%
         {{hash=752254edeb4631187ddd443cbb1431a7}{%
            family={Tieleman},
@@ -9147,6 +9147,506 @@
       \field{pages}{39\bibrangedash 65}
       \range{pages}{27}
     \endentry
+    \entry{Levinthal_paradox}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b954c248c62a1efadd8e5bf9425e37}{%
+           family={{Levinthal, Cyrus}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{fullhash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{fullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{bibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorbibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authornamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorfullhash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorfullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Chim. Phys.}
+      \field{title}{Are there pathways for protein folding?}
+      \field{volume}{65}
+      \field{year}{1968}
+      \field{pages}{44\bibrangedash 45}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1051/jcp/1968650044
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/jcp/1968650044
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/jcp/1968650044
+      \endverb
+    \endentry
+    \entry{Levinthal_paradox_2}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=849420acb54d842586fb16952e69bd53}{%
+           family={Dill},
+           familyi={D\bibinitperiod},
+           given={Ken\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1257ee4002a7399c60126989d6b3f237}{%
+           family={MacCallum},
+           familyi={M\bibinitperiod},
+           given={Justin\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{fullhash}{3280fac4e2f192c60604f22264684d07}
+      \strng{fullhashraw}{3280fac4e2f192c60604f22264684d07}
+      \strng{bibnamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorbibnamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
+      \field{journaltitle}{Science}
+      \field{number}{6110}
+      \field{title}{The Protein-Folding Problem, 50 Years On}
+      \field{volume}{338}
+      \field{year}{2012}
+      \field{pages}{1042\bibrangedash 1046}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.1219021
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.1219021
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.1219021
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.1219021
+      \endverb
+    \endentry
+    \entry{ROSETTA}{article}{}{}
+      \name{author}{20}{}{%
+        {{hash=31ffdbd95626f7e8fc1439784899af83}{%
+           family={Alford},
+           familyi={A\bibinitperiod},
+           given={Rebecca\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=2e6f87d5371a6cc177982b956a8bf458}{%
+           family={Leaver-Fay},
+           familyi={L\bibinithyphendelim F\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8a5ed96ba3c0b7e0c7dfeeb3a88952f0}{%
+           family={Jeliazkov},
+           familyi={J\bibinitperiod},
+           given={Jeliazko\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=18ea4494f8f2d4340e5d5db33f180083}{%
+           family={O'Meara},
+           familyi={O\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a503f1ef98b84e87f53b034e5fd2ed75}{%
+           family={DiMaio},
+           familyi={D\bibinitperiod},
+           given={Frank\bibnamedelima P.},
+           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=21a77b992a26375ceca5b371bb6c98b8}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hahnbeom},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5183c3c1f3d20a99a4b1960f7adaf8f2}{%
+           family={Shapovalov},
+           familyi={S\bibinitperiod},
+           given={Maxim\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=0a6f7fe35f08601c065402e2a6f701d5}{%
+           family={Renfrew},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi Douglas},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b41693b9e98d6a043e67d7f04cf2b594}{%
+           family={Mulligan},
+           familyi={M\bibinitperiod},
+           given={Vikram\bibnamedelima K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=7f9bc2df7cd4334d34b6c4568664f41f}{%
+           family={Kappel},
+           familyi={K\bibinitperiod},
+           given={Kalli},
+           giveni={K\bibinitperiod}}}%
+        {{hash=58e8cbcc4a2bce5a2edda5c949b5e614}{%
+           family={Labonte},
+           familyi={L\bibinitperiod},
+           given={Jason\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=62ec3cd92f35a2a108c7d6b6756a0131}{%
+           family={Pacella},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=371fcb8879619e36e49d026d0e692c12}{%
+           family={Bonneau},
+           familyi={B\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f1d8d8ac608d7662fc28d69adbc92c56}{%
+           family={Bradley},
+           familyi={B\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c283cb0a1888b0d079283706c2f995e3}{%
+           family={Dunbrack},
+           familyi={D\bibinitperiod},
+           given={Roland\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           suffix={Jr.},
+           suffixi={J\bibinitperiod}}}%
+        {{hash=042adfc06dcb8612e991febd27bc8f65}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Rhiju},
+           giveni={R\bibinitperiod}}}%
+        {{hash=db711af07f28528a9ee5cf2922c529a3}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7bb92b93bad614ea83e46912197a146a}{%
+           family={Kuhlman},
+           familyi={K\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=917ad1f417957af77cdc53dd9ff0f688}{%
+           family={Kortemme},
+           familyi={K\bibinitperiod},
+           given={Tanja},
+           giveni={T\bibinitperiod}}}%
+        {{hash=116062c1569a60903bbe972883b6e7eb}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Jeffrey\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{8b8fb4db80ef37aac658bec7a2e2b72d}
+      \strng{fullhash}{55be077f25fcb54426d92f57e043630a}
+      \strng{fullhashraw}{55be077f25fcb54426d92f57e043630a}
+      \strng{bibnamehash}{8b8fb4db80ef37aac658bec7a2e2b72d}
+      \strng{authorbibnamehash}{8b8fb4db80ef37aac658bec7a2e2b72d}
+      \strng{authornamehash}{8b8fb4db80ef37aac658bec7a2e2b72d}
+      \strng{authorfullhash}{55be077f25fcb54426d92f57e043630a}
+      \strng{authorfullhashraw}{55be077f25fcb54426d92f57e043630a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1549-9618}
+      \field{journaltitle}{Journal of Chemical Theory and Computation}
+      \field{number}{6}
+      \field{title}{The {{Rosetta}} All-Atom Energy Function for Macromolecular Modeling and Design}
+      \field{volume}{13}
+      \field{year}{2017}
+      \field{pages}{3031\bibrangedash 3048}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1021/acs.jctc.7b00125
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.jctc.7b00125
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.jctc.7b00125
+      \endverb
+    \endentry
+    \entry{PROTEINMPNN}{article}{}{}
+      \name{author}{22}{}{%
+        {{hash=d095bceea66197b3fec6820ef0bfcfe3}{%
+           family={Dauparas},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e9dce22fff1c3fd50e1a015a490de67a}{%
+           family={Anishchenko},
+           familyi={A\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8bdd939af4543bbc6ce510e1e228755c}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0052b3f3fcefafb4c8f1e418cb86a4cb}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ca37fdc31c7cf7d3a0b23a2ff798625c}{%
+           family={Ragotte},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b15788f078bb83006bee8cdd7d9fdb81}{%
+           family={Milles},
+           familyi={M\bibinitperiod},
+           given={L.\bibnamedelimi F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=8dcc9b2c2b722308dd291001b50f10c3}{%
+           family={Wicky},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi I.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=08ed2e8f254dcc009c8af7d2c5a9fe3a}{%
+           family={Courbet},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b2182832382270317ecc5c79360561e3}{%
+           family={Haas},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=f2a2c5086319b8021f60f30aa01649a7}{%
+           family={Bethel},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ba73a0cfea7dcc92c0ec782f9ea02223}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi J.\bibnamedelimi Y.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=2bdfc89bf031fba8d8caff2d2ec1b902}{%
+           family={Huddy},
+           familyi={H\bibinitperiod},
+           given={T.\bibnamedelimi F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=40e3273eccdd9b2d31d8b70c76b37618}{%
+           family={Pellock},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c5bbeb002a64093d56feae5506c5a375}{%
+           family={Tischer},
+           familyi={T\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3626493b8db6ac667d6f0df2d999352b}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f836a7e9adac82a26160dada6f66a125}{%
+           family={Koepnick},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d0a1fb609d3edf9a29199c56db0de6dd}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=20d89cf60cdbbaf419a50230a72c5c4d}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ca55e7e4f6ffd456116d628296bfc518}{%
+           family={Sankaran},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b2481a6bc24aa683e946a40352786c1a}{%
+           family={Bera},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=f2dd49dcd88120c6aed5fcfc74b0d4d3}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={N.\bibnamedelimi P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=a4ae2debe1c7f5174d0b3d98accdb733}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f62cf1f09b6376d3ae40f542c57660ff}
+      \strng{fullhash}{68768d46a89ad18661a7875b2db44117}
+      \strng{fullhashraw}{68768d46a89ad18661a7875b2db44117}
+      \strng{bibnamehash}{f62cf1f09b6376d3ae40f542c57660ff}
+      \strng{authorbibnamehash}{f62cf1f09b6376d3ae40f542c57660ff}
+      \strng{authornamehash}{f62cf1f09b6376d3ae40f542c57660ff}
+      \strng{authorfullhash}{68768d46a89ad18661a7875b2db44117}
+      \strng{authorfullhashraw}{68768d46a89ad18661a7875b2db44117}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although deep learning has revolutionized protein structure prediction, almost all experimentally characterized de novo protein designs have been generated using physically based approaches such as Rosetta. Here, we describe a deep learning–based protein sequence design method, ProteinMPNN, that has outstanding performance in both in silico and experimental tests. On native protein backbones, ProteinMPNN has a sequence recovery of 52.4\% compared with 32.9\% for Rosetta. The amino acid sequence at different positions can be coupled between single or multiple chains, enabling application to a wide range of current protein design challenges. We demonstrate the broad utility and high accuracy of ProteinMPNN using x-ray crystallography, cryo–electron microscopy, and functional studies by rescuing previously failed designs, which were made using Rosetta or AlphaFold, of protein monomers, cyclic homo-oligomers, tetrahedral nanoparticles, and target-binding proteins. Deep learning approaches such as Alphafold and Rosettafold have made reliable protein structure prediction broadly accessible. For the inverse problem, finding a sequence that folds to a desired structure, most approaches remain based on energy optimization. In two papers, a range of protein design problems were addressed through deep learning methods. Dauparas et al. built on recent deep learning protein design approaches to develop a method called ProteinMPNN. They validated designs experimentally and showed that ProteinMPNN can rescue previously failed designs made using Rosetta or Alphafold. Wicky et al. started from a random sequence and used Monte Carlo sequence search coupled with structure prediction by Alphafold to design cyclic homo-oligomers. Although the designs were generated to achieve stable expression, the sequences had to be regenerated using ProteinMPNN. This approach allowed for the design of a range of experimentally validated cyclic oligomers and paves the way for the design of increasingly complex assemblies. —VV A network-based protein design enables the generation of cyclic homo-oligomers across the nanoscopic scale.}
+      \field{journaltitle}{Science}
+      \field{number}{6615}
+      \field{title}{Robust deep learning–based protein sequence design using ProteinMPNN}
+      \field{volume}{378}
+      \field{year}{2022}
+      \field{pages}{49\bibrangedash 56}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.add2187
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.add2187
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.add2187
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.add2187
+      \endverb
+    \endentry
+    \entry{limitaciones_md}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a832891461a9dede1200944b0cf4e04c}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Dhiman},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a832891461a9dede1200944b0cf4e04c}
+      \strng{fullhash}{a832891461a9dede1200944b0cf4e04c}
+      \strng{fullhashraw}{a832891461a9dede1200944b0cf4e04c}
+      \strng{bibnamehash}{a832891461a9dede1200944b0cf4e04c}
+      \strng{authorbibnamehash}{a832891461a9dede1200944b0cf4e04c}
+      \strng{authornamehash}{a832891461a9dede1200944b0cf4e04c}
+      \strng{authorfullhash}{a832891461a9dede1200944b0cf4e04c}
+      \strng{authorfullhashraw}{a832891461a9dede1200944b0cf4e04c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Studying the kinetics of long-timescale rare events is a fundamental challenge in molecular simulation. To address this problem, we propose an integration of two different rare-event sampling philosophies: biased enhanced sampling and unbiased path sampling. Enhanced sampling methods, e.g., metadynamics, can facilitate the crossing of free energy barriers by applying an external bias potential. On the contrary, path sampling methods like weighted ensemble do not apply any biasing force but accelerate the exploration of rugged free energy surfaces through trajectory resampling. We show that a judicious combination of the weighted ensemble with a metadynamics-like algorithm can synergize the strengths and mitigate the deficiencies of path sampling and enhanced sampling approaches. The resulting integrated sampling (IS) algorithm improves the computational efficiency of calculating the kinetics of peptide conformational transitions, protein unfolding, and the dissociation of a ligand–receptor complex. Furthermore, the IS approach can direct sampling along the minimum free energy pathway even when the collective variable used for biasing is suboptimal. These advantages make the IS algorithm suitable for studying the kinetics of complex molecular systems of biological and pharmaceutical relevance.}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{12}
+      \field{number}{22}
+      \field{title}{Integrating path sampling with enhanced sampling for rare-event kinetics}
+      \field{volume}{161}
+      \field{year}{2024}
+      \field{pages}{224106}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0239303
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/jcp/article-pdf/doi/10.1063/5.0239303/20287144/224106_1_5.0239303.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/5.0239303
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/5.0239303
+      \endverb
+    \endentry
+    \entry{quantum_biology_1}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6c36b3d9800b589bc3b85dd3e0c8d081}{%
+           family={Baiardi},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5ed363070ed27652729320bec34cfd8f}{%
+           family={Christandl},
+           familyi={C\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=101a884703c155ac5ca9bc3f658bcc99}{%
+           family={Reiher},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6b9cd5db0160c555e571e0b99eb6a3b}
+      \strng{fullhash}{fd6c36da90f43de485ca591dc86720ad}
+      \strng{fullhashraw}{fd6c36da90f43de485ca591dc86720ad}
+      \strng{bibnamehash}{fd6c36da90f43de485ca591dc86720ad}
+      \strng{authorbibnamehash}{fd6c36da90f43de485ca591dc86720ad}
+      \strng{authornamehash}{f6b9cd5db0160c555e571e0b99eb6a3b}
+      \strng{authorfullhash}{fd6c36da90f43de485ca591dc86720ad}
+      \strng{authorfullhashraw}{fd6c36da90f43de485ca591dc86720ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Molecular biology and biochemistry interpret microscopic processes in the living world in terms of molecular structures and their interactions, which are quantum mechanical by their very nature. Whereas the theoretical foundations of these interactions are well established, the computational solution of the relevant quantum mechanical equations is very hard. However, much of molecular function in biology can be understood in terms of classical mechanics, where the interactions of electrons and nuclei have been mapped onto effective classical surrogate potentials that model the interaction of atoms or even larger entities. The simple mathematical structure of these potentials offers huge computational advantages; however, this comes at the cost that all quantum correlations and the rigorous many-particle nature of the interactions are omitted. In this work, we discuss how quantum computation may advance the practical usefulness of the quantum foundations of molecular biology by offering computational advantages for simulations of biomolecules. We not only discuss typical quantum mechanical problems of the electronic structure of biomolecules in this context, but also consider the dominating classical problems (such as protein folding and drug design) as well as data-driven approaches of bioinformatics and the degree to which they might become amenable to quantum simulation and quantum computation.}
+      \field{journaltitle}{ChemBioChem}
+      \field{number}{13}
+      \field{title}{Quantum Computing for Molecular Biology}
+      \field{volume}{24}
+      \field{year}{2023}
+      \field{pages}{e202300120}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1002/cbic.202300120
+      \endverb
+      \verb{eprint}
+      \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/cbic.202300120
+      \endverb
+      \verb{urlraw}
+      \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cbic.202300120
+      \endverb
+      \verb{url}
+      \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cbic.202300120
+      \endverb
+      \keyw{Quantum Computing,Molecular Biology,Quantum Chemistry,Quantum Biology,Molecular Simulations}
+    \endentry
+    \entry{quantum_biology_2}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c374a9a6476ad2e414cadd4cfeaac578}{%
+           family={Ghamsari},
+           familyi={G\bibinitperiod},
+           given={Morteza\bibnamedelima Sasani},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c374a9a6476ad2e414cadd4cfeaac578}
+      \strng{fullhash}{c374a9a6476ad2e414cadd4cfeaac578}
+      \strng{fullhashraw}{c374a9a6476ad2e414cadd4cfeaac578}
+      \strng{bibnamehash}{c374a9a6476ad2e414cadd4cfeaac578}
+      \strng{authorbibnamehash}{c374a9a6476ad2e414cadd4cfeaac578}
+      \strng{authornamehash}{c374a9a6476ad2e414cadd4cfeaac578}
+      \strng{authorfullhash}{c374a9a6476ad2e414cadd4cfeaac578}
+      \strng{authorfullhashraw}{c374a9a6476ad2e414cadd4cfeaac578}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently, there has been significant interest in quantum technology, which utilizes various quantum phenomena, including quantum coherence, entanglement, interference, and superposition, among others. Consequently, many attempts are recently being made to apply quantum computing in biological sciences due to its potential advancements. This paper seeks to fill that gap by highlighting the direct biological applications of quantum computing, providing a novel contribution to the field. The Goal of this paper is to offer a thorough examination of both current and potential applications of this technology, within the field of biology. First, quantum computing principles and the challenges they face are explained. Quantum machine learning, is also, introduced which opens a window to biological applications of quantum computation. Then, numerous, existing, potentially crucial, biological applications of quantum computing, which greatly enhance healthcare and quality of life, particularly in the broad field of genetics, drug design, molecular biology, and bioinformatics, are being discussed.}
+      \field{issn}{2948-2992}
+      \field{journaltitle}{Discover Computing}
+      \field{number}{1}
+      \field{title}{Quantum computing applications in biology}
+      \field{volume}{28}
+      \field{year}{2025}
+      \field{pages}{276}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10791-025-09803-y
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10791-025-09803-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10791-025-09803-y
+      \endverb
+    \endentry
     \entry{feynman1982simulating}{article}{}{}
       \name{author}{1}{}{%
         {{hash=aac54ccf9c76aa4ba4310ed1334be7d8}{%
@@ -9502,86 +10002,6 @@
       \endverb
       \verb{url}
       \verb https://www.mdpi.com/1422-0067/26/9/3998
-      \endverb
-    \endentry
-    \entry{Levinthal_paradox}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=a4b954c248c62a1efadd8e5bf9425e37}{%
-           family={{Levinthal, Cyrus}},
-           familyi={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{fullhash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{fullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{bibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorbibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authornamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorfullhash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorfullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{J. Chim. Phys.}
-      \field{title}{Are there pathways for protein folding?}
-      \field{volume}{65}
-      \field{year}{1968}
-      \field{pages}{44\bibrangedash 45}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.1051/jcp/1968650044
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1051/jcp/1968650044
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1051/jcp/1968650044
-      \endverb
-    \endentry
-    \entry{Levinthal_paradox_2}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=849420acb54d842586fb16952e69bd53}{%
-           family={Dill},
-           familyi={D\bibinitperiod},
-           given={Ken\bibnamedelima A.},
-           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=1257ee4002a7399c60126989d6b3f237}{%
-           family={MacCallum},
-           familyi={M\bibinitperiod},
-           given={Justin\bibnamedelima L.},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \strng{namehash}{3280fac4e2f192c60604f22264684d07}
-      \strng{fullhash}{3280fac4e2f192c60604f22264684d07}
-      \strng{fullhashraw}{3280fac4e2f192c60604f22264684d07}
-      \strng{bibnamehash}{3280fac4e2f192c60604f22264684d07}
-      \strng{authorbibnamehash}{3280fac4e2f192c60604f22264684d07}
-      \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
-      \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
-      \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
-      \field{journaltitle}{Science}
-      \field{number}{6110}
-      \field{title}{The Protein-Folding Problem, 50 Years On}
-      \field{volume}{338}
-      \field{year}{2012}
-      \field{pages}{1042\bibrangedash 1046}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1126/science.1219021
-      \endverb
-      \verb{eprint}
-      \verb https://www.science.org/doi/pdf/10.1126/science.1219021
-      \endverb
-      \verb{urlraw}
-      \verb https://www.science.org/doi/abs/10.1126/science.1219021
-      \endverb
-      \verb{url}
-      \verb https://www.science.org/doi/abs/10.1126/science.1219021
       \endverb
     \endentry
     \entry{biology_quantum_computing}{article}{}{}
