@@ -81,6 +81,7 @@ PREAMBLE = r"""\documentclass[tikz, border=10pt]{standalone}
 TEX_A = PREAMBLE + r"""
 \begin{document}
 \begin{tikzpicture}
+  \useasboundingbox (-6.0, -1.0) rectangle (6.0, 1.6);
   \node[atom] (i) at (-2.5, 0) {\textit{i}};
   \node[atom] (j) at ( 2.5, 0) {\textit{j}};
   
@@ -91,8 +92,7 @@ TEX_A = PREAMBLE + r"""
   \draw[dbl] (-3.1, 1.0) -- (-1.9, 1.0);
   \draw[dbl] ( 1.9, 1.0) -- ( 3.1, 1.0);
   
-  %% Label
-  \node[font=\huge\bfseries] at (-4.0, 1.5) {A};
+ 
 \end{tikzpicture}
 \end{document}
 """
@@ -101,6 +101,7 @@ TEX_A = PREAMBLE + r"""
 TEX_B = PREAMBLE + r"""
 \begin{document}
 \begin{tikzpicture}
+  \useasboundingbox (-6.0, -3.3) rectangle (6.0, 2.5);
   \coordinate (Pj) at ( 0.0, -2.5);
   \coordinate (Pi) at (-2.0,  1.0);
   \coordinate (Pk) at ( 2.0,  1.0);
@@ -123,8 +124,7 @@ TEX_B = PREAMBLE + r"""
   \draw[dbl] (-2.6, 2.0) -- (-1.4, 2.0);
   \draw[dbl] ( 1.4, 2.0) -- ( 2.6, 2.0);
   
-  %% Label
-  \node[font=\huge\bfseries] at (-3.5, 2.3) {B};
+ 
 \end{tikzpicture}
 \end{document}
 """
@@ -133,15 +133,16 @@ TEX_B = PREAMBLE + r"""
 TEX_C = PREAMBLE + r"""
 \begin{document}
 \begin{tikzpicture}[x=1cm, y=1cm]
+  \useasboundingbox (-6.0, -2.8) rectangle (6.0, 2.8);
   %% Parallelogram bounds (Book fold)
-  \coordinate (ML) at (-4.5,  0.0);
-  \coordinate (MR) at ( 5.0,  0.0);
+  \coordinate (ML) at (-5.5,  0.0);
+  \coordinate (MR) at ( 4.0,  0.0);
   
-  \coordinate (TL) at (-3.0,  2.5);
-  \coordinate (TR) at ( 6.5,  2.5);
+  \coordinate (TL) at (-4.0,  2.5);
+  \coordinate (TR) at ( 5.5,  2.5);
   
-  \coordinate (BL) at (-3.0, -2.5);
-  \coordinate (BR) at ( 6.5, -2.5);
+  \coordinate (BL) at (-4.0, -2.5);
+  \coordinate (BR) at ( 5.5, -2.5);
 
   %% Blue plane (top half)
   \fill[blue!25!white, opacity=0.6, draw=blue!50!black, line width=1pt]
@@ -152,7 +153,7 @@ TEX_C = PREAMBLE + r"""
     (ML) -- (MR) -- (BR) -- (BL) -- cycle;
     
   %% Dashed line
-  \draw[dashed, line width=2pt, black!80] (-5.0, 0) -- (6.0, 0);
+  \draw[dashed, line width=2pt, black!80] (-6.0, 0) -- (5.0, 0);
 
   %% Atoms positions
   \coordinate (Pj) at (-1.5,  0.0);
@@ -175,8 +176,7 @@ TEX_C = PREAMBLE + r"""
   %% Draw a curved red arrow around the j-k bond
   \draw[rarr] (-0.5, 0) ++(120:0.3cm and 0.6cm) arc (120:-160:0.3cm and 0.6cm);
 
-  %% Label
-  \node[font=\huge\bfseries] at (-5.0, 2.5) {C};
+
 \end{tikzpicture}
 \end{document}
 """
@@ -185,11 +185,12 @@ TEX_C = PREAMBLE + r"""
 TEX_D = PREAMBLE + r"""
 \begin{document}
 \begin{tikzpicture}[x=1cm, y=1cm]
+  \useasboundingbox (-6.0, -2.6) rectangle (6.0, 3.7);
   %% Blue plane
-  \coordinate (BL) at (-4.5, -1.5);
-  \coordinate (BR) at ( 3.5, -1.8);
-  \coordinate (TR) at ( 4.5,  1.5);
-  \coordinate (TL) at (-3.5,  1.8);
+  \coordinate (BL) at (-4.5, -2.0);
+  \coordinate (BR) at ( 3.5, -2.3);
+  \coordinate (TR) at ( 4.5,  1.0);
+  \coordinate (TL) at (-3.5,  1.3);
   \fill[blue!20!white, opacity=0.7, draw=blue!40!black, line width=1pt]
     (BL) -- (BR) -- (TR) -- (TL) -- cycle;
 
@@ -199,12 +200,18 @@ TEX_D = PREAMBLE + r"""
   \coordinate (Pk) at ( 2.0, -0.2);
   \coordinate (Pl) at ( 1.2,  3.0);
 
+  %% Bonds drawn behind the green triangle and red arc (so they look lighter inside the green region and sit behind the red arc)
+  \draw[bnd] (Pi) -- (Pk);
+
+  %% Red angle arc between the two planes (drawn behind translucent green plane but in front of Pi--Pk)
+  \coordinate (Pmid) at ($(Pi)!0.5!(Pj)$);
+  \draw[rarr] (Pmid) ++(5.0:1.2cm) arc (5.0:59.3:1.2cm);
+
   %% Green triangle i-j-l
   \fill[green!35!white, opacity=0.6, draw=green!60!black, line width=1pt]
     (Pi) -- (Pj) -- (Pl) -- cycle;
 
   %% Bonds
-  \draw[bnd] (Pi) -- (Pk);
   \draw[bnd] (Pj) -- (Pk);
   \draw[bnd] (Pk) -- (Pl);
 
@@ -230,14 +237,66 @@ TEX_D = PREAMBLE + r"""
   %% Atom l (no fade)
   \node[atom] (l) at (Pl) {\textit{l}};
 
-  %% Vertical red double arrow
-  \draw[dbl] (3.2, -0.2) -- (3.2, 3.0);
 
-  %% Label
-  \node[font=\huge\bfseries] at (-4.5, 3.0) {D};
 \end{tikzpicture}
 \end{document}
 """
+
+
+def stitch_figures():
+    from PIL import Image
+    print("Stitching figures into FF_bonded.png...")
+    fig_names = ['bond_stretching.png', 'angle_bending.png', 'dihedral_proper.png', 'dihedral_improper.png']
+    paths = [os.path.join(HERE, name) for name in fig_names]
+    
+    for p in paths:
+        if not os.path.exists(p):
+            print(f"Error: {p} not found. Cannot stitch.")
+            return
+            
+    imgs = [Image.open(p) for p in paths]
+    cropped_imgs = []
+    for img in imgs:
+        bbox = img.getbbox()
+        if bbox:
+            cropped_imgs.append(img.crop(bbox))
+        else:
+            cropped_imgs.append(img)
+            
+    max_w, max_h = 1250, 700
+    scale_factor = 1.0
+    for img in cropped_imgs:
+        sf_w = max_w / img.width
+        sf_h = max_h / img.height
+        sf = min(sf_w, sf_h)
+        if sf < scale_factor:
+            scale_factor = sf
+            
+    scaled_imgs = []
+    for img in cropped_imgs:
+        new_w = int(img.width * scale_factor)
+        new_h = int(img.height * scale_factor)
+        resample_filter = Image.Resampling.LANCZOS if hasattr(Image, 'Resampling') else Image.ANTIALIAS
+        scaled_imgs.append(img.resize((new_w, new_h), resample_filter))
+        
+    canvas = Image.new('RGBA', (2717, 1595), (255, 255, 255, 255))
+    
+    offsets = [
+        (60, 60),                       # A: Top-Left
+        (1358 + 60, 60),                # B: Top-Right
+        (60, 797 + 60),                 # C: Bottom-Left
+        (1358 + 60, 797 + 60)           # D: Bottom-Right
+    ]
+    
+    for i, img in enumerate(scaled_imgs):
+        rgba_img = img.convert('RGBA')
+        canvas.paste(rgba_img, offsets[i], rgba_img.split()[3])
+        
+    out_dir = os.path.join(HERE, '..', 'General_Sections', 'Figures')
+    os.makedirs(out_dir, exist_ok=True)
+    out_path = os.path.join(out_dir, 'FF_bonded.png')
+    canvas.save(out_path, 'PNG')
+    print(f"Merged figure successfully saved to {out_path}")
 
 if __name__ == '__main__':
     for name, tex in [
@@ -247,4 +306,5 @@ if __name__ == '__main__':
         ('dihedral_improper', TEX_D),
     ]:
         compile_figure(name, tex)
+    stitch_figures()
     print('All done.')

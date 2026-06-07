@@ -25,7 +25,7 @@ Through this approximation, the inherently complex quantum mechanical problem is
 
 The trajectories of many-particle systems cannot, in general, be expressed as continuous analytical functions of time; consequently, their evolution must be obtained through the numerical integration of the equations of motion using discrete time steps. Within this framework, Molecular Dynamics (MD) refers to a class of computational techniques designed to describe the time evolution of systems composed of interacting particles.
 In practice, MD simulations generate system trajectories by iteratively updating particle positions and momenta at successive time steps. Repetition of this procedure over a large number of iterations enables an accurate representation of the system’s dynamical behavior. The general workflow of a standard MD simulation is summarized in Figure \ref{fig:MDFlow}.
-\begin{figure}[h]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.9\linewidth]{General_Sections/Figures/MD_Workflow2.png}
     \caption{This scheme illustrates the essential steps involved in a Molecular Dynamics (MD) simulation. The process begins with the definition of the initial state of the system, including the atomic coordinates and velocities, the selection of an appropriate force field, and the specification of the simulation conditions. The force field is then employed to compute the forces acting on each particle, which enables the time evolution of the system through the numerical integration of the equations of motion. At each time step, additional algorithms are applied to ensure that the system evolves under the desired thermodynamic conditions, such as constant temperature and/or pressure. This includes, for instance, the use of thermostats and barostats to control the corresponding ensemble. The propagation of positions and velocities, together with the enforcement of these conditions, is repeated iteratively over successive time steps. The simulation proceeds until a predefined convergence criterion is met or the maximum number of integration steps is reached.}
@@ -122,7 +122,7 @@ Because Newton's equations conserve total energy of the system \textit{E}, and, 
 Nevertheless, most processes in nature, and experiments in the laboratory, occur at a constant temperature \textit{T} and/or pressure \textit{P}. Therefore, most simulations of biomolecular systems are performed within the isothermal-isobaric (\textit{NVT}) or the canonical (\textit{NPT}) ensembles. For this cases, MD engines use algorithms that keep these physical properties constants. Algorithms that regulate pressure are called barostats, and they maintain it at a constant value by rescaling the volume of the simulation cell. Several algorithms serve this purpose; in this thesis, the Berendsen\cite{BerendsenB}, stochastic cell rescaling\cite{CRB}, and Parrinello-Rahman\cite{PRB} barostats were employed for equilibration and production runs. On the other hand, algorithms that control the temperature of the system are called thermostats, and they adjust it by modifying the velocities of the particles. This is mainly achieved in two ways: by making some particles interact with a thermal bath, or by scaling all velocities to match a target temperature; the later being the principle underlying the velocity rescaling thermostat used in the present work\cite{Vresc}.
 
 Nevertheless, despite the thermodynamic control offered by these algorithms, the simulation of real-world systems is limited by the amount of particles that can be simulated using a realistic amount of computational resources. This limitation, necessitates confining the molecules to a finite volume; however, enclosing them with hard boundaries would introduce artificial particle-wall interactions that are unrealistic for biological environments. To avoid this, when the calculation of the new positions displaces a particle out of the simulation cell, the exact same particle "wraps-around" and re-enters from the opposite side.
-\begin{figure}[h]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.55\linewidth]{General_Sections/Figures/pbc_diagram.png}
     \caption{Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib.}
@@ -142,14 +142,42 @@ The bonded term describes the interaction between atoms separated by no more tha
 \begin{equation}
     U_{bonded}(\vec{r}) = U_{bonds}(\vec{r}) + U_{angles}(\vec{r}) + U_{proper\ dihedrals}(\vec{r}) + U_{improper\ dihedrals}(\vec{r})
 \end{equation}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.8\linewidth]{General_Sections/Figures/FF_bonded.png}
-    \caption{Schematic representation of the bonded interactions included in the bonded term of the potential function. \textbf{A} depicts the bond stretching, \textbf{B} angle bending, \textbf{C} the torsion of a proper dihedral and \textbf{D} the bending of an improper dihedral}
+    \begin{subfigure}[b]{0.48\linewidth}
+        \centering
+        \includegraphics[width=0.95\linewidth]{bonded_interactions/bond_stretching.pdf}
+        \caption{Bond stretching}
+        \label{fig:bond_stretching}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\linewidth}
+        \centering
+        \includegraphics[width=0.95\linewidth]{bonded_interactions/angle_bending.pdf}
+        \caption{Angle bending}
+        \label{fig:angle_bending}
+    \end{subfigure}
+    
+    \vspace{2ex}
+    
+    \begin{subfigure}[b]{0.48\linewidth}
+        \centering
+        \includegraphics[width=0.95\linewidth]{bonded_interactions/dihedral_proper.pdf}
+        \caption{Proper dihedral}
+        \label{fig:dihedral_proper}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\linewidth}
+        \centering
+        \includegraphics[width=0.95\linewidth]{bonded_interactions/dihedral_improper.pdf}
+        \caption{Improper dihedral}
+        \label{fig:dihedral_improper}
+    \end{subfigure}
+    \caption{Schematic representation of the bonded interactions included in the bonded term of the potential function. (a) depicts the bond stretching, (b) angle bending, (c) the torsion of a proper dihedral, and (d) the bending of an improper dihedral.}
     \label{fig:FF_bonded}
 \end{figure}
 
-The first term relates to the stretching of the bond between two atoms (Fig. \ref{fig:FF_bonded}A), the second term describes the angle bending involving three atoms (Fig. \ref{fig:FF_bonded}B), and the last two account for two types of dihedral angles that involve 4 atoms: proper dihedrals (Fig. \ref{fig:FF_bonded}C), and improper dihedrals (Fig. \ref{fig:FF_bonded}D). Most of the force fields use harmonic potentials to describe the bond and angle contributions:
+The first term relates to the stretching of the bond between two atoms (Fig. \ref{fig:bond_stretching}), the second term describes the angle bending involving three atoms (Fig. \ref{fig:angle_bending}), and the last two account for two types of dihedral angles that involve 4 atoms: proper dihedrals (Fig. \ref{fig:dihedral_proper}), and improper dihedrals (Fig. \ref{fig:dihedral_improper}). Most of the force fields use harmonic potentials to describe the bond and angle contributions:
 \begin{equation}
     U_{bonds}(\textbf{r}_{ij}) = \frac{1}{2}k_{ij}(\textbf{r}_{ij}-\textbf{r}_{ij}^{0})^2
 \end{equation}
@@ -199,7 +227,7 @@ Force fields can be classified into three principal categories according to thei
 At the highest level of resolution are atomistic or all-atom (AA) force fields, in which every atom in the system is explicitly represented. Widely used AA force fields include CHARMM \cite{charmm}, AMBER \cite{gaff}, and the OPLS family \cite{oplsaa}. These models generally provide the highest level of accuracy; however, this comes at a substantial computational cost. This limitation becomes particularly significant in large systems, especially those containing a large number of water molecules, which considerably increase the total number of particles.
 An intermediate level of resolution is provided by united-atom (UA) force fields. In this approach, nonpolar hydrogen atoms are combined with the heavy atoms to which they are bonded and treated as a single interaction site, while polar hydrogens remain explicitly represented. This reduction in the number of particles decreases the degrees of freedom of the system and leads to improved computational efficiency. In addition to UA variants developed within the CHARMM, AMBER, and OPLS frameworks, the GROMOS force field is among the most widely used implementations of this approach \cite{gromos}.
 At the lowest level of resolution are coarse-grained (CG) force fields, in which multiple atoms, including both heavy atoms and their associated hydrogens, are grouped into a single interaction site commonly referred to as a bead. This strategy significantly reduces the number of particles, thereby enabling the simulation of larger systems and longer timescales at a lower computational cost, although at the expense of reduced atomic detail and accuracy (Fig. \ref{fig:AA2CG}). A prominent example is the Martini force field, which is widely employed in simulations of biological systems. Martini typically uses an approximate 4:1 mapping scheme, in which four heavy atoms and their associated hydrogens are represented by a single bead, often corresponding to an entire functional group.
-\begin{figure}[h]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.99\linewidth]{General_Sections/Figures/AA2CG.png}
     \caption{Representation of the 3D structure of a lipid (up, POPC) and a peptide (bottom, KRRIRRAKKKEKRCFKKEKR) using an AA force field (left) and its corresponding mapping into Martini CG (right).}
@@ -222,9 +250,9 @@ V(\vec{s},t\rightarrow \infty) = -F(\vec{s}) + C
 \end{equation}
 yielding a direct estimate of the relevant thermodynamics of the system without requiring prior knowledge of the reaction pathways.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
     \centering
-    \includesvg[width=0.8\linewidth]{General_Sections/Figures/metadynamics_comparison.svg}
+    \includesvg[width=0.65\linewidth]{General_Sections/Figures/metadynamics_comparison.svg}
     \caption{Progressive evolution of a one-dimensional model potential $V(s)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}
     \label{fig:metad}
 \end{figure}
@@ -317,9 +345,9 @@ The full orientation of a rigid body in 3D requires three rotational degrees of 
 Ultimately, the complex association mechanism can be effectively reduced to the essential translational degree of freedom (insertion depth, $D_z$) and the two principal rotational degrees of freedom (tilt $\theta$ and spin $\phi$). These collective variables constitute a robust phase space for describing the specific thermodynamic binding modes of AMPs at the membrane interface\ref{fig:eulers_angles}.
 
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
     \centering
-    \includesvg[width=0.8\linewidth]{General_Sections/Figures/helix_geometry.svg}
+    \includesvg[width=0.65\linewidth]{General_Sections/Figures/helix_geometry.svg}
     \caption{\textbf{Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} 
     The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb{R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi, \theta, \phi)$, corresponding to the Euler angles. 
     The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta$ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi$ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi$ represents the internal rotation of the helix about its longitudinal axis $\mathbf{\hat{n}}$. 
@@ -583,7 +611,7 @@ A single qubit's quantum state can be geometrically visualized as a unit vector 
 |\psi\rangle = \cos\left(\frac{\theta}{2}\right) |0\rangle + e^{i\phi} \sin\left(\frac{\theta}{2}\right) |1\rangle, \quad 0 \le \theta \le \pi, \quad 0 \le \phi \le 2\pi
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.6\linewidth]{General_Sections/Figures/esfera_bloch_tesis.png}
     \caption{The Bloch Sphere representation of a single qubit state. The angles $\theta$ and $\phi$ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle, |1\rangle$) and the X and Y axes represent the real and imaginary components of the superposition.}
@@ -822,7 +850,7 @@ In the context of this thesis, VQE is utilized to explore the conformational spa
 
 
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.8\linewidth]{General_Sections/Figures/vqe_demonstration.jpg}
     \caption{Schematic representation of the Variational Quantum Eigensolver (VQE) hybrid architecture. The process illustrates the iterative feedback loop between the Quantum Processing Unit (QPU), responsible for state preparation and measurement, and the Classical Processing Unit (CPU), which executes the optimization algorithm to update the variational parameters $\boldsymbol{\theta}$.}
@@ -898,7 +926,7 @@ The final trial wavefunction—or ansatz state—prepared by the QAOA circuit of
 \end{equation}
 where $\vec{\gamma} = (\gamma_1, \gamma_2, \dots, \gamma_p)$ and $\vec{\beta} = (\beta_1, \beta_2, \dots, \beta_p)$ are vectors of classical parameters. Because the eigenvalues of the Pauli-$X$ operator are $\pm 1$, the operator $e^{\pm i\pi\hat{H}_B} = \prod_i (-I_i)$ merely introduces a global phase. Therefore, each $\beta_k$ strictly lies within the range $[0, \pi]$. Similarly, if the eigenvalues of the cost Hamiltonian are integers (which is common for unweighted QUBO formulations), the parameters $\gamma_k$ are periodic and bound between $[0, 2\pi]$.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.8\linewidth]{General_Sections/Figures/qaoa_demonstration.png}
     \caption{Schematic representation of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition $|+\rangle^{\otimes N}$, followed by alternating layers of the cost unitary $e^{-i\gamma_k \hat{H}_C}$ and the mixer unitary $e^{-i\beta_k \hat{H}_B}$. Finally, the state is measured in the computational basis.}

@@ -189,12 +189,12 @@ Consequently, modern atomistic MD relies almost exclusively on explicit solvatio
 
 To bridge this critical timescale gap and capture the slow, complex phenomena relevant to AMPs, such as membrane partitioning, spontaneous pore formation, and peptide aggregation \cite{GF2016,Calvelo2019,Xandre2021,Conde2022}, researchers typically rely on two complementary computational strategies: reducing the system's degrees of freedom or algorithmically accelerating the exploration of the energy landscape.
 
-\subsection{Dimensionality Reduction: Coarse-Grained (CG) Simulations}
+\subsubsection{Dimensionality Reduction: Coarse-Grained (CG) Simulations}
 To access longer timescales and larger spatial dimensions, Coarse-Grained (CG) approaches, such as the widely used Martini force field, map groups of approximately four heavy atoms into a single interaction site (bead)\cite{martini2}. This dimensional reduction and the subsequent smoothing of the free energy surface allow for simulations that are orders of magnitude faster than atomistic MD \cite{Claro2020,Claro2021}. However, while CG models are exceptionally well-suited to capture collective phenomena such as global membrane remodeling and lipid sorting, their reduced resolution inherently compromises the accurate description of specific atomic-level events. Crucially for AMPs, the loss of explicit hydrogen atoms means that highly dynamic, environment-conditioned folding transitions (e.g., the coil-to-helix transition upon membrane contact) cannot be spontaneously described without additional artificial constraints, such as elastic networks. This limitation leaves a crucial gap between atomistic accuracy and CG scalability\cite{limitation_martini_1,cecilia_2,SIRAH}.
 
 
 
-\subsection{Algorithmic Acceleration: Enhanced Sampling Methods}
+\subsubsection{Algorithmic Acceleration: Enhanced Sampling Methods}
 While CG models significantly extend accessible timescales, deep free-energy basins and high kinetic barriers can still trap the system in local minima. Consequently, the spontaneous observation of rare events—such as deep membrane insertion, specific lipid recruitment, or pore formation—remains highly challenging. To systematically overcome these barriers, regardless of the chosen resolution (atomistic or coarse-grained), MD is frequently coupled with Enhanced Sampling techniques\cite{limitation_martini_1,limitation_martini_2,steered_md_1,steered_md_2,Richardson2024}. These methods manipulate the thermodynamic ensembles or the underlying potential energy surface to accelerate the exploration of the conformational space and reconstruct the free-energy landscapes. In the context of AMP-membrane interactions, where such combinations have successfully unveiled the specificity of peptide orientations\cite{samson_umbrella_sampling}, the most prominent techniques include:
 
 \begin{itemize}

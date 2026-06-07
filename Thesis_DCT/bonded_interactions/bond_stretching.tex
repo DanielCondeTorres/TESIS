@@ -24,6 +24,7 @@
 
 \begin{document}
 \begin{tikzpicture}
+  \useasboundingbox (-6.0, -1.0) rectangle (6.0, 1.6);
   \node[atom] (i) at (-2.5, 0) {\textit{i}};
   \node[atom] (j) at ( 2.5, 0) {\textit{j}};
   
@@ -34,7 +35,6 @@
   \draw[dbl] (-3.1, 1.0) -- (-1.9, 1.0);
   \draw[dbl] ( 1.9, 1.0) -- ( 3.1, 1.0);
   
-  %% Label
-  \node[font=\huge\bfseries] at (-4.0, 1.5) {A};
+ 
 \end{tikzpicture}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  6 JUN 2026 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  7 JUN 2026 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -472,7 +472,7 @@ e
 
 
 Non-PDF special ignored!
-<special> papersize=288.84938pt,173.07324pt
+<special> papersize=361.43292pt,199.25235pt
 {/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (/Users/danielcondetorres/Desktop/TESIS_PRESENTACION/MEMORIA/TESIS/Thesis_DCT/b
 onded_interactions/dihedral_improper.aux)
@@ -482,22 +482,21 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13538 strings out of 467525
- 293955 string characters out of 5418982
- 666966 words of memory out of 5000000
- 42221 multiletter control sequences out of 15000+600000
- 629291 words of font info for 45 fonts, out of 8000000 for 9000
+ 13587 strings out of 467525
+ 295016 string characters out of 5418982
+ 665966 words of memory out of 5000000
+ 42271 multiletter control sequences out of 15000+600000
+ 628685 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,7n,121p,516b,725s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
-b>
+ 117i,7n,121p,516b,727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.p
+fb>
 Output written on /Users/danielcondetorres/Desktop/TESIS_PRESENTACION/MEMORIA/T
-ESIS/Thesis_DCT/bonded_interactions/dihedral_improper.pdf (1 page, 22020 bytes)
+ESIS/Thesis_DCT/bonded_interactions/dihedral_improper.pdf (1 page, 14109 bytes)
 .
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

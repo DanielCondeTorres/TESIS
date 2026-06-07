@@ -24,6 +24,7 @@
 
 \begin{document}
 \begin{tikzpicture}
+  \useasboundingbox (-6.0, -3.3) rectangle (6.0, 2.5);
   \coordinate (Pj) at ( 0.0, -2.5);
   \coordinate (Pi) at (-2.0,  1.0);
   \coordinate (Pk) at ( 2.0,  1.0);
@@ -46,7 +47,6 @@
   \draw[dbl] (-2.6, 2.0) -- (-1.4, 2.0);
   \draw[dbl] ( 1.4, 2.0) -- ( 2.6, 2.0);
   
-  %% Label
-  \node[font=\huge\bfseries] at (-3.5, 2.3) {B};
+ 
 \end{tikzpicture}
 \end{document}
