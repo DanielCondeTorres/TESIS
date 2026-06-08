@@ -7777,6 +7777,7 @@
       \strng{authornamehash}{55ff66bd96d6616f31842c8e000a707e}
       \strng{authorfullhash}{e817160828e288939597638b701f22c9}
       \strng{authorfullhashraw}{e817160828e288939597638b701f22c9}
+      \field{extraname}{1}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
@@ -10530,6 +10531,144 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19273892002
       \endverb
     \endentry
+    \entry{n-body}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=8fe42e3834864de35e2ce140b3289603}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Kenneth\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a20e07be945dcf92be39fbb4a6e1627c}{%
+           family={Offin},
+           familyi={O\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Cham}%
+      }
+      \strng{namehash}{25dffbfad6fbd1c8f2970056652beb45}
+      \strng{fullhash}{25dffbfad6fbd1c8f2970056652beb45}
+      \strng{fullhashraw}{25dffbfad6fbd1c8f2970056652beb45}
+      \strng{bibnamehash}{25dffbfad6fbd1c8f2970056652beb45}
+      \strng{authorbibnamehash}{25dffbfad6fbd1c8f2970056652beb45}
+      \strng{authornamehash}{25dffbfad6fbd1c8f2970056652beb45}
+      \strng{authorfullhash}{25dffbfad6fbd1c8f2970056652beb45}
+      \strng{authorfullhashraw}{25dffbfad6fbd1c8f2970056652beb45}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{978-3-319-53690-3}
+      \field{series}{Applied Mathematical Sciences}
+      \field{title}{Introduction to Hamiltonian Dynamical Systems and the N-Body Problem}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/978-3-319-53691-0
+      \endverb
+    \endentry
+    \entry{dani_nanotubos}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=69f4cd8a34efc068e2a535c813002b11}{%
+           family={Conde},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=50f04721d43baf5bec752f01d24968aa}{%
+           family={Garrido},
+           familyi={G\bibinitperiod},
+           given={Pablo\bibnamedelima F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=fbc376578a5dfdf58eaac1f56584feb3}{%
+           family={Calvelo},
+           familyi={C\bibinitperiod},
+           given={Martín},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=a2a353207d6538894c649b665d69f8ec}{%
+           family={Garcia-Fandino},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{55ff66bd96d6616f31842c8e000a707e}
+      \strng{fullhash}{e817160828e288939597638b701f22c9}
+      \strng{fullhashraw}{e817160828e288939597638b701f22c9}
+      \strng{bibnamehash}{e817160828e288939597638b701f22c9}
+      \strng{authorbibnamehash}{e817160828e288939597638b701f22c9}
+      \strng{authornamehash}{55ff66bd96d6616f31842c8e000a707e}
+      \strng{authorfullhash}{e817160828e288939597638b701f22c9}
+      \strng{authorfullhashraw}{e817160828e288939597638b701f22c9}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Self-assembled cyclic peptide nanotubes with alternating D- and L-amino acid residues in the sequence of each subunit have attracted a great deal of attention due to their potential for new nanotechnology and biomedical applications, mainly in the field of antimicrobial peptides. Molecular dynamics simulations can be used to characterize these systems with atomic resolution at different time scales, providing information that is difficult to obtain via wet lab experiments. However, the performance of classical force fields typically employed in the simulation of biomolecules has not yet been extensively tested with this kind of highly constrained peptide. Four different classical force fields (AMBER, CHARMM, OPLS, and GROMOS), using a nanotube formed by eight D,L-α-cyclic peptides inserted into a lipid bilayer as a model system, were employed here to fill this gap. Significant differences in the pseudo-cylindrical cavities formed by the nanotubes were observed, the most important being the diameter of the nanopores, the number and location of confined water molecules, and the density distribution of the solvent molecules. Furthermore, several modifications were performed on GROMOS54a7, aiming to explore acceleration strategies of the MD simulations. The hydrogen mass repartitioning (HMR) and hydrogen isotope exchange (HIE) methods were tested to slow down the fastest degrees of freedom. These approaches allowed a significant increase in the time step employed in the equation of the motion integration algorithm, from 2 fs up to 5–7 fs, with no serious changes in the structural and dynamical properties of the nanopores. Subtle differences with respect to the simulations with the unmodified force fields were observed in the concerted movements of the cyclic peptides, as well as in the lifetime of several H-bonds. All together, these results are expected to contribute to better understanding of the behavior of self-assembled cyclic peptide nanotubes, as well as to support the methods tested to speed up general MD simulations; additionally, they do provide a number of quantitative descriptors that are expected to be used as a reference to design new experiments intended to validate and complement computational studies of antimicrobial cyclic peptides.}
+      \field{issn}{1422-0067}
+      \field{journaltitle}{International Journal of Molecular Sciences}
+      \field{number}{6}
+      \field{title}{Molecular Dynamics Simulations of Transmembrane Cyclic Peptide Nanotubes Using Classical Force Fields, Hydrogen Mass Repartitioning, and Hydrogen Isotope Exchange Methods: A Critical Comparison}
+      \field{volume}{23}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3390/ijms23063158
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1422-0067/23/6/3158
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1422-0067/23/6/3158
+      \endverb
+    \endentry
+    \entry{biblia_2}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=e73ce85b6ae336bbe26cae16a6933a0a}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=ab3a1db3dbb265efade39f6ef37fa88c}{%
+           family={Tildesley},
+           familyi={T\bibinitperiod},
+           given={Dominic\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{5b8830545e1be1d1b7d074817a858cd7}
+      \strng{fullhash}{5b8830545e1be1d1b7d074817a858cd7}
+      \strng{fullhashraw}{5b8830545e1be1d1b7d074817a858cd7}
+      \strng{bibnamehash}{5b8830545e1be1d1b7d074817a858cd7}
+      \strng{authorbibnamehash}{5b8830545e1be1d1b7d074817a858cd7}
+      \strng{authornamehash}{5b8830545e1be1d1b7d074817a858cd7}
+      \strng{authorfullhash}{5b8830545e1be1d1b7d074817a858cd7}
+      \strng{authorfullhashraw}{5b8830545e1be1d1b7d074817a858cd7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This book provides a practical guide to molecular dynamics and Monte Carlo simulation techniques used in the modelling of simple and complex liquids. Computer simulation is an essential tool in studying the chemistry and physics of condensed matter, complementing and reinforcing both experiment and theory. Simulations provide detailed information about structure and dynamics, essential to understand the many fluid systems that play a key role in our daily lives: polymers, gels, colloidal suspensions, liquid crystals, biological membranes, and glasses. The second edition of this pioneering book aims to explain how simulation programs work, how to use them, and how to interpret the results, with examples of the latest research in this rapidly evolving field. Accompanying programs in Fortran and Python provide practical, hands-on, illustrations of the ideas in the text.}
+      \field{isbn}{9780198803195}
+      \field{month}{06}
+      \field{title}{Computer Simulation of Liquids}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1093/oso/9780198803195.001.0001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/oso/9780198803195.001.0001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/oso/9780198803195.001.0001
+      \endverb
+    \endentry
     \entry{leapfrog}{book}{}{}
       \name{author}{2}{}{%
         {{hash=81393f20f932fa39b81d3abe058fa842}{%
@@ -11833,6 +11972,7 @@
       \keyw{Antimicrobial peptides,Quantum computing,Lipid membranes,Interface,Peptide folding}
     \endentry
   \enddatalist
+  \missing{Barker1973}
 \endrefsection
 \endinput
 

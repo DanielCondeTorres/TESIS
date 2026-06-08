@@ -1,26 +1,27 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[46] biber-darwin:342> INFO - === Sun Jun  7, 2026, 12:11:37
-[58] Biber.pm:421> INFO - Reading 'main.bcf'
-[141] Biber.pm:1002> INFO - Found 184 citekeys in bib section 0
-[149] Biber.pm:4487> INFO - Processing section 0
-[155] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[163] bibtex.pm:1713> INFO - LaTeX decoding ...
-[350] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[1449] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1450] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1450] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1450] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1528] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1620] bbl.pm:779> INFO - Output to main.bbl
-[1620] Biber.pm:132> WARN - Duplicate entry key: 'Zasloff2002' in file 'references.bib', skipping ...
-[1620] Biber.pm:132> WARN - Duplicate entry key: 'Mookherjee2020' in file 'references.bib', skipping ...
-[1620] Biber.pm:132> WARN - legacy month field 'mar' in entry 'cationic-anionic-interaction' is not an integer - this will probably not sort properly.
-[1620] Biber.pm:132> WARN - legacy month field 'mar' in entry 'bacteria_bilayer_4' is not an integer - this will probably not sort properly.
-[1620] Biber.pm:132> WARN - legacy month field 'jun' in entry 'cancer_bilayer_2' is not an integer - this will probably not sort properly.
-[1620] Biber.pm:132> WARN - legacy month field 'dec' in entry 'cancer_bilayer_3' is not an integer - this will probably not sort properly.
-[1620] Biber.pm:132> WARN - legacy month field 'oct' in entry 'cancer_bilayer_4' is not an integer - this will probably not sort properly.
-[1620] Biber.pm:132> WARN - legacy month field 'Aug' in entry 'Pereira2024' is not an integer - this will probably not sort properly.
-[1620] Biber.pm:132> WARN - legacy month field 'Oct' in entry 'rahman1964correlations' is not an integer - this will probably not sort properly.
-[1620] Biber.pm:132> WARN - legacy month field 'Jul' in entry 'perdomo_1' is not an integer - this will probably not sort properly.
-[1620] Biber.pm:134> INFO - WARNINGS: 10
+[47] biber-darwin:342> INFO - === Mon Jun  8, 2026, 13:05:55
+[59] Biber.pm:421> INFO - Reading 'main.bcf'
+[145] Biber.pm:1002> INFO - Found 188 citekeys in bib section 0
+[155] Biber.pm:4487> INFO - Processing section 0
+[161] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[168] bibtex.pm:1713> INFO - LaTeX decoding ...
+[366] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[1505] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1505] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1505] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1505] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1589] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1686] bbl.pm:779> INFO - Output to main.bbl
+[1687] Biber.pm:132> WARN - Duplicate entry key: 'Zasloff2002' in file 'references.bib', skipping ...
+[1687] Biber.pm:132> WARN - Duplicate entry key: 'Mookherjee2020' in file 'references.bib', skipping ...
+[1687] Biber.pm:132> WARN - legacy month field 'mar' in entry 'cationic-anionic-interaction' is not an integer - this will probably not sort properly.
+[1687] Biber.pm:132> WARN - legacy month field 'mar' in entry 'bacteria_bilayer_4' is not an integer - this will probably not sort properly.
+[1687] Biber.pm:132> WARN - legacy month field 'jun' in entry 'cancer_bilayer_2' is not an integer - this will probably not sort properly.
+[1687] Biber.pm:132> WARN - legacy month field 'dec' in entry 'cancer_bilayer_3' is not an integer - this will probably not sort properly.
+[1687] Biber.pm:132> WARN - legacy month field 'oct' in entry 'cancer_bilayer_4' is not an integer - this will probably not sort properly.
+[1687] Biber.pm:132> WARN - legacy month field 'Aug' in entry 'Pereira2024' is not an integer - this will probably not sort properly.
+[1687] Biber.pm:132> WARN - legacy month field 'Oct' in entry 'rahman1964correlations' is not an integer - this will probably not sort properly.
+[1687] Biber.pm:132> WARN - legacy month field 'Jul' in entry 'perdomo_1' is not an integer - this will probably not sort properly.
+[1687] Biber.pm:132> WARN - I didn't find a database entry for 'Barker1973' (section 0)
+[1687] Biber.pm:134> INFO - WARNINGS: 11

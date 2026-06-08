@@ -3,15 +3,15 @@
 
 \newpage
 
-With the main objectives of this work in mind, the present chapter provides a description of the computational methods employed throughout this thesis. It begins with an overview of Molecular Dynamics (MD), the primary simulation technique used to generate and analyze the trajectories under study. This is followed by a summary of the analytical tools used to interpret the resulting data.
-Subsequently, the focus shifts from classical dynamics to the application of Quantum Computing. This emerging technology has been explored to investigate a wide range of molecular conformations that are difficult to resolve using purely classical methods. Together, these approaches provide the framework for the conformational sampling and analysis presented in the following sections.
+With the main objectives of this work in mind, the present chapter provides a description of the computational methods employed throughout this thesis. It begins with an overview of MD simulations, the primary simulation technique used to generate and analyze the trajectories under study. This is followed by a summary of the analytical tools used to interpret and analyze the resulting data.
+Subsequently, the focus shifts from classical dynamics to Quantum Computing. Rather than presenting this technology as a definitive solution, it is explored as a proof-of-concept to determine if a practical quantum advantage exists for resolving molecular conformations that are computationally prohibitive for purely classical methods. Together, these approaches provide the framework for the conformational sampling and analysis presented in the following sections.
 
 
 \section{Molecular Dynamics: Principles}
 
- Molecular Dynamics (MD) has emerged as a primary computational technique for investigating the time-dependent behavior of interacting particle systems. MD simulations numerically integrate the equations of motion for all atoms in a system, tracking the dynamical evolution of molecules and a subset of their internal degrees of freedom over time. Since its inception, MD has evolved remarkably: in their pioneering 1957 study, Adler and Wainwright simulated just over a hundred particles interacting via attractive square-well potentials to study phase transitions in hard-sphere systems \cite{alder1957phase}. Today, advances in computational power enable simulations of hundreds of thousands of atoms over long timescales, facilitating the exploration of physical phenomena at resolutions and durations once considered unattainable\cite{charron2025navigating,THORNBURG2026}
+MD has emerged as a primary computational technique for investigating the time-dependent behavior of interacting particle systems. MD simulations numerically integrate the equations of motion for all atoms in a system, tracking the dynamical evolution of molecules and a subset of their internal degrees of freedom over time\cite{braun2018best}. Since its inception, MD has evolved remarkably: in their pioneering 1957 study, Adler and Wainwright simulated just over a hundred particles interacting via attractive square-well potentials to study phase transitions in hard-sphere systems \cite{alder1957phase}. Today, advances in computational power enable simulations of hundreds of thousands of atoms over long timescales, facilitating the exploration of physical phenomena at resolutions and durations once considered unattainable\cite{charron2025navigating,THORNBURG2026}
 
-In this thesis, MD constitutes the main simulation methodology. The equations of motion are derived from a potential energy function defined by the chosen force field, while additional algorithms ensure that simulations maintain the desired thermodynamic conditions, such as temperature and pressure.
+In this thesis, MD constitutes the main simulation methodology. The equations of motion are derived from a potential energy function defined by the chosen force field, while additional algorithms ensure that simulations maintain the desired thermodynamic conditions, such as temperature and pressure\cite{braun2018best}.
 This section provides the general methodological framework and explains the physical and algorithmic principles underlying the computational approaches used throughout this work, including both conventional MD and enhanced sampling techniques. Study-specific simulation protocol are detailed in the corresponding Results chapters and Methods sections of each associated article or manuscript. When previously established protocols are reused without modification, the original reference is cited explicitly; any deviations are clearly documented.
 All simulations were performed using GROMACS\cite{Gromacs2015}, whose official documentation serves as a reliable reference for many of the technical details discussed in this section.
 
@@ -19,16 +19,16 @@ All simulations were performed using GROMACS\cite{Gromacs2015}, whose official d
 
 \subsection{The Physics Behind Molecular Dynamics}
 
-Molecular Dynamics (MD) is grounded in Newton's equations of motion, which form the foundation of classical mechanics. The term \emph{classical} signifies that quantum effects, such as those governing electronic dynamics, are not treated explicitly. This pragmatic approach relies on the Born-Oppenheimer approximation, it is stated that the motion of the atomic nuclei and that of their electron clouds can be treated separately. It is therefore assumed that the electron clouds adjust their dynamics instantly when the atomic positions change, and that they always remain in the ground state\cite{born1927quantentheorie}.
+MD is grounded in Newton's equations of motion\cite{leyesnewton}, which form the foundation of classical mechanics. The term \emph{classical} signifies that quantum effects, such as those governing electronic dynamics, are not treated explicitly. This pragmatic approach relies on the Born-Oppenheimer approximation, it is stated that the motion of the atomic nuclei and that of their electron clouds can be treated separately. It is therefore assumed that the electron clouds adjust their dynamics instantly when the atomic positions change, and that they always remain in the ground state\cite{born1927quantentheorie}.
 
-Through this approximation, the inherently complex quantum mechanical problem is effectively reduced to the time evolution of a system of \(N\) classical particles. Nevertheless, obtaining an exact analytical solution for the motion of these nuclei remains impossible, as no general solution exists for a system of \(N \geq 3\) interacting particles. This challenge, known as the \emph{N-body problem}, has been extensively studied since Isaac Newton first formulated it in the 17th century in the context of celestial mechanics. The same limitation applies to any system of \(N\) interacting particles in a molecular context.
+Through this approximation, the inherently complex quantum mechanical problem is effectively reduced to the time evolution of a system of \(N\) classical particles. Nevertheless, obtaining an exact analytical solution for the motion of these nuclei remains impossible, as no general solution exists for a system of \(N \geq 3\) interacting particles. This challenge, known as the \emph{N-body problem}, has been extensively studied since Isaac Newton first formulated it in the 17th century in the context of celestial mechanics. The same limitation applies to any system of \(N\) interacting particles in a molecular context\cite{n-body}.
 
-The trajectories of many-particle systems cannot, in general, be expressed as continuous analytical functions of time; consequently, their evolution must be obtained through the numerical integration of the equations of motion using discrete time steps. Within this framework, Molecular Dynamics (MD) refers to a class of computational techniques designed to describe the time evolution of systems composed of interacting particles.
+The trajectories of many-particle systems cannot, in general, be expressed as continuous analytical functions of time; consequently, their evolution must be obtained through the numerical integration of the equations of motion using discrete time steps. Within this framework, MD refers to a class of computational techniques designed to describe the time evolution of systems composed of interacting particles\cite{braun2018best}.
 In practice, MD simulations generate system trajectories by iteratively updating particle positions and momenta at successive time steps. Repetition of this procedure over a large number of iterations enables an accurate representation of the system’s dynamical behavior. The general workflow of a standard MD simulation is summarized in Figure \ref{fig:MDFlow}.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.9\linewidth]{General_Sections/Figures/MD_Workflow2.png}
-    \caption{This scheme illustrates the essential steps involved in a Molecular Dynamics (MD) simulation. The process begins with the definition of the initial state of the system, including the atomic coordinates and velocities, the selection of an appropriate force field, and the specification of the simulation conditions. The force field is then employed to compute the forces acting on each particle, which enables the time evolution of the system through the numerical integration of the equations of motion. At each time step, additional algorithms are applied to ensure that the system evolves under the desired thermodynamic conditions, such as constant temperature and/or pressure. This includes, for instance, the use of thermostats and barostats to control the corresponding ensemble. The propagation of positions and velocities, together with the enforcement of these conditions, is repeated iteratively over successive time steps. The simulation proceeds until a predefined convergence criterion is met or the maximum number of integration steps is reached.}
+    \caption{This scheme illustrates the essential steps involved in a MD simulation. The process begins with the definition of the initial state of the system, including the atomic coordinates and velocities, the selection of an appropriate force field, and the specification of the simulation conditions. The force field is then employed to compute the forces acting on each particle, which enables the time evolution of the system through the numerical integration of the equations of motion. At each time step, additional algorithms are applied to ensure that the system evolves under the desired thermodynamic conditions, such as constant temperature and/or pressure. This includes, for instance, the use of thermostats and barostats to control the corresponding ensemble. The propagation of positions and velocities, together with the enforcement of these conditions, is repeated iteratively over successive time steps. The simulation proceeds until a predefined convergence criterion is met or the maximum number of integration steps is reached.}
     \label{fig:MDFlow}
 \end{figure}
 
@@ -36,7 +36,7 @@ The simulation process begins with system construction, including the selection 
 \begin{equation}\label{NG}
     \vec{F_i} = - \vec{\nabla} U(\vec{r_{i}})
 \end{equation}
-where \(\vec{F_i}\) is the force acting on the \(i^{th}\) particle of the system, \(\nabla\) is the gradient, and \(U\) is the potential function, which is shaped by a set of functions and parameters called \textit{force field}. The selection of the force field is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
+where $\vec{F}_i$ is the force acting on the $i$-th particle of the system, and $\vec{\nabla} U(\vec{r}_i)$ is the gradient of the potential energy function $U(\vec{r}_i)$, which is defined by a set of mathematical equations and parameters collectively known as a \textit{force field}. The selection of the force field is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome\cite{dani_nanotubos}. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
 \begin{equation}\label{N2L}
     \vec{F_i} = \frac{d\vec{p_i}}{dt}
 \end{equation}
@@ -53,27 +53,35 @@ In a purely continuous and theoretical framework, obtaining the trajectory of th
 
 However, because the force $\vec{F}_i$ acting on any single particle depends continuously on the ever-changing coordinates of all other interacting particles in the system, the integral in Equation \ref{eq:integral_v} has no general analytical solution for a system of $N \geq 3$ particles. Consequently, evaluating the temporal evolution of the system requires shifting from a continuous analytical integration to a discrete numerical approximation.
 
-This computational approach advances the simulation in finite, microscopic time increments, known as the time step ($\Delta t$). To achieve this, integration algorithms rely on the Taylor series expansion of the particle coordinates. For a small step forward in time ($t + \Delta t$), the position can be expanded as:
+This computational approach advances the simulation in finite, microscopic time increments, known as the time step ($\Delta t$). To achieve this, integration algorithms rely on the Taylor series expansion of the particle coordinates \cite{braun2018best,biblia_2}. Mathematically, the Taylor series expansion of a general function $f(x)$ around a known point $a$ is expressed as:
+
+\begin{equation}\label{eq:taylor_general}
+    f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \dots
+\end{equation}
+
+By adapting this mathematical definition to the kinematics of a particle, the function becomes the position $\vec{r}_i$, the known point is the current time $t$, and the evaluated point is a small step forward in time ($t + \Delta t$). Consequently, the displacement $(x-a)$ corresponds to the time step $\Delta t$. Thus, the future position can be expanded as:
 
 \begin{equation}\label{eq:taylor_forward}
     \vec{r}_i(t + \Delta t) = \vec{r}_i(t) + \vec{v}_i(t)\Delta t + \frac{1}{2}\vec{a}_i(t)\Delta t^2 + \frac{1}{6}\vec{j}_i(t)\Delta t^3 + \mathcal{O}(\Delta t^4)
 \end{equation}
 
-where $\vec{v}_i$ is the velocity, $\vec{a}_i$ is the acceleration ($\vec{F}_i/m_i$), $\vec{j}_i$ is the jerk (third derivative), and $\mathcal{O}(\Delta t^4)$ represents the local truncation error. Similarly, the position at a time step backward ($t - \Delta t$) is:
+where $\vec{v}_i$ is the velocity (first derivative), $\vec{a}_i$ is the acceleration ($\vec{F}_i/m_i$, second derivative), $\vec{j}_i$ is the jerk (third derivative), and $\mathcal{O}(\Delta t^4)$ represents the local truncation error encompassing all higher-order terms. 
+
+Similarly, to determine the position of the particle at the previous time step ($t - \Delta t$), we simply substitute $\Delta t$ with $-\Delta t$ in Equation \ref{eq:taylor_forward}. Due to the alternating signs of the polynomial powers, this substitution yields:
 
 \begin{equation}\label{eq:taylor_backward}
     \vec{r}_i(t - \Delta t) = \vec{r}_i(t) - \vec{v}_i(t)\Delta t + \frac{1}{2}\vec{a}_i(t)\Delta t^2 - \frac{1}{6}\vec{j}_i(t)\Delta t^3 + \mathcal{O}(\Delta t^4)
 \end{equation}
 
-By summing Equation \ref{eq:taylor_forward} and Equation \ref{eq:taylor_backward}, the odd-order derivatives (including the velocity) cancel out. Rearranging the result yields the classic Verlet integration algorithm \cite{Verlet1967}:
+By summing Equation \ref{eq:taylor_forward} and Equation \ref{eq:taylor_backward}, the odd-order derivatives (such as the velocity and the jerk) cancel out perfectly. Rearranging the result yields the classic Verlet integration algorithm \cite{Verlet1967}:
 
 \begin{equation}\label{eq:verlet}
     \vec{r}_i(t + \Delta t) = 2\vec{r}_i(t) - \vec{r}_i(t - \Delta t) + \frac{\vec{F}_i(t)}{m_i}\Delta t^2 + \mathcal{O}(\Delta t^4)
 \end{equation}
 
-While computationally efficient and highly stable, the standard Verlet algorithm presents inherent numerical drawbacks: it relies on subtracting large numbers (the positions) to obtain small differences, leading to precision loss; furthermore, velocities are not explicitly calculated at the same time step, hindering the accurate computation of kinetic energy and temperature coupling.
+Although the standard Verlet algorithm is computationally efficient and highly stable, it exhibits two significant numerical drawbacks. First, the term $2\vec{r}_i(t) - \vec{r}_i(t - \Delta t)$ involves the subtraction of large values of similar magnitude, making the algorithm highly susceptible to floating-point precision loss (round-off errors). Second, velocities do not explicitly appear in the integration step; they must be approximated post hoc. This omission complicates the instantaneous evaluation of kinetic energy and hinders robust temperature coupling via thermostats.
 
-To circumvent these limitations, the \textit{leap-frog} integrator is widely employed, serving as the default algorithm in the GROMACS simulation engine \cite{leapfrog}. The leap-frog method is algebraically equivalent to the Verlet algorithm but evaluates velocities at half-integer time steps ($t \pm \frac{1}{2}\Delta t$), resolving both the precision and velocity-handling issues. It updates the state of the system through the following sequence:
+To mitigate these limitations, the \textit{leap-frog} integrator is widely adopted, serving as the default algorithm in the GROMACS simulation suite \cite{leapfrog}. While mathematically equivalent to the original Verlet scheme, the leap-frog method circumvents numerical precision issues by evaluating velocities and positions at alternating, half-integer time steps ($t \pm \frac{1}{2}\Delta t$). The system's state is updated through the following sequence:
 
 \begin{equation}\label{eq:leapfrog}
     \begin{cases}
@@ -82,7 +90,25 @@ To circumvent these limitations, the \textit{leap-frog} integrator is widely emp
     \end{cases}
 \end{equation}
 
-Through this discrete iterative process, the computational engine continuously recalculates forces and updates coordinates, effectively tracing the multidimensional trajectory of the molecular system over time.
+By structuring the update in this staggered manner, the algorithm computes positions by adding small velocity-dependent increments to large coordinate values, thereby virtually eliminating round-off errors. Through this discrete iterative process, the computational engine continuously recalculates forces and updates coordinates, effectively tracing the multidimensional trajectory of the molecular system over time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+By default, the integration of Newton's equations of motion conserves the total energy ($E$) of a system. Since simulations typically employ a fixed simulation cell volume ($V$) and particle number ($N$), the leap-frog integrator naturally generates trajectories within the microcanonical (\textit{NVE}) ensemble.
+
+Nevertheless, most biological processes in nature and experiments in the laboratory occur at a constant temperature ($T$) and/or pressure ($P$). Therefore, most simulations of biomolecular systems are performed within the canonical (\textit{NVT}) or the isothermal-isobaric (\textit{NPT}) ensembles. For these cases, MD engines use algorithms that keep these physical properties constant. Algorithms that regulate pressure are called barostats, and they maintain it at a constant value by rescaling the volume of the simulation cell. Several algorithms serve this purpose; in this thesis, the Berendsen \cite{BerendsenB}, stochastic cell-rescaling \cite{CRB}, and Parrinello-Rahman \cite{PRB} barostats were employed sequentially for equilibration and production runs. On the other hand, algorithms that control the temperature of the system are called thermostats, and they adjust it by modifying the velocities of the particles. This is mainly achieved in two ways: by making some particles interact with an external thermal bath, or by scaling all velocities to match a target temperature; the latter being the principle underlying the velocity-rescaling thermostat used in the present work \cite{Vresc}.
 
 
 
@@ -116,11 +142,242 @@ Through this discrete iterative process, the computational engine continuously r
 
 
 
-Because Newton's equations conserve total energy of the system \textit{E}, and, by default simulations employ a fixed simulation cell volume \textit{V} and particle number \textit{N}, the leap-frog integrator naturally generates trajectories within the microcanonical (\textit{NVE}) ensemble.
 
 
-Nevertheless, most processes in nature, and experiments in the laboratory, occur at a constant temperature \textit{T} and/or pressure \textit{P}. Therefore, most simulations of biomolecular systems are performed within the isothermal-isobaric (\textit{NVT}) or the canonical (\textit{NPT}) ensembles. For this cases, MD engines use algorithms that keep these physical properties constants. Algorithms that regulate pressure are called barostats, and they maintain it at a constant value by rescaling the volume of the simulation cell. Several algorithms serve this purpose; in this thesis, the Berendsen\cite{BerendsenB}, stochastic cell rescaling\cite{CRB}, and Parrinello-Rahman\cite{PRB} barostats were employed for equilibration and production runs. On the other hand, algorithms that control the temperature of the system are called thermostats, and they adjust it by modifying the velocities of the particles. This is mainly achieved in two ways: by making some particles interact with a thermal bath, or by scaling all velocities to match a target temperature; the later being the principle underlying the velocity rescaling thermostat used in the present work\cite{Vresc}.
 
+
+
+
+
+
+
+\subsection{Statistical Mechanics of Temperature Control}
+
+According to the equipartition theorem, each degree of freedom contributes $k_B T / 2$ to the total energy, yielding $K = \frac{N_f}{2} k_B T$, where $N_f$ is the number of degrees of freedom and $k_B$ is the Boltzmann constant. However, in a real system coupled to a thermal bath, the instantaneous kinetic energy is not strictly constant; it fluctuates. 
+
+To determine the exact probability distribution of these macroscopic fluctuations, $P(K)$, we must first examine the system at the microscopic level. In the canonical (\textit{NVT}) ensemble, the probability of finding the system in one specific, exact microscopic state---defined by a unique set of individual momentum vectors $\{\vec{p}_i\}$---is governed strictly by the Boltzmann factor:
+
+\begin{equation}
+    P(\vec{p}_1, \vec{p}_2, \dots, \vec{p}_N) \propto e^{-K / k_B T_{\text{ref}}}
+\end{equation}
+
+However, in a macroscopic MD simulation, there are countless different ways to distribute the individual momenta among the particles that result in the exact same total kinetic energy $K$. To find the total probability of observing a macroscopic energy $K$, we must multiply the probability of a single microstate by the \textbf{density of states}, $\Omega(K)$. This crucial thermodynamic term quantifies the degeneracy of the system, representing the total number of microscopic momentum combinations that yield that exact total energy $K$:
+
+\begin{equation}
+    P(K) = \Omega(K) e^{-K / k_B T_{\text{ref}}}
+\end{equation}
+
+To mathematically determine this density of states $\Omega(K)$, we can use a geometric approach in phase space. Assuming for simplicity that all particles have the same mass $m$, the kinetic energy equation can be rewritten as $\sum_{i=1}^{N_f} p_i^2 = 2mK$, where $p_i$ represents each individual scalar momentum component. Mathematically, this equation perfectly matches the definition of the surface of an $N_f$-dimensional hypersphere, whose radius is $R = \sqrt{2mK} \propto K^{1/2}$. 
+
+Geometrically, the surface area of such a hypersphere---and thus the number of available microstates $\Omega(K)$---scales as the radius raised to the power of the dimensions minus one ($R^{N_f - 1}$). Therefore, the density of states is proportional to:
+
+\begin{equation}
+    \Omega(K) \propto (K^{1/2})^{N_f - 1} = K^{(N_f - 1)/2}
+\end{equation}
+
+y de donde sale esa gamma? To express the final probability $P(K)$ in terms of the kinetic energy rather than momentum, a change of variables is required. Since $K \propto p^2$, the differentials relate as $dK \propto p\,dp$, which yields $dp \propto K^{-1/2} dK$. Combining the geometrical density of states with this differential change yields the final statistical weight:
+
+\begin{equation}
+    \Omega(K) \, dp \propto K^{(N_f - 1)/2} K^{-1/2} = K^{N_f/2 - 1}
+\end{equation}
+
+By incorporating this term into the macroscopic probability equation, the exact theoretical distribution of the kinetic energy in the \textit{NVT} ensemble is obtained as a Gamma distribution:
+
+\begin{equation}\label{eq:gamma_distribution}
+    P(K) \propto K^{N_f/2 - 1} e^{-K / k_B T_{\text{ref}}}
+\end{equation}
+
+\paragraph{The failure of simple velocity rescaling and the Dirac delta collapse.} 
+
+To fully grasp why early thermostatic approaches fail, one must understand both the mathematical properties of the canonical ensemble and how MD algorithms actively control temperature in practice. 
+
+Mathematically, Equation \ref{eq:gamma_distribution} is a standard Gamma distribution. In probability theory, a Gamma distribution with a shape parameter $k = N_f/2$ and a scale parameter $\theta = k_B T_{\text{ref}}$ inherently possesses a strictly defined theoretical variance ($\sigma^2 = k\theta^2$). Therefore, statistical mechanics dictates that the kinetic energy of a valid \textit{NVT} ensemble must exhibit the following variance:
+
+\begin{equation}\label{eq:variance_k}
+    \sigma_K^2 = \langle K^2 \rangle - \langle K \rangle^2 = \frac{N_f}{2} (k_B T_{\text{ref}})^2
+\end{equation}
+
+Computationally, MD engines integrate Newton's equations of motion, which natively conserve total energy, not temperature. To artificially maintain a target temperature, the algorithm must intervene by modifying the kinetic energy. This is universally achieved by multiplying all instantaneous particle velocity vectors ($\vec{v}_i$) by a computational scaling factor, denoted as $\alpha$. The difference between thermostat algorithms lies entirely in how they calculate this $\alpha$.
+
+The most rudimentary method, known as \textit{simple velocity rescaling}, bypasses the natural thermodynamic variance entirely. At each integration step, it forces the system to the exact target temperature by applying a rigid scaling factor defined as $\alpha = \sqrt{T_{\text{ref}}/T}$. 
+
+To understand why this is physically problematic, we must observe how this specific $\alpha$ affects the macroscopic kinetic energy. If every individual velocity is scaled to $\vec{v}_i^{\text{new}} = \alpha \vec{v}_i$, the new total kinetic energy becomes:
+
+\begin{equation}
+    K_{\text{new}} = \sum_{i=1}^{N} \frac{m_i (\alpha \vec{v}_i) \cdot (\alpha \vec{v}_i)}{2} = \alpha^2 \sum_{i=1}^{N} \frac{m_i (\vec{v}_i \cdot \vec{v}_i)}{2} = \alpha^2 K
+\end{equation}
+
+Substituting $\alpha^2 = T_{\text{ref}}/T$, and knowing that temperature is proportional to kinetic energy ($T_{\text{ref}}/T = K_{\text{ref}}/K$), yields:
+
+\begin{equation}
+    K_{\text{new}} = \left( \frac{K_{\text{ref}}}{K} \right) K = K_{\text{ref}}
+\end{equation}
+
+By applying this exact scaling factor, the instantaneous kinetic energy is forced to be identically equal to the target kinetic energy ($K_{\text{new}} = K_{\text{ref}}$) at the end of every single time step. Consequently, the variance of the kinetic energy in the simulated system drops to exactly zero ($\sigma_K^2 = 0$). In probability theory, any distribution centered at a mean value $K_{\text{ref}}$ with a variance of zero loses its continuous shape and mathematically collapses into a Dirac delta function:
+
+\begin{equation}
+    P_{\text{simulated}}(K) = \delta(K - K_{\text{ref}})
+\end{equation}
+
+This mathematical collapse proves that simple velocity rescaling does not simulate the canonical (\textit{NVT}) ensemble. Instead, it creates an artificial \textit{isokinetic} ensemble, completely annihilating the thermodynamic fluctuations ($\sigma_K^2$) that are inherently required to represent a real macroscopic system.
+
+
+
+\paragraph{The Berendsen thermostat: A deterministic limitation.} 
+To avoid the unphysical abruptness of simple rescaling, the Berendsen thermostat was designed to smoothly relax the system towards the target temperature over a specified relaxation time, $t_r$. Instead of forcing the kinetic energy to match $K_{\text{ref}}$ instantly, Berendsen dictates that the kinetic energy must evolve according to a first-order deterministic differential equation:
+
+\begin{equation}\label{eq:berendsen_dk}
+    dK = (K_{\text{ref}} - K)\frac{dt}{t_r}
+\end{equation}
+
+For a discrete integration time step $\Delta t$, the change in kinetic energy is $\Delta K = (K_{\text{ref}} - K)\frac{\Delta t}{t_r}$. Since the new kinetic energy $K_{\text{new}} = K + \Delta K$ must also equal $\alpha^2 K$ (as proven in the previous section), we can explicitly solve for the Berendsen scaling factor $\alpha$:
+
+\begin{equation}
+    \alpha^2 K = K + (K_{\text{ref}} - K)\frac{\Delta t}{t_r} \implies \alpha = \sqrt{1 + \frac{\Delta t}{t_r} \left( \frac{T_{\text{ref}}}{T} - 1 \right)}
+\end{equation}
+
+While this modified $\alpha$ provides excellent numerical stability and prevents the variance from dropping exactly to zero, it introduces a different fundamental flaw. Equation \ref{eq:berendsen_dk} acts as a deterministic mathematical spring: every time the kinetic energy fluctuates above $K_{\text{ref}}$, the algorithm predictively scales it down; every time it drops below, it predictively scales it up. By systematically suppressing the natural peaks and valleys of the energy, the Berendsen algorithm mathematically restricts the variance to a value much lower than the theoretical requirement ($\sigma_K^2 = \frac{N_f}{2} (k_B T_{\text{ref}})^2$). This artificial dampening of fluctuations frequently causes energy to accumulate incorrectly in global translational modes, leading to the infamous \textit{flying ice cube} artifact.
+
+\paragraph{The stochastic v-rescale solution.} 
+To circumvent the limitations of both simple rescaling (zero variance) and Berendsen (artificially restricted variance), Bussi, Donadio, and Parrinello introduced the stochastic velocity-rescaling algorithm (\textit{v-rescale}) \cite{Vresc}. Their crucial insight was that Berendsen's deterministic drag must be counterbalanced by the explicit injection of random thermal noise. 
+
+They redefined the evolution of the kinetic energy using a stochastic differential equation:
+
+\begin{equation}\label{eq:vrescale}
+    dK = \underbrace{(K_{\text{ref}} - K)\frac{dt}{t_r}}_{\text{Berendsen deterministic drag}} + \underbrace{2\sqrt{\frac{K K_{\text{ref}}}{N_f t_r}} dW}_{\text{Stochastic thermal noise}}
+\end{equation}
+
+The first term is the classical Berendsen continuous correction, ensuring the system remains coupled to the target temperature. The second term is a stochastic Wiener process ($dW$, representing Brownian noise) scaled by a highly specific mathematical amplitude. By analyzing this equation through the Fokker-Planck formalism, Bussi et al. proved that this exact noise amplitude perfectly compensates for the variance lost in the deterministic step. 
+
+Consequently, the \textit{v-rescale} algorithm derives a stochastic $\alpha$ scaling factor that ensures the stationary probability distribution of the kinetic energy converges exactly to the theoretical Gamma distribution (Equation \ref{eq:gamma_distribution}). This provides the computational stability of Berendsen while rigorously generating the exact thermodynamic fluctuations required to sample the true canonical (\textit{NVT}) ensemble.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Statistical Mechanics of Pressure Control (Barostats)}
+
+To understand how barostats operate, we must first define how pressure is measured at the microscopic level. In macroscopic physics, pressure is intuitively defined as a scalar force applied over a specific area ($P = F/A$). However, in a molecular simulation utilizing Periodic Boundary Conditions (PBCs), there are no physical walls against which particles can exert force. 
+
+Instead, the internal pressure of the system must be derived using the \textbf{Virial Theorem}. Because interatomic forces act continuously across all three spatial dimensions ($X, Y, Z$), pressure cannot be expressed as a single number. Rather, it is represented by a $3 \times 3$ matrix known as the internal stress tensor ($\mathbf{P}$). This tensor is composed of two distinct physical contributions: the kinetic energy of the particles (acting essentially as an ideal gas) and the virial term (the internal forces that atoms exert on one another):
+
+\begin{equation}\label{eq:virial_tensor}
+    \mathbf{P} = \frac{2}{V} \left( \underbrace{\frac{1}{2}\sum_{i=1}^{N} \frac{\vec{p}_i \otimes \vec{p}_i}{m_i}}_{\text{Kinetic contribution}} - \underbrace{\frac{1}{2}\sum_{i=1}^{N-1} \sum_{j=i+1}^{N} \vec{r}_{ij} \otimes \vec{f}_{ij}}_{\text{Virial (intermolecular forces)}} \right)
+\end{equation}
+
+where $V$ is the volume of the simulation cell, $\vec{p}_i$ is the momentum vector of particle $i$, $\vec{r}_{ij}$ is the distance vector between two interacting particles, and $\vec{f}_{ij}$ is the force vector acting between them. The symbol $\otimes$ denotes the Kronecker product, a mathematical operation that constructs a $3 \times 3$ matrix from two vectors. For a perfectly isotropic fluid, the macroscopic scalar pressure $p$ corresponds to the average of the diagonal elements of this tensor: $p = \text{Tr}(\mathbf{P})/3$.
+
+\paragraph{The fundamental problem of pressure control.} 
+In a standard \textit{NVT} simulation, the volume ($V$) is strictly fixed. Consequently, as atoms dynamically move and collide, the internal stress tensor $\mathbf{P}$ fluctuates wildly. To accurately mimic physiological or laboratory conditions (the \textit{NPT} ensemble), we must force this internal pressure to match a desired external reference pressure ($\mathbf{P}_{\text{ref}}$). 
+
+Since the natural forces between atoms ($\vec{f}_{ij}$) cannot be artificially altered without violating fundamental physical laws, Equation \ref{eq:virial_tensor} leaves us with only one macroscopic variable that can be safely manipulated to adjust the pressure: the volume $V$.
+
+Therefore, the primary function of any barostat is to continuously compute a scaling matrix $\mathbf{M}$. This matrix gently expands or shrinks the coordinate vectors of all particles ($\vec{x}$) and the overall cell volume ($V$) to counteract internal pressure deviations:
+
+\begin{subequations}\label{eq:scaling_general}
+    \begin{align}
+        \vec{x} &\rightarrow \mathbf{M}\vec{x} \\
+        V &\rightarrow \det(\mathbf{M})V
+    \end{align}
+\end{subequations}
+
+\paragraph{The Berendsen Barostat: A deterministic approach.}
+The most straightforward methodology to calculate this scaling matrix $\mathbf{M}$ was proposed by Berendsen \cite{BerendsenB}. The underlying logic is highly intuitive: if the internal pressure exceeds the reference, the simulation box must expand to relieve the stress; if it is lower, it must shrink. The magnitude of this geometrical correction depends on the pressure error $(\mathbf{P} - \mathbf{P}_{\text{ref}})$ and the inherent physical "softness" of the system, mathematically defined by the isothermal compressibility matrix ($\boldsymbol{\beta}$).
+
+The Berendsen algorithm computes the scaling matrix as follows:
+
+\begin{equation}\label{eq:berendsen_barostat}
+    \mathbf{M} = \mathbb{I} - \frac{\Delta t}{3t_r} \boldsymbol{\beta} \odot (\mathbf{P} - \mathbf{P}_{\text{ref}})
+\end{equation}
+
+Every term within this deterministic equation serves a precise physical purpose:
+\begin{itemize}
+    \item $\mathbb{I}$ is the identity matrix, representing the current, unscaled dimensions of the box (a baseline scaling factor of 1).
+    \item $(\mathbf{P} - \mathbf{P}_{\text{ref}})$ is the error matrix, containing the precise pressure deviations across all dimensions.
+    \item $\boldsymbol{\beta}$ acts as a physical conversion factor, translating a measured pressure deviation into an appropriate geometric volume change.
+    \item The symbol $\odot$ denotes the \textbf{Hadamard product}. Unlike standard matrix multiplication, the Hadamard product performs a strictly element-by-element multiplication. This is a critical mathematical feature, as it guarantees that a pressure error in a specific axis (e.g., $Z$) triggers a volume correction exclusively along that same axis.
+    \item $\frac{\Delta t}{3t_r}$ acts as a damping mechanism governed by the relaxation time $t_r$. It acts as a mathematical brake, ensuring the box adjusts gradually over multiple time steps ($\Delta t$) rather than attempting to correct the entire error instantaneously, which would lead to severe numerical instability.
+\end{itemize}
+
+\paragraph{Semi-isotropic scaling: Preserving membrane integrity.}
+The mathematical independence guaranteed by the Hadamard product becomes absolutely crucial when simulating anisotropic interfacial systems, such as lipid membranes. For a homogeneous fluid (like a simulation box of pure water), barostats apply \textit{isotropic} scaling, meaning the box expands or shrinks equally in all three directions. However, a lipid bilayer possesses distinct physical properties along its axes: the lateral plane ($XY$, defining the membrane area) is governed by lipid surface tension, while the normal axis ($Z$) is dominated by the bulk solvent.
+
+If a membrane were scaled isotropically, a transient pressure spike in the bulk water would force the entire box to expand, artificially stretching the membrane's lateral area and potentially tearing the bilayer apart. To prevent this unphysical behavior, simulations of lipid membranes strictly employ \textbf{semi-isotropic pressure coupling}. In this regime, the lateral dimensions ($X$ and $Y$) are coupled together to scale symmetrically, but they remain completely independent from the normal direction ($Z$). Mathematically, this is achieved by defining the reference pressure ($\mathbf{P}_{\text{ref}}$) and compressibility ($\boldsymbol{\beta}$) matrices such that their $XX$ and $YY$ components are identical, yet distinct from the $ZZ$ component. This targeted scaling ensures the membrane area can relax to its natural thermodynamic equilibrium without being artificially deformed by the forces of the surrounding solvent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Periodic Boundary Conditions}
 Nevertheless, despite the thermodynamic control offered by these algorithms, the simulation of real-world systems is limited by the amount of particles that can be simulated using a realistic amount of computational resources. This limitation, necessitates confining the molecules to a finite volume; however, enclosing them with hard boundaries would introduce artificial particle-wall interactions that are unrealistic for biological environments. To avoid this, when the calculation of the new positions displaces a particle out of the simulation cell, the exact same particle "wraps-around" and re-enters from the opposite side.
 \begin{figure}[!htbp]
     \centering
@@ -222,11 +479,81 @@ Up to now, several force field-dependent parameters such as force constants or e
 
 Throughout this section, the term \textit{particle} has been used instead of \textit{atom}. This choice is due to the fact that not all force fields use an atomistic representation of the systems. Some force fields, instead, group several atoms into a single particle. The type of approximation is known as resolution, and it represents an additional distinguishing feature among force fields.
 
-\subsubsection{The Resolution of the Force Fields}
-Force fields can be classified into three principal categories according to their level of resolution, namely, whether the particles explicitly represent individual atoms or groups of atoms.
-At the highest level of resolution are atomistic or all-atom (AA) force fields, in which every atom in the system is explicitly represented. Widely used AA force fields include CHARMM \cite{charmm}, AMBER \cite{gaff}, and the OPLS family \cite{oplsaa}. These models generally provide the highest level of accuracy; however, this comes at a substantial computational cost. This limitation becomes particularly significant in large systems, especially those containing a large number of water molecules, which considerably increase the total number of particles.
-An intermediate level of resolution is provided by united-atom (UA) force fields. In this approach, nonpolar hydrogen atoms are combined with the heavy atoms to which they are bonded and treated as a single interaction site, while polar hydrogens remain explicitly represented. This reduction in the number of particles decreases the degrees of freedom of the system and leads to improved computational efficiency. In addition to UA variants developed within the CHARMM, AMBER, and OPLS frameworks, the GROMOS force field is among the most widely used implementations of this approach \cite{gromos}.
-At the lowest level of resolution are coarse-grained (CG) force fields, in which multiple atoms, including both heavy atoms and their associated hydrogens, are grouped into a single interaction site commonly referred to as a bead. This strategy significantly reduces the number of particles, thereby enabling the simulation of larger systems and longer timescales at a lower computational cost, although at the expense of reduced atomic detail and accuracy (Fig. \ref{fig:AA2CG}). A prominent example is the Martini force field, which is widely employed in simulations of biological systems. Martini typically uses an approximate 4:1 mapping scheme, in which four heavy atoms and their associated hydrogens are represented by a single bead, often corresponding to an entire functional group.
+% --- Continuación de tu texto ---
+Throughout this section, the term \textit{particle} has been used instead of \textit{atom}. This choice is due to the fact that not all force fields use an atomistic representation of the systems. Some force fields, instead, group several atoms into a single particle. The type of approximation is known as resolution, and it represents an additional distinguishing feature among force fields.
+
+\subsubsection{Calculation of Non-Bonded Interactions: The Computational Bottleneck}
+
+Unlike bonded interactions, which only involve fixed groups of 2, 3, or 4 atoms, non-bonded interactions (van der Waals and electrostatics) theoretically exist between every single pair of particles in the system. Furthermore, under Periodic Boundary Conditions (PBCs), a particle also interacts with all the periodic images of the other particles, including its own images. 
+
+If evaluated explicitly for all pairs, the computational cost of non-bonded interactions scales as $\mathcal{O}(N^2)$. For systems containing thousands or millions of particles, this becomes the primary bottleneck of the MD simulation. To make these calculations computationally tractable, different mathematical approximations must be employed depending on how fast the physical potential decays with distance.
+
+\paragraph{1. Truncation Methods (Cutoffs) for van der Waals Interactions}
+The simplest approach to reduce the computational burden is to apply a cutoff distance, $r_c$. Beyond this distance, the interaction potential is assumed to be zero. 
+
+This approximation is physically acceptable for van der Waals interactions because the Lennard-Jones potential decays extremely fast (its attractive dispersion term scales as $\|\vec{r}_{ij}\|^{-6}$). By setting a cutoff $r_c$ (typically around $1.0 - 1.2$ nm), the vast majority of the interaction energy is captured. However, simply truncating the potential creates a discontinuity at $r_c$, leading to infinite forces. To prevent this, a mathematical correction is applied: the potential is either shifted downward so that $U_{\text{vdW}}(r_c) = 0$ (\textit{potential shift}), or multiplied by a smoothing function that gracefully tapers the forces to zero (\textit{force switch}). 
+
+\paragraph{2. The Challenge of Electrostatics: Reaction Field}
+While a simple cutoff works for van der Waals, it is disastrous for electrostatic interactions. The Coulomb potential decays very slowly ($\|\vec{r}_{ij}\|^{-1}$). Truncating it at $r_c$ ignores long-range electrostatic correlations, introducing severe artifacts, especially in highly charged systems or polar solvents like water.
+
+An early solution to this problem is the \textbf{Reaction Field} method, proposed by Barker and Watts \cite{Barker1973}. Instead of simply ignoring the charges beyond $r_c$, this scheme assumes that the environment outside the spherical cavity of radius $r_c$ acts as a continuous, homogeneous dielectric medium with a relative permittivity $\varepsilon_{\text{RF}}$. The electrostatic potential for a pair of particles then becomes:
+
+\begin{equation}\label{eq:reaction_field}
+    U_{\text{RF}}(\vec{r}_{ij}) = \frac{1}{4\pi\varepsilon} \left[ 1 + \frac{\varepsilon_{\text{RF}} - \varepsilon_r}{2\varepsilon_{\text{RF}} + \varepsilon_r} \frac{\|\vec{r}_{ij}\|^3}{r_c^3} \right] \frac{q_i q_j}{\|\vec{r}_{ij}\|} - \frac{1}{4\pi\varepsilon} \frac{q_i q_j}{r_c} \frac{3\varepsilon_{\text{RF}}}{2\varepsilon_{\text{RF}} + \varepsilon_r}
+\end{equation}
+
+By construction, the derivative of this potential (the force) smoothly goes to zero at $\|\vec{r}_{ij}\| = r_c$. While more accurate than a strict cutoff, the Reaction Field method still struggles to capture the full periodicity of highly charged macroscopic crystals or strongly interacting biomolecules.
+
+\paragraph{3. Ewald Summation and Particle-Mesh Ewald (PME)}
+To completely solve the long-range electrostatics problem without truncation errors, one must calculate the infinite periodic sum of all Coulomb interactions, including those with all periodic images (denoted by the lattice vector $\vec{n}$):
+
+\begin{equation}\label{eq:coulomb_periodic}
+    U_{\text{Coulomb}} = \frac{1}{4\pi\varepsilon} \sum_{\vec{n}^*} \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{q_i q_j}{\|\vec{r}_{ij} + \vec{n}\|}
+\end{equation}
+
+Since this sum converges conditionally and extremely slowly, Ewald \cite{Ewald1921} introduced a brilliant mathematical trick. He recognized that any point charge $q_i$ can be neutralized by superimposing a Gaussian charge cloud of equal magnitude but opposite sign around it. By adding and subtracting these hypothetical Gaussian clouds, the infinite sum can be split into two rapidly converging series using the identity $\text{erf}(x) + \text{erfc}(x) = 1$:
+
+\begin{equation}\label{eq:ewald_split}
+    U_{\text{Coulomb}} = \underbrace{ U_{\text{Short-Range}} (\text{using } \text{erfc}) }_{\text{Calculated in Direct Space}} + \underbrace{ U_{\text{Long-Range}} (\text{using } \text{erf}) }_{\text{Calculated in Reciprocal Space}}
+\end{equation}
+
+\begin{itemize}
+    \item \textbf{Direct Space (Short-Range):} Because the point charge is artificially screened by the opposite-sign Gaussian cloud, its effective electrostatic potential now decays as rapidly as a van der Waals interaction. This allows it to be computed efficiently in real space using a standard cutoff $r_c$.
+    \item \textbf{Reciprocal Space (Long-Range):} To correct for the artificial Gaussian clouds we added, we must subtract their interaction with the rest of the periodic system. Since a grid of Gaussian clouds is a perfectly smooth, periodic function, it can be mathematically transformed into Fourier space (Reciprocal Space), where the infinite sum converges incredibly fast. 
+\end{itemize}
+
+While the standard Ewald summation reduces the scaling from $\mathcal{O}(N^2)$ to $\mathcal{O}(N^{3/2})$, it is still computationally expensive for modern biomolecular simulations. The definitive breakthrough was the \textbf{Particle-Mesh Ewald (PME)} algorithm \cite{Darden1993}. In PME, the Gaussian charges in the reciprocal space are interpolated onto a 3D computational grid using cardinal B-splines. Once on the grid, the potential is solved using the 3D Fast Fourier Transform (FFT) algorithm. 
+
+This grid-based approach reduces the computational complexity to $\mathcal{O}(N \log N)$, making it the gold standard in MD simulation engines like GROMACS for treating long-range electrostatics efficiently and with rigorous physical accuracy.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{The Resolution of the Force Fields}
+
+Force fields can be classified into three principal categories based on their level of resolution, which dictates whether the computational particles represent individual atoms or grouped structural units. At the highest level of resolution are atomistic or all-atom (AA) force fields—such as CHARMM \cite{charmm}, AMBER \cite{gaff}, and the OPLS family \cite{oplsaa}—wherein every single atom in the system, including hydrogens, is explicitly represented. While these models provide unparalleled physicochemical accuracy, their computational cost constitutes a major limitation. Because the calculation of pairwise interactions scales theoretically as $\mathcal{O}(N^2)$, the sheer number of degrees of freedom—particularly those arising from explicit solvent molecules—makes the simulation of large biomolecular assemblies, such as cell membranes or entire organelles, prohibitively expensive. Consequently, the exploration of the conformational space using AA models is typically restricted to limited spatial scales and very short timescales, often in the nanosecond range. An intermediate approach to mitigate this computational bottleneck is provided by united-atom (UA) force fields, such as GROMOS \cite{gromos}. In this methodology, nonpolar hydrogen atoms are collapsed into the heavy atoms to which they are bonded, treating the entire aliphatic group as a single interaction site, while polar hydrogens remain explicitly represented to preserve hydrogen bond networks. 
+
+To fully overcome the temporal and spatial limitations of atomistic models, researchers developed coarse-grained (CG) force fields. At this lowest level of resolution, multiple atoms—including both heavy atoms and their associated hydrogens—are grouped together to form a single interaction site, commonly referred to as a \textit{bead} (Figure \ref{fig:AA2CG}). This drastic reduction in the system's degrees of freedom smooths the underlying energy landscape and significantly accelerates the calculation. This computational boost allows researchers to routinely access length scales of micrometers and timescales extending from microseconds to milliseconds, albeit at the expense of reduced atomic detail and specific highly-localized interactions. One of the most successful and widely employed CG models for biological systems is the Martini force field. Martini relies on a consistent mapping scheme—typically a 4:1 ratio—in which approximately four heavy atoms and their associated hydrogens are represented by a single bead. These beads are carefully parameterized to capture the thermodynamic behavior of entire functional groups, striking an optimal balance between computational speed and the accurate reproduction of macroscopic physical properties.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.99\linewidth]{General_Sections/Figures/AA2CG.png}
