@@ -10922,6 +10922,116 @@
       \endverb
       \keyw{Lennard-Jones potential,liquid theory,molecular dynamics method,stochastic processes,water}
     \endentry
+    \entry{termo_metad_presion}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=3dfd41d12a2896dd0ca93271e1d9e9cc}{%
+           family={Tuckerman},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{3dfd41d12a2896dd0ca93271e1d9e9cc}
+      \strng{fullhash}{3dfd41d12a2896dd0ca93271e1d9e9cc}
+      \strng{fullhashraw}{3dfd41d12a2896dd0ca93271e1d9e9cc}
+      \strng{bibnamehash}{3dfd41d12a2896dd0ca93271e1d9e9cc}
+      \strng{authorbibnamehash}{3dfd41d12a2896dd0ca93271e1d9e9cc}
+      \strng{authornamehash}{3dfd41d12a2896dd0ca93271e1d9e9cc}
+      \strng{authorfullhash}{3dfd41d12a2896dd0ca93271e1d9e9cc}
+      \strng{authorfullhashraw}{3dfd41d12a2896dd0ca93271e1d9e9cc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{9780198825562}
+      \field{series}{Oxford Graduate Texts}
+      \field{title}{Statistical Mechanics: Theory and Molecular Simulation}
+      \field{year}{2023}
+      \field{pages}{880}
+      \range{pages}{1}
+    \endentry
+    \entry{mec_estadistica}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=65e2667c0c254dfdcd6fe3e8432ff8ce}{%
+           family={Reif},
+           familyi={R\bibinitperiod},
+           given={Frederick},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \strng{namehash}{65e2667c0c254dfdcd6fe3e8432ff8ce}
+      \strng{fullhash}{65e2667c0c254dfdcd6fe3e8432ff8ce}
+      \strng{fullhashraw}{65e2667c0c254dfdcd6fe3e8432ff8ce}
+      \strng{bibnamehash}{65e2667c0c254dfdcd6fe3e8432ff8ce}
+      \strng{authorbibnamehash}{65e2667c0c254dfdcd6fe3e8432ff8ce}
+      \strng{authornamehash}{65e2667c0c254dfdcd6fe3e8432ff8ce}
+      \strng{authorfullhash}{65e2667c0c254dfdcd6fe3e8432ff8ce}
+      \strng{authorfullhashraw}{65e2667c0c254dfdcd6fe3e8432ff8ce}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0070518001}
+      \field{note}{Reimpreso en 2009 por Waveland Press}
+      \field{title}{Fundamentals of statistical and thermal physics}
+      \field{year}{1965}
+    \endentry
+    \entry{gamma}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=bf178f3e18dcb98a6c053ab07f1c506d}{%
+           family={Dimelow},
+           familyi={D\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=618280792415cf795ac258d2822109dd}{%
+           family={Masters},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{4933f003b8787c2c27d6b3211e0766b5}
+      \strng{fullhash}{4933f003b8787c2c27d6b3211e0766b5}
+      \strng{fullhashraw}{4933f003b8787c2c27d6b3211e0766b5}
+      \strng{bibnamehash}{4933f003b8787c2c27d6b3211e0766b5}
+      \strng{authorbibnamehash}{4933f003b8787c2c27d6b3211e0766b5}
+      \strng{authornamehash}{4933f003b8787c2c27d6b3211e0766b5}
+      \strng{authorfullhash}{4933f003b8787c2c27d6b3211e0766b5}
+      \strng{authorfullhashraw}{4933f003b8787c2c27d6b3211e0766b5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Simulation}
+      \field{number}{14}
+      \field{title}{Deriving the distribution of N-particle kinetic energies in a classical system}
+      \field{volume}{33}
+      \field{year}{2007}
+      \field{pages}{1165\bibrangedash 1166}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1080/08927020701613649
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/08927020701613649
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/08927020701613649
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/08927020701613649
+      \endverb
+    \endentry
     \entry{pme}{article}{}{}
       \name{author}{6}{}{%
         {{hash=5bf1b2917acbbca4409229d20c0467cf}{%
@@ -11442,6 +11552,61 @@
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1096-987X(199906)20:8%3C786::AID-JCC5%3E3.0.CO;2-B
       \endverb
+    \endentry
+    \entry{termo_1}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b568294149f077ca921be6aab84f47cd}{%
+           family={Chandler},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b568294149f077ca921be6aab84f47cd}
+      \strng{fullhash}{b568294149f077ca921be6aab84f47cd}
+      \strng{fullhashraw}{b568294149f077ca921be6aab84f47cd}
+      \strng{bibnamehash}{b568294149f077ca921be6aab84f47cd}
+      \strng{authorbibnamehash}{b568294149f077ca921be6aab84f47cd}
+      \strng{authornamehash}{b568294149f077ca921be6aab84f47cd}
+      \strng{authorfullhash}{b568294149f077ca921be6aab84f47cd}
+      \strng{authorfullhashraw}{b568294149f077ca921be6aab84f47cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0195042771}
+      \field{title}{Introduction to Modern Statistical Mechanics}
+      \field{year}{1987}
+    \endentry
+    \entry{termo_2}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=fcbca29015ee1b510dd48a7df9eef49d}{%
+           family={Callen},
+           familyi={C\bibinitperiod},
+           given={Herbert\bibnamedelima B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{fcbca29015ee1b510dd48a7df9eef49d}
+      \strng{fullhash}{fcbca29015ee1b510dd48a7df9eef49d}
+      \strng{fullhashraw}{fcbca29015ee1b510dd48a7df9eef49d}
+      \strng{bibnamehash}{fcbca29015ee1b510dd48a7df9eef49d}
+      \strng{authorbibnamehash}{fcbca29015ee1b510dd48a7df9eef49d}
+      \strng{authornamehash}{fcbca29015ee1b510dd48a7df9eef49d}
+      \strng{authorfullhash}{fcbca29015ee1b510dd48a7df9eef49d}
+      \strng{authorfullhashraw}{fcbca29015ee1b510dd48a7df9eef49d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{isbn}{978-0471610564}
+      \field{title}{Thermodynamics and an Introduction to Thermostatistics}
+      \field{year}{1985}
     \endentry
     \entry{Woo2005}{article}{}{}
       \name{author}{2}{}{%
@@ -11972,7 +12137,6 @@
       \keyw{Antimicrobial peptides,Quantum computing,Lipid membranes,Interface,Peptide folding}
     \endentry
   \enddatalist
-  \missing{Barker1973}
 \endrefsection
 \endinput
 

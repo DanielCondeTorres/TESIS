@@ -100,6 +100,29 @@
 % Formatting for chapter pages
 \usepackage{titlesec}
 
+\newcommand{\subsubsubsection}{\paragraph}
+\newcommand{\subsubsubsubsection}{\subparagraph}
+
+\titleformat{\paragraph}
+  {\normalfont\normalsize\bfseries}
+  {\theparagraph}
+  {1em}
+  {}
+\titlespacing{\paragraph}
+  {0pt}
+  {3.25ex plus 1ex minus .2ex}
+  {1.5ex plus .2ex}
+
+\titleformat{\subparagraph}
+  {\normalfont\normalsize\bfseries\itshape}
+  {\thesubparagraph}
+  {1em}
+  {}
+\titlespacing{\subparagraph}
+  {0pt}
+  {3.25ex plus 1ex minus .2ex}
+  {1.5ex plus .2ex}
+
 \newcommand{\chapterquote}[2]{%
     \vfill
     \begin{flushright}
@@ -174,8 +197,8 @@
   \renewcommand{\contentsname}{Index}
 }
 
-\setcounter{secnumdepth}{3} % Enables numbering for subsubsections
-\setcounter{tocdepth}{3} % Show subsubsections in ToC
+\setcounter{secnumdepth}{5} % Enables numbering for subsubsections, paragraph, and subparagraph
+\setcounter{tocdepth}{5} % Show all levels down to subparagraph in ToC
 
 \usepackage{quantikz}
 
