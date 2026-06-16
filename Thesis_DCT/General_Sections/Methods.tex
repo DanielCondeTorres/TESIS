@@ -1074,19 +1074,17 @@ where $S_j$ is the $j$-th cluster and $\mu_j$ is its centroid. In the context of
 
 %%%%%%% CONTINUAR
 \section{Quantum Computing}
-A fundamental challenge in the study of antimicrobial peptides arises from the enormous size of both sequence and conformational spaces. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes.
+A fundamental challenge in the study of antimicrobial peptides arises from the enormous size of both sequence and conformational spaces\cite{Levinthal_paradox}. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides\cite{robert2021resource}. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes\cite{paper_paula,vogel_amps}.
 
-This complexity is closely related to the Levinthal paradox, which highlights the apparent contradiction between the astronomical number of possible conformations and the relatively fast folding times observed in nature. This paradox suggests that peptide folding is guided by structured energy landscapes rather than random exploration, yet accurately characterizing these landscapes remains a major computational challenge.
+This complexity is closely related to the Levinthal paradox\cite{Levinthal_paradox}, which highlights the apparent contradiction between the astronomical number of possible conformations and the relatively fast folding times observed in nature\cite{Levinthal_paradox_2}. This paradox suggests that peptide folding is guided by structured energy landscapes rather than random exploration, yet accurately characterizing these landscapes remains a major computational challenge\cite{Levinthal_paradox,robert2021resource, Levinthal_paradox_2}.
 
-From a computational perspective, the protein folding problem has been shown to be NP-hard under several simplified models, implying that no efficient classical algorithm is known to solve it in the general case. This intrinsic computational complexity further limits the applicability of classical methods when attempting to explore both sequence and conformational spaces in a systematic manner.
+From a computational perspective, the protein folding problem has been shown to be NP-hard under several simplified models, implying that no efficient classical algorithm is known to solve it in the general case\cite{robert2021resource}. This intrinsic computational complexity further limits the applicability of classical methods when attempting to explore both sequence and conformational spaces in a systematic manner.
 
-Recent advances in machine learning approaches, most notably AlphaFold, have achieved remarkable success in predicting static protein structures from amino acid sequences. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches.
+Recent advances in machine learning approaches, most notably AlphaFold\cite{avances_2}, have achieved remarkable success in predicting static protein structures from amino acid sequences. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches\cite{PROTEINMPNN,ROSETTA}.
 
-Classical approaches, such as molecular dynamics simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally prohibitive.
+Classical approaches, such as molecular dynamics simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally expensive\cite{computational_expensive_MD}.
 
-These limitations motivate the exploration of alternative computational paradigms capable of addressing the exponential and combinatorial complexity of biomolecular systems. In this context, quantum computing offers a fundamentally different framework, in which the principles of superposition and entanglement enable the representation and manipulation of high-dimensional quantum states more naturally. Although current quantum hardware remains limited, these approaches provide a promising avenue for tackling the intrinsic complexity of peptide folding and sequence exploration problems.
-
-
+These limitations motivate the exploration of alternative computational paradigms capable of addressing the exponential and combinatorial complexity of biomolecular systems. In this context, quantum computing offers a fundamentally different framework, in which the principles of superposition and entanglement enable the representation and manipulation of high-dimensional quantum states more naturally\cite{robert2021resource,nielsen2010quantum}. Although current quantum hardware remains limited, these approaches provide a promising avenue for tackling the intrinsic complexity of peptide folding and sequence exploration problems.
 
 
 
@@ -1104,19 +1102,21 @@ These limitations motivate the exploration of alternative computational paradigm
 
 
 
-Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics---specifically superposition, entanglement, and interference---to process information and solve complex combinatorial optimization problems that remain intractable for classical systems. This research is conducted within the \textbf{Noisy Intermediate-Scale Quantum (NISQ) era}, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction). The primary goal in this context is to achieve \textbf{Quantum Advantage}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
+
+
+Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics; specifically superposition, entanglement, and interference; to process information and solve complex combinatorial optimization problems that remain intractable for classical systems\cite{nielsen2010quantum,preskill1998quantum}. This research is conducted within the Noisy Intermediate-Scale Quantum (NISQ) era, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction)\cite{Shor1995,KITAEV20032}. The primary goal in this context is to achieve Quantum Advantage\cite{paper_dani}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
 
 \subsection{Foundations of Quantum Information}
-To understand the application of quantum algorithms in molecular design, it is essential to define the basic units of information and the operations that manipulate them. As described in the fundamental work of Nielsen and Chuang \cite{nielsen2010quantum}, quantum information theory generalizes classical computation by utilizing the principles of Hilbert space.
+To understand the application of quantum algorithms in molecular design, it is essential to define the basic units of information and the operations that manipulate them. As described in the fundamental work of Nielsen and Chuang \cite{nielsen2010quantum,preskill1998quantum}, quantum information theory generalizes classical computation by utilizing the principles of Hilbert space.
 
 \subsubsection{Bits vs. Qubits}
-Just as a classical computer uses bits that are either $0$ or $1$ and that can physically be represented as a low and a high voltage in a wire, a quantum computer uses quantum bits or \textbf{qubits} $|0\rangle$ or $|1\rangle$, often referred to as computational basis states. A qubit can, for instance, be physically manifested as two distinct energy levels of an atom (e.g., ground state $|0\rangle$ and excited state $|1\rangle$) or by the number of Cooper pairs on a superconducting island formed by a Josephson junction and a capacitor. 
+Just as a classical computer uses bits that are either $0$ or $1$ and that can physically be represented as a low and a high voltage in a wire, a quantum computer uses quantum bits or qubits, which can be in states $|0\rangle$ or $|1\rangle$, often referred to as computational basis states. A qubit can, for instance, be physically manifested as two distinct energy levels of an atom (e.g., ground state $|0\rangle$ and excited state $|1\rangle$) or by the number of Cooper pairs on a superconducting island formed by a Josephson junction and a capacitor\cite{nielsen2010quantum,preskill1998quantum}. 
 
-Qubits are described mathematically using Dirac's ``ket'' notation. A typical choice to represent the computational basis states is as column vectors:
+Qubits are described mathematically using Dirac's \textit{ket} notation. A typical choice to represent the computational basis states is as column vectors:
 \begin{equation}
 |0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}, \quad |1\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}
 \end{equation}
-Qubits are represented as vectors instead of single scalar numbers because quantum systems can exist in a linear combination or ``superposition'' of both basis states simultaneously. This coherent superposition for a general qubit state can be described as:
+Qubits are represented as vectors instead of single scalar numbers because quantum systems can exist in a linear combination or \textit{superposition} of both basis states simultaneously. This coherent superposition for a general qubit state can be described as:
 \begin{equation}
 |\psi\rangle = \alpha |0\rangle + \beta |1\rangle = \begin{pmatrix} \alpha \\ \beta \end{pmatrix}
 \end{equation}
@@ -1140,7 +1140,7 @@ The fundamental principles governing single qubits naturally extend to systems c
 \begin{equation}
 |\psi\rangle = \sum_{z \in \{0,1\}^N} \alpha_z |z\rangle, \quad \text{with} \quad \sum_{z \in \{0,1\}^N} |\alpha_z|^2 = 1
 \end{equation}
-The critical requirement is that the sum of the squares of the absolute values of these complex amplitudes must strictly equal $1$, ensuring that the total probability is conserved within this larger system. This extension underlines the extraordinary scalability of quantum computing, demonstrating that the information capacity—or memory—available with every added qubit grows exponentially, spanning a $2^N$-dimensional Hilbert space.
+The critical requirement is that the sum of the squares of the absolute values of these complex amplitudes must strictly equal $1$, ensuring that the total probability is conserved within this larger system\cite{nielsen2010quantum,preskill1998quantum}. This extension underlines the extraordinary scalability of quantum computing, demonstrating that the information capacity—or memory—available with every added qubit grows exponentially, spanning a $2^N$-dimensional Hilbert space.
 
 \subsection{Unitary Dynamics and Quantum Gates}
 Analogous to classical computers, which employ elementary logic gates such as AND or NOT to carry out deterministic operations on bits, quantum computers utilize quantum gates to manipulate the probability amplitudes of one or several qubits. The continuous time evolution of these probability amplitudes in a closed quantum system is fundamentally governed by the linear differential Schr\"odinger equation:
@@ -1157,7 +1157,7 @@ When the Hamiltonian is time-independent, the formal solution to the Schr\"oding
 \end{equation}
 If the initial state of the system $|\psi(0)\rangle$ is known, all future states can be deterministically computed by applying this unitary operator, yielding $|\psi(t)\rangle = \hat{U}(t)|\psi(0)\rangle$. This unitary evolution ensures that the normalization of the quantum state is strictly conserved over time.
 
-In the context of quantum computing, this continuous-time evolution is approximated or synthesized by discrete unitary operations known as quantum gates. Any operation on a single qubit can be visualized as a rotation of the state vector on the Bloch sphere.
+In the context of quantum computing, this continuous-time evolution is approximated or synthesized by discrete unitary operations known as quantum gates. Any operation on a single qubit can be visualized as a rotation of the state vector on the Bloch sphere\cite{nielsen2010quantum,preskill1998quantum}.
 
 \subsubsection{Pauli and Rotation Gates}
 The most foundational operators for single-qubit manipulation are the Pauli matrices, which are the quantum analogs of classical operations. They are both unitary and Hermitian:
@@ -1168,7 +1168,7 @@ The most foundational operators for single-qubit manipulation are the Pauli matr
 \end{equation}
 For example, the Pauli-$X$ gate acts as a quantum bit-flip (analogous to NOT), mapping $X|0\rangle = |1\rangle$ and $X|1\rangle = |0\rangle$. The Pauli-$Z$ gate acts as a phase-flip, mapping $Z|1\rangle = -|1\rangle$ while leaving $|0\rangle$ unchanged.
 
-Another fundamental single-qubit gate is the \textbf{Hadamard gate ($H$)}, which is critical for generating superposition by mapping the computational basis states onto the equator of the Bloch sphere:
+Another fundamental single-qubit gate is the Hadamard gate ($H$), which is critical for generating superposition by mapping the computational basis states onto the equator of the Bloch sphere:
 \begin{equation}
 H = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
 \end{equation}
@@ -1182,28 +1182,61 @@ R_z(\theta) = \begin{pmatrix} e^{-i\theta/2} & 0 \\ 0 & e^{i\theta/2} \end{pmatr
 \end{equation}
 
 \subsubsection{Two-Qubit Gates: Entanglement}
-The \textbf{Controlled-NOT ($CNOT$)} gate is the primary mechanism for generating entanglement. It flips the state of a target qubit ($q_t$) if and only if the control qubit ($q_c$) is in the state $|1\rangle$:
+The \ontrolled-NOT ($CNOT$) gate is the primary mechanism for generating entanglement. It flips the state of a target qubit ($q_t$) if and only if the control qubit ($q_c$) is in the state $|1\rangle$:
 \begin{equation}
 CNOT = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{pmatrix}
 \end{equation}
 When the control qubit is in a superposition, applying $CNOT$ produces Bell states, which are maximally entangled.
 
 \subsection{Measurement and Hardware Architectures}
-Unlike classical reading, quantum measurement in the computational basis is a non-unitary process that collapses the wavefunction into one of the basis vectors. To obtain a reliable estimate of the probability distribution (the expectation value), the quantum circuit must be executed and measured multiple times. Each individual execution and measurement is referred to as a \textbf{shot}. The precision of the resulting expectation value improves with the square root of the number of shots ($1/\sqrt{N_{shots}}$).
+Unlike classical reading, quantum measurement in the computational basis is a non-unitary process that collapses the wavefunction into one of the basis vectors\cite{nielsen2010quantum,preskill1998quantum}. To obtain a reliable estimate of the probability distribution (the expectation value), the quantum circuit must be executed and measured multiple times. Each individual execution and measurement is referred to as a shot. The precision of the resulting expectation value improves with the square root of the number of shots ($1/\sqrt{N_{shots}}$)\cite{shots_quantum}.
 
-In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs). Specifically, the Variational Quantum Eigensolver (VQE) and the Quantum Approximate Optimization Algorithm (QAOA) were employed to tackle the energetic and combinatorial nature of these biological systems.
+In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs)\cite{shots_quantum}. Specifically, the Variational Quantum Eigensolver (VQE)\cite{VQE} and the Quantum Approximate Optimization Algorithm (QAOA)\cite{QAOA} were employed to tackle the energetic and combinatorial nature of these biological systems.
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsubsection{Hardware Architectures}
 Several physical platforms are currently being developed to realize qubits, each with distinct advantages in terms of coherence times and scalability.
 
-\paragraph{Trapped Ion Architecture}
-One of the most prominent hardwares used in this research context is the \textbf{Trapped Ion} architecture. In these systems, individual ions (typically $^{171}\text{Yb}^+$ or $^{40}\text{Ca}^+$) are confined in a vacuum using electromagnetic fields (Paul traps). Qubits are encoded in the internal electronic levels or hyperfine states of the ions. Gates are implemented using laser pulses or microwave radiation that manipulate both the internal states and the collective vibrational modes (phonons) of the ion chain, enabling high-fidelity long-range entanglement.
+\subsubsubsubsection{Trapped Ion Architecture}
+One of the most prominent hardwares used in this research context is the Trapped Ion architecture. In these systems, individual ions are confined in a vacuum using electromagnetic fields (Paul traps). Qubits are encoded in the internal electronic levels or hyperfine states of the ions. Gates are implemented using laser pulses or microwave radiation that manipulate both the internal states and the collective vibrational modes (phonons) of the ion chain, enabling high-fidelity long-range entanglement\cite{trapped_ions}.
 
-\paragraph{Superconducting Qubits}
-Currently the most widely deployed architecture (e.g., by IBM, Google, and Rigetti), \textbf{Superconducting Qubits} utilize macroscopic circuits cooled to millikelvin temperatures. These circuits, containing Josephson junctions, behave as artificial atoms (Transmons). Superconducting qubits offer extremely fast gate speeds (nanoseconds) and are manufactured using standard lithographic techniques, facilitating a path toward large-scale integration. However, they typically suffer from shorter coherence times compared to ions and require complex cryogenic infrastructure.
+\subsubsubsubsection{Superconducting Qubits}
+Currently the most widely deployed architecture (e.g., by IBM, Google, and Rigetti)\cite{paper_dani}, Superconducting Qubits utilize macroscopic circuits cooled to millikelvin temperatures. These circuits, containing Josephson junctions, behave as artificial atoms. Superconducting qubits offer extremely fast gate speeds (nanoseconds) and are manufactured using standard lithographic techniques, facilitating a path toward large-scale integration. However, they typically suffer from shorter coherence times compared to ions and require complex cryogenic infrastructure.\cite{superconductiong_qubits}
 
-\paragraph{Photonic Quantum Computing}
-Another scaling paradigm utilizes \textbf{Photons} as qubits (Linear Optical Quantum Computing). In these systems, information is encoded in the polarization, path, or arrival time of individual photons. Photonic hardware is inherently robust against thermal noise and decoherence, making it ideal for room-temperature operation. Operations are performed using interferometers, beam splitters, and phase shifters, although entangling two photons remains a technical challenge typically addressed through measurement-based schemes or non-linear optical media.
+\subsubsubsubsection{Photonic Quantum Computing}
+Another scaling paradigm utilizes Photons as qubits (Linear Optical Quantum Computing). In these systems, information is encoded in the polarization, path, or arrival time of individual photons. Photonic hardware is inherently robust against thermal noise and decoherence, making it ideal for room-temperature operation. Operations are performed using interferometers, beam splitters, and phase shifters, although entangling two photons remains a technical challenge typically addressed through measurement-based schemes or non-linear optical media\cite{photonic_qubits}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsection{Connection to Quantum Circuits}
 In the context of quantum computing, the continuous-time evolution governed by the Schr\"odinger equation is approximated by discrete unitary operations (quantum gates). Each quantum gate can be interpreted as the exponential of an effective Hamiltonian acting over a finite time interval.
@@ -1290,14 +1323,7 @@ The implementation of these algorithms is supported by highly optimized open-sou
 These tools allow for the seamless integration of quantum kernels into classical optimization pipelines.
 
 \subsubsection{The Pauli Basis and Operator Mapping}
-To implement molecular or mathematical observables on a quantum architecture, the target operators must be expressed in a language compatible with qubit operations. In the context of VQAs, this is achieved by decomposing the Hamiltonian $\hat{H}$ into a linear combination of Pauli strings. The Pauli matrices, $\{\sigma_x, \sigma_y, \sigma_z\}$, together with the identity operator $I$, constitute a complete basis for the space of $2 \times 2$ Hermitian matrices:
-
-\begin{equation}
-I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \quad 
-\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad 
-\sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad 
-\sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
-\end{equation}
+To implement molecular or mathematical observables on a quantum architecture, the target operators must be expressed in a language compatible with qubit operations. In the context of VQAs, this is achieved by decomposing the Hamiltonian $\hat{H}$ into a linear combination of Pauli strings. The Pauli matrices, $\{\sigma_x, \sigma_y, \sigma_z\}$, together with the identity operator $I$, constitute a complete basis for the space of $2 \times 2$ Hermitian matrices.
 
 These operators are both unitary and Hermitian, and their eigenvalues are always $\pm 1$. In a multi-qubit system of $n$ qubits, the Hamiltonian is represented as an element of the Pauli group $\mathcal{P}_n$, formed by the $4^n$ possible tensor products of these matrices:
 \begin{equation}
@@ -1308,9 +1334,9 @@ where $w_i$ are real-valued coefficients. Due to the linearity of the expectatio
 \langle \hat{H} \rangle_{\boldsymbol{\theta}} = \sum_{i} w_i \langle \psi(\boldsymbol{\theta}) | \hat{P}_i | \psi(\boldsymbol{\theta}) \rangle
 \end{equation}
 
-\subsubsection{Variational Quantum Eigensolver (VQE)}
+\subsubsection{Variational Quantum Eigensolver}
 
-The Variational Quantum Eigensolver (VQE) is a flagship hybrid algorithm designed to find the ground state energy of a given Hamiltonian $\hat{H}$. It is particularly well-suited for the NISQ era because it relies on shallow quantum circuits, shifting the optimization of the wavefunction parameters to a classical solver.
+The VQE is a flagship hybrid algorithm designed to find the ground state energy of a given Hamiltonian $\hat{H}$. It is particularly well-suited for the NISQ era because it relies on shallow quantum circuits, shifting the optimization of the wavefunction parameters to a classical solver.
 
 \paragraph{The Variational Principle}
 The theoretical foundation of VQE is the Rayleigh-Ritz variational principle from quantum mechanics. It states that for any normalized trial wavefunction $|\psi(\boldsymbol{\theta})\rangle$ (where $\boldsymbol{\theta}$ represents a set of adjustable parameters), the expectation value of the Hamiltonian $\hat{H}$ is always greater than or equal to the true ground state energy $E_0$:
