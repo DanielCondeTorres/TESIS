@@ -9726,6 +9726,7 @@
       \strng{authornamehash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -9794,6 +9795,7 @@
       \strng{authornamehash}{bddcbb30e0909355294b8653d4787a0e}
       \strng{authorfullhash}{16fda0acd29f1276c07270659e70cdff}
       \strng{authorfullhashraw}{16fda0acd29f1276c07270659e70cdff}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -9832,6 +9834,7 @@
       \strng{authornamehash}{4678a579c5851929a69bc0b9a15a0a83}
       \strng{authorfullhash}{20254ebc49b7f7e3467958f0e39320cd}
       \strng{authorfullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -9874,6 +9877,7 @@
       \strng{authornamehash}{836c04a8ead66d709fbf0afad5433010}
       \strng{authorfullhash}{7e5c493347d687b6e14dc4b030f9aa64}
       \strng{authorfullhashraw}{7e5c493347d687b6e14dc4b030f9aa64}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -11773,6 +11777,1265 @@
       \verb 10.1109/TIT.1982.1056489
       \endverb
     \endentry
+    \entry{vogel_amps}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d2679de5fd2d52838ade0528596a670a}{%
+           family={Epand},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a8cf19b24b181217afdc9aa857588f35}{%
+           family={Vogel},
+           familyi={V\bibinitperiod},
+           given={Hans\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5f2549b7561cee7c94d375f97336709}
+      \strng{fullhash}{e5f2549b7561cee7c94d375f97336709}
+      \strng{fullhashraw}{e5f2549b7561cee7c94d375f97336709}
+      \strng{bibnamehash}{e5f2549b7561cee7c94d375f97336709}
+      \strng{authorbibnamehash}{e5f2549b7561cee7c94d375f97336709}
+      \strng{authornamehash}{e5f2549b7561cee7c94d375f97336709}
+      \strng{authorfullhash}{e5f2549b7561cee7c94d375f97336709}
+      \strng{authorfullhashraw}{e5f2549b7561cee7c94d375f97336709}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antimicrobial peptides encompass a wide variety of structural motifs. Many peptides have α-helical structures. The majority of these peptides are cationic and amphipathic but there are also hydrophobic α-helical peptides which possess antimicrobial activity. In addition, some β-sheet peptides have antimicrobial activity and even antimicrobial α-helical peptides which have been modified to possess a β-structure retain part of their antimicrobial activity. There are also antimicrobial peptides which are rich in a certain specific amino acid such as Trp or His. In addition, antimicrobial peptides exist with thio-ether rings, which are lipopeptides or which have macrocyclic Cys knots. In spite of the structural diversity, a common feature of the cationic antimicrobial peptides is that they all have an amphipathic structure which allows them to bind to the membrane interface. Indeed, most antimicrobial peptides interact with membranes and may be cytotoxic as a result of disturbance of the bacterial inner or outer membranes. Alternatively, a necessary but not sufficient property of these peptides may be to be able to pass through the membrane to reach a target inside the cell. The interaction of these peptides with biological membranes is not just a function of the peptide but is also modulated by the lipid components of the membrane. It is not likely that this diverse group of peptides has a single mechanism of action, but interaction of the peptides with membranes is an important requirement for most, if not all, antimicrobial peptides.}
+      \field{issn}{0005-2736}
+      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Biomembranes}
+      \field{number}{1}
+      \field{title}{Diversity of antimicrobial peptides and their mechanisms of action}
+      \field{volume}{1462}
+      \field{year}{1999}
+      \field{pages}{11\bibrangedash 28}
+      \range{pages}{18}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0005-2736(99)00198-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0005273699001984
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0005273699001984
+      \endverb
+      \keyw{Cytotoxic peptide,Peptide-lipid interaction,Membrane permeability,Peptide conformation,Lipopolysaccharide}
+    \endentry
+    \entry{computational_expensive_MD}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=85bed4143f248a63eb7618b97fd6c9da}{%
+           family={Vervust},
+           familyi={V\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a37f4363d6fe14c401f59e79dc337fe5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Daniel\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=4dd29a9ece4f93f1688571c8afb09028}{%
+           family={{van Erp}},
+           familyi={v\bibinitperiod},
+           given={Titus\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=8c91a37baa7fd567576454ac4594e891}{%
+           family={Ghysels},
+           familyi={G\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{11b6b123ec1c10682eed73281c6f04cd}
+      \strng{fullhash}{4700ae338b1c33efb4fc1e7026dc593f}
+      \strng{fullhashraw}{4700ae338b1c33efb4fc1e7026dc593f}
+      \strng{bibnamehash}{4700ae338b1c33efb4fc1e7026dc593f}
+      \strng{authorbibnamehash}{4700ae338b1c33efb4fc1e7026dc593f}
+      \strng{authornamehash}{11b6b123ec1c10682eed73281c6f04cd}
+      \strng{authorfullhash}{4700ae338b1c33efb4fc1e7026dc593f}
+      \strng{authorfullhashraw}{4700ae338b1c33efb4fc1e7026dc593f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Assessing kinetics in biological processes with molecular dynamics simulations remains a computational and conceptual challenge, given the large time and length scales involved. For kinetic transport of biochemical compounds or drug molecules, the permeability through the phospholipid membranes is a key kinetic property, but long timescales are hindering the accurate computation. Technological advances in high-performance computing therefore need to be accompanied by theoretical and methodological developments. In this contribution, the replica exchange transition interface sampling (RETIS) methodology is shown to give perspective toward observing longer permeation pathways. It is first reviewed how RETIS, a path-sampling methodology that gives in principle exact kinetics, can be used to compute membrane permeability. Next, recent and current developments in three RETIS aspects are discussed: several new Monte Carlo moves in the path-sampling algorithm, memory reduction by reducing pathlengths, and exploitation of parallel computing with CPU-imbalanced replicas. Finally, the memory reduction presenting a new replica exchange implementation, coined REPPTIS, is showcased with a permeant needing to pass a membrane with two permeation channels, either representing an entropic or energetic barrier. The REPPTIS results showed clearly that inclusion of some memory and enhancing ergodic sampling via replica exchange moves are both necessary to obtain correct permeability estimates. In an additional example, ibuprofen permeation through a dipalmitoylphosphatidylcholine membrane was modeled. REPPTIS succeeded in estimating the permeability of this amphiphilic drug molecule with metastable states along the permeation pathway. In conclusion, the presented methodological advances allow for deeper insight into membrane biophysics even if the pathways are slow, as RETIS and REPPTIS push the permeability calculations to longer timescales.}
+      \field{issn}{0006-3495}
+      \field{journaltitle}{Biophysical Journal}
+      \field{number}{14}
+      \field{title}{Path sampling with memory reduction and replica exchange to reach long permeation timescales}
+      \field{volume}{122}
+      \field{year}{2023}
+      \field{pages}{2960\bibrangedash 2972}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.bpj.2023.02.021
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0006349523001273
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0006349523001273
+      \endverb
+    \endentry
+    \entry{preskill1998quantum}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=fbe61da8813855105d0c727fa93b4b4d}{%
+           family={Preskill},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {California Institute of Technology}%
+      }
+      \strng{namehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{fullhash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{fullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{bibnamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorbibnamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authornamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Lecture Notes for Physics 229}
+      \field{title}{Quantum Information and Computation}
+      \field{year}{1998}
+    \endentry
+    \entry{Shor1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7082a9c99d5d51479d4cfba6bbac2d30}{%
+           family={Shor},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{fullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{fullhashraw}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{bibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorbibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorfullhashraw}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{10}
+      \field{title}{Scheme for reducing decoherence in quantum computer memory}
+      \field{volume}{52}
+      \field{year}{1995}
+      \field{pages}{R2493(R)\bibrangedash R2496(R)}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.52.R2493
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.52.R2493
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.52.R2493
+      \endverb
+    \endentry
+    \entry{KITAEV20032}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=34266a35eedbd87dd79c5e408127a5e5}{%
+           family={Kitaev},
+           familyi={K\bibinitperiod},
+           given={A.Yu.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{fullhash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{fullhashraw}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{bibnamehash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{authorbibnamehash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{authornamehash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{authorfullhash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{authorfullhashraw}{34266a35eedbd87dd79c5e408127a5e5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A two-dimensional quantum system with anyonic excitations can be considered as a quantum computer. Unitary transformations can be performed by moving the excitations around each other. Measurements can be performed by joining excitations in pairs and observing the result of fusion. Such computation is fault-tolerant by its physical nature.}
+      \field{issn}{0003-4916}
+      \field{journaltitle}{Annals of Physics}
+      \field{number}{1}
+      \field{title}{Fault-tolerant quantum computation by anyons}
+      \field{volume}{303}
+      \field{year}{2003}
+      \field{pages}{2\bibrangedash 30}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0003-4916(02)00018-0
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
+      \endverb
+    \endentry
+    \entry{paper_dani}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
+           family={Conde-Torres},
+           familyi={C\bibinithyphendelim T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5af753eb09baf32d7b6422f91309c8ea}{%
+           family={Seco-González},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=a9326694a4a84a4e71fe42b841ee1183}{%
+           family={Garcia-Fandiño},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{fullhash}{e15edafb7cba8216e98b612d82e27522}
+      \strng{fullhashraw}{e15edafb7cba8216e98b612d82e27522}
+      \strng{bibnamehash}{e15edafb7cba8216e98b612d82e27522}
+      \strng{authorbibnamehash}{e15edafb7cba8216e98b612d82e27522}
+      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{authorfullhash}{e15edafb7cba8216e98b612d82e27522}
+      \strng{authorfullhashraw}{e15edafb7cba8216e98b612d82e27522}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum computing has rapidly emerged as one of the fastest-growing research domains, driven by both technological breakthroughs and the promise of computational advantages over classical systems. This study presents a comprehensive bibliometric analysis of the global quantum computing literature from 1980 to 2025, comprising 31,662 publications indexed in Scopus and accumulating over 800,000 citations. Using advanced bibliometric techniques—including co-authorship mapping, keyword co-occurrence networks, co-citation analysis, and centrality measures—we characterize publication trends, institutional contributions, collaborative structures, and thematic evolution across the field. The results reveal exponential growth in output since 2015, led primarily by the United States, China, and Europe, with key institutions such as MIT, the Chinese Academy of Sciences, CNRS, and the University of Waterloo at the forefront. The intellectual structure exhibits a dual-core configuration, with foundational algorithmic work (e.g. Shor, Grover, Nielsen \& Chuang) tightly connected to emerging NISQ-era applications such as quantum machine learning, cryptography, and hybrid algorithms. Keyword analysis reveals the progressive expansion from core quantum algorithms toward increasingly diverse applied domains in healthcare, finance, chemistry, energy, and climate modeling. Public funding bodies (e.g. NSFC, NSF, European Commission, DOE, DoD, MoST) and private-sector investment from major technology firms are jointly driving this translational acceleration. Together, these findings provide an integrated quantitative map of the field’s evolution, offering valuable insight for future scientific policy, international collaboration, and strategic funding initiatives.}
+      \field{issn}{2196-0763}
+      \field{journaltitle}{EPJ Quantum Technology}
+      \field{number}{1}
+      \field{title}{Mapping the quantum computing landscape: growth, collaboration, and thematic convergence}
+      \field{volume}{13}
+      \field{year}{2026}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjqt/s40507-026-00464-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1140/epjqt/s40507-026-00464-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epjqt/s40507-026-00464-4
+      \endverb
+    \endentry
+    \entry{shots_quantum}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a253ddc1c4c24cde70238bd45dc9aeff}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Jarrod\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8c1a9ea5a335989d4957424b7cc2f7b9}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7bb1dcf8a93d1ecc6f9531ece93ef1fa}{%
+           family={Babbush},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{836c04a8ead66d709fbf0afad5433010}
+      \strng{fullhash}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{fullhashraw}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{bibnamehash}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{authorbibnamehash}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{authornamehash}{836c04a8ead66d709fbf0afad5433010}
+      \strng{authorfullhash}{7e5c493347d687b6e14dc4b030f9aa64}
+      \strng{authorfullhashraw}{7e5c493347d687b6e14dc4b030f9aa64}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Journal of Physics}
+      \field{number}{2}
+      \field{title}{The theory of variational hybrid quantum-classical algorithms}
+      \field{volume}{18}
+      \field{year}{2016}
+      \field{pages}{023023}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/18/2/023023
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1367-2630/18/2/023023
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1367-2630/18/2/023023
+      \endverb
+    \endentry
+    \entry{VQE}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=da632f662bb1ab5c3e05ddb80b6cd201}{%
+           family={Peruzzo},
+           familyi={P\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=44d80c9bccbe7462fe524bbf9cd54a08}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Jarrod},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c0ad2cf76d13d7b9fb852ca865569241}{%
+           family={Shadbolt},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cbadbf9460f01d20432bc4fb34345309}{%
+           family={Yung},
+           familyi={Y\bibinitperiod},
+           given={Man-Hong},
+           giveni={M\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=30e428aa9e63bc24127324a4c1fefabc}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiao-Qi},
+           giveni={X\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=2d8133b5eb867e28af9ca9ea41105b5c}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c8e4de768a4ced864e5f9490e6a67454}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Jeremy\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{bddcbb30e0909355294b8653d4787a0e}
+      \strng{fullhash}{16fda0acd29f1276c07270659e70cdff}
+      \strng{fullhashraw}{16fda0acd29f1276c07270659e70cdff}
+      \strng{bibnamehash}{16fda0acd29f1276c07270659e70cdff}
+      \strng{authorbibnamehash}{16fda0acd29f1276c07270659e70cdff}
+      \strng{authornamehash}{bddcbb30e0909355294b8653d4787a0e}
+      \strng{authorfullhash}{16fda0acd29f1276c07270659e70cdff}
+      \strng{authorfullhashraw}{16fda0acd29f1276c07270659e70cdff}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum computers promise to efficiently solve important problems that are intractable on a conventional computer. For quantum systems, where the physical dimension grows exponentially, finding the eigenvalues of certain operators is one such intractable problem and remains a fundamental challenge. The quantum phase estimation algorithm efficiently finds the eigenvalue of a given eigenvector but requires fully coherent evolution. Here we present an alternative approach that greatly reduces the requirements for coherent evolution and combine this method with a new approach to state preparation based on ansätze and classical optimization. We implement the algorithm by combining a highly reconfigurable photonic quantum processor with a conventional computer. We experimentally demonstrate the feasibility of this approach with an example from quantum chemistry—calculating the ground-state molecular energy for He–H+. The proposed approach drastically reduces the coherence time requirements, enhancing the potential of quantum resources available today and in the near future.}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{1}
+      \field{title}{A variational eigenvalue solver on a photonic quantum processor}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{4213}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms5213
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/ncomms5213
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/ncomms5213
+      \endverb
+    \endentry
+    \entry{QAOA}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=5e61ee12360fc49d9013fbf8fe18db89}{%
+           family={Farhi},
+           familyi={F\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f2e6b451475e084ec5469a7bd9c9c6cf}{%
+           family={Goldstone},
+           familyi={G\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=39d938c535d4f5974b7e118bfc075b2f}{%
+           family={Gutmann},
+           familyi={G\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4678a579c5851929a69bc0b9a15a0a83}
+      \strng{fullhash}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{fullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{bibnamehash}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{authorbibnamehash}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{authornamehash}{4678a579c5851929a69bc0b9a15a0a83}
+      \strng{authorfullhash}{20254ebc49b7f7e3467958f0e39320cd}
+      \strng{authorfullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Quantum Approximate Optimization Algorithm}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1411.4028
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1411.4028
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1411.4028
+      \endverb
+    \endentry
+    \entry{trapped_ions}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e95cc0745e2fbc83da963e5d6ab9c104}{%
+           family={Cirac},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=0d147340235c2166e4699ddc95c9fbe5}{%
+           family={Zoller},
+           familyi={Z\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{fullhash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{fullhashraw}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{bibnamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorbibnamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authornamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorfullhash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorfullhashraw}{fb8c79c5103f1d00069139ab0ea78421}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{5}
+      \field{title}{Quantum Computations with Cold Trapped Ions}
+      \field{volume}{74}
+      \field{year}{1995}
+      \field{pages}{4091\bibrangedash 4094}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.74.4091
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.74.4091
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.74.4091
+      \endverb
+    \endentry
+    \entry{superconductiong_qubits}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=2a4dcb65f7f62d984540ff315781ea57}{%
+           family={Kjaergaard},
+           familyi={K\bibinitperiod},
+           given={Morten},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a6c1b96c3d0bd1aa52feca98d3255a5e}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Mollie\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=0c68e5cf6ea797927d61c45010fb0fba}{%
+           family={Braumüller},
+           familyi={B\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=83acc8ae57fc4a7cde43eba8f0c073bb}{%
+           family={Krantz},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8677818456565bec41d8a01ddca6c9a8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Joel\bibnamedelima I.-J.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=0dc496bfe7bb780dacac78a79c352060}{%
+           family={Gustavsson},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7e0fdfb97a5d24e12cfe5768c4fcf567}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{5fa22f4294fb92b7c9a1a5e5497aeb0a}
+      \strng{fullhash}{c1468dad0459ed0a153bb80f466adc44}
+      \strng{fullhashraw}{c1468dad0459ed0a153bb80f466adc44}
+      \strng{bibnamehash}{c1468dad0459ed0a153bb80f466adc44}
+      \strng{authorbibnamehash}{c1468dad0459ed0a153bb80f466adc44}
+      \strng{authornamehash}{5fa22f4294fb92b7c9a1a5e5497aeb0a}
+      \strng{authorfullhash}{c1468dad0459ed0a153bb80f466adc44}
+      \strng{authorfullhashraw}{c1468dad0459ed0a153bb80f466adc44}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Superconducting qubits are leading candidates in the race to build a quantum computer capable of realizing computations beyond the reach of modern supercomputers. The superconducting qubit modality has been used to demonstrate prototype algorithms in the noisy intermediate-scale quantum (NISQ) technology era, in which non-error-corrected qubits are used to implement quantum simulations and quantum algorithms. With the recent demonstrations of multiple high-fidelity, two-qubit gates as well as operations on logical qubits in extensible superconducting qubit systems, this modality also holds promise for the longer-term goal of building larger-scale error-corrected quantum computers. In this brief review, we discuss several of the recent experimental advances in qubit hardware, gate implementations, readout capabilities, early NISQ algorithm implementations, and quantum error correction using superconducting qubits. Although continued work on many aspects of this technology is certainly necessary, the pace of both conceptual and technical progress in recent years has been impressive, and here we hope to convey the excitement stemming from this progress.}
+      \field{issn}{1947-5462}
+      \field{journaltitle}{Annual Review of Condensed Matter Physics}
+      \field{number}{Volume 11, 2020}
+      \field{title}{Superconducting Qubits: Current State of Play}
+      \field{type}{Journal Article}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{369\bibrangedash 395}
+      \range{pages}{27}
+      \verb{doi}
+      \verb https://doi.org/10.1146/annurev-conmatphys-031119-050605
+      \endverb
+      \verb{urlraw}
+      \verb https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-031119-050605
+      \endverb
+      \verb{url}
+      \verb https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-031119-050605
+      \endverb
+      \keyw{quantum simulation}
+    \endentry
+    \entry{photonic_qubits}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=f8fb06a01546ae6be2c704ed20c2c847}{%
+           family={Kok},
+           familyi={K\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1f2bf88e198a69fa81904ec39bc6e261}{%
+           family={Munro},
+           familyi={M\bibinitperiod},
+           given={W.\bibnamedelimi J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=43de8552ab61d76a124fd195717ad5a8}{%
+           family={Nemoto},
+           familyi={N\bibinitperiod},
+           given={Kae},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7c535ab546d77a47539779701fe4a49f}{%
+           family={Ralph},
+           familyi={R\bibinitperiod},
+           given={T.\bibnamedelimi C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f652cfdd330e6c3d026ce8fe532c10c4}{%
+           family={Dowling},
+           familyi={D\bibinitperiod},
+           given={Jonathan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=514ccdb42f45be431e1bd6620ad2230c}{%
+           family={Milburn},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{64e72a3a899ffe8de2a6953ea64f3524}
+      \strng{fullhash}{3cd38ba454e7ad5108fe91c7f9021f64}
+      \strng{fullhashraw}{3cd38ba454e7ad5108fe91c7f9021f64}
+      \strng{bibnamehash}{3cd38ba454e7ad5108fe91c7f9021f64}
+      \strng{authorbibnamehash}{3cd38ba454e7ad5108fe91c7f9021f64}
+      \strng{authornamehash}{64e72a3a899ffe8de2a6953ea64f3524}
+      \strng{authorfullhash}{3cd38ba454e7ad5108fe91c7f9021f64}
+      \strng{authorfullhashraw}{3cd38ba454e7ad5108fe91c7f9021f64}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{1}
+      \field{title}{Linear optical quantum computing with photonic qubits}
+      \field{volume}{79}
+      \field{year}{2007}
+      \field{pages}{135\bibrangedash 174}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.79.135
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.79.135
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.79.135
+      \endverb
+    \endentry
+    \entry{Preskill_paper}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fbe61da8813855105d0c727fa93b4b4d}{%
+           family={Preskill},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Verein zur Förderung des Open Access Publizierens in den Quantenwissenschaften}%
+      }
+      \strng{namehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{fullhash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{fullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{bibnamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorbibnamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authornamehash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
+      \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2521-327X}
+      \field{journaltitle}{{Quantum}}
+      \field{month}{8}
+      \field{title}{Quantum {C}omputing in the {NISQ} era and beyond}
+      \field{volume}{2}
+      \field{year}{2018}
+      \field{pages}{79}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.22331/q-2018-08-06-79
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.22331/q-2018-08-06-79
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.22331/q-2018-08-06-79
+      \endverb
+    \endentry
+    \entry{vqa_2}{article}{}{}
+      \name{author}{14}{}{%
+        {{hash=7252fb0ec40d2cf015f62bea2c3195be}{%
+           family={Bharti},
+           familyi={B\bibinitperiod},
+           given={Kishor},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5a2b5e34618e120705e762927644cf0a}{%
+           family={Cervera-Lierta},
+           familyi={C\bibinithyphendelim L\bibinitperiod},
+           given={Alba},
+           giveni={A\bibinitperiod}}}%
+        {{hash=11933d38f596ce3e28a966359830730f}{%
+           family={Kyaw},
+           familyi={K\bibinitperiod},
+           given={Thi\bibnamedelima Ha},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2036c43951475e8500d1ca024c7c00d7}{%
+           family={Haug},
+           familyi={H\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=61ad4aae7993ccc474ac720659abf6c3}{%
+           family={Alperin-Lea},
+           familyi={A\bibinithyphendelim L\bibinitperiod},
+           given={Sumner},
+           giveni={S\bibinitperiod}}}%
+        {{hash=985f06ea28010d41b98c55dadf1cf6e5}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Abhinav},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ce554a1b376ee1be7e82f136d4237255}{%
+           family={Degroote},
+           familyi={D\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a35a238e2e4b3b7f6466b1e9c128dc48}{%
+           family={Heimonen},
+           familyi={H\bibinitperiod},
+           given={Hermanni},
+           giveni={H\bibinitperiod}}}%
+        {{hash=107b712d1e1d0da12ec456450de4e440}{%
+           family={Kottmann},
+           familyi={K\bibinitperiod},
+           given={Jakob\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7c555b38206c5fb0ccec33164f55a8ff}{%
+           family={Menke},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4330659dfb8a2f4cc9b749ef50aafb88}{%
+           family={Mok},
+           familyi={M\bibinitperiod},
+           given={Wai-Keong},
+           giveni={W\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=f156a71a758735a1cfc0aab991a121e2}{%
+           family={Sim},
+           familyi={S\bibinitperiod},
+           given={Sukin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c694837b1d821eb753b9d91ea74b3f3c}{%
+           family={Kwek},
+           familyi={K\bibinitperiod},
+           given={Leong-Chuan},
+           giveni={L\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
+           family={Aspuru-Guzik},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={Alán},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{06ea5f481c501cb5d1f49ae8a720ec98}
+      \strng{fullhash}{0e002ca20fa71f4cbc58de8f1c529841}
+      \strng{fullhashraw}{0e002ca20fa71f4cbc58de8f1c529841}
+      \strng{bibnamehash}{0e002ca20fa71f4cbc58de8f1c529841}
+      \strng{authorbibnamehash}{0e002ca20fa71f4cbc58de8f1c529841}
+      \strng{authornamehash}{06ea5f481c501cb5d1f49ae8a720ec98}
+      \strng{authorfullhash}{0e002ca20fa71f4cbc58de8f1c529841}
+      \strng{authorfullhashraw}{0e002ca20fa71f4cbc58de8f1c529841}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{2}
+      \field{title}{Noisy intermediate-scale quantum algorithms}
+      \field{volume}{94}
+      \field{year}{2022}
+      \field{pages}{015004}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.94.015004
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.94.015004
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.94.015004
+      \endverb
+    \endentry
+    \entry{Qiskit}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7a2b3595e36a368ce9a04ebaa3bba1d1}{%
+           family={{Qiskit contributors}},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a2b3595e36a368ce9a04ebaa3bba1d1}
+      \strng{fullhash}{7a2b3595e36a368ce9a04ebaa3bba1d1}
+      \strng{fullhashraw}{7a2b3595e36a368ce9a04ebaa3bba1d1}
+      \strng{bibnamehash}{7a2b3595e36a368ce9a04ebaa3bba1d1}
+      \strng{authorbibnamehash}{7a2b3595e36a368ce9a04ebaa3bba1d1}
+      \strng{authornamehash}{7a2b3595e36a368ce9a04ebaa3bba1d1}
+      \strng{authorfullhash}{7a2b3595e36a368ce9a04ebaa3bba1d1}
+      \strng{authorfullhashraw}{7a2b3595e36a368ce9a04ebaa3bba1d1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Qiskit: An Open-source Framework for Quantum Computing}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.5281/zenodo.2573505
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.2573505
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.2573505
+      \endverb
+    \endentry
+    \entry{pennylane}{misc}{}{}
+      \name{author}{68}{}{%
+        {{hash=561d6475ad9a0d32f8d1b33dd8d1dd5c}{%
+           family={Bergholm},
+           familyi={B\bibinitperiod},
+           given={Ville},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7f931b8a8e5094419b9a192b65e7c403}{%
+           family={Izaac},
+           familyi={I\bibinitperiod},
+           given={Josh},
+           giveni={J\bibinitperiod}}}%
+        {{hash=566bc76219b4c730f8c2d46f5dcc455a}{%
+           family={Schuld},
+           familyi={S\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b2283e26f29ee3d76c9354deb486064e}{%
+           family={Gogolin},
+           familyi={G\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cf9e8f14f772309d5570684ba03ad71e}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Shahnawaz},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fb68461a1cb7c989f2d15629804f57e3}{%
+           family={Ajith},
+           familyi={A\bibinitperiod},
+           given={Vishnu},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b60fa802c10a780b108a403edc66bfe1}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi Sohaib},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d4c859306d7fbbbd2ee9fcdd19367d6b}{%
+           family={Alonso-Linaje},
+           familyi={A\bibinithyphendelim L\bibinitperiod},
+           given={Guillermo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b87ac45169f95a5ef8cbf7245b1b7130}{%
+           family={AkashNarayanan},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d2919e76fb93d7ebeb11e1ec741f45db}{%
+           family={Asadi},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=13964e1d0dff462d866640377d7f11d8}{%
+           family={Arrazola},
+           familyi={A\bibinitperiod},
+           given={Juan\bibnamedelima Miguel},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=598c9e3099c5122211b22ab715b09380}{%
+           family={Azad},
+           familyi={A\bibinitperiod},
+           given={Utkarsh},
+           giveni={U\bibinitperiod}}}%
+        {{hash=4629af3185eeef04733b12e80e1a13bc}{%
+           family={Banning},
+           familyi={B\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b9ec28ca621c317ca1edc8c5ff0cc25b}{%
+           family={Blank},
+           familyi={B\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6f25008d029339a26a31eece56726eb9}{%
+           family={Bromley},
+           familyi={B\bibinitperiod},
+           given={Thomas\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0df6119de7fa89da5a6727c74efa737c}{%
+           family={Cordier},
+           familyi={C\bibinitperiod},
+           given={Benjamin\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7aac9720088ee115fe0071b186ef8962}{%
+           family={Ceroni},
+           familyi={C\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e1b5a39b55c6da1c26e9a3f42a0b2f96}{%
+           family={Delgado},
+           familyi={D\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{hash=56bdc53ee7d45db9e137dc79c867c253}{%
+           family={Matteo},
+           familyi={M\bibinitperiod},
+           given={Olivia\bibnamedelima Di},
+           giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f2c8d84ca22b06124a31a14cdc6faa56}{%
+           family={Dusko},
+           familyi={D\bibinitperiod},
+           given={Amintor},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e9ebd67e1c563cddc5f7e2bb48be1f29}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={Tanya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f19117c732de3c1d086a818f560e1064}{%
+           family={Guala},
+           familyi={G\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9e08cb8c68b34688e5b0de0a3719c75f}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8175c7589566ffa2a54e90fefee7ba1e}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7b12019b97f4dbc4453354f6ec9092cc}{%
+           family={Ijaz},
+           familyi={I\bibinitperiod},
+           given={Aroosa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b06468e03d89c11b9655abd9cf58efe1}{%
+           family={Isacsson},
+           familyi={I\bibinitperiod},
+           given={Theodor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=af27c72dd35e05f2aca9eca09c29b25c}{%
+           family={Ittah},
+           familyi={I\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=82d462d8b3ec38f51f33343552e9e7c4}{%
+           family={Jahangiri},
+           familyi={J\bibinitperiod},
+           given={Soran},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fbeb5a488714394fadfaff285a9b2a13}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Prateek},
+           giveni={P\bibinitperiod}}}%
+        {{hash=64bff54176cd716a2289444a7f7b8779}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9f008e74d1c8e57e3ebc29aaa61c0a05}{%
+           family={Khandelwal},
+           familyi={K\bibinitperiod},
+           given={Ankit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=54086318e8f1a19877b0097b12092d76}{%
+           family={Kottmann},
+           familyi={K\bibinitperiod},
+           given={Korbinian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=faea36dcd58a676597dc894319503c53}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1855272e10d527faa6f054bc9f17e601}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Christina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ed133c3f1627b3998f70b8a08089ec56}{%
+           family={Loke},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ce578776d1afd26436dabd83e524134e}{%
+           family={Lowe},
+           familyi={L\bibinitperiod},
+           given={Angus},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f8fd2cac64a27f90bde4649ee5af1540}{%
+           family={McKiernan},
+           familyi={M\bibinitperiod},
+           given={Keri},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8b74ad1cb03ef3fbf3deed0fe8fd9d1f}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Johannes\bibnamedelima Jakob},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1c60e200300e0638bf79e81d0e25e0b9}{%
+           family={Montañez-Barrera},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5af4f4757b115bd7f27a7237603ed22a}{%
+           family={Moyard},
+           familyi={M\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=783b40817d14133ad4c9807fcccda2e5}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Zeyue},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=726d20a15ad259dd2fdffcc0249cbe28}{%
+           family={O'Riordan},
+           familyi={O\bibinitperiod},
+           given={Lee\bibnamedelima James},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b2f549098fba6cae6ddb59cea5f11cd4}{%
+           family={Oud},
+           familyi={O\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=14f6821bf0f379a0ed957176ff29a3e6}{%
+           family={Panigrahi},
+           familyi={P\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0ce4235364064ab825853a0ffd756a14}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Chae-Yeun},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=021bbc9ff27814ae0d24935cf92556d1}{%
+           family={Polatajko},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=88890ebe3c958ddcd7ff85c5028af9c8}{%
+           family={Quesada},
+           familyi={Q\bibinitperiod},
+           given={Nicolás},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6989df20a262846637e8f76032563234}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Chase},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5d7d4ea822d338146b0eae475f5aa354}{%
+           family={Sá},
+           familyi={S\bibinitperiod},
+           given={Nahum},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a45dfca738017e7457e94f6f1fb62f3c}{%
+           family={Schoch},
+           familyi={S\bibinitperiod},
+           given={Isidor},
+           giveni={I\bibinitperiod}}}%
+        {{hash=10cc6fb9cdd4befcc92742487f684f46}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Borun},
+           giveni={B\bibinitperiod}}}%
+        {{hash=943cf2cff6923ad6dd43a19286aed837}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Shuli},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f156a71a758735a1cfc0aab991a121e2}{%
+           family={Sim},
+           familyi={S\bibinitperiod},
+           given={Sukin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1434b833bd4efb527b43488337fbd4a7}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Arshpreet},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7f292ec073ee78fe3b374b2532df77c7}{%
+           family={Strandberg},
+           familyi={S\bibinitperiod},
+           given={Ingrid},
+           giveni={I\bibinitperiod}}}%
+        {{hash=211da194d8d590f82c1899ba9c1a9063}{%
+           family={Soni},
+           familyi={S\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ccc85b312b8450edc59822c51453208c}{%
+           family={Száva},
+           familyi={S\bibinitperiod},
+           given={Antal},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c819858f44f6f887fabb8b8f8b65a9db}{%
+           family={Thabet},
+           familyi={T\bibinitperiod},
+           given={Slimane},
+           giveni={S\bibinitperiod}}}%
+        {{hash=555159e7ce94df6ad8d4fac95a833fba}{%
+           family={Vargas-Hernández},
+           familyi={V\bibinithyphendelim H\bibinitperiod},
+           given={Rodrigo\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e89ef9decf7fb4ebbe32b0c95db9382e}{%
+           family={Vincent},
+           familyi={V\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=588be1684cacdca021eb1b521af7b83f}{%
+           family={Vitucci},
+           familyi={V\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=42e5152da7095eb31157064918c63c6f}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b3b26992d4e0cffa2e1fbdafeef6e03d}{%
+           family={Wierichs},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dd06529aa2d6fb560f5e12b2af907ac4}{%
+           family={Wiersema},
+           familyi={W\bibinitperiod},
+           given={Roeland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=39bd8734581f8f561163ecb2a935b453}{%
+           family={Willmann},
+           familyi={W\bibinitperiod},
+           given={Moritz},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f5b255e456533f2c915a6a5842ae972e}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c3b9a2a1551a2258328a14e6714dc690}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shaoming},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7ceb1ede08b81c0ede1cc933ce63d461}{%
+           family={Killoran},
+           familyi={K\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0e311fbe2fd6503a2c44372823bb0fb}
+      \strng{fullhash}{3324078fd469e717bccd62be9905f26b}
+      \strng{fullhashraw}{3324078fd469e717bccd62be9905f26b}
+      \strng{bibnamehash}{e0e311fbe2fd6503a2c44372823bb0fb}
+      \strng{authorbibnamehash}{e0e311fbe2fd6503a2c44372823bb0fb}
+      \strng{authornamehash}{e0e311fbe2fd6503a2c44372823bb0fb}
+      \strng{authorfullhash}{3324078fd469e717bccd62be9905f26b}
+      \strng{authorfullhashraw}{3324078fd469e717bccd62be9905f26b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{PennyLane: Automatic differentiation of hybrid quantum-classical computations}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 1811.04968
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1811.04968
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1811.04968
+      \endverb
+    \endentry
+    \entry{vqe_mejor}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=cda5b62144e1a42caba2840a7224b769}{%
+           family={Cerezo},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=655d5e2bade9a389149f8beb0fc5c18c}{%
+           family={Arrasmith},
+           familyi={A\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7bb1dcf8a93d1ecc6f9531ece93ef1fa}{%
+           family={Babbush},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b10a34e16a501939634880eade0cec5e}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Simon\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c3acfc5e323c389790b828fbf6955f09}{%
+           family={Endo},
+           familyi={E\bibinitperiod},
+           given={Suguru},
+           giveni={S\bibinitperiod}}}%
+        {{hash=569711c363027fed98622c62cda54209}{%
+           family={Fujii},
+           familyi={F\bibinitperiod},
+           given={Keisuke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a253ddc1c4c24cde70238bd45dc9aeff}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Jarrod\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=80dde347ecbddac8ca3ca422033ac88b}{%
+           family={Mitarai},
+           familyi={M\bibinitperiod},
+           given={Kosuke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=001b5a60b43cad93e93a32a46ae0c874}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4a995a4c6263a9857f548527d6fff0c5}{%
+           family={Cincio},
+           familyi={C\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d10bd053b9868d0af6fa53be761e3350}{%
+           family={Coles},
+           familyi={C\bibinitperiod},
+           given={Patrick\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f3fe252c8e07ea798c5758094bc02cd}
+      \strng{fullhash}{aeb54beafe59128c13a6651991958563}
+      \strng{fullhashraw}{aeb54beafe59128c13a6651991958563}
+      \strng{bibnamehash}{aeb54beafe59128c13a6651991958563}
+      \strng{authorbibnamehash}{aeb54beafe59128c13a6651991958563}
+      \strng{authornamehash}{9f3fe252c8e07ea798c5758094bc02cd}
+      \strng{authorfullhash}{aeb54beafe59128c13a6651991958563}
+      \strng{authorfullhashraw}{aeb54beafe59128c13a6651991958563}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Applications such as simulating complicated quantum systems or solving large-scale linear algebra problems are very challenging for classical computers, owing to the extremely high computational cost. Quantum computers promise a solution, although fault-tolerant quantum computers will probably not be available in the near future. Current quantum devices have serious constraints, including limited numbers of qubits and noise processes that limit circuit depth. Variational quantum algorithms (VQAs), which use a classical optimizer to train a parameterized quantum circuit, have emerged as a leading strategy to address these constraints. VQAs have now been proposed for essentially all applications that researchers have envisaged for quantum computers, and they appear to be the best hope for obtaining quantum advantage. Nevertheless, challenges remain, including the trainability, accuracy and efficiency of VQAs. Here we overview the field of VQAs, discuss strategies to overcome their challenges and highlight the exciting prospects for using them to obtain quantum advantage.}
+      \field{journaltitle}{Nature Reviews Physics}
+      \field{number}{9}
+      \field{title}{Variational quantum algorithms}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{pages}{625\bibrangedash 644}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1038/s42254-021-00348-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s42254-021-00348-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s42254-021-00348-9
+      \endverb
+    \endentry
     \entry{DANI_LIPIDOS}{article}{}{}
       \name{author}{8}{}{%
         {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
@@ -11824,9 +13087,9 @@
       \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
       \strng{authorfullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
       \strng{authorfullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
@@ -11988,8 +13251,8 @@
       \strng{authornamehash}{b60528d9446b5ff1be4f238681945e9b}
       \strng{authorfullhash}{8e559a154e471dc50f4daa13d6ff1d20}
       \strng{authorfullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1548-7091}
@@ -12047,9 +13310,9 @@
       \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
       \strng{authorfullhash}{4e45496e61c2ed3c6b882c09871d2689}
       \strng{authorfullhashraw}{4e45496e61c2ed3c6b882c09871d2689}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are increasingly recognized as potent therapeutic agents, with their selective affinity for pathological membranes, low toxicity profile, and minimal resistance development making them particularly attractive in the pharmaceutical landscape. This study offers a comprehensive analysis of the interaction between specific AMPs, including magainin-2, pleurocidin, CM15, LL37, and clavanin, with lipid bilayer models of very different compositions that have been ordinarily used as biological membrane models of healthy mammal, cancerous, and bacterial cells. Employing unbiased molecular dynamics simulations and metadynamics techniques, we have deciphered the intricate mechanisms by which these peptides recognize pathogenic and pathologic lipid patterns and integrate into lipid assemblies. Our findings reveal that the transverse component of the peptide's hydrophobic dipole moment is critical for membrane interaction, decisively influencing the molecule's orientation and expected therapeutic efficacy. Our approach also provides insight on the kinetic and dynamic dependence on the peptide orientation in the axial and azimuthal angles when coming close to the membrane. The aim is to establish a robust framework for the rational design of peptide-based, membrane-targeted therapies, as well as effective quantitative descriptors that can facilitate the automated design of novel AMPs for these therapies using machine learning methods.}
@@ -12112,9 +13375,9 @@
       \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
       \strng{authorfullhash}{e999dabd205d32dabd69447c98289453}
       \strng{authorfullhashraw}{e999dabd205d32dabd69447c98289453}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Background: Antimicrobial peptides (AMPs) are crucial in the fight against infections and play significant roles in various health contexts, including cancer, autoimmune diseases, and aging. A key aspect of AMP functionality is their selective interaction with pathogen membranes, which often exhibit altered lipid compositions. These interactions are thought to induce a conformational shift in AMPs from random coil to alpha-helical structures, essential for their lytic activity. Traditional computational approaches have faced challenges in accurately modeling these structural changes, especially in membrane environments, thereby opening and opportunity for more advanced approaches. Method: This study extends an existing quantum computing algorithm, initially designed for peptide folding simulations in homogeneous environments, to address the complexities of AMP interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, resembling lipid membranes. The new method was tested on three 10-amino-acid-long peptides, each characterized by distinct hydrophobic, hydrophilic, or amphipathic properties, across different media and at interfaces between solvents of different polarity. Results: The developed method successfully modeled the structure of the peptides without increasing the number of qubits required compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite the current limitations in computational power and qubit availability, the findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly AMP folding at membrane models. Conclusions: This research highlights the promising applications of quantum computing in biomolecular simulations, paving the way for future advancements in the development of novel therapeutic agents. We aim to offer a new perspective on enhancing the accuracy and applicability of biomolecular simulations in the context of AMP interactions with membrane models.}

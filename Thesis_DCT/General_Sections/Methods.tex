@@ -1182,7 +1182,7 @@ R_z(\theta) = \begin{pmatrix} e^{-i\theta/2} & 0 \\ 0 & e^{i\theta/2} \end{pmatr
 \end{equation}
 
 \subsubsection{Two-Qubit Gates: Entanglement}
-The \ontrolled-NOT ($CNOT$) gate is the primary mechanism for generating entanglement. It flips the state of a target qubit ($q_t$) if and only if the control qubit ($q_c$) is in the state $|1\rangle$:
+The controlled-NOT ($CNOT$) gate is the primary mechanism for generating entanglement. It flips the state of a target qubit ($q_t$) if and only if the control qubit ($q_c$) is in the state $|1\rangle$:
 \begin{equation}
 CNOT = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{pmatrix}
 \end{equation}
@@ -1235,162 +1235,100 @@ Another scaling paradigm utilizes Photons as qubits (Linear Optical Quantum Comp
 
 
 
+\section{Variational Quantum Algorithms (VQAs)}
 
+In the Noisy Intermediate-Scale Quantum (NISQ) era, hardware constraints such as limited qubit counts and short coherence times restrict the execution of deeply structured quantum algorithms. VQAs have emerged as the leading paradigm to overcome these limitations. By employing a hybrid quantum-classical approach, VQAs keep quantum circuit depth shallow while offloading the heavy computational burden of parameter optimization to classical processing units\cite{Preskill_paper}. 
 
+This hybrid framework is highly versatile. Depending on how the problem's cost function and circuit ansatz are defined, VQAs can be tailored for a variety of applications. Two prominent examples are the VQE\cite{VQE}, primarily used for finding ground states of molecular Hamiltonians in quantum chemistry, and the QAOA\cite{QAOA}, designed to solve combinatorial optimization problems\cite{vqa_2}. 
 
-\subsection{Connection to Quantum Circuits}
-In the context of quantum computing, the continuous-time evolution governed by the Schr\"odinger equation is approximated by discrete unitary operations (quantum gates). Each quantum gate can be interpreted as the exponential of an effective Hamiltonian acting over a finite time interval.
+\subsection{The Hybrid Paradigm and Quantum Software Ecosystem}
 
-Thus, a quantum circuit can be viewed as a discretized implementation of quantum dynamics:
+VQAs operate through a symbiotic feedback loop between a Quantum Processing Unit (QPU) and a classical Central Processing Unit (CPU). While the QPU is uniquely suited to prepare highly entangled parameterized states and efficiently measure complex observables, the CPU performs the mathematical optimization of the circuit parameters.
 
-\begin{equation}
-U \approx \prod_k e^{-i \hat{H}_k \Delta t_k}
-\end{equation}
-
-This perspective is particularly relevant in variational quantum algorithms, where parameterized quantum circuits are constructed to approximate the evolution of molecular Hamiltonians
-
-\subsection{Parameterized Quantum Circuits (Ansatz)}
-
-In variational quantum algorithms, the quantum state is prepared using a parameterized quantum circuit, also known as an \emph{ansatz}. This circuit depends on a set of classical parameters \(\boldsymbol{\theta}\), which are optimized iteratively using a classical optimization routine.
-
-Formally, the trial quantum state is written as:
-
-\begin{equation}
-|\psi(\boldsymbol{\theta})\rangle = U(\boldsymbol{\theta}) |0\rangle^{\otimes n}
-\end{equation}
-
-where \(U(\boldsymbol{\theta})\) is a unitary operator composed of a sequence of parameter-dependent quantum gates.
-
-A typical ansatz can be expressed as a layered structure:
-
-\begin{equation}
-U(\boldsymbol{\theta}) = \prod_{l=1}^{L} U_l(\boldsymbol{\theta}_l)
-\end{equation}
-
-where each layer \(U_l\) contains single-qubit rotations and entangling operations, such as CNOT gates, which introduce non-classical correlations between qubits.
-
-The choice of ansatz plays a critical role in the expressibility of the quantum circuit and directly impacts the performance of variational algorithms such as the Variational Quantum Eigensolver (VQE).
-
-\subsection{Expectation Values and Cost Functions}
-
-The objective of variational quantum algorithms is to minimize a cost function defined as the expectation value of a Hamiltonian operator \(\hat{H}\) with respect to the parameterized state:
-
-\begin{equation}
-C(\boldsymbol{\theta}) = \langle \psi(\boldsymbol{\theta}) | \hat{H} | \psi(\boldsymbol{\theta}) \rangle
-\end{equation}
-
-This quantity corresponds to the expected energy of the quantum system described by \(\hat{H}\).
-
-In practice, the Hamiltonian is decomposed into a sum of Pauli operators:
-
-\begin{equation}
-\hat{H} = \sum_i c_i P_i
-\end{equation}
-
-where \(c_i \in \mathbb{R}\) and \(P_i\) are tensor products of Pauli matrices.
-
-The expectation value can then be evaluated as:
-
-\begin{equation}
-C(\boldsymbol{\theta}) = \sum_i c_i \langle \psi(\boldsymbol{\theta}) | P_i | \psi(\boldsymbol{\theta}) \rangle
-\end{equation}
-
-Each term is estimated on a quantum device via repeated measurements, producing a statistical estimate of the cost function.
-
-\subsection{Variational Optimization Loop}
-
-The evaluation of \(C(\boldsymbol{\theta})\) is embedded within a hybrid quantum-classical optimization loop:
-
-\begin{enumerate}
-    \item Prepare the quantum state \( |\psi(\boldsymbol{\theta})\rangle \)
-    \item Measure the expectation value \( C(\boldsymbol{\theta}) \)
-    \item Update parameters \( \boldsymbol{\theta} \rightarrow \boldsymbol{\theta}' \) using a classical optimizer
-    \item Repeat until convergence
-\end{enumerate}
-
-This hybrid structure enables near-term quantum devices to tackle problems in quantum chemistry and combinatorial optimization despite hardware limitations.
-
-\subsection{The Variational Paradigm and Hamiltonian Representation}
-
-VQAs operate through a symbiotic feedback loop between a Quantum Processing Unit (QPU) and a classical Central Processing Unit (CPU). While the quantum device is uniquely suited to prepare highly entangled parameterized states and efficiently evaluate the problem's cost function, the classical CPU performs the optimization of these parameters. This hybrid approach circumvents the limitations of current hardware by utilizing shallow quantum circuits and transferring the burden of complexity to classical optimization routines.
-
-\paragraph{Quantum Software Ecosystem}
 The implementation of these algorithms is supported by highly optimized open-source software frameworks. In this research, we primarily leverage:
 \begin{itemize}
-    \item \textbf{Qiskit:} An IBM-developed SDK providing a full stack for circuit design, noise characterization, and execution on both simulators and real superconducting devices.
-    \item \textbf{PennyLane:} A cross-platform library centered on differentiable quantum programming, which facilitates the optimization of variational circuits by treating them as nodes in a computational graph, similar to standard deep learning frameworks.
+    \item \textbf{Qiskit\cite{Qiskit}:} An IBM-developed Software Development Kit providing a full stack for circuit design, noise characterization, and execution on both simulators and real superconducting devices.
+    \item \textbf{PennyLane\cite{pennylane}:} A cross-platform library centered on differentiable quantum programming, which facilitates the optimization of variational circuits by treating them as nodes in a computational graph, akin to standard deep learning frameworks.
 \end{itemize}
 These tools allow for the seamless integration of quantum kernels into classical optimization pipelines.
 
-\subsubsection{The Pauli Basis and Operator Mapping}
-To implement molecular or mathematical observables on a quantum architecture, the target operators must be expressed in a language compatible with qubit operations. In the context of VQAs, this is achieved by decomposing the Hamiltonian $\hat{H}$ into a linear combination of Pauli strings. The Pauli matrices, $\{\sigma_x, \sigma_y, \sigma_z\}$, together with the identity operator $I$, constitute a complete basis for the space of $2 \times 2$ Hermitian matrices.
+\subsection{Hamiltonian Representation and the Pauli Basis}
 
-These operators are both unitary and Hermitian, and their eigenvalues are always $\pm 1$. In a multi-qubit system of $n$ qubits, the Hamiltonian is represented as an element of the Pauli group $\mathcal{P}_n$, formed by the $4^n$ possible tensor products of these matrices:
+To implement molecular or mathematical observables on a quantum architecture, the target operators must be expressed in a language compatible with qubit operations. In the context of VQAs, this is achieved by decomposing the system's Hamiltonian $\hat{H}$ into a linear combination of Pauli strings. 
+
+The Pauli matrices, $\{X, Y, Z\}$, together with the identity operator $I$, constitute a complete basis for the space of $2 \times 2$ Hermitian matrices. These operators are both unitary and Hermitian, with eigenvalues of $\pm 1$. In an $n$-qubit system, the Hamiltonian is represented as an element of the Pauli group $\mathcal{P}_n$, formed by the $4^n$ possible tensor products of these matrices:
 \begin{equation}
-\hat{H} = \sum_{i} w_i \hat{P}_i, \quad \text{where } \hat{P}_i \in \{I, X, Y, Z\}^{\otimes n}
+\hat{H} = \sum_{i} w_i P_i, \quad \text{where } P_i \in \{I, X, Y, Z\}^{\otimes n}
 \end{equation}
-where $w_i$ are real-valued coefficients. Due to the linearity of the expectation value, the total energy is computed by summing the measurements of each individual Pauli term:
+where $w_i \in \mathbb{R}$ are the corresponding coefficients (or weights). 
+
+\subsection{Connection to Quantum Circuits and Discretized Dynamics}
+
+In the context of quantum computing, the continuous-time evolution governed by the Schr\"odinger equation is approximated by discrete unitary operations (quantum gates). Each quantum gate can be interpreted as the exponential of an effective Hamiltonian acting over a finite time interval.
+
+Thus, a quantum circuit can be viewed as a discretized implementation of quantum dynamics. When the terms of the system's Hamiltonian do not commute, this discretization is typically achieved using the Trotter-Suzuki decomposition:
 \begin{equation}
-\langle \hat{H} \rangle_{\boldsymbol{\theta}} = \sum_{i} w_i \langle \psi(\boldsymbol{\theta}) | \hat{P}_i | \psi(\boldsymbol{\theta}) \rangle
+U \approx \prod_k e^{-i \hat{H}_k \Delta t_k}
 \end{equation}
+This perspective is particularly relevant in physically-motivated VQAs, where parameterized quantum circuits are constructed to explicitly approximate the dynamic evolution of molecular Hamiltonians \cite{nielsen2010quantum}.
 
-\subsubsection{Variational Quantum Eigensolver}
+\subsection{Parameterized Quantum Circuits (Ansätze)}
 
-The VQE is a flagship hybrid algorithm designed to find the ground state energy of a given Hamiltonian $\hat{H}$. It is particularly well-suited for the NISQ era because it relies on shallow quantum circuits, shifting the optimization of the wavefunction parameters to a classical solver.
+In variational algorithms, the quantum state is prepared using a parameterized quantum circuit, commonly known as an \emph{ansatz}. This circuit depends on a set of classical parameters $\boldsymbol{\theta}$, which are optimized iteratively.
 
-\paragraph{The Variational Principle}
-The theoretical foundation of VQE is the Rayleigh-Ritz variational principle from quantum mechanics. It states that for any normalized trial wavefunction $|\psi(\boldsymbol{\theta})\rangle$ (where $\boldsymbol{\theta}$ represents a set of adjustable parameters), the expectation value of the Hamiltonian $\hat{H}$ is always greater than or equal to the true ground state energy $E_0$:
-
+Formally, the trial quantum state is written as:
 \begin{equation}
-E(\boldsymbol{\theta}) = \frac{\langle \psi(\boldsymbol{\theta}) | \hat{H} | \psi(\boldsymbol{\theta}) \rangle}{\langle \psi(\boldsymbol{\theta}) | \psi(\boldsymbol{\theta}) \rangle} \ge E_0
+|\psi(\boldsymbol{\theta})\rangle = U(\boldsymbol{\theta}) |0\rangle^{\otimes n}
 \end{equation}
+where $U(\boldsymbol{\theta})$ is a unitary operator composed of a sequence of parameter-dependent quantum gates. A typical ansatz can be expressed as a layered structure:
+\begin{equation}
+U(\boldsymbol{\theta}) = \prod_{l=1}^{L} U_l(\boldsymbol{\theta}_l)
+\end{equation}
+where each layer $U_l$ contains single-qubit rotations and entangling operations, such as CNOT gates, which introduce non-classical correlations between qubits. The choice of ansatz plays a critical role in the expressibility of the quantum circuit and directly impacts the algorithmic performance.
 
-By minimizing the cost function $E(\boldsymbol{\theta})$ with respect to the parameters $\boldsymbol{\theta}$, one can obtain an upper bound that serves as an approximation of the ground state energy. The quality of this approximation depends strictly on the expressibility of the trial wavefunction, often referred to as the \textit{ansatz}.
+\subsection{Expectation Values and Cost Functions}
 
-\paragraph{Hardware-Efficient and Heuristic Ansätze}
-In the NISQ era, where qubit counts and coherence times are limited, specialized circuit templates are used to balance expressibility and circuit depth. Some of the most widely used heuristic ansätze include:
+The objective of a VQA is to minimize a cost function defined as the expectation value of the target Hamiltonian $\hat{H}$ with respect to the parameterized state:
+\begin{equation}
+C(\boldsymbol{\theta}) = \langle \psi(\boldsymbol{\theta}) | \hat{H} | \psi(\boldsymbol{\theta}) \rangle
+\end{equation}
+Because the state is prepared via unitary operations, it is intrinsically normalized ($\langle \psi | \psi \rangle = 1$). 
+
+Due to the linearity of expectation values and the Pauli decomposition of the Hamiltonian, the cost function is evaluated as the weighted sum of individual Pauli measurements:
+\begin{equation}
+C(\boldsymbol{\theta}) = \sum_i w_i \langle \psi(\boldsymbol{\theta}) | P_i | \psi(\boldsymbol{\theta}) \rangle
+\end{equation}
+Each term is estimated on a quantum device via repeated state preparations and projective measurements (shots), producing a statistical estimate of the total cost.
+
+\subsection{The Variational Quantum Eigensolver (VQE)}
+
+The VQE is a flagship hybrid algorithm specifically designed to find the ground state energy of a given Hamiltonian $\hat{H}$ \cite{vqe_mejor}. 
+
+\subsubsection{The Variational Principle}
+The theoretical foundation of VQE is the Rayleigh-Ritz variational principle from quantum mechanics. It states that for any normalized trial wavefunction $|\psi(\boldsymbol{\theta})\rangle$, the expectation value of the Hamiltonian $\hat{H}$ is always greater than or equal to the true ground state energy $E_0$:
+\begin{equation}
+E(\boldsymbol{\theta}) = \langle \psi(\boldsymbol{\theta}) | \hat{H} | \psi(\boldsymbol{\theta}) \rangle \ge E_0
+\end{equation}
+By minimizing the energy landscape $E(\boldsymbol{\theta})$ with respect to the parameters $\boldsymbol{\theta}$, the algorithm converges to an upper bound that approximates the ground state energy.
+
+\subsubsection{Hardware-Efficient and Heuristic Ansatz}
+In the NISQ era, specialized circuit templates are used to balance expressibility and circuit depth. Some of the most widely used heuristic ansatz include\cite{Qiskit}:
 \begin{itemize}
-    \item \textbf{RealAmplitudes:} A circuit consisting solely of parameterized Y-rotations ($R_y$) and CNOT entanglers. As it does not involve complex phases, the resulting state amplitudes are strictly real, making it efficient for problems where the ground state wavefunction is known to be real.
-    \item \textbf{EfficientSU2:} A more general architecture that utilizes layers of single-qubit SU2 rotations (typically $R_y$ and $R_z$) followed by entanglement layers. This ansatz is highly expressive and can explore the full Hilbert space of a multi-qubit system with relatively low gate depth.
+    \item \textbf{RealAmplitudes:} A circuit consisting solely of parameterized Y-rotations ($R_y$) and CNOT entanglers. As it avoids complex phases, the resulting state amplitudes are strictly real, making it highly efficient for systems where the ground state wavefunction is known to be real.
+    \item \textbf{EfficientSU2:} A more general architecture that utilizes layers of single-qubit SU(2) rotations (typically $R_y$ and $R_z$) followed by entanglement layers. This ansatz is highly expressive and can explore the full Hilbert space of a multi-qubit system with relatively low gate depth.
 \end{itemize}
-The depth and entanglement strategy of these circuits can be tuned to match the topology of the underlying quantum hardware.
 
-\paragraph{The Hybrid Optimization Loop}
-The VQE execution follows an iterative cycle between the QPU and the CPU:
+\subsubsection{The Hybrid Optimization Loop}
+The execution of VQE, and VQAs in general, follows an iterative cycle between the QPU and CPU:
 \begin{enumerate}
-    \item \textbf{Quantum State Preparation:} The QPU prepares the trial state $|\psi(\boldsymbol{\theta})\rangle$ by applying a parameterized unitary circuit (the ansatz) $U(\boldsymbol{\theta})$ to an initial state $|0\rangle^{\otimes n}$.
-    \item \textbf{Measurement:} The expectation values of the Pauli strings $\langle \hat{P}_i \rangle$ are estimated by measuring the quantum state in the corresponding basis over multiple shots.
-    \item \textbf{Classical Optimization:} The total energy $E(\boldsymbol{\theta})$ is aggregated on the CPU and passed to a classical optimization algorithm (e.g., COBYLA or Differential Evolution).
+    \item \textbf{State Preparation (QPU):} Prepare the trial state $|\psi(\boldsymbol{\theta})\rangle$ by applying the ansatz $U(\boldsymbol{\theta})$ to the $|0\rangle^{\otimes n}$ state.
+    \item \textbf{Measurement (QPU):} Estimate the expectation values of the Pauli strings $\langle P_i \rangle$ over multiple shots.
+    \item \textbf{Cost Evaluation (CPU):} Aggregate the measurements to compute the total energy $E(\boldsymbol{\theta})$.
+    \item \textbf{Parameter Update (CPU):} Pass the energy landscape to a classical optimization algorithm (e.g., COBYLA\cite{COBYLA}, SPSA\cite{SPSA}, or Differential Evolution\cite{DE}) to generate a new set of parameters $\boldsymbol{\theta}'$.
+    \item \textbf{Iteration:} Repeat steps 1 through 4 until convergence criteria are met.
 \end{enumerate}
 
-The complete workflow and symbiotic relationship between the quantum and classical components are summarized in Figure \ref{fig:VQE_loop}.
-
-In the context of this thesis, VQE is utilized to explore the conformational space of peptides by mapping their potential energy surfaces onto a qubit space, where the global minimum corresponds to the most stable folding state.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+In the context of this thesis, VQE is utilized to explore the conformational space of peptides by mapping their potential energy surfaces onto a qubit register, where the global minimum corresponds to the most stable folding state.
 
 \begin{figure}[!htbp]
     \centering
@@ -1401,72 +1339,107 @@ In the context of this thesis, VQE is utilized to explore the conformational spa
 
 
 
-\subsection{Quadratic Unconstrained Binary Optimization (QUBO)}
-The optimization problems addressed in this research are formulated as Quadratic Unconstrained Binary Optimization (QUBO) models. A QUBO problem aims to minimize a quadratic function of binary variables $x \in \{0, 1\}^n$:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Combinatorial Optimization on Quantum Devices}
+
+While algorithms like VQE are natively suited for simulating physical systems governed by molecular Hamiltonians (such as peptide conformational sampling), many critical challenges in computational biology, such as sequence design or mutational profiling, are inherently discrete. These are strictly combinatorial optimization problems, characterized by a finite but exponentially large landscape of valid solutions.
+
+To solve these classical discrete problems on quantum hardware, we must bridge the gap between classical computer science and quantum mechanics. This requires a mathematical framework capable of encoding classical binary decisions into the language of qubits and Pauli operators.
+
+\subsubsection{Quadratic Unconstrained Binary Optimization (QUBO)}
+
+The optimization problems addressed in this research, specifically those related to sequence design, are formulated as Quadratic Unconstrained Binary Optimization (QUBO) models. A QUBO problem aims to minimize a quadratic function of classical binary variables $x \in \{0, 1\}^n$:
 \begin{equation}
 \min_{x \in \{0,1\}^n} \quad f(x) = \sum_{i} c_i x_i + \sum_{i < j} Q_{ij} x_i x_j
 \end{equation}
-where $c_i$ represent the linear costs (e.g., the intrinsic stability of an isolated amino acid) and $Q_{ij}$ capture the quadratic interactions between variables. This format is mathematically equivalent to the Ising model used in statistical physics, making it the natural entry point for quantum optimization.
+where $c_i$ represent the linear costs (e.g., the intrinsic stability or energetic penalty of an isolated amino acid) and $Q_{ij}$ capture the quadratic interactions (epistasis or structural correlations) between variables. 
 
-\subsubsection{Handling Constraints via Penalty Terms}
-Real-world combinatorial problems, such as biological sequence design, often subject to physical or chemical constraints (e.g., a fixed number of mutations or a required net charge). In the QUBO framework, these constraints are incorporated by adding \textbf{Penalty Terms} to the objective function. For a constraint of the form $Ax = b$, we define the penalized function:
+This format is mathematically equivalent to the Ising model used in statistical physics. By applying the affine transformation $x_i \to \frac{1 - \sigma_i^z}{2}$, the classical variables are mapped directly onto the Pauli-Z eigenvalues of a quantum system. This transformation creates an Ising Hamiltonian whose ground state encodes the optimal classical sequence, making the QUBO formulation the natural entry point for quantum optimization.
+
+\paragraph{Handling Constraints via Penalty Terms}
+Real-world combinatorial problems in biology are often subject to strict constraints, such as a fixed number of allowed mutations or a required net charge for the peptide. In the QUBO framework, these constraints are incorporated by adding \textbf{penalty terms} to the objective function. For a linear constraint of the form $Ax = b$, we define the penalized function:
 \begin{equation}
-f_{penalized}(x) = f(x) + \lambda \sum_k (A_k x - b_k)^2
+f_{\text{penalized}}(x) = f(x) + \lambda \sum_k (A_k x - b_k)^2
 \end{equation}
-where $\lambda$ is a penalty coefficient (Lagrange multiplier) chosen to be sufficiently large such that violating the constraint results in a higher energy than any valid solution. After expanding the square, the resulting expression remains quadratic in $x$ (since $x_i^2 = x_i$ for binary variables), thus preserving the QUBO structure.
+where $\lambda$ is a large penalty coefficient (Lagrange multiplier) ensuring that violating the constraint results in a higher energy than any valid solution. Because $x_i^2 = x_i$ for binary variables, expanding the square preserves the quadratic nature of the expression, strictly maintaining the QUBO structure.
 
 \subsection{The Quantum Approximate Optimization Algorithm (QAOA)}
-The Quantum Approximate Optimization Algorithm (QAOA) is a versatile and powerful hybrid quantum algorithm introduced by Farhi, Goldstone, and Gutmann in 2014 for solving combinatorial optimization problems on near-term quantum hardware \cite{farhi2014quantum}. It seamlessly combines classical optimization and quantum computing, leveraging the unique capabilities of quantum devices to navigate complex energy landscapes. QAOA has garnered significant attention due to its potential applications in diverse areas—including aviation, finance, machine learning, and logistics—where finding optimal solutions is of paramount importance.
 
-At its core, QAOA employs a variational approach that aims to approximate the solution to a given optimization problem by preparing a trial state on the quantum computer, which is parameterized by a set of classical angles. The classical optimization component of the algorithm is responsible for adjusting these parameters iteratively to minimize the expected value of the problem's cost function. This iterative nature allows QAOA to gradually refine the search within the Hilbert space to locate the optimal solution. Because it relies on shallow quantum circuits, this approach is exceptionally well-suited for Noisy Intermediate-Scale Quantum (NISQ) devices with limited coherence times and circuit depths. 
+Once the biological problem is successfully mapped into a QUBO and its corresponding Ising Hamiltonian, we require an algorithm capable of finding its ground state. The QAOA, introduced by Farhi, Goldstone, and Gutmann in 2014\cite{QAOA}, is a versatile hybrid quantum algorithm specifically designed for solving such combinatorial problems on near-term hardware \cite{farhi2014quantum}. 
 
-\subsubsection{From the Quantum Adiabatic Algorithm to the QAOA}
-The theoretical foundations of QAOA are heavily inspired by the Quantum Adiabatic Algorithm (QAA). The QAA utilizes adiabatic evolution to slowly transition a quantum system from the easily prepared lowest energy eigenstate of an initial Hamiltonian to the unknown lowest energy eigenstate of a cost Hamiltonian. The time-dependent QAA Hamiltonian is formulated as the sum of two non-commuting operators:
+At its core, QAOA employs a variational approach to approximate the solution to a given optimization problem. It prepares a trial state on the quantum computer, parameterized by a set of classical angles. A classical optimizer then iteratively adjusts these parameters to minimize the expected value of the problem's cost function. Because it relies on relatively shallow quantum circuits, this approach is exceptionally well-suited for Noisy Intermediate-Scale Quantum (NISQ) devices characterized by limited coherence times.
+
+\subsubsection{From the Quantum Adiabatic Algorithm to QAOA}
+The theoretical foundations of QAOA are heavily inspired by the Quantum Adiabatic Algorithm (QAA). The QAA utilizes adiabatic evolution to slowly transition a quantum system from the easily prepared ground state of an initial Hamiltonian to the unknown ground state of a cost Hamiltonian. The time-dependent QAA Hamiltonian is formulated as the sum of two non-commuting operators:
 \begin{equation}
 \hat{H}(t) = (1 - s(t))\hat{H}_B + s(t)\hat{H}_C
 \end{equation}
-where $s(0) = 0$ and $s(T) = 1$, with $T$ denoting the total running time of the algorithm. The initial mixing Hamiltonian ($\hat{H}_B$) has an easily prepared ground state. For an $N$-qubit system, the standard initial Hamiltonian is defined as:
+where $s(0) = 0$ and $s(T) = 1$, with $T$ denoting the total running time of the algorithm. For an $N$-qubit system, the standard initial mixing Hamiltonian $\hat{H}_B$ is defined as:
 \begin{equation}
 \hat{H}_B = - \sum_{i=1}^N \sigma_i^x
 \end{equation}
-whose ground state is the uniform superposition $|+\rangle^{\otimes N}$. 
+whose lowest energy eigenstate is the uniform superposition $|+\rangle^{\otimes N}$. 
 
-The cost Hamiltonian ($\hat{H}_C$) typically encodes the objective function of the problem, and its ground state is hard to prepare. For combinatorial optimization problems formatted as QUBOs, $\hat{H}_C$ is naturally expressed in the form of an Ising Hamiltonian. To process a QUBO problem on a quantum processor, each binary variable $x_i$ is mapped to a qubit $i$, and the variable values are associated with the eigenvalues of the Pauli-Z operator ($\sigma_i^z \in \{1, -1\}$) via the affine transformation $x_i \to \frac{1 - \sigma_i^z}{2}$. This mapping results in the Ising cost Hamiltonian:
+The cost Hamiltonian $\hat{H}_C$ encodes the objective function of the problem. For QUBOs, $\hat{H}_C$ is naturally expressed as an Ising Hamiltonian, derived directly from the QUBO matrix $Q$ and linear costs:
 \begin{equation}
 \hat{H}_C = \sum_{i=1}^N h_i \sigma_i^z + \sum_{i<j} J_{ij} \sigma_i^z \sigma_j^z + K
 \end{equation}
-where the local fields $h_i$ and the physical couplings $J_{ij}$ are derived directly from the QUBO matrix $Q$, and $K$ is a constant energy offset. The ground state of $\hat{H}_C$ corresponds precisely to the binary string that minimizes the original classical function.
+where $h_i$ are the local fields, $J_{ij}$ are the physical couplings, and $K$ is a constant energy offset. The ground state of $\hat{H}_C$ strictly corresponds to the binary string that minimizes the classical function.
 
-To ensure the highest likelihood of ending up in the ground state of the cost Hamiltonian, the adiabatic theorem states that the total evolution time $T$ must be on the order of $\mathcal{O}(1/\Delta E_{min}^2)$, where $\Delta E_{min}$ signifies the minimum energy gap between the two lowest instantaneous energy eigenstates during the evolution. 
-
-QAOA is based on the critical insight that it is possible to simulate the continuous QAA evolution on a gate-based quantum computer using \textbf{Trotterization}. The trotterization of the continuous time-evolving operator can be expressed as:
+According to the adiabatic theorem, remaining in the ground state requires a total evolution time $T$ proportional to $\mathcal{O}(1/\Delta E_{\text{min}}^2)$, where $\Delta E_{\text{min}}$ is the minimum energy gap during the evolution. QAOA circumvents this continuous evolution by simulating it on a gate-based quantum computer using Trotterization:
 \begin{equation}
 \hat{U}(T) \equiv \mathcal{T} \exp\left[ -i \int_0^T \hat{H}(t) dt \right] \approx \prod_{k=1}^p \exp\left[ -i \hat{H}(k\Delta t)\Delta t \right]
 \label{eq:trotter1}
 \end{equation}
-where $\mathcal{T}$ represents the time-ordering operator, and $p$ is a large integer, which results in $\Delta t = T/p$ being a sufficiently small time segment. For two non-commuting operators $\hat{A}$ and $\hat{B}$, the Trotter formula allows the decomposition:
-\begin{equation}
-e^{i(\hat{A}+\hat{B})\Delta t} = e^{i\hat{A}\Delta t}e^{i\hat{B}\Delta t} + \mathcal{O}(\Delta t^2)
-\end{equation}
-Applying this formula to the discretized time evolution operator in Equation \ref{eq:trotter1} yields:
+Applying the Trotter formula to the discretized time evolution yields:
 \begin{equation}
 \hat{U}(T) \approx \prod_{k=1}^p \exp\left[ -i(1 - s(k\Delta t))\hat{H}_B\Delta t \right] \exp\left[ -i s(k\Delta t)\hat{H}_C\Delta t \right]
 \label{eq:trotter2}
 \end{equation}
-As a result, it becomes feasible to approximate the continuous adiabatic process by alternately applying the unitary operators generated by $\hat{H}_C$ and $\hat{H}_B$ in a sequential, digitized manner.
+This formulation makes it feasible to approximate the continuous adiabatic process by alternately applying the unitary operators generated by $\hat{H}_C$ and $\hat{H}_B$ in a digitized manner.
 
 \subsubsection{QAOA State Preparation and Circuit Ansatz}
-Farhi, Goldstone, and Gutmann introduced a groundbreaking yet remarkably simple heuristic approach: they proposed truncating the infinite product in Equation \ref{eq:trotter2} to an arbitrary positive integer depth $p$, and entirely redefining the fixed, time-dependent exponents as free variational parameters. Specifically, the terms $(1 - s(k\Delta t))\Delta t$ are replaced by $\beta_k$, and the terms $s(k\Delta t)\Delta t$ are replaced by $\gamma_k$. Consequently, the rigid time segments transform into angles subject to classical optimization:
+Farhi et al. introduced a groundbreaking heuristic modification to Equation \ref{eq:trotter2}: truncating the infinite product to an arbitrary positive integer depth $p$, and replacing the fixed time-dependent segments with free variational parameters $\beta_k$ and $\gamma_k$. Thus, the rigid time steps transform into angles subject to classical optimization:
 \begin{equation}
-\hat{U}(\vec{\gamma}, \vec{\beta}) = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C}, \quad p \in \mathbb{Z}^+
+\hat{U}(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C}, \quad p \in \mathbb{Z}^+
 \end{equation}
-Generally, the negative sign in the mixing Hamiltonian $\hat{H}_B$ is absorbed into the parameter $\beta_k$, such that $\hat{H}_B$ is simply redefined as $\hat{H}_B = \sum_{i=1}^N \sigma_i^x$. 
-
-The final trial wavefunction—or ansatz state—prepared by the QAOA circuit of depth $p$ is thus expressed as:
+Generally, the negative sign in the mixing Hamiltonian is absorbed into $\beta_k$, redefining $\hat{H}_B = \sum_{i=1}^N \sigma_i^x$. The final trial wavefunction prepared by the QAOA circuit is expressed as:
 \begin{equation}
-|\psi_p(\vec{\gamma}, \vec{\beta})\rangle = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C} |+\rangle^{\otimes N}
+|\psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta})\rangle = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C} |+\rangle^{\otimes N}
 \end{equation}
-where $\vec{\gamma} = (\gamma_1, \gamma_2, \dots, \gamma_p)$ and $\vec{\beta} = (\beta_1, \beta_2, \dots, \beta_p)$ are vectors of classical parameters. Because the eigenvalues of the Pauli-$X$ operator are $\pm 1$, the operator $e^{\pm i\pi\hat{H}_B} = \prod_i (-I_i)$ merely introduces a global phase. Therefore, each $\beta_k$ strictly lies within the range $[0, \pi]$. Similarly, if the eigenvalues of the cost Hamiltonian are integers (which is common for unweighted QUBO formulations), the parameters $\gamma_k$ are periodic and bound between $[0, 2\pi]$.
+Because the eigenvalues of the Pauli-$X$ operator are $\pm 1$, the parameter $\beta_k$ strictly lies within $[0, \pi]$. Similarly, if the eigenvalues of the cost Hamiltonian are integers, the parameters $\gamma_k$ are periodic within $[0, 2\pi]$.
 
 \begin{figure}[!htbp]
     \centering
@@ -1476,27 +1449,64 @@ where $\vec{\gamma} = (\gamma_1, \gamma_2, \dots, \gamma_p)$ and $\vec{\beta} = 
 \end{figure}
 
 \subsubsection{Expectation Value, Optimization Loop, and MaxCut}
-To determine the optimal angles $(\vec{\gamma}, \vec{\beta})$, a cost function must be constructed that can be evaluated on the quantum computer and minimized by a classical optimizer. Typically, this cost function is defined as the expectation value of the cost Hamiltonian with respect to the parameterized final state:
+To determine the optimal angles $(\boldsymbol{\gamma}, \boldsymbol{\beta})$, a cost function must be evaluated on the quantum computer and minimized classically. Typically, this is the expectation value of the cost Hamiltonian:
 \begin{equation}
-F_p(\vec{\gamma}, \vec{\beta}) = \langle \psi_p(\vec{\gamma}, \vec{\beta}) | \hat{H}_C | \psi_p(\vec{\gamma}, \vec{\beta}) \rangle
+F_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \langle \psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) | \hat{H}_C | \psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) \rangle
 \end{equation}
-Minimizing this expectation value ensures that the variational state occupies a larger proportion of the low-energy eigenstates of $\hat{H}_C$. In practice, the hybrid workflow proceeds iteratively: the quantum processor prepares the state and measures $F_p(\vec{\gamma}, \vec{\beta})$, and the classical computer updates the parameters to descend the cost landscape until convergence is achieved. While significant research has been conducted on classical optimization strategies, noise and finite sampling errors present unique challenges on real hardware.
+Minimizing this value ensures the variational state heavily populates the low-energy eigenstates of $\hat{H}_C$. The hybrid workflow proceeds iteratively: the QPU prepares the state and measures $F_p$, and the CPU updates the parameters to descend the cost landscape.
 
-Finally, a well-studied baseline problem heavily utilized in the context of QAOA is the \textbf{MaxCut} problem. It serves as a standard benchmark because it is mathematically nontrivial yet conceptually straightforward, and was the original problem studied by Farhi et al. to demonstrate QAOA's performance guarantees \cite{farhi2014quantum}. The objective of MaxCut is strictly combinatorial: given a graph $G = (V, E)$ with vertices $V$ and edges $E$, the goal is to partition the vertices into two disjoint subsets such that the sum of the edge weights connecting the two subsets—the ``cut''—is maximized. This binary classification easily maps onto an Ising Hamiltonian, making it the perfect testbed for hybrid quantum optimization algorithms. In the context of this thesis, QAOA is similarly employed as a heuristic to navigate the high-dimensional discrete landscape of amino acid sequences in peptide design.
+A well-studied baseline problem for this algorithm is \textbf{MaxCut}. Given a graph $G = (V, E)$, the goal is to partition the vertices into two disjoint subsets to maximize the sum of the edge weights connecting them. This binary classification easily maps onto an Ising Hamiltonian, making it the perfect benchmark for QAOA \cite{farhi2014quantum}. In the context of this thesis, we move beyond simple graph problems, employing QAOA as a heuristic to navigate the high-dimensional, discrete landscape of amino acid sequences in peptide design.
 
+\subsubsection{The Adiabatic Limit and CVaR Optimization}
+The theoretical robustness of QAOA is inherently linked to the adiabatic theorem. As the depth $p \to \infty$, the sequence of unitaries becomes a fully Trotterized adiabatic schedule, guaranteeing convergence to the global minimum of $\hat{H}_C$. However, for finite $p$ on NISQ devices, the algorithm only provides an approximate solution. 
 
-\subsubsection{Adiabatic Limit and Approximation Ratio}
-The theoretical robustness of QAOA is linked to the adiabatic theorem. As the depth $p$ increases, the sequence of unitaries can be interpreted as a Trotterized version of a time-dependent adiabatic schedule. If the parameters are adjusted such that they follow an annealing-like profile, the state will converge to the global minimum of $\hat{H}_C$ as $p \to \infty$. For finite $p$, the algorithm provides an approximate solution, characterized by the approximation ratio $\alpha$. 
+To enhance performance in practical applications, our sequence design experiments depart from the standard approach of minimizing the mean expectation value. Instead, we optimize convergence using the \textbf{Conditional Value at Risk (CVaR)} cost function. 
 
-In our sequence design experiments, we depart from the standard approach of minimizing the mean expectation value. Instead, we optimize the convergence using the \textbf{Conditional Value at Risk (CVaR)} cost function.
-
-While the standard expectation value $E = \langle \hat{H}_C \rangle$ averages over all samples, CVaR focuses exclusively on the "tail" of the distribution. For a confidence level $\alpha \in (0, 1]$, the $CVaR_{\alpha}$ is defined as the average of the best $100\alpha\%$ of the measurements:
+While the standard expectation value $E = \langle \hat{H}_C \rangle$ averages over all measured samples, CVaR focuses exclusively on the optimal ``tail'' of the statistical distribution. For a confidence level $\alpha \in (0, 1]$, the $CVaR_{\alpha}$ is defined as the average of the best $100\alpha\%$ of the measurements:
 \begin{equation}
 CVaR_{\alpha}(\boldsymbol{\theta}) = \frac{1}{\lceil \alpha K \rceil} \sum_{k=1}^{\lceil \alpha K \rceil} e_k
 \end{equation}
-where $E = \{e_1, e_2, \dots, e_K\}$ is the set of energies from $K$ shots sorted in ascending order. 
+where $E = \{e_1, e_2, \dots, e_K\}$ is the set of energies from $K$ total shots, sorted in ascending order. By setting $\alpha$ to a small value (e.g., $0.1$), the classical optimizer focuses solely on improving the probability of sampling the best-found solutions rather than shifting the entire probability distribution. This methodology is particularly powerful for discrete energy landscapes and noisy hardware, as it effectively mitigates the impact of local minima and background noise by isolating the most relevant low-energy states.
 
-By setting $\alpha$ to a small value (e.g., 0.1), the classical optimizer focuses on improving the probability of sampling the best solutions rather than shifting the entire distribution. This approach is particularly effective for discrete energy landscapes and NISQ devices, as it effectively mitigates the impact of noise and local minima by ignoring the high-energy "background" and focusing on the relevant low-energy states.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsection{Optimization Algorithms for Hybrid Workflows}
 A defining characteristic of Variational Quantum Algorithms is their reliance on a classical optimization loop to mitigate the limitations of current-generation quantum hardware. The objective functions generated by VQAs are often characterized by non-convex landscapes, stochasticity derived from finite measurement shots, and hardware-induced noise. Consequently, the selection of the classical optimizer is critical. In this research, we focus on derivative-free methods, which are particularly robust in the presence of noise and avoid the high computational cost of estimating gradients on NISQ devices.
@@ -1554,17 +1564,45 @@ DE maintains a population of $NP$ real-valued parameter vectors. The evolutionar
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \subsection{Challenges and Noise Mitigation in the NISQ Era}
-The transition from theoretical quantum algorithms to practical hardware implementation is hindered by several physical limitations inherent to current quantum processors. Understanding these challenges and the techniques to overcome them is crucial for interpreting the results of this thesis.
+
+The transition from theoretical quantum algorithms to practical hardware implementations is hindered by the physical limitations inherent to current quantum processors. Understanding these challenges, along with the techniques developed to overcome them, is crucial for interpreting the empirical results of this thesis.
 
 \subsubsection{Decoherence and Gate Errors}
-The performance of NISQ devices is primarily limited by the interaction of qubits with their surrounding environment, a process known as \textbf{Decoherence}. This results in the loss of quantum information over time, characterized by the $T_1$ (relaxation) and $T_2$ (dephasing) timescales. Furthermore, individual gate operations and qubit measurements are subject to errors due to imperfect control signals and hardware cross-talk. Typical two-qubit gate fidelities on current hardware range from 95\% to 99.9\%, which restricts the maximum depth $p$ of the circuits that can be executed before noise dominates the output.
+The performance of NISQ devices is primarily limited by the interaction of qubits with their surrounding environment, a process known as decoherence\cite{nielsen2010quantum}. This interaction results in the inevitable loss of quantum information over time, formally characterized by the relaxation ($T_1$) and dephasing ($T_2$) timescales \cite{error_mitigation_1}. 
 
-\subsubsection{Error Mitigation Techniques}
-While full Fault-Tolerant Quantum Computing (FTQC) requires thousands of physical qubits to encode a single logical qubit, the NISQ era relies on \textbf{Quantum Error Mitigation (QEM)} to extract meaningful signals from noisy data without the need for additional qubits. Key techniques utilized in this field include:
+Furthermore, individual gate operations and qubit measurements are subject to operational errors due to imperfect microwave control signals, thermal fluctuations, and hardware cross-talk. This inherently restricts the maximum depth $p$ of the variational circuits that can be reliably executed before noise completely obfuscates the output signal\cite{nielsen2010quantum}.
+
+
+
+
+
+
+\subsubsection{Quantum Error Mitigation (QEM)}
+While realizing full Fault-Tolerant Quantum Computing requires thousands of physical qubits to encode a single logical qubit, the NISQ era relies heavily on QEM\cite{error_mitigation_2}. QEM encompasses a suite of classical post-processing techniques designed to extract meaningful expectation values from noisy data without the overhead of additional ancillary qubits. Key techniques utilized in this field include:
+
 \begin{itemize}
-    \item \textbf{Zero-Noise Extrapolation (ZNE):} This technique involves intentionally increasing the noise level of a circuit (e.g., by stretching pulses or folding gates) and then extrapolating the results back to the theoretical "zero-noise" limit.
-    \item \textbf{Measurement Error Mitigation (Readout Mitigation):} Uses a calibration matrix (assignment matrix) to correct the probability distributions of measurement outcomes, compensating for qubits being misidentified during readout.
-    \item \textbf{Probabilistic Error Cancellation (PEC):} Represents a noise-free circuit as a quasi-probability distribution of noisy circuits, allowing for the cancellation of bias at the cost of increased sampling (shots).
+    \item \textbf{Zero-Noise Extrapolation (ZNE):} This technique involves intentionally amplifying the noise level of a quantum circuit across different scale factors. The measured expectation values are then classically extrapolated back to the theoretical zero-noise limit \cite{error_mitigation_3}.
+    \item \textbf{Measurement Error Mitigation (Readout Mitigation):} Qubit state misclassification during the readout phase is a dominant source of error. This method construct a calibration matrix (or assignment matrix) that characterizes the transition probabilities between ideal and measured states. The inverse of this matrix is then applied to the raw measurement distribution to correct the readout bias \cite{error_mitigation_4}.
+    \item \textbf{Probabilistic Error Cancellation (PEC):} This method represents a noise-free quantum circuit as a quasi-probability distribution of noisy implementable circuits. By sampling from this distribution and classically combining the results with specific parity weights, PEC effectively cancels out the noise bias, albeit at the cost of an exponentially increased sampling overhead (shots) \cite{error_mitigation_3}.
 \end{itemize}
-By applying these post-processing methods, we can significantly improve the accuracy of energy estimations in VQE and the success probability of sequence sampling in QAOA.
+
+By seamlessly integrating these post-processing methods into the optimization loop, we can significantly improve the accuracy of energy estimations in VQE and enhance the success probability of identifying optimal sequence configurations in QAOA.
