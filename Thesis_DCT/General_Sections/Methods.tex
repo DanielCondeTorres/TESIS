@@ -1374,35 +1374,47 @@ In the context of this thesis, VQE is utilized to explore the conformational spa
 
 \subsection{Combinatorial Optimization on Quantum Devices}
 
-While algorithms like VQE are natively suited for simulating physical systems governed by molecular Hamiltonians (such as peptide conformational sampling), many critical challenges in computational biology, such as sequence design or mutational profiling, are inherently discrete. These are strictly combinatorial optimization problems, characterized by a finite but exponentially large landscape of valid solutions.
+While algorithms like VQE are natively suited for simulating physical systems governed by molecular Hamiltonians (such as peptide conformational sampling), many critical challenges in computational biology, such as sequence design or mutational profiling, are inherently discrete. These are strictly combinatorial optimization problems, characterized by a finite but exponentially large landscape of valid solutions\cite{quantum_biology_1}.
 
-To solve these classical discrete problems on quantum hardware, we must bridge the gap between classical computer science and quantum mechanics. This requires a mathematical framework capable of encoding classical binary decisions into the language of qubits and Pauli operators.
+To solve these classical discrete problems on quantum hardware, we must bridge the gap between classical computer science and quantum mechanics. This requires a mathematical framework capable of encoding classical binary decisions into the language of qubits and Pauli operators\cite{quantum_biology_1}.
 
 \subsubsection{Quadratic Unconstrained Binary Optimization (QUBO)}
 
-The optimization problems addressed in this research, specifically those related to sequence design, are formulated as Quadratic Unconstrained Binary Optimization (QUBO) models. A QUBO problem aims to minimize a quadratic function of classical binary variables $x \in \{0, 1\}^n$:
+The optimization problems addressed in this research, specifically those related to sequence design, are formulated as QUBO models \cite{qubo_2}. A QUBO problem aims to minimize a quadratic function of classical binary variables $x \in \{0, 1\}^n$:
 \begin{equation}
 \min_{x \in \{0,1\}^n} \quad f(x) = \sum_{i} c_i x_i + \sum_{i < j} Q_{ij} x_i x_j
 \end{equation}
 where $c_i$ represent the linear costs (e.g., the intrinsic stability or energetic penalty of an isolated amino acid) and $Q_{ij}$ capture the quadratic interactions (epistasis or structural correlations) between variables. 
 
-This format is mathematically equivalent to the Ising model used in statistical physics. By applying the affine transformation $x_i \to \frac{1 - \sigma_i^z}{2}$, the classical variables are mapped directly onto the Pauli-Z eigenvalues of a quantum system. This transformation creates an Ising Hamiltonian whose ground state encodes the optimal classical sequence, making the QUBO formulation the natural entry point for quantum optimization.
+This format is mathematically equivalent to the Ising model used in statistical physics \cite{qubo_1}. By applying the affine transformation $x_i \to \frac{1 - \sigma_i^z}{2}$, the classical variables are mapped directly onto the Pauli-Z eigenvalues of a quantum system. This transformation creates an Ising Hamiltonian whose ground state encodes the optimal classical sequence, making the QUBO formulation the natural entry point for quantum optimization\cite{qubo_1}.
+
+
+
+
+
+
 
 \paragraph{Handling Constraints via Penalty Terms}
-Real-world combinatorial problems in biology are often subject to strict constraints, such as a fixed number of allowed mutations or a required net charge for the peptide. In the QUBO framework, these constraints are incorporated by adding \textbf{penalty terms} to the objective function. For a linear constraint of the form $Ax = b$, we define the penalized function:
+Real-world combinatorial problems in biology are often subject to strict constraints, such as a fixed number of allowed mutations or a required net charge for the peptide. In the QUBO framework, these constraints are incorporated by adding penalty terms to the objective function. For a linear constraint of the form $Ax = b$, we define the penalized function\cite{qubo_2}:
 \begin{equation}
 f_{\text{penalized}}(x) = f(x) + \lambda \sum_k (A_k x - b_k)^2
 \end{equation}
-where $\lambda$ is a large penalty coefficient (Lagrange multiplier) ensuring that violating the constraint results in a higher energy than any valid solution. Because $x_i^2 = x_i$ for binary variables, expanding the square preserves the quadratic nature of the expression, strictly maintaining the QUBO structure.
+where $\lambda$ is a large penalty coefficient (Lagrange multiplier) ensuring that violating the constraint results in a higher energy than any valid solution. Because $x_i^2 = x_i$ for binary variables, expanding the square preserves the quadratic nature of the expression, strictly maintaining the QUBO structure\cite{qubo_2}.
+
+
 
 \subsection{The Quantum Approximate Optimization Algorithm (QAOA)}
 
-Once the biological problem is successfully mapped into a QUBO and its corresponding Ising Hamiltonian, we require an algorithm capable of finding its ground state. The QAOA, introduced by Farhi, Goldstone, and Gutmann in 2014\cite{QAOA}, is a versatile hybrid quantum algorithm specifically designed for solving such combinatorial problems on near-term hardware \cite{farhi2014quantum}. 
+Once the biological problem is successfully mapped into a QUBO and its corresponding Ising Hamiltonian, we require an algorithm capable of finding its ground state. The QAOA, introduced by Farhi, Goldstone, and Gutmann in 2014\cite{QAOA}, is a versatile hybrid quantum algorithm specifically designed for solving such combinatorial problems on near-term hardware \cite{QAOA}. 
 
-At its core, QAOA employs a variational approach to approximate the solution to a given optimization problem. It prepares a trial state on the quantum computer, parameterized by a set of classical angles. A classical optimizer then iteratively adjusts these parameters to minimize the expected value of the problem's cost function. Because it relies on relatively shallow quantum circuits, this approach is exceptionally well-suited for Noisy Intermediate-Scale Quantum (NISQ) devices characterized by limited coherence times.
+At its core, QAOA employs a variational approach to approximate the solution to a given optimization problem. It prepares a trial state on the quantum computer, parameterized by a set of classical angles. A classical optimizer then iteratively adjusts these parameters to minimize the expected value of the problem's cost function. Because it relies on relatively shallow quantum circuits, this approach is exceptionally well-suited for NISQ devices characterized by limited coherence times\cite{QAOA}.
+
+
+
 
 \subsubsection{From the Quantum Adiabatic Algorithm to QAOA}
-The theoretical foundations of QAOA are heavily inspired by the Quantum Adiabatic Algorithm (QAA). The QAA utilizes adiabatic evolution to slowly transition a quantum system from the easily prepared ground state of an initial Hamiltonian to the unknown ground state of a cost Hamiltonian. The time-dependent QAA Hamiltonian is formulated as the sum of two non-commuting operators:
+
+The theoretical foundations of the QAOA are heavily inspired by the Quantum Adiabatic Algorithm (QAA). The QAA utilizes adiabatic evolution, governed by Schrödinger's equation, to slowly transition a quantum system from the easily prepared ground state of an initial Hamiltonian to the unknown ground state of a cost Hamiltonian. The time-dependent QAA Hamiltonian is formulated as the sum of two non-commuting operators\cite{qubo_1}:
 \begin{equation}
 \hat{H}(t) = (1 - s(t))\hat{H}_B + s(t)\hat{H}_C
 \end{equation}
@@ -1410,28 +1422,47 @@ where $s(0) = 0$ and $s(T) = 1$, with $T$ denoting the total running time of the
 \begin{equation}
 \hat{H}_B = - \sum_{i=1}^N \sigma_i^x
 \end{equation}
-whose lowest energy eigenstate is the uniform superposition $|+\rangle^{\otimes N}$. 
+whose lowest energy eigenstate is the uniform superposition $|+\rangle^{\otimes N}$.
 
-The cost Hamiltonian $\hat{H}_C$ encodes the objective function of the problem. For QUBOs, $\hat{H}_C$ is naturally expressed as an Ising Hamiltonian, derived directly from the QUBO matrix $Q$ and linear costs:
+The cost Hamiltonian $\hat{H}_C$ encodes the objective function of the combinatorial optimization problem. For QUBOs, experimental progress has shown that $\hat{H}_C$ is naturally expressed as the quantum version of an Ising spin glass, derived directly from the QUBO matrix $Q$ and linear costs\cite{qubo_1}:
 \begin{equation}
 \hat{H}_C = \sum_{i=1}^N h_i \sigma_i^z + \sum_{i<j} J_{ij} \sigma_i^z \sigma_j^z + K
 \end{equation}
 where $h_i$ are the local fields, $J_{ij}$ are the physical couplings, and $K$ is a constant energy offset. The ground state of $\hat{H}_C$ strictly corresponds to the binary string that minimizes the classical function.
 
-According to the adiabatic theorem, remaining in the ground state requires a total evolution time $T$ proportional to $\mathcal{O}(1/\Delta E_{\text{min}}^2)$, where $\Delta E_{\text{min}}$ is the minimum energy gap during the evolution. QAOA circumvents this continuous evolution by simulating it on a gate-based quantum computer using Trotterization:
+According to the adiabatic theorem of quantum mechanics, if $T$ is large enough and the Hamiltonians do not commute ($[\hat{H}_C, \hat{H}_B] \neq 0$), the quantum system will remain in the ground state for all times. Consequently, measuring the quantum state at time $T$ will return an optimal solution to our problem. However, remaining in the ground state requires a total evolution time $T$ proportional to $\mathcal{O}(1/\Delta E_{\text{min}}^2)$, where $\Delta E_{\text{min}}$ is the minimum energy gap during the evolution. In practice, if the evolution proceeds too quickly across exponentially small energy gaps, the quantum system will jump out of the ground state into higher energy states, yielding a sub-optimal solution. To prevent this and guarantee success, the required time typically scales exponentially as $N \to \infty$:
+\begin{equation}
+T = \mathcal{O}\left[\exp(\alpha N^\beta)\right]
+\end{equation}
+for positive coefficients $\alpha$ and $\beta$. This exponential scaling fuels an ongoing debate regarding whether adiabatic quantum optimizers can definitively run faster than classical algorithms, although the coefficients $\alpha$ and $\beta$ might still be smaller than those of known classical methods for certain classes of problems.
+
+QAOA circumvents this continuous and potentially unfeasible adiabatic evolution by simulating it on a gate-based quantum computer. In quantum computing, system evolution must be implemented via unitary operators, derived from Schrödinger's equation as $\hat{U} = e^{-it\hat{H}}$. Because the mixing and cost Hamiltonians do not generally commute, their simultaneous exponential cannot be trivially factorized. This non-commutativity is formally described by the Baker–Campbell–Hausdorff formula\cite{nielsen_2010}, which dictates the expansion for the product of the exponentials of two non-commuting operators $\hat{X}$ and $\hat{Y}$:
+\begin{equation}
+e^{\hat{X}} e^{\hat{Y}} = \exp\left(\hat{X} + \hat{Y} + \frac{1}{2}[\hat{X}, \hat{Y}] + \frac{1}{12}[\hat{X}, [\hat{X}, \hat{Y}]] - \frac{1}{12}[\hat{Y}, [\hat{X}, \hat{Y}]] + \dots \right)
+\end{equation}
+Consequently, for our Hamiltonians, $e^{-i(\hat{H}_C + \hat{H}_B)\Delta t} \neq e^{-i\hat{H}_C \Delta t} e^{-i\hat{H}_B \Delta t}$. To address this and simulate the evolution efficiently, QAOA employs Trotterization to approximate the continuous time evolution operator by slicing the evolution into small time steps $\Delta t$:
 \begin{equation}
 \hat{U}(T) \equiv \mathcal{T} \exp\left[ -i \int_0^T \hat{H}(t) dt \right] \approx \prod_{k=1}^p \exp\left[ -i \hat{H}(k\Delta t)\Delta t \right]
 \label{eq:trotter1}
 \end{equation}
-Applying the Trotter formula to the discretized time evolution yields:
+Applying the Trotter formula to the discretized time evolution yields an alternating sequence of unitary operators\cite{QAOA}:
 \begin{equation}
 \hat{U}(T) \approx \prod_{k=1}^p \exp\left[ -i(1 - s(k\Delta t))\hat{H}_B\Delta t \right] \exp\left[ -i s(k\Delta t)\hat{H}_C\Delta t \right]
 \label{eq:trotter2}
 \end{equation}
-This formulation makes it feasible to approximate the continuous adiabatic process by alternately applying the unitary operators generated by $\hat{H}_C$ and $\hat{H}_B$ in a digitized manner.
+This formulation makes it feasible to approximate the continuous adiabatic process by alternately applying the unitary phase and mixing operators generated by $\hat{H}_C$ and $\hat{H}_B$ in a digitized manner.
+
+
+
+
+
+
+
+
+
 
 \subsubsection{QAOA State Preparation and Circuit Ansatz}
-Farhi et al. introduced a groundbreaking heuristic modification to Equation \ref{eq:trotter2}: truncating the infinite product to an arbitrary positive integer depth $p$, and replacing the fixed time-dependent segments with free variational parameters $\beta_k$ and $\gamma_k$. Thus, the rigid time steps transform into angles subject to classical optimization:
+Farhi et al.\cite{QAOA} introduced a groundbreaking heuristic modification to Equation \ref{eq:trotter2}: truncating the infinite product to an arbitrary positive integer depth $p$, and replacing the fixed time-dependent segments with free variational parameters $\beta_k$ and $\gamma_k$. Thus, the rigid time steps transform into angles subject to classical optimization:
 \begin{equation}
 \hat{U}(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C}, \quad p \in \mathbb{Z}^+
 \end{equation}
@@ -1453,68 +1484,64 @@ To determine the optimal angles $(\boldsymbol{\gamma}, \boldsymbol{\beta})$, a c
 \begin{equation}
 F_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \langle \psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) | \hat{H}_C | \psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) \rangle
 \end{equation}
-Minimizing this value ensures the variational state heavily populates the low-energy eigenstates of $\hat{H}_C$. The hybrid workflow proceeds iteratively: the QPU prepares the state and measures $F_p$, and the CPU updates the parameters to descend the cost landscape.
+Minimizing this value ensures the variational state heavily populates the low-energy eigenstates of $\hat{H}_C$. The hybrid workflow proceeds iteratively: the QPU prepares the state and measures $F_p$, and the CPU updates the parameters to descend the cost landscape\cite{QAOA}.
 
-A well-studied baseline problem for this algorithm is \textbf{MaxCut}. Given a graph $G = (V, E)$, the goal is to partition the vertices into two disjoint subsets to maximize the sum of the edge weights connecting them. This binary classification easily maps onto an Ising Hamiltonian, making it the perfect benchmark for QAOA \cite{farhi2014quantum}. In the context of this thesis, we move beyond simple graph problems, employing QAOA as a heuristic to navigate the high-dimensional, discrete landscape of amino acid sequences in peptide design.
+A well-studied baseline problem for this algorithm is MaxCut\cite{max_cut_np_hard}. Given a graph $G = (V, E)$, the goal is to partition the vertices into two disjoint subsets to maximize the sum of the edge weights connecting them. This binary classification easily maps onto an Ising Hamiltonian, making it the perfect benchmark for QAOA \cite{QAOA}. In the context of this thesis, we move beyond simple graph problems, employing QAOA as a heuristic to navigate the high-dimensional, discrete landscape of amino acid sequences in peptide design.
 
-\subsubsection{The Adiabatic Limit and CVaR Optimization}
-The theoretical robustness of QAOA is inherently linked to the adiabatic theorem. As the depth $p \to \infty$, the sequence of unitaries becomes a fully Trotterized adiabatic schedule, guaranteeing convergence to the global minimum of $\hat{H}_C$. However, for finite $p$ on NISQ devices, the algorithm only provides an approximate solution. 
 
-To enhance performance in practical applications, our sequence design experiments depart from the standard approach of minimizing the mean expectation value. Instead, we optimize convergence using the \textbf{Conditional Value at Risk (CVaR)} cost function. 
 
-While the standard expectation value $E = \langle \hat{H}_C \rangle$ averages over all measured samples, CVaR focuses exclusively on the optimal ``tail'' of the statistical distribution. For a confidence level $\alpha \in (0, 1]$, the $CVaR_{\alpha}$ is defined as the average of the best $100\alpha\%$ of the measurements:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%JUEVES HACER ESTO
+\subsubsection{The Adiabatic Limit and Conditional Value at Risk (CVaR)  Optimization}
+The theoretical robustness of QAOA is inherently linked to the adiabatic theorem. As the depth $p \to \infty$, the sequence of unitaries becomes a fully Trotterized adiabatic schedule, guaranteeing convergence to the global minimum of $\hat{H}_C$. However, for finite $p$ on NISQ devices, the algorithm only provides an approximate solution\cite{qubo_1}. 
+
+To enhance performance in practical applications, our sequence design experiments depart from the standard approach of minimizing the mean expectation value. Instead, we optimize convergence using the CVaR cost function\cite{cvar_1}. 
+
+While the standard expectation value $E = \langle \hat{H}_C \rangle$ averages over all measured samples, CVaR focuses exclusively on the optimal tail of the statistical distribution. For a confidence level $\alpha \in (0, 1]$, the $CVaR_{\alpha}$ is defined as the average of the best $100\alpha\%$ of the measurements:
 \begin{equation}
 CVaR_{\alpha}(\boldsymbol{\theta}) = \frac{1}{\lceil \alpha K \rceil} \sum_{k=1}^{\lceil \alpha K \rceil} e_k
 \end{equation}
-where $E = \{e_1, e_2, \dots, e_K\}$ is the set of energies from $K$ total shots, sorted in ascending order. By setting $\alpha$ to a small value (e.g., $0.1$), the classical optimizer focuses solely on improving the probability of sampling the best-found solutions rather than shifting the entire probability distribution. This methodology is particularly powerful for discrete energy landscapes and noisy hardware, as it effectively mitigates the impact of local minima and background noise by isolating the most relevant low-energy states.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+where $E = \{e_1, e_2, \dots, e_K\}$ is the set of energies from $K$ total shots, sorted in ascending order. By setting $\alpha$ to a small value (e.g., $0.1$), the classical optimizer focuses solely on improving the probability of sampling the best-found solutions rather than shifting the entire probability distribution. This methodology is particularly powerful for discrete energy landscapes and noisy hardware, as it effectively mitigates the impact of local minima and background noise by isolating the most relevant low-energy states\cite{cvar_1,cvar_2}.
 
 
 
 
 \subsection{Optimization Algorithms for Hybrid Workflows}
-A defining characteristic of Variational Quantum Algorithms is their reliance on a classical optimization loop to mitigate the limitations of current-generation quantum hardware. The objective functions generated by VQAs are often characterized by non-convex landscapes, stochasticity derived from finite measurement shots, and hardware-induced noise. Consequently, the selection of the classical optimizer is critical. In this research, we focus on derivative-free methods, which are particularly robust in the presence of noise and avoid the high computational cost of estimating gradients on NISQ devices.
+A defining characteristic of Variational Quantum Algorithms is their reliance on a classical optimization loop to mitigate the limitations of current-generation quantum hardware. The objective functions generated by VQAs are often characterized by non-convex landscapes, stochasticity derived from finite measurement shots, and hardware-induced noise. Consequently, the selection of the classical optimizer is critical. In this research, we focus on derivative-free methods, which are particularly robust in the presence of noise and avoid the high computational cost of estimating gradients on NISQ devices\cite{Failde2023,Kandala2017}.
 
 \subsubsection{Constrained Optimization BY Linear Approximations (COBYLA)}
-COBYLA is a deterministic, model-based trust-region algorithm originally developed by M. J. D. Powell for solving non-linearly constrained optimization problems. Unlike gradient-based methods, COBYLA operates by constructing linear approximations of both the objective function and the constraints. For an $n$-dimensional problem, these linear models are formed by interpolating the functions at the vertices of a simplex comprising $n+1$ points in the parameter space.
+COBYLA is a deterministic, model-based trust-region algorithm originally developed by M. J. D. Powell for solving non-linearly constrained optimization problems. Unlike gradient-based methods, COBYLA operates by constructing linear approximations of both the objective function and the constraints\cite{COBYLA}. For an $n$-dimensional problem, these linear models are formed by interpolating the functions at the vertices of a simplex comprising $n+1$ points in the parameter space.
 
-At each iteration $k$, the algorithm constructs a linear model of the objective function $\hat{f}_k(x)$ and linear models of the constraint functions $\hat{c}_{k,i}(x)$. It then formulates a trust-region subproblem bounded by a trust-region radius $\Delta_k$:
+At each iteration $k$, which denotes the current step of the optimization process, the algorithm constructs a linear model of the objective function $\hat{f}_k(x)$ and linear models of the constraint functions $\hat{c}_{k,i}(x)$. It then formulates a trust-region subproblem bounded by a trust-region radius $\Delta_k$:
 \begin{equation}
 \begin{aligned}
 \min_{x \in \mathbb{R}^n} \quad & \hat{f}_k(x) \\
@@ -1522,10 +1549,16 @@ At each iteration $k$, the algorithm constructs a linear model of the objective 
 & \|x - x_k\| \le \Delta_k
 \end{aligned}
 \end{equation}
-where $x_k$ is the center of the current trust region and $I$ is the set of constraint indices. COBYLA employs a two-stage approach to compute the next trial point, minimizing the maximum constraint violation before addressing the objective function. Furthermore, to maintain numerical stability, the algorithm incorporates a geometry-improving mechanism to ensure that the volume of the simplex does not collapse.
+In this formulation, the optimization operator $\min_{x \in \mathbb{R}^n}$ dictates the search for an $n$-dimensional candidate parameter vector $x$ within the real space $\mathbb{R}^n$---such as the variational rotation angles in a parameterized quantum circuit---that minimizes the objective model. The term $\hat{f}_k(x)$ represents the linear approximation of the true objective function for the $k$-th iteration, where the circumflex symbol ($\hat{\quad}$) explicitly denotes an estimated model derived from the simplex vertices rather than the exact landscape. 
+
+This minimization is performed subject to (\text{s.t.}) a set of constraints that bound the feasible region of the parameter space. Specifically, $\hat{c}_{k,i}(x) \le 0$ defines the linear approximation of the $i$-th inequality constraint within the index set $I$, requiring any valid candidate solution to yield a non-positive value. Crucially, the final constraint enforces the trust-region framework by requiring the distance, represented by the Euclidean norm $\|x - x_k\|$, between the proposed solution $x$ and the current trust-region center $x_k$ to be less than or equal to the trust-region radius $\Delta_k$. This boundary strictly confines the search to a local neighborhood where the linear approximations are mathematically reliable.
+
+Once the subproblem is resolved, COBYLA employs a two-stage approach to compute the next trial point, minimizing the maximum constraint violation before addressing the objective function. Furthermore, to maintain numerical stability, the algorithm incorporates a geometry-improving mechanism to ensure that the volume of the simplex does not collapse.
+
+
 
 \subsubsection{Differential Evolution (DE)}
-Differential Evolution (DE) is a stochastic, population-based metaheuristic introduced by R. Storn and K. Price for global optimization over continuous spaces. The algorithm is particularly effective for the multi-modal landscapes common in quantum computing, as it relies solely on objective function evaluations and avoids trapping in local minima through its evolutionary nature.
+DE is a stochastic, population-based metaheuristic introduced by R. Storn and K. Price for global optimization over continuous spaces\cite{DE,DE_2}. The algorithm is particularly effective for the multi-modal landscapes common in quantum computing, as it relies solely on objective function evaluations and is less susceptible to local minima than many local search methods\cite{Failde2023}.
 
 DE maintains a population of $NP$ real-valued parameter vectors. The evolutionary process is driven by three main operators:
 \begin{itemize}
@@ -1533,6 +1566,11 @@ DE maintains a population of $NP$ real-valued parameter vectors. The evolutionar
     \item \textbf{Crossover:} The mutant vector is recombined with the target vector using a uniform crossover probability $C_r$ to form a trial vector $\vec{u}_{i,g}$.
     \item \textbf{Selection:} DE employs a strictly greedy, one-to-one deterministic selection scheme, ensuring that the trial vector survives into the next generation only if it improves the objective value.
 \end{itemize}
+
+
+
+
+
 
 
 
