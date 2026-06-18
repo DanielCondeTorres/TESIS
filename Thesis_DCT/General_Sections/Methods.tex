@@ -89,22 +89,13 @@ To mitigate these limitations, the \textit{leap-frog} integrator is widely adopt
         \vec{r}_i(t+\Delta t) = \vec{r}_i(t) + \vec{v}_i(t+\frac{1}{2}\Delta t) \Delta t
     \end{cases}
 \end{equation}
-
 By structuring the update in this staggered manner, the algorithm computes positions by adding small velocity-dependent increments to large coordinate values, thereby virtually eliminating round-off errors. Through this discrete iterative process, the computational engine continuously recalculates forces and updates coordinates, effectively tracing the multidimensional trajectory of the molecular system over time.
 
+\subsection{Constraint Algorithms and the Integration Time Step}
 
+The selection of the integration time step ($\Delta t$) is a critical factor governing both the computational efficiency and accuracy of Molecular Dynamics simulations. Since the computational resources required to simulate a trajectory of a target physical duration scale inversely with the time step, utilizing the largest possible $\Delta t$ is highly desirable. However, the maximum allowable time step is strictly bounded by the highest-frequency degrees of freedom in the system. To avoid numerical instability and keep integration errors within acceptable limits, the time step must be several times smaller than the period of the fastest internal motion, which typically corresponds to the stretching vibrations of covalent bonds involving hydrogen atoms. Consequently, standard molecular systems without constraints are restricted to a time step of $\Delta t \le 1$~fs.
 
-
-
-
-
-
-
-
-
-
-
-
+To overcome this bottleneck and safely increase the integration time step to 2~fs in all-atom simulations, constraint algorithms are routinely employed to freeze these high-frequency harmonic motions. The SHAKE algorithm \cite{shake_algorithm} was one of the earliest iterative methods developed to satisfy distance constraints on bond lengths and angles. In modern GROMACS simulations, the parallel Linear Constraint Solver (LINCS) algorithm \cite{lincs_algorithm} is widely preferred due to its non-iterative formulation, superior numerical stability, and highly efficient parallel scalability. LINCS operates by projecting the constraints onto a local coordinate system and solving the equations of motion linearly. Additionally, because water molecules constitute the majority of the particles in biological systems, the analytical SETTLE algorithm \cite{settle_algorithm} is specifically applied to keep the geometry of water models rigid, ensuring optimal computational throughput.
 
 By default, the integration of Newton's equations of motion conserves the total energy ($E$) of a system. Since simulations typically employ a fixed simulation cell volume ($V$) and particle number ($N$), the leap-frog integrator naturally generates trajectories within the microcanonical (\textit{NVE}) ensemble.
 
@@ -1418,7 +1409,7 @@ The theoretical foundations of the QAOA are heavily inspired by the Quantum Adia
 \begin{equation}
 \hat{H}(t) = (1 - s(t))\hat{H}_B + s(t)\hat{H}_C
 \end{equation}
-where $s(0) = 0$ and $s(T) = 1$, with $T$ denoting the total running time of the algorithm. For an $N$-qubit system, the standard initial mixing Hamiltonian $\hat{H}_B$ is defined as:
+where $s(t)$ is the \textit{annealing schedule}. It is a continuous monotonic function that gradually increases from $s(0) = 0$ to $s(T) = 1$, acting as a fractional parameter that smoothly shifts the system's driving force from the initial mixing Hamiltonian $\hat{H}_B$ to the cost Hamiltonian $\hat{H}_C$ over the total running time $T$. For an $N$-qubit system, the standard initial mixing Hamiltonian $\hat{H}_B$ is defined as:
 \begin{equation}
 \hat{H}_B = - \sum_{i=1}^N \sigma_i^x
 \end{equation}
@@ -1432,37 +1423,35 @@ where $h_i$ are the local fields, $J_{ij}$ are the physical couplings, and $K$ i
 
 According to the adiabatic theorem of quantum mechanics, if $T$ is large enough and the Hamiltonians do not commute ($[\hat{H}_C, \hat{H}_B] \neq 0$), the quantum system will remain in the ground state for all times. Consequently, measuring the quantum state at time $T$ will return an optimal solution to our problem. However, remaining in the ground state requires a total evolution time $T$ proportional to $\mathcal{O}(1/\Delta E_{\text{min}}^2)$, where $\Delta E_{\text{min}}$ is the minimum energy gap during the evolution. In practice, if the evolution proceeds too quickly across exponentially small energy gaps, the quantum system will jump out of the ground state into higher energy states, yielding a sub-optimal solution. To prevent this and guarantee success, the required time typically scales exponentially as $N \to \infty$:
 \begin{equation}
-T = \mathcal{O}\left[\exp(\alpha N^\beta)\right]
+T = \mathcal{O}\left[e^{\alpha N^\beta}\right]
 \end{equation}
-for positive coefficients $\alpha$ and $\beta$. This exponential scaling fuels an ongoing debate regarding whether adiabatic quantum optimizers can definitively run faster than classical algorithms, although the coefficients $\alpha$ and $\beta$ might still be smaller than those of known classical methods for certain classes of problems.
+for positive coefficients $\alpha$ and $\beta$. This exponential scaling fuels an ongoing debate regarding whether adiabatic quantum optimizers can definitively run faster than classical algorithms.
 
-QAOA circumvents this continuous and potentially unfeasible adiabatic evolution by simulating it on a gate-based quantum computer. In quantum computing, system evolution must be implemented via unitary operators, derived from Schrödinger's equation as $\hat{U} = e^{-it\hat{H}}$. Because the mixing and cost Hamiltonians do not generally commute, their simultaneous exponential cannot be trivially factorized. This non-commutativity is formally described by the Baker–Campbell–Hausdorff formula\cite{nielsen_2010}, which dictates the expansion for the product of the exponentials of two non-commuting operators $\hat{X}$ and $\hat{Y}$:
+QAOA circumvents this continuous and potentially unfeasible adiabatic evolution by simulating it on a gate-based quantum computer. In quantum computing, system evolution must be implemented via unitary operators, derived from Schrödinger's equation as $\hat{U} = e^{-it\hat{H}}$. Because the mixing and cost Hamiltonians do not generally commute, their simultaneous exponential cannot be trivially factorized. This non-commutativity is formally described by the Baker-Campbell-Hausdorff formula\cite{nielsen2010quantum}, which dictates the expansion for the product of the exponentials of two non-commuting operators $\hat{X}$ and $\hat{Y}$:
 \begin{equation}
-e^{\hat{X}} e^{\hat{Y}} = \exp\left(\hat{X} + \hat{Y} + \frac{1}{2}[\hat{X}, \hat{Y}] + \frac{1}{12}[\hat{X}, [\hat{X}, \hat{Y}]] - \frac{1}{12}[\hat{Y}, [\hat{X}, \hat{Y}]] + \dots \right)
+e^{\hat{X}} e^{\hat{Y}} = e^{\hat{X} + \hat{Y} + \frac{1}{2}[\hat{X}, \hat{Y}] + \frac{1}{12}[\hat{X}, [\hat{X}, \hat{Y}]] - \frac{1}{12}[\hat{Y}, [\hat{X}, \hat{Y}]] + \dots}
 \end{equation}
-Consequently, for our Hamiltonians, $e^{-i(\hat{H}_C + \hat{H}_B)\Delta t} \neq e^{-i\hat{H}_C \Delta t} e^{-i\hat{H}_B \Delta t}$. To address this and simulate the evolution efficiently, QAOA employs Trotterization to approximate the continuous time evolution operator by slicing the evolution into small time steps $\Delta t$:
+Consequently, for our Hamiltonians, $e^{-i(\hat{H}_C + \hat{H}_B)\Delta t} \neq e^{-i\hat{H}_C \Delta t} e^{-i\hat{H}_B \Delta t}$. To address this and simulate the evolution efficiently, one can employ Trotterization to approximate the continuous time evolution operator by slicing the evolution into small time steps $\Delta t$:
 \begin{equation}
-\hat{U}(T) \equiv \mathcal{T} \exp\left[ -i \int_0^T \hat{H}(t) dt \right] \approx \prod_{k=1}^p \exp\left[ -i \hat{H}(k\Delta t)\Delta t \right]
+\hat{U}(T) \equiv \mathcal{T} e^{-i \int_0^T \hat{H}(t) dt} \approx \prod_{k=1}^p e^{-i \hat{H}(k\Delta t)\Delta t}
 \label{eq:trotter1}
 \end{equation}
 Applying the Trotter formula to the discretized time evolution yields an alternating sequence of unitary operators\cite{QAOA}:
 \begin{equation}
-\hat{U}(T) \approx \prod_{k=1}^p \exp\left[ -i(1 - s(k\Delta t))\hat{H}_B\Delta t \right] \exp\left[ -i s(k\Delta t)\hat{H}_C\Delta t \right]
+\hat{U}(T) \approx \prod_{k=1}^p e^{-i(1 - s(k\Delta t))\hat{H}_B\Delta t} e^{-i s(k\Delta t)\hat{H}_C\Delta t}
 \label{eq:trotter2}
 \end{equation}
-This formulation makes it feasible to approximate the continuous adiabatic process by alternately applying the unitary phase and mixing operators generated by $\hat{H}_C$ and $\hat{H}_B$ in a digitized manner.
-
-
-
-
-
-
-
-
-
+This formulation mathematically bridges the continuous adiabatic process with digitized quantum circuits. At each discrete slice of time $k$, the evaluated schedule functions $s(k\Delta t)$ and $1 - s(k\Delta t)$ dictate the exact physical weight of the cost and mixing Hamiltonians at that specific moment. Multiplying these weights by the small time step $\Delta t$ determines the exact angle of rotation applied by each Hamiltonian.
 
 \subsubsection{QAOA State Preparation and Circuit Ansatz}
-Farhi et al.\cite{QAOA} introduced a groundbreaking heuristic modification to Equation \ref{eq:trotter2}: truncating the infinite product to an arbitrary positive integer depth $p$, and replacing the fixed time-dependent segments with free variational parameters $\beta_k$ and $\gamma_k$. Thus, the rigid time steps transform into angles subject to classical optimization:
+
+While Trotterization perfectly simulates the continuous adiabatic evolution in the limit of $p \to \infty$, executing such deep circuits is impossible on modern, NISQ devices. A shallow circuit (small $p$) with rigid time steps $\Delta t$ would yield a very poor approximation of the adiabatic path. 
+
+To overcome this hardware limitation, Farhi et al.\cite{QAOA} introduced a groundbreaking heuristic modification: instead of rigidly simulating the slow adiabatic path, QAOA truncates the sequence to an arbitrary positive integer depth $p$ and abandons the predetermined adiabatic schedule. 
+
+In the exact Trotterized QAA, the terms $(1 - s(k\Delta t))\Delta t$ and $s(k\Delta t)\Delta t$ represent fixed rotation angles strictly dictated by the schedule $s(t)$ at the $k$-th step. To compensate for the inaccuracy of cutting the circuit short, QAOA completely discards these rigidly calculated values and replaces them with free variational parameters $\beta_k$ and $\gamma_k$. 
+
+Thus, the rigid Trotter slices transform into flexible rotation angles subject to classical optimization. Rather than blindly following the adiabatic path, a classical optimizer finds the best parameters to directly minimize the energy of the system for a given depth $p$:
 \begin{equation}
 \hat{U}(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C}, \quad p \in \mathbb{Z}^+
 \end{equation}
@@ -1470,8 +1459,17 @@ Generally, the negative sign in the mixing Hamiltonian is absorbed into $\beta_k
 \begin{equation}
 |\psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta})\rangle = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C} |+\rangle^{\otimes N}
 \end{equation}
-Because the eigenvalues of the Pauli-$X$ operator are $\pm 1$, the parameter $\beta_k$ strictly lies within $[0, \pi]$. Similarly, if the eigenvalues of the cost Hamiltonian are integers, the parameters $\gamma_k$ are periodic within $[0, 2\pi]$.
+Because the eigenvalues of the Pauli-$X$ operator are $\pm 1$, the parameter $\beta_k$ strictly lies within $[0, \pi]$. Similarly, if the eigenvalues of the cost Hamiltonian are integers, the parameters $\gamma_k$ are periodic within $[0, 2\pi]$. The adiabatic theorem guarantees that, at sufficient depth $p$, there exists at least one set of parameters that perfectly prepares the ground state, proving the algorithm's theoretical viability.
 
+Thus, the rigid Trotter slices transform into flexible rotation angles subject to classical optimization. Rather than blindly following the adiabatic path, a classical optimizer finds the best parameters to directly minimize the energy of the system for a given depth $p$:
+\begin{equation}
+\hat{U}(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C}, \quad p \in \mathbb{Z}^+
+\end{equation}
+Generally, the negative sign in the mixing Hamiltonian is absorbed into $\beta_k$, redefining $\hat{H}_B = \sum_{i=1}^N \sigma_i^x$. The final trial wavefunction prepared by the QAOA circuit is expressed as:
+\begin{equation}
+|\psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta})\rangle = \prod_{k=1}^p e^{-i\beta_k \hat{H}_B} e^{-i\gamma_k \hat{H}_C} |+\rangle^{\otimes N}
+\end{equation}
+Because the eigenvalues of the Pauli-$X$ operator are $\pm 1$, the parameter $\beta_k$ strictly lies within $[0, \pi]$. Similarly, if the eigenvalues of the cost Hamiltonian are integers, the parameters $\gamma_k$ are periodic within $[0, 2\pi]$. The adiabatic theorem guarantees that, at sufficient depth $p$, there exists at least one set of parameters that perfectly prepares the ground state, proving the algorithm's theoretical viability.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.8\linewidth]{General_Sections/Figures/qaoa_demonstration.png}

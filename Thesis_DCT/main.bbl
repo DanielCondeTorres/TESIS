@@ -9808,7 +9808,7 @@
       \field{pages}{4213}
       \range{pages}{1}
     \endentry
-    \entry{farhi2014quantum}{article}{}{}
+    \entry{QAOA}{misc}{}{}
       \name{author}{3}{}{%
         {{hash=5e61ee12360fc49d9013fbf8fe18db89}{%
            family={Farhi},
@@ -9834,14 +9834,26 @@
       \strng{authornamehash}{4678a579c5851929a69bc0b9a15a0a83}
       \strng{authorfullhash}{20254ebc49b7f7e3467958f0e39320cd}
       \strng{authorfullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
-      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:1411.4028}
-      \field{title}{A quantum approximate optimization algorithm}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Quantum Approximate Optimization Algorithm}
       \field{year}{2014}
+      \verb{doi}
+      \verb 10.48550/arXiv.1411.4028
+      \endverb
+      \verb{eprint}
+      \verb 1411.4028
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1411.4028
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1411.4028
+      \endverb
     \endentry
     \entry{mcclean2016theory}{article}{}{}
       \name{author}{4}{}{%
@@ -10715,6 +10727,163 @@
       \endverb
       \verb{url}
       \verb https://www.taylorfrancis.com/books/9781439822050
+      \endverb
+    \endentry
+    \entry{shake_algorithm}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3981d360e21882caf9b223a0e862fe3d}{%
+           family={Kräutler},
+           familyi={K\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c2764fa76dea50db0808261f86e0fbf9}{%
+           family={Gunsteren},
+           familyi={G\bibinitperiod},
+           given={Wilfred\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=96e2e3d04ba287dbd118b54dda8b0f00}{%
+           family={Hünenberger},
+           familyi={H\bibinitperiod},
+           given={Philippe\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a3828d1e96f0dbdc6a6dde531515dc}
+      \strng{fullhash}{9eac553210ee4555067ef71a1d234ebb}
+      \strng{fullhashraw}{9eac553210ee4555067ef71a1d234ebb}
+      \strng{bibnamehash}{9eac553210ee4555067ef71a1d234ebb}
+      \strng{authorbibnamehash}{9eac553210ee4555067ef71a1d234ebb}
+      \strng{authornamehash}{62a3828d1e96f0dbdc6a6dde531515dc}
+      \strng{authorfullhash}{9eac553210ee4555067ef71a1d234ebb}
+      \strng{authorfullhashraw}{9eac553210ee4555067ef71a1d234ebb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract A common method for the application of distance constraints in molecular simulations employing Cartesian coordinates is the SHAKE procedure for determining the Lagrange multipliers regarding the constraints. This method relies on the linearization and decoupling of the equations governing the atomic coordinate resetting corresponding to each constraint in a molecule, and is thus iterative. In the present study, we consider an alternative method, M-SHAKE, which solves the coupled equations simultaneously by matrix inversion. The performances of the two methods are compared in simulations of the pure solvents water, dimethyl sulfoxide, and chloroform. It is concluded that M-SHAKE is significantly faster than SHAKE when either (1) the molecules contain few distance constraints (solvent), or (2) when a high level of accuracy is required in the application of the constraints. © 2001 John Wiley \& Sons, Inc. J Comput Chem 22: 501–508, 2001}
+      \field{journaltitle}{Journal of Computational Chemistry}
+      \field{number}{5}
+      \field{title}{A fast SHAKE algorithm to solve distance constraint equations for small molecules in molecular dynamics simulations}
+      \field{volume}{22}
+      \field{year}{2001}
+      \field{pages}{501\bibrangedash 508}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1002/1096-987X(20010415)22:5<501::AID-JCC1021>3.0.CO;2-V
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/1096-987X%2820010415%2922%3A5%3C501%3A%3AAID-JCC1021%3E3.0.CO%3B2-V
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/1096-987X%2820010415%2922%3A5%3C501%3A%3AAID-JCC1021%3E3.0.CO%3B2-V
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/1096-987X%2820010415%2922%3A5%3C501%3A%3AAID-JCC1021%3E3.0.CO%3B2-V
+      \endverb
+      \keyw{molecular dynamics,constraints,SHAKE procedure}
+    \endentry
+    \entry{lincs_algorithm}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=cddff82b78471ae84b21c2892b99c68b}{%
+           family={Hess},
+           familyi={H\bibinitperiod},
+           given={Berk},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4c8132e86ddffa0d1c3760fe6a43f8d2}{%
+           family={Bekker},
+           familyi={B\bibinitperiod},
+           given={Henk},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0131f528b6f755e84b5897b737920cb6}{%
+           family={Berendsen},
+           familyi={B\bibinitperiod},
+           given={Herman\bibnamedelimb J.\bibnamedelimi C.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=27ec70d88d7f8e1b577029ca6c0dae38}{%
+           family={Fraaije},
+           familyi={F\bibinitperiod},
+           given={Johannes\bibnamedelimb G.\bibnamedelimi E.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2359d88b8a75fb737e318a85f1ab37a2}
+      \strng{fullhash}{a5a6cc2e7126f8e2b669246ada6365fe}
+      \strng{fullhashraw}{a5a6cc2e7126f8e2b669246ada6365fe}
+      \strng{bibnamehash}{a5a6cc2e7126f8e2b669246ada6365fe}
+      \strng{authorbibnamehash}{a5a6cc2e7126f8e2b669246ada6365fe}
+      \strng{authornamehash}{2359d88b8a75fb737e318a85f1ab37a2}
+      \strng{authorfullhash}{a5a6cc2e7126f8e2b669246ada6365fe}
+      \strng{authorfullhashraw}{a5a6cc2e7126f8e2b669246ada6365fe}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract In this article, we present a new LINear Constraint Solver (LINCS) for molecular simulations with bond constraints. The algorithm is inherently stable, as the constraints themselves are reset instead of derivatives of the constraints, thereby eliminating drift. Although the derivation of the algorithm is presented in terms of matrices, no matrix matrix multiplications are needed and only the nonzero matrix elements have to be stored, making the method useful for very large molecules. At the same accuracy, the LINCS algorithm is three to four times faster than the SHAKE algorithm. Parallelization of the algorithm is straightforward. © 1997 John Wiley \& Sons, Inc. J Comput Chem 18: 1463–1472, 1997}
+      \field{journaltitle}{Journal of Computational Chemistry}
+      \field{number}{12}
+      \field{title}{LINCS: A linear constraint solver for molecular simulations}
+      \field{volume}{18}
+      \field{year}{1997}
+      \field{pages}{1463\bibrangedash 1472}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.0.CO;2-H
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291096-987X%28199709%2918%3A12%3C1463%3A%3AAID-JCC4%3E3.0.CO%3B2-H
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291096-987X%28199709%2918%3A12%3C1463%3A%3AAID-JCC4%3E3.0.CO%3B2-H
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291096-987X%28199709%2918%3A12%3C1463%3A%3AAID-JCC4%3E3.0.CO%3B2-H
+      \endverb
+      \keyw{constraints,molecular dynamics,Langevin dynamics,SHAKE}
+    \endentry
+    \entry{settle_algorithm}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1c3d0bfc6191b504923fa4b96aa6cffa}{%
+           family={Miyamoto},
+           familyi={M\bibinitperiod},
+           given={Shuichi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5378f73a32901c9677174ecedc9fda65}{%
+           family={Kollman},
+           familyi={K\bibinitperiod},
+           given={Peter\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1935314bf0d65a72076a5adf83e159a}
+      \strng{fullhash}{f1935314bf0d65a72076a5adf83e159a}
+      \strng{fullhashraw}{f1935314bf0d65a72076a5adf83e159a}
+      \strng{bibnamehash}{f1935314bf0d65a72076a5adf83e159a}
+      \strng{authorbibnamehash}{f1935314bf0d65a72076a5adf83e159a}
+      \strng{authornamehash}{f1935314bf0d65a72076a5adf83e159a}
+      \strng{authorfullhash}{f1935314bf0d65a72076a5adf83e159a}
+      \strng{authorfullhashraw}{f1935314bf0d65a72076a5adf83e159a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract An analytical algorithm, called SETTLE, for resetting the positions and velocities to satisfy the holonomic constraints on the rigid water model is presented. This method is still based on the Cartesian coordinate system and can be used in place of SHAKE and RATTLE. We implemented this algorithm in the SPASMS package of molecular mechanics and dynamics. Several series of molecular dynamics simulations were carried out to examine the performance of the new algorithm in comparison with the original RATTLE method. It was found that SETTLE is of higher accuracy and is faster than RATTLE with reasonable tolerances by three to nine times on a scalar machine. Furthermore, the performance improvement ranged from factors of 26 to 98 on a vector machine since the method presented is not iterative. © 1992 by John Wiley \& Sons, Inc.}
+      \field{journaltitle}{Journal of Computational Chemistry}
+      \field{number}{8}
+      \field{title}{Settle: An analytical version of the SHAKE and RATTLE algorithm for rigid water models}
+      \field{volume}{13}
+      \field{year}{1992}
+      \field{pages}{952\bibrangedash 962}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1002/jcc.540130805
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.540130805
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.540130805
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.540130805
       \endverb
     \endentry
     \entry{BerendsenB}{article}{}{}
@@ -11896,8 +12065,8 @@
       \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Lecture Notes for Physics 229}
@@ -11923,8 +12092,8 @@
       \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
       \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
       \strng{authorfullhashraw}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -11961,8 +12130,8 @@
       \strng{authornamehash}{34266a35eedbd87dd79c5e408127a5e5}
       \strng{authorfullhash}{34266a35eedbd87dd79c5e408127a5e5}
       \strng{authorfullhashraw}{34266a35eedbd87dd79c5e408127a5e5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A two-dimensional quantum system with anyonic excitations can be considered as a quantum computer. Unitary transformations can be performed by moving the excitations around each other. Measurements can be performed by joining excitations in pairs and observing the result of fusion. Such computation is fault-tolerant by its physical nature.}
@@ -12016,8 +12185,8 @@
       \strng{authorfullhash}{e15edafb7cba8216e98b612d82e27522}
       \strng{authorfullhashraw}{e15edafb7cba8216e98b612d82e27522}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Quantum computing has rapidly emerged as one of the fastest-growing research domains, driven by both technological breakthroughs and the promise of computational advantages over classical systems. This study presents a comprehensive bibliometric analysis of the global quantum computing literature from 1980 to 2025, comprising 31,662 publications indexed in Scopus and accumulating over 800,000 citations. Using advanced bibliometric techniques—including co-authorship mapping, keyword co-occurrence networks, co-citation analysis, and centrality measures—we characterize publication trends, institutional contributions, collaborative structures, and thematic evolution across the field. The results reveal exponential growth in output since 2015, led primarily by the United States, China, and Europe, with key institutions such as MIT, the Chinese Academy of Sciences, CNRS, and the University of Waterloo at the forefront. The intellectual structure exhibits a dual-core configuration, with foundational algorithmic work (e.g. Shor, Grover, Nielsen \& Chuang) tightly connected to emerging NISQ-era applications such as quantum machine learning, cryptography, and hybrid algorithms. Keyword analysis reveals the progressive expansion from core quantum algorithms toward increasingly diverse applied domains in healthcare, finance, chemistry, energy, and climate modeling. Public funding bodies (e.g. NSFC, NSF, European Commission, DOE, DoD, MoST) and private-sector investment from major technology firms are jointly driving this translational acceleration. Together, these findings provide an integrated quantitative map of the field’s evolution, offering valuable insight for future scientific policy, international collaboration, and strategic funding initiatives.}
@@ -12168,51 +12337,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1038/ncomms5213
-      \endverb
-    \endentry
-    \entry{QAOA}{misc}{}{}
-      \name{author}{3}{}{%
-        {{hash=5e61ee12360fc49d9013fbf8fe18db89}{%
-           family={Farhi},
-           familyi={F\bibinitperiod},
-           given={Edward},
-           giveni={E\bibinitperiod}}}%
-        {{hash=f2e6b451475e084ec5469a7bd9c9c6cf}{%
-           family={Goldstone},
-           familyi={G\bibinitperiod},
-           given={Jeffrey},
-           giveni={J\bibinitperiod}}}%
-        {{hash=39d938c535d4f5974b7e118bfc075b2f}{%
-           family={Gutmann},
-           familyi={G\bibinitperiod},
-           given={Sam},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{4678a579c5851929a69bc0b9a15a0a83}
-      \strng{fullhash}{20254ebc49b7f7e3467958f0e39320cd}
-      \strng{fullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
-      \strng{bibnamehash}{20254ebc49b7f7e3467958f0e39320cd}
-      \strng{authorbibnamehash}{20254ebc49b7f7e3467958f0e39320cd}
-      \strng{authornamehash}{4678a579c5851929a69bc0b9a15a0a83}
-      \strng{authorfullhash}{20254ebc49b7f7e3467958f0e39320cd}
-      \strng{authorfullhashraw}{20254ebc49b7f7e3467958f0e39320cd}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{quant-ph}
-      \field{eprinttype}{arXiv}
-      \field{title}{A Quantum Approximate Optimization Algorithm}
-      \field{year}{2014}
-      \verb{eprint}
-      \verb 1411.4028
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/1411.4028
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/1411.4028
       \endverb
     \endentry
     \entry{trapped_ions}{article}{}{}
@@ -13036,6 +13160,816 @@
       \verb https://doi.org/10.1038/s42254-021-00348-9
       \endverb
     \endentry
+    \entry{COBYLA}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=15643444aed9bbb3d150d9895b848437}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi J.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=c27d9ed473338a5575aa0be7cef77205}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Susana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d49d181b4bf2ffff760749faec0adc56}{%
+           family={Hennart},
+           familyi={H\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{15643444aed9bbb3d150d9895b848437}
+      \strng{fullhash}{15643444aed9bbb3d150d9895b848437}
+      \strng{fullhashraw}{15643444aed9bbb3d150d9895b848437}
+      \strng{bibnamehash}{15643444aed9bbb3d150d9895b848437}
+      \strng{authorbibnamehash}{15643444aed9bbb3d150d9895b848437}
+      \strng{authornamehash}{15643444aed9bbb3d150d9895b848437}
+      \strng{authorfullhash}{15643444aed9bbb3d150d9895b848437}
+      \strng{authorfullhashraw}{15643444aed9bbb3d150d9895b848437}
+      \strng{editorbibnamehash}{d6cf89a51c417f1656d00c71cf1a0920}
+      \strng{editornamehash}{d6cf89a51c417f1656d00c71cf1a0920}
+      \strng{editorfullhash}{d6cf89a51c417f1656d00c71cf1a0920}
+      \strng{editorfullhashraw}{d6cf89a51c417f1656d00c71cf1a0920}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An iterative algorithm is proposed for nonlinearly constrained optimization calculations when there are no derivatives. Each iteration forms linear approximations to the objective and constraint functions by interpolation at the vertices of a simplex and a trust region bound restricts each change to the variables. Thus a new vector of variables is calculated, which may replace one of the current vertices, either to improve the shape of the simplex or because it is the best vector that has been found so far, according to a merit function that gives attention to the greatest constraint violation. The trust region radius $\rho$ is never increased, and it is reduced when the approximations of a well-conditioned simplex fail to yield an improvement to the variables, until $\rho$ reaches a prescribed value that controls the final accuracy. Some convergence properties and several numerical results are given, but there are no more than 9 variables in these calculations because linear approximations can be highly inefficient. Nevertheless, the algorithm is easy to use for small numbers of variables.}
+      \field{booktitle}{Advances in Optimization and Numerical Analysis}
+      \field{isbn}{978-94-015-8330-5}
+      \field{title}{A Direct Search Optimization Method That Models the Objective and Constraint Functions by Linear Interpolation}
+      \field{year}{1994}
+      \field{pages}{51\bibrangedash 67}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/978-94-015-8330-5_4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-94-015-8330-5_4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-94-015-8330-5_4
+      \endverb
+    \endentry
+    \entry{SPSA}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6e748691c60061283df24122d0e5eb60}{%
+           family={Spall},
+           familyi={S\bibinitperiod},
+           given={J.C.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e748691c60061283df24122d0e5eb60}
+      \strng{fullhash}{6e748691c60061283df24122d0e5eb60}
+      \strng{fullhashraw}{6e748691c60061283df24122d0e5eb60}
+      \strng{bibnamehash}{6e748691c60061283df24122d0e5eb60}
+      \strng{authorbibnamehash}{6e748691c60061283df24122d0e5eb60}
+      \strng{authornamehash}{6e748691c60061283df24122d0e5eb60}
+      \strng{authorfullhash}{6e748691c60061283df24122d0e5eb60}
+      \strng{authorfullhashraw}{6e748691c60061283df24122d0e5eb60}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{number}{3}
+      \field{title}{Multivariate stochastic approximation using a simultaneous perturbation gradient approximation}
+      \field{volume}{37}
+      \field{year}{1992}
+      \field{pages}{332\bibrangedash 341}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/9.119632
+      \endverb
+      \keyw{Stochastic processes;Finite difference methods;Approximation algorithms;Q measurement;Convergence;Adaptive control;Design for experiments;Neural networks;Differential equations;Acceleration}
+    \endentry
+    \entry{DE}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=87ff7bd4305b95a067c44bc7243d8128}{%
+           family={Storn},
+           familyi={S\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=96e607982973d9cb076455039a368fa5}{%
+           family={Price},
+           familyi={P\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5dfb836e07d40eb2d1cef5fbe8334415}
+      \strng{fullhash}{5dfb836e07d40eb2d1cef5fbe8334415}
+      \strng{fullhashraw}{5dfb836e07d40eb2d1cef5fbe8334415}
+      \strng{bibnamehash}{5dfb836e07d40eb2d1cef5fbe8334415}
+      \strng{authorbibnamehash}{5dfb836e07d40eb2d1cef5fbe8334415}
+      \strng{authornamehash}{5dfb836e07d40eb2d1cef5fbe8334415}
+      \strng{authorfullhash}{5dfb836e07d40eb2d1cef5fbe8334415}
+      \strng{authorfullhashraw}{5dfb836e07d40eb2d1cef5fbe8334415}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new heuristic approach for minimizing possibly nonlinear and non-differentiable continuous space functions is presented. By means of an extensive testbed it is demonstrated that the new method converges faster and with more certainty than many other acclaimed global optimization methods. The new method requires few control variables, is robust, easy to use, and lends itself very well to parallel computation.}
+      \field{issn}{1573-2916}
+      \field{journaltitle}{Journal of Global Optimization}
+      \field{number}{4}
+      \field{title}{Differential Evolution -- A Simple and Efficient Heuristic for global Optimization over Continuous Spaces}
+      \field{volume}{11}
+      \field{year}{1997}
+      \field{pages}{341\bibrangedash 359}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1023/A:1008202821328
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/A:1008202821328
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1008202821328
+      \endverb
+    \endentry
+    \entry{qubo_2}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=dc17e11972df8b60f2996162604f37ac}{%
+           family={Glover},
+           familyi={G\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8b18a12fbfd4d6b723ee9360d0482f72}{%
+           family={Kochenberger},
+           familyi={K\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2574d6df17b717937de799574005bb14}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4808e0de995258a401c1ed9f7e8e209}
+      \strng{fullhash}{870cc9857b0eca3aafabdd73a2088a27}
+      \strng{fullhashraw}{870cc9857b0eca3aafabdd73a2088a27}
+      \strng{bibnamehash}{870cc9857b0eca3aafabdd73a2088a27}
+      \strng{authorbibnamehash}{870cc9857b0eca3aafabdd73a2088a27}
+      \strng{authornamehash}{f4808e0de995258a401c1ed9f7e8e209}
+      \strng{authorfullhash}{870cc9857b0eca3aafabdd73a2088a27}
+      \strng{authorfullhashraw}{870cc9857b0eca3aafabdd73a2088a27}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.DS}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Tutorial on Formulating and Using QUBO Models}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1811.11538
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1811.11538
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1811.11538
+      \endverb
+    \endentry
+    \entry{qubo_1}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c24283f2760f25196eeb40788d2733b1}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c24283f2760f25196eeb40788d2733b1}
+      \strng{fullhash}{c24283f2760f25196eeb40788d2733b1}
+      \strng{fullhashraw}{c24283f2760f25196eeb40788d2733b1}
+      \strng{bibnamehash}{c24283f2760f25196eeb40788d2733b1}
+      \strng{authorbibnamehash}{c24283f2760f25196eeb40788d2733b1}
+      \strng{authornamehash}{c24283f2760f25196eeb40788d2733b1}
+      \strng{authorfullhash}{c24283f2760f25196eeb40788d2733b1}
+      \strng{authorfullhashraw}{c24283f2760f25196eeb40788d2733b1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We provide Ising formulations for many NP-complete and NP-hard problems, including all of Karp's 21 NP-complete problems. This collects and extends mappings to the Ising model from partitioning, covering and satisfiability. In each case, the required number of spins is at most cubic in the size of the problem. This work may be useful in designing adiabatic quantum optimization algorithms.}
+      \field{issn}{2296-424X}
+      \field{journaltitle}{Frontiers in Physics}
+      \field{title}{Ising formulations of many NP problems}
+      \field{volume}{Volume 2 - 2014}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.3389/fphy.2014.00005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2014.00005
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2014.00005
+      \endverb
+    \endentry
+    \entry{max_cut_np_hard}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=5290385c419686f6312edeb3578dc9cf}{%
+           family={Karp},
+           familyi={K\bibinitperiod},
+           given={Richard\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \name{editor}{8}{}{%
+        {{hash=01169310249847156f664ba0d45a28d2}{%
+           family={Jünger},
+           familyi={J\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=29aca66650eb29fd2d880a5891568e60}{%
+           family={Liebling},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b124ab9b7bf97ce2d7bddf44a6cd32a0}{%
+           family={Naddef},
+           familyi={N\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=151b280703f96e0cfa3f018c0c2ae0f9}{%
+           family={Nemhauser},
+           familyi={N\bibinitperiod},
+           given={George\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d75be11806f3c77f6e8b5bea79835f86}{%
+           family={Pulleyblank},
+           familyi={P\bibinitperiod},
+           given={William\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=38b844c9f4a823467f2581c274534664}{%
+           family={Reinelt},
+           familyi={R\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e8401634f5e7a6782d15bb5bb9f8206b}{%
+           family={Rinaldi},
+           familyi={R\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=85dba919fdceaad20b2b4009570310cc}{%
+           family={Wolsey},
+           familyi={W\bibinitperiod},
+           given={Laurence\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{5290385c419686f6312edeb3578dc9cf}
+      \strng{fullhash}{5290385c419686f6312edeb3578dc9cf}
+      \strng{fullhashraw}{5290385c419686f6312edeb3578dc9cf}
+      \strng{bibnamehash}{5290385c419686f6312edeb3578dc9cf}
+      \strng{authorbibnamehash}{5290385c419686f6312edeb3578dc9cf}
+      \strng{authornamehash}{5290385c419686f6312edeb3578dc9cf}
+      \strng{authorfullhash}{5290385c419686f6312edeb3578dc9cf}
+      \strng{authorfullhashraw}{5290385c419686f6312edeb3578dc9cf}
+      \strng{editorbibnamehash}{f14eb3c0aa0c641d4cfc2eaf2395fb62}
+      \strng{editornamehash}{de8a597df7e604da5fe6ea58760bd84c}
+      \strng{editorfullhash}{f14eb3c0aa0c641d4cfc2eaf2395fb62}
+      \strng{editorfullhashraw}{f14eb3c0aa0c641d4cfc2eaf2395fb62}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Throughout the 1960s I worked on combinatorial optimization problems including logic circuit design with Paul Roth and assembly line balancing and the traveling salesman problem with Mike Held. These experiences made me aware that seemingly simple discrete optimization problems could hold the seeds of combinatorial explosions. The work of Dantzig, Fulkerson, Hoffman, Edmonds, Lawler and other pioneers on network flows, matching and matroids acquainted me with the elegant and efficient algorithms that were sometimes possible. Jack Edmonds' papers and a few key discussions with him drew my attention to the crucial distinction between polynomial-time and superpolynomial-time solvability. I was also influenced by Jack's emphasis on min-max theorems as a tool for fast verification of optimal solutions, which foreshadowed Steve Cook's definition of the complexity class NP. Another influence was George Dantzig's suggestion that integer programming could serve as a universal format for combinatorial optimization problems.}
+      \field{booktitle}{50 Years of Integer Programming 1958-2008: From the Early Years to the State-of-the-Art}
+      \field{isbn}{978-3-540-68279-0}
+      \field{title}{Reducibility Among Combinatorial Problems}
+      \field{year}{2010}
+      \field{pages}{219\bibrangedash 241}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/978-3-540-68279-0_8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-540-68279-0_8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-540-68279-0_8
+      \endverb
+    \endentry
+    \entry{cvar_1}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=18de24308c36b3348b1477a2f7aa442f}{%
+           family={Rockafellar},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi Tyrrell},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=75a8a2346ba45ae5110aa302b89a30c7}{%
+           family={Uryasev},
+           familyi={U\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{fullhash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{fullhashraw}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{bibnamehash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{authorbibnamehash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{authornamehash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{authorfullhash}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \strng{authorfullhashraw}{d7d7df1ff728c2fe07554ddd8bb41c56}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Risk}
+      \field{title}{Optimization of conditional value-at-risk}
+      \field{volume}{2}
+      \field{year}{2000}
+      \field{pages}{21\bibrangedash 41}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.21314/jor.2000.038
+      \endverb
+    \endentry
+    \entry{cvar_2}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=a3f8ff2970ae140727e2236951fea9c9}{%
+           family={Barkoutsos},
+           familyi={B\bibinitperiod},
+           given={Panagiotis\bibnamedelima Kl.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=1ccb72a0277d1c46e408c20097b5e865}{%
+           family={Nannicini},
+           familyi={N\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=aad7e7b0b68f7c3b1d0f268982013109}{%
+           family={Robert},
+           familyi={R\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+        {{hash=45d1289800b8218091acef2735bca88d}{%
+           family={Tavernelli},
+           familyi={T\bibinitperiod},
+           given={Ivano},
+           giveni={I\bibinitperiod}}}%
+        {{hash=43697d55280b4841e685e5008d047e19}{%
+           family={Woerner},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Verein zur Förderung des Open Access Publizierens in den Quantenwissenschaften}%
+      }
+      \strng{namehash}{cf49c6d1f2dbcd6722910b744d0c7e48}
+      \strng{fullhash}{9f1fdc812b4b5e404e08cb10cbaecab2}
+      \strng{fullhashraw}{9f1fdc812b4b5e404e08cb10cbaecab2}
+      \strng{bibnamehash}{9f1fdc812b4b5e404e08cb10cbaecab2}
+      \strng{authorbibnamehash}{9f1fdc812b4b5e404e08cb10cbaecab2}
+      \strng{authornamehash}{cf49c6d1f2dbcd6722910b744d0c7e48}
+      \strng{authorfullhash}{9f1fdc812b4b5e404e08cb10cbaecab2}
+      \strng{authorfullhashraw}{9f1fdc812b4b5e404e08cb10cbaecab2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2521-327X}
+      \field{journaltitle}{{Quantum}}
+      \field{month}{4}
+      \field{title}{Improving {V}ariational {Q}uantum {O}ptimization using {CV}a{R}}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{pages}{256}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.22331/q-2020-04-20-256
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.22331/q-2020-04-20-256
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.22331/q-2020-04-20-256
+      \endverb
+    \endentry
+    \entry{Failde2023}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=503dae5306e6b25899a68bf89f34595b}{%
+           family={Faílde},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f43766c5fadc31aa698c5b1a5e328a1b}{%
+           family={Viqueira},
+           familyi={V\bibinitperiod},
+           given={José\bibnamedelima Daniel},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=a01dc6fa8b8fc4624c5e550f15796833}{%
+           family={Mussa\bibnamedelima Juane},
+           familyi={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Mariamo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1a405fe996ced74d1d6d7065f6dd4a3a}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={Andrés},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{921fd76cc869350b55071c10ff77a2d9}
+      \strng{fullhash}{40773b5bf0ccf3df83807e15bc4546a7}
+      \strng{fullhashraw}{40773b5bf0ccf3df83807e15bc4546a7}
+      \strng{bibnamehash}{40773b5bf0ccf3df83807e15bc4546a7}
+      \strng{authorbibnamehash}{40773b5bf0ccf3df83807e15bc4546a7}
+      \strng{authornamehash}{921fd76cc869350b55071c10ff77a2d9}
+      \strng{authorfullhash}{40773b5bf0ccf3df83807e15bc4546a7}
+      \strng{authorfullhashraw}{40773b5bf0ccf3df83807e15bc4546a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{Using Differential Evolution to avoid local minima in Variational Quantum Algorithms}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{16230}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-023-43404-3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41598-023-43404-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41598-023-43404-3
+      \endverb
+    \endentry
+    \entry{Kandala2017}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=9705aa9039b085b4ba6158e898c83dea}{%
+           family={Kandala},
+           familyi={K\bibinitperiod},
+           given={Abhinav},
+           giveni={A\bibinitperiod}}}%
+        {{hash=74d05fb977698256fa6985ec3e6c490b}{%
+           family={Mezzacapo},
+           familyi={M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=68b8d929f9cb9fea3f1f9991863a6439}{%
+           family={Temme},
+           familyi={T\bibinitperiod},
+           given={Kristan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=12bbdc8bbfdbcde0e066c6c763ccc6f3}{%
+           family={Takita},
+           familyi={T\bibinitperiod},
+           given={Maika},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c82fb7acc2d468771049e8f29337546b}{%
+           family={Brink},
+           familyi={B\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c18a761c9acda3b5e83d9e596c195028}{%
+           family={Chow},
+           familyi={C\bibinitperiod},
+           given={Jerry\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=13ffee31f58f6a53a6d6969d093862dc}{%
+           family={Gambetta},
+           familyi={G\bibinitperiod},
+           given={Jay\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{22c5656abc9a38240178946ae849ba73}
+      \strng{fullhash}{74a72cd030c2cd235aefee834a52bbbc}
+      \strng{fullhashraw}{74a72cd030c2cd235aefee834a52bbbc}
+      \strng{bibnamehash}{74a72cd030c2cd235aefee834a52bbbc}
+      \strng{authorbibnamehash}{74a72cd030c2cd235aefee834a52bbbc}
+      \strng{authornamehash}{22c5656abc9a38240178946ae849ba73}
+      \strng{authorfullhash}{74a72cd030c2cd235aefee834a52bbbc}
+      \strng{authorfullhashraw}{74a72cd030c2cd235aefee834a52bbbc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{9}
+      \field{number}{7671}
+      \field{title}{Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets}
+      \field{volume}{549}
+      \field{year}{2017}
+      \field{pages}{242\bibrangedash 246}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nature23879
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nature23879
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nature23879
+      \endverb
+    \endentry
+    \entry{DE_2}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=3fc02af79aa3874f1187fcdbcadac0a2}{%
+           family={Tasoulis},
+           familyi={T\bibinitperiod},
+           given={Dimitris\bibnamedelima K},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=84f846feae2d2f443b108590d3db843f}{%
+           family={Pavlidis},
+           familyi={P\bibinitperiod},
+           given={Nicos\bibnamedelima G},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=88bb9baf250e3a4f24fdabc79b1ec07a}{%
+           family={Plagianakos},
+           familyi={P\bibinitperiod},
+           given={Vassilis\bibnamedelima P},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=ea5b1f7a311b849208f2c217a6d78850}{%
+           family={Vrahatis},
+           familyi={V\bibinitperiod},
+           given={Michael\bibnamedelima N},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8a7231e72807e298901bf3979e06997}
+      \strng{fullhash}{8e308c0e93a0ef178578e076931cff22}
+      \strng{fullhashraw}{8e308c0e93a0ef178578e076931cff22}
+      \strng{bibnamehash}{8e308c0e93a0ef178578e076931cff22}
+      \strng{authorbibnamehash}{8e308c0e93a0ef178578e076931cff22}
+      \strng{authornamehash}{c8a7231e72807e298901bf3979e06997}
+      \strng{authorfullhash}{8e308c0e93a0ef178578e076931cff22}
+      \strng{authorfullhashraw}{8e308c0e93a0ef178578e076931cff22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Congress on Evolutionary Computation}
+      \field{title}{Parallel differential evolution.}
+      \field{year}{2004}
+      \field{pages}{2023\bibrangedash 2029}
+      \range{pages}{7}
+    \endentry
+    \entry{error_mitigation_1}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=f308862bfccbed9eb73f6e004737420c}{%
+           family={Krantz},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7dae605741f427baa846f1920689e9f2}{%
+           family={Kjaergaard},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=31f1bace77becf25e2a49f3da0549988}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e2f2f5c111eac0b6b16341d29977a91e}{%
+           family={Orlando},
+           familyi={O\bibinitperiod},
+           given={T.\bibnamedelimi P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=2c90b19b0a5bb571e1cc70a54ce2d144}{%
+           family={Gustavsson},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=08396afedfdaeea2c74d31d11a5dd05b}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={W.\bibnamedelimi D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b97980b334f46171ec31f19842a90e7}
+      \strng{fullhash}{073fda5b41bc9649e5d2251fcbac3c72}
+      \strng{fullhashraw}{073fda5b41bc9649e5d2251fcbac3c72}
+      \strng{bibnamehash}{073fda5b41bc9649e5d2251fcbac3c72}
+      \strng{authorbibnamehash}{073fda5b41bc9649e5d2251fcbac3c72}
+      \strng{authornamehash}{1b97980b334f46171ec31f19842a90e7}
+      \strng{authorfullhash}{073fda5b41bc9649e5d2251fcbac3c72}
+      \strng{authorfullhashraw}{073fda5b41bc9649e5d2251fcbac3c72}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of this review is to provide quantum engineers with an introductory guide to the central concepts and challenges in the rapidly accelerating field of superconducting quantum circuits. Over the past twenty years, the field has matured from a predominantly basic research endeavor to a one that increasingly explores the engineering of larger-scale superconducting quantum systems. Here, we review several foundational elements—qubit design, noise properties, qubit control, and readout techniques—developed during this period, bridging fundamental concepts in circuit quantum electrodynamics and contemporary, state-of-the-art applications in gate-model quantum computation.}
+      \field{issn}{1931-9401}
+      \field{journaltitle}{Applied Physics Reviews}
+      \field{month}{06}
+      \field{number}{2}
+      \field{title}{A quantum engineer's guide to superconducting qubits}
+      \field{volume}{6}
+      \field{year}{2019}
+      \field{pages}{021318}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5089550
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/apr/article-pdf/doi/10.1063/1.5089550/20722375/021318_1_1.5089550.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.5089550
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.5089550
+      \endverb
+    \endentry
+    \entry{error_mitigation_2}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=8ea41cf3838b8cbd7dfef5c651f8c244}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Zhenyu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7bb1dcf8a93d1ecc6f9531ece93ef1fa}{%
+           family={Babbush},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b10a34e16a501939634880eade0cec5e}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Simon\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c3acfc5e323c389790b828fbf6955f09}{%
+           family={Endo},
+           familyi={E\bibinitperiod},
+           given={Suguru},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7fa5a969d13c5644cd314c51cd157fe0}{%
+           family={Huggins},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=96641b60b95eb223b3df53d9263f63ff}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a253ddc1c4c24cde70238bd45dc9aeff}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Jarrod\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=cb3e30e7e7df4228662c8810b3c2f7e2}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Thomas\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{a32660eaf72520125ddcf1e6b804773d}
+      \strng{fullhash}{0f6d1e91fe2eee905995c26dc4f89009}
+      \strng{fullhashraw}{0f6d1e91fe2eee905995c26dc4f89009}
+      \strng{bibnamehash}{0f6d1e91fe2eee905995c26dc4f89009}
+      \strng{authorbibnamehash}{0f6d1e91fe2eee905995c26dc4f89009}
+      \strng{authornamehash}{a32660eaf72520125ddcf1e6b804773d}
+      \strng{authorfullhash}{0f6d1e91fe2eee905995c26dc4f89009}
+      \strng{authorfullhashraw}{0f6d1e91fe2eee905995c26dc4f89009}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{12}
+      \field{title}{Quantum error mitigation}
+      \field{volume}{95}
+      \field{year}{2023}
+      \field{pages}{045005}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.95.045005
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.95.045005
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.95.045005
+      \endverb
+    \endentry
+    \entry{error_mitigation_3}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=68b8d929f9cb9fea3f1f9991863a6439}{%
+           family={Temme},
+           familyi={T\bibinitperiod},
+           given={Kristan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=964ccce884d5c27e980e285b18d587cd}{%
+           family={Bravyi},
+           familyi={B\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=13ffee31f58f6a53a6d6969d093862dc}{%
+           family={Gambetta},
+           familyi={G\bibinitperiod},
+           given={Jay\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0b19a357a06f6d72e45eb2c60af0ccab}
+      \strng{fullhash}{a2c91cfd872119f9b16ea3b6e227462e}
+      \strng{fullhashraw}{a2c91cfd872119f9b16ea3b6e227462e}
+      \strng{bibnamehash}{a2c91cfd872119f9b16ea3b6e227462e}
+      \strng{authorbibnamehash}{a2c91cfd872119f9b16ea3b6e227462e}
+      \strng{authornamehash}{0b19a357a06f6d72e45eb2c60af0ccab}
+      \strng{authorfullhash}{a2c91cfd872119f9b16ea3b6e227462e}
+      \strng{authorfullhashraw}{a2c91cfd872119f9b16ea3b6e227462e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{18}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Error Mitigation for Short-Depth Quantum Circuits}
+      \field{volume}{119}
+      \field{year}{2017}
+      \field{pages}{180509}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.119.180509
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.119.180509
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.119.180509
+      \endverb
+    \endentry
+    \entry{error_mitigation_4}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ed9d3c6b0f9e07396e64ecc499af588d}{%
+           family={Maciejewski},
+           familyi={M\bibinitperiod},
+           given={Filip\bibnamedelima B.},
+           giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=f8e9ad18555131765553f3f5b7ad640f}{%
+           family={Zimborás},
+           familyi={Z\bibinitperiod},
+           given={Zoltán},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f628e02fd63969ce772d74681d78b0ff}{%
+           family={Oszmaniec},
+           familyi={O\bibinitperiod},
+           given={Micha{ł}},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Verein zur Förderung des Open Access Publizierens in den Quantenwissenschaften}%
+      }
+      \strng{namehash}{0a408d37dcaf49cbcbc4dc4ea1981016}
+      \strng{fullhash}{c9f4d67acc7a5a15849ead622b9c94f2}
+      \strng{fullhashraw}{c9f4d67acc7a5a15849ead622b9c94f2}
+      \strng{bibnamehash}{c9f4d67acc7a5a15849ead622b9c94f2}
+      \strng{authorbibnamehash}{c9f4d67acc7a5a15849ead622b9c94f2}
+      \strng{authornamehash}{0a408d37dcaf49cbcbc4dc4ea1981016}
+      \strng{authorfullhash}{c9f4d67acc7a5a15849ead622b9c94f2}
+      \strng{authorfullhashraw}{c9f4d67acc7a5a15849ead622b9c94f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2521-327X}
+      \field{journaltitle}{{Quantum}}
+      \field{month}{4}
+      \field{title}{Mitigation of readout noise in near-term quantum devices by classical post-processing based on detector tomography}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{pages}{257}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.22331/q-2020-04-24-257
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.22331/q-2020-04-24-257
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.22331/q-2020-04-24-257
+      \endverb
+    \endentry
     \entry{DANI_LIPIDOS}{article}{}{}
       \name{author}{8}{}{%
         {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
@@ -13107,6 +14041,85 @@
       \verb{url}
       \verb https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779
       \endverb
+    \endentry
+    \entry{SUPEPMEM}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=0725024db27a38a8770fa693c59f0182}{%
+           family={Suarez-Leston},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Fabián},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d42a1d6812b0a8a1c9f81430da15f5cd}{%
+           family={Calvelo},
+           familyi={C\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=07aa9bb663430b24bd67d184fb2aa4cf}{%
+           family={Tolufashe},
+           familyi={T\bibinitperiod},
+           given={Gideon\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=29a9c0d4aa200ee02ab97546c35fa1b1}{%
+           family={Muñoz},
+           familyi={M\bibinitperiod},
+           given={Alicia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cb92e92a729cccb6a815f47fd565583d}{%
+           family={Veleiro},
+           familyi={V\bibinitperiod},
+           given={Uxía},
+           giveni={U\bibinitperiod}}}%
+        {{hash=7293b472839107079fa99d613fea867a}{%
+           family={Porto},
+           familyi={P\bibinitperiod},
+           given={César},
+           giveni={C\bibinitperiod}}}%
+        {{hash=63f42968d63756558d8603ba5d95c126}{%
+           family={Bastos},
+           familyi={B\bibinitperiod},
+           given={Margarida},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=a2a353207d6538894c649b665d69f8ec}{%
+           family={Garcia-Fandino},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{230ce636389311b4bd303cf8eff65885}
+      \strng{fullhash}{585000d12f268e5828ea8850aa1ddcf3}
+      \strng{fullhashraw}{585000d12f268e5828ea8850aa1ddcf3}
+      \strng{bibnamehash}{585000d12f268e5828ea8850aa1ddcf3}
+      \strng{authorbibnamehash}{585000d12f268e5828ea8850aa1ddcf3}
+      \strng{authornamehash}{230ce636389311b4bd303cf8eff65885}
+      \strng{authorfullhash}{585000d12f268e5828ea8850aa1ddcf3}
+      \strng{authorfullhashraw}{585000d12f268e5828ea8850aa1ddcf3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Host defense peptides (HDPs) are short cationic peptides that play a key role in the innate immune response of all living organisms. Their action mechanism does not depend on the presence of protein receptors, but on their ability to target and disrupt the membranes of a wide range of pathogenic and pathologic cells which are recognized by their specific compositions, typically with a relatively high concentration of anionic lipids. Lipid profile singularities have been found in cancer, inflammation, bacteria, viral infections, and even in senescent cells, enabling the possibility to use them as therapeutic targets and/or diagnostic biomarkers. Molecular dynamics (MD) simulations are extraordinarily well suited to explore how HDPs interact with membrane models, providing a large amount of qualitative and quantitative information that, nowadays, cannot be assessed by wet-lab methods at the same level of temporal and spatial resolution. Here, we present SuPepMem, an open-access repository containing MD simulations of different natural and artificial peptides with potential membrane lysis activity, interacting with membrane models of healthy mammal, bacteria, viruses, cancer or senescent cells. In addition to a description of the HDPs and the target systems, SuPepMem provides both the input files necessary to run the simulations and also the results of some selected analyses, including structural and MD-based quantitative descriptors. These descriptors are expected to be useful to train machine learning algorithms that could contribute to design new therapeutic peptides. Tools for comparative analysis between different HDPs and model membranes, as well as to restrict the queries to structural and time-averaged properties are also available. SuPepMem is a living project, that will continuously grow with more simulations including peptides of different sequences, MD simulations with different number of peptide units, more membrane models and also several resolution levels. The database is open to MD simulations from other users (after quality check by the SuPepMem team). SuPepMem is freely available under https://supepmem.com/.}
+      \field{issn}{2001-0370}
+      \field{journaltitle}{Computational and Structural Biotechnology Journal}
+      \field{title}{SuPepMem: A database of innate immune system peptides and their cell membrane interactions}
+      \field{volume}{20}
+      \field{year}{2022}
+      \field{pages}{874\bibrangedash 881}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.csbj.2022.01.025
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2001037022000320
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2001037022000320
+      \endverb
+      \keyw{Host defense peptides,Antimicrobial peptides,Membrane,Innate immune system,Molecular dynamics simulations,Database,Machine learning}
     \endentry
     \entry{martini3}{article}{}{}
       \name{author}{26}{}{%
@@ -13274,6 +14287,56 @@
       \verb https://www.nature.com/articles/s41592-021-01098-3
       \endverb
     \endentry
+    \entry{paper_alfonso}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ead79284dd93e4ad2552a8c355f9f171}{%
+           family={Cabezón},
+           familyi={C\bibinitperiod},
+           given={Alfonso},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a2a353207d6538894c649b665d69f8ec}{%
+           family={Garcia-Fandino},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{e2fd42316fe753b1ad4604a7f34809ff}
+      \strng{fullhash}{da196d56b36bb2e2c4ffa17e7718b378}
+      \strng{fullhashraw}{da196d56b36bb2e2c4ffa17e7718b378}
+      \strng{bibnamehash}{da196d56b36bb2e2c4ffa17e7718b378}
+      \strng{authorbibnamehash}{da196d56b36bb2e2c4ffa17e7718b378}
+      \strng{authornamehash}{e2fd42316fe753b1ad4604a7f34809ff}
+      \strng{authorfullhash}{da196d56b36bb2e2c4ffa17e7718b378}
+      \strng{authorfullhashraw}{da196d56b36bb2e2c4ffa17e7718b378}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical Theory and Computation}
+      \field{number}{11}
+      \field{title}{{MA(R/S)TINI 3: An Enhanced Coarse-Grained Force Field for Accurate Modeling of Cyclic Peptide Self-Assembly and Membrane Interactions}}
+      \field{volume}{21}
+      \field{year}{2025}
+      \field{pages}{5724\bibrangedash 5735}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1021/acs.jctc.5c00126
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.jctc.5c00126
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.jctc.5c00126
+      \endverb
+    \endentry
     \entry{DANI_METADINAMICA}{article}{}{}
       \name{author}{5}{}{%
         {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
@@ -13398,6 +14461,235 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
       \endverb
       \keyw{Antimicrobial peptides,Quantum computing,Lipid membranes,Interface,Peptide folding}
+    \endentry
+    \entry{DANI_HAMILTONIAN}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
+           family={Conde-Torres},
+           familyi={C\bibinithyphendelim T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=89173c6cc73e6a66e3314aab41131d3d}{%
+           family={García-Fandiño},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{fullhash}{0d6fe2991fc17fe9bf49a3c429044d2c}
+      \strng{fullhashraw}{0d6fe2991fc17fe9bf49a3c429044d2c}
+      \strng{bibnamehash}{0d6fe2991fc17fe9bf49a3c429044d2c}
+      \strng{authorbibnamehash}{0d6fe2991fc17fe9bf49a3c429044d2c}
+      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{authorfullhash}{0d6fe2991fc17fe9bf49a3c429044d2c}
+      \strng{authorfullhashraw}{0d6fe2991fc17fe9bf49a3c429044d2c}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Designing peptide sequences that remain stable and selective across heterogeneous environments remains a central challenge in biomolecular modeling. Here we introduce an interpretable, physics-based Hamiltonian for environment-conditioned design of α-helical peptide sequences. The model integrates helix propensities, pairwise interactions, electrostatics, anisotropic solvent exposure, and interfacial geometry into a unified energy function. To enable comparison across sequence lengths and environments, all contributions are rescaled and expressed as Z-scores relative to random sequence ensembles, yielding a normalized design landscape with balanced physical terms. This formulation defines a structured optimization problem that can be explored using exact, heuristic, and hybrid quantum{–} classical approaches without modification of the underlying model. The Hamiltonian recovers polar and apolar limits, discriminates experimentally characterized water-soluble and transmembrane α-helical peptide sequences, and captures the preferential stabilization of membrane-active sequences at anionic interfaces over non-functional controls. It further enables multi-objective and selective design, generating candidate sequences with tunable environmental specificity.Competing Interest StatementThe authors have declared no competing interest.Spanish Agencia Estatal de Investigacion (AEI) and ERDF, PID2022-141534OB-I00; CNS2023-144353Xunta de Galicia, ED431C 2025/15; ED431C 2021/21; ED431G 2023/03RePo-SUDOE / Interreg Sudoe Programme / ERDF, S1/1.1/P0033Ministerio de Universidades, FPU22/00636}
+      \field{journaltitle}{bioRxiv}
+      \field{title}{Environment-conditioned design of α-helical peptides}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.64898/2026.05.07.723485
+      \endverb
+      \verb{eprint}
+      \verb https://www.biorxiv.org/content/early/2026/05/08/2026.05.07.723485.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/early/2026/05/08/2026.05.07.723485
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/early/2026/05/08/2026.05.07.723485
+      \endverb
+    \endentry
+    \entry{MJ_1}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=43b4424bc0194172d4d3dcb42cdc4fea}{%
+           family={Miyazawa},
+           familyi={M\bibinitperiod},
+           given={Sanzo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77054df3b4a2543f18e6b14bdd0e74b4}{%
+           family={Jernigan},
+           familyi={J\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{fullhash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{fullhashraw}{4301d4e71b33a38579f966e1742240a0}
+      \strng{bibnamehash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{authorbibnamehash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{authornamehash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{authorfullhash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{authorfullhashraw}{4301d4e71b33a38579f966e1742240a0}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Macromolecules}
+      \field{number}{3}
+      \field{title}{Estimation of effective interresidue contact energies from protein crystal structures: quasi-chemical approximation}
+      \field{volume}{18}
+      \field{year}{1985}
+      \field{pages}{534\bibrangedash 552}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1021/ma00145a039
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ma00145a039
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ma00145a039
+      \endverb
+    \endentry
+    \entry{MJ_2}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=43b4424bc0194172d4d3dcb42cdc4fea}{%
+           family={Miyazawa},
+           familyi={M\bibinitperiod},
+           given={Sanzo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77054df3b4a2543f18e6b14bdd0e74b4}{%
+           family={Jernigan},
+           familyi={J\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{fullhash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{fullhashraw}{4301d4e71b33a38579f966e1742240a0}
+      \strng{bibnamehash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{authorbibnamehash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{authornamehash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{authorfullhash}{4301d4e71b33a38579f966e1742240a0}
+      \strng{authorfullhashraw}{4301d4e71b33a38579f966e1742240a0}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Attractive inter-residue contact energies for proteins have been re-evaluated with the same assumptions and approximations used originally by us in 1985, but with a significantly larger set of protein crystal structures. An additional repulsive packing energy term, operative at higher densities to prevent overpacking, has also been estimated for all 20 amino acids as a function of the number of contacting residues, based on their observed distributions. The two terms of opposite sign are intended to be used together to provide an estimate of the overall energies of inter-residue interactions in simplified proteins without atomic details. To overcome the problem of how to utilize the many homologous proteins in the Protein Data Bank, a new scheme has been devised to assign different weights to each protein, based on similarities among amino acid sequences. A total of 1168 protein structures containing 1661 subunit sequences are actually used here. After the sequence weights have been applied, these correspond to an effective number of residue – residue contacts of 113,914, or about six times more than were used in the old analysis. Remarkably, the new attractive contact energies are nearly identical to the old ones, except for those with Leu and the rarer amino acids Trp and Met. The largest change found for Leu is surprising. The estimates of hydrophobicity from the contact energies for non-polar side-chains agree well with the experimental values. In an application of these contact energies, the sequences of 88 structurally distinct proteins in the Protein Data Bank are threaded at all possible positions without gaps into 189 different folds of proteins whose sequences differ from each other by at least 35\% sequence identity. The native structures for 73 of 88 proteins, excluding 15 exceptional proteins such as membrane proteins, are all demonstrated to have the lowest alignment energies.}
+      \field{issn}{0022-2836}
+      \field{journaltitle}{Journal of Molecular Biology}
+      \field{number}{3}
+      \field{title}{Residue – Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading}
+      \field{volume}{256}
+      \field{year}{1996}
+      \field{pages}{623\bibrangedash 644}
+      \range{pages}{22}
+      \verb{doi}
+      \verb https://doi.org/10.1006/jmbi.1996.0114
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S002228369690114X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S002228369690114X
+      \endverb
+      \keyw{hydrophobicity,contact energy,residue packing energy,sequence threading,sequence sampling weights}
+    \endentry
+    \entry{dca}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=b4709bd7897680377ddbce8ba72c1601}{%
+           family={Morcos},
+           familyi={M\bibinitperiod},
+           given={Faruck},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e3548708c3649a85a7850fb25b4769cf}{%
+           family={Pagnani},
+           familyi={P\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0013672c5a62a6ce0b774cbb9cb96bf3}{%
+           family={Lunt},
+           familyi={L\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bf4a6551aab250d37c17b2597d6ca547}{%
+           family={Bertolino},
+           familyi={B\bibinitperiod},
+           given={Arianna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ddc4fd4e6fe0ba356b30484c4db1caa2}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Debora\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f99a580afe584be129acd1f9193dc0cd}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=43077d96c4a7dff840bc34463d1d0751}{%
+           family={Zecchina},
+           familyi={Z\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0978be651a5ef4ae2a5f3f37a57127e8}{%
+           family={Onuchic},
+           familyi={O\bibinitperiod},
+           given={José\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=51bdc3ad6579d4affe675723bc921f14}{%
+           family={Hwa},
+           familyi={H\bibinitperiod},
+           given={Terence},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1a4b731ed0062455a48ddca63f6091a3}{%
+           family={Weigt},
+           familyi={W\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa45b8cebbf46c11fa43a9281bd11c56}
+      \strng{fullhash}{ddb599a838c9a530903c959a362cd7d6}
+      \strng{fullhashraw}{ddb599a838c9a530903c959a362cd7d6}
+      \strng{bibnamehash}{ddb599a838c9a530903c959a362cd7d6}
+      \strng{authorbibnamehash}{ddb599a838c9a530903c959a362cd7d6}
+      \strng{authornamehash}{fa45b8cebbf46c11fa43a9281bd11c56}
+      \strng{authorfullhash}{ddb599a838c9a530903c959a362cd7d6}
+      \strng{authorfullhashraw}{ddb599a838c9a530903c959a362cd7d6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The similarity in the three-dimensional structures of homologous proteins imposes strong constraints on their sequence variability. It has long been suggested that the resulting correlations among amino acid compositions at different sequence positions can be exploited to infer spatial contacts within the tertiary protein structure. Crucial to this inference is the ability to disentangle direct and indirect correlations, as accomplished by the recently introduced direct-coupling analysis (DCA). Here we develop a computationally efficient implementation of DCA, which allows us to evaluate the accuracy of contact prediction by DCA for a large number of protein domains, based purely on sequence information. DCA is shown to yield a large number of correctly predicted contacts, recapitulating the global structure of the contact map for the majority of the protein domains examined. Furthermore, our analysis captures clear signals beyond intradomain residue contacts, arising, e.g., from alternative protein conformations, ligand-mediated residue couplings, and interdomain interactions in protein oligomers. Our findings suggest that contacts predicted by DCA can be used as a reliable guide to facilitate computational predictions of alternative protein conformations, protein complex formation, and even the de novo prediction of protein domain structures, contingent on the existence of a large number of homologous sequences which are being rapidly made available due to advances in genome sequencing. In this work, we have shown the ability of mfDCA to identify, with high accuracy, residue pairs in domain families and found that mfDCA is not only able to identify intradomain contacts but also interdomain residue pairs that are part of oligomerization interfaces. One potential application is the identification of interaction interfaces for homodimers that could ultimately help in predicting complex structures. Our results might open unexplored avenues of research for which full contact maps could be estimated and used as input data for de novo protein structure identification, which is particularly interesting in the case of interdomain contacts in multidomain proteins. Ultimately, this methodology can be used with pairs of proteins rather than single proteins to identify potential protein–protein interactions. The large number of contacts correctly predicted by mfDCA prompted us to explore the extent to which our method may be used to predict the contact maps of protein domains. In Fig.\&nbsp;P1C, we show the example of the eukaryotic H-Ras protein (5). The first approximately 800 mfDCA contact predictions are displayed; they include 320 nontrivial pairs, which are separated by at least five positions along the protein backbone. The predicted contact map captures very well the native contacts. Even if not all single contacts are predicted, almost all contact clusters are identified. One of the most striking features of our results obtained using DCA is how gradually the average TP rate declines with increasing direct information ranking. This observation naturally led us to explore the information lying beyond the first 10–30 DCA predictions. For instance, how many residue contacts can be predicted if a TP rate of at least 70\% is required? As can be seen in Fig.\&nbsp;P1B, this TP rate is reached on average after the top 70 DCA predictions, where one would have obtained approximately 50 true contacts on average. In extreme cases (e.g., the family of bacterial receptors called the tripartite tricarboxylate receptors), a TP rate of \&gt;\&nbsp;70\% was present for the first 600 DCA-predicted residue pairs, therefore including more than 400 native contacts. A third cause of high-scoring long-distance pairings inferred by mfDCA is observed in the metalloenzyme domain family, which binds to metal ions. It has a high-scoring residue pair, which is separated by more than 14\&nbsp;Å when mapped to the glutathione transferase FosA of Pseudomonas aeruginosa. We observed that the two residues belonging to the different subunits of this residue pair are, however, in direct contact with the manganese “Mn(II)” ion when the enzymes are paired, or in the dimer configuration. Thus, the “direct interaction” between these residues found by mfDCA is presumably mediated through their common interaction with a third agent, the metal ion in this case. A second cause of high-scoring long-distance pairs is the occurrence of alternative domain conformations. As an illustration, we examined the domain family GerE, whose members include the DNA-binding domains of a number of proteins (response regulators) in a system known as the two-component signaling system. Using the DNA-bound domain of the nitrate/nitrite response regulator NarL of E. coli, we found that all of the top 20 DCA predictions were true contacts. However, when mapping the same pairs to the structure of the inactive, full-length response regulator of the transcriptional regulatory protein DosR of Mycobacterium tuberculosis, seven pairs were found at distances \&gt;\&nbsp;8\&nbsp;Å. A comparison between these structures shows clearly that all of the long-distance pairs involve one particular position that is significantly displaced in the full-length structure, presumably due to interaction with the (unphosphorylated) regulatory domain. First, direct correlation may be due to contacts between proteins in oligomeric complexes (i.e., complexes comprising different proteins). One example is the ATPase domain of the nitrogen regulatory protein C family transcriptional activators, which act to promote the activity of RNA polymerase. Upon activation, different subunits of this domain are known to form a multiunit ring, wrapping DNA around the complex (4). Among the top 20 mfDCA-predicted contacts, three pairs appeared to be long-distance (\&gt;\&nbsp;10\&nbsp;Å) within the domain; but they all turned out to be within 5\&nbsp;Å of the closest position in an adjacent subunit of the ring structure. More globally, out of the 131 studied domain families, 21 families feature X-ray crystal structures involving oligomers. Among the top 20 pairs that are not intradomain contacts (i.e., contacts within the same domain), about one-half turned out to be interdomain contacts (i.e., contacts between domains). The high accuracy of mfDCA predictions led us to examine whether the small fraction of “false positives” (i.e., predicted pairings located far away in the crystal structures) might also have some biological significance. We investigated various biological reasons for the appearance of such long-distance direct correlations and found the following cases. To test the general applicability of mfDCA, we analyzed 131 predominantly bacterial domain families. These families were selected (i) to be sufficiently abundant for statistical analysis (\&gt;\&nbsp;1,000 nonredundant sequences), and (ii) to feature at least two high-resolution X-ray crystal structures (resolution \&lt;\&nbsp;3\&nbsp;Å), so that the spatial proximity between predicted residue pairs could be evaluated. The selected domain families encompassed a total of 856 different solved structures listed in the Protein Data Bank. On average, 84\% of the top 20 mfDCA predictions (a minimum separation of five along the sequence) in each of the 131 families are TP contacts, whereas simple correlation analysis using mutual information reaches only a 59\% TP rate (Fig.\&nbsp;P1B). The individual TP rates of mfDCA predictions for the 131 families are distributed mostly in the range of 70–100\%. Analogous results were also observed for a collection of 25 abundant eukaryotic proteins. The performance of mfDCA is first illustrated in Fig.\&nbsp;P1A for a specific protein structure (domain) taken from the proteome (i.e., the assembly of proteins present in an organism under specific conditions) of the bacterium Escherichia coli (3). The top 20 DCA predictions, separated by at least five positions along the sequence to exclude trivial predictions, are displayed as bonds of different color: The 19 residue pairs with distances \&lt;\&nbsp;8\&nbsp;Å are shown in red, and the lone pair with a larger interresidue distance is shown in green. The mfDCA thus gave a true-positive (TP) rate of 95\% for the top 20 contacts predicted for this protein.Fig. P1.(A) Contact predictions for the Sigma-E factor of E. coli. Of the top 20 contact predictions, 19 pairs with distance \&lt;\&nbsp;8\&nbsp;Å are connected by red links, whereas the only more distant pair is shown in green, which represents a TP rate of 95\%. (B) The TP rate averaged over 131 domain families shows a very gradual decline as a function of the number of predicted contacts. The mfDCA (diamonds) clearly outperforms simple correlation analysis using mutual information (open circles). (C) Contact map prediction for the eukaryotic signaling protein Ras. Gray symbols represent the native map (cutoff of 8\&nbsp;Å), shown in both the lower and upper triangles. The colored symbols in the upper triangle indicate the contacts predicted using mfDCA, with the red squares for the TPs (like the red links in A), and green squares for the false positives (like the green link in A). Due to rapid advances in the technologies for sequencing DNA, a large number of genome projects that aim to determine the complete DNA (genome) sequence of an organism are now in existence, which is particularly the case for bacterial genomes, with approximately 1,700 completed and 8,300 ongoing (1). These genome sequences can be used to provide correlated substitution patterns for a large number of common bacterial proteins and interacting protein pairs, as well as for some abundant eukaryotic, or nonbacterial, proteins. The availability of such correlations presents opportunities to make inferences on residue contacts, that is, contacts between amino acid residues within or between proteins, and to eventually predict protein structures at various levels of organization based on sequence information alone. Crucial to this inference is the ability to disentangle direct and indirect correlations (i.e., induced through intermediate residue positions), as accomplished by the recently introduced method of direct-coupling analysis (DCA) (2), based on sophisticated tools developed in statistical physics. Here, we further develop a computationally efficient implementation of DCA, called mfDCA, an algorithm based on the mean-field approximation of DCA, which is 103 to 104 times faster than the original DCA implementation, and hence can be used to rapidly analyze large numbers of families of long protein sequences. Protein function depends crucially on the correct folding of its three-dimensional structure. The maintenance of this structure during evolution imposes strong constraints on the variability of the amino acid sequences between homologous (i.e., closely related) proteins. For example, deleterious alterations (or mutations) in one residue may have to be compensated by mutations of the residues it interacts with, leading to correlations between the amino acid compositions at different sequence positions. In essence, a particular change at one position may correlate with certain necessary changes at other positions that enable the protein to maintain its structure and function.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{49}
+      \field{title}{Direct-coupling analysis of residue coevolution captures native contacts across many protein families}
+      \field{volume}{108}
+      \field{year}{2011}
+      \field{pages}{E1293\bibrangedash E1301}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.1111471108
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.1111471108
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1111471108
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1111471108
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

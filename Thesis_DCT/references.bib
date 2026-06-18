@@ -3019,7 +3019,18 @@ abstract = {We have developed a formulation for molecular dynamics algorithm for
 }
 
 
-
+@article {DANI_HAMILTONIAN,
+	author = {Conde-Torres, Daniel and Garc{\'\i}a-Fandi{\~n}o, Rebeca and Pi{\~n}eiro, {\'A}ngel},
+	title = {Environment-conditioned design of α-helical peptides},
+	elocation-id = {2026.05.07.723485},
+	year = {2026},
+	doi = {10.64898/2026.05.07.723485},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Designing peptide sequences that remain stable and selective across heterogeneous environments remains a central challenge in biomolecular modeling. Here we introduce an interpretable, physics-based Hamiltonian for environment-conditioned design of α-helical peptide sequences. The model integrates helix propensities, pairwise interactions, electrostatics, anisotropic solvent exposure, and interfacial geometry into a unified energy function. To enable comparison across sequence lengths and environments, all contributions are rescaled and expressed as Z-scores relative to random sequence ensembles, yielding a normalized design landscape with balanced physical terms. This formulation defines a structured optimization problem that can be explored using exact, heuristic, and hybrid quantum{\textendash} classical approaches without modification of the underlying model. The Hamiltonian recovers polar and apolar limits, discriminates experimentally characterized water-soluble and transmembrane α-helical peptide sequences, and captures the preferential stabilization of membrane-active sequences at anionic interfaces over non-functional controls. It further enables multi-objective and selective design, generating candidate sequences with tunable environmental specificity.Competing Interest StatementThe authors have declared no competing interest.Spanish Agencia Estatal de Investigacion (AEI) and ERDF, PID2022-141534OB-I00; CNS2023-144353Xunta de Galicia, ED431C 2025/15; ED431C 2021/21; ED431G 2023/03RePo-SUDOE / Interreg Sudoe Programme / ERDF, S1/1.1/P0033Ministerio de Universidades, FPU22/00636},
+	URL = {https://www.biorxiv.org/content/early/2026/05/08/2026.05.07.723485},
+	eprint = {https://www.biorxiv.org/content/early/2026/05/08/2026.05.07.723485.full.pdf},
+	journal = {bioRxiv}
+}
 %PAPERS CUANTICA
 @article{robert2021resource,
   title     = {Resource-efficient quantum algorithm for protein folding},
@@ -4497,3 +4508,135 @@ url="https://doi.org/10.1007/978-3-540-68279-0_8"
   month = apr,
   year = {2020}
 }
+
+@article{shake_algorithm,
+author = {Kräutler, Vincent and van Gunsteren, Wilfred F. and Hünenberger, Philippe H.},
+title = {A fast SHAKE algorithm to solve distance constraint equations for small molecules in molecular dynamics simulations},
+journal = {Journal of Computational Chemistry},
+volume = {22},
+number = {5},
+pages = {501-508},
+keywords = {molecular dynamics, constraints, SHAKE procedure},
+doi = {https://doi.org/10.1002/1096-987X(20010415)22:5<501::AID-JCC1021>3.0.CO;2-V},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/1096-987X%2820010415%2922%3A5%3C501%3A%3AAID-JCC1021%3E3.0.CO%3B2-V},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/1096-987X%2820010415%2922%3A5%3C501%3A%3AAID-JCC1021%3E3.0.CO%3B2-V},
+abstract = {Abstract A common method for the application of distance constraints in molecular simulations employing Cartesian coordinates is the SHAKE procedure for determining the Lagrange multipliers regarding the constraints. This method relies on the linearization and decoupling of the equations governing the atomic coordinate resetting corresponding to each constraint in a molecule, and is thus iterative. In the present study, we consider an alternative method, M-SHAKE, which solves the coupled equations simultaneously by matrix inversion. The performances of the two methods are compared in simulations of the pure solvents water, dimethyl sulfoxide, and chloroform. It is concluded that M-SHAKE is significantly faster than SHAKE when either (1) the molecules contain few distance constraints (solvent), or (2) when a high level of accuracy is required in the application of the constraints. © 2001 John Wiley \& Sons, Inc. J Comput Chem 22: 501–508, 2001},
+year = {2001}
+}
+
+ 
+
+@article{lincs_algorithm,
+author = {Hess, Berk and Bekker, Henk and Berendsen, Herman J. C. and Fraaije, Johannes G. E. M.},
+title = {LINCS: A linear constraint solver for molecular simulations},
+journal = {Journal of Computational Chemistry},
+volume = {18},
+number = {12},
+pages = {1463-1472},
+keywords = {constraints, molecular dynamics, Langevin dynamics, SHAKE},
+doi = {https://doi.org/10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.0.CO;2-H},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291096-987X%28199709%2918%3A12%3C1463%3A%3AAID-JCC4%3E3.0.CO%3B2-H},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291096-987X%28199709%2918%3A12%3C1463%3A%3AAID-JCC4%3E3.0.CO%3B2-H},
+abstract = {Abstract In this article, we present a new LINear Constraint Solver (LINCS) for molecular simulations with bond constraints. The algorithm is inherently stable, as the constraints themselves are reset instead of derivatives of the constraints, thereby eliminating drift. Although the derivation of the algorithm is presented in terms of matrices, no matrix matrix multiplications are needed and only the nonzero matrix elements have to be stored, making the method useful for very large molecules. At the same accuracy, the LINCS algorithm is three to four times faster than the SHAKE algorithm. Parallelization of the algorithm is straightforward. © 1997 John Wiley \& Sons, Inc. J Comput Chem 18: 1463–1472, 1997},
+year = {1997}
+}
+
+
+
+
+
+@article{settle_algorithm,
+author = {Miyamoto, Shuichi and Kollman, Peter A.},
+title = {Settle: An analytical version of the SHAKE and RATTLE algorithm for rigid water models},
+journal = {Journal of Computational Chemistry},
+volume = {13},
+number = {8},
+pages = {952-962},
+doi = {https://doi.org/10.1002/jcc.540130805},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.540130805},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.540130805},
+abstract = {Abstract An analytical algorithm, called SETTLE, for resetting the positions and velocities to satisfy the holonomic constraints on the rigid water model is presented. This method is still based on the Cartesian coordinate system and can be used in place of SHAKE and RATTLE. We implemented this algorithm in the SPASMS package of molecular mechanics and dynamics. Several series of molecular dynamics simulations were carried out to examine the performance of the new algorithm in comparison with the original RATTLE method. It was found that SETTLE is of higher accuracy and is faster than RATTLE with reasonable tolerances by three to nine times on a scalar machine. Furthermore, the performance improvement ranged from factors of 26 to 98 on a vector machine since the method presented is not iterative. © 1992 by John Wiley \& Sons, Inc.},
+year = {1992}
+}
+
+@article{paper_alfonso,
+  author = {Cabezón, Alfonso and Garcia-Fandino, Rebeca and Piñeiro, Ángel},
+  title = {{MA(R/S)TINI 3: An Enhanced Coarse-Grained Force Field for Accurate Modeling of Cyclic Peptide Self-Assembly and Membrane Interactions}},
+  journal = {Journal of Chemical Theory and Computation},
+  volume = {21},
+  number = {11},
+  pages = {5724--5735},
+  year = {2025},
+  publisher = {American Chemical Society},
+  doi = {10.1021/acs.jctc.5c00126},
+  url = {https://doi.org/10.1021/acs.jctc.5c00126}
+}
+
+@article{SUPEPMEM,
+title = {SuPepMem: A database of innate immune system peptides and their cell membrane interactions},
+journal = {Computational and Structural Biotechnology Journal},
+volume = {20},
+pages = {874-881},
+year = {2022},
+issn = {2001-0370},
+doi = {https://doi.org/10.1016/j.csbj.2022.01.025},
+url = {https://www.sciencedirect.com/science/article/pii/S2001037022000320},
+author = {Fabián Suarez-Leston and Martin Calvelo and Gideon F. Tolufashe and Alicia Muñoz and Uxía Veleiro and César Porto and Margarida Bastos and Ángel Piñeiro and Rebeca Garcia-Fandino},
+keywords = {Host defense peptides, Antimicrobial peptides, Membrane, Innate immune system, Molecular dynamics simulations, Database, Machine learning},
+abstract = {Host defense peptides (HDPs) are short cationic peptides that play a key role in the innate immune response of all living organisms. Their action mechanism does not depend on the presence of protein receptors, but on their ability to target and disrupt the membranes of a wide range of pathogenic and pathologic cells which are recognized by their specific compositions, typically with a relatively high concentration of anionic lipids. Lipid profile singularities have been found in cancer, inflammation, bacteria, viral infections, and even in senescent cells, enabling the possibility to use them as therapeutic targets and/or diagnostic biomarkers. Molecular dynamics (MD) simulations are extraordinarily well suited to explore how HDPs interact with membrane models, providing a large amount of qualitative and quantitative information that, nowadays, cannot be assessed by wet-lab methods at the same level of temporal and spatial resolution. Here, we present SuPepMem, an open-access repository containing MD simulations of different natural and artificial peptides with potential membrane lysis activity, interacting with membrane models of healthy mammal, bacteria, viruses, cancer or senescent cells. In addition to a description of the HDPs and the target systems, SuPepMem provides both the input files necessary to run the simulations and also the results of some selected analyses, including structural and MD-based quantitative descriptors. These descriptors are expected to be useful to train machine learning algorithms that could contribute to design new therapeutic peptides. Tools for comparative analysis between different HDPs and model membranes, as well as to restrict the queries to structural and time-averaged properties are also available. SuPepMem is a living project, that will continuously grow with more simulations including peptides of different sequences, MD simulations with different number of peptide units, more membrane models and also several resolution levels. The database is open to MD simulations from other users (after quality check by the SuPepMem team). SuPepMem is freely available under https://supepmem.com/.}
+}
+
+
+@article{MJ_1,
+  author = {Miyazawa, Sanzo and Jernigan, Robert L.},
+  title = {Estimation of effective interresidue contact energies from protein crystal structures: quasi-chemical approximation},
+  journal = {Macromolecules},
+  volume = {18},
+  number = {3},
+  pages = {534--552},
+  year = {1985},
+  publisher = {American Chemical Society},
+  doi = {10.1021/ma00145a039},
+  url = {https://doi.org/10.1021/ma00145a039}
+}
+
+@article{MJ_2,
+title = {Residue – Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading},
+journal = {Journal of Molecular Biology},
+volume = {256},
+number = {3},
+pages = {623-644},
+year = {1996},
+issn = {0022-2836},
+doi = {https://doi.org/10.1006/jmbi.1996.0114},
+url = {https://www.sciencedirect.com/science/article/pii/S002228369690114X},
+author = {Sanzo Miyazawa and Robert L. Jernigan},
+keywords = {hydrophobicity, contact energy, residue packing energy, sequence threading, sequence sampling weights},
+abstract = {Attractive inter-residue contact energies for proteins have been re-evaluated with the same assumptions and approximations used originally by us in 1985, but with a significantly larger set of protein crystal structures. An additional repulsive packing energy term, operative at higher densities to prevent overpacking, has also been estimated for all 20 amino acids as a function of the number of contacting residues, based on their observed distributions. The two terms of opposite sign are intended to be used together to provide an estimate of the overall energies of inter-residue interactions in simplified proteins without atomic details. To overcome the problem of how to utilize the many homologous proteins in the Protein Data Bank, a new scheme has been devised to assign different weights to each protein, based on similarities among amino acid sequences. A total of 1168 protein structures containing 1661 subunit sequences are actually used here. After the sequence weights have been applied, these correspond to an effective number of residue – residue contacts of 113,914, or about six times more than were used in the old analysis. Remarkably, the new attractive contact energies are nearly identical to the old ones, except for those with Leu and the rarer amino acids Trp and Met. The largest change found for Leu is surprising. The estimates of hydrophobicity from the contact energies for non-polar side-chains agree well with the experimental values. In an application of these contact energies, the sequences of 88 structurally distinct proteins in the Protein Data Bank are threaded at all possible positions without gaps into 189 different folds of proteins whose sequences differ from each other by at least 35\% sequence identity. The native structures for 73 of 88 proteins, excluding 15 exceptional proteins such as membrane proteins, are all demonstrated to have the lowest alignment energies.}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@article{
+dca,
+author = {Faruck Morcos  and Andrea Pagnani  and Bryan Lunt  and Arianna Bertolino  and Debora S. Marks  and Chris Sander  and Riccardo Zecchina  and José N. Onuchic  and Terence Hwa  and Martin Weigt },
+title = {Direct-coupling analysis of residue coevolution captures native contacts across many protein families},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {108},
+number = {49},
+pages = {E1293-E1301},
+year = {2011},
+doi = {10.1073/pnas.1111471108},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.1111471108},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.1111471108},
+abstract = {The similarity in the three-dimensional structures of homologous proteins imposes strong constraints on their sequence variability. It has long been suggested that the resulting correlations among amino acid compositions at different sequence positions can be exploited to infer spatial contacts within the tertiary protein structure. Crucial to this inference is the ability to disentangle direct and indirect correlations, as accomplished by the recently introduced direct-coupling analysis (DCA). Here we develop a computationally efficient implementation of DCA, which allows us to evaluate the accuracy of contact prediction by DCA for a large number of protein domains, based purely on sequence information. DCA is shown to yield a large number of correctly predicted contacts, recapitulating the global structure of the contact map for the majority of the protein domains examined. Furthermore, our analysis captures clear signals beyond intradomain residue contacts, arising, e.g., from alternative protein conformations, ligand-mediated residue couplings, and interdomain interactions in protein oligomers. Our findings suggest that contacts predicted by DCA can be used as a reliable guide to facilitate computational predictions of alternative protein conformations, protein complex formation, and even the de novo prediction of protein domain structures, contingent on the existence of a large number of homologous sequences which are being rapidly made available due to advances in genome sequencing. In this work, we have shown the ability of mfDCA to identify, with high accuracy, residue pairs in domain families and found that mfDCA is not only able to identify intradomain contacts but also interdomain residue pairs that are part of oligomerization interfaces. One potential application is the identification of interaction interfaces for homodimers that could ultimately help in predicting complex structures. Our results might open unexplored avenues of research for which full contact maps could be estimated and used as input data for de novo protein structure identification, which is particularly interesting in the case of interdomain contacts in multidomain proteins. Ultimately, this methodology can be used with pairs of proteins rather than single proteins to identify potential protein–protein interactions. The large number of contacts correctly predicted by mfDCA prompted us to explore the extent to which our method may be used to predict the contact maps of protein domains. In Fig.\&nbsp;P1C, we show the example of the eukaryotic H-Ras protein (5). The first approximately 800 mfDCA contact predictions are displayed; they include 320 nontrivial pairs, which are separated by at least five positions along the protein backbone. The predicted contact map captures very well the native contacts. Even if not all single contacts are predicted, almost all contact clusters are identified. One of the most striking features of our results obtained using DCA is how gradually the average TP rate declines with increasing direct information ranking. This observation naturally led us to explore the information lying beyond the first 10–30 DCA predictions. For instance, how many residue contacts can be predicted if a TP rate of at least 70\% is required? As can be seen in Fig.\&nbsp;P1B, this TP rate is reached on average after the top 70 DCA predictions, where one would have obtained approximately 50 true contacts on average. In extreme cases (e.g., the family of bacterial receptors called the tripartite tricarboxylate receptors), a TP rate of \&gt;\&nbsp;70\% was present for the first 600 DCA-predicted residue pairs, therefore including more than 400 native contacts. A third cause of high-scoring long-distance pairings inferred by mfDCA is observed in the metalloenzyme domain family, which binds to metal ions. It has a high-scoring residue pair, which is separated by more than 14\&nbsp;Å when mapped to the glutathione transferase FosA of Pseudomonas aeruginosa. We observed that the two residues belonging to the different subunits of this residue pair are, however, in direct contact with the manganese “Mn(II)” ion when the enzymes are paired, or in the dimer configuration. Thus, the “direct interaction” between these residues found by mfDCA is presumably mediated through their common interaction with a third agent, the metal ion in this case. A second cause of high-scoring long-distance pairs is the occurrence of alternative domain conformations. As an illustration, we examined the domain family GerE, whose members include the DNA-binding domains of a number of proteins (response regulators) in a system known as the two-component signaling system. Using the DNA-bound domain of the nitrate/nitrite response regulator NarL of E. coli, we found that all of the top 20 DCA predictions were true contacts. However, when mapping the same pairs to the structure of the inactive, full-length response regulator of the transcriptional regulatory protein DosR of Mycobacterium tuberculosis, seven pairs were found at distances \&gt;\&nbsp;8\&nbsp;Å. A comparison between these structures shows clearly that all of the long-distance pairs involve one particular position that is significantly displaced in the full-length structure, presumably due to interaction with the (unphosphorylated) regulatory domain. First, direct correlation may be due to contacts between proteins in oligomeric complexes (i.e., complexes comprising different proteins). One example is the ATPase domain of the nitrogen regulatory protein C family transcriptional activators, which act to promote the activity of RNA polymerase. Upon activation, different subunits of this domain are known to form a multiunit ring, wrapping DNA around the complex (4). Among the top 20 mfDCA-predicted contacts, three pairs appeared to be long-distance (\&gt;\&nbsp;10\&nbsp;Å) within the domain; but they all turned out to be within 5\&nbsp;Å of the closest position in an adjacent subunit of the ring structure. More globally, out of the 131 studied domain families, 21 families feature X-ray crystal structures involving oligomers. Among the top 20 pairs that are not intradomain contacts (i.e., contacts within the same domain), about one-half turned out to be interdomain contacts (i.e., contacts between domains). The high accuracy of mfDCA predictions led us to examine whether the small fraction of “false positives” (i.e., predicted pairings located far away in the crystal structures) might also have some biological significance. We investigated various biological reasons for the appearance of such long-distance direct correlations and found the following cases. To test the general applicability of mfDCA, we analyzed 131 predominantly bacterial domain families. These families were selected (i) to be sufficiently abundant for statistical analysis (\&gt;\&nbsp;1,000 nonredundant sequences), and (ii) to feature at least two high-resolution X-ray crystal structures (resolution \&lt;\&nbsp;3\&nbsp;Å), so that the spatial proximity between predicted residue pairs could be evaluated. The selected domain families encompassed a total of 856 different solved structures listed in the Protein Data Bank. On average, 84\% of the top 20 mfDCA predictions (a minimum separation of five along the sequence) in each of the 131 families are TP contacts, whereas simple correlation analysis using mutual information reaches only a 59\% TP rate (Fig.\&nbsp;P1B). The individual TP rates of mfDCA predictions for the 131 families are distributed mostly in the range of 70–100\%. Analogous results were also observed for a collection of 25 abundant eukaryotic proteins. The performance of mfDCA is first illustrated in Fig.\&nbsp;P1A for a specific protein structure (domain) taken from the proteome (i.e., the assembly of proteins present in an organism under specific conditions) of the bacterium Escherichia coli (3). The top 20 DCA predictions, separated by at least five positions along the sequence to exclude trivial predictions, are displayed as bonds of different color: The 19 residue pairs with distances \&lt;\&nbsp;8\&nbsp;Å are shown in red, and the lone pair with a larger interresidue distance is shown in green. The mfDCA thus gave a true-positive (TP) rate of 95\% for the top 20 contacts predicted for this protein.Fig. P1.(A) Contact predictions for the Sigma-E factor of E. coli. Of the top 20 contact predictions, 19 pairs with distance \&lt;\&nbsp;8\&nbsp;Å are connected by red links, whereas the only more distant pair is shown in green, which represents a TP rate of 95\%. (B) The TP rate averaged over 131 domain families shows a very gradual decline as a function of the number of predicted contacts. The mfDCA (diamonds) clearly outperforms simple correlation analysis using mutual information (open circles). (C) Contact map prediction for the eukaryotic signaling protein Ras. Gray symbols represent the native map (cutoff of 8\&nbsp;Å), shown in both the lower and upper triangles. The colored symbols in the upper triangle indicate the contacts predicted using mfDCA, with the red squares for the TPs (like the red links in A), and green squares for the false positives (like the green link in A). Due to rapid advances in the technologies for sequencing DNA, a large number of genome projects that aim to determine the complete DNA (genome) sequence of an organism are now in existence, which is particularly the case for bacterial genomes, with approximately 1,700 completed and 8,300 ongoing (1). These genome sequences can be used to provide correlated substitution patterns for a large number of common bacterial proteins and interacting protein pairs, as well as for some abundant eukaryotic, or nonbacterial, proteins. The availability of such correlations presents opportunities to make inferences on residue contacts, that is, contacts between amino acid residues within or between proteins, and to eventually predict protein structures at various levels of organization based on sequence information alone. Crucial to this inference is the ability to disentangle direct and indirect correlations (i.e., induced through intermediate residue positions), as accomplished by the recently introduced method of direct-coupling analysis (DCA) (2), based on sophisticated tools developed in statistical physics. Here, we further develop a computationally efficient implementation of DCA, called mfDCA, an algorithm based on the mean-field approximation of DCA, which is 103 to 104 times faster than the original DCA implementation, and hence can be used to rapidly analyze large numbers of families of long protein sequences. Protein function depends crucially on the correct folding of its three-dimensional structure. The maintenance of this structure during evolution imposes strong constraints on the variability of the amino acid sequences between homologous (i.e., closely related) proteins. For example, deleterious alterations (or mutations) in one residue may have to be compensated by mutations of the residues it interacts with, leading to correlations between the amino acid compositions at different sequence positions. In essence, a particular change at one position may correlate with certain necessary changes at other positions that enable the protein to maintain its structure and function.}}
+
