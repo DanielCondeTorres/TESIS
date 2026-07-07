@@ -48,6 +48,39 @@
       \field{title}{Il Saggiatore}
       \field{year}{1623}
     \endentry
+    \entry{cecilia1964}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=76395b520de9dd865e3b11336eefbc31}{%
+           family={Cecilia},
+           familyi={C\bibinitperiod},
+           given={Carla\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{76395b520de9dd865e3b11336eefbc31}
+      \strng{fullhash}{76395b520de9dd865e3b11336eefbc31}
+      \strng{fullhashraw}{76395b520de9dd865e3b11336eefbc31}
+      \strng{bibnamehash}{76395b520de9dd865e3b11336eefbc31}
+      \strng{authorbibnamehash}{76395b520de9dd865e3b11336eefbc31}
+      \strng{authornamehash}{76395b520de9dd865e3b11336eefbc31}
+      \strng{authorfullhash}{76395b520de9dd865e3b11336eefbc31}
+      \strng{authorfullhashraw}{76395b520de9dd865e3b11336eefbc31}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Cornell Daily Sun}
+      \field{month}{11}
+      \field{number}{40}
+      \field{title}{Feynman Tells Difference Between Physics and Math}
+      \field{volume}{LXXXI}
+      \field{year}{1964}
+      \verb{urlraw}
+      \verb https://cdsun.library.cornell.edu/?a=d&d=CDS19641112.2.6
+      \endverb
+      \verb{url}
+      \verb https://cdsun.library.cornell.edu/?a=d&d=CDS19641112.2.6
+      \endverb
+    \endentry
     \entry{Murray2022}{article}{}{}
       \name{author}{175}{}{%
         {{hash=d39647fc6f5b8f85d041b0adbed9b52e}{%
@@ -939,8 +972,8 @@
       \strng{authornamehash}{6a031b798ecb6ff133ce98a846bf5fdb}
       \strng{authorfullhash}{96879434654fe25cfa80c40bad6d4acb}
       \strng{authorfullhashraw}{96879434654fe25cfa80c40bad6d4acb}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{01406736}
@@ -1005,8 +1038,8 @@
       \strng{authornamehash}{0f64b2b392bdc45bb37f766c75ad2fef}
       \strng{authorfullhash}{fd8d08f131285aa83735cf09a216b8f4}
       \strng{authorfullhashraw}{fd8d08f131285aa83735cf09a216b8f4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2949916X}
@@ -1028,12 +1061,52 @@
       \endverb
     \endentry
     \entry{WHO}{misc}{}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{howpublished}{https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance}
       \field{note}{Accessed : 27/06/2025}
       \field{title}{Antimicrobial resistance}
+    \endentry
+    \entry{gould2018membranes}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=146fc837de70d1d290dbbec740fb3f7c}{%
+           family={Gould},
+           familyi={G\bibinitperiod},
+           given={Sven\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{146fc837de70d1d290dbbec740fb3f7c}
+      \strng{fullhash}{146fc837de70d1d290dbbec740fb3f7c}
+      \strng{fullhashraw}{146fc837de70d1d290dbbec740fb3f7c}
+      \strng{bibnamehash}{146fc837de70d1d290dbbec740fb3f7c}
+      \strng{authorbibnamehash}{146fc837de70d1d290dbbec740fb3f7c}
+      \strng{authornamehash}{146fc837de70d1d290dbbec740fb3f7c}
+      \strng{authorfullhash}{146fc837de70d1d290dbbec740fb3f7c}
+      \strng{authorfullhashraw}{146fc837de70d1d290dbbec740fb3f7c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{8}
+      \field{title}{Membranes and evolution}
+      \field{volume}{28}
+      \field{year}{2018}
+      \field{pages}{R381\bibrangedash R385}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cub.2018.01.086
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.cub.2018.01.086
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.cub.2018.01.086
+      \endverb
     \endentry
     \entry{van2008membrane}{article}{}{}
       \name{author}{3}{}{%
@@ -1064,8 +1137,8 @@
       \strng{authornamehash}{62ca8551282ad4961f299a8461fe43e3}
       \strng{authorfullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
       \strng{authorfullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature reviews Molecular cell biology}
@@ -1108,8 +1181,8 @@
       \strng{authornamehash}{bfb075ff3ab011012a51f0298638072c}
       \strng{authorfullhash}{99cab381704666df3d3cfa0525842d30}
       \strng{authorfullhashraw}{99cab381704666df3d3cfa0525842d30}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A simple theory is developed that accounts for many of the observed physical properties of micelles{,} both globular and rod-like{,} and of bilayer vesicles composed of ionic or zwitterionic amphiphiles. The main point of departure from previous theories lies in the recognition and elucidation of the role of geometric constraints in self-assembly. The linking together of thermodynamics{,} interaction free energies and geometry results in a general framework which permits extension to more complicated self-assembly problems.}
@@ -1146,8 +1219,8 @@
       \strng{authornamehash}{e0ac0812744f3bc431044aedeceb99ff}
       \strng{authorfullhash}{e0ac0812744f3bc431044aedeceb99ff}
       \strng{authorfullhashraw}{e0ac0812744f3bc431044aedeceb99ff}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1740-1534}
@@ -1188,8 +1261,8 @@
       \strng{authornamehash}{b69523294f9a9ad42a60b09ee03f4901}
       \strng{authorfullhash}{b69523294f9a9ad42a60b09ee03f4901}
       \strng{authorfullhashraw}{b69523294f9a9ad42a60b09ee03f4901}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0231-5882}
@@ -1211,6 +1284,171 @@
       \verb http://www.ncbi.nlm.nih.gov/pubmed/19592707
       \endverb
       \keyw{Animals,Anti-Bacterial Agents / pharmacology*,Antimicrobial Cationic Peptides / pharmacology*,Bacteria / drug effects*,Bacterial Physiological Phenomena / drug effects*,Biological,Cell Membrane / drug effects*,Cell Membrane / physiology,Drug Design,Humans,Karl Lohner,MEDLINE,Membrane Lipids*,Models,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,PubMed Abstract,Review,doi:10.4149/gpb_2009_02_105,pmid:19592707}
+    \endentry
+    \entry{POPC_MEMBRANE}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=014e311f66553cd481f0c8a961598ab2}{%
+           family={Luchini},
+           familyi={L\bibinitperiod},
+           given={Alessandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=045611cfafd73c81f6964085268b5e26}{%
+           family={Vitiello},
+           familyi={V\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{db3972da5c6b02bdbf3d0c88650ad35d}
+      \strng{fullhash}{db3972da5c6b02bdbf3d0c88650ad35d}
+      \strng{fullhashraw}{db3972da5c6b02bdbf3d0c88650ad35d}
+      \strng{bibnamehash}{db3972da5c6b02bdbf3d0c88650ad35d}
+      \strng{authorbibnamehash}{db3972da5c6b02bdbf3d0c88650ad35d}
+      \strng{authornamehash}{db3972da5c6b02bdbf3d0c88650ad35d}
+      \strng{authorfullhash}{db3972da5c6b02bdbf3d0c88650ad35d}
+      \strng{authorfullhashraw}{db3972da5c6b02bdbf3d0c88650ad35d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cell membranes are very complex biological systems including a large variety of lipids and proteins. Therefore, they are difficult to extract and directly investigate with biophysical methods. For many decades, the characterization of simpler biomimetic lipid membranes, which contain only a few lipid species, provided important physico-chemical information on the most abundant lipid species in cell membranes. These studies described physical and chemical properties that are most likely similar to those of real cell membranes. Indeed, biomimetic lipid membranes can be easily prepared in the lab and are compatible with multiple biophysical techniques. Lipid phase transitions, the bilayer structure, the impact of cholesterol on the structure and dynamics of lipid bilayers, and the selective recognition of target lipids by proteins, peptides, and drugs are all examples of the detailed information about cell membranes obtained by the investigation of biomimetic lipid membranes. This review focuses specifically on the advances that were achieved during the last decade in the field of biomimetic lipid membranes mimicking the mammalian plasma membrane. In particular, we provide a description of the most common types of lipid membrane models used for biophysical characterization, i.e., lipid membranes in solution and on surfaces, as well as recent examples of their applications for the investigation of protein-lipid and drug-lipid interactions. Altogether, promising directions for future developments of biomimetic lipid membranes are the further implementation of natural lipid mixtures for the development of more biologically relevant lipid membranes, as well as the development of sample preparation protocols that enable the incorporation of membrane proteins in the biomimetic lipid membranes.}
+      \field{issn}{2313-7673}
+      \field{journaltitle}{Biomimetics}
+      \field{number}{1}
+      \field{title}{Mimicking the Mammalian Plasma Membrane: An Overview of Lipid Membrane Models for Biophysical Studies}
+      \field{volume}{6}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.3390/biomimetics6010003
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2313-7673/6/1/3
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2313-7673/6/1/3
+      \endverb
+    \endentry
+    \entry{BACTERIA_MEMBRANE}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ee458e141d1c5123780168302095f240}{%
+           family={Krok},
+           familyi={K\bibinitperiod},
+           given={Emilia},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ab0579c6a00be414b9fc944bfabf467a}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Mareike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3f89d9469a271ac5647a43b6efd0947a}{%
+           family={Dimova},
+           familyi={D\bibinitperiod},
+           given={Rumiana},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7ddfd048c431548339384045c1bdbef4}{%
+           family={Piatkowski},
+           familyi={P\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac6da229e6d8f03a00cef8478aa079bd}
+      \strng{fullhash}{722c6446b528f49ae58005fed5bb7bb0}
+      \strng{fullhashraw}{722c6446b528f49ae58005fed5bb7bb0}
+      \strng{bibnamehash}{722c6446b528f49ae58005fed5bb7bb0}
+      \strng{authorbibnamehash}{722c6446b528f49ae58005fed5bb7bb0}
+      \strng{authornamehash}{ac6da229e6d8f03a00cef8478aa079bd}
+      \strng{authorfullhash}{722c6446b528f49ae58005fed5bb7bb0}
+      \strng{authorfullhashraw}{722c6446b528f49ae58005fed5bb7bb0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The reconstruction of accurate yet simplified mimetic models of cell membranes is a very challenging goal of synthetic biology. To date, most of the research focuses on the development of eukaryotic cell membranes, while reconstitution of their prokaryotic counterparts has not been fully addressed, and the proposed models do not reflect well the complexity of bacterial cell envelopes. Here, we describe the reconstitution of biomimetic bacterial membranes with an increasing level of complexity, developed from binary and ternary lipid mixtures. Giant unilamellar vesicles composed of phosphatidylcholine (PC) and phosphatidylethanolamine (PE); PC and phosphatidylglycerol (PG); PE and PG; PE, PG and cardiolipin (CA) at varying molar ratios were successfully prepared by the electroformation method. Each of the proposed mimetic models focuses on reproducing specific membrane features such as membrane charge, curvature, leaflets asymmetry, or the presence of phase separation. GUVs were characterized in terms of size distribution, surface charge, and lateral organization. Finally, the developed models were tested against the lipopeptide antibiotic daptomycin. The obtained results showed a clear dependency of daptomycin binding efficiency on the amount of negatively charged lipid species present in the membrane. We anticipate that the models proposed here can be applied not only in antimicrobial testing but also serve as platforms for studying fundamental biological processes in bacteria as well as their interaction with physiologically relevant biomolecules.}
+      \field{issn}{0005-2736}
+      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Biomembranes}
+      \field{number}{7}
+      \field{title}{Tunable biomimetic bacterial membranes from binary and ternary lipid mixtures and their application in antimicrobial testing}
+      \field{volume}{1865}
+      \field{year}{2023}
+      \field{pages}{184194}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.bbamem.2023.184194
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0005273623000767
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0005273623000767
+      \endverb
+      \keyw{Bacterial membranes,Model cell membranes,Giant unilamellar vesicles,Phase separation,Antimicrobial peptides,Fluorescence microscopy}
+    \endentry
+    \entry{CANCER_MEMBRANE}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=44051e39d5c7ba18f9608599f836794f}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Hoang\bibnamedelima Linh},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=4efed0b7d651e108d6e6b121143c6c3a}{%
+           family={Man},
+           familyi={M\bibinitperiod},
+           given={Viet\bibnamedelima Hoang},
+           giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1d26fd0ec9f853be0dd1d9be57b2dfcd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Mai\bibnamedelima Suan},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=2f5e3c395aac08ebef3e402d2b508669}{%
+           family={Derreumaux},
+           familyi={D\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7f99f606c0bc041834fd666b726b8c26}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Junmei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9017d7b33f416e377bb53909ecc5639d}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Phuong\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9817a64efda3a00d94ea9ef7b1ea96e}
+      \strng{fullhash}{cc650b913c6109c747b12efdbc486e31}
+      \strng{fullhashraw}{cc650b913c6109c747b12efdbc486e31}
+      \strng{bibnamehash}{cc650b913c6109c747b12efdbc486e31}
+      \strng{authorbibnamehash}{cc650b913c6109c747b12efdbc486e31}
+      \strng{authornamehash}{b9817a64efda3a00d94ea9ef7b1ea96e}
+      \strng{authorfullhash}{cc650b913c6109c747b12efdbc486e31}
+      \strng{authorfullhashraw}{cc650b913c6109c747b12efdbc486e31}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent studies indicate that there are mechanical differences between normal cells and cancer cells. Because the cell membrane takes part in a variety of vital processes, we test the hypothesis of whether or not two fundamental alterations in the cell membrane, i.e., the overexpression of phosphatidylserine lipids in the outer leaflet and a reduction in cholesterol concentration, could cause the softening in cancer cells. Adopting ten models of normal and cancer cell membranes, we carry out 1 μs all-atom molecular dynamics simulations to compare the structural properties and elasticity properties of two membrane types. We find that the overexpression of the phosphatidylserine lipids in the outer leaflet does not significantly alter the area per lipid, the membrane thickness, the lipid order parameters and the elasticity moduli of the cancer membranes. However, a reduction in the cholesterol concentration leads to clear changes in those quantities, especially decreases in the bending, tilt and twist moduli. This implies that the reduction of cholesterol concentration in the cancer membranes could contribute to the softening of cancer cells.}
+      \field{issn}{1463-9076}
+      \field{journaltitle}{Physical Chemistry Chemical Physics}
+      \field{month}{03}
+      \field{number}{10}
+      \field{title}{Elastic moduli of normal and cancer cell membranes revealed by molecular dynamics simulations}
+      \field{volume}{24}
+      \field{year}{2022}
+      \field{pages}{6225\bibrangedash 6237}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1039/d1cp04836h
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.rsc.org/cp/article-pdf/24/10/6225/7786266/d1cp04836h.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1039/d1cp04836h
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1039/d1cp04836h
+      \endverb
     \endentry
     \entry{Sani2015}{article}{}{}
       \name{author}{4}{}{%
@@ -1244,8 +1482,8 @@
       \strng{authorfullhash}{41cdf574d58aea3649e337a055bd55b8}
       \strng{authorfullhashraw}{41cdf574d58aea3649e337a055bd55b8}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219258}
@@ -1760,8 +1998,8 @@
       \strng{authornamehash}{381189647b34965fe01644a9cdf9f9e3}
       \strng{authorfullhash}{381189647b34965fe01644a9cdf9f9e3}
       \strng{authorfullhashraw}{381189647b34965fe01644a9cdf9f9e3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Current Biology}
@@ -1872,8 +2110,8 @@
       \strng{authornamehash}{c9da73ff6e2baa8548afb2c901f4b573}
       \strng{authorfullhash}{23a535b29d621eb68e60199e031bdbd3}
       \strng{authorfullhashraw}{23a535b29d621eb68e60199e031bdbd3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1476-5403}
@@ -1916,8 +2154,8 @@
       \strng{authornamehash}{d243d7deb8010bebba7fc5cc55519c77}
       \strng{authorfullhash}{d243d7deb8010bebba7fc5cc55519c77}
       \strng{authorfullhashraw}{d243d7deb8010bebba7fc5cc55519c77}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-2013}
@@ -1975,8 +2213,8 @@
       \strng{authornamehash}{f2dff3d90997705623b35c1dc76e9bc2}
       \strng{authorfullhash}{cb84637151147a4f610363559cc60bd7}
       \strng{authorfullhashraw}{cb84637151147a4f610363559cc60bd7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1573-6881}
@@ -2017,8 +2255,8 @@
       \strng{authornamehash}{a6b48b83df0a4c0f01da0c87ff9ba545}
       \strng{authorfullhash}{a6b48b83df0a4c0f01da0c87ff9ba545}
       \strng{authorfullhashraw}{a6b48b83df0a4c0f01da0c87ff9ba545}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Although most drugs bind to proteins and regulate their activity, some drugs act through a new therapeutic approach called membrane-lipid therapy and bind to lipids, thus modulating the structure of membranes. Most cellular functions are highly dependent on the lipid environment because they are controlled by proteins in or around membranes. The wide variety of cell and organelle membranes and the existence of special lipid regions (e.g. microvilli) and domains (e.g. lipid rafts) support the possibility of designing specific lipid therapies. Indeed, recent evidence suggests that lipid therapy might have potential for the treatment of cancer, cardiovascular pathologies, neurodegenerative processes, obesity, metabolic disorders, inflammation, and infectious and autoimmune diseases.}
@@ -2391,8 +2629,8 @@
       \strng{authornamehash}{7736002ef78cbe841bec7f5ef1c9903e}
       \strng{authorfullhash}{ab73865f61e68527b824bcae9f2b3a40}
       \strng{authorfullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Reviews Microbiology}
@@ -2440,8 +2678,8 @@
       \strng{authornamehash}{c54ca204871391ccfe79291879c7ad7a}
       \strng{authorfullhash}{3c16f5a945563f024e1ecfea362890e4}
       \strng{authorfullhashraw}{3c16f5a945563f024e1ecfea362890e4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2474-0896}
@@ -2487,8 +2725,8 @@
       \strng{authornamehash}{6e84705b1df179a3f393b49105d3099b}
       \strng{authorfullhash}{6e84705b1df179a3f393b49105d3099b}
       \strng{authorfullhashraw}{6e84705b1df179a3f393b49105d3099b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1546-1696}
@@ -2540,8 +2778,8 @@
       \strng{authornamehash}{cbcf0bd8e38069a9c78ed5413ba7cafa}
       \strng{authorfullhash}{c66fa81572f20e79072d48c6080c4d46}
       \strng{authorfullhashraw}{c66fa81572f20e79072d48c6080c4d46}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2218-273X}
@@ -2616,8 +2854,8 @@
       \strng{authorfullhash}{64042eb956e1dbe1684bebd3b94a4de3}
       \strng{authorfullhashraw}{64042eb956e1dbe1684bebd3b94a4de3}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are bioactive macromolecules that exhibit antibacterial, antiviral, and immunomodulatory functions. They come from a wide range of sources and are found in all forms of life, from bacteria to plants, vertebrates, and invertebrates, and play an important role in controlling the spread of pathogens, promoting wound healing and treating tumors. Consequently, AMPs have emerged as promising alternatives to next-generation antibiotics. With advancements in systems biology and synthetic biology technologies, it has become possible to synthesize AMPs artificially. We can better understand their functional activities for further modification and development by investigating the mechanism of action underlying their antimicrobial properties. This review focuses on the structural aspects of AMPs while highlighting their significance for biological activity. Furthermore, it elucidates the membrane targeting mechanism and intracellular targets of these peptides while summarizing molecular modification approaches aimed at enhancing their antibacterial efficacy. Finally, this article outlines future challenges in the functional development of AMPs along with proposed strategies to overcome them.}
@@ -2663,8 +2901,8 @@
       \strng{authornamehash}{5633e09ea4714e735a895dcfdc32d9b9}
       \strng{authorfullhash}{cec47e8b1a371f821c725fc126fa872f}
       \strng{authorfullhashraw}{cec47e8b1a371f821c725fc126fa872f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs), evolutionarily conserved components of the immune system, have attracted considerable attention as promising therapeutic candidates. Derived from diverse organisms, AMPs represent a heterogeneous class of molecules, typically cationic, which facilitates their initial electrostatic interaction with anionic microbial membranes. Unlike conventional single-target antibiotics, AMPs utilize rapid, multi-target mechanisms, primarily physical membrane disruption, which results in a significantly lower incidence of resistance emergence. Their broad-spectrum antimicrobial activity, capacity to modulate host immunity, and unique mechanisms of action make them inherently less susceptible to resistance compared with traditional antibiotics. Despite these advantages, the clinical translation of natural AMPs remains limited by several challenges, including poor in vivo stability, and potential cytotoxicity. Bioengineering technology offers innovative solutions to these limitations of AMPs. Two techniques have demonstrated promise: (i) a chimeric recombinant of AMPs with stable scaffold, such as human serum albumin and antibody Fc domain and (ii) chemical modification approaches, such as lipidation. This review provides a comprehensive overview of AMPs, highlighting their origins, structures, and mechanisms of antimicrobial activity, followed by recent advances in bioengineering platforms designed to overcome their therapeutic limitations. By integrating natural AMPs with bioengineering and nanotechnologies, AMPs may be developed into next-generation antibiotics.}
@@ -2716,8 +2954,8 @@
       \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
       \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are a class of small peptides that widely exist in nature and they are an important part of the innate immune system of different organisms. AMPs have a wide range of inhibitory effects against bacteria, fungi, parasites and viruses. The emergence of antibiotic-resistant microorganisms and people’s increasing concerns about the use of antibiotics resulted in the development of AMPs, which have a good application prospect in medicine, food, animal husbandry, agriculture and aquaculture. This review introduces the progress of research on AMPs comprehensively and systematically, including their classification, mechanism of action, design methods, environmental factors affecting their activity, application status, future prospects in various fields and problems to be solved. The research progress on antivirus peptides, especially anti-coronavirus (COVID-19) peptides, has been introduced given the COVID-19 pandemic worldwide in 2020.}
@@ -3122,8 +3360,8 @@
       \strng{authornamehash}{be978cd2362a0f512e5f0eba4abd8b51}
       \strng{authorfullhash}{d6292b972d9e6c03f7b61393242d4944}
       \strng{authorfullhashraw}{d6292b972d9e6c03f7b61393242d4944}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Critical Reviews in Biotechnology}
@@ -3171,8 +3409,8 @@
       \strng{authornamehash}{b7c623dd6d037c88f9dbf332446bebf0}
       \strng{authorfullhash}{b7c623dd6d037c88f9dbf332446bebf0}
       \strng{authorfullhashraw}{b7c623dd6d037c88f9dbf332446bebf0}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-6997}
@@ -3243,8 +3481,8 @@
       \strng{authornamehash}{6dbf1533bea154bc3d0894f8b78706e6}
       \strng{authorfullhash}{a8ea2bffd2691e66c627901482fc7013}
       \strng{authorfullhashraw}{a8ea2bffd2691e66c627901482fc7013}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09242244}
@@ -3305,8 +3543,8 @@
       \strng{authornamehash}{e7b4c7f8844f5207e0670e02bccf33ff}
       \strng{authorfullhash}{794838eb726832dc4aa05e69b6fc5ff2}
       \strng{authorfullhashraw}{794838eb726832dc4aa05e69b6fc5ff2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0006-2960}
@@ -3558,8 +3796,8 @@
       \strng{authornamehash}{caaf4763ed72a7e7ccdbb13011b7f43e}
       \strng{authorfullhash}{6d5826eab5a0bb7c8f2d8332ce1befd8}
       \strng{authorfullhashraw}{6d5826eab5a0bb7c8f2d8332ce1befd8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1873-4294}
@@ -4172,8 +4410,8 @@
       \strng{authornamehash}{61751a41456613839d3be798f2bd03b3}
       \strng{authorfullhash}{980eab405a673022f84b16d7385243a6}
       \strng{authorfullhashraw}{980eab405a673022f84b16d7385243a6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2079-6382}
@@ -4234,8 +4472,8 @@
       \strng{authornamehash}{6546d6ab9325200c764b835fc3b7b626}
       \strng{authorfullhash}{fb369f272289151885768f29f08c5aa3}
       \strng{authorfullhashraw}{fb369f272289151885768f29f08c5aa3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1572-3887}
@@ -4301,8 +4539,8 @@
       \strng{authornamehash}{f70df441c9aee8d683ffd5300ae29e26}
       \strng{authorfullhash}{a4063ce9792ed771ed3ed4adcdcfd96e}
       \strng{authorfullhashraw}{a4063ce9792ed771ed3ed4adcdcfd96e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1999-4923}
@@ -4350,8 +4588,8 @@
       \strng{authornamehash}{be5ed6b95052ef92c3fb71dccc5ed758}
       \strng{authorfullhash}{bcabd4d259aa66ff19b4e428b2ec496c}
       \strng{authorfullhashraw}{bcabd4d259aa66ff19b4e428b2ec496c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The interaction of antimicrobial peptides (AMPs) with biological membranes is in the focus of research since several years, and the most important features and modes of action of AMPs are described in this review. Different model systems can be used to understand such interactions on a molecular level. As a special example, we use 2D and 3D model membranes to investigate the interaction of the natural cyclic (Ar-1) and the synthetic linear molecule arenicin with selected amphiphiles and phospholipids. A panoply of sophisticated methods has been used to analyze these interactions on a molecular level. As a general trend, one observes that cationic antimicrobial peptides do not interact with cationic amphiphiles due to electrostatic repulsion, whereas with non-ionic amphiphiles, the peptide interacts only with aggregated systems and not with monomers. The interaction is weak (hydrophobic interaction) and requires an aggregated state with a large surface (cylindrical micelles). Anionic amphiphiles (as monomers or micelles) exhibit strong electrostatic interactions with the AMPs leading to changes in the peptide conformation. Both types of peptides interact strongly with anionic phospholipid monolayers with a preference for fluid layers. The interaction with a zwitterionic layer is almost absent for the linear derivative but measurable for the cyclic arenicin Ar-1. This is in accordance with biological experiments showing that Ar-1 forms well defined stable pores in phospholipid and lipopolysaccharide (LPS) membranes (cytotoxicity). The synthetic linear arenicin, which is less cytotoxic, does not affect the mammalian lipids to such an extent. The interaction of arenicin with bacterial membrane lipids is dominated by hydrogen bonding together with electrostatic and hydrophobic interactions.}
@@ -4420,8 +4658,8 @@
       \strng{authornamehash}{ed91b440e76641849e094b399e4a82d1}
       \strng{authorfullhash}{415da9ccdd7cf62220c195f283e81856}
       \strng{authorfullhashraw}{415da9ccdd7cf62220c195f283e81856}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry}
@@ -4482,8 +4720,8 @@
       \strng{authorfullhash}{e330c721bd17d47d928a2b0de0d220be}
       \strng{authorfullhashraw}{e330c721bd17d47d928a2b0de0d220be}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As fundamental components in innate immunity, antimicrobial peptides (AMPs) hold great potentials in the treatment of persistent infections involving slow-growing or dormant bacteria in which, selective inhibition of prokaryotic bacteria in the context of eukaryotic cells is not only an essential requirement, but also a critical challenge in the development of antimicrobial peptides. To identify the sequence and structural properties critical for antimicrobial activity, a series of peptides varying in sequence, length, hydrophobicity/charge ratio, and secondary structure, were designed and synthesized. Their antimicrobial activities were then tested using Escherichia coli and HEK293 cells, together with several index activities against model membrane, including liposome leakage, fusion, and aggregation. While no evident correlation between the antimicrobial activity and the property of the peptides was observed, common activities against model membrane were nevertheless identified for the active antimicrobial peptides: mediating efficient membrane leakage, negligible membrane fusion and liposome aggregation. Therefore, in addition to identifying one highly active antimicrobial peptide, our study further sheds light on the design principle for these molecules.}
@@ -4532,8 +4770,8 @@
       \strng{authornamehash}{42bd5bf7edc7221121981731ae5683fd}
       \strng{authorfullhash}{21d74ae85c4fbc5f24f37767529e3736}
       \strng{authorfullhashraw}{21d74ae85c4fbc5f24f37767529e3736}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The pHLIP peptide has three states: (I) soluble in aqueous buffer, (II) bound to the bilayer surface at neutral pH, and (III) inserted as a transmembrane (TM) helix at acidic pH. The membrane insertion of pHLIP at low pH can be used to target the acidic tissues characteristic of different diseases, such as cancer. We find that the α-helix content of state II depends on lipid acyl chain length but not cholesterol, suggesting the helicity of the bound state may be controlled by the bilayer elastic bending modulus. Experiments with the P20G variant show the proline residue in pHLIP reduces the α-helix content of both states II and III. We also observe that the membrane insertion pKa is influenced by membrane physical properties, following a biphasic pattern similar to the membrane thickness optima observed for the function of eukaryotic membrane proteins. Because tumor cells exhibit altered membrane fluidity, we suggest this might influence pHLIP tumor targeting. We used a cell insertion assay to determine the pKa in live cells, observing that the properties in liposomes held in the more complex plasma membrane. Our results show that the formation of a TM helix is modulated by both the conformational propensities of the peptide and the physical properties of the bilayer. These results suggest a physical role for helix-membrane interactions in optimizing the function of more complex TM proteins.}
@@ -4604,8 +4842,8 @@
       \strng{authorfullhash}{1e9d6efa95d5e13887133a3ee6b4ac52}
       \strng{authorfullhashraw}{1e9d6efa95d5e13887133a3ee6b4ac52}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this study, to systematically investigate the targeting specificity of membrane-active peptides on different types of cell membranes, we evaluated the effects of peptides on different large unilamellar vesicles mimicking prokaryotic, normal eukaryotic, and cancer cell membranes by single-molecule force spectroscopy and spectrum technology. We revealed that cationic membrane-active peptides can exclusively target negatively charged prokaryotic and cancer cell model membranes rather than normal eukaryotic cell model membranes. Using Acholeplasma laidlawii, 3T3-L1, and HeLa cells to represent prokaryotic cells, normal eukaryotic cells, and cancer cells in atomic force microscopy experiments, respectively, we further studied that the single-molecule targeting interaction between peptides and biological membranes. Antimicrobial and anticancer activities of peptides exhibited strong correlations with the interaction probability determined by single-molecule force spectroscopy, which illustrates strong correlations of peptide biological activities and peptide hydrophobicity and charge. Peptide specificity significantly depends on the lipid compositions of different cell membranes, which validates the de novo design of peptide therapeutics against bacteria and cancers.}
@@ -5544,8 +5782,8 @@
       \strng{authornamehash}{c08b84b1a1f88b9bf19c44998d0375f5}
       \strng{authorfullhash}{118aaca06eadf55fcb43e36c99aa7cc5}
       \strng{authorfullhashraw}{118aaca06eadf55fcb43e36c99aa7cc5}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Atomic force microscopy is an increasingly attractive tool to study how peptides disrupt membranes. Often performed on reconstituted lipid bilayers, it provides access to time and length scales that allow dynamic investigations with nanometre resolution. Over the last decade, AFM studies have enabled visualisation of membrane disruption mechanisms by antimicrobial or host defence peptides, including peptides that target malignant cells and biofilms. Moreover, the emergence of high-speed modalities of the technique broadens the scope of investigations to antimicrobial kinetics as well as the imaging of peptide action on live cells in real time. This review describes how methodological advances in AFM facilitate new insights into membrane disruption mechanisms.}
@@ -5592,8 +5830,8 @@
       \strng{authornamehash}{78d98e0dffa240574027be2317da0df2}
       \strng{authorfullhash}{78d98e0dffa240574027be2317da0df2}
       \strng{authorfullhashraw}{78d98e0dffa240574027be2317da0df2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Over a century ago, physicists started broadly relying on theoretical models to guide new experiments. Soon thereafter, chemists began doing the same. Now, biological research enters a new era when experiment and theory walk hand in hand. Novel software and specialized hardware became essential to understand experimental data and propose new models. In fact, current petascale computing resources already allow researchers to reach unprecedented levels of simulation throughput to connect in silico and in vitro experiments. The reduction in cost and improved access allowed a large number of research groups to adopt supercomputing resources and techniques. Here, we outline how large-scale computing has evolved to expand decades-old research, spark new research efforts, and continuously connect simulation and observation. For instance, multiple publicly and privately funded groups have dedicated extensive resources to develop artificial intelligence tools for computational biophysics, from accelerating quantum chemistry calculations to proposing protein structure models. Moreover, advances in computer hardware have accelerated data processing from single-molecule experimental observations and simulations of chemical reactions occurring throughout entire cells. The combination of software and hardware has opened the way for exascale computing and the production of the first public exascale supercomputer, Frontier, inaugurated by the Oak Ridge National Laboratory in 2022. Ultimately, the popularization and development of computational techniques and the training of researchers to use them will only accelerate the diversification of tools and learning resources for future generations.}
@@ -5639,8 +5877,8 @@
       \strng{authornamehash}{6f1f9779fc2067e42d3da9227f63ee88}
       \strng{authorfullhash}{6f1f9779fc2067e42d3da9227f63ee88}
       \strng{authorfullhashraw}{6f1f9779fc2067e42d3da9227f63ee88}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10728368}
@@ -5687,8 +5925,8 @@
       \strng{authornamehash}{46473828fa2374e811cd2f23a0965f70}
       \strng{authorfullhash}{46473828fa2374e811cd2f23a0965f70}
       \strng{authorfullhashraw}{46473828fa2374e811cd2f23a0965f70}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The impact of molecular dynamics (MD) simulations in molecular biology and drug discovery has expanded dramatically in recent years. These simulations capture the behavior of proteins and other biomolecules in full atomic detail and at very fine temporal resolution. Major improvements in simulation speed, accuracy, and accessibility, together with the proliferation of experimental structural data, have increased the appeal of biomolecular simulation to experimentalists—a trend particularly noticeable in, although certainly not limited to, neuroscience. Simulations have proven valuable in deciphering functional mechanisms of proteins and other biomolecules, in uncovering the structural basis for disease, and in the design and optimization of small molecules, peptides, and proteins. Here we describe, in practical terms, the types of information MD simulations can provide and the ways in which they typically motivate further experimental work.}
@@ -6330,8 +6568,8 @@
       \strng{authornamehash}{81072df588ef096e98854e07b81ba5e2}
       \strng{authorfullhash}{81072df588ef096e98854e07b81ba5e2}
       \strng{authorfullhashraw}{81072df588ef096e98854e07b81ba5e2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2A}
@@ -6371,8 +6609,8 @@
       \strng{authornamehash}{b665c644852d672fc230756e66313c23}
       \strng{authorfullhash}{b665c644852d672fc230756e66313c23}
       \strng{authorfullhashraw}{b665c644852d672fc230756e66313c23}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-899X}
@@ -6418,8 +6656,8 @@
       \strng{authornamehash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhashraw}{b385882cc9faa1401f0fdcbf7e6ab2d7}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -6470,8 +6708,8 @@
       \strng{authornamehash}{e302b9eb1e80e19fb391368e6b6a7aeb}
       \strng{authorfullhash}{526bda1a09c7ebd7f0d37dd4e7433763}
       \strng{authorfullhashraw}{526bda1a09c7ebd7f0d37dd4e7433763}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -6942,8 +7180,8 @@
       \strng{authornamehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
       \strng{authorfullhash}{49a891466f4579c92a70cc4e02e9a503}
       \strng{authorfullhashraw}{49a891466f4579c92a70cc4e02e9a503}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{ABSTRACT Molecular Dynamics (MD) has established itself as a pivotal computational tool across various scientific domains, including chemistry, biology, and materials science. Despite its widespread utility, MD faces inherent challenges, such as accuracy limitations, computational speed, and sampling efficiency. In recent years, machine learning, particularly deep learning, has seen significant advancements and is increasingly being integrated into MD processes. This review explores how deep learning can mitigate the issues associated with MD by addressing them from multiple angles. However, deep learning techniques introduce their own set of hurdles, including the need for extensive data, issues of interpretability, high computational costs, and concerns regarding transferability. Here, we discuss recent progress in the field of deep learning to overcome these obstacles. Ultimately, our goal is to demonstrate that, by leveraging the advancements made in both the MD and the machine learning community, deep learning has the potential to significantly enhance the capabilities of MD, paving the way to new scientific discovery. This article is categorized under: Data Science > Artificial Intelligence/Machine Learning Molecular and Statistical Mechanics > Molecular Mechanics Molecular and Statistical Mechanics > Molecular Dynamics and Monte-Carlo Methods}
@@ -7086,8 +7324,8 @@
       \strng{authorfullhash}{1eda09b6b4fcbdce150c5b65dd27e94b}
       \strng{authorfullhashraw}{1eda09b6b4fcbdce150c5b65dd27e94b}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The most popular and universally predictive protein simulation models employ all-atom molecular dynamics, but they come at extreme computational cost. The development of a universal, computationally efficient coarse-grained (CG) model with similar prediction performance has been a long-standing challenge. By combining recent deep-learning methods with a large and diverse training set of all-atom protein simulations, we here develop a bottom–up CG force field with chemical transferability, which can be used for extrapolative molecular dynamics on new sequences not used during model parameterization. We demonstrate that the model successfully predicts metastable states of folded, unfolded and intermediate structures, the fluctuations of intrinsically disordered proteins and relative folding free energies of protein mutants, while being several orders of magnitude faster than an all-atom model. This showcases the feasibility of a universal and computationally efficient machine-learned CG model for proteins.}
@@ -7590,8 +7828,8 @@
       \strng{authornamehash}{af4972b1249f683429fc16914ccaec7e}
       \strng{authorfullhash}{288bc43896a7e0ec7d5e538304bf5e19}
       \strng{authorfullhashraw}{288bc43896a7e0ec7d5e538304bf5e19}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1936-0851}
@@ -7643,8 +7881,8 @@
       \strng{authornamehash}{22e2e7d67e552c5bc8527b1b318fbd29}
       \strng{authorfullhash}{cc3925d7bf1f2c6d66d532739ec10db6}
       \strng{authorfullhashraw}{cc3925d7bf1f2c6d66d532739ec10db6}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1463-9076}
@@ -7715,8 +7953,8 @@
       \strng{authornamehash}{94761d45f3b71d616a065288e2a13122}
       \strng{authorfullhash}{ddd0ed96899f9025a4802d948175ab5a}
       \strng{authorfullhashraw}{ddd0ed96899f9025a4802d948175ab5a}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2296-2646}
@@ -7778,8 +8016,8 @@
       \strng{authorfullhash}{e817160828e288939597638b701f22c9}
       \strng{authorfullhashraw}{e817160828e288939597638b701f22c9}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1422-0067}
@@ -7862,8 +8100,8 @@
       \strng{authorfullhash}{ec543d02e629178b1dcdbe8cc09b68b5}
       \strng{authorfullhashraw}{ec543d02e629178b1dcdbe8cc09b68b5}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09277765}
@@ -7940,8 +8178,8 @@
       \strng{authorfullhash}{3c60264ff571cbb0a481719bec314859}
       \strng{authorfullhashraw}{3c60264ff571cbb0a481719bec314859}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09277765}
@@ -7994,8 +8232,8 @@
       \strng{authornamehash}{c3975e30365f24d88780e782541ca492}
       \strng{authorfullhash}{1047cc8eabf214930cb84c2ce2c3e20e}
       \strng{authorfullhashraw}{1047cc8eabf214930cb84c2ce2c3e20e}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Coarse-grained (CG) protein models have become indispensable tools for studying many biological protein details, from conformational dynamics to the organization of protein macro-complexes, and even the interaction of proteins with other molecules. The Martini force field is one of the most widely used CG models for bio-molecular simulations, partly because of the enormous success of its protein model. With the recent release of a new and improved version of the Martini force field – Martini 3 – a new iteration of its protein model was also made available. The Martini 3 protein force field is an evolution of its Martini 2 counterpart, aimed at improving many of the shortcomings that had been previously identified. In this mini-review, we first provide a general overview of the model and then focus on the successful advances made in the short time since its release, many of which would not have been possible before. Furthermore, we discuss reported limitations, potential directions for model improvement and comment on what the likely future development and application avenues are.}
@@ -8062,8 +8300,8 @@
       \strng{authornamehash}{6b8cea7bafdadd2de211e867dc4b8b39}
       \strng{authorfullhash}{59ac44e5a98eb618e26be5484d25b04f}
       \strng{authorfullhashraw}{59ac44e5a98eb618e26be5484d25b04f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1549-9618}
@@ -12022,8 +12260,8 @@
       \strng{authornamehash}{11b6b123ec1c10682eed73281c6f04cd}
       \strng{authorfullhash}{4700ae338b1c33efb4fc1e7026dc593f}
       \strng{authorfullhashraw}{4700ae338b1c33efb4fc1e7026dc593f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Assessing kinetics in biological processes with molecular dynamics simulations remains a computational and conceptual challenge, given the large time and length scales involved. For kinetic transport of biochemical compounds or drug molecules, the permeability through the phospholipid membranes is a key kinetic property, but long timescales are hindering the accurate computation. Technological advances in high-performance computing therefore need to be accompanied by theoretical and methodological developments. In this contribution, the replica exchange transition interface sampling (RETIS) methodology is shown to give perspective toward observing longer permeation pathways. It is first reviewed how RETIS, a path-sampling methodology that gives in principle exact kinetics, can be used to compute membrane permeability. Next, recent and current developments in three RETIS aspects are discussed: several new Monte Carlo moves in the path-sampling algorithm, memory reduction by reducing pathlengths, and exploitation of parallel computing with CPU-imbalanced replicas. Finally, the memory reduction presenting a new replica exchange implementation, coined REPPTIS, is showcased with a permeant needing to pass a membrane with two permeation channels, either representing an entropic or energetic barrier. The REPPTIS results showed clearly that inclusion of some memory and enhancing ergodic sampling via replica exchange moves are both necessary to obtain correct permeability estimates. In an additional example, ibuprofen permeation through a dipalmitoylphosphatidylcholine membrane was modeled. REPPTIS succeeded in estimating the permeability of this amphiphilic drug molecule with metastable states along the permeation pathway. In conclusion, the presented methodological advances allow for deeper insight into membrane biophysics even if the pathways are slow, as RETIS and REPPTIS push the permeability calculations to longer timescales.}
