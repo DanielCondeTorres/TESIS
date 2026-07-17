@@ -419,7 +419,7 @@ Nevertheless, despite the thermodynamic control offered by these algorithms, the
 \end{figure}
 This approach effectively models an infinite system by tiling the simulation cell in all directions of space, creating periodic replicas where every particle is and behaves exactly like its original counterpart. This method is depicted in Figure \ref{fig:PBCs}, and when applied, the system is said to be under Periodic Boundary Conditions (PBCs).When applying this method, the simulation box must be large enough to avoid any possible interactions between replicas of the same molecule.
 
-In the last step, the MD engine writes the new positions, velocities, thermodynamic properties, and other relevant data into output files. If a convergence criterion is met or a user-defined number of steps are completed, the simulation finishes, allowing for subsequent qualitative and quantitative analysis. As commented, the results obtained---and thus, the conclusions drawn---depend on the force field selected, as it governs the interactions between particles. The following section delves into the general structure of force fields with details on the different contributions to the potential function used to compute the forces acting on each particle.
+In the last step, the MD engine writes the new positions, velocities, thermodynamic properties, and other relevant data into output files. If a convergence criterion is met or a user-defined number of steps are completed, the simulation finishes, allowing for subsequent qualitative and quantitative analysis. As commented, the results obtained depend on the force field selected, as it governs the interactions between particles. The following section delves into the general structure of force fields with details on the different contributions to the potential function used to compute the forces acting on each particle.
 
 \subsection{The Force Field}
 The force field (FF) is the set of equations used to compute the potential energy as well as the set of parameters used to modulate those equations. In general, a force field splits the potential function into a bonded and a non-bonded terms as follows:
@@ -466,7 +466,7 @@ The bonded term describes the interaction between atoms separated by no more tha
     \label{fig:FF_bonded}
 \end{figure}
 
-The first term relates to the stretching of the bond between two atoms (Fig. \ref{fig:bond_stretching}), the second term describes the angle bending involving three atoms (Fig. \ref{fig:angle_bending}), and the last two account for two types of dihedral angles that involve 4 atoms: proper dihedrals (Fig. \ref{fig:dihedral_proper}), and improper dihedrals (Fig. \ref{fig:dihedral_improper}). Most of the force fields use harmonic potentials to describe the bond and angle contributions:
+The first term relates to the stretching of the bond between two atoms (Fig.~\ref{fig:bond_stretching}), the second term describes the angle bending involving three atoms (Fig.~\ref{fig:angle_bending}), and the last two account for two types of dihedral angles that involve 4 atoms: proper dihedrals (Fig.~\ref{fig:dihedral_proper}), and improper dihedrals (Fig.~\ref{fig:dihedral_improper}). Most of the force fields use harmonic potentials to describe the bond and angle contributions:
 \begin{equation}
     U_{bonds}(\vec{r}_{ij}) = \frac{1}{2}k_{ij}(\vec{r}_{ij}-\vec{r}_{ij}^{0})^2
 \end{equation}
@@ -528,15 +528,15 @@ This approximation is physically acceptable for van der Waals interactions becau
 
 \paragraph{The Challenge of Electrostatics: Reaction Field}
 
-While a simple cutoff works well for short-range van der Waals interactions, it is disastrous for electrostatics. The Coulomb potential decays very slowly ($\|\mathbf{r}_{ij}\|^{-1}$). Truncating it at a distance $r_c$ ignores long-range electrostatic correlations, introducing severe artifacts.
+While a simple cutoff works well for short-range van der Waals interactions, it is disastrous for electrostatics. The Coulomb potential decays very slowly (\(\|\vec{r}_{ij}\|^{-1}\)). Truncating it at a distance $r_c$ ignores long-range electrostatic correlations, introducing severe artifacts.
 
 An early solution to this problem is the Reaction Field method. This scheme assumes that the local region is surrounded by a continuous, homogeneous dielectric medium with a relative permittivity $\varepsilon_{\text{RF}}$. A particle inside the cutoff cavity produces a polarization in this external continuum, which reflects a \textit{reaction field} back into the cavity. The electrostatic potential for a pair of particles is given by:
 
 \begin{equation}\label{eq:reaction_field}
-    U_{\text{RF}}(\mathbf{r}_{ij}) = \frac{1}{4\pi\varepsilon_0} \left[ \left( 1 + \frac{\varepsilon_{\text{RF}} - \varepsilon_r}{2\varepsilon_{\text{RF}} + \varepsilon_r} \frac{\|\mathbf{r}_{ij}\|^3}{r_c^3} \right) \frac{q_i q_j}{\|\mathbf{r}_{ij}\|} - \frac{q_i q_j}{r_c} \left( \frac{3\varepsilon_{\text{RF}}}{2\varepsilon_{\text{RF}} + \varepsilon_r} \right) \right]
+    U_{\text{RF}}(\vec{r}_{ij}) = \frac{1}{4\pi\varepsilon_0} \left[ \left( 1 + \frac{\varepsilon_{\text{RF}} - \varepsilon_r}{2\varepsilon_{\text{RF}} + \varepsilon_r} \frac{\|\vec{r}_{ij}\|^3}{r_c^3} \right) \frac{q_i q_j}{\|\vec{r}_{ij}\|} - \frac{q_i q_j}{r_c} \left( \frac{3\varepsilon_{\text{RF}}}{2\varepsilon_{\text{RF}} + \varepsilon_r} \right) \right]
 \end{equation}
 
-At $\|\mathbf{r}_{ij}\| = r_c$, the slope of this potential (the force) becomes zero, effectively eliminating the discontinuity artifacts present in a simple truncation.
+At $\|\vec{r}_{ij}\| = r_c$, the slope of this potential (the force) becomes zero, effectively eliminating the discontinuity artifacts present in a simple truncation.
 
 Despite its conceptual elegance, the Reaction Field method suffers from critical numerical issues in molecular dynamics. Whenever a molecule enters or leaves the cavity surrounding another, a discontinuous jump occurs in the energy due to both direct interactions and the reaction field contribution. These changes do not exactly cancel, resulting in poor energy conservation. Furthermore, spurious features often appear in the radial distribution function at $r = r_c$. While tapering functions can mitigate these jumps, the method fundamentally struggles to capture the true periodicity of macroscopic crystals or complex biomolecules\cite{termo_metad_presion}.
 
@@ -544,20 +544,20 @@ Despite its conceptual elegance, the Reaction Field method suffers from critical
 
 
 \paragraph{Ewald Summation and Particle-Mesh Ewald (PME)}
-To rigorously solve the long-range electrostatics problem without truncation errors or boundary discontinuities, one must calculate the infinite periodic sum of all Coulomb interactions, including those with all periodic images (denoted by the lattice vector $\mathbf{n}$):
+To rigorously solve the long-range electrostatics problem without truncation errors or boundary discontinuities, one must calculate the infinite periodic sum of all Coulomb interactions, including those with all periodic images (denoted by the lattice vector $\vec{n}$):
 
 \begin{equation}\label{eq:coulomb_periodic}
-    U_{\text{Coulomb}} = \frac{1}{4\pi\varepsilon} \sum_{\mathbf{n}^*} \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{q_i q_j}{\|\mathbf{r}_{ij} + \mathbf{n}\|}
+    U_{\text{Coulomb}} = \frac{1}{4\pi\varepsilon} \sum_{\vec{n}^*} \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{q_i q_j}{\|\vec{r}_{ij} + \vec{n}\|}
 \end{equation}
 
-where the asterisk indicates that self-interaction terms ($i=j$ when $\mathbf{n}=0$) are excluded. Because this sum converges conditionally and extremely slowly, Ewald \cite{termo_metad_presion,Ewald1921} introduced a mathematical transformation. By artificially screening each point charge with a Gaussian charge cloud of opposite sign, the slowly converging series can be split into rapidly converging short-range and long-range contributions using the identity $\text{erf}(x) + \text{erfc}(x) = 1$. 
+where the asterisk indicates that self-interaction terms ($i=j$ when $\vec{n}=0$) are excluded. Because this sum converges conditionally and extremely slowly, Ewald \cite{termo_metad_presion,Ewald1921} introduced a mathematical transformation. By artificially screening each point charge with a Gaussian charge cloud of opposite sign, the slowly converging series can be split into rapidly converging short-range and long-range contributions using the identity $\text{erf}(x) + \text{erfc}(x) = 1$. 
 
-The long-range contribution (involving the error function, $\text{erf}$) is highly delocalized and periodic, allowing it to be efficiently transformed into a sum over reciprocal lattice vectors ($\mathbf{m}$) using Fourier transforms. The total electrostatic energy is thus analytically reformulated as:
+The long-range contribution (involving the error function, $\text{erf}$) is highly delocalized and periodic, allowing it to be efficiently transformed into a sum over reciprocal lattice vectors ($\vec{m}$) using Fourier transforms. The total electrostatic energy is thus analytically reformulated as:
 
 \begin{equation}\label{eq:ewald_total}
 \begin{aligned}
-    U_{\text{Coulomb}} &= \underbrace{ \frac{1}{4\pi\varepsilon} \sum_{\mathbf{n}^*} \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{q_i q_j \text{erfc}(\beta\|\mathbf{r}_{ij} + \mathbf{n}\|)}{\|\mathbf{r}_{ij} + \mathbf{n}\|} }_{\text{Direct Space}} \\
-    &+ \underbrace{ \frac{1}{4\pi\varepsilon \pi V} \sum_{\mathbf{m} \neq \mathbf{0}} \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{q_i q_j e^{-(\pi\mathbf{m}/\beta)^2} e^{i 2\pi\mathbf{m}\cdot\mathbf{r}_{ij}}}{\|\mathbf{m}\|^2} }_{\text{Reciprocal Space}} \\
+    U_{\text{Coulomb}} &= \underbrace{ \frac{1}{4\pi\varepsilon} \sum_{\vec{n}^*} \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{q_i q_j \text{erfc}(\beta\|\vec{r}_{ij} + \vec{n}\|)}{\|\vec{r}_{ij} + \vec{n}\|} }_{\text{Direct Space}} \\
+    &+ \underbrace{ \frac{1}{4\pi\varepsilon \pi V} \sum_{\vec{m} \neq \vec{0}} \frac{1}{2} \sum_{i=1}^{N} \sum_{j=1}^{N} \frac{q_i q_j e^{-(\pi\vec{m}/\beta)^2} e^{i 2\pi\vec{m}\cdot\vec{r}_{ij}}}{\|\vec{m}\|^2} }_{\text{Reciprocal Space}} \\
     &+ \underbrace{ \frac{1}{4\pi\varepsilon} \frac{\beta}{\sqrt{\pi}} \sum_{i=1}^{N} q_i^2 }_{\text{Self-Energy Correction}}
 \end{aligned}
 \end{equation}
@@ -565,7 +565,7 @@ The long-range contribution (involving the error function, $\text{erf}$) is high
 Here, $\beta$ is a tuning parameter dictating the width of the Gaussian distribution. The physical meaning of each term is as follows:
 \begin{itemize}
     \item The \textbf{Direct Space} term decays rapidly due to the complementary error function ($\text{erfc}$) and can be safely truncated at a real-space cutoff.
-    \item The \textbf{Reciprocal Space} term is solved over the wave vectors $\mathbf{m}$ in Fourier space, capturing the long-range periodic electrostatics.
+    \item The \textbf{Reciprocal Space} term is solved over the wave vectors $\vec{m}$ in Fourier space, capturing the long-range periodic electrostatics.
     \item The \textbf{Self-Energy Correction} is a necessary analytical adjustment. Since the reciprocal space sum includes the non-physical interaction of a charge $q_i$ with its own neutralizing Gaussian cloud, this term is added to correct the total potential energy.
 \end{itemize}
 
@@ -1294,7 +1294,7 @@ Each term is estimated on a quantum device via repeated state preparations and p
 The VQE is a flagship hybrid algorithm specifically designed to find the ground state energy of a given Hamiltonian $\hat{H}$ \cite{vqe_mejor}. 
 
 \subsubsection{The Variational Principle}
-The theoretical foundation of VQE is the Rayleigh-Ritz variational principle from quantum mechanics. It states that for any normalized trial wavefunction $|\psi(\boldsymbol{\theta})\rangle$, the expectation value of the Hamiltonian $\hat{H}$ is always greater than or equal to the true ground state energy $E_0$:
+The theoretical foundation of VQE is the Rayleigh-Ritz variational principle from quantum mechanics \cite{rayleigh-ritz}. It states that for any normalized trial wavefunction $|\psi(\boldsymbol{\theta})\rangle$, the expectation value of the Hamiltonian $\hat{H}$ is always greater than or equal to the true ground state energy $E_0$:
 \begin{equation}
 E(\boldsymbol{\theta}) = \langle \psi(\boldsymbol{\theta}) | \hat{H} | \psi(\boldsymbol{\theta}) \rangle \ge E_0
 \end{equation}
