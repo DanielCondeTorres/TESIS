@@ -410,7 +410,7 @@ If a membrane were scaled isotropically, a transient pressure spike in the bulk 
 
 
 \subsection{Periodic Boundary Conditions}
-Nevertheless, despite the thermodynamic control offered by these algorithms, the simulation of real-world systems is limited by the amount of particles that can be simulated using a realistic amount of computational resources. This limitation, necessitates confining the molecules to a finite volume; however, enclosing them with hard boundaries would introduce artificial particle-wall interactions that are unrealistic for biological environments. To avoid this, when the calculation of the new positions displaces a particle out of the simulation cell, the exact same particle "wraps-around" and re-enters from the opposite side.
+Nevertheless, despite the thermodynamic control offered by these algorithms, the simulation of real-world systems is limited by the amount of particles that can be simulated using a realistic amount of computational resources. This limitation, necessitates confining the molecules to a finite volume; however, enclosing them with hard boundaries would introduce artificial particle-wall interactions that are unrealistic for biological environments. To avoid this, when the calculation of the new positions displaces a particle out of the simulation cell, the exact same particle wraps-around and re-enters from the opposite side.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.55\linewidth]{General_Sections/Figures/pbc_diagram.png}
@@ -468,7 +468,7 @@ The bonded term describes the interaction between atoms separated by no more tha
 
 The first term relates to the stretching of the bond between two atoms (Fig. \ref{fig:bond_stretching}), the second term describes the angle bending involving three atoms (Fig. \ref{fig:angle_bending}), and the last two account for two types of dihedral angles that involve 4 atoms: proper dihedrals (Fig. \ref{fig:dihedral_proper}), and improper dihedrals (Fig. \ref{fig:dihedral_improper}). Most of the force fields use harmonic potentials to describe the bond and angle contributions:
 \begin{equation}
-    U_{bonds}(\textbf{r}_{ij}) = \frac{1}{2}k_{ij}(\textbf{r}_{ij}-\textbf{r}_{ij}^{0})^2
+    U_{bonds}(\vec{r}_{ij}) = \frac{1}{2}k_{ij}(\vec{r}_{ij}-\vec{r}_{ij}^{0})^2
 \end{equation}
 \begin{equation}\label{eq:angle}
     U_{angles}(\theta_{ijk}) = \frac{1}{2}k_{ijk}(\theta_{ijk}-\theta_{ijk}^{0})^2
@@ -511,8 +511,7 @@ Up to now, several force field-dependent parameters such as force constants or e
 
 Throughout this section, the term \textit{particle} has been used instead of \textit{atom}. This choice is due to the fact that not all force fields use an atomistic representation of the systems. Some force fields, instead, group several atoms into a single particle. The type of approximation is known as resolution, and it represents an additional distinguishing feature among force fields.
 
-% --- Continuación de tu texto ---
-Throughout this section, the term \textit{particle} has been used instead of \textit{atom}. This choice is due to the fact that not all force fields use an atomistic representation of the systems. Some force fields, instead, group several atoms into a single particle. The type of approximation is known as resolution, and it represents an additional distinguishing feature among force fields.
+
 
 \subsubsection{Calculation of Non-Bonded Interactions: The Computational Bottleneck}
 
@@ -568,7 +567,6 @@ Here, $\beta$ is a tuning parameter dictating the width of the Gaussian distribu
     \item The \textbf{Direct Space} term decays rapidly due to the complementary error function ($\text{erfc}$) and can be safely truncated at a real-space cutoff.
     \item The \textbf{Reciprocal Space} term is solved over the wave vectors $\mathbf{m}$ in Fourier space, capturing the long-range periodic electrostatics.
     \item The \textbf{Self-Energy Correction} is a necessary analytical adjustment. Since the reciprocal space sum includes the non-physical interaction of a charge $q_i$ with its own neutralizing Gaussian cloud, this term is added to correct the total potential energy.
-    \item \textit{Note on Boundary Conditions:} Equation \ref{eq:ewald_total} assumes ``tinfoil'' boundary conditions ($\varepsilon_s = \infty$), where the infinite periodic system is implicitly surrounded by a perfect conductor, nullifying any macroscopic surface dipole term.
 \end{itemize}
 
 While the standard Ewald summation reduces computational scaling to $\mathcal{O}(N^{3/2})$, the reciprocal sum remains prohibitively expensive for large systems. The definitive breakthrough was the Particle-Mesh Ewald (PME) algorithm \cite{Darden1993}. In smooth PME, the reciprocal charges are interpolated onto a regular 3D grid using cardinal B-splines. Once gridded, the reciprocal space potential is solved highly efficiently using the 3D Fast Fourier Transform (FFT) algorithm, reducing the overall computational complexity to $\mathcal{O}(N \log N)$. This grid-based approach remains the gold standard in modern MD simulation engines for treating long-range electrostatics efficiently and with rigorous physical accuracy.
@@ -1095,13 +1093,13 @@ These limitations motivate the exploration of alternative computational paradigm
 
 
 
-Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics; specifically superposition, entanglement, and interference; to process information and solve complex combinatorial optimization problems that remain intractable for classical systems\cite{nielsen2010quantum,preskill1998quantum}. This research is conducted within the Noisy Intermediate-Scale Quantum (NISQ) era, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction)\cite{Shor1995,KITAEV20032}. The primary goal in this context is to achieve Quantum Advantage\cite{paper_dani}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
+Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics; specifically superposition, entanglement, and interference; to process information and solve complex combinatorial optimization problems that remain intractable for classical systems\cite{nielsen2010quantum,preskill1998quantum}. This research is conducted within the Noisy Intermediate-Scale Quantum (NISQ) era, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction)\cite{Shor1995,KITAEV20032}. The primary goal in this context is to achieve Quantum Advantage \cite{paper_dani}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
 
 \subsection{Foundations of Quantum Information}
 To understand the application of quantum algorithms in molecular design, it is essential to define the basic units of information and the operations that manipulate them. As described in the fundamental work of Nielsen and Chuang \cite{nielsen2010quantum,preskill1998quantum}, quantum information theory generalizes classical computation by utilizing the principles of Hilbert space.
 
 \subsubsection{Bits vs. Qubits}
-Just as a classical computer uses bits that are either $0$ or $1$ and that can physically be represented as a low and a high voltage in a wire, a quantum computer uses quantum bits or qubits, which can be in states $|0\rangle$ or $|1\rangle$, often referred to as computational basis states. A qubit can, for instance, be physically manifested as two distinct energy levels of an atom (e.g., ground state $|0\rangle$ and excited state $|1\rangle$) or by the number of Cooper pairs on a superconducting island formed by a Josephson junction and a capacitor\cite{nielsen2010quantum,preskill1998quantum}. 
+Just as a classical computer uses bits that are either $0$ or $1$ and that can physically be represented as a low and a high voltage in a wire, a quantum computer uses quantum bits or qubits, which can be in states $|0\rangle$ or $|1\rangle$, often referred to as computational basis states. A qubit can, for instance, be physically manifested as two distinct energy levels of an atom (e.g., ground state $|0\rangle$ and excited state $|1\rangle$) \cite{nielsen2010quantum,preskill1998quantum}. 
 
 Qubits are described mathematically using Dirac's \textit{ket} notation. A typical choice to represent the computational basis states is as column vectors:
 \begin{equation}
@@ -1131,7 +1129,7 @@ The fundamental principles governing single qubits naturally extend to systems c
 \begin{equation}
 |\psi\rangle = \sum_{z \in \{0,1\}^N} \alpha_z |z\rangle, \quad \text{with} \quad \sum_{z \in \{0,1\}^N} |\alpha_z|^2 = 1
 \end{equation}
-The critical requirement is that the sum of the squares of the absolute values of these complex amplitudes must strictly equal $1$, ensuring that the total probability is conserved within this larger system\cite{nielsen2010quantum,preskill1998quantum}. This extension underlines the extraordinary scalability of quantum computing, demonstrating that the information capacity—or memory—available with every added qubit grows exponentially, spanning a $2^N$-dimensional Hilbert space.
+The critical requirement is that the sum of the squares of the absolute values of these complex amplitudes must strictly equal $1$, ensuring that the total probability is conserved within this larger system\cite{nielsen2010quantum,preskill1998quantum}. This extension underlines the extraordinary scalability of quantum computing, demonstrating that the information capacity available with every added qubit grows exponentially, spanning a $2^N$-dimensional Hilbert space.
 
 \subsection{Unitary Dynamics and Quantum Gates}
 Analogous to classical computers, which employ elementary logic gates such as AND or NOT to carry out deterministic operations on bits, quantum computers utilize quantum gates to manipulate the probability amplitudes of one or several qubits. The continuous time evolution of these probability amplitudes in a closed quantum system is fundamentally governed by the linear differential Schr\"odinger equation:

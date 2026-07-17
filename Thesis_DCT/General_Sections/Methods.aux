@@ -1,139 +1,139 @@
 \relax 
 \providecommand{\transparent@use}[1]{}
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Materials and Methods}{49}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Materials and Methods}{50}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{methods}{{3}{49}{Materials and Methods}{chapter.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Molecular Dynamics: Principles}{50}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}The Physics Behind Molecular Dynamics}{50}{subsection.3.1.1}\protected@file@percent }
-\newlabel{NG}{{3.1}{51}{The Physics Behind Molecular Dynamics}{equation.3.1}{}}
-\newlabel{N2L}{{3.2}{51}{The Physics Behind Molecular Dynamics}{equation.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces This scheme illustrates the essential steps involved in a MD simulation. The process begins with the definition of the initial state of the system, including the atomic coordinates and velocities, the selection of an appropriate force field, and the specification of the simulation conditions. The force field is then employed to compute the forces acting on each particle, which enables the time evolution of the system through the numerical integration of the equations of motion. At each time step, additional algorithms are applied to ensure that the system evolves under the desired thermodynamic conditions, such as constant temperature and/or pressure. This includes, for instance, the use of thermostats and barostats to control the corresponding ensemble. The propagation of positions and velocities, together with the enforcement of these conditions, is repeated iteratively over successive time steps. The simulation proceeds until a predefined convergence criterion is met or the maximum number of integration steps is reached.}}{52}{figure.caption.4}\protected@file@percent }
-\newlabel{fig:MDFlow}{{3.1}{52}{This scheme illustrates the essential steps involved in a MD simulation. The process begins with the definition of the initial state of the system, including the atomic coordinates and velocities, the selection of an appropriate force field, and the specification of the simulation conditions. The force field is then employed to compute the forces acting on each particle, which enables the time evolution of the system through the numerical integration of the equations of motion. At each time step, additional algorithms are applied to ensure that the system evolves under the desired thermodynamic conditions, such as constant temperature and/or pressure. This includes, for instance, the use of thermostats and barostats to control the corresponding ensemble. The propagation of positions and velocities, together with the enforcement of these conditions, is repeated iteratively over successive time steps. The simulation proceeds until a predefined convergence criterion is met or the maximum number of integration steps is reached}{figure.caption.4}{}}
-\newlabel{eq:integral_v}{{3.3}{53}{The Physics Behind Molecular Dynamics}{equation.3.3}{}}
-\newlabel{eq:integral_r}{{3.4}{53}{The Physics Behind Molecular Dynamics}{equation.3.4}{}}
-\newlabel{eq:taylor_general}{{3.5}{53}{The Physics Behind Molecular Dynamics}{equation.3.5}{}}
-\newlabel{eq:taylor_forward}{{3.6}{53}{The Physics Behind Molecular Dynamics}{equation.3.6}{}}
-\newlabel{eq:taylor_backward}{{3.7}{53}{The Physics Behind Molecular Dynamics}{equation.3.7}{}}
-\newlabel{eq:verlet}{{3.8}{54}{The Physics Behind Molecular Dynamics}{equation.3.8}{}}
-\newlabel{eq:leapfrog}{{3.9}{54}{The Physics Behind Molecular Dynamics}{equation.3.9}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Constraint Algorithms and the Integration Time Step}{54}{subsection.3.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Statistical Mechanics of Temperature Control}{55}{subsection.3.1.3}\protected@file@percent }
-\newlabel{eq:gamma_distribution}{{3.14}{56}{Statistical Mechanics of Temperature Control}{equation.3.14}{}}
-\newlabel{eq:variance_k}{{3.15}{57}{Statistical Mechanics of Temperature Control}{equation.3.15}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3.1}The Berendsen thermostat}{58}{subsubsection.3.1.3.1}\protected@file@percent }
-\newlabel{eq:berendsen_dk}{{3.19}{58}{The Berendsen thermostat}{equation.3.19}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3.2}The stochastic v-rescale solution}{58}{subsubsection.3.1.3.2}\protected@file@percent }
-\newlabel{eq:vrescale}{{3.21}{58}{The stochastic v-rescale solution}{equation.3.21}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Statistical Mechanics of Pressure Control (Barostats)}{59}{subsection.3.1.4}\protected@file@percent }
-\newlabel{eq:virial_tensor}{{3.22}{59}{Statistical Mechanics of Pressure Control (Barostats)}{equation.3.22}{}}
-\newlabel{eq:scaling_general}{{3.23}{60}{Statistical Mechanics of Pressure Control (Barostats)}{equation.3.23}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4.1}The Berendsen Barostat}{60}{subsubsection.3.1.4.1}\protected@file@percent }
-\newlabel{eq:berendsen_barostat}{{3.24}{60}{The Berendsen Barostat}{equation.3.24}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4.2}The Parrinello-Rahman barostat}{61}{subsubsection.3.1.4.2}\protected@file@percent }
-\newlabel{eq:parrinello_L}{{3.25}{61}{The Parrinello-Rahman barostat}{equation.3.25}{}}
-\newlabel{eq:parrinello_W}{{3.26}{61}{The Parrinello-Rahman barostat}{equation.3.26}{}}
-\newlabel{eq:parrinello_p}{{3.27}{61}{The Parrinello-Rahman barostat}{equation.3.27}{}}
-\newlabel{eq:parrinello_M}{{3.28}{61}{The Parrinello-Rahman barostat}{equation.3.28}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4.3}Semi-isotropic scaling: Preserving membrane integrity}{62}{subsubsection.3.1.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.5}Periodic Boundary Conditions}{62}{subsection.3.1.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib.}}{63}{figure.caption.5}\protected@file@percent }
-\newlabel{fig:PBCs}{{3.2}{63}{Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib}{figure.caption.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.6}The Force Field}{63}{subsection.3.1.6}\protected@file@percent }
-\newlabel{fig:bond_stretching}{{3.3a}{64}{Bond stretching}{figure.caption.6}{}}
-\newlabel{sub@fig:bond_stretching}{{a}{64}{Bond stretching}{figure.caption.6}{}}
-\newlabel{fig:angle_bending}{{3.3b}{64}{Angle bending}{figure.caption.6}{}}
-\newlabel{sub@fig:angle_bending}{{b}{64}{Angle bending}{figure.caption.6}{}}
-\newlabel{fig:dihedral_proper}{{3.3c}{64}{Proper dihedral}{figure.caption.6}{}}
-\newlabel{sub@fig:dihedral_proper}{{c}{64}{Proper dihedral}{figure.caption.6}{}}
-\newlabel{fig:dihedral_improper}{{3.3d}{64}{Improper dihedral}{figure.caption.6}{}}
-\newlabel{sub@fig:dihedral_improper}{{d}{64}{Improper dihedral}{figure.caption.6}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Schematic representation of the bonded interactions included in the bonded term of the potential function. (a) depicts the bond stretching, (b) angle bending, (c) the torsion of a proper dihedral, and (d) the bending of an improper dihedral.}}{64}{figure.caption.6}\protected@file@percent }
-\newlabel{fig:FF_bonded}{{3.3}{64}{Schematic representation of the bonded interactions included in the bonded term of the potential function. (a) depicts the bond stretching, (b) angle bending, (c) the torsion of a proper dihedral, and (d) the bending of an improper dihedral}{figure.caption.6}{}}
-\newlabel{eq:angle}{{3.32}{64}{The Force Field}{equation.3.32}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.6.1}Calculation of Non-Bonded Interactions: The Computational Bottleneck}{66}{subsubsection.3.1.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.6.1.1}Truncation Methods (Cutoffs) for van der Waals Interactions}{66}{paragraph.3.1.6.1.1}\protected@file@percent }
+\newlabel{methods}{{3}{50}{Materials and Methods}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Molecular Dynamics: Principles}{51}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}The Physics Behind Molecular Dynamics}{51}{subsection.3.1.1}\protected@file@percent }
+\newlabel{NG}{{3.1}{52}{The Physics Behind Molecular Dynamics}{equation.3.1}{}}
+\newlabel{N2L}{{3.2}{52}{The Physics Behind Molecular Dynamics}{equation.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces This scheme illustrates the essential steps involved in a MD simulation. The process begins with the definition of the initial state of the system, including the atomic coordinates and velocities, the selection of an appropriate force field, and the specification of the simulation conditions. The force field is then employed to compute the forces acting on each particle, which enables the time evolution of the system through the numerical integration of the equations of motion. At each time step, additional algorithms are applied to ensure that the system evolves under the desired thermodynamic conditions, such as constant temperature and/or pressure. This includes, for instance, the use of thermostats and barostats to control the corresponding ensemble. The propagation of positions and velocities, together with the enforcement of these conditions, is repeated iteratively over successive time steps. The simulation proceeds until a predefined convergence criterion is met or the maximum number of integration steps is reached.}}{53}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:MDFlow}{{3.1}{53}{This scheme illustrates the essential steps involved in a MD simulation. The process begins with the definition of the initial state of the system, including the atomic coordinates and velocities, the selection of an appropriate force field, and the specification of the simulation conditions. The force field is then employed to compute the forces acting on each particle, which enables the time evolution of the system through the numerical integration of the equations of motion. At each time step, additional algorithms are applied to ensure that the system evolves under the desired thermodynamic conditions, such as constant temperature and/or pressure. This includes, for instance, the use of thermostats and barostats to control the corresponding ensemble. The propagation of positions and velocities, together with the enforcement of these conditions, is repeated iteratively over successive time steps. The simulation proceeds until a predefined convergence criterion is met or the maximum number of integration steps is reached}{figure.caption.4}{}}
+\newlabel{eq:integral_v}{{3.3}{54}{The Physics Behind Molecular Dynamics}{equation.3.3}{}}
+\newlabel{eq:integral_r}{{3.4}{54}{The Physics Behind Molecular Dynamics}{equation.3.4}{}}
+\newlabel{eq:taylor_general}{{3.5}{54}{The Physics Behind Molecular Dynamics}{equation.3.5}{}}
+\newlabel{eq:taylor_forward}{{3.6}{54}{The Physics Behind Molecular Dynamics}{equation.3.6}{}}
+\newlabel{eq:taylor_backward}{{3.7}{54}{The Physics Behind Molecular Dynamics}{equation.3.7}{}}
+\newlabel{eq:verlet}{{3.8}{55}{The Physics Behind Molecular Dynamics}{equation.3.8}{}}
+\newlabel{eq:leapfrog}{{3.9}{55}{The Physics Behind Molecular Dynamics}{equation.3.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Constraint Algorithms and the Integration Time Step}{55}{subsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Statistical Mechanics of Temperature Control}{56}{subsection.3.1.3}\protected@file@percent }
+\newlabel{eq:gamma_distribution}{{3.14}{57}{Statistical Mechanics of Temperature Control}{equation.3.14}{}}
+\newlabel{eq:variance_k}{{3.15}{58}{Statistical Mechanics of Temperature Control}{equation.3.15}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3.1}The Berendsen thermostat}{59}{subsubsection.3.1.3.1}\protected@file@percent }
+\newlabel{eq:berendsen_dk}{{3.19}{59}{The Berendsen thermostat}{equation.3.19}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3.2}The stochastic v-rescale solution}{59}{subsubsection.3.1.3.2}\protected@file@percent }
+\newlabel{eq:vrescale}{{3.21}{59}{The stochastic v-rescale solution}{equation.3.21}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Statistical Mechanics of Pressure Control (Barostats)}{60}{subsection.3.1.4}\protected@file@percent }
+\newlabel{eq:virial_tensor}{{3.22}{60}{Statistical Mechanics of Pressure Control (Barostats)}{equation.3.22}{}}
+\newlabel{eq:scaling_general}{{3.23}{61}{Statistical Mechanics of Pressure Control (Barostats)}{equation.3.23}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4.1}The Berendsen Barostat}{61}{subsubsection.3.1.4.1}\protected@file@percent }
+\newlabel{eq:berendsen_barostat}{{3.24}{61}{The Berendsen Barostat}{equation.3.24}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4.2}The Parrinello-Rahman barostat}{62}{subsubsection.3.1.4.2}\protected@file@percent }
+\newlabel{eq:parrinello_L}{{3.25}{62}{The Parrinello-Rahman barostat}{equation.3.25}{}}
+\newlabel{eq:parrinello_W}{{3.26}{62}{The Parrinello-Rahman barostat}{equation.3.26}{}}
+\newlabel{eq:parrinello_p}{{3.27}{62}{The Parrinello-Rahman barostat}{equation.3.27}{}}
+\newlabel{eq:parrinello_M}{{3.28}{62}{The Parrinello-Rahman barostat}{equation.3.28}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4.3}Semi-isotropic scaling: Preserving membrane integrity}{63}{subsubsection.3.1.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.5}Periodic Boundary Conditions}{63}{subsection.3.1.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib.}}{64}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:PBCs}{{3.2}{64}{Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.6}The Force Field}{64}{subsection.3.1.6}\protected@file@percent }
+\newlabel{fig:bond_stretching}{{3.3a}{65}{Bond stretching}{figure.caption.6}{}}
+\newlabel{sub@fig:bond_stretching}{{a}{65}{Bond stretching}{figure.caption.6}{}}
+\newlabel{fig:angle_bending}{{3.3b}{65}{Angle bending}{figure.caption.6}{}}
+\newlabel{sub@fig:angle_bending}{{b}{65}{Angle bending}{figure.caption.6}{}}
+\newlabel{fig:dihedral_proper}{{3.3c}{65}{Proper dihedral}{figure.caption.6}{}}
+\newlabel{sub@fig:dihedral_proper}{{c}{65}{Proper dihedral}{figure.caption.6}{}}
+\newlabel{fig:dihedral_improper}{{3.3d}{65}{Improper dihedral}{figure.caption.6}{}}
+\newlabel{sub@fig:dihedral_improper}{{d}{65}{Improper dihedral}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Schematic representation of the bonded interactions included in the bonded term of the potential function. (a) depicts the bond stretching, (b) angle bending, (c) the torsion of a proper dihedral, and (d) the bending of an improper dihedral.}}{65}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:FF_bonded}{{3.3}{65}{Schematic representation of the bonded interactions included in the bonded term of the potential function. (a) depicts the bond stretching, (b) angle bending, (c) the torsion of a proper dihedral, and (d) the bending of an improper dihedral}{figure.caption.6}{}}
+\newlabel{eq:angle}{{3.32}{65}{The Force Field}{equation.3.32}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.6.1}Calculation of Non-Bonded Interactions: The Computational Bottleneck}{67}{subsubsection.3.1.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.6.1.1}Truncation Methods (Cutoffs) for van der Waals Interactions}{67}{paragraph.3.1.6.1.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.6.1.2}The Challenge of Electrostatics: Reaction Field}{67}{paragraph.3.1.6.1.2}\protected@file@percent }
-\newlabel{eq:reaction_field}{{3.38}{67}{The Challenge of Electrostatics: Reaction Field}{equation.3.38}{}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.6.1.3}Ewald Summation and Particle-Mesh Ewald (PME)}{67}{paragraph.3.1.6.1.3}\protected@file@percent }
-\newlabel{eq:coulomb_periodic}{{3.39}{67}{Ewald Summation and Particle-Mesh Ewald (PME)}{equation.3.39}{}}
-\newlabel{eq:ewald_total}{{3.40}{68}{Ewald Summation and Particle-Mesh Ewald (PME)}{equation.3.40}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.7}The Resolution of the Force Fields}{68}{subsection.3.1.7}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Representation of the 3D structure of a lipid (up, POPC) and a peptide (bottom, KRRIRRAKKKEKRCFKKEKR) using an AA force field (left) and its corresponding mapping into Martini CG (right).}}{70}{figure.caption.7}\protected@file@percent }
-\newlabel{fig:AA2CG}{{3.4}{70}{Representation of the 3D structure of a lipid (up, POPC) and a peptide (bottom, KRRIRRAKKKEKRCFKKEKR) using an AA force field (left) and its corresponding mapping into Martini CG (right)}{figure.caption.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.8}Standard Metadynamics (MetaD)}{70}{subsection.3.1.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.1}Equilibrium Constants and Ergodicity Breaking}{72}{subsubsection.3.1.8.1}\protected@file@percent }
-\newlabel{eq:metad_bias}{{3.55}{73}{Equilibrium Constants and Ergodicity Breaking}{equation.3.55}{}}
-\newlabel{eq:metad_convergence}{{3.56}{74}{Equilibrium Constants and Ergodicity Breaking}{equation.3.56}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Progressive evolution of a one-dimensional model potential $V(s)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}}{74}{figure.caption.8}\protected@file@percent }
-\newlabel{fig:metad}{{3.5}{74}{Progressive evolution of a one-dimensional model potential $V(s)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well}{figure.caption.8}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.2}Well-Tempered Metadynamics (WTMetaD)}{74}{subsubsection.3.1.8.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.3}Thermodynamic Reweighting}{75}{subsubsection.3.1.8.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.1}Selection and Formulation of Collective Variables}{75}{paragraph.3.1.8.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.2}Geometrical Framework of the Peptide--Membrane System}{76}{paragraph.3.1.8.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {3.1.8.3.2.1}Distance and Insertion Depth}{76}{subparagraph.3.1.8.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.3}Peptide Orientation and Tilt Angle}{76}{paragraph.3.1.8.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.4}Spin and Azimuthal Orientation}{77}{paragraph.3.1.8.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.5}Physical Interpretation in Euler Angles}{77}{paragraph.3.1.8.3.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces \textbf  {Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb  {R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi , \theta , \phi )$, corresponding to the Euler angles. The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta $ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi $ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi $ represents the internal rotation of the helix about its longitudinal axis $\mathbf  {\hat  {n}}$. Assuming an infinite, homogeneous, and isotropic membrane in the $XY$ plane, the system exhibits translational symmetry along $X$ and $Y$, as well as rotational symmetry around the $Z$-axis. Consequently, the potential energy of the system is independent of $x, y$, and $\psi $ (ignorable coordinates), effectively reducing the configurational study to the three biologically relevant degrees of freedom: insertion depth ($z$), tilt ($\theta $), and internal rotation ($\phi $).}}{78}{figure.caption.9}\protected@file@percent }
-\newlabel{fig:eulers_angles}{{3.6}{78}{\textbf {Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb {R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi , \theta , \phi )$, corresponding to the Euler angles. The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta $ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi $ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi $ represents the internal rotation of the helix about its longitudinal axis $\mathbf {\hat {n}}$. Assuming an infinite, homogeneous, and isotropic membrane in the $XY$ plane, the system exhibits translational symmetry along $X$ and $Y$, as well as rotational symmetry around the $Z$-axis. Consequently, the potential energy of the system is independent of $x, y$, and $\psi $ (ignorable coordinates), effectively reducing the configurational study to the three biologically relevant degrees of freedom: insertion depth ($z$), tilt ($\theta $), and internal rotation ($\phi $)}{figure.caption.9}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.4}Dimensionality Reduction of Free Energy Surfaces}{78}{subsubsection.3.1.8.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.4.1}Computational Implementation}{79}{paragraph.3.1.8.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.5}Calculation of the Standard Binding Free Energy ($\Delta G^0$)}{80}{subsubsection.3.1.8.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Statistical Methods and Error Analysis}{81}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Ensemble and Temporal Averages}{81}{subsection.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}The Autocorrelation Problem and Block Averaging}{82}{subsection.3.2.2}\protected@file@percent }
-\newlabel{eq:variance}{{3.82}{82}{The Autocorrelation Problem and Block Averaging}{equation.3.82}{}}
-\newlabel{eq:std_error_uncorrelated}{{3.83}{82}{The Autocorrelation Problem and Block Averaging}{equation.3.83}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Principal Component Analysis (PCA)}{83}{subsection.3.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}K-means Clustering}{84}{subsection.3.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Quantum Computing}{84}{section.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Foundations of Quantum Information}{86}{subsection.3.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1.1}Bits vs. Qubits}{86}{subsubsection.3.3.1.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces The Bloch Sphere representation of a single qubit state. The angles $\theta $ and $\phi $ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle , |1\rangle $) and the X and Y axes represent the real and imaginary components of the superposition.}}{87}{figure.caption.10}\protected@file@percent }
-\newlabel{fig:bloch_sphere}{{3.7}{87}{The Bloch Sphere representation of a single qubit state. The angles $\theta $ and $\phi $ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle , |1\rangle $) and the X and Y axes represent the real and imaginary components of the superposition}{figure.caption.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Multi-Qubit Systems}{87}{subsection.3.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Unitary Dynamics and Quantum Gates}{87}{subsection.3.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.1}Pauli and Rotation Gates}{88}{subsubsection.3.3.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.2}Two-Qubit Gates: Entanglement}{89}{subsubsection.3.3.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Measurement and Hardware Architectures}{89}{subsection.3.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4.1}Hardware Architectures}{90}{subsubsection.3.3.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {3.3.4.1.0.1}Trapped Ion Architecture}{90}{subparagraph.3.3.4.1.0.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {3.3.4.1.0.2}Superconducting Qubits}{90}{subparagraph.3.3.4.1.0.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subparagraph}{\numberline {3.3.4.1.0.3}Photonic Quantum Computing}{90}{subparagraph.3.3.4.1.0.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Variational Quantum Algorithms (VQAs)}{90}{section.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}The Hybrid Paradigm and Quantum Software Ecosystem}{91}{subsection.3.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Hamiltonian Representation and the Pauli Basis}{91}{subsection.3.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Connection to Quantum Circuits and Discretized Dynamics}{92}{subsection.3.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Parameterized Quantum Circuits (Ansätze)}{92}{subsection.3.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.5}Expectation Values and Cost Functions}{93}{subsection.3.4.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.6}The Variational Quantum Eigensolver (VQE)}{93}{subsection.3.4.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.6.1}The Variational Principle}{93}{subsubsection.3.4.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.6.2}Hardware-Efficient and Heuristic Ansatz}{93}{subsubsection.3.4.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.6.3}The Hybrid Optimization Loop}{94}{subsubsection.3.4.6.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic representation of the Variational Quantum Eigensolver (VQE) hybrid architecture. The process illustrates the iterative feedback loop between the Quantum Processing Unit (QPU), responsible for state preparation and measurement, and the Classical Processing Unit (CPU), which executes the optimization algorithm to update the variational parameters $\boldsymbol  {\theta }$.}}{94}{figure.caption.11}\protected@file@percent }
-\newlabel{fig:VQE_loop}{{3.8}{94}{Schematic representation of the Variational Quantum Eigensolver (VQE) hybrid architecture. The process illustrates the iterative feedback loop between the Quantum Processing Unit (QPU), responsible for state preparation and measurement, and the Classical Processing Unit (CPU), which executes the optimization algorithm to update the variational parameters $\boldsymbol {\theta }$}{figure.caption.11}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.7}Combinatorial Optimization on Quantum Devices}{95}{subsection.3.4.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.7.1}Quadratic Unconstrained Binary Optimization (QUBO)}{95}{subsubsection.3.4.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {3.4.7.1.1}Handling Constraints via Penalty Terms}{95}{paragraph.3.4.7.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.8}The Quantum Approximate Optimization Algorithm (QAOA)}{96}{subsection.3.4.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.8.1}From the Quantum Adiabatic Algorithm to QAOA}{96}{subsubsection.3.4.8.1}\protected@file@percent }
-\newlabel{eq:trotter1}{{3.116}{97}{From the Quantum Adiabatic Algorithm to QAOA}{equation.3.116}{}}
-\newlabel{eq:trotter2}{{3.117}{98}{From the Quantum Adiabatic Algorithm to QAOA}{equation.3.117}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.8.2}QAOA State Preparation and Circuit Ansatz}{98}{subsubsection.3.4.8.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic representation of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition $|+\rangle ^{\otimes N}$, followed by alternating layers of the cost unitary $e^{-i\gamma _k \hat  {H}_C}$ and the mixer unitary $e^{-i\beta _k \hat  {H}_B}$. Finally, the state is measured in the computational basis.}}{99}{figure.caption.12}\protected@file@percent }
-\newlabel{fig:QAOA_circ}{{3.9}{99}{Schematic representation of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition $|+\rangle ^{\otimes N}$, followed by alternating layers of the cost unitary $e^{-i\gamma _k \hat {H}_C}$ and the mixer unitary $e^{-i\beta _k \hat {H}_B}$. Finally, the state is measured in the computational basis}{figure.caption.12}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.8.3}Expectation Value, Optimization Loop, and MaxCut}{100}{subsubsection.3.4.8.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.8.4}The Adiabatic Limit and Conditional Value at Risk (CVaR) Optimization}{100}{subsubsection.3.4.8.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.9}Optimization Algorithms for Hybrid Workflows}{101}{subsection.3.4.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.9.1}Constrained Optimization BY Linear Approximations (COBYLA)}{101}{subsubsection.3.4.9.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.9.2}Differential Evolution (DE)}{102}{subsubsection.3.4.9.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.10}Challenges and Noise Mitigation in the NISQ Era}{102}{subsection.3.4.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.10.1}Decoherence and Gate Errors}{102}{subsubsection.3.4.10.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.10.2}Quantum Error Mitigation (QEM)}{103}{subsubsection.3.4.10.2}\protected@file@percent }
+\newlabel{eq:reaction_field}{{3.38}{68}{The Challenge of Electrostatics: Reaction Field}{equation.3.38}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.6.1.3}Ewald Summation and Particle-Mesh Ewald (PME)}{68}{paragraph.3.1.6.1.3}\protected@file@percent }
+\newlabel{eq:coulomb_periodic}{{3.39}{68}{Ewald Summation and Particle-Mesh Ewald (PME)}{equation.3.39}{}}
+\newlabel{eq:ewald_total}{{3.40}{69}{Ewald Summation and Particle-Mesh Ewald (PME)}{equation.3.40}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.7}The Resolution of the Force Fields}{69}{subsection.3.1.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Representation of the 3D structure of a lipid (up, POPC) and a peptide (bottom, KRRIRRAKKKEKRCFKKEKR) using an AA force field (left) and its corresponding mapping into Martini CG (right).}}{71}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:AA2CG}{{3.4}{71}{Representation of the 3D structure of a lipid (up, POPC) and a peptide (bottom, KRRIRRAKKKEKRCFKKEKR) using an AA force field (left) and its corresponding mapping into Martini CG (right)}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.8}Standard Metadynamics (MetaD)}{71}{subsection.3.1.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.1}Equilibrium Constants and Ergodicity Breaking}{73}{subsubsection.3.1.8.1}\protected@file@percent }
+\newlabel{eq:metad_bias}{{3.55}{74}{Equilibrium Constants and Ergodicity Breaking}{equation.3.55}{}}
+\newlabel{eq:metad_convergence}{{3.56}{75}{Equilibrium Constants and Ergodicity Breaking}{equation.3.56}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Progressive evolution of a one-dimensional model potential $V(s)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well.}}{75}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:metad}{{3.5}{75}{Progressive evolution of a one-dimensional model potential $V(s)$ by metadynamics bias. The thick black curve is the starting potential with two wells and a central barrier. Thin colored lines (from dark purple to yellow) represent the dynamic evolution of the sum of Gaussians along a trajectory that first explores the left well, then crosses the barrier, and finally visits the right well}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.2}Well-Tempered Metadynamics (WTMetaD)}{75}{subsubsection.3.1.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.3}Thermodynamic Reweighting}{76}{subsubsection.3.1.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.1}Selection and Formulation of Collective Variables}{76}{paragraph.3.1.8.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.2}Geometrical Framework of the Peptide--Membrane System}{77}{paragraph.3.1.8.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {3.1.8.3.2.1}Distance and Insertion Depth}{77}{subparagraph.3.1.8.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.3}Peptide Orientation and Tilt Angle}{77}{paragraph.3.1.8.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.4}Spin and Azimuthal Orientation}{78}{paragraph.3.1.8.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.3.5}Physical Interpretation in Euler Angles}{78}{paragraph.3.1.8.3.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces \textbf  {Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb  {R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi , \theta , \phi )$, corresponding to the Euler angles. The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta $ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi $ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi $ represents the internal rotation of the helix about its longitudinal axis $\mathbf  {\hat  {n}}$. Assuming an infinite, homogeneous, and isotropic membrane in the $XY$ plane, the system exhibits translational symmetry along $X$ and $Y$, as well as rotational symmetry around the $Z$-axis. Consequently, the potential energy of the system is independent of $x, y$, and $\psi $ (ignorable coordinates), effectively reducing the configurational study to the three biologically relevant degrees of freedom: insertion depth ($z$), tilt ($\theta $), and internal rotation ($\phi $).}}{79}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:eulers_angles}{{3.6}{79}{\textbf {Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb {R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi , \theta , \phi )$, corresponding to the Euler angles. The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta $ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi $ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi $ represents the internal rotation of the helix about its longitudinal axis $\mathbf {\hat {n}}$. Assuming an infinite, homogeneous, and isotropic membrane in the $XY$ plane, the system exhibits translational symmetry along $X$ and $Y$, as well as rotational symmetry around the $Z$-axis. Consequently, the potential energy of the system is independent of $x, y$, and $\psi $ (ignorable coordinates), effectively reducing the configurational study to the three biologically relevant degrees of freedom: insertion depth ($z$), tilt ($\theta $), and internal rotation ($\phi $)}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.4}Dimensionality Reduction of Free Energy Surfaces}{79}{subsubsection.3.1.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.1.8.4.1}Computational Implementation}{80}{paragraph.3.1.8.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.8.5}Calculation of the Standard Binding Free Energy ($\Delta G^0$)}{81}{subsubsection.3.1.8.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Statistical Methods and Error Analysis}{82}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Ensemble and Temporal Averages}{82}{subsection.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}The Autocorrelation Problem and Block Averaging}{83}{subsection.3.2.2}\protected@file@percent }
+\newlabel{eq:variance}{{3.82}{83}{The Autocorrelation Problem and Block Averaging}{equation.3.82}{}}
+\newlabel{eq:std_error_uncorrelated}{{3.83}{83}{The Autocorrelation Problem and Block Averaging}{equation.3.83}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Principal Component Analysis (PCA)}{84}{subsection.3.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}K-means Clustering}{85}{subsection.3.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Quantum Computing}{85}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Foundations of Quantum Information}{87}{subsection.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1.1}Bits vs. Qubits}{87}{subsubsection.3.3.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces The Bloch Sphere representation of a single qubit state. The angles $\theta $ and $\phi $ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle , |1\rangle $) and the X and Y axes represent the real and imaginary components of the superposition.}}{88}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:bloch_sphere}{{3.7}{88}{The Bloch Sphere representation of a single qubit state. The angles $\theta $ and $\phi $ define the position of the state vector on the surface, where the Z-axis represents the computational basis ($|0\rangle , |1\rangle $) and the X and Y axes represent the real and imaginary components of the superposition}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Multi-Qubit Systems}{88}{subsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Unitary Dynamics and Quantum Gates}{88}{subsection.3.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.1}Pauli and Rotation Gates}{89}{subsubsection.3.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.2}Two-Qubit Gates: Entanglement}{90}{subsubsection.3.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Measurement and Hardware Architectures}{90}{subsection.3.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4.1}Hardware Architectures}{91}{subsubsection.3.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {3.3.4.1.0.1}Trapped Ion Architecture}{91}{subparagraph.3.3.4.1.0.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {3.3.4.1.0.2}Superconducting Qubits}{91}{subparagraph.3.3.4.1.0.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subparagraph}{\numberline {3.3.4.1.0.3}Photonic Quantum Computing}{91}{subparagraph.3.3.4.1.0.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Variational Quantum Algorithms (VQAs)}{91}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}The Hybrid Paradigm and Quantum Software Ecosystem}{92}{subsection.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Hamiltonian Representation and the Pauli Basis}{92}{subsection.3.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Connection to Quantum Circuits and Discretized Dynamics}{93}{subsection.3.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Parameterized Quantum Circuits (Ansätze)}{93}{subsection.3.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.5}Expectation Values and Cost Functions}{94}{subsection.3.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.6}The Variational Quantum Eigensolver (VQE)}{94}{subsection.3.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.6.1}The Variational Principle}{94}{subsubsection.3.4.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.6.2}Hardware-Efficient and Heuristic Ansatz}{94}{subsubsection.3.4.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.6.3}The Hybrid Optimization Loop}{95}{subsubsection.3.4.6.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic representation of the Variational Quantum Eigensolver (VQE) hybrid architecture. The process illustrates the iterative feedback loop between the Quantum Processing Unit (QPU), responsible for state preparation and measurement, and the Classical Processing Unit (CPU), which executes the optimization algorithm to update the variational parameters $\boldsymbol  {\theta }$.}}{95}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:VQE_loop}{{3.8}{95}{Schematic representation of the Variational Quantum Eigensolver (VQE) hybrid architecture. The process illustrates the iterative feedback loop between the Quantum Processing Unit (QPU), responsible for state preparation and measurement, and the Classical Processing Unit (CPU), which executes the optimization algorithm to update the variational parameters $\boldsymbol {\theta }$}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.7}Combinatorial Optimization on Quantum Devices}{96}{subsection.3.4.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.7.1}Quadratic Unconstrained Binary Optimization (QUBO)}{96}{subsubsection.3.4.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {3.4.7.1.1}Handling Constraints via Penalty Terms}{96}{paragraph.3.4.7.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.8}The Quantum Approximate Optimization Algorithm (QAOA)}{97}{subsection.3.4.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.8.1}From the Quantum Adiabatic Algorithm to QAOA}{97}{subsubsection.3.4.8.1}\protected@file@percent }
+\newlabel{eq:trotter1}{{3.116}{98}{From the Quantum Adiabatic Algorithm to QAOA}{equation.3.116}{}}
+\newlabel{eq:trotter2}{{3.117}{99}{From the Quantum Adiabatic Algorithm to QAOA}{equation.3.117}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.8.2}QAOA State Preparation and Circuit Ansatz}{99}{subsubsection.3.4.8.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic representation of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition $|+\rangle ^{\otimes N}$, followed by alternating layers of the cost unitary $e^{-i\gamma _k \hat  {H}_C}$ and the mixer unitary $e^{-i\beta _k \hat  {H}_B}$. Finally, the state is measured in the computational basis.}}{100}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:QAOA_circ}{{3.9}{100}{Schematic representation of the QAOA circuit architecture for a depth $p$. The circuit begins with a layer of Hadamard gates to create a uniform superposition $|+\rangle ^{\otimes N}$, followed by alternating layers of the cost unitary $e^{-i\gamma _k \hat {H}_C}$ and the mixer unitary $e^{-i\beta _k \hat {H}_B}$. Finally, the state is measured in the computational basis}{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.8.3}Expectation Value, Optimization Loop, and MaxCut}{101}{subsubsection.3.4.8.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.8.4}The Adiabatic Limit and Conditional Value at Risk (CVaR) Optimization}{101}{subsubsection.3.4.8.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.9}Optimization Algorithms for Hybrid Workflows}{102}{subsection.3.4.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.9.1}Constrained Optimization BY Linear Approximations (COBYLA)}{102}{subsubsection.3.4.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.9.2}Differential Evolution (DE)}{103}{subsubsection.3.4.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.10}Challenges and Noise Mitigation in the NISQ Era}{103}{subsection.3.4.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.10.1}Decoherence and Gate Errors}{103}{subsubsection.3.4.10.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.10.2}Quantum Error Mitigation (QEM)}{104}{subsubsection.3.4.10.2}\protected@file@percent }
 \@setckpt{General_Sections/Methods}{
-\setcounter{page}{104}
+\setcounter{page}{105}
 \setcounter{equation}{124}
 \setcounter{enumi}{5}
 \setcounter{enumii}{0}
@@ -284,6 +284,6 @@
 \setcounter{float@type}{4}
 \setcounter{section@level}{0}
 \setcounter{Item}{19}
-\setcounter{Hfootnote}{1}
+\setcounter{Hfootnote}{2}
 \setcounter{bookmark@seq@number}{101}
 }
