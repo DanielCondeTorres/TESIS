@@ -115,7 +115,7 @@
 \contentsline {subsection}{\numberline {6.1.1}The biophysical signature of pathological membranes}{225}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {6.1.2}Methodological challenges: Resolving the resolution and timescale gaps}{226}{subsection.6.1.2}%
 \contentsline {subsection}{\numberline {6.1.3}Bridging the gap: Enhanced sampling and quantum-accelerated design}{226}{subsection.6.1.3}%
-\contentsline {section}{\numberline {6.2}Unlocking the Biophysics of Specificity: A metadynamics approach}{227}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Unlocking the biophysics of specificity: A metadynamics approach}{227}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}The transversal hydrophobic dipole moment ($\mu _H^\perp $) and insertion mechanics}{227}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Thermodynamic quantification}{228}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}The specificity of LL-37 and dielectric considerations}{228}{subsection.6.2.3}%
@@ -134,7 +134,7 @@
 \contentsline {section}{\numberline {6.6}Limitations}{233}{section.6.6}%
 \contentsline {subsection}{\numberline {6.6.1}Classical and enhanced sampling limitations}{233}{subsection.6.6.1}%
 \contentsline {subsection}{\numberline {6.6.2}Approximations in quantum-classical algorithms and generative models}{234}{subsection.6.6.2}%
-\contentsline {chapter}{\numberline {7}General Conclusions}{235}{chapter.7}%
+\contentsline {chapter}{\numberline {7}General conclusions}{235}{chapter.7}%
 \contentsline {chapter}{\numberline {8}References}{239}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Appendix}{262}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Declaration of figure authorship}{263}{section.9.1}%
