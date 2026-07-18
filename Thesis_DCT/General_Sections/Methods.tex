@@ -81,7 +81,7 @@ By summing Equation~\ref{eq:taylor_forward} and Equation~\ref{eq:taylor_backward
 
 Although the standard Verlet algorithm is computationally efficient and highly stable, it exhibits two significant numerical drawbacks. First, the term $2\vec{r}_i(t) - \vec{r}_i(t - \Delta t)$ involves the subtraction of large values of similar magnitude, making the algorithm highly susceptible to floating-point precision loss (round-off errors). Second, velocities do not explicitly appear in the integration step; they must be approximated post hoc. This omission complicates the instantaneous evaluation of kinetic energy and hinders robust temperature coupling via thermostats.
 
-To mitigate these limitations, the \textit{leap-frog} integrator is widely adopted, serving as the default algorithm in the GROMACS simulation suite \cite{leapfrog}. While mathematically equivalent to the original Verlet scheme, the leap-frog method circumvents numerical precision issues by evaluating velocities and positions at alternating, half-integer time steps ($t \pm \frac{1}{2}\Delta t$). The system's state is updated through the following sequence:
+To mitigate these limitations, the \textit{leap-frog} integrator is widely adopted, serving as the default algorithm in the GROMACS simulation suite~\cite{leapfrog}. While mathematically equivalent to the original Verlet scheme, the leap-frog method circumvents numerical precision issues by evaluating velocities and positions at alternating, half-integer time steps ($t \pm \frac{1}{2}\Delta t$). The system's state is updated through the following sequence:
 
 \begin{equation}\label{eq:leapfrog}
     \begin{cases}
@@ -278,7 +278,7 @@ Therefore, the primary function of any barostat is to continuously compute a sca
     \end{align}
 \end{subequations}
 
-\subsubsection{The berendsen barostat}
+\subsubsection{The Berendsen barostat}
 The most straightforward methodology to calculate this scaling matrix $\mathbf{M}$ was proposed by Berendsen~\cite{BerendsenB}. The underlying logic is highly intuitive: if the internal pressure exceeds the reference, the simulation box must expand to relieve the stress; if it is lower, it must shrink. The magnitude of this geometrical correction depends on the pressure error $(\mathbf{P} - \mathbf{P}_{\text{ref}})$ and the inherent physical "softness" of the system, mathematically defined by the isothermal compressibility matrix ($\boldsymbol{\beta}$).
 
 The Berendsen algorithm computes the scaling matrix as follows:
@@ -869,7 +869,7 @@ Substituting the integral expression of $P(s_1)$ into this equation yields the e
 \end{equation}
 where the constant $C''$ absorbs all normalization factors. In practice, since only relative free energy differences ($\Delta F$) possess physical meaning, this constant is conventionally chosen such that the global minimum of the projected one-dimensional FES is set to zero.
 
-\subsubsubsection{Computational Implementation}
+\subsubsubsection{Computational implementation}
 In computational practice, this thermodynamic projection is performed automatically during post-processing by utilizing tools such as the \texttt{sum\_hills} utility in the PLUMED package. For instance, to project a multidimensional metadynamics FES onto a single collective variable $s_1$, the following command line can be used:
 
 \begin{verbatim}
@@ -963,7 +963,7 @@ As the block size $k$ increases, the correlation between the means of adjacent b
 
 This methodology ensures that the reported error bars for free energy surfaces and other magnitudes are statistically robust and account for the sampling limitations of the simulation.
 
-\subsection{Principal Component Analysis (PCA)}
+\subsection{Principal component analysis (PCA)}
 
 PCA is a fundamental statistical method in multivariate analysis that performs a linear transformation of the coordinate system. From a mathematical perspective, PCA is a change of basis that maps the data from its original high-dimensional space to a new orthogonal coordinate system where the axes are ordered by the amount of variance they capture.
 
@@ -1090,12 +1090,12 @@ These limitations motivate the exploration of alternative computational paradigm
 
 
 
-Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics; specifically superposition, entanglement, and interference; to process information and solve complex combinatorial optimization problems that remain intractable for classical systems~\cite{nielsen2010quantum,preskill1998quantum}. This research is conducted within the Noisy Intermediate-Scale Quantum (NISQ) era, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction)~\cite{Shor1995,KITAEV20032}. The primary goal in this context is to achieve Quantum Advantage~\cite{paper_dani}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
+Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics; specifically superposition, entanglement, and interference; to process information and solve complex combinatorial optimization problems that remain intractable for classical systems~\cite{nielsen2010quantum,preskill1998quantum}. This research is conducted within the Noisy NISQ era, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction)~\cite{Shor1995,KITAEV20032}. The primary goal in this context is to achieve Quantum Advantage~\cite{paper_dani}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
 
 \subsection{Foundations of quantum information}
 To understand the application of quantum algorithms in molecular design, it is essential to define the basic units of information and the operations that manipulate them. As described in the fundamental work of Nielsen and Chuang~\cite{nielsen2010quantum,preskill1998quantum}, quantum information theory generalizes classical computation by utilizing the principles of Hilbert space.
 
-\subsubsection{Bits vs. Qubits}
+\subsubsection{Bits versus qubits}
 Just as a classical computer uses bits that are either $0$ or $1$ and that can physically be represented as a low and a high voltage in a wire, a quantum computer uses quantum bits or qubits, which can be in states $|0\rangle$ or $|1\rangle$, often referred to as computational basis states. A qubit can, for instance, be physically manifested as two distinct energy levels of an atom (e.g., ground state $|0\rangle$ and excited state $|1\rangle$)~\cite{nielsen2010quantum,preskill1998quantum}. 
 
 Qubits are described mathematically using Dirac's \textit{ket} notation. A typical choice to represent the computational basis states is as column vectors:
@@ -1121,14 +1121,14 @@ A single qubit's quantum state can be geometrically visualized as a unit vector 
 \end{figure}
 
 
-\subsection{Multi-Qubit Systems}
+\subsection{Multi-qubit systems}
 The fundamental principles governing single qubits naturally extend to systems comprising multiple qubits, constructing their joint state space through the tensor product. For instance, considering a system of $N$ qubits, its most general state can be expressed as a coherent superposition of all possible binary strings of length $N$, denoted by $z \in \{0,1\}^N$. Each of these $2^N$ binary strings is associated with a complex probability amplitude $\alpha_z$, resulting in the following representation:
 \begin{equation}
 |\psi\rangle = \sum_{z \in \{0,1\}^N} \alpha_z |z\rangle, \quad \text{with} \quad \sum_{z \in \{0,1\}^N} |\alpha_z|^2 = 1
 \end{equation}
 The critical requirement is that the sum of the squares of the absolute values of these complex amplitudes must strictly equal $1$, ensuring that the total probability is conserved within this larger system~\cite{nielsen2010quantum,preskill1998quantum}. This extension underlines the extraordinary scalability of quantum computing, demonstrating that the information capacity available with every added qubit grows exponentially, spanning a $2^N$-dimensional Hilbert space.
 
-\subsection{Unitary Dynamics and Quantum Gates}
+\subsection{Unitary dynamics and quantum gates}
 Analogous to classical computers, which employ elementary logic gates such as AND or NOT to carry out deterministic operations on bits, quantum computers utilize quantum gates to manipulate the probability amplitudes of one or several qubits. The continuous time evolution of these probability amplitudes in a closed quantum system is fundamentally governed by the linear differential Schr\"odinger equation:
 \begin{equation}
 i\hbar \frac{d|\psi(t)\rangle}{dt} = \hat{H} |\psi(t)\rangle
@@ -1145,7 +1145,7 @@ If the initial state of the system $|\psi(0)\rangle$ is known, all future states
 
 In the context of quantum computing, this continuous-time evolution is approximated or synthesized by discrete unitary operations known as quantum gates. Any operation on a single qubit can be visualized as a rotation of the state vector on the Bloch sphere~\cite{nielsen2010quantum,preskill1998quantum}.
 
-\subsubsection{Pauli and Rotation Gates}
+\subsubsection{Pauli and rotation gates}
 The most foundational operators for single-qubit manipulation are the Pauli matrices, which are the quantum analogs of classical operations. They are both unitary and Hermitian:
 \begin{equation}
 \sigma_x \equiv X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad 
@@ -1167,17 +1167,17 @@ For example, the $R_z$ gate adjusts the relative phase $\phi$ between $|0\rangle
 R_z(\theta) = \begin{pmatrix} e^{-i\theta/2} & 0 \\ 0 & e^{i\theta/2} \end{pmatrix}
 \end{equation}
 
-\subsubsection{Two-Qubit Gates: Entanglement}
+\subsubsection{Two-qubit gates: Entanglement}
 The controlled-NOT ($CNOT$) gate is the primary mechanism for generating entanglement. It flips the state of a target qubit ($q_t$) if and only if the control qubit ($q_c$) is in the state $|1\rangle$:
 \begin{equation}
 CNOT = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{pmatrix}
 \end{equation}
 When the control qubit is in a superposition, applying $CNOT$ produces Bell states, which are maximally entangled.
 
-\subsection{Measurement and Hardware Architectures}
+\subsection{Measurement and hardware architectures}
 Unlike classical reading, quantum measurement in the computational basis is a non-unitary process that collapses the wavefunction into one of the basis vectors~\cite{nielsen2010quantum,preskill1998quantum}. To obtain a reliable estimate of the probability distribution (the expectation value), the quantum circuit must be executed and measured multiple times. Each individual execution and measurement is referred to as a shot. The precision of the resulting expectation value improves with the square root of the number of shots ($1/\sqrt{N_{shots}}$)~\cite{shots_quantum}.
 
-In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs)~\cite{shots_quantum}. Specifically, the Variational Quantum Eigensolver (VQE)~\cite{VQE} and the Quantum Approximate Optimization Algorithm (QAOA)~\cite{QAOA} were employed to tackle the energetic and combinatorial nature of these biological systems.
+In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs)~\cite{shots_quantum}. Specifically, the VQE~\cite{VQE} and the QAOA~\cite{QAOA} were employed to tackle the energetic and combinatorial nature of these biological systems.
 
 
 
@@ -1200,7 +1200,7 @@ One of the most prominent hardwares used in this research context is the Trapped
 \subsubsubsubsection{Superconducting qubits}
 Currently the most widely deployed architecture (e.g., by IBM, Google, and Rigetti)~\cite{paper_dani}, Superconducting Qubits utilize macroscopic circuits cooled to millikelvin temperatures. These circuits, containing Josephson junctions, behave as artificial atoms. Superconducting qubits offer extremely fast gate speeds (nanoseconds) and are manufactured using standard lithographic techniques, facilitating a path toward large-scale integration. However, they typically suffer from shorter coherence times compared to ions and require complex cryogenic infrastructure~\cite{superconductiong_qubits}.
 
-\subsubsubsubsection{Photonic quantum Ccmputing}
+\subsubsubsubsection{Photonic quantum computing}
 Another scaling paradigm utilizes photons as qubits (Linear Optical Quantum Computing). In these systems, information is encoded in the polarization, path, or arrival time of individual photons. Photonic hardware is inherently robust against thermal noise and decoherence, making it ideal for room-temperature operation. Operations are performed using interferometers, beam splitters, and phase shifters, although entangling two photons remains a technical challenge typically addressed through measurement-based schemes or non-linear optical media~\cite{photonic_qubits}.
 
 
@@ -1221,9 +1221,9 @@ Another scaling paradigm utilizes photons as qubits (Linear Optical Quantum Comp
 
 
 
-\section{Variational Quantum Algorithms (VQAs)}
+\section{Variational quantum algorithms}
 
-In the Noisy Intermediate-Scale Quantum (NISQ) era, hardware constraints such as limited qubit counts and short coherence times restrict the execution of deeply structured quantum algorithms. VQAs have emerged as the leading paradigm to overcome these limitations. By employing a hybrid quantum-classical approach, VQAs keep quantum circuit depth shallow while offloading the heavy computational burden of parameter optimization to classical processing units~\cite{Preskill_paper}. 
+In the NISQ era, hardware constraints such as limited qubit counts and short coherence times restrict the execution of deeply structured quantum algorithms. VQAs have emerged as the leading paradigm to overcome these limitations. By employing a hybrid quantum-classical approach, VQAs keep quantum circuit depth shallow while offloading the heavy computational burden of parameter optimization to classical processing units~\cite{Preskill_paper}. 
 
 This hybrid framework is highly versatile. Depending on how the problem's cost function and circuit ansatz are defined, VQAs can be tailored for a variety of applications. Two prominent examples are the VQE~\cite{VQE}, primarily used for finding ground states of molecular Hamiltonians in quantum chemistry, and the QAOA~\cite{QAOA}, designed to solve combinatorial optimization problems~\cite{vqa_2}. 
 
@@ -1286,18 +1286,18 @@ C(\boldsymbol{\theta}) = \sum_i w_i \langle \psi(\boldsymbol{\theta}) | P_i | \p
 \end{equation}
 Each term is estimated on a quantum device via repeated state preparations and projective measurements (shots), producing a statistical estimate of the total cost.
 
-\subsection{The Variational Quantum Eigensolver}
+\subsection{The variational quantum eigensolver}
 
 The VQE is a flagship hybrid algorithm specifically designed to find the ground state energy of a given Hamiltonian $\hat{H}$~\cite{vqe_mejor}. 
 
-\subsubsection{The Variational Principle}
+\subsubsection{The variational principle}
 The theoretical foundation of VQE is the Rayleigh-Ritz variational principle from quantum mechanics~\cite{rayleigh_ritz}. It states that for any normalized trial wavefunction $|\psi(\boldsymbol{\theta})\rangle$, the expectation value of the Hamiltonian $\hat{H}$ is always greater than or equal to the true ground state energy $E_0$:
 \begin{equation}
 E(\boldsymbol{\theta}) = \langle \psi(\boldsymbol{\theta}) | \hat{H} | \psi(\boldsymbol{\theta}) \rangle \ge E_0
 \end{equation}
 By minimizing the energy landscape $E(\boldsymbol{\theta})$ with respect to the parameters $\boldsymbol{\theta}$, the algorithm converges to an upper bound that approximates the ground state energy.
 
-\subsubsection{Hardware-Efficient and Heuristic Ansatz}
+\subsubsection{Hardware-efficient and heuristic ansatz}
 In the NISQ era, specialized circuit templates are used to balance expressibility and circuit depth. Some of the most widely used heuristic ansatz include~\cite{Qiskit}:
 \begin{itemize}
     \item \textbf{RealAmplitudes:} A circuit consisting solely of parameterized Y-rotations ($R_y$) and CNOT entanglers. As it avoids complex phases, the resulting state amplitudes are strictly real, making it highly efficient for systems where the ground state wavefunction is known to be real.
@@ -1438,7 +1438,7 @@ Applying the Trotter formula to the discretized time evolution yields an alterna
 \end{equation}
 This formulation mathematically bridges the continuous adiabatic process with digitized quantum circuits. At each discrete slice of time $k$, the evaluated schedule functions $s(k\Delta t)$ and $1 - s(k\Delta t)$ dictate the exact physical weight of the cost and mixing Hamiltonians at that specific moment. Multiplying these weights by the small time step $\Delta t$ determines the exact angle of rotation applied by each Hamiltonian.
 
-\subsubsection{QAOA State Preparation and Circuit Ansatz}
+\subsubsection{QAOA state preparation and circuit ansatz}
 
 While Trotterization perfectly simulates the continuous adiabatic evolution in the limit of $p \to \infty$, executing such deep circuits is impossible on modern, NISQ devices. A shallow circuit (small $p$) with rigid time steps $\Delta t$ would yield a very poor approximation of the adiabatic path. 
 
@@ -1472,7 +1472,7 @@ Because the eigenvalues of the Pauli-$X$ operator are $\pm 1$, the parameter $\b
     \label{fig:QAOA_circ}
 \end{figure}
 
-\subsubsection{Expectation Value, Optimization Loop, and MaxCut}
+\subsubsection{Expectation value, optimization loop, and MaxCut}
 To determine the optimal angles $(\boldsymbol{\gamma}, \boldsymbol{\beta})$, a cost function must be evaluated on the quantum computer and minimized classically. Typically, this is the expectation value of the cost Hamiltonian:
 \begin{equation}
 F_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \langle \psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) | \hat{H}_C | \psi_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) \rangle
@@ -1480,32 +1480,6 @@ F_p(\boldsymbol{\gamma}, \boldsymbol{\beta}) = \langle \psi_p(\boldsymbol{\gamma
 Minimizing this value ensures the variational state heavily populates the low-energy eigenstates of $\hat{H}_C$. The hybrid workflow proceeds iteratively: the QPU prepares the state and measures $F_p$, and the CPU updates the parameters to descend the cost landscape~\cite{QAOA}.
 
 A well-studied baseline problem for this algorithm is MaxCut~\cite{max_cut_np_hard}. Given a graph $G = (V, E)$, the goal is to partition the vertices into two disjoint subsets to maximize the sum of the edge weights connecting them. This binary classification easily maps onto an Ising Hamiltonian, making it the perfect benchmark for QAOA~\cite{QAOA}. In the context of this thesis, we move beyond simple graph problems, employing QAOA as a heuristic to navigate the high-dimensional, discrete landscape of amino acid sequences in peptide design.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1567,73 +1541,27 @@ DE maintains a population of $NP$ real-valued parameter vectors. The evolutionar
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\subsection{Challenges and Noise Mitigation in the NISQ Era}
+\subsection{Challenges and noise mitigation in the NISQ era}
 
 The transition from theoretical quantum algorithms to practical hardware implementations is hindered by the physical limitations inherent to current quantum processors. Understanding these challenges, along with the techniques developed to overcome them, is crucial for interpreting the empirical results of this thesis.
 
-\subsubsection{Decoherence and Gate Errors}
-The performance of NISQ devices is primarily limited by the interaction of qubits with their surrounding environment, a process known as decoherence\cite{nielsen2010quantum}. This interaction results in the inevitable loss of quantum information over time, formally characterized by the relaxation ($T_1$) and dephasing ($T_2$) timescales \cite{error_mitigation_1}. 
+\subsubsection{Decoherence and gate errors}
+The performance of NISQ devices is primarily limited by the interaction of qubits with their surrounding environment, a process known as decoherence~\cite{nielsen2010quantum}. This interaction results in the inevitable loss of quantum information over time, formally characterized by the relaxation ($T_1$) and dephasing ($T_2$) timescales~\cite{error_mitigation_1}. 
 
-Furthermore, individual gate operations and qubit measurements are subject to operational errors due to imperfect microwave control signals, thermal fluctuations, and hardware cross-talk. This inherently restricts the maximum depth $p$ of the variational circuits that can be reliably executed before noise completely obfuscates the output signal\cite{nielsen2010quantum}.
-
-
+Furthermore, individual gate operations and qubit measurements are subject to operational errors due to imperfect microwave control signals, thermal fluctuations, and hardware cross-talk. This inherently restricts the maximum depth $p$ of the variational circuits that can be reliably executed before noise completely obfuscates the output signal~\cite{nielsen2010quantum}.
 
 
 
 
-\subsubsection{Quantum Error Mitigation (QEM)}
-While realizing full Fault-Tolerant Quantum Computing requires thousands of physical qubits to encode a single logical qubit, the NISQ era relies heavily on QEM\cite{error_mitigation_2}. QEM encompasses a suite of classical post-processing techniques designed to extract meaningful expectation values from noisy data without the overhead of additional ancillary qubits. Key techniques utilized in this field include:
+
+
+\subsubsection{Quantum error mitigation (QEM)}
+While realizing full Fault-Tolerant QC requires thousands of physical qubits to encode a single logical qubit, the NISQ era relies heavily on QEM~\cite{error_mitigation_2}. QEM encompasses a suite of classical post-processing techniques designed to extract meaningful expectation values from noisy data without the overhead of additional ancillary qubits. Key techniques utilized in this field include:
 
 \begin{itemize}
-    \item \textbf{Zero-Noise Extrapolation (ZNE):} This technique involves intentionally amplifying the noise level of a quantum circuit across different scale factors. The measured expectation values are then classically extrapolated back to the theoretical zero-noise limit \cite{error_mitigation_3}.
-    \item \textbf{Measurement Error Mitigation (Readout Mitigation):} Qubit state misclassification during the readout phase is a dominant source of error. This method construct a calibration matrix (or assignment matrix) that characterizes the transition probabilities between ideal and measured states. The inverse of this matrix is then applied to the raw measurement distribution to correct the readout bias \cite{error_mitigation_4}.
-    \item \textbf{Probabilistic Error Cancellation (PEC):} This method represents a noise-free quantum circuit as a quasi-probability distribution of noisy implementable circuits. By sampling from this distribution and classically combining the results with specific parity weights, PEC effectively cancels out the noise bias, albeit at the cost of an exponentially increased sampling overhead (shots) \cite{error_mitigation_3}.
+    \item \textbf{Zero-Noise extrapolation (ZNE):} This technique involves intentionally amplifying the noise level of a quantum circuit across different scale factors. The measured expectation values are then classically extrapolated back to the theoretical zero-noise limit~\cite{error_mitigation_3}.
+    \item \textbf{Measurement error mitigation:} Qubit state misclassification during the readout phase is a dominant source of error. This method construct a calibration matrix (or assignment matrix) that characterizes the transition probabilities between ideal and measured states. The inverse of this matrix is then applied to the raw measurement distribution to correct the readout bias ~\cite{error_mitigation_4}.
+    \item \textbf{Probabilistic error cancellation (PEC):} This method represents a noise-free quantum circuit as a quasi-probability distribution of noisy implementable circuits. By sampling from this distribution and classically combining the results with specific parity weights, PEC effectively cancels out the noise bias, albeit at the cost of an exponentially increased sampling overhead (shots)~\cite{error_mitigation_3}.
 \end{itemize}
 
 By seamlessly integrating these post-processing methods into the optimization loop, we can significantly improve the accuracy of energy estimations in VQE and enhance the success probability of identifying optimal sequence configurations in QAOA.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  18 JUL 2026 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  18 JUL 2026 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1806,7 +1806,7 @@ line 376.
 File: FOLDING_PEPTIDE_PICTURE/folding_17.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_17.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_17.png  used on input 
-line 390.
+line 394.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [19 <./FOLDING_PEPTIDE_PICTURE/folding_17.png>]
 \openout2 = `General_Sections/Summary.aux'.
@@ -1879,7 +1879,7 @@ line 120.
 File: FOLDING_PEPTIDE_PICTURE/folding_25.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_25.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_25.png  used on input 
-line 390.
+line 394.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [28 <./FOLDING_PEPTIDE_PICTURE/folding_25.png>]
 \openout2 = `General_Sections/Introduction.aux'.
@@ -2088,7 +2088,7 @@ line 26.
 File: FOLDING_PEPTIDE_PICTURE/folding_44.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_44.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_44.png  used on input 
-line 396.
+line 400.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [49 <./FOLDING_PEPTIDE_PICTURE/folding_44.png>]
 \openout2 = `General_Sections/Methods.aux'.
@@ -2458,7 +2458,7 @@ line 1070.
 File: FOLDING_PEPTIDE_PICTURE/folding_77.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_77.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_77.png  used on input 
-line 1100.
+line 1101.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [86 <./FOLDING_PEPTIDE_PICTURE/folding_77.png>]
 <General_Sections/Figures/esfera_bloch_tesis.png, id=2313, 737.154pt x 737.154p
@@ -2475,6 +2475,8 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_78.png  used on input
 line 1130.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [87 <./FOLDING_PEPTIDE_PICTURE/folding_78.png>]
+Underfull \vbox (badness 2970) has occurred while \output is active []
+
 <FOLDING_PEPTIDE_PICTURE/folding_79.png, id=2327, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_79.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_79.png>
@@ -2496,13 +2498,16 @@ line 1168.
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 1197.
 
+
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
 <FOLDING_PEPTIDE_PICTURE/folding_81.png, id=2357, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_81.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_81.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_81.png  used on input 
 line 1199.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
-[90 <./FOLDING_PEPTIDE_PICTURE/folding_81.png>]
+ [90 <./FOLDING_PEPTIDE_PICTURE/folding_81.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_82.png, id=2374, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_82.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_82.png>
@@ -2595,21 +2600,21 @@ CTURE/folding_90.png>]
 File: FOLDING_PEPTIDE_PICTURE/folding_91.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_91.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_91.png  used on input 
-line 1536.
+line 1510.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [101 <./FOLDING_PEPTIDE_PICTURE/folding_91.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_92.png, id=2531, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_92.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_92.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_92.png  used on input 
-line 1559.
+line 1533.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [102 <./FOLDING_PEPTIDE_PICTURE/folding_92.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_93.png, id=2545, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_93.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_93.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_93.png  used on input 
-line 1636.
+line 1564.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 
 [103 <./FOLDING_PEPTIDE_PICTURE/folding_93.png>])
@@ -2617,7 +2622,7 @@ line 1636.
 File: FOLDING_PEPTIDE_PICTURE/folding_94.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_94.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_94.png  used on input 
-line 399.
+line 403.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [104 <./FOLDING_PEPTIDE_PICTURE/folding_94.png>]
 \openout2 = `Results_Discussion/Results.aux'.
@@ -6420,7 +6425,7 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_209.png  used on input
 File: FOLDING_PEPTIDE_PICTURE/folding_210.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_210.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_210.png  used on input
- line 408.
+ line 412.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [234 <./FOLDING_PEPTIDE_PICTURE/folding_210.png>]
 \openout2 = `General_Sections/Conclusions.aux'.
@@ -6451,7 +6456,7 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_213.png  used on input
 File: FOLDING_PEPTIDE_PICTURE/folding_214.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_214.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_214.png  used on input
- line 411.
+ line 415.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [238 <./FOLDING_PEPTIDE_PICTURE/folding_214.png>]
 Chapter 8.
@@ -6460,7 +6465,7 @@ Chapter 8.
 
 
 ]
-Overfull \hbox (4.89365pt too wide) in paragraph at lines 418--418
+Overfull \hbox (4.89365pt too wide) in paragraph at lines 422--422
 []\T1/ptm/m/n/12 (-20) Antimicrobial re-sis-tance, https://www.who.int/news-roo
 m/fact-sheets/detail/antimicrobial-
  []
@@ -6469,34 +6474,34 @@ m/fact-sheets/detail/antimicrobial-
 File: FOLDING_PEPTIDE_PICTURE/folding_216.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_216.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_216.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 [240 <./FOLDING_PEPTIDE_PICTURE/folding_216.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_217.png, id=4564, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_217.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_217.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_217.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [241 <./FOLDING_PEPTIDE_PICTURE/folding_217.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_218.png, id=4587, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_218.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_218.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_218.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [242 <./FOLDING_PEPTIDE_PICTURE/folding_218.png>]
 File: FOLDING_PEPTIDE_PICTURE/folding_218.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_218.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_218.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [243]
 <FOLDING_PEPTIDE_PICTURE/folding_219.png, id=4627, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_219.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_219.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_219.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 
 [244 <./FOLDING_PEPTIDE_PICTURE/folding_219.png>]
@@ -6504,38 +6509,38 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_219.png  used on input
 File: FOLDING_PEPTIDE_PICTURE/folding_220.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_220.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_220.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [245 <./FOLDING_PEPTIDE_PICTURE/folding_220.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_221.png, id=4668, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_221.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_221.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_221.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [246 <./FOLDING_PEPTIDE_PICTURE/folding_221.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_222.png, id=4690, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_222.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_222.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_222.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [247 <./FOLDING_PEPTIDE_PICTURE/folding_222.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_223.png, id=4716, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_223.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_223.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_223.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [248 <./FOLDING_PEPTIDE_PICTURE/folding_223.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_224.png, id=4742, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_224.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_224.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_224.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [249 <./FOLDING_PEPTIDE_PICTURE/folding_224.png>]
-Overfull \hbox (8.19098pt too wide) in paragraph at lines 418--418
+Overfull \hbox (8.19098pt too wide) in paragraph at lines 422--422
 []\T1/ptm/m/n/12 (-20) Calvelo, M.; Granja, J. R.; Garcia-Fandino, R. Com-pet-i
 -tive double-switched self-assembled
  []
@@ -6544,34 +6549,34 @@ Overfull \hbox (8.19098pt too wide) in paragraph at lines 418--418
 File: FOLDING_PEPTIDE_PICTURE/folding_225.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_225.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_225.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 [250 <./FOLDING_PEPTIDE_PICTURE/folding_225.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_226.png, id=4784, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_226.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_226.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_226.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [251 <./FOLDING_PEPTIDE_PICTURE/folding_226.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_227.png, id=4804, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_227.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_227.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_227.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [252 <./FOLDING_PEPTIDE_PICTURE/folding_227.png>]
 File: FOLDING_PEPTIDE_PICTURE/folding_227.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_227.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_227.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [253]
 <FOLDING_PEPTIDE_PICTURE/folding_228.png, id=4842, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_228.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_228.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_228.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 
 [254 <./FOLDING_PEPTIDE_PICTURE/folding_228.png>]
@@ -6579,49 +6584,49 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_228.png  used on input
 File: FOLDING_PEPTIDE_PICTURE/folding_229.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_229.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_229.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [255 <./FOLDING_PEPTIDE_PICTURE/folding_229.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_230.png, id=4880, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_230.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_230.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_230.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [256 <./FOLDING_PEPTIDE_PICTURE/folding_230.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_231.png, id=4900, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_231.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_231.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_231.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [257 <./FOLDING_PEPTIDE_PICTURE/folding_231.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_232.png, id=4918, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_232.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_232.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_232.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [258 <./FOLDING_PEPTIDE_PICTURE/folding_232.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_233.png, id=4937, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_233.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_233.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_233.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [259 <./FOLDING_PEPTIDE_PICTURE/folding_233.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_234.png, id=4955, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_234.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_234.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_234.png  used on input
- line 418.
+ line 422.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [260 <./FOLDING_PEPTIDE_PICTURE/folding_234.png>]
 <FOLDING_PEPTIDE_PICTURE/folding_235.png, id=4966, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_235.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_235.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_235.png  used on input
- line 421.
+ line 425.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [261 <./FOLDING_PEPTIDE_PICTURE/folding_235.png>]
 \openout2 = `Appendix/Appendix.aux'.
@@ -6682,7 +6687,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: FOLDING_PEPTIDE_PICTURE/folding_238.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_238.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_238.png  used on input
- line 421.
+ line 425.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [265 <./Appendix/Figures/paper_review_2.png> <./FOLDING_PEPTIDE_PICTURE/foldin
 g_238.png>]
@@ -6690,7 +6695,7 @@ g_238.png>]
 File: FOLDING_PEPTIDE_PICTURE/folding_239.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_239.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_239.png  used on input
- line 421.
+ line 425.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [266 <./Appendix/Figures/paper_metadinamica.png> <./Appendix/Figures/paper_Qua
 ntum_computers.png> <./FOLDING_PEPTIDE_PICTURE/folding_239.png>]
@@ -6699,34 +6704,34 @@ pt>
 File: Portada_Contraportada/Contraportada_tese.pdf Graphic file (type pdf)
 <use Portada_Contraportada/Contraportada_tese.pdf>
 Package pdftex.def Info: Portada_Contraportada/Contraportada_tese.pdf  used on 
-input line 424.
+input line 428.
 (pdftex.def)             Requested size: 597.50645pt x 845.0448pt.
 <Portada_Contraportada/Contraportada_tese.pdf, id=5022, page=1, 597.50792pt x 8
 45.04686pt>
 File: Portada_Contraportada/Contraportada_tese.pdf Graphic file (type pdf)
 <use Portada_Contraportada/Contraportada_tese.pdf, page 1>
 Package pdftex.def Info: Portada_Contraportada/Contraportada_tese.pdf , page1 u
-sed on input line 424.
+sed on input line 428.
 (pdftex.def)             Requested size: 597.50645pt x 845.0448pt.
 File: Portada_Contraportada/Contraportada_tese.pdf Graphic file (type pdf)
 <use Portada_Contraportada/Contraportada_tese.pdf, page 1>
 Package pdftex.def Info: Portada_Contraportada/Contraportada_tese.pdf , page1 u
-sed on input line 424.
+sed on input line 428.
 (pdftex.def)             Requested size: 597.5338pt x 845.08348pt.
 File: Portada_Contraportada/Contraportada_tese.pdf Graphic file (type pdf)
 <use Portada_Contraportada/Contraportada_tese.pdf, page 1>
 Package pdftex.def Info: Portada_Contraportada/Contraportada_tese.pdf , page1 u
-sed on input line 424.
+sed on input line 428.
 (pdftex.def)             Requested size: 597.5338pt x 845.08348pt.
 File: Portada_Contraportada/Contraportada_tese.pdf Graphic file (type pdf)
 <use Portada_Contraportada/Contraportada_tese.pdf, page 1>
 Package pdftex.def Info: Portada_Contraportada/Contraportada_tese.pdf , page1 u
-sed on input line 424.
+sed on input line 428.
 (pdftex.def)             Requested size: 597.5338pt x 845.08348pt.
 File: Portada_Contraportada/Contraportada_tese.pdf Graphic file (type pdf)
 <use Portada_Contraportada/Contraportada_tese.pdf, page 1>
 Package pdftex.def Info: Portada_Contraportada/Contraportada_tese.pdf , page1 u
-sed on input line 424.
+sed on input line 428.
 (pdftex.def)             Requested size: 597.5338pt x 845.08348pt.
 
 [267
@@ -6747,7 +6752,7 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B26F2BE1E0F0EBE8D90956E1BE78117;38487.
+(rerunfilecheck)             Checksum: 1FC04E522CEB1EAFAB2473729B46EAF5;38458.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -6821,7 +6826,7 @@ e1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi
 8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (267 pages, 66352234 bytes).
+Output written on main.pdf (267 pages, 66351770 bytes).
 PDF statistics:
  5370 PDF objects out of 6186 (max. 8388607)
  3795 compressed objects within 38 object streams
