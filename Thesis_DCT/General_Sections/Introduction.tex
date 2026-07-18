@@ -4,19 +4,19 @@
 \newpage
 \section{Motivation}
 
-\subsection{A Personal Journey}
+\subsection{A personal journey}
 From an early age, I was deeply fascinated by characters who used science and technology to understand and shape the world around them. Figures such as Tails, Bulma, and Iron Man, whose mastery of engineering and applied physics exemplifies the transformative power of knowledge, played a significant role in shaping my perspective. Although fictional, these characters conveyed a fundamental idea: that knowledge is a powerful tool for understanding and transforming reality. 
 This early exposure did not merely spark a general interest in science; it fostered a lasting curiosity for inquiry, critical thinking, and the systematic pursuit of understanding. Over time, this curiosity evolved into a genuine motivation for scientific research, ultimately leading me to pursue the study of physics and chemistry.
-\subsection{Scientific Motivation}
+\subsection{Scientific motivation}
 This dissertation is born from the conviction that the analytical tools of physics (mathematics is the language we use to try to read the world~\cite{galileo}, and physics is the translation of that language into our tangible reality~\cite{cecilia1964}) can provide an additional vantage point to study the complexity of Antimicrobial Peptides (AMPs). Rather than seeking definitive solutions, the goal of this work is to help clarify some of the underlying mechanisms of these interactions. By doing so, I hope to offer a modest contribution to the scientific community's knowledge, providing data and frameworks that might aid in the long-term fight against antimicrobial resistance. It is an invitation to see how the synergy between programming, molecular dynamics, and the emerging frontier of quantum computing can complement other disciplines in the collective pursuit of understanding one of the great biological challenges of our time~\cite{Murray2022,Ahmed2024,WHO}. Rather than replacing traditional methods, this work explores how computational frameworks can serve as a digital microscope, offering a modest but necessary vantage point to simulate and eventually master the complex interactions of life at the atomic scale. Ultimately, its contribution lies not only in charting a path forward, but in sharing our unfruitful avenues, sparing future researchers from repeating the same mistakes.
 
 \section{Background: Membrane targeting to fight AMR.}
 
-\subsection{The Lipid Membrane: A Selective Biological Landscape}
+\subsection{The lipid membrane: A selective biological landscape}
 
 To understand how AMPs operate, we must first examine the stage upon which these interactions unfold: the lipid membrane. Rather than viewing lipids merely through the lens of chemical solubility, it is more productive to define them as the fundamental architectural units of biological boundaries~\cite{gould2018membranes}. Among these, phospholipids are the primary constituents and the most relevant to the mechanical and structural integrity of the cell~\cite{van2008membrane}. Structurally, a phospholipid is defined by a central alcohol backbone that serves as a bridge, anchoring a polar, phosphate-rich head group to a pair of nonpolar, hydrophobic chains (Figure \ref{fig:Lipids})~\cite{van2008membrane}. This inherent amphipathic nature is what drives their spontaneous self-assembly into the bilayer structures that define all cellular interfaces~\cite{self-assembly}. The hydrophobic tails aggregate in the interior to minimize contact with water, while the hydrophilic heads orient toward the aqueous environment, forming a stable, semi-permeable barrier~\cite{self-assembly}. The specific chemical identity of the head group (e.g., choline, ethanolamine, serine) dictates the net charge of the surface, a crucial factor in determining the electrostatic interactions that govern the recruitment and insertion of molecules like AMPs~\cite{cationic-anionic-interaction}.
 
-\subsubsection{Beyond Protein Targets: The Membrane as a Vulnerability}
+\subsubsection{Beyond protein targets: The membrane as a vulnerability}
 
 Traditional pharmacology has historically relied on antibiotics that bind to specific protein receptors or inhibit metabolic pathways~\cite{Lohner2009}. While this high specificity can be effective, it also represents a strategic limitation, as microorganisms can rapidly bypass these effects through point mutations or adaptive metabolic shifts, leading to the emergence of resistance. Consequently, there is a critical need for antimicrobial agents that target more fundamental and less mutable molecular features~\cite{Ahmed2024}.
 
@@ -45,7 +45,7 @@ These observations highlight that the lipid composition of membranes is not only
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.95\linewidth]{General_Sections/Figures/Membrane_Lipids_dct.png}
-    \caption{\textbf{Comparative analysis of lipid membrane profiles.} The left panel illustrates the lipid composition across different biological models. In a healthy mammalian membrane, lipids are distributed asymmetrically: the outer leaflet consists primarily of neutral phosphatidylcholines (blue), while the inner leaflet is enriched with phosphatidylethanolamines (gray) and anionic phosphatidylserines (green), resulting in a net negative charge on the internal surface. In cancer cells, this structural asymmetry is lost and lipids become more evenly distributed, leading to the acquisition of a negative charge on the external surface. Bacterial membranes (e.g., \textit{E. coli}) exhibit a different composition, containing phosphatidylethanolamines and anionic phosphatidylglycerols (red) in both the interior and exterior leaflets, which imparts a significant negative charge to the cell surface. The right panel displays the chemical structures of the primary lipids studied: POPC, POPS, POPG, and POPE (from top to bottom). The schematic representation was generated using Matplotlib, while the molecular structures were rendered in ChemDraw~\cite{chemdraw}.}
+    \caption{Comparative analysis of lipid membrane profiles. The left panel illustrates the lipid composition across different biological models. In a healthy mammalian membrane, lipids are distributed asymmetrically: the outer leaflet consists primarily of neutral phosphatidylcholines (blue), while the inner leaflet is enriched with phosphatidylethanolamines (gray) and anionic phosphatidylserines (green), resulting in a net negative charge on the internal surface. In cancer cells, this structural asymmetry is lost and lipids become more evenly distributed, leading to the acquisition of a negative charge on the external surface. Bacterial membranes (e.g., \textit{E. coli}) exhibit a different composition, containing phosphatidylethanolamines and anionic phosphatidylglycerols (red) in both the interior and exterior leaflets, which imparts a significant negative charge to the cell surface. The right panel displays the chemical structures of the primary lipids studied: POPC, POPS, POPG, and POPE (from top to bottom). The schematic representation was generated using Matplotlib, while the molecular structures were rendered in ChemDraw~\cite{chemdraw}.}
     \label{fig:Lipids}
 \end{figure}
 \FloatBarrier
@@ -57,7 +57,7 @@ In the search for new antimicrobial strategies, nature provides an important sou
 
 
 
-\section{The Global Crisis of Antimicrobial Resistance}
+\section{The global crisis of antimicrobial resistance}
 
 The exponential rise of antimicrobial resistance (AMR) poses one of the most critical public health and economic threats of the 21st century~\cite{salam2023antimicrobial}. With traditional antibiotics losing their efficacy due to the rapid mutation and adaptation of pathogens, the discovery and optimization of novel therapeutic agents is urgently required~\cite{macnair2024alternative}. Indeed, it is estimated that by 2050, more than 10 million deaths annually will be associated with AMR if current trends continue~\cite{Tang2023}.
 
@@ -68,7 +68,7 @@ The sheer scale of this molecular diversity is captured by the Antimicrobial Pep
 
 % \FloatBarrier
 
-\section{Physicochemical Properties and Structural Determinants}
+\section{Physicochemical properties and structural determinants}
 
 The biological functionality of an AMP is intrinsically linked to its primary amino acid sequence and resulting three-dimensional topology. Structurally, these peptides represent a diverse class of small oligomers, typically comprising 10 to 100 amino acid residues~\cite{Zasloff2002, numero_aa_amps,doi:10.1128/cmr.00056-05}. Their therapeutic activity is primarily governed by two biophysical pillars~\cite{Mookherjee2020}:
 
@@ -80,7 +80,7 @@ The biological functionality of an AMP is intrinsically linked to its primary am
 
 
 
-\subsection{Structural Classification}
+\subsection{Structural classification}
 In many cases, AMPs remain largely unstructured in aqueous solution but undergo a rapid conformational transition upon interacting with lipid membranes, a process that maximizes their amphipathic character~\cite{Li2021}. Based on the secondary structure they acquire at the target interface, AMPs are generally classified into four archetypes (Figure~\ref{fig:AMPClass})~\cite{fermentation10110540,doi:10.1128/cmr.00056-05}:
 
 \begin{enumerate}
@@ -119,14 +119,14 @@ In many cases, AMPs remain largely unstructured in aqueous solution but undergo 
 
 
 
-\section{Mechanisms of Membrane Disruption}
+\section{Mechanisms of membrane disruption}
 While some AMPs display their antimicrobial activity by means of intracellular, non-lytic mechanisms ~\cite{Scocchi2016}, the most common modes of action involve membranolytic effects driven by their amphipathic nature (Figure~\ref{fig:AMPMOA}). The therapeutic action of membrane-targeting AMPs is achieved through a two-stage physical disruption: initial electrostatic accumulation at the membrane surface, followed by the hydrophobic partitioning of the peptide into the non-polar core, which disturbs the lipid bilayer structure and ultimately leads to cell death~\cite{Mookherjee2020, BuiThiPhuong2024}. 
 
 Once a critical concentration of peptides is adsorbed, the membrane is compromised through several proposed models:
 
 \begin{itemize}
-    \item \textbf{Pore Formation Models (Barrel-stave and Toroidal-pore):} In the barrel-stave model, peptides insert perpendicularly into the membrane, aggregating such that their hydrophobic faces interact with lipid tails while their hydrophilic faces form a central aqueous channel. In the toroidal-pore model, peptides induce local curvature, causing the lipid headgroups to tilt and line the pore alongside the peptides.
-    \item \textbf{Non-Pore Models (Carpet model):} Peptides accumulate parallel to the membrane surface. Upon reaching a threshold concentration, they act like detergents, leading to the micellization and fragmentation of the bilayer without forming discrete, stable pores.
+    \item \textbf{Pore formation models (barrel-stave and toroidal-pore):} In the barrel-stave model, peptides insert perpendicularly into the membrane, aggregating such that their hydrophobic faces interact with lipid tails while their hydrophilic faces form a central aqueous channel. In the toroidal-pore model, peptides induce local curvature, causing the lipid headgroups to tilt and line the pore alongside the peptides.
+    \item \textbf{Non-pore models (carpet model):} Peptides accumulate parallel to the membrane surface. Upon reaching a threshold concentration, they act like detergents, leading to the micellization and fragmentation of the bilayer without forming discrete, stable pores.
 \end{itemize}
 
 
@@ -144,13 +144,13 @@ Once a critical concentration of peptides is adsorbed, the membrane is compromis
 
 
 
-\section{Current Bottlenecks in AMP Development}
+\section{Current bottlenecks in AMP development}
 
 Despite this potent and physically driven mechanism of action, translating AMPs into clinical therapies remains a significant challenge. As of its latest update in December 2024 [Retrieved June 2026], the Data Repository of Antimicrobial Peptides (DRAMP)~\cite{Ma2025} lists 35,918 entries under the query \textit{antimicrobial}. Nevertheless, only a few AMPs have reached clinical trials, and barely over 100 peptide-based drugs have been approved worldwide~\cite{Rossino2023, Pereira2024, amps_aprobados}. 
 
 A major limitation is their metabolic instability, as they are rapidly degraded by proteolytic enzymes~\cite{Dijksteel2021,degradacion_1,degradacion_2}. They also tend to exhibit toxicity toward host mammalian cells, which severely restricts their systemic therapeutic application~\cite{Lyu2023}. In addition, they frequently possess short half-lives and are quickly cleared from the bloodstream, resulting in poor bioavailability. To overcome these limitations, various strategies have been investigated, such as incorporating non-natural amino acids and peptide cyclization to improve stability and minimize degradation~\cite{Carmona2013, Lucana2021}.
 
-\subsection{Limitations of Experimental Techniques}
+\subsection{Limitations of experimental techniques}
 
 The study of AMPs and their interactions with lipid bilayers is inherently complex. Because real biological membranes are highly heterogeneous, experimental characterizations rely heavily on simplified mimetic models, such as surfactant micelles, binary lipid mixtures, or helix-stabilizing co-solvents like 2,2,2-Trifluoroethanol(TFE)~\cite{paper_paula, experiments_1,experiments_2,experiments_3}. While these controlled environments facilitate reproducible biophysical measurements, they introduce a significant structural bias. The secondary structure of membrane-targeting AMPs, especially those with transient $\alpha$-helical content, is exquisitely sensitive to its surrounding medium \cite{experiment_4,experiment_5}. Furthermore, methodologies that require physical modifications, such as fluorescence assays utilizing bulky extrinsic tags~\cite{fluo_1,fluo_3,fluo_4}, risk altering the intrinsic physicochemical properties of the peptide~\cite{fluo_2}. This extreme sensitivity, coupled with the vast diversity of experimental setups across the literature, makes it exceedingly difficult to extrapolate \textit{in vitro} findings directly to physiological conditions.
 
@@ -160,13 +160,13 @@ Ultimately, while combining these diverse spectroscopic, microscopic, and thermo
 
 
 
-\section{Computational Methods in Chemistry}
+\section{Computational methods in chemistry}
 
 To overcome the observational barriers inherent to \textit{in vitro} assays, \textit{in silico} approaches have emerged as an indispensable tool in biophysical research. As the performance of these methods is tightly linked to available computational power, continuous advances in supercomputing have pushed the boundaries of molecular simulations, allowing researchers to study complex biological systems with unprecedented detail~\cite{Melo2023}. Computational chemistry offers a rigorous, physics-based framework to interrogate the structural, thermodynamic, and kinetic properties of biomolecules~\cite{Karplus2002,Hollingsworth2018}. 
 
 Within the context of AMPs, modeling their behavior requires traversing multiple scales of complexity. On one hand, researchers must explicitly capture the continuous, time-resolved mechanics of peptide-membrane interactions, a task ideally suited for classical Molecular Dynamics (MD)~\cite{avances_3}. On the other, addressing the astronomical combinatorics of peptide folding and sequence design requires breaking through the computational ceilings of classical architectures~\cite{robert2021resource}, paving the way for emerging paradigms such as Artificial Intelligence (AI) and Quantum Computing (QC)~\cite{avances_1,avances_2}. In this thesis, we navigate this multiscale computational landscape, integrating advanced classical simulations with quantum algorithms to bridge molecular-level mechanisms and predictive drug design.
 
-\subsection{Molecular Dynamics}
+\subsection{Molecular dynamics}
 
 
 Unlike conventional experimental techniques that yield macroscopic or time-averaged data, the simulation of systems involving peptides and lipid bilayers through MD provides continuous, atomistic trajectories of all particles in the system ~\cite{md_microscopio,Sousa2010}. By solving the classical equations of motion over time, MD effectively acts as a computational microscope, allowing the study of peptide adsorption, interfacial folding, and membrane disruption at a level of spatial and temporal detail far beyond what can be achieved experimentally ~\cite{TIELEMAN1997235}.
@@ -176,13 +176,13 @@ The first MD simulation dates back to 1957, when Wainwright and Alder simulated 
 Building on this historical legacy, the field is currently undergoing a significant paradigm shift driven by the integration of Artificial Intelligence~\cite{cecilia_1}. While traditional empirical force fields, particularly at the coarse-grained (CG) level, suffer from reduced resolution and fixed functional forms that limit their accuracy, modern Machine Learning (ML) architectures offer a powerful alternative~\cite{cecilia_1}. By training deep neural networks on massive datasets of high-resolution all-atom simulations, state-of-the-art ML potentials can construct bottom-up, transferable CG models that successfully bridge the gap between atomistic accuracy and coarse-grained computational efficiency~\cite{cecilia_2}. This breakthrough enables the predictive exploration of complex protein landscapes and rare conformational transitions at a fraction of the traditional computational cost, marking the next frontier in biophysical simulations~\cite{cecilia_2}.
 
 
-\subsubsection{Classical Mechanics and Force Fields}
-Classical MD computes the motion of particles by integrating Newton’s equations of motion~\cite{leyesnewton}. The accuracy of these simulations depends fundamentally on the Force Field (FF), which provides the parameterized empirical equations for bonded and non-bonded interactions. The choice of FF is critical; if the selected model fails to accurately capture the relevant non-covalent interactions (e.g., specific peptide-lipid affinities), the resulting trajectories will diverge from reality and fail to represent the physical system~\cite{braun2018best,force_field_protocol}.
+\subsubsection{Classical mechanics and force fields}
+Classical MD computes the motion of particles by integrating Newton’s equations of motion~\cite{leyesnewton}. The accuracy of these simulations depends fundamentally on the force field (FF), which provides the parameterized empirical equations for bonded and non-bonded interactions. The choice of FF is critical; if the selected model fails to accurately capture the relevant non-covalent interactions (e.g., specific peptide-lipid affinities), the resulting trajectories will diverge from reality and fail to represent the physical system~\cite{braun2018best,force_field_protocol}.
 
 
 
 
-\subsubsection{Solvent and Membrane Representation}
+\subsubsection{Solvent and membrane representation}
 
 To mitigate the immense computational cost of calculating forces for thousands of water molecules, early methodologies, tracing back to the pioneering dipole models of Warshel and Levitt~\cite{WARSHEL1976227}, relied heavily on implicit solvent representations. These approaches treat the solvent as a continuous polarizable medium with a macroscopic dielectric constant, effectively reducing the system's degrees of freedom~\cite{implicit_solvent_model}. However, continuum models inherently fail to capture the highly directional, discrete hydrogen-bonding networks established between the peptide backbone and individual water molecules. In the context of AMPs, this limitation is critical: the dynamic competition between peptide-water and intramolecular peptide-peptide hydrogen bonds is the fundamental driving force governing their characteristic environment-conditioned folding (e.g., the transition from a disordered coil in solution to an amphipathic $\alpha$-helix at the lipid interface).
 
@@ -196,7 +196,7 @@ To access longer timescales and larger spatial dimensions, CG approaches, such a
 
 
 
-\subsubsection{Algorithmic Acceleration: Enhanced Sampling Methods}
+\subsubsection{Algorithmic acceleration: enhanced sampling methods}
 While CG models significantly extend accessible timescales, deep free-energy basins and high kinetic barriers can still trap the system in local minima. Consequently, the spontaneous observation of rare events (such as deep membrane insertion, specific lipid recruitment, or pore formation) remains highly challenging. To systematically overcome these barriers, regardless of the chosen resolution (atomistic or coarse-grained), MD is frequently coupled with Enhanced Sampling techniques~\cite{limitation_martini_1,limitation_martini_2,steered_md_1,steered_md_2,Richardson2024}. These methods manipulate the thermodynamic ensembles or the underlying potential energy surface to accelerate the exploration of the conformational space and reconstruct the free-energy landscapes. In the context of AMP-membrane interactions, where such combinations have successfully unveiled the specificity of peptide orientations~\cite{samson_umbrella_sampling}, the most prominent techniques include:
 
 \begin{itemize}
@@ -218,7 +218,7 @@ While CG models significantly extend accessible timescales, deep free-energy bas
 
 
 
-\subsection{Quantum Computing}\label{QC_intro}
+\subsection{Quantum computing}\label{QC_intro}
 
 A fundamental challenge in the study of antimicrobial peptides arises from the enormous size of both sequence and conformational spaces~\cite{robert2021resource}. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides~\cite{robert2021resource}. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes~\cite{Zasloff2002}.
 
@@ -228,13 +228,13 @@ From a computational perspective, the protein folding problem has been shown to 
 
 Recent advances in machine learning approaches, most notably AlphaFold, have achieved remarkable success in predicting static protein structures from amino acid sequences~\cite{avances_2}. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches~\cite{avances_2,ROSETTA,PROTEINMPNN}.
 
-Classical approaches, such as molecular dynamics simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally prohibitive~\cite{avances_3,limitaciones_md}.
+Classical approaches, such as MD simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally prohibitive~\cite{avances_3,limitaciones_md}.
 
 These limitations motivate the exploration of alternative computational paradigms capable of addressing the exponential and combinatorial complexity of biomolecular systems. In this context, quantum computing offers a fundamentally different framework, in which the principles of superposition and entanglement enable the representation and manipulation of high-dimensional quantum states more naturally. Although current quantum hardware remains limited, these approaches provide a promising avenue for tackling the intrinsic complexity of peptide folding and sequence exploration problems~\cite{quantum_biology_1,quantum_biology_2}.
 
 
 
-The emergence of Quantum Computing represents a paradigm shift in our ability to process information, rooted in the fundamental principles of quantum mechanics. The field's conceptual origin is often traced back to Richard Feynman's 1982 observation that simulating nature (which is inherently quantum mechanical) requires a machine that operates on the same principles~\cite{feynman1982simulating}. As detailed in the seminal work of Nielsen and Chuang~\cite{nielsen2010quantum}, quantum computation transcends the limits of the classical Turing machine by utilizing qubits, which can exist in superpositions and entangled states. This allows for the exploration of a Hilbert space that grows exponentially with the number of qubits, offering a route to solve computational problems that are practically intractable for even the most powerful classical supercomputers.
+The emergence of QC represents a paradigm shift in our ability to process information, rooted in the fundamental principles of quantum mechanics. The field's conceptual origin is often traced back to Richard Feynman's 1982 observation that simulating nature (which is inherently quantum mechanical) requires a machine that operates on the same principles~\cite{feynman1982simulating}. As detailed in the seminal work of Nielsen and Chuang~\cite{nielsen2010quantum}, quantum computation transcends the limits of the classical Turing machine by utilizing qubits, which can exist in superpositions and entangled states. This allows for the exploration of a Hilbert space that grows exponentially with the number of qubits, offering a route to solve computational problems that are practically intractable for even the most powerful classical supercomputers.
 
 The theoretical promise of quantum advantage was first demonstrated through algorithms such as Shor's for factoring integers and Grover's for database searching. However, the current state of technology, known as the Noisy Intermediate-Scale Quantum (NISQ) era~\cite{preskill2018quantum}, is characterized by devices with limited qubit counts and high error rates. Despite these limitations, the development of hybrid quantum-classical algorithms has opened new avenues for practical applications. These algorithms, such as the Variational Quantum Eigensolver (VQE)~\cite{peruzzo2014variational} and the Quantum Approximate Optimization Algorithm (QAOA)~\cite{QAOA}, distribute the computational load between a quantum processor and a classical optimizer, making them remarkably robust against the noise inherent to current hardware.
 
@@ -258,21 +258,23 @@ The integration of quantum computing into the existing biophysical toolbox offer
 
 
 
-\section{Scope and Framework of this Thesis}
+\section{Scope and framework of this thesis}
 
 In this context, this thesis addresses these computational and biophysical bottlenecks by focusing on unlocking the specificity of antimicrobial peptide interactions for membrane-targeted therapies. Instead of relying on empirical chemical modifications, this work establishes a foundational framework aimed at a precise, molecular-level understanding of peptide-lipid recognition. By dissecting the fundamental forces that govern how these biomolecules distinguish between diverse cellular membranes, we provide the mechanistic groundwork needed to exploit lipid composition as a highly selective therapeutic target.
 
 Building upon this conceptual milestone, the subsequent phases of this research transition into advanced computational methodologies to model and engineer these interactions from first principles. Specifically, we explore the frontier of structural biology by performing classical simulations on quantum computers to investigate interface-driven peptide folding on simulated membrane surfaces, capturing the highly dynamic conformational changes that occur precisely at the lipid-water boundary. Ultimately, the insights gained from these quantum-simulated systems are translated into practical blueprints for the environment-conditioned design of $\alpha$-helical peptides, effectively establishing a predictive framework for the targeted design of membrane-specific peptides.
-\section{Dissertation Structure}
+
+
+\section{Dissertation structure}
 
 This PhD dissertation is structured into seven main sections and one supplementary section. The manuscript first delves into the pathophysiological context behind the work, introducing the CAIn Triangle (Cancer, Aging, and Infection) and the challenge of AMR. It then presents AMPs and the computational techniques used to study them. After that, the objectives of this research are presented, followed by a technical explanation of the materials and methods. Subsequently, the scientific results are presented as a compendium of articles, comprising the most relevant publications and manuscripts related to this thesis, divided into two results sections. Finally, the contributions are discussed as a whole in order to draw a general list of conclusions. In particular, the document is structured as follows:
 \begin{itemize}
     \item \textbf{\hyperref[chap:intro]{Introduction}}: The present section. It introduces the pathophysiological links between cancer, aging, and infection, identifying lipid asymmetry as a common underlying factor. It proposes AMPs as potential candidates to target these specific lipid signatures. Additionally, it provides an overview of the two main computational paradigms used in this work: MD simulations coupled with enhanced sampling, and Quantum Computing algorithms for molecular prediction and design.
-    \item \textbf{\hyperref[chap:objectives]{Hypothesis and Objectives}}: This section sets the main hypothesis that drives the research conducted in this thesis. Moreover, it provides a detailed description of the multi-scale objectives that have to be achieved to test the proposed hypothesis, ranging from thermodynamic characterization to quantum sequence optimization.
-    \item \textbf{\hyperref[methods]{Materials and Methods}}: This section describes in detail the computational tools used in this research. It first focuses on classical MD and Metadynamics, providing technical insights into the physical foundations and the calculation of free energy surfaces. Then, it delves into Quantum Computing, describing the variational models (e.g., VQE) and optimization algorithms (e.g., QAOA) featured in the research.
-    \item \textbf{\hyperref[chap:results]{Results: Published Articles}}: This section includes the articles published during the thesis and, when applicable, the corresponding supporting information. The articles are presented in their original format, including the discussion of the results obtained in each research work. This section covers the conceptualization of the CAIn Triangle, the biophysical characterization of AMP-membrane interactions using advanced sampling, and the initial evaluation of quantum algorithms for peptide folding prediction on simplified lattice models.
-    \item \textbf{\hyperref[chap:unpublished]{Unpublished Results}}: This section encompasses the work that could not be published before the presentation of the thesis. It details the transition towards combinatorial sequence optimization and the development of a physics-based Hamiltonian for \textit{de novo} peptide design. Notably, it introduces \textbf{Helix Design Studio}, an open-source software platform that integrates these theoretical and computational models to automate the rational design of $\alpha$-helical peptides in heterogeneous membrane environments \footnote{\url{https://helix.simbioslab.com}}. The corresponding software registration forms and licenses are attached in the Appendix.
-    \item \textbf{\hyperref[discussion]{General Discussion}}: This section includes a general overview of the results achieved in this thesis, highlighting the main outcomes of each stage and how they integrate into the general purpose of bridging computational biophysics and quantum optimization.
+    \item \textbf{\hyperref[chap:objectives]{Hypothesis and objectives}}: This section sets the main hypothesis that drives the research conducted in this thesis. Moreover, it provides a detailed description of the multi-scale objectives that have to be achieved to test the proposed hypothesis, ranging from thermodynamic characterization to quantum sequence optimization.
+    \item \textbf{\hyperref[methods]{Materials and methods}}: This section describes in detail the computational tools used in this research. It first focuses on classical MD and Metadynamics, providing technical insights into the physical foundations and the calculation of free energy surfaces. Then, it delves into Quantum Computing, describing the variational models (e.g., VQE) and optimization algorithms (e.g., QAOA) featured in the research.
+    \item \textbf{\hyperref[chap:results]{Results: Published articles}}: This section includes the articles published during the thesis and, when applicable, the corresponding supporting information. The articles are presented in their original format, including the discussion of the results obtained in each research work. This section covers the conceptualization of the CAIn Triangle, the biophysical characterization of AMP-membrane interactions using advanced sampling, and the initial evaluation of quantum algorithms for peptide folding prediction on simplified lattice models.
+    \item \textbf{\hyperref[chap:unpublished]{Unpublished results}}: This section encompasses the work that could not be published before the presentation of the thesis. It details the transition towards combinatorial sequence optimization and the development of a physics-based Hamiltonian for \textit{de novo} peptide design. Notably, it introduces \textbf{Helix Design Studio}, an open-source software platform that integrates these theoretical and computational models to automate the rational design of $\alpha$-helical peptides in heterogeneous membrane environments \footnote{\url{https://helix.simbioslab.com}}. The corresponding software registration forms and licenses are attached in the Appendix.
+    \item \textbf{\hyperref[discussion]{General discussion}}: This section includes a general overview of the results achieved in this thesis, highlighting the main outcomes of each stage and how they integrate into the general purpose of bridging computational biophysics and quantum optimization.
     \item \textbf{\hyperref[conclusions]{Conclusions}}: Presents a summary of the key conclusions drawn from the research carried out in this thesis.
 \end{itemize}
 

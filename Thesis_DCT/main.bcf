@@ -2793,6 +2793,8 @@
     <bcf:citekey order="293" intorder="2">MJ_2</bcf:citekey>
     <bcf:citekey order="294" intorder="1">avances_2</bcf:citekey>
     <bcf:citekey order="294" intorder="2">dca</bcf:citekey>
+    <bcf:citekey order="295" intorder="1">Laio2002</bcf:citekey>
+    <bcf:citekey order="296" intorder="1">paper_paula</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

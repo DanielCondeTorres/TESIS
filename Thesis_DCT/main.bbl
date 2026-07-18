@@ -1362,7 +1362,6 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The reconstruction of accurate yet simplified mimetic models of cell membranes is a very challenging goal of synthetic biology. To date, most of the research focuses on the development of eukaryotic cell membranes, while reconstitution of their prokaryotic counterparts has not been fully addressed, and the proposed models do not reflect well the complexity of bacterial cell envelopes. Here, we describe the reconstitution of biomimetic bacterial membranes with an increasing level of complexity, developed from binary and ternary lipid mixtures. Giant unilamellar vesicles composed of phosphatidylcholine (PC) and phosphatidylethanolamine (PE); PC and phosphatidylglycerol (PG); PE and PG; PE, PG and cardiolipin (CA) at varying molar ratios were successfully prepared by the electroformation method. Each of the proposed mimetic models focuses on reproducing specific membrane features such as membrane charge, curvature, leaflets asymmetry, or the presence of phase separation. GUVs were characterized in terms of size distribution, surface charge, and lateral organization. Finally, the developed models were tested against the lipopeptide antibiotic daptomycin. The obtained results showed a clear dependency of daptomycin binding efficiency on the amount of negatively charged lipid species present in the membrane. We anticipate that the models proposed here can be applied not only in antimicrobial testing but also serve as platforms for studying fundamental biological processes in bacteria as well as their interaction with physiologically relevant biomolecules.}
       \field{issn}{0005-2736}
       \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Biomembranes}
       \field{number}{7}
@@ -2444,6 +2443,35 @@
       \verb https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2013.00294
       \endverb
     \endentry
+    \entry{chemdraw}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e0e5b897b79c166580afab519667b128}{%
+           family={{PerkinElmer Informatics}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0e5b897b79c166580afab519667b128}
+      \strng{fullhash}{e0e5b897b79c166580afab519667b128}
+      \strng{fullhashraw}{e0e5b897b79c166580afab519667b128}
+      \strng{bibnamehash}{e0e5b897b79c166580afab519667b128}
+      \strng{authorbibnamehash}{e0e5b897b79c166580afab519667b128}
+      \strng{authornamehash}{e0e5b897b79c166580afab519667b128}
+      \strng{authorfullhash}{e0e5b897b79c166580afab519667b128}
+      \strng{authorfullhashraw}{e0e5b897b79c166580afab519667b128}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Licencia de la Universidade de Santiago de Compostela (USC)}
+      \field{title}{ChemDraw Professional}
+      \field{version}{22.2}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://perkinelmer-chemdraw-professional.software.informer.com/
+      \endverb
+      \verb{url}
+      \verb https://perkinelmer-chemdraw-professional.software.informer.com/
+      \endverb
+    \endentry
     \entry{Zasloff2002}{article}{}{}
       \name{author}{1}{}{%
         {{hash=280c9c28b5987fd68cba3c8a67f28bee}{%
@@ -2511,8 +2539,8 @@
       \strng{authornamehash}{0c788c880d3a848ff992e4db13ba1292}
       \strng{authorfullhash}{0c788c880d3a848ff992e4db13ba1292}
       \strng{authorfullhashraw}{0c788c880d3a848ff992e4db13ba1292}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1177-391X}
@@ -2579,8 +2607,8 @@
       \strng{authornamehash}{015b7c42176bdfe7122a7c5c593ea6f5}
       \strng{authorfullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
       \strng{authorfullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Healthcare}
@@ -3307,8 +3335,8 @@
       \strng{authorfullhash}{3360d95f636bf376e82b8406c098f1b9}
       \strng{authorfullhashraw}{3360d95f636bf376e82b8406c098f1b9}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2054-9369}
@@ -4070,8 +4098,8 @@
       \strng{authornamehash}{8455b92b818193a4a28312b999cc5211}
       \strng{authorfullhash}{3fcdc7e21e0d1ec160c935f784f3abe5}
       \strng{authorfullhashraw}{3fcdc7e21e0d1ec160c935f784f3abe5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1420-3049}
@@ -4126,8 +4154,8 @@
       \strng{authornamehash}{2edd24052d6d0266bddf55c8fb4dd921}
       \strng{authorfullhash}{c56cf6a9891dcea1e4d2331fa1876842}
       \strng{authorfullhashraw}{c56cf6a9891dcea1e4d2331fa1876842}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1554-8120}
@@ -4165,8 +4193,8 @@
       \strng{authornamehash}{b12a21248861f9657f193610dca8c727}
       \strng{authorfullhash}{b12a21248861f9657f193610dca8c727}
       \strng{authorfullhashraw}{b12a21248861f9657f193610dca8c727}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Since 1955, a total of 12 peptide-based drugs with antimicrobial or antifungal properties have received approval from the Food and Drug Administration (FDA). Peptides present a promising opportunity to address serious infections that may be challenging to manage through other means. Peptides exhibit the capability to leverage various mechanisms, and in some cases, multiple mechanisms are employed for this purpose. Despite the initial approval dating back to 1955, the FDA recently approved an echinocandin peptide just last year. The ongoing approvals underscore the significance of peptides in addressing ongoing medical challenges. Approximately 22 peptide therapeutics with an antibacterial and antifungal spectrum are currently undergoing various phases of clinical trials, showing promising results. In this review, antimicrobial and antifungal peptides are analyzed in terms of their chemical structure, indication, mode of action, and development journey, concluding with their arrival in the pharmaceutical market.}
@@ -4220,8 +4248,8 @@
       \strng{authornamehash}{748c71d2a2765a2f928a3be854ea4c5b}
       \strng{authorfullhash}{a5034e507f3ee95c14b2044274e2795a}
       \strng{authorfullhashraw}{a5034e507f3ee95c14b2044274e2795a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1664-302X}
@@ -4298,8 +4326,8 @@
       \strng{authornamehash}{d4c4bbc64524bf1e825dbc188dea65f1}
       \strng{authorfullhash}{ca9dea47193f1675b92e8911b31b3de1}
       \strng{authorfullhashraw}{ca9dea47193f1675b92e8911b31b3de1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The problem of drug resistance due to long-term use of antibiotics has been a concern for years. As this problem grows worse, infections caused by multiple bacteria are expanding rapidly and are extremely detrimental to human health. Antimicrobial peptides (AMPs) are a good alternative to current antimicrobials with potent antimicrobial activity and unique antimicrobial mechanisms, which have advantages over traditional antibiotics in fighting against drug-resistant bacterial infections. Currently, researchers have conducted clinical investigations on AMPs for drug-resistant bacterial infections while integrating new technologies in the development of AMPs, such as changing amino acid structure of AMPs and using different delivery methods for AMPs. This article introduces the basic properties of AMPs, deliberates the mechanism of drug resistance in bacteria and the therapeutic mechanism of AMPs. The current disadvantages and advances of AMPs in combating drug-resistant bacterial infections are also discussed. This article provides important insights into the research and clinical application of new AMPs for drug-resistant bacterial infections.}
@@ -4352,8 +4380,8 @@
       \strng{authornamehash}{910c04fa9245054b2427b22fc9be80d6}
       \strng{authorfullhash}{d2a4aaa8698f5f8ffcfe3769e8c83a6a}
       \strng{authorfullhashraw}{d2a4aaa8698f5f8ffcfe3769e8c83a6a}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are a diverse group of naturally occurring molecules produced by eukaryotes and prokaryotes. They have an important role in innate immunity via their direct microbicidal properties or immunomodulatory activities against pathogens. With the widespread occurrence of antimicrobial resistance (AMR), AMPs are considered as viable alternatives for the treatment of multidrug-resistant microbes, inflammation, and, wound healing. The broad-spectrum antibacterial activity of AMPs is predominantly attributed to membrane disruption, leading to the formation of transmembrane pores and, eventually, cell lysis. However, mechanisms related to inhibition of cell wall synthesis, nucleic acid synthesis, protein synthesis, or enzymatic activity are also associated with these peptides. In this review, we discuss our current understanding, therapeutic uses and challenges associated with the clinical applications of AMPs.}
@@ -5570,8 +5598,8 @@
       \strng{authornamehash}{3a77ff67dd1774f7c6a9266f1e666cc4}
       \strng{authorfullhash}{3e81088b22d90f00bd091940ce83f0eb}
       \strng{authorfullhashraw}{3e81088b22d90f00bd091940ce83f0eb}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Chemical Science}
@@ -5676,8 +5704,8 @@
       \strng{authornamehash}{12e875d587d83adf68558672114ef87d}
       \strng{authorfullhash}{9483f8ef3cac92b321a745b5568153f7}
       \strng{authorfullhashraw}{9483f8ef3cac92b321a745b5568153f7}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides are postulated to disrupt microbial phospholipid membranes. The prevailing molecular model is based on the formation of stable or transient pores although the direct observation of the fundamental processes is lacking. By combining rational peptide design with topographical (atomic force microscopy) and chemical (nanoscale secondary ion mass spectrometry) imaging on the same samples, we show that pores formed by antimicrobial peptides in supported lipid bilayers are not necessarily limited to a particular diameter, nor they are transient, but can expand laterally at the nano-to-micrometer scale to the point of complete membrane disintegration. The results offer a mechanistic basis for membrane poration as a generic physicochemical process of cooperative and continuous peptide recruitment in the available phospholipid matrix.}
@@ -5732,8 +5760,8 @@
       \strng{authornamehash}{8182d10dc3a509901be70ec5a0fbb715}
       \strng{authorfullhash}{76b17eb56b31cc52504fc53425c79ed7}
       \strng{authorfullhashraw}{76b17eb56b31cc52504fc53425c79ed7}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A number of peptides are known to bind lipid bilayer membranes and cause these natural barriers to leak in an uncontrolled manner. Though membrane permeabilizing peptides play critical roles in cellular activity and may have promising future applications in the therapeutic arena, significant questions remain about their mechanisms of action. The atomic force microscope (AFM) is a single molecule imaging tool capable of addressing lipid bilayers in near-native fluid conditions. The apparatus complements traditional assays by providing local topographic maps of bilayer remodeling induced by membrane permeabilizing peptides. The information garnered from the AFM includes direct visualization and statistical analyses of distinct bilayer remodeling modes such as highly localized pore-like voids in the bilayer and dispersed thinned membrane regions. Colocalization of distinct remodeling modes can be studied. Here we examine recent work in the field and outline methods used to achieve precise AFM image data. Experimental challenges and common pitfalls are discussed as well as techniques for unbiased analysis including the Hessian blob detection algorithm, bootstrapping, and the Bayesian information criterion. When coupled with robust statistical analyses, high precision AFM data is poised to advance understanding of an important family of peptides that cause poration of membrane bilayers.}
@@ -6480,8 +6508,8 @@
       \strng{authornamehash}{e13f28029f3b3e2f544cf610b898d57d}
       \strng{authorfullhash}{298f35ed1349510efcb5b960dddc2543}
       \strng{authorfullhashraw}{298f35ed1349510efcb5b960dddc2543}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0304-4157}
@@ -6526,8 +6554,8 @@
       \strng{authornamehash}{d8a23cfffb586cef31caeb6d5b7345c4}
       \strng{authorfullhash}{d8a23cfffb586cef31caeb6d5b7345c4}
       \strng{authorfullhashraw}{d8a23cfffb586cef31caeb6d5b7345c4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -6976,8 +7004,8 @@
       \strng{authornamehash}{a3fe1ab8aa56407af37ef9c35b2471c9}
       \strng{authorfullhash}{a3fe1ab8aa56407af37ef9c35b2471c9}
       \strng{authorfullhashraw}{a3fe1ab8aa56407af37ef9c35b2471c9}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A new and very simple representation of protein conformations has been used together with energy minimisation and thermalisation to simulate protein folding. Under certain conditions, the method succeeds in ‘renaturing’ bovine pancreatic trypsin inhibitor from an open-chain conformation into a folded conformation close to that of the native molecule.}
@@ -7020,8 +7048,8 @@
       \strng{authornamehash}{1fab152cc9c0a5e11a038cd5cb49fd72}
       \strng{authorfullhash}{1fab152cc9c0a5e11a038cd5cb49fd72}
       \strng{authorfullhashraw}{1fab152cc9c0a5e11a038cd5cb49fd72}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A general method for detailed study of enzymic reactions is presented. The method considers the complete enzyme-substrate complex together with the surrounding solvent and evaluates all the different quantum mechanical and classical energy factors that can affect the reaction pathway. These factors include the quantum mechanical energies associated with bond cleavage and charge redistribution of the substrate and the classical energies of steric and electrostatic interactions between the substrate and the enzyme. The electrostatic polarization of the enzyme atoms and the orientation of the dipoles of the surrounding water molecules is simulated by a microscopic dielectric model. The solvation energy resulting from this polarization is considerable and must be included in any realistic calculation of chemical reactions involving anything more than an isolated molecule in vacuo. Without it, acidic groups can never become ionized and the charge distribution on the substrate will not be reasonable. The same dielectric model can also be used to study the reaction of the substrate in solution. In this way the reaction in solution can be compared with the enzymic reaction. In this paper we study the stability of the carbonium ion intermediate formed in the cleavage of a glycosidic bond by lysozyme. It is found that electrostatic stabilization is an important factor in increasing the rate of the reaction step that leads to the formation of the carbonium ion intermediate. Steric factors, such as the strain of the substrate on binding to lysozyme, do not seem to contribute significantly.}
@@ -7067,8 +7095,8 @@
       \strng{authornamehash}{72c7e16bd5e16be8a3e1bd8d687dd09c}
       \strng{authorfullhash}{72c7e16bd5e16be8a3e1bd8d687dd09c}
       \strng{authorfullhashraw}{72c7e16bd5e16be8a3e1bd8d687dd09c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0002-7863}
@@ -7087,6 +7115,63 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1021/ja00771a014
+      \endverb
+    \endentry
+    \entry{nobel_chemistry_2013}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d1c59ef58fab959c3fc3ecfa15e012fc}{%
+           family={{The Nobel Prize}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Royal Swedish Academy of Sciences}%
+      }
+      \strng{namehash}{d1c59ef58fab959c3fc3ecfa15e012fc}
+      \strng{fullhash}{d1c59ef58fab959c3fc3ecfa15e012fc}
+      \strng{fullhashraw}{d1c59ef58fab959c3fc3ecfa15e012fc}
+      \strng{bibnamehash}{d1c59ef58fab959c3fc3ecfa15e012fc}
+      \strng{authorbibnamehash}{d1c59ef58fab959c3fc3ecfa15e012fc}
+      \strng{authornamehash}{d1c59ef58fab959c3fc3ecfa15e012fc}
+      \strng{authorfullhash}{d1c59ef58fab959c3fc3ecfa15e012fc}
+      \strng{authorfullhashraw}{d1c59ef58fab959c3fc3ecfa15e012fc}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.nobelprize.org/prizes/chemistry/2013/summary/}}
+      \field{note}{Accedido el: 8 de julio de 2026}
+      \field{title}{The Nobel Prize in Chemistry 2013}
+      \field{year}{2013}
+    \endentry
+    \entry{royal_swedish_academy_2013}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=8b54eea531f0347f87aaa463db41dc75}{%
+           family={{Royal Swedish Academy of Sciences}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Royal Swedish Academy of Sciences}%
+      }
+      \strng{namehash}{8b54eea531f0347f87aaa463db41dc75}
+      \strng{fullhash}{8b54eea531f0347f87aaa463db41dc75}
+      \strng{fullhashraw}{8b54eea531f0347f87aaa463db41dc75}
+      \strng{bibnamehash}{8b54eea531f0347f87aaa463db41dc75}
+      \strng{authorbibnamehash}{8b54eea531f0347f87aaa463db41dc75}
+      \strng{authornamehash}{8b54eea531f0347f87aaa463db41dc75}
+      \strng{authorfullhash}{8b54eea531f0347f87aaa463db41dc75}
+      \strng{authorfullhashraw}{8b54eea531f0347f87aaa463db41dc75}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scientific Background on the Nobel Prize in Chemistry 2013: Development of multiscale models for complex chemical systems}
+      \field{type}{Scientific Background}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.nobelprize.org/uploads/2018/06/advanced-chemistryprize2013.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.nobelprize.org/uploads/2018/06/advanced-chemistryprize2013.pdf
       \endverb
     \endentry
     \entry{cecilia_1}{article}{}{}
@@ -7549,8 +7634,8 @@
       \strng{authornamehash}{7a1e4ceac91829ca2df667fe2f863124}
       \strng{authorfullhash}{7a1e4ceac91829ca2df667fe2f863124}
       \strng{authorfullhashraw}{7a1e4ceac91829ca2df667fe2f863124}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Implicit solvent models for biomolecular simulations are reviewed and their underlying statistical mechanical basis is discussed. The fundamental quantity that implicit models seek to approximate is the solute potential of mean force, which determines the statistical weight of solute conformations, and which is obtained by averaging over the solvent degrees of freedom. It is possible to express the total free energy as the reversible work performed in two successive steps. First, the solute is inserted in the solvent with zero atomic partial charges; second, the atomic partial charges of the solute are switched from zero to their full values. Consequently, the total solvation free energy corresponds to a sum of non-polar and electrostatic contributions. These two contributions are often approximated by simple geometrical models (such as solvent exposed area models) and by macroscopic continuum electrostatics, respectively. One powerful route is to approximate the average solvent density distribution around the solute, i.e. the solute–solvent density correlation functions, as in statistical mechanical integral equations. Recent progress with semi-analytical approximations makes continuum electrostatics treatments very efficient. Still more efficient are fully empirical, knowledge-based models, whose relation to explicit solvent treatments is not fully resolved, however. Continuum models that treat both solute and solvent as dielectric continua are also discussed, and the relation between the solute fluctuations and its macroscopic dielectric constant(s) clarified.}
@@ -7596,8 +7681,8 @@
       \strng{authornamehash}{fdc26df3be4c00095506baa710c774a1}
       \strng{authorfullhash}{fdc26df3be4c00095506baa710c774a1}
       \strng{authorfullhashraw}{fdc26df3be4c00095506baa710c774a1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0001-4842}
@@ -7663,8 +7748,8 @@
       \strng{authorfullhash}{efdaf2b8e04817e2c15342b66bd80729}
       \strng{authorfullhashraw}{efdaf2b8e04817e2c15342b66bd80729}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0009-2665}
@@ -7709,8 +7794,8 @@
       \strng{authornamehash}{3bbfb81f9905414b41a8d83b8c6c6626}
       \strng{authorfullhash}{3bbfb81f9905414b41a8d83b8c6c6626}
       \strng{authorfullhashraw}{3bbfb81f9905414b41a8d83b8c6c6626}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{Third Edition}
@@ -7771,8 +7856,8 @@
       \strng{authorfullhash}{e8e98603db210ec3157d1f3f3de63a21}
       \strng{authorfullhashraw}{e8e98603db210ec3157d1f3f3de63a21}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1520-6106}
@@ -14930,6 +15015,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{rayleigh-ritz}
 \endrefsection
 \endinput
 

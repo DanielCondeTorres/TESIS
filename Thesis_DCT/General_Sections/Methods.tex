@@ -1,4 +1,4 @@
-\chapter{Materials and Methods}\label{methods}
+\chapter{Materials and methods}\label{methods}
 \chapterquote{"My needle is not just a weapon; it is a tool of restoration. I will stitch this broken world back together, or I will watch it unravel entirely."}{--- Hornet (Hollow Knight: Silksong)}
 
 \newpage
@@ -7,24 +7,24 @@ With the main objectives of this work in mind, the present chapter provides a de
 Subsequently, the focus shifts from classical dynamics to Quantum Computing. Rather than presenting this technology as a definitive solution, it is explored as a proof-of-concept to determine if a practical quantum advantage exists for resolving molecular conformations that are computationally prohibitive for purely classical methods. Together, these approaches provide the framework for the conformational sampling and analysis presented in the following sections.
 
 
-\section{Molecular Dynamics: Principles}
+\section{Molecular dynamics: principles}
 
-MD has emerged as a primary computational technique for investigating the time-dependent behavior of interacting particle systems. MD simulations numerically integrate the equations of motion for all atoms in a system, tracking the dynamical evolution of molecules and a subset of their internal degrees of freedom over time\cite{braun2018best}. Since its inception, MD has evolved remarkably: in their pioneering 1957 study, Adler and Wainwright simulated just over a hundred particles interacting via attractive square-well potentials to study phase transitions in hard-sphere systems \cite{alder1957phase}. Today, advances in computational power enable simulations of hundreds of thousands of atoms over long timescales, facilitating the exploration of physical phenomena at resolutions and durations once considered unattainable\cite{charron2025navigating,THORNBURG2026}
+MD has emerged as a primary computational technique for investigating the time-dependent behavior of interacting particle systems. MD simulations numerically integrate the equations of motion for all atoms in a system, tracking the dynamical evolution of molecules and a subset of their internal degrees of freedom over time~\cite{braun2018best}. Since its inception, MD has evolved remarkably: in their pioneering 1957 study, Adler and Wainwright simulated just over a hundred particles interacting via attractive square-well potentials to study phase transitions in hard-sphere systems~\cite{alder1957phase}. Today, advances in computational power enable simulations of hundreds of thousands of atoms over long timescales, facilitating the exploration of physical phenomena at resolutions and durations once considered unattainable~\cite{charron2025navigating,THORNBURG2026}
 
-In this thesis, MD constitutes the main simulation methodology. The equations of motion are derived from a potential energy function defined by the chosen force field, while additional algorithms ensure that simulations maintain the desired thermodynamic conditions, such as temperature and pressure\cite{braun2018best}.
-This section provides the general methodological framework and explains the physical and algorithmic principles underlying the computational approaches used throughout this work, including both conventional MD and enhanced sampling techniques. Study-specific simulation protocol are detailed in the corresponding Results chapters and Methods sections of each associated article or manuscript. When previously established protocols are reused without modification, the original reference is cited explicitly; any deviations are clearly documented.
-All simulations were performed using GROMACS\cite{Gromacs2015}, whose official documentation serves as a reliable reference for many of the technical details discussed in this section.
+In this thesis, MD constitutes the main simulation methodology. The equations of motion are derived from a potential energy function defined by the chosen force field, while additional algorithms ensure that simulations maintain the desired thermodynamic conditions, such as temperature and pressure~\cite{braun2018best}.
+This section provides the general methodological framework and explains the physical and algorithmic principles underlying the computational approaches used throughout this work, including both conventional MD and enhanced sampling techniques. Study-specific simulation protocol are detailed in the corresponding results chapters and methods sections of each associated article or manuscript. When previously established protocols are reused without modification, the original reference is cited explicitly; any deviations are clearly documented.
+All simulations were performed using GROMACS~\cite{Gromacs2015}, whose official documentation serves as a reliable reference for many of the technical details discussed in this section.
 
 
 
-\subsection{The Physics Behind Molecular Dynamics}
+\subsection{The physics behind molecular dynamics}
 
-MD is grounded in Newton's equations of motion\cite{leyesnewton}, which form the foundation of classical mechanics. The term \emph{classical} signifies that quantum effects, such as those governing electronic dynamics, are not treated explicitly. This pragmatic approach relies on the Born-Oppenheimer approximation, it is stated that the motion of the atomic nuclei and that of their electron clouds can be treated separately. It is therefore assumed that the electron clouds adjust their dynamics instantly when the atomic positions change, and that they always remain in the ground state\cite{born1927quantentheorie}.
+MD is grounded in Newton's equations of motion~\cite{leyesnewton}, which form the foundation of classical mechanics. The term \emph{classical} signifies that quantum effects, such as those governing electronic dynamics, are not treated explicitly. This pragmatic approach relies on the Born-Oppenheimer approximation, it is stated that the motion of the atomic nuclei and that of their electron clouds can be treated separately. It is therefore assumed that the electron clouds adjust their dynamics instantly when the atomic positions change, and that they always remain in the ground state~\cite{born1927quantentheorie}.
 
-Through this approximation, the inherently complex quantum mechanical problem is effectively reduced to the time evolution of a system of \(N\) classical particles. Nevertheless, obtaining an exact analytical solution for the motion of these nuclei remains impossible, as no general solution exists for a system of \(N \geq 3\) interacting particles. This challenge, known as the \emph{N-body problem}, has been extensively studied since Isaac Newton first formulated it in the 17th century in the context of celestial mechanics. The same limitation applies to any system of \(N\) interacting particles in a molecular context\cite{n-body}.
+Through this approximation, the inherently complex quantum mechanical problem is effectively reduced to the time evolution of a system of \(N\) classical particles. Nevertheless, obtaining an exact analytical solution for the motion of these nuclei remains impossible, as no general solution exists for a system of \(N \geq 3\) interacting particles. This challenge, known as the \emph{N-body problem}, has been extensively studied since Isaac Newton first formulated it in the 17th century in the context of celestial mechanics. The same limitation applies to any system of \(N\) interacting particles in a molecular context~\cite{n-body}.
 
-The trajectories of many-particle systems cannot, in general, be expressed as continuous analytical functions of time; consequently, their evolution must be obtained through the numerical integration of the equations of motion using discrete time steps. Within this framework, MD refers to a class of computational techniques designed to describe the time evolution of systems composed of interacting particles\cite{braun2018best}.
-In practice, MD simulations generate system trajectories by iteratively updating particle positions and momenta at successive time steps. Repetition of this procedure over a large number of iterations enables an accurate representation of the system’s dynamical behavior. The general workflow of a standard MD simulation is summarized in Figure \ref{fig:MDFlow}.
+The trajectories of many-particle systems cannot, in general, be expressed as continuous analytical functions of time; consequently, their evolution must be obtained through the numerical integration of the equations of motion using discrete time steps. Within this framework, MD refers to a class of computational techniques designed to describe the time evolution of systems composed of interacting particles~\cite{braun2018best}.
+In practice, MD simulations generate system trajectories by iteratively updating particle positions and momenta at successive time steps. Repetition of this procedure over a large number of iterations enables an accurate representation of the system’s dynamical behavior. The general workflow of a standard MD simulation is summarized in Figure~\ref{fig:MDFlow}.
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.9\linewidth]{General_Sections/Figures/MD_Workflow2.png}
@@ -36,7 +36,7 @@ The simulation process begins with system construction, including the selection 
 \begin{equation}\label{NG}
     \vec{F_i} = - \vec{\nabla} U(\vec{r_{i}})
 \end{equation}
-where $\vec{F}_i$ is the force acting on the $i$-th particle of the system, and $\vec{\nabla} U(\vec{r}_i)$ is the gradient of the potential energy function $U(\vec{r}_i)$, which is defined by a set of mathematical equations and parameters collectively known as a \textit{force field}. The selection of the force field is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome\cite{dani_nanotubos}. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
+where $\vec{F}_i$ is the force acting on the $i$-th particle of the system, and $\vec{\nabla} U(\vec{r}_i)$ is the gradient of the potential energy function $U(\vec{r}_i)$, which is defined by a set of mathematical equations and parameters collectively known as a FF. The selection of the FF is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome~\cite{dani_nanotubos}. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
 \begin{equation}\label{N2L}
     \vec{F_i} = \frac{d\vec{p_i}}{dt}
 \end{equation}
@@ -51,9 +51,9 @@ In a purely continuous and theoretical framework, obtaining the trajectory of th
     \vec{r}_i(t) = \vec{r}_i(0) + \int_{0}^{t} \vec{v}_i(t') dt'
 \end{equation}
 
-However, because the force $\vec{F}_i$ acting on any single particle depends continuously on the ever-changing coordinates of all other interacting particles in the system, the integral in Equation \ref{eq:integral_v} has no general analytical solution for a system of $N \geq 3$ particles. Consequently, evaluating the temporal evolution of the system requires shifting from a continuous analytical integration to a discrete numerical approximation.
+However, because the force $\vec{F}_i$ acting on any single particle depends continuously on the ever-changing coordinates of all other interacting particles in the system, the integral in Equation~\ref{eq:integral_v} has no general analytical solution for a system of $N \geq 3$ particles. Consequently, evaluating the temporal evolution of the system requires shifting from a continuous analytical integration to a discrete numerical approximation.
 
-This computational approach advances the simulation in finite, microscopic time increments, known as the time step ($\Delta t$). To achieve this, integration algorithms rely on the Taylor series expansion of the particle coordinates \cite{braun2018best,biblia_2}. Mathematically, the Taylor series expansion of a general function $f(x)$ around a known point $a$ is expressed as:
+This computational approach advances the simulation in finite, microscopic time increments, known as the time step ($\Delta t$). To achieve this, integration algorithms rely on the Taylor series expansion of the particle coordinates~\cite{braun2018best,biblia_2}. Mathematically, the Taylor series expansion of a general function $f(x)$ around a known point $a$ is expressed as:
 
 \begin{equation}\label{eq:taylor_general}
     f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \dots
@@ -67,13 +67,13 @@ By adapting this mathematical definition to the kinematics of a particle, the fu
 
 where $\vec{v}_i$ is the velocity (first derivative), $\vec{a}_i$ is the acceleration ($\vec{F}_i/m_i$, second derivative), $\vec{j}_i$ is the jerk (third derivative), and $\mathcal{O}(\Delta t^4)$ represents the local truncation error encompassing all higher-order terms. 
 
-Similarly, to determine the position of the particle at the previous time step ($t - \Delta t$), we simply substitute $\Delta t$ with $-\Delta t$ in Equation \ref{eq:taylor_forward}. Due to the alternating signs of the polynomial powers, this substitution yields:
+Similarly, to determine the position of the particle at the previous time step ($t - \Delta t$), we simply substitute $\Delta t$ with $-\Delta t$ in Equation~\ref{eq:taylor_forward}. Due to the alternating signs of the polynomial powers, this substitution yields:
 
 \begin{equation}\label{eq:taylor_backward}
     \vec{r}_i(t - \Delta t) = \vec{r}_i(t) - \vec{v}_i(t)\Delta t + \frac{1}{2}\vec{a}_i(t)\Delta t^2 - \frac{1}{6}\vec{j}_i(t)\Delta t^3 + \mathcal{O}(\Delta t^4)
 \end{equation}
 
-By summing Equation \ref{eq:taylor_forward} and Equation \ref{eq:taylor_backward}, the odd-order derivatives (such as the velocity and the jerk) cancel out perfectly. Rearranging the result yields the classic Verlet integration algorithm \cite{Verlet1967}:
+By summing Equation~\ref{eq:taylor_forward} and Equation~\ref{eq:taylor_backward}, the odd-order derivatives (such as the velocity and the jerk) cancel out perfectly. Rearranging the result yields the classic Verlet integration algorithm~\cite{Verlet1967}:
 
 \begin{equation}\label{eq:verlet}
     \vec{r}_i(t + \Delta t) = 2\vec{r}_i(t) - \vec{r}_i(t - \Delta t) + \frac{\vec{F}_i(t)}{m_i}\Delta t^2 + \mathcal{O}(\Delta t^4)
