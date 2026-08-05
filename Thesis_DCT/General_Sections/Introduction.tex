@@ -2,44 +2,89 @@
 \chapterquote{"We often speak of health, money, and love as the pillars of life, but they are all expressions of a single, fundamental dimension: \textbf{Time}. We invest in our wealth and our well-being for one solitary reason---to buy the freedom of time to live, and the time to love."}{--- \textup{Andrés González} (\textit{La Pizarra de Andrés})}
 
 \newpage
-\section{Motivation}
 
-\subsection{A personal journey}
-From an early age, I was deeply fascinated by characters who used science and technology to understand and shape the world around them. Figures such as Tails, Bulma, and Iron Man, whose mastery of engineering and applied physics exemplifies the transformative power of knowledge, played a significant role in shaping my perspective. Although fictional, these characters conveyed a fundamental idea: that knowledge is a powerful tool for understanding and transforming reality. 
-This early exposure did not merely spark a general interest in science; it fostered a lasting curiosity for inquiry, critical thinking, and the systematic pursuit of understanding. Over time, this curiosity evolved into a genuine motivation for scientific research, ultimately leading me to pursue the study of physics and chemistry.
-\subsection{Scientific motivation}
-This dissertation is born from the conviction that the analytical tools of physics (mathematics is the language we use to try to read the world~\cite{galileo}, and physics is the translation of that language into our tangible reality~\cite{cecilia1964}) can provide an additional vantage point to study the complexity of Antimicrobial Peptides (AMPs). Rather than seeking definitive solutions, the goal of this work is to help clarify some of the underlying mechanisms of these interactions. By doing so, I hope to offer a modest contribution to the scientific community's knowledge, providing data and frameworks that might aid in the long-term fight against antimicrobial resistance. It is an invitation to see how the synergy between programming, molecular dynamics, and the emerging frontier of quantum computing can complement other disciplines in the collective pursuit of understanding one of the great biological challenges of our time~\cite{Murray2022,Ahmed2024,WHO}. Rather than replacing traditional methods, this work explores how computational frameworks can serve as a digital microscope, offering a modest but necessary vantage point to simulate and eventually master the complex interactions of life at the atomic scale. Ultimately, its contribution lies not only in charting a path forward, but in sharing our unfruitful avenues, sparing future researchers from repeating the same mistakes.
+\section{Biomedical context: cancer, aging, and infection}
 
-\section{Background: Membrane targeting to fight AMR.}
+Cancer, aging, and infectious diseases collectively represent three of the greatest biomedical challenges confronting modern medicine and global health systems~\cite{WHO2024TopCausesDeath}. Not merely as isolated epidemiological concerns, these conditions together account for a staggering proportion of global morbidity and mortality, and their burden continues to escalate at an alarming rate due to demographic shifts toward population aging, gains in life expectancy, and the mounting prevalence of chronic comorbidities~\cite{GBD2021CausesOfDeath}. 
 
-\subsection{The lipid membrane: A selective biological landscape}
+Historically, these three pathological conditions have been investigated within disciplinary silos, each receiving independent clinical and research attention according to specialized fields of medicine and biology. However, a growing body of evidence from molecular pathology, translational biomedicine, and epidemiological surveillance reveals a fundamental scientific truth: cancer, aging, and infection are not independent entities but rather deeply interconnected processes united by common molecular, cellular, and immunological mechanisms. Their convergence at the molecular level directly shapes disease susceptibility, dictates the trajectory of disease progression, determines therapeutic response profiles, and ultimately defines patient outcomes. This interconnectedness makes their integrated, systems-level study not merely advantageous but \textit{essential} for advancing our understanding of human health and for developing truly effective diagnostic and therapeutic strategies tailored to the multifaceted nature of modern disease~\cite{Hong2019}.
 
-To understand how AMPs operate, we must first examine the stage upon which these interactions unfold: the lipid membrane. Rather than viewing lipids merely through the lens of chemical solubility, it is more productive to define them as the fundamental architectural units of biological boundaries~\cite{gould2018membranes}. Among these, phospholipids are the primary constituents and the most relevant to the mechanical and structural integrity of the cell~\cite{van2008membrane}. Structurally, a phospholipid is defined by a central alcohol backbone that serves as a bridge, anchoring a polar, phosphate-rich head group to a pair of nonpolar, hydrophobic chains (Figure \ref{fig:Lipids})~\cite{van2008membrane}. This inherent amphipathic nature is what drives their spontaneous self-assembly into the bilayer structures that define all cellular interfaces~\cite{self-assembly}. The hydrophobic tails aggregate in the interior to minimize contact with water, while the hydrophilic heads orient toward the aqueous environment, forming a stable, semi-permeable barrier~\cite{self-assembly}. The specific chemical identity of the head group (e.g., choline, ethanolamine, serine) dictates the net charge of the surface, a crucial factor in determining the electrostatic interactions that govern the recruitment and insertion of molecules like AMPs~\cite{cationic-anionic-interaction}.
+Recent advances in systems biology, multi-omics technologies, and precision medicine have provided unprecedented mechanistic insight into the molecular substrates unifying these three conditions. These advances have revealed that cancer, aging, and infection share multiple fundamental biological hallmarks, including chronic inflammation, immune dysfunction, genomic instability, epigenetic remodeling, metabolic reprogramming, and alterations in cellular membrane composition~\cite{LopezOtin2023,hannah,Medzhitov2012}. Rather than representing coincidental commonalities, these shared biological mechanisms explain the reciprocal interactions among cancer, aging, and infection, thereby providing a conceptual and mechanistic foundation for identifying common biomarkers and therapeutic targets. Consequently, the integrated investigation of these processes has emerged as a pivotal focus within translational biomedicine, fostering a systems-level perspective that is fundamentally reshaping our understanding of human health, disease, and the boundaries between them~\cite{LopezOtin2023,hannah,Medzhitov2012}.
 
-\subsubsection{Beyond protein targets: The membrane as a vulnerability}
+\subsection{The Cancer-Aging-Infection Triangle framework: a systems-level model of interconnected pathology}
 
-Traditional pharmacology has historically relied on antibiotics that bind to specific protein receptors or inhibit metabolic pathways~\cite{Lohner2009}. While this high specificity can be effective, it also represents a strategic limitation, as microorganisms can rapidly bypass these effects through point mutations or adaptive metabolic shifts, leading to the emergence of resistance. Consequently, there is a critical need for antimicrobial agents that target more fundamental and less mutable molecular features~\cite{Ahmed2024}.
+To capture and integrate the complexity of these interconnected relationships, the Cancer-Aging-Infection (CAIn) Triangle model proposes a paradigm shift in how we conceptualize these conditions: cancer, aging, and infection should not be regarded as isolated pathological entities but rather as three interdependent vertices of an interconnected biological network characterized by reciprocal feedback loops and shared pathogenic mechanisms~\cite{DANI_LIPIDOS}. Within this integrative framework, each vertex does not exist in isolation; rather, each simultaneously influences and is influenced by the others, generating multidirectional interactions that determine disease initiation, accelerate progression, and ultimately shape clinical outcomes~\cite{aging_and_cancer, vance2017listening,pawelec2017immunosenescence,wang2022immunosenescence}.
+
+\subsubsection{The Cancer--Infection axis}
+
+One of the most extensively documented and mechanistically well-characterized relationships within the CAIn Triangle is observed along the \textbf{Cancer--Infection axis}. Epidemiological evidence from global cancer registries and meta-analyses establishes that infectious pathogens and the chronic inflammatory responses they provoke account for approximately 18\% of the global cancer burden, with notable geographical variation reflecting differences in pathogen prevalence and population exposures~\cite{WHO2024TopCausesDeath}. 
+
+Chronic infections caused by oncogenic pathogens such as \textit{Helicobacter pylori}, together with DNA and RNA oncogenic viruses, promote malignant transformation through multiple convergent mechanisms: sustained inflammatory signaling, chromosomal instability, genomic mutations, and the expression of viral oncoproteins capable of inactivating critical host tumor suppressor pathways. Conversely, this bidirectional relationship is equally evident in the opposite direction: cancer patients, particularly those receiving chemotherapy or other immunosuppressive treatments, exhibit dramatically increased susceptibility to opportunistic bacterial, viral, and fungal infections. This increased susceptibility results from multiple mechanisms including impaired immune surveillance, disruption of epithelial barrier integrity, and reduced antimicrobial peptide production. Furthermore, malignancy-associated epigenetic modifications can reactivate otherwise silent endogenous retroviral elements—such as human endogenous retrovirus K (HERV-K)—thereby amplifying both tumor progression and systemic inflammatory burden.
+
+\subsubsection{The Aging--Infection axis}
+
+The relationship between aging and infectious diseases is fundamentally orchestrated by immunosenescence, the progressive, age-related decline in immune function that characterizes advanced age. At the cellular level, age-related thymic involution restricts the generation of naïve T lymphocytes capable of responding to novel pathogens, while simultaneously promoting the accumulation of phenotypically and functionally exhausted memory T cells. This immunological remodeling, compounded by physiological deterioration across multiple organ systems and age-associated hormonal dysregulation, markedly elevates the incidence, severity, and atypical clinical presentation of infectious diseases in older populations. 
+
+Importantly, this axis also operates bidirectionally: persistent or latent infections further accelerate biological aging processes by sustaining chronic inflammatory states and promoting cumulative, irreversible tissue damage—particularly within organs possessing limited regenerative capacity such as the central nervous system and myocardium. This vicious cycle of infection-driven aging represents a critical mechanism by which infectious burden in early and mid-life may influence healthspan and lifespan in later years.
+
+\subsubsection{The Cancer--Aging axis}
+
+The Cancer--Aging axis consolidates the central thesis of the CAIn model by revealing extensive overlap between the molecular hallmarks defining both aging and tumorigenesis. Both processes are fundamentally characterized by common pathological features: progressive genomic instability, telomere shortening, widespread epigenetic alterations, impaired proteostasis and protein quality control, mitochondrial dysfunction, and the accumulation of senescent cells. 
+
+Particularly important is the complex, temporally-dependent role of cellular senescence within this axis. While senescence serves initially as a potent tumor-suppressive mechanism—limiting proliferation of potentially malignant cells—its long-term persistence generates pathological consequences. Chronic accumulation of senescent cells promotes the development of the Senescence-Associated Secretory Phenotype (SASP), characterized by constitutive secretion of pro-inflammatory cytokines, chemokines, growth factors, and tissue-remodeling enzymes. This secretory milieu establishes a microenvironment that paradoxically becomes permissive for tumor initiation and progression, simultaneously promoting local invasion and systemic metastatic spread. In concert with these cellular changes, age-related alterations in adaptive immunity progressively diminish anti-tumor immune surveillance, thereby facilitating cancer development and progression in older individuals.
+
+\subsection{Common molecular mechanisms: the pathogenic substrate underlying the CAIn Triangle}
+
+Although each axis of the CAIn Triangle displays distinct biological mechanisms and characteristic clinical phenotypes, their reciprocal interactions are fundamentally sustained by common molecular pathways and shared pathogenic mechanisms. Among these shared mechanisms, two have emerged with particular prominence: chronic inflammation and alterations in lipid metabolism and membrane composition. 
+
+Chronic inflammatory responses contribute centrally to immune dysfunction, cumulative tissue damage, cellular dysfunction, and disease progression across all three vertices of the triangle. Simultaneously, dysregulation of lipid metabolism and pathological remodeling of cellular membrane composition influence cellular signaling cascades, membrane dynamics, receptor function, and host--pathogen interactions in ways that impact cancer development, aging acceleration, and infection susceptibility alike. 
+
+Together, these interconnected processes—chronic inflammation and lipid dysregulation—constitute fundamental pathological features shared across cancer, aging, and infection, and they provide the mechanistic scaffolding that unifies the CAIn framework. Recognition of these shared pathological substrates not only strengthens the conceptual foundation of the CAIn model but also opens new avenues for biomarker discovery, risk stratification, and the development of therapeutic interventions capable of simultaneously targeting multiple vertices of the triangle.
+
+\subsection{Chronic inflammation and lipid dysregulation: molecular drivers of the CAIn Triangle}
+
+The biological interplay between cancer, aging, and infection is fundamentally driven by several tightly interconnected molecular mechanisms, among which chronic inflammation and lipid dysregulation emerge as particularly prominent and actionable targets. On one hand, chronic inflammatory responses contribute substantially to immune dysfunction, progressive tissue damage, and disease progression across all three conditions. On the other hand, alterations in lipid metabolism and membrane composition directly influence cellular signaling, membrane biophysics, and the molecular interactions governing host--pathogen dynamics. Collectively, these processes constitute the mechanistic foundation linking cancer, aging, and infection within the unified CAIn framework, and they represent high-priority targets for future investigation and therapeutic intervention.
+
+
+
+
+\section{Biological membranes as therapeutic targets: linking lipid dysregulation to the Cancer-Aging-Infection framework}
+
+As established within our analysis of the CAIn model, chronic inflammation and lipid dysregulation emerge as two fundamental molecular processes that mechanistically link cancer, aging, and infection. While inflammatory signaling pathways have received substantial research attention, the targetability of lipid membranes—whose composition is tightly constrained by biophysical necessity—has remained an underexploited therapeutic avenue. This section examines the structural and functional principles of biological membranes, establishing the mechanistic foundation for understanding how perturbations in lipid composition contribute to pathogenesis across all three vertices of the CAIn Triangle and how membrane-targeting strategies offer promise as broad-spectrum therapeutic interventions.
+
+\subsection{Lipid bilayer organization, self-assembly and asymmetry}
+
+To understand how biological membranes participate in cellular physiology and disease, it is first necessary to examine the structural principles governing their organization. Rather than being viewed simply as hydrophobic molecules defined by their solubility properties, lipids constitute the fundamental structural and functional building blocks of biological membranes~\cite{gould2018membranes}. Their molecular architecture determines not only membrane integrity but also many of the physicochemical properties that regulate cellular signalling, molecular recognition, membrane trafficking, and protein function.
+
+Among the diverse lipid species present in biological membranes, phospholipids are the predominant structural components and play a central role in maintaining membrane architecture and mechanical stability~\cite{van2008membrane}. Structurally, a phospholipid consists of a glycerol or sphingoid backbone that covalently links a polar phosphate-containing head group to two hydrophobic acyl chains (Figure~\ref{fig:Lipids})~\cite{van2008membrane}. This amphipathic architecture, combining hydrophilic and hydrophobic regions within the same molecule, drives the spontaneous self-assembly of phospholipids into lipid bilayers, which form the structural framework of all biological membranes~\cite{self-assembly}. Thermodynamically, this organization minimizes the exposure of hydrophobic acyl chains to the aqueous environment while allowing the polar head groups to remain hydrated, resulting in a stable and selectively permeable barrier~\cite{self-assembly}.
+
+Beyond providing structural support, the chemical composition of membrane lipids largely determines membrane physicochemical properties. The identity of the phospholipid head group, including choline, ethanolamine, serine, phosphatidic acid, and inositol phosphates, defines the membrane surface charge and contributes to membrane curvature, hydration, and intermolecular interactions. Likewise, the length and degree of saturation of fatty acyl chains regulate membrane fluidity, thickness, and packing density. Together, these structural features create a dynamic physicochemical environment that modulates the interaction of membranes with proteins, peptides, and other biomolecules~\cite{cationic-anionic-interaction}.
+
+Biological membranes are not homogeneous lipid sheets but highly organized and dynamic structures. Their lipid composition is heterogeneous both laterally and transversally, giving rise to specialized membrane microdomains and to a pronounced asymmetry between the inner and outer leaflets of the bilayer. This asymmetrical distribution is actively maintained by ATP-dependent lipid transporters, including flippases, floppases, and scramblases, which preserve the characteristic localization of individual phospholipid species under physiological conditions~\cite{van2008membrane}. Membrane asymmetry is essential for numerous cellular processes, including membrane trafficking, signal transduction, vesicle formation, cell polarization, and the regulation of protein localization and activity.
+
+Importantly, membrane organization is not static but continuously remodelled in response to cellular metabolism, environmental stimuli, and physiological demands. Dynamic changes in lipid composition alter membrane fluidity, curvature, permeability, and electrostatic properties, thereby influencing the behaviour of membrane-associated proteins and the overall functional state of the cell. Consequently, the precise regulation of lipid composition and bilayer asymmetry is essential for maintaining membrane homeostasis.
+
+The structural and physicochemical principles described above provide the basis for understanding how membrane composition differs among cell types and physiological states. In particular, healthy mammalian cells maintain a tightly regulated membrane organization, whereas pathological conditions frequently involve profound alterations in lipid composition, membrane asymmetry, and biophysical properties. These differences constitute the foundation for the selective membrane interactions discussed in the following sections.
+
+
+
+
+
+
+
+\subsection{Membrane organization in healthy mammalian cells}
 
 The lipid composition of cellular membranes represents a promising target in this context, as it plays a central role in the physiology and pathology of diverse cell types, ranging from bacteria to mammalian cells, including cancer cells~\cite{POPC_MEMBRANE, BACTERIA_MEMBRANE, CANCER_MEMBRANE}. The differences in lipidic composition open the possibility of exploiting the lipidic composition as a molecular target~\cite{Sani2015}. In healthy mammalian cells, the cytoplasmic membrane exhibits asymmetry~\cite{Ikeda2006}: the outer leaflet is enriched in phosphatidylcholine (PC), cholesterol, and sphingomyelin, while the inner leaflet primarily contains phosphatidylethanolamine (PE) and phosphatidylserine (PS)~\cite{bilayer_asimetry_1}. This asymmetry generates a neutral external surface and a negatively charged internal surface, facilitating electrostatic interactions with cytoplasmic proteins and contributing to membrane stability and fluidity, a property further modulated by cholesterol~\cite{bilayer_asimetry_2,bilayer_asimetry_3}.
+
+\subsection{Microbial and pathological membrane remodeling}
 
 Bacterial membranes, in contrast, display markedly different lipid compositions that vary across species. For example, in Gram-negative bacteria such as \textit{Escherichia coli}, the cytoplasmic membrane is predominantly composed of PE ($\approx$75\%), PG ($\approx$20\%), and a smaller fraction of cardiolipin~\cite{bacterial_bilayer_1,bacterial_bilayer_2,Geiger2013,Vance2015}, contrasting sharply with mammalian membranes. These differences define the bilayer structure and influence essential processes such as molecular transport and signaling~\cite{bacterial_bilayer_3}. Furthermore, the relative proportions of bacterial membrane lipids can change during the cell cycle, enabling adaptation to environmental stressors~\cite{bacteria_bilayer_4}.
 
 Cancer cells also exhibit distinctive alterations in membrane lipid composition that facilitate tumor progression and immune evasion. A key feature is the abnormal external exposure of PS, which in healthy cells signals macrophages to engulf apoptotic cells~\cite{cancer_bilayer_1}. In cancer cells, however, this external PS acts as a protective mechanism by inhibiting immune responses~\cite{cancer_bilayer_2,cancer_bilayer_3}. Reduced cholesterol levels in cancer membranes further increase fluidity, enhancing cellular motility and promoting metastasis~\cite{cancer_bilayer_4}.
 
-
+\subsection{Physicochemical basis of membrane selectivity}
 
 These observations highlight that the lipid composition of membranes is not only a fundamental determinant of cell function but also a promising target for therapeutic intervention. By focusing on membrane lipids, it may be possible to develop selective antimicrobial or anticancer strategies that act on structural features less susceptible to rapid resistance, offering an advantage over conventional drugs that target specific proteins or metabolic pathways~\cite{membrane_therapy}. This shift away from volatile protein receptors is precisely where contemporary lipidomics provides its greatest value, unveiling the cell membrane not as a static perimeter, but as a complex, tightly regulated system~\cite{lipidomics_1,lipidomics_2}. While these cellular boundaries diverge from healthy eukaryotic tissues across multiple morphological and organizational levels~\cite{bacterial_bilayer_1,bacterial_bilayer_2, cancer_bilayer_1,cancer_bilayer_2,cancer_bilayer_3,cancer_bilayer_4}, it is this precise variation in lipid composition that offers a uniquely tractable basis for engineering highly selective antimicrobial and anticancer strategies~\cite{lipidomics_4}.
-
-
-
-
-
-
-
-
-
-
-
 
 \FloatBarrier
 \begin{figure}[h]
@@ -50,14 +95,19 @@ These observations highlight that the lipid composition of membranes is not only
 \end{figure}
 \FloatBarrier
 
-In the search for new antimicrobial strategies, nature provides an important source of inspiration. As part of their innate immune systems, many animals and plants produce antimicrobial peptides (AMPs) across a variety of tissues and cell types~\cite{Zasloff2002}. These peptides have attracted particular interest due to their ability to exploit fundamental physicochemical differences between bacterial and eukaryotic membranes, and are often hypothesized to interact preferentially with membrane compositions enriched in negatively charged lipids~\cite{Midura-Nowaczek2014}.
 
 
 
+\section{Antimicrobial peptides as membrane-active molecules}
+
+
+The recognition that membrane composition and organization constitute promising therapeutic targets has stimulated growing interest in membrane-active compounds capable of selectively interacting with pathological cells. Among these, AMPs have emerged as one of the most extensively investigated classes of membrane-targeting molecules because they exploit physicochemical differences between healthy and diseased membranes rather than highly specific molecular receptors.
+
+As part of the innate immune system of virtually all living organisms, AMPs are produced by a wide variety of animals, plants, fungi, and microorganisms as a first line of defense against invading pathogens~\cite{Zasloff2002}. Initially identified for their broad-spectrum antimicrobial activity, these peptides are now recognized as multifunctional molecules that also display antiviral, antifungal, immunomodulatory, and anticancer properties~\cite{Midura-Nowaczek2014}. Their biological activity largely arises from their ability to exploit fundamental physicochemical differences between healthy and pathological membranes, particularly variations in lipid composition, membrane asymmetry, and surface electrostatics, enabling preferential interactions with membranes enriched in negatively charged phospholipids~\cite{Midura-Nowaczek2014}.
 
 
 
-\section{The global crisis of antimicrobial resistance}
+\subsection{Biological origin and functional diversity}
 
 The exponential rise of antimicrobial resistance (AMR) poses one of the most critical public health and economic threats of the 21st century~\cite{salam2023antimicrobial}. With traditional antibiotics losing their efficacy due to the rapid mutation and adaptation of pathogens, the discovery and optimization of novel therapeutic agents is urgently required~\cite{macnair2024alternative}. Indeed, it is estimated that by 2050, more than 10 million deaths annually will be associated with AMR if current trends continue~\cite{Tang2023}.
 
@@ -65,10 +115,7 @@ To address this impending clinical crisis, research has pivoted toward ancient h
 
 The sheer scale of this molecular diversity is captured by the Antimicrobial Peptide Database (APD6)\footnote{\url{https://aps.unmc.edu/}}. As of June 2026, it documents 6,604 total sequences, of which 196 are registered as strictly anionic~\cite{Wang2016}. This extensive biological variety makes a unified classification challenging, requiring a detailed breakdown of their underlying physicochemical properties to understand their targeted efficacy~\cite{Huan2020}.
 
-
-% \FloatBarrier
-
-\section{Physicochemical properties and structural determinants}
+\subsection{Sequence, physicochemical properties and structural classes}
 
 The biological functionality of an AMP is intrinsically linked to its primary amino acid sequence and resulting three-dimensional topology. Structurally, these peptides represent a diverse class of small oligomers, typically comprising 10 to 100 amino acid residues~\cite{Zasloff2002, numero_aa_amps,doi:10.1128/cmr.00056-05}. Their therapeutic activity is primarily governed by two biophysical pillars~\cite{Mookherjee2020}:
 
@@ -77,11 +124,7 @@ The biological functionality of an AMP is intrinsically linked to its primary am
     \item \textbf{Amphipathicity:} AMPs exhibit a highly regulated balance between hydrophilic and hydrophobic regions, usually presenting a hydrophobicity of around 30\% to 60\%~\cite{hidrofobicidad_amps, Yeaman2003}. This dual nature is essential for their insertion and partitioning into the non-polar lipid core of biological membranes.
 \end{itemize}
 
-
-
-
-\subsection{Structural classification}
-In many cases, AMPs remain largely unstructured in aqueous solution but undergo a rapid conformational transition upon interacting with lipid membranes, a process that maximizes their amphipathic character~\cite{Li2021}. Based on the secondary structure they acquire at the target interface, AMPs are generally classified into four archetypes (Figure~\ref{fig:AMPClass})~\cite{fermentation10110540,doi:10.1128/cmr.00056-05}:
+Based on the secondary structure they acquire at the target interface, AMPs are generally classified into four archetypes (Figure~\ref{fig:AMPClass})~\cite{fermentation10110540,doi:10.1128/cmr.00056-05}:
 
 \begin{enumerate}
     \item \textbf{$\alpha$-helical peptides:} The most abundant in nature (e.g., magainins, pleurocidin, LL-37). They fold into an $\alpha$-helix upon adsorption into the lipid bilayer.
@@ -89,7 +132,7 @@ In many cases, AMPs remain largely unstructured in aqueous solution but undergo 
     \item \textbf{Loop/Cyclic peptides:} Structures formed via head-to-tail cyclization or single disulfide bonds (e.g., bactenecins).
     \item \textbf{Extended peptides:} Sequences that lack traditional secondary folding and are often rich in specific residues like Proline or Tryptophan (e.g., indolicidin).
 \end{enumerate}
-% \FloatBarrier
+
 \begin{figure}[h]
     \centering
     \begin{subfigure}[b]{0.32\linewidth}
@@ -116,10 +159,12 @@ In many cases, AMPs remain largely unstructured in aqueous solution but undergo 
     \label{fig:AMPClass}
 \end{figure}
 
+\subsection{Environment-dependent folding and membrane recognition}
 
+In many cases, AMPs remain largely unstructured in aqueous solution but undergo a rapid conformational transition upon interacting with lipid membranes, a process that maximizes their amphipathic character~\cite{Li2021}. 
 
+\subsection{Membrane disruption and non-lytic mechanisms}
 
-\section{Mechanisms of membrane disruption}
 While some AMPs display their antimicrobial activity by means of intracellular, non-lytic mechanisms ~\cite{Scocchi2016}, the most common modes of action involve membranolytic effects driven by their amphipathic nature (Figure~\ref{fig:AMPMOA}). The therapeutic action of membrane-targeting AMPs is achieved through a two-stage physical disruption: initial electrostatic accumulation at the membrane surface, followed by the hydrophobic partitioning of the peptide into the non-polar core, which disturbs the lipid bilayer structure and ultimately leads to cell death~\cite{Mookherjee2020, BuiThiPhuong2024}. 
 
 Once a critical concentration of peptides is adsorbed, the membrane is compromised through several proposed models:
@@ -128,11 +173,6 @@ Once a critical concentration of peptides is adsorbed, the membrane is compromis
     \item \textbf{Pore formation models (barrel-stave and toroidal-pore):} In the barrel-stave model, peptides insert perpendicularly into the membrane, aggregating such that their hydrophobic faces interact with lipid tails while their hydrophilic faces form a central aqueous channel. In the toroidal-pore model, peptides induce local curvature, causing the lipid headgroups to tilt and line the pore alongside the peptides.
     \item \textbf{Non-pore models (carpet model):} Peptides accumulate parallel to the membrane surface. Upon reaching a threshold concentration, they act like detergents, leading to the micellization and fragmentation of the bilayer without forming discrete, stable pores.
 \end{itemize}
-
-
-
-
-
 
 \begin{figure}[h]
     \centering
@@ -143,31 +183,31 @@ Once a critical concentration of peptides is adsorbed, the membrane is compromis
 \FloatBarrier
 
 
-
-\section{Current bottlenecks in AMP development}
+\section{Bottlenecks in AMP research and therapeutic development}
 
 Despite this potent and physically driven mechanism of action, translating AMPs into clinical therapies remains a significant challenge. As of its latest update in December 2024 [Retrieved June 2026], the Data Repository of Antimicrobial Peptides (DRAMP)~\cite{Ma2025} lists 35,918 entries under the query \textit{antimicrobial}. Nevertheless, only a few AMPs have reached clinical trials, and barely over 100 peptide-based drugs have been approved worldwide~\cite{Rossino2023, Pereira2024, amps_aprobados}. 
 
+\subsection{Pharmacological and translational challenges}
+
 A major limitation is their metabolic instability, as they are rapidly degraded by proteolytic enzymes~\cite{Dijksteel2021,degradacion_1,degradacion_2}. They also tend to exhibit toxicity toward host mammalian cells, which severely restricts their systemic therapeutic application~\cite{Lyu2023}. In addition, they frequently possess short half-lives and are quickly cleared from the bloodstream, resulting in poor bioavailability. To overcome these limitations, various strategies have been investigated, such as incorporating non-natural amino acids and peptide cyclization to improve stability and minimize degradation~\cite{Carmona2013, Lucana2021}.
 
-\subsection{Limitations of experimental techniques}
+\subsection{Experimental limitations in peptide-membrane characterization}
 
 The study of AMPs and their interactions with lipid bilayers is inherently complex. Because real biological membranes are highly heterogeneous, experimental characterizations rely heavily on simplified mimetic models, such as surfactant micelles, binary lipid mixtures, or helix-stabilizing co-solvents like 2,2,2-Trifluoroethanol(TFE)~\cite{paper_paula, experiments_1,experiments_2,experiments_3}. While these controlled environments facilitate reproducible biophysical measurements, they introduce a significant structural bias. The secondary structure of membrane-targeting AMPs, especially those with transient $\alpha$-helical content, is exquisitely sensitive to its surrounding medium \cite{experiment_4,experiment_5}. Furthermore, methodologies that require physical modifications, such as fluorescence assays utilizing bulky extrinsic tags~\cite{fluo_1,fluo_3,fluo_4}, risk altering the intrinsic physicochemical properties of the peptide~\cite{fluo_2}. This extreme sensitivity, coupled with the vast diversity of experimental setups across the literature, makes it exceedingly difficult to extrapolate \textit{in vitro} findings directly to physiological conditions.
 
 Beyond the challenges of environmental replication, biophysical techniques face inherent limitations regarding spatial and temporal resolution. Structural and thermodynamic methods, such as Circular Dichroism (CD), Nuclear Magnetic Resonance (NMR), and calorimetry, are indispensable for estimating global secondary structure, 3D conformations, and binding affinities~\cite{general_1,cd_1,cd_2,nmr_1,nmr_2,afm_4,afm_5}. However, techniques like CD measure the differential absorption of circularly polarized light~\cite{cd_4} to provide macroscopic, ensemble-averaged data, rather than resolving individual molecular events~\cite{cd_3}. Conversely, morphological tools like Atomic Force Microscopy (AFM) can successfully visualize topological defects and pore formation mechanisms ~\cite{afm_1,afm_2}. Yet, AFM is physically constrained by the requirement of unnaturally flat supported bilayers, failing to replicate the dynamic curvature and tension of free-standing vesicles in solution~\cite{afm_6}.
 
+\subsection{Challenges for rational and environment-specific design}
+
 Ultimately, while combining these diverse spectroscopic, microscopic, and thermodynamic techniques is essential to build a macroscopic picture of AMP activity, a critical gap remains. None of these conventional experimental methods can independently provide continuous, time-resolved, atomic-level insights into the dynamic processes of peptide folding, insertion, and membrane disruption~\cite{afm_1,afm_2,cd_3}. This fundamental limitation highlights the necessity of advanced computational simulations to bridge the gap between static experimental observations and the precise molecular mechanisms governing peptide-lipid interactions.
 
-
-
-\section{Computational methods in chemistry}
+\section{Computational approaches to peptide-membrane systems}
 
 To overcome the observational barriers inherent to \textit{in vitro} assays, \textit{in silico} approaches have emerged as an indispensable tool in biophysical research. As the performance of these methods is tightly linked to available computational power, continuous advances in supercomputing have pushed the boundaries of molecular simulations, allowing researchers to study complex biological systems with unprecedented detail~\cite{Melo2023}. Computational chemistry offers a rigorous, physics-based framework to interrogate the structural, thermodynamic, and kinetic properties of biomolecules~\cite{Karplus2002,Hollingsworth2018}. 
 
 Within the context of AMPs, modeling their behavior requires traversing multiple scales of complexity. On one hand, researchers must explicitly capture the continuous, time-resolved mechanics of peptide-membrane interactions, a task ideally suited for classical Molecular Dynamics (MD)~\cite{avances_3}. On the other, addressing the astronomical combinatorics of peptide folding and sequence design requires breaking through the computational ceilings of classical architectures~\cite{robert2021resource}, paving the way for emerging paradigms such as Artificial Intelligence (AI) and Quantum Computing (QC)~\cite{avances_1,avances_2}. In this thesis, we navigate this multiscale computational landscape, integrating advanced classical simulations with quantum algorithms to bridge molecular-level mechanisms and predictive drug design.
 
-\subsection{Molecular dynamics}
-
+\subsection{Molecular dynamics as a molecular-resolution framework}
 
 Unlike conventional experimental techniques that yield macroscopic or time-averaged data, the simulation of systems involving peptides and lipid bilayers through MD provides continuous, atomistic trajectories of all particles in the system ~\cite{md_microscopio,Sousa2010}. By solving the classical equations of motion over time, MD effectively acts as a computational microscope, allowing the study of peptide adsorption, interfacial folding, and membrane disruption at a level of spatial and temporal detail far beyond what can be achieved experimentally ~\cite{TIELEMAN1997235}.
 
@@ -175,28 +215,20 @@ The first MD simulation dates back to 1957, when Wainwright and Alder simulated 
 
 Building on this historical legacy, the field is currently undergoing a significant paradigm shift driven by the integration of Artificial Intelligence~\cite{cecilia_1}. While traditional empirical force fields, particularly at the coarse-grained (CG) level, suffer from reduced resolution and fixed functional forms that limit their accuracy, modern Machine Learning (ML) architectures offer a powerful alternative~\cite{cecilia_1}. By training deep neural networks on massive datasets of high-resolution all-atom simulations, state-of-the-art ML potentials can construct bottom-up, transferable CG models that successfully bridge the gap between atomistic accuracy and coarse-grained computational efficiency~\cite{cecilia_2}. This breakthrough enables the predictive exploration of complex protein landscapes and rare conformational transitions at a fraction of the traditional computational cost, marking the next frontier in biophysical simulations~\cite{cecilia_2}.
 
-
-\subsubsection{Classical mechanics and force fields}
 Classical MD computes the motion of particles by integrating Newton’s equations of motion~\cite{leyesnewton}. The accuracy of these simulations depends fundamentally on the force field (FF), which provides the parameterized empirical equations for bonded and non-bonded interactions. The choice of FF is critical; if the selected model fails to accurately capture the relevant non-covalent interactions (e.g., specific peptide-lipid affinities), the resulting trajectories will diverge from reality and fail to represent the physical system~\cite{braun2018best,force_field_protocol}.
 
-
-
-
-\subsubsection{Solvent and membrane representation}
+\subsection{Multiscale molecular representations}
 
 To mitigate the immense computational cost of calculating forces for thousands of water molecules, early methodologies, tracing back to the pioneering dipole models of Warshel and Levitt~\cite{WARSHEL1976227}, relied heavily on implicit solvent representations. These approaches treat the solvent as a continuous polarizable medium with a macroscopic dielectric constant, effectively reducing the system's degrees of freedom~\cite{implicit_solvent_model}. However, continuum models inherently fail to capture the highly directional, discrete hydrogen-bonding networks established between the peptide backbone and individual water molecules. In the context of AMPs, this limitation is critical: the dynamic competition between peptide-water and intramolecular peptide-peptide hydrogen bonds is the fundamental driving force governing their characteristic environment-conditioned folding (e.g., the transition from a disordered coil in solution to an amphipathic $\alpha$-helix at the lipid interface).
 
 Consequently, modern atomistic MD relies almost exclusively on explicit solvation and fully detailed, multicomponent lipid bilayers to study peptide-membrane interactions. While this explicit representation accurately captures the complex interfacial mechanics, lipid hydration shells, and thermodynamic forces governing peptide adsorption~\cite{Kabelka2021, Marrink2019}, it comes at a severe price. The explicit inclusion of water and lipid molecules typically accounts for over 90\% of the atoms in the simulation box, drastically amplifying the computational burden and severely restricting the accessible timescales for observing spontaneous folding and membrane disruption events~\cite{Frenkel2023, implicit_solvent_model,martini2}.
 
-
 To bridge this critical timescale gap and capture the slow, complex phenomena relevant to AMPs, such as membrane partitioning, spontaneous pore formation, and peptide aggregation~\cite{GF2016,Calvelo2019,Xandre2021,Conde2022}, researchers typically rely on two complementary computational strategies: reducing the system's degrees of freedom or algorithmically accelerating the exploration of the energy landscape.
 
-\subsubsection{Dimensionality reduction: Coarse-Grained simulations}
 To access longer timescales and larger spatial dimensions, CG approaches, such as the widely used Martini force field, map groups of approximately four heavy atoms into a single interaction site (bead), significantly reducing the number of particles in the system and computational cost~\cite{martini2}. This dimensional reduction allows for simulations that are orders of magnitude faster than atomistic MD ~\cite{Claro2020,Claro2021}. However, while CG models are exceptionally well-suited to capture collective phenomena such as global membrane remodeling and lipid sorting, their reduced resolution inherently compromises the accurate description of specific atomic-level events. Crucially for AMPs, the loss of explicit hydrogen atoms means that highly dynamic, environment-conditioned folding transitions (e.g., the coil-to-helix transition upon membrane contact) cannot be spontaneously described without additional artificial constraints, such as elastic networks. This limitation leaves a crucial gap between atomistic accuracy and CG scalability~\cite{limitation_martini_1,cecilia_2,SIRAH}.
 
+\subsection{Enhanced sampling and thermodynamic characterization}
 
-
-\subsubsection{Algorithmic acceleration: enhanced sampling methods}
 While CG models significantly extend accessible timescales, deep free-energy basins and high kinetic barriers can still trap the system in local minima. Consequently, the spontaneous observation of rare events (such as deep membrane insertion, specific lipid recruitment, or pore formation) remains highly challenging. To systematically overcome these barriers, regardless of the chosen resolution (atomistic or coarse-grained), MD is frequently coupled with Enhanced Sampling techniques~\cite{limitation_martini_1,limitation_martini_2,steered_md_1,steered_md_2,Richardson2024}. These methods manipulate the thermodynamic ensembles or the underlying potential energy surface to accelerate the exploration of the conformational space and reconstruct the free-energy landscapes. In the context of AMP-membrane interactions, where such combinations have successfully unveiled the specificity of peptide orientations~\cite{samson_umbrella_sampling}, the most prominent techniques include:
 
 \begin{itemize}
@@ -206,19 +238,17 @@ While CG models significantly extend accessible timescales, deep free-energy bas
     \item \textbf{Steered MD (SMD):} A non-equilibrium acceleration approach where time-dependent external forces are applied to pull the peptide along a specific vector or reaction coordinate~\cite{steered_md}. In AMP studies, SMD is extensively employed as a powerful tool to force membrane permeation and generate the continuous pathway of initial conformations required to seed subsequent equilibrium methods like Umbrella Sampling~\cite{steered_md_2,steered_md_1}.
 \end{itemize}
 
+\subsection{Computational peptide design}
+
+Recent advances in machine learning approaches, most notably AlphaFold, have achieved remarkable success in predicting static protein structures from amino acid sequences~\cite{avances_2}. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches~\cite{avances_2,ROSETTA,PROTEINMPNN}.
 
 
+\section{Quantum computing as an emerging paradigm for molecular optimization}\label{QC_intro}
+
+The discovery and optimization of antimicrobial peptides involve computational problems of extraordinary complexity, arising from the enormous sequence diversity, the high-dimensional conformational landscape, and the intricate physicochemical interactions governing peptide--membrane recognition~\cite{robert2021resource}. Although advances in classical computing and artificial intelligence have substantially accelerated peptide design, the combinatorial nature of these problems continues to impose significant computational limitations~\cite{SUN2026102685}. In this context, quantum computing has emerged as a promising computational paradigm capable of exploiting quantum-mechanical principles to tackle optimization and simulation problems that are difficult to address using conventional approaches. While current quantum hardware remains limited, ongoing developments suggest that quantum algorithms may become valuable complementary tools for molecular modelling, drug discovery, and biomolecular optimization~\cite{q_adv}.
 
 
-
-
-
-
-
-
-
-
-\subsection{Quantum computing}\label{QC_intro}
+\subsection{Computational complexity of conformational and sequence spaces}
 
 A fundamental challenge in the study of antimicrobial peptides arises from the enormous size of both sequence and conformational spaces~\cite{robert2021resource}. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides~\cite{robert2021resource}. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes~\cite{Zasloff2002}.
 
@@ -226,28 +256,41 @@ This complexity is closely related to the Levinthal paradox, which highlights th
 
 From a computational perspective, the protein folding problem has been shown to be NP-hard under several simplified models, implying that no efficient classical algorithm is known to solve it in the general case~\cite{robert2021resource}. This intrinsic computational complexity further limits the applicability of classical methods when attempting to explore both sequence and conformational spaces in a systematic manner.
 
-Recent advances in machine learning approaches, most notably AlphaFold, have achieved remarkable success in predicting static protein structures from amino acid sequences~\cite{avances_2}. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches~\cite{avances_2,ROSETTA,PROTEINMPNN}.
-
 Classical approaches, such as MD simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally prohibitive~\cite{avances_3,limitaciones_md}.
 
 These limitations motivate the exploration of alternative computational paradigms capable of addressing the exponential and combinatorial complexity of biomolecular systems. In this context, quantum computing offers a fundamentally different framework, in which the principles of superposition and entanglement enable the representation and manipulation of high-dimensional quantum states more naturally. Although current quantum hardware remains limited, these approaches provide a promising avenue for tackling the intrinsic complexity of peptide folding and sequence exploration problems~\cite{quantum_biology_1,quantum_biology_2}.
 
-
+\subsection{Quantum information and Hamiltonian formulations}
 
 The emergence of QC represents a paradigm shift in our ability to process information, rooted in the fundamental principles of quantum mechanics. The field's conceptual origin is often traced back to Richard Feynman's 1982 observation that simulating nature (which is inherently quantum mechanical) requires a machine that operates on the same principles~\cite{feynman1982simulating}. As detailed in the seminal work of Nielsen and Chuang~\cite{nielsen2010quantum}, quantum computation transcends the limits of the classical Turing machine by utilizing qubits, which can exist in superpositions and entangled states. This allows for the exploration of a Hilbert space that grows exponentially with the number of qubits, offering a route to solve computational problems that are practically intractable for even the most powerful classical supercomputers.
+
+\subsection{Variational quantum algorithms}
 
 The theoretical promise of quantum advantage was first demonstrated through algorithms such as Shor's for factoring integers and Grover's for database searching. However, the current state of technology, known as the Noisy Intermediate-Scale Quantum (NISQ) era~\cite{preskill2018quantum}, is characterized by devices with limited qubit counts and high error rates. Despite these limitations, the development of hybrid quantum-classical algorithms has opened new avenues for practical applications. These algorithms, such as the Variational Quantum Eigensolver (VQE)~\cite{peruzzo2014variational} and the Quantum Approximate Optimization Algorithm (QAOA)~\cite{QAOA}, distribute the computational load between a quantum processor and a classical optimizer, making them remarkably robust against the noise inherent to current hardware.
 
 Quantum computing has the potential to revolutionize chemistry and biophysics by enabling more accurate simulations of molecular systems. While classical methods face significant challenges in describing the electronic correlation energy of large molecules, quantum computers can efficiently represent the underlying quantum states. Algorithms such as the VQE have already demonstrated accurate calculations of the potential energy surfaces of small molecules, highlighting the promise of quantum computing for future quantum chemistry applications~\cite{mcclean2016theory}.
+
+\subsection{Potential applications in peptide modeling and design}
+
 Beyond energy estimation, the application of quantum optimization to protein folding and sequence design represents one of the most exciting frontiers in the field. By mapping conformational landscapes and amino acid interactions onto a qubit space, quantum algorithms can navigate the vast discrete search spaces of molecular design more efficiently than classical heuristic searches~\cite{robert2021resource}.
 
 The integration of quantum computing into the existing biophysical toolbox offers a complementary approach to traditional MD simulations. While MD provides the time-resolved trajectories and thermodynamic properties of large-scale systems, quantum kernels can be used to resolve the specific energetic contributions or optimization subproblems that drive molecular recognition and self-assembly. For peptide research, particularly in the design of antimicrobial peptides, this synergy allows for a multi-scale perspective where quantum algorithms guide the optimization of sequences that are subsequently validated through classical atomistic simulations. This PhD dissertation explores this intersection, leveraging the unique capabilities of quantum optimization to address the challenges of molecular design in complex environments such as lipid membranes.
 
+\subsection{Current limitations of quantum computing}
 
+Despite the remarkable advances achieved during the last decade, quantum computing remains in an early stage of technological development~\cite{paper_dani}. Current quantum processors have demonstrated the feasibility of executing proof-of-concept algorithms and small-scale applications; however, they are still far from delivering the large-scale, fault-tolerant performance required for widespread practical use. The main limitation is not simply the number of available qubits, but the ability to operate a sufficient number of logical qubits with high fidelity, low error rates, efficient connectivity, and acceptable computational overhead~\cite{Palsberg2026,Erol2025}.
 
+One of the greatest challenges is preserving quantum coherence throughout computation. Quantum states are intrinsically fragile and continuously interact with their surrounding environment, leading to decoherence through energy relaxation and dephasing processes. In addition, imperfections in quantum control, gate operations, state preparation, readout, leakage into unwanted states, and crosstalk between neighbouring qubits introduce errors that accumulate as circuit depth and system size increase~\cite{deLeon2021}. Consequently, increasing the number of physical qubits does not necessarily translate into greater computational capability, since the probability of obtaining reliable results decreases as errors propagate during execution~\cite{Oukaira2025}.
 
+Scalability represents another major challenge. Building useful quantum processors requires not only increasing the number of physical qubits but also maintaining precise calibration, efficient qubit connectivity, reliable control electronics, and stable operating conditions. As quantum devices become larger, wiring complexity, thermal management, fabrication variability, and classical control requirements rapidly increase, making large-scale integration a significant engineering challenge~\cite{deLeon2021,Croot2025}.
 
+Quantum error correction (QEC) provides the theoretical framework for overcoming physical errors and enabling fault-tolerant quantum computation. However, current QEC schemes require substantial resource overheads, as each logical qubit must be encoded into many physical qubits while continuously extracting and decoding error syndromes. As a result, the number of useful logical qubits remains considerably smaller than the number of available physical qubits, limiting the execution of computationally demanding quantum algorithms~\cite{Erol2025,Palsberg2026,Shor1995,KITAEV20032}.
 
+Current quantum algorithms also face important practical limitations. Many proposed quantum advantages assume fault-tolerant hardware, deep quantum circuits, and idealized operating conditions that remain beyond the capabilities of present-day quantum processors. Variational quantum algorithms, among the most promising approaches for noisy intermediate-scale quantum (NISQ) devices, remain highly sensitive to noise and optimization difficulties, while state preparation and measurement frequently dominate the overall computational cost~\cite{Wang2026,Raseena2025}.
+
+Finally, software infrastructure, compilation, verification, and benchmarking remain active areas of research. Efficient hardware-aware compilation, reliable validation of quantum computations, and portable software frameworks are still under development. Moreover, the complexity and cost associated with cryogenic systems, specialized fabrication technologies, and control electronics continue to limit the scalability and widespread deployment of quantum computing platforms~\cite{Palsberg2026,Croot2025,Oukaira2025}.
+
+Overall, the current limitations of quantum computing extend beyond hardware performance alone and involve the entire computational stack, from physical implementation to algorithms and software. Continued progress therefore depends on simultaneous advances in qubit coherence, scalable architectures, quantum error correction, algorithm design, software development, and experimental validation before quantum computers can deliver robust and practical computational advantages \cite{Palsberg2026,Raseena2025}.
 
 
 

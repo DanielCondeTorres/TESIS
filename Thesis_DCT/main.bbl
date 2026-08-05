@@ -19,1054 +19,480 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{galileo}{book}{}{}
+    \entry{WHO2024TopCausesDeath}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=98fad4f15b35cc6a0ad311bb7a254f1b}{%
-           family={Galilei},
-           familyi={G\bibinitperiod},
-           given={Galileo},
-           giveni={G\bibinitperiod}}}%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Roma}%
-      }
-      \list{publisher}{1}{%
-        {Giacomo Mascardi}%
-      }
-      \strng{namehash}{98fad4f15b35cc6a0ad311bb7a254f1b}
-      \strng{fullhash}{98fad4f15b35cc6a0ad311bb7a254f1b}
-      \strng{fullhashraw}{98fad4f15b35cc6a0ad311bb7a254f1b}
-      \strng{bibnamehash}{98fad4f15b35cc6a0ad311bb7a254f1b}
-      \strng{authorbibnamehash}{98fad4f15b35cc6a0ad311bb7a254f1b}
-      \strng{authornamehash}{98fad4f15b35cc6a0ad311bb7a254f1b}
-      \strng{authorfullhash}{98fad4f15b35cc6a0ad311bb7a254f1b}
-      \strng{authorfullhashraw}{98fad4f15b35cc6a0ad311bb7a254f1b}
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Il Saggiatore}
-      \field{year}{1623}
+      \field{month}{8}
+      \field{note}{Fact sheet, published August 7, 2024. Accessed August 5, 2026}
+      \field{title}{The Top 10 Causes of Death}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
+      \endverb
     \endentry
-    \entry{cecilia1964}{article}{}{}
+    \entry{GBD2021CausesOfDeath}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=76395b520de9dd865e3b11336eefbc31}{%
-           family={Cecilia},
-           familyi={C\bibinitperiod},
-           given={Carla\bibnamedelima E.},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=b8f5f2c2605e68717216c28155e934ab}{%
+           family={{GBD 2021 Causes of Death Collaborators}},
+           familyi={G\bibinitperiod}}}%
       }
-      \strng{namehash}{76395b520de9dd865e3b11336eefbc31}
-      \strng{fullhash}{76395b520de9dd865e3b11336eefbc31}
-      \strng{fullhashraw}{76395b520de9dd865e3b11336eefbc31}
-      \strng{bibnamehash}{76395b520de9dd865e3b11336eefbc31}
-      \strng{authorbibnamehash}{76395b520de9dd865e3b11336eefbc31}
-      \strng{authornamehash}{76395b520de9dd865e3b11336eefbc31}
-      \strng{authorfullhash}{76395b520de9dd865e3b11336eefbc31}
-      \strng{authorfullhashraw}{76395b520de9dd865e3b11336eefbc31}
+      \strng{namehash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{fullhash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{fullhashraw}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{bibnamehash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{authorbibnamehash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{authornamehash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{authorfullhash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{authorfullhashraw}{b8f5f2c2605e68717216c28155e934ab}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{The Cornell Daily Sun}
-      \field{month}{11}
-      \field{number}{40}
-      \field{title}{Feynman Tells Difference Between Physics and Math}
-      \field{volume}{LXXXI}
-      \field{year}{1964}
-      \verb{urlraw}
-      \verb https://cdsun.library.cornell.edu/?a=d&d=CDS19641112.2.6
-      \endverb
-      \verb{url}
-      \verb https://cdsun.library.cornell.edu/?a=d&d=CDS19641112.2.6
+      \field{journaltitle}{The Lancet}
+      \field{number}{10440}
+      \field{title}{Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990--2021: A systematic analysis for the Global Burden of Disease Study 2021}
+      \field{volume}{403}
+      \field{year}{2024}
+      \field{pages}{2100\bibrangedash 2132}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/S0140-6736(24)00367-2
       \endverb
     \endentry
-    \entry{Murray2022}{article}{}{}
-      \name{author}{175}{}{%
-        {{hash=d39647fc6f5b8f85d041b0adbed9b52e}{%
-           family={Murray},
-           familyi={M\bibinitperiod},
-           given={Christopher\bibnamedelimb J\bibnamedelima L},
-           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=9325504ea66ca0c8cc7503d83d4c10af}{%
-           family={Ikuta},
-           familyi={I\bibinitperiod},
-           given={Kevin\bibnamedelima Shunji},
-           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=92fe0bdf3c4ff9136ace48a2dd79933d}{%
-           family={Sharara},
-           familyi={S\bibinitperiod},
-           given={Fablina},
-           giveni={F\bibinitperiod}}}%
-        {{hash=ff975ead02faa29bd43b83c485f3c081}{%
-           family={Swetschinski},
-           familyi={S\bibinitperiod},
-           given={Lucien},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e608c2a470a45db70763345d746e2991}{%
-           family={Aguilar},
-           familyi={A\bibinitperiod},
-           given={Gisela\bibnamedelima Robles},
-           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=4c0f43003980f4facb6d2c29d2934668}{%
-           family={Gray},
-           familyi={G\bibinitperiod},
-           given={Authia},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f1b00ffc3f6f9b097ec533890071bf0a}{%
-           family={Han},
+    \entry{Hong2019}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=228655acbcd752cef20595040b97d07b}{%
+           family={Hong},
            familyi={H\bibinitperiod},
-           given={Chieh},
-           giveni={C\bibinitperiod}}}%
-        {{hash=80cd5ad3d9e8dd17d45bcfc3fa25c80e}{%
-           family={Bisignano},
-           familyi={B\bibinitperiod},
-           given={Catherine},
-           giveni={C\bibinitperiod}}}%
-        {{hash=ab4b13672f3c9e08f32629ddef5d502e}{%
-           family={Rao},
-           familyi={R\bibinitperiod},
-           given={Puja},
-           giveni={P\bibinitperiod}}}%
-        {{hash=c9d9b1ca4622674b93335a592b6867c8}{%
-           family={Wool},
-           familyi={W\bibinitperiod},
-           given={Eve},
-           giveni={E\bibinitperiod}}}%
-        {{hash=2ec4432e986a5a1eb11e7150f5bd28b1}{%
-           family={Johnson},
-           familyi={J\bibinitperiod},
-           given={Sarah\bibnamedelima C},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=1f3c34a3845bee449c1bd47e1e1777e3}{%
-           family={Browne},
-           familyi={B\bibinitperiod},
-           given={Annie\bibnamedelima J},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=d6b7a0c8d41892fec72e673d2be09e83}{%
-           family={Chipeta},
-           familyi={C\bibinitperiod},
-           given={Michael\bibnamedelima Give},
-           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=de33719923061206678404aa0ac7f240}{%
-           family={Fell},
-           familyi={F\bibinitperiod},
-           given={Frederick},
-           giveni={F\bibinitperiod}}}%
-        {{hash=ee15f643858afb03f1c86c2ad30d685b}{%
-           family={Hackett},
-           familyi={H\bibinitperiod},
-           given={Sean},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9bc2007ba09746b63cc18bc27ba35517}{%
-           family={Haines-Woodhouse},
-           familyi={H\bibinithyphendelim W\bibinitperiod},
-           given={Georgina},
-           giveni={G\bibinitperiod}}}%
-        {{hash=83eb3a9a39121ec5eaa6cdc150373cae}{%
-           family={Hamadani},
-           familyi={H\bibinitperiod},
-           given={Bahar\bibnamedelimb H\bibnamedelima Kashef},
-           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=72792a29c2422ec7fd49d2b973dc82c7}{%
-           family={Kumaran},
-           familyi={K\bibinitperiod},
-           given={Emmanuelle\bibnamedelimb A\bibnamedelima P},
-           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=07f9d899ae623cee6f3840dd829b59fb}{%
-           family={McManigal},
-           familyi={M\bibinitperiod},
-           given={Barney},
-           giveni={B\bibinitperiod}}}%
-        {{hash=48d42549de6197270ed47948130418ad}{%
-           family={Achalapong},
-           familyi={A\bibinitperiod},
-           given={Sureeruk},
-           giveni={S\bibinitperiod}}}%
-        {{hash=5c065a00d5bad674e910094abb11efeb}{%
-           family={Agarwal},
-           familyi={A\bibinitperiod},
-           given={Ramesh},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a671407bd88d1be2dbd33337eb1ced05}{%
-           family={Akech},
-           familyi={A\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod}}}%
-        {{hash=92ab0900e022465a1c23d0019dd0ce35}{%
-           family={Albertson},
-           familyi={A\bibinitperiod},
-           given={Samuel},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d28ac3f588879d54ae036465a10cfa85}{%
-           family={Amuasi},
-           familyi={A\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-        {{hash=db652c40ffba593fe5fc092cea643a38}{%
-           family={Andrews},
-           familyi={A\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ffa9e4eef250ebc05630b073d9d45f9c}{%
-           family={Aravkin},
-           familyi={A\bibinitperiod},
-           given={Aleskandr},
-           giveni={A\bibinitperiod}}}%
-        {{hash=294e686a417618c53e8f8af465bc6e11}{%
-           family={Ashley},
-           familyi={A\bibinitperiod},
-           given={Elizabeth},
-           giveni={E\bibinitperiod}}}%
-        {{hash=6b87fda918a98087e6d69d4422974f89}{%
-           family={Babin},
-           familyi={B\bibinitperiod},
-           given={François-Xavier},
-           giveni={F\bibinithyphendelim X\bibinitperiod}}}%
-        {{hash=7fedd8de22a6bb86bca8769095362819}{%
-           family={Bailey},
-           familyi={B\bibinitperiod},
-           given={Freddie},
-           giveni={F\bibinitperiod}}}%
-        {{hash=3d84792f39e712eae0a841e3afe3ab61}{%
-           family={Baker},
-           familyi={B\bibinitperiod},
-           given={Stephen},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9f93187c85f7aed517332b3a6b578f15}{%
-           family={Basnyat},
-           familyi={B\bibinitperiod},
-           given={Buddha},
-           giveni={B\bibinitperiod}}}%
-        {{hash=cec051209f7dd376516d82b5f704f5e5}{%
-           family={Bekker},
-           familyi={B\bibinitperiod},
-           given={Adrie},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a583d3641d844fd466cf95eaf9df1b0f}{%
-           family={Bender},
-           familyi={B\bibinitperiod},
-           given={Rose},
-           giveni={R\bibinitperiod}}}%
-        {{hash=724ccda0dc3a6fcda22ad8bffaf48638}{%
-           family={Berkley},
-           familyi={B\bibinitperiod},
-           given={James\bibnamedelima A},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=43219460204c33a8c734463b19352ec8}{%
-           family={Bethou},
-           familyi={B\bibinitperiod},
-           given={Adhisivam},
-           giveni={A\bibinitperiod}}}%
-        {{hash=73d5d1e51f534750bfb5abab77d610b3}{%
-           family={Bielicki},
-           familyi={B\bibinitperiod},
-           given={Julia},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a0d2dc1aa878125ce8685e8383f07da9}{%
-           family={Boonkasidecha},
-           familyi={B\bibinitperiod},
-           given={Suppawat},
-           giveni={S\bibinitperiod}}}%
-        {{hash=57acf75f7087a9757453302a5782c168}{%
-           family={Bukosia},
-           familyi={B\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f77ab1fa43da86c2400ea8ae5d00bcd7}{%
-           family={Carvalheiro},
-           familyi={C\bibinitperiod},
-           given={Cristina},
-           giveni={C\bibinitperiod}}}%
-        {{hash=abcce207a5d14fd9156142897acd95d5}{%
-           family={Castañeda-Orjuela},
-           familyi={C\bibinithyphendelim O\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod}}}%
-        {{hash=2522f2a3249f21c02c80f91a54736caf}{%
-           family={Chansamouth},
-           familyi={C\bibinitperiod},
-           given={Vilada},
-           giveni={V\bibinitperiod}}}%
-        {{hash=324a0461d108c4c8e32e88589f21770e}{%
-           family={Chaurasia},
-           familyi={C\bibinitperiod},
-           given={Suman},
-           giveni={S\bibinitperiod}}}%
-        {{hash=d124df20092f5a231fbe689e65f37f58}{%
-           family={Chiurchiù},
-           familyi={C\bibinitperiod},
-           given={Sara},
-           giveni={S\bibinitperiod}}}%
-        {{hash=863366d96368529ab3f458338e204bb2}{%
-           family={Chowdhury},
-           familyi={C\bibinitperiod},
-           given={Fazle},
-           giveni={F\bibinitperiod}}}%
-        {{hash=3e6b5cdc90498c6088383f17fb376e60}{%
-           family={Donatien},
-           familyi={D\bibinitperiod},
-           given={Rafai\bibnamedelima Clotaire},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=8f8e5d4eb82c2a49f552a9933fc71b71}{%
-           family={Cook},
-           familyi={C\bibinitperiod},
-           given={Aislinn\bibnamedelima J},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=21d20d77b671676edc08ab64da3eb052}{%
-           family={Cooper},
-           familyi={C\bibinitperiod},
-           given={Ben},
-           giveni={B\bibinitperiod}}}%
-        {{hash=a3f3895059d8abc6e6478e73e27c11bb}{%
-           family={Cressey},
-           familyi={C\bibinitperiod},
-           given={Tim\bibnamedelima R},
-           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=acba989976e9db2e74ae0f33e4724bd8}{%
-           family={Criollo-Mora},
-           familyi={C\bibinithyphendelim M\bibinitperiod},
-           given={Elia},
-           giveni={E\bibinitperiod}}}%
-        {{hash=4e3f6c53a0df6ae395c1c262aa04d861}{%
-           family={Cunningham},
-           familyi={C\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d9099488c41b1066e0a08e7276f82281}{%
-           family={Darboe},
-           familyi={D\bibinitperiod},
-           given={Saffiatou},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9f8bce2a9a9eb7f2d4fd49f2d9c9480d}{%
-           family={Day},
-           familyi={D\bibinitperiod},
-           given={Nicholas\bibnamedelimb P\bibnamedelima J},
-           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=b11c7c9c7b5e7ff85014d8b768359d1e}{%
-           family={Luca},
-           familyi={L\bibinitperiod},
-           given={Maia\bibnamedelima De},
-           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=5dc28500a1dcf9e5175b61bd7b7008c5}{%
-           family={Dokova},
-           familyi={D\bibinitperiod},
-           given={Klara},
-           giveni={K\bibinitperiod}}}%
-        {{hash=70dcec81c1f9dc1d619a66c855f92912}{%
-           family={Dramowski},
-           familyi={D\bibinitperiod},
-           given={Angela},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0823cf08633f07d72f24971bc915bd21}{%
-           family={Dunachie},
-           familyi={D\bibinitperiod},
-           given={Susanna\bibnamedelima J},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=cb9fdba30a83cae8b2b0cbaeb6171144}{%
-           family={Bich},
-           familyi={B\bibinitperiod},
-           given={Thuy\bibnamedelima Duong},
-           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=23f3861d8959a7deefc4cce7b3ea2ee0}{%
-           family={Eckmanns},
-           familyi={E\bibinitperiod},
-           given={Tim},
-           giveni={T\bibinitperiod}}}%
-        {{hash=e38097324790554489810159fdbd1e35}{%
-           family={Eibach},
-           familyi={E\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=c7e3664c6e89a681a18984686abed256}{%
-           family={Emami},
-           familyi={E\bibinitperiod},
-           given={Amir},
-           giveni={A\bibinitperiod}}}%
-        {{hash=525bbe264169eb4d07722b37b0a4e998}{%
-           family={Feasey},
-           familyi={F\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=e4830a17b6c9db5774b850ad277ecaf8}{%
-           family={Fisher-Pearson},
-           familyi={F\bibinithyphendelim P\bibinitperiod},
-           given={Natasha},
-           giveni={N\bibinitperiod}}}%
-        {{hash=f21b24db90827e5d8ff897ddc151ba86}{%
-           family={Forrest},
-           familyi={F\bibinitperiod},
-           given={Karen},
-           giveni={K\bibinitperiod}}}%
-        {{hash=91042f08234ba443ea05770dcba57708}{%
-           family={Garcia},
-           familyi={G\bibinitperiod},
-           given={Coralith},
-           giveni={C\bibinitperiod}}}%
-        {{hash=ade7898ea82ca775f485075bf57253fc}{%
-           family={Garrett},
-           familyi={G\bibinitperiod},
-           given={Denise},
-           giveni={D\bibinitperiod}}}%
-        {{hash=b421afcb2a045ff71d55f4a2bb46b8b3}{%
-           family={Gastmeier},
-           familyi={G\bibinitperiod},
-           given={Petra},
-           giveni={P\bibinitperiod}}}%
-        {{hash=c3c139bef902ebd8d6cf3b77943068ef}{%
-           family={Giref},
-           familyi={G\bibinitperiod},
-           given={Ababi\bibnamedelima Zergaw},
-           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
-        {{hash=68552004768f5db0fa6e01cf47d9c4d8}{%
-           family={Greer},
-           familyi={G\bibinitperiod},
-           given={Rachel\bibnamedelima Claire},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=f4b195f8bd01c801670f48daff8b64e7}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={Vikas},
-           giveni={V\bibinitperiod}}}%
-        {{hash=05ba4bf051e2273e326256c62920f154}{%
-           family={Haller},
-           familyi={H\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=1d8ed218680751b5387aeb1e8b23f817}{%
-           family={Haselbeck},
-           familyi={H\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fd610c8afe891528a8628d6ccb932fa8}{%
-           family={Hay},
-           familyi={H\bibinitperiod},
-           given={Simon\bibnamedelima I},
-           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=35e32ebf8203d296f096948249510106}{%
-           family={Holm},
-           familyi={H\bibinitperiod},
-           given={Marianne},
-           giveni={M\bibinitperiod}}}%
-        {{hash=bfacbb92e92112784ac2c648d23d4d31}{%
-           family={Hopkins},
-           familyi={H\bibinitperiod},
-           given={Susan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=f8b2ac9f809e72a81810de6377610ddb}{%
-           family={Hsia},
-           familyi={H\bibinitperiod},
-           given={Yingfen},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=2b7a1bcdb70ff7c8433ace6d5188024e}{%
-           family={Iregbu},
-           familyi={I\bibinitperiod},
-           given={Kenneth\bibnamedelima C},
-           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=14f5ec8d14caf385e03265ee95b1e7c6}{%
-           family={Jacobs},
-           familyi={J\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=640138f7b3ea306c74b91b9e8532aed7}{%
-           family={Jarovsky},
-           familyi={J\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=be9fa29168365b3834e959c807c666b9}{%
-           family={Javanmardi},
-           familyi={J\bibinitperiod},
-           given={Fatemeh},
-           giveni={F\bibinitperiod}}}%
-        {{hash=0237b566a7da9839f24e598019a957d4}{%
-           family={Jenney},
-           familyi={J\bibinitperiod},
-           given={Adam\bibnamedelimb W\bibnamedelima J},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=3dee41d5bf2fab7ac87d36b42992f72d}{%
-           family={Khorana},
-           familyi={K\bibinitperiod},
-           given={Meera},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4c42e49724fa41dd36bd5f360c8daea2}{%
-           family={Khusuwan},
-           familyi={K\bibinitperiod},
-           given={Suwimon},
-           giveni={S\bibinitperiod}}}%
-        {{hash=251ec61f3ebf83d793f06d7e05205ded}{%
-           family={Kissoon},
-           familyi={K\bibinitperiod},
-           given={Niranjan},
-           giveni={N\bibinitperiod}}}%
-        {{hash=2f46ab9cbaab329978ee06ff7d93feee}{%
-           family={Kobeissi},
-           familyi={K\bibinitperiod},
-           given={Elsa},
-           giveni={E\bibinitperiod}}}%
-        {{hash=9a532def73bc16716de2b2f3c7a47092}{%
-           family={Kostyanev},
-           familyi={K\bibinitperiod},
-           given={Tomislav},
-           giveni={T\bibinitperiod}}}%
-        {{hash=4e8f108fd906ff858e4a190a3a2f7a8c}{%
-           family={Krapp},
-           familyi={K\bibinitperiod},
-           given={Fiorella},
-           giveni={F\bibinitperiod}}}%
-        {{hash=f2a31e5250bbefd7c096745c3929b239}{%
-           family={Krumkamp},
-           familyi={K\bibinitperiod},
-           given={Ralf},
-           giveni={R\bibinitperiod}}}%
-        {{hash=eb6a64cf20a5b21db872c9ca0d491ed9}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Ajay},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1b755ac9ac0af03dc7443327d86c86f6}{%
-           family={Kyu},
-           familyi={K\bibinitperiod},
-           given={Hmwe\bibnamedelima Hmwe},
-           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=e8685542c696fc4ad179307c32f1c25a}{%
-           family={Lim},
-           familyi={L\bibinitperiod},
-           given={Cherry},
-           giveni={C\bibinitperiod}}}%
-        {{hash=e4b76ff91fe2f691b523dc308f98d4b6}{%
-           family={Lim},
-           familyi={L\bibinitperiod},
-           given={Kruy},
-           giveni={K\bibinitperiod}}}%
-        {{hash=ed9398631affe1f3c775c1fe89b32f58}{%
-           family={Limmathurotsakul},
-           familyi={L\bibinitperiod},
-           given={Direk},
-           giveni={D\bibinitperiod}}}%
-        {{hash=70678becdafff59c8d42258487e50fcf}{%
-           family={Loftus},
-           familyi={L\bibinitperiod},
-           given={Michael\bibnamedelima James},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=b5a025aa609fe4201515aa71c9152b88}{%
-           family={Lunn},
-           familyi={L\bibinitperiod},
-           given={Miles},
-           giveni={M\bibinitperiod}}}%
-        {{hash=fa3d8c93ccc6b2a733c88d595cca52ce}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Jianing},
-           giveni={J\bibinitperiod}}}%
-        {{hash=182f03b82057df33b2d7461ff7d7d269}{%
-           family={Manoharan},
-           familyi={M\bibinitperiod},
-           given={Anand},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9a9ba063a24efab9c82188972de839ef}{%
-           family={Marks},
-           familyi={M\bibinitperiod},
-           given={Florian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=a0d2b340dfab7acfff3e8b0eaedffb17}{%
-           family={May},
-           familyi={M\bibinitperiod},
-           given={Jürgen},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e2a1d3a0cb81a91aa76c59f607e95806}{%
-           family={Mayxay},
-           familyi={M\bibinitperiod},
-           given={Mayfong},
-           giveni={M\bibinitperiod}}}%
-        {{hash=75f932b167b183c62a3455bcdf990c58}{%
-           family={Mturi},
-           familyi={M\bibinitperiod},
-           given={Neema},
-           giveni={N\bibinitperiod}}}%
-        {{hash=1761b7dd4f5d92d9e5144e31b879f383}{%
-           family={Munera-Huertas},
-           familyi={M\bibinithyphendelim H\bibinitperiod},
-           given={Tatiana},
-           giveni={T\bibinitperiod}}}%
-        {{hash=88918f780768e772aa9a2d8e95e8c37c}{%
-           family={Musicha},
-           familyi={M\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
-        {{hash=21c3d2a521517500065aaa0e157ea93f}{%
-           family={Musila},
-           familyi={M\bibinitperiod},
-           given={Lilian\bibnamedelima A},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=0e80da9a46b57443c2930cf53a488617}{%
-           family={Mussi-Pinhata},
-           familyi={M\bibinithyphendelim P\bibinitperiod},
-           given={Marisa\bibnamedelima Marcia},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=3689a5a5d4c536f37ed98ac62761c50b}{%
-           family={Naidu},
-           familyi={N\bibinitperiod},
-           given={Ravi\bibnamedelima Narayan},
-           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=69ae93b6998faccf93942b3539592940}{%
-           family={Nakamura},
-           familyi={N\bibinitperiod},
-           given={Tomoka},
-           giveni={T\bibinitperiod}}}%
-        {{hash=7b800252f7f75aa59fea9de207cf700c}{%
-           family={Nanavati},
-           familyi={N\bibinitperiod},
-           given={Ruchi},
-           giveni={R\bibinitperiod}}}%
-        {{hash=3e40f9adc195ed4694dd1e645a2d5a3c}{%
-           family={Nangia},
-           familyi={N\bibinitperiod},
-           given={Sushma},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9f6ba0875581a5669fc94d5f65002256}{%
-           family={Newton},
-           familyi={N\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=d7bea1c5874c5e85a7fea0d8da6f189f}{%
-           family={Ngoun},
-           familyi={N\bibinitperiod},
-           given={Chanpheaktra},
-           giveni={C\bibinitperiod}}}%
-        {{hash=9a4718c0703b8c40e780147366b03d13}{%
-           family={Novotney},
-           familyi={N\bibinitperiod},
-           given={Amanda},
-           giveni={A\bibinitperiod}}}%
-        {{hash=d787115465723796a327e9cb24ec885f}{%
-           family={Nwakanma},
-           familyi={N\bibinitperiod},
-           given={Davis},
-           giveni={D\bibinitperiod}}}%
-        {{hash=6ad597902c9b0920ebcfc7024a12b2f5}{%
-           family={Obiero},
-           familyi={O\bibinitperiod},
-           given={Christina\bibnamedelima W},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=00e5e4e6e4eb1ef9a48af1054b66e3b3}{%
-           family={Ochoa},
-           familyi={O\bibinitperiod},
-           given={Theresa\bibnamedelima J},
-           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=138cced2f8914f6bb50200ba547cf7e4}{%
-           family={Olivas-Martinez},
-           familyi={O\bibinithyphendelim M\bibinitperiod},
-           given={Antonio},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0cdfde7c9cc5e8b8862878155561437b}{%
-           family={Olliaro},
-           familyi={O\bibinitperiod},
-           given={Piero},
-           giveni={P\bibinitperiod}}}%
-        {{hash=569b2c6befd781e720fba3edb5ccc01f}{%
-           family={Ooko},
-           familyi={O\bibinitperiod},
-           given={Ednah},
-           giveni={E\bibinitperiod}}}%
-        {{hash=a4c53ceef5739108cf3aad80ab4f64e2}{%
-           family={Ortiz-Brizuela},
-           familyi={O\bibinithyphendelim B\bibinitperiod},
-           given={Edgar},
-           giveni={E\bibinitperiod}}}%
-        {{hash=ed423ddf0c5692293c568e7f6360ac4c}{%
-           family={Ounchanum},
-           familyi={O\bibinitperiod},
-           given={Pradthana},
-           giveni={P\bibinitperiod}}}%
-        {{hash=3e9db9f5e749ff3f18896ad2db2ec78e}{%
-           family={Pak},
-           familyi={P\bibinitperiod},
-           given={Gideok\bibnamedelima D},
-           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=bc4bc3ea03a3e3ac9d08e9f3f3696a5a}{%
-           family={Paredes},
-           familyi={P\bibinitperiod},
-           given={Jose\bibnamedelima Luis},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=0e6c4598b7d59bfc99a5fb0841c2fa1e}{%
-           family={Peleg},
-           familyi={P\bibinitperiod},
-           given={Anton\bibnamedelima Yariv},
-           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-        {{hash=e0502153c0e97c406c68559db3b65bfc}{%
-           family={Perrone},
-           familyi={P\bibinitperiod},
-           given={Carlo},
-           giveni={C\bibinitperiod}}}%
-        {{hash=42ed2a1cb91bf824c62e26967046892a}{%
-           family={Phe},
-           familyi={P\bibinitperiod},
-           given={Thong},
-           giveni={T\bibinitperiod}}}%
-        {{hash=19bc7541f54e06616b3adc539d82356d}{%
-           family={Phommasone},
-           familyi={P\bibinitperiod},
-           given={Koukeo},
-           giveni={K\bibinitperiod}}}%
-        {{hash=c243b87d419bfacb88e867936fe8ef4d}{%
-           family={Plakkal},
-           familyi={P\bibinitperiod},
-           given={Nishad},
-           giveni={N\bibinitperiod}}}%
-        {{hash=b24c28e9a98c939e7a210c910e647ffb}{%
-           family={Ponce-de-Leon},
-           familyi={P\bibinithyphendelim L\bibinitperiod},
-           given={Alfredo},
-           giveni={A\bibinitperiod}}}%
-        {{hash=68dbb93b7652d2dbcff64b1fc2903145}{%
-           family={Raad},
-           familyi={R\bibinitperiod},
-           given={Mathieu},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b12723873ee956f94ed186c41a0aeac3}{%
-           family={Ramdin},
-           familyi={R\bibinitperiod},
-           given={Tanusha},
-           giveni={T\bibinitperiod}}}%
-        {{hash=1b90f8e0d868be8ee33655032c2674af}{%
-           family={Rattanavong},
-           familyi={R\bibinitperiod},
-           given={Sayaphet},
-           giveni={S\bibinitperiod}}}%
-        {{hash=300093124cd3a95de2ed0199276ad48e}{%
-           family={Riddell},
-           familyi={R\bibinitperiod},
-           given={Amy},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0cb9cc4b345aaea9d5a5820100bcfaf9}{%
-           family={Roberts},
-           familyi={R\bibinitperiod},
-           given={Tamalee},
-           giveni={T\bibinitperiod}}}%
-        {{hash=5203181a019ca463ce848f55fa25576d}{%
-           family={Robotham},
-           familyi={R\bibinitperiod},
-           given={Julie\bibnamedelima Victoria},
-           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=deabf36c09863e0fc46cc82b2f8392ed}{%
-           family={Roca},
-           familyi={R\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=96dfe7f9a41e290e62a7e8c95e2760a0}{%
-           family={Rosenthal},
-           familyi={R\bibinitperiod},
-           given={Victor\bibnamedelima Daniel},
-           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=3942c1a2b057001fda9eb7c9591cfea1}{%
-           family={Rudd},
-           familyi={R\bibinitperiod},
-           given={Kristina\bibnamedelima E},
-           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=3fdaf1d99c0a0ebbc6545099ce43e219}{%
-           family={Russell},
-           familyi={R\bibinitperiod},
-           given={Neal},
-           giveni={N\bibinitperiod}}}%
-        {{hash=1e22ee01b66d4d7773bc238e56ba8994}{%
-           family={Sader},
-           familyi={S\bibinitperiod},
-           given={Helio\bibnamedelima S},
-           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=bcea071aea430258e65d13765439f3c0}{%
-           family={Saengchan},
-           familyi={S\bibinitperiod},
-           given={Weerawut},
-           giveni={W\bibinitperiod}}}%
-        {{hash=f0ac6d8184ab209df2e67beacb092846}{%
-           family={Schnall},
-           familyi={S\bibinitperiod},
-           given={Jesse},
-           giveni={J\bibinitperiod}}}%
-        {{hash=185c6fbbfaa9fb84ad5beb281475de75}{%
-           family={Scott},
-           familyi={S\bibinitperiod},
-           given={John\bibnamedelimb Anthony\bibnamedelima Gerard},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=0dd4838d20fb599c28a1b8c4c2716012}{%
-           family={Seekaew},
-           familyi={S\bibinitperiod},
-           given={Samroeng},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0b0f636347d05b3b92ea430ca94b1832}{%
-           family={Sharland},
-           familyi={S\bibinitperiod},
-           given={Mike},
-           giveni={M\bibinitperiod}}}%
-        {{hash=6b25d0466139107e1f8d6e80bc44f683}{%
-           family={Shivamallappa},
-           familyi={S\bibinitperiod},
-           given={Madhusudhan},
-           giveni={M\bibinitperiod}}}%
-        {{hash=5f956026bf2bd3159856d6d65e7351b1}{%
-           family={Sifuentes-Osornio},
-           familyi={S\bibinithyphendelim O\bibinitperiod},
-           given={Jose},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ead04a2d9f662b3cb94061dbe65fb7fa}{%
-           family={Simpson},
-           familyi={S\bibinitperiod},
-           given={Andrew\bibnamedelima J},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=3d2c5df418d629551411ad67deb6eab5}{%
-           family={Steenkeste},
-           familyi={S\bibinitperiod},
-           given={Nicolas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=e86c95bcc2da344a0a884ec109b870a1}{%
-           family={Stewardson},
-           familyi={S\bibinitperiod},
-           given={Andrew\bibnamedelima James},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=a0c63d82edd548e0679bf89c06075cf0}{%
-           family={Stoeva},
-           familyi={S\bibinitperiod},
-           given={Temenuga},
-           giveni={T\bibinitperiod}}}%
-        {{hash=51d47e527fb1b2aab4ad394faeb0a63a}{%
-           family={Tasak},
-           familyi={T\bibinitperiod},
-           given={Nidanuch},
-           giveni={N\bibinitperiod}}}%
-        {{hash=d6471aa626b08f83b41ddf0cfffaedf6}{%
-           family={Thaiprakong},
-           familyi={T\bibinitperiod},
-           given={Areerat},
-           giveni={A\bibinitperiod}}}%
-        {{hash=765801ef5b7ea8f698018437ca9e9e6b}{%
-           family={Thwaites},
-           familyi={T\bibinitperiod},
-           given={Guy},
-           giveni={G\bibinitperiod}}}%
-        {{hash=ae0e0dd52afe8e6f9d083e96e2eacad2}{%
-           family={Tigoi},
-           familyi={T\bibinitperiod},
-           given={Caroline},
-           giveni={C\bibinitperiod}}}%
-        {{hash=93c116f3cf630ca2e4f988433bad9386}{%
-           family={Turner},
-           familyi={T\bibinitperiod},
-           given={Claudia},
-           giveni={C\bibinitperiod}}}%
-        {{hash=9166bc1dc6c1e230ceef6e3566a43f32}{%
-           family={Turner},
-           familyi={T\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=e6c744fc69ac659e33fdb9edc49a901a}{%
-           family={Doorn},
-           familyi={D\bibinitperiod},
-           given={H\bibnamedelima Rogier},
-           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
-        {{hash=bf33c2b052397d149eb5f65085301475}{%
-           family={Velaphi},
-           familyi={V\bibinitperiod},
-           given={Sithembiso},
-           giveni={S\bibinitperiod}}}%
-        {{hash=ac711e2edd71cfe15393c562f134084f}{%
-           family={Vongpradith},
-           familyi={V\bibinitperiod},
-           given={Avina},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9aa0bdb9ca9af9050714fb006bf44a93}{%
-           family={Vongsouvath},
-           familyi={V\bibinitperiod},
-           given={Manivanh},
-           giveni={M\bibinitperiod}}}%
-        {{hash=81fa36ef9113a5cea4352c1ef567f7e6}{%
-           family={Vu},
-           familyi={V\bibinitperiod},
-           given={Huong},
+           given={H.},
            giveni={H\bibinitperiod}}}%
-        {{hash=639f64383ce53b23a44eaff2faa48b4c}{%
-           family={Walsh},
+        {{hash=415d15406f27ab6319fe3dc2d7408598}{%
+           family={Wang},
            familyi={W\bibinitperiod},
-           given={Timothy},
-           giveni={T\bibinitperiod}}}%
-        {{hash=721ac9d1e588714f335fab252c18c95b}{%
-           family={Walson},
-           familyi={W\bibinitperiod},
-           given={Judd\bibnamedelima L},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=8c9a1dd3015400451252337c6c7f9483}{%
-           family={Waner},
-           familyi={W\bibinitperiod},
-           given={Seymour},
-           giveni={S\bibinitperiod}}}%
-        {{hash=15fef9af7eb59180a3d7c68150af8f7c}{%
-           family={Wangrangsimakul},
-           familyi={W\bibinitperiod},
-           given={Tri},
-           giveni={T\bibinitperiod}}}%
-        {{hash=d29527fa06088197b0203e6518fc469f}{%
-           family={Wannapinij},
-           familyi={W\bibinitperiod},
-           given={Prapass},
-           giveni={P\bibinitperiod}}}%
-        {{hash=6b8ed4f69b26b4613157e6494b859fc0}{%
-           family={Wozniak},
-           familyi={W\bibinitperiod},
-           given={Teresa},
-           giveni={T\bibinitperiod}}}%
-        {{hash=222916bd02fc4f6a5b1a9df345ebef8d}{%
-           family={Sharma},
-           familyi={S\bibinitperiod},
-           given={Tracey\bibnamedelimb E\bibnamedelimb M\bibnamedelimb W\bibnamedelima Young},
-           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-        {{hash=c9016d56420f4df308900de0023fc933}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Kalvin\bibnamedelima C},
-           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=05fe66e8b4eb6dd8303e7517398cb8ca}{%
-           family={Zheng},
-           familyi={Z\bibinitperiod},
-           given={Peng},
-           giveni={P\bibinitperiod}}}%
-        {{hash=08ee0a5636e7a83f086ff09b2673d406}{%
-           family={Sartorius},
-           familyi={S\bibinitperiod},
-           given={Benn},
-           giveni={B\bibinitperiod}}}%
-        {{hash=95046a5f589ba5abfa9251a17ae8a6b4}{%
-           family={Lopez},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=ef065b28c31984323fd6d3483d29aafd}{%
+           family={Li},
            familyi={L\bibinitperiod},
-           given={Alan\bibnamedelima D},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=84ba3b55d981d155ba6807f75b04c507}{%
-           family={Stergachis},
-           familyi={S\bibinitperiod},
-           given={Andy},
-           giveni={A\bibinitperiod}}}%
-        {{hash=d86c8a0711f768aaea6f59cf24b0de99}{%
-           family={Moore},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=240f15f7d0b589c89d5552453f46785d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5d7cfdf14768e19ed402154ca9e7f128}{%
+           family={Meng},
            familyi={M\bibinitperiod},
-           given={Catrin},
-           giveni={C\bibinitperiod}}}%
-        {{hash=09762365df63d643812b3071aa95e6e7}{%
-           family={Dolecek},
-           familyi={D\bibinitperiod},
-           given={Christiane},
-           giveni={C\bibinitperiod}}}%
-        {{hash=8590261a2dec6e655ce669b321060f91}{%
-           family={Naghavi},
-           familyi={N\bibinitperiod},
-           given={Mohsen},
-           giveni={M\bibinitperiod}}}%
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=32e563370422457790db030ab2c13183}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier B.V.}%
-      }
-      \strng{namehash}{6a031b798ecb6ff133ce98a846bf5fdb}
-      \strng{fullhash}{96879434654fe25cfa80c40bad6d4acb}
-      \strng{fullhashraw}{96879434654fe25cfa80c40bad6d4acb}
-      \strng{bibnamehash}{6a031b798ecb6ff133ce98a846bf5fdb}
-      \strng{authorbibnamehash}{6a031b798ecb6ff133ce98a846bf5fdb}
-      \strng{authornamehash}{6a031b798ecb6ff133ce98a846bf5fdb}
-      \strng{authorfullhash}{96879434654fe25cfa80c40bad6d4acb}
-      \strng{authorfullhashraw}{96879434654fe25cfa80c40bad6d4acb}
+      \strng{namehash}{614a00cbff41c23f5c58c6170b15f773}
+      \strng{fullhash}{39424e7cac44ffc006aa084d8e2ef0d7}
+      \strng{fullhashraw}{39424e7cac44ffc006aa084d8e2ef0d7}
+      \strng{bibnamehash}{39424e7cac44ffc006aa084d8e2ef0d7}
+      \strng{authorbibnamehash}{39424e7cac44ffc006aa084d8e2ef0d7}
+      \strng{authornamehash}{614a00cbff41c23f5c58c6170b15f773}
+      \strng{authorfullhash}{39424e7cac44ffc006aa084d8e2ef0d7}
+      \strng{authorfullhashraw}{39424e7cac44ffc006aa084d8e2ef0d7}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{01406736}
-      \field{issue}{10325}
-      \field{journaltitle}{The Lancet}
-      \field{month}{2}
-      \field{title}{Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis}
-      \field{volume}{399}
-      \field{year}{2022}
-      \field{pages}{629\bibrangedash 655}
-      \range{pages}{27}
+      \field{journaltitle}{Journal of Cancer}
+      \field{number}{13}
+      \field{title}{Aging, cancer and immunity}
+      \field{volume}{10}
+      \field{year}{2019}
+      \field{pages}{3021\bibrangedash 3027}
+      \range{pages}{7}
       \verb{doi}
-      \verb 10.1016/S0140-6736(21)02724-0
+      \verb 10.7150/jca.30723
       \endverb
     \endentry
-    \entry{Ahmed2024}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=d5cb0182f4ea69364f8f9c24f5d84596}{%
-           family={Ahmed},
-           familyi={A\bibinitperiod},
-           given={Sirwan\bibnamedelima Khalid},
-           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=d3a09273f729668cfed80baa40ec6669}{%
-           family={Hussein},
-           familyi={H\bibinitperiod},
-           given={Safin},
-           giveni={S\bibinitperiod}}}%
-        {{hash=de7b63376b98c16eae0e50f6119fa79b}{%
-           family={Qurbani},
-           familyi={Q\bibinitperiod},
-           given={Karzan},
-           giveni={K\bibinitperiod}}}%
-        {{hash=31884db38942463cefdec20d984bb411}{%
-           family={Ibrahim},
-           familyi={I\bibinitperiod},
-           given={Radhwan\bibnamedelima Hussein},
-           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=ab1641f58d861d3c4801bf9880f8a79e}{%
-           family={Fareeq},
-           familyi={F\bibinitperiod},
-           given={Abdulmalik},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1687524254ed41ffa789355ae6f3961f}{%
-           family={Mahmood},
-           familyi={M\bibinitperiod},
-           given={Kochr\bibnamedelima Ali},
-           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=72b46ba57da1513135ab6643e7aaedbc}{%
-           family={Mohamed},
-           familyi={M\bibinitperiod},
-           given={Mona\bibnamedelima Gamal},
-           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+    \entry{LopezOtin2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=109ca21840e2c08715fbc38e53125429}{%
+           family={López-Otín},
+           familyi={L\bibinithyphendelim O\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bf2fca35093d2e516b4cd6fc4f91c628}{%
+           family={Blasco},
+           familyi={B\bibinitperiod},
+           given={Maria\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=bf2d5acde626d5ec3acf23697700df7d}{%
+           family={Partridge},
+           familyi={P\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9c5d6d8280ab4f524015c20708f50f04}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dc1d0d8bcae189d26628525e78f64405}{%
+           family={Kroemer},
+           familyi={K\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{0f64b2b392bdc45bb37f766c75ad2fef}
-      \strng{fullhash}{fd8d08f131285aa83735cf09a216b8f4}
-      \strng{fullhashraw}{fd8d08f131285aa83735cf09a216b8f4}
-      \strng{bibnamehash}{fd8d08f131285aa83735cf09a216b8f4}
-      \strng{authorbibnamehash}{fd8d08f131285aa83735cf09a216b8f4}
-      \strng{authornamehash}{0f64b2b392bdc45bb37f766c75ad2fef}
-      \strng{authorfullhash}{fd8d08f131285aa83735cf09a216b8f4}
-      \strng{authorfullhashraw}{fd8d08f131285aa83735cf09a216b8f4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{35c7fc53e72512099ee7641a6df00f08}
+      \strng{fullhash}{903cdd94253c3297cf40979fe5ad1fbd}
+      \strng{fullhashraw}{903cdd94253c3297cf40979fe5ad1fbd}
+      \strng{bibnamehash}{903cdd94253c3297cf40979fe5ad1fbd}
+      \strng{authorbibnamehash}{903cdd94253c3297cf40979fe5ad1fbd}
+      \strng{authornamehash}{35c7fc53e72512099ee7641a6df00f08}
+      \strng{authorfullhash}{903cdd94253c3297cf40979fe5ad1fbd}
+      \strng{authorfullhashraw}{903cdd94253c3297cf40979fe5ad1fbd}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{2949916X}
-      \field{journaltitle}{Journal of Medicine, Surgery, and Public Health}
-      \field{month}{4}
-      \field{title}{Antimicrobial resistance: Impacts, challenges, and future prospects}
-      \field{volume}{2}
-      \field{year}{2024}
-      \field{pages}{100081}
-      \range{pages}{1}
+      \field{issn}{0092-8674}
+      \field{journaltitle}{Cell}
+      \field{number}{2}
+      \field{title}{Hallmarks of Aging: An Expanding Universe}
+      \field{volume}{186}
+      \field{year}{2023}
+      \field{pages}{243\bibrangedash 278}
+      \range{pages}{36}
       \verb{doi}
-      \verb 10.1016/j.glmedi.2024.100081
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S2949916X24000343
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S2949916X24000343
+      \verb 10.1016/j.cell.2022.11.001
       \endverb
     \endentry
-    \entry{WHO}{misc}{}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+    \entry{hannah}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c8b741d2c8c28b13b59cd96340147de}{%
+           family={Hanahan},
+           familyi={H\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c8b741d2c8c28b13b59cd96340147de}
+      \strng{fullhash}{9c8b741d2c8c28b13b59cd96340147de}
+      \strng{fullhashraw}{9c8b741d2c8c28b13b59cd96340147de}
+      \strng{bibnamehash}{9c8b741d2c8c28b13b59cd96340147de}
+      \strng{authorbibnamehash}{9c8b741d2c8c28b13b59cd96340147de}
+      \strng{authornamehash}{9c8b741d2c8c28b13b59cd96340147de}
+      \strng{authorfullhash}{9c8b741d2c8c28b13b59cd96340147de}
+      \strng{authorfullhashraw}{9c8b741d2c8c28b13b59cd96340147de}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance}
-      \field{note}{Accessed : 27/06/2025}
-      \field{title}{Antimicrobial resistance}
+      \field{abstract}{Cancer is daunting in the breadth and scope of its diversity, spanning genetics, cell and tissue biology, pathology, and response to therapy. Ever more powerful experimental and computational tools and technologies are providing an avalanche of “big data” about the myriad manifestations of the diseases that cancer encompasses. The integrative concept embodied in the hallmarks of cancer is helping to distill this complexity into an increasingly logical science, and the provisional new dimensions presented in this perspective may add value to that endeavor, to more fully understand mechanisms of cancer development and malignant progression, and apply that knowledge to cancer medicine.}
+      \field{issn}{2159-8274}
+      \field{journaltitle}{Cancer Discovery}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Hallmarks of Cancer: New Dimensions}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{31\bibrangedash 46}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1158/2159-8290.CD-21-1059
+      \endverb
+      \verb{eprint}
+      \verb https://aacrjournals.org/cancerdiscovery/article-pdf/12/1/31/3052722/31.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1158/2159-8290.CD-21-1059
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1158/2159-8290.CD-21-1059
+      \endverb
+    \endentry
+    \entry{Medzhitov2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=40b5c9696d7ba1a69a135fba066a73e3}{%
+           family={Medzhitov},
+           familyi={M\bibinitperiod},
+           given={Ruslan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c71cfebdd7f7bbebcc7f030e8733e706}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=9c99a6a6a0b0c4f8c6dc0a89ec4a5cda}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={Miguel\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{77f399ae7d3a718617b9e06ca8c49e7a}
+      \strng{fullhash}{1de6873acdbcb8861e3bc9783efb6327}
+      \strng{fullhashraw}{1de6873acdbcb8861e3bc9783efb6327}
+      \strng{bibnamehash}{1de6873acdbcb8861e3bc9783efb6327}
+      \strng{authorbibnamehash}{1de6873acdbcb8861e3bc9783efb6327}
+      \strng{authornamehash}{77f399ae7d3a718617b9e06ca8c49e7a}
+      \strng{authorfullhash}{1de6873acdbcb8861e3bc9783efb6327}
+      \strng{authorfullhashraw}{1de6873acdbcb8861e3bc9783efb6327}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6071}
+      \field{title}{Disease Tolerance as a Defense Strategy}
+      \field{volume}{335}
+      \field{year}{2012}
+      \field{pages}{936\bibrangedash 941}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.1214935
+      \endverb
+    \endentry
+    \entry{DANI_LIPIDOS}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
+           family={Conde-Torres},
+           familyi={C\bibinithyphendelim T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e17f7d4e7087892f5b9b2bcf5cd3be47}{%
+           family={Blanco-González},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5af753eb09baf32d7b6422f91309c8ea}{%
+           family={Seco-González},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f24e7b93ec17e5510b1432b7a530127}{%
+           family={Suárez-Lestón},
+           familyi={S\bibinithyphendelim L\bibinitperiod},
+           given={Fabián},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ead79284dd93e4ad2552a8c355f9f171}{%
+           family={Cabezón},
+           familyi={C\bibinitperiod},
+           given={Alfonso},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c3af01ba9dae34c128e83366eb694642}{%
+           family={Antelo-Riveiro},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=89173c6cc73e6a66e3314aab41131d3d}{%
+           family={García-Fandiño},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{fullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{fullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{bibnamehash}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{authorbibnamehash}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{authorfullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \strng{authorfullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
+      \field{issn}{1664-3224}
+      \field{journaltitle}{Frontiers in Immunology}
+      \field{title}{Unraveling lipid and inflammation interplay in cancer, aging and infection for novel theranostic approaches}
+      \field{volume}{Volume 15 - 2024}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.3389/fimmu.2024.1320779
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779
+      \endverb
+    \endentry
+    \entry{aging_and_cancer}{article}{}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cancer is a disease of aging, but it is rarely studied in aged animal models and older adults are often insufficiently represented in cancer clinical trials. To further our understanding of cancer and find better treatments, more research is needed on the role of biological aging in cancer and clinical trials must enroll larger numbers of older patients.}
+      \field{issn}{2662-8465}
+      \field{journaltitle}{Nature Aging}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{The importance of aging in cancer research}
+      \field{volume}{2}
+      \field{year}{2022}
+      \field{pages}{365\bibrangedash 366}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/s43587-022-00231-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s43587-022-00231-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s43587-022-00231-x
+      \endverb
+    \endentry
+    \entry{vance2017listening}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=cf4e2328f02f4b655a1cb0e864e1199c}{%
+           family={Vance},
+           familyi={V\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=167c29c40569ec9819481253f4cfd243}{%
+           family={Eichberg},
+           familyi={E\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=aa5febb55ec9150d052633d2cfa1306c}{%
+           family={Portnoy},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c9611acac92ba8e6d3f544a29e0fba62}{%
+           family={Raulet},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac1462674ce045c8ac7eb8b07c7a1ac5}
+      \strng{fullhash}{948856e7354bdfc9a3c72978c050389d}
+      \strng{fullhashraw}{948856e7354bdfc9a3c72978c050389d}
+      \strng{bibnamehash}{948856e7354bdfc9a3c72978c050389d}
+      \strng{authorbibnamehash}{948856e7354bdfc9a3c72978c050389d}
+      \strng{authornamehash}{ac1462674ce045c8ac7eb8b07c7a1ac5}
+      \strng{authorfullhash}{948856e7354bdfc9a3c72978c050389d}
+      \strng{authorfullhashraw}{948856e7354bdfc9a3c72978c050389d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science Immunology}
+      \field{title}{Listening to each other: Infectious disease and cancer immunology}
+      \field{volume}{2}
+      \field{year}{2017}
+      \field{pages}{eaai9339}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/sciimmunol.aai9339
+      \endverb
+    \endentry
+    \entry{pawelec2017immunosenescence}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=43e112a445277fa0170a0b9d3f443e61}{%
+           family={Pawelec},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{43e112a445277fa0170a0b9d3f443e61}
+      \strng{fullhash}{43e112a445277fa0170a0b9d3f443e61}
+      \strng{fullhashraw}{43e112a445277fa0170a0b9d3f443e61}
+      \strng{bibnamehash}{43e112a445277fa0170a0b9d3f443e61}
+      \strng{authorbibnamehash}{43e112a445277fa0170a0b9d3f443e61}
+      \strng{authornamehash}{43e112a445277fa0170a0b9d3f443e61}
+      \strng{authorfullhash}{43e112a445277fa0170a0b9d3f443e61}
+      \strng{authorfullhashraw}{43e112a445277fa0170a0b9d3f443e61}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biogerontology}
+      \field{title}{Immunosenescence and cancer}
+      \field{volume}{18}
+      \field{year}{2017}
+      \field{pages}{717\bibrangedash 721}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1007/s10522-017-9682-z
+      \endverb
+    \endentry
+    \entry{wang2022immunosenescence}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ffbeccd8bfddd639c5cc40c19c69ab1c}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a3689cff14b613b6de688c1c553aa310}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=59b900979e5b3eb2d9b1eef34f84f72d}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d05cd8de98015332c6658b1dbe4df962}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
+      \strng{fullhash}{328f588e444d526e096961af3e265a74}
+      \strng{fullhashraw}{328f588e444d526e096961af3e265a74}
+      \strng{bibnamehash}{328f588e444d526e096961af3e265a74}
+      \strng{authorbibnamehash}{328f588e444d526e096961af3e265a74}
+      \strng{authornamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
+      \strng{authorfullhash}{328f588e444d526e096961af3e265a74}
+      \strng{authorfullhashraw}{328f588e444d526e096961af3e265a74}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Immunology}
+      \field{title}{Immunosenescence, aging and successful aging}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{942796}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fimmu.2022.942796
+      \endverb
     \endentry
     \entry{gould2018membranes}{article}{}{}
       \name{author}{1}{}{%
@@ -1087,8 +513,8 @@
       \strng{authornamehash}{146fc837de70d1d290dbbec740fb3f7c}
       \strng{authorfullhash}{146fc837de70d1d290dbbec740fb3f7c}
       \strng{authorfullhashraw}{146fc837de70d1d290dbbec740fb3f7c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Current Biology}
@@ -1137,8 +563,8 @@
       \strng{authornamehash}{62ca8551282ad4961f299a8461fe43e3}
       \strng{authorfullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
       \strng{authorfullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature reviews Molecular cell biology}
@@ -1181,8 +607,8 @@
       \strng{authornamehash}{bfb075ff3ab011012a51f0298638072c}
       \strng{authorfullhash}{99cab381704666df3d3cfa0525842d30}
       \strng{authorfullhashraw}{99cab381704666df3d3cfa0525842d30}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A simple theory is developed that accounts for many of the observed physical properties of micelles{,} both globular and rod-like{,} and of bilayer vesicles composed of ionic or zwitterionic amphiphiles. The main point of departure from previous theories lies in the recognition and elucidation of the role of geometric constraints in self-assembly. The linking together of thermodynamics{,} interaction free energies and geometry results in a general framework which permits extension to more complicated self-assembly problems.}
@@ -1219,8 +645,8 @@
       \strng{authornamehash}{e0ac0812744f3bc431044aedeceb99ff}
       \strng{authorfullhash}{e0ac0812744f3bc431044aedeceb99ff}
       \strng{authorfullhashraw}{e0ac0812744f3bc431044aedeceb99ff}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1740-1534}
@@ -1241,49 +667,6 @@
       \verb{url}
       \verb https://doi.org/10.1038/nrmicro1098
       \endverb
-    \endentry
-    \entry{Lohner2009}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=b69523294f9a9ad42a60b09ee03f4901}{%
-           family={Lohner},
-           familyi={L\bibinitperiod},
-           given={Karl},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Gen Physiol Biophys}%
-      }
-      \strng{namehash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{fullhash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{fullhashraw}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{bibnamehash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{authorbibnamehash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{authornamehash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{authorfullhash}{b69523294f9a9ad42a60b09ee03f4901}
-      \strng{authorfullhashraw}{b69523294f9a9ad42a60b09ee03f4901}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0231-5882}
-      \field{issue}{2}
-      \field{journaltitle}{General physiology and biophysics}
-      \field{month}{6}
-      \field{title}{New strategies for novel antibiotics: peptides targeting bacterial cell membranes.}
-      \field{volume}{28}
-      \field{year}{2009}
-      \field{pages}{105\bibrangedash 16}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.4149/gpb_2009_02_105
-      \endverb
-      \verb{urlraw}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/19592707
-      \endverb
-      \verb{url}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/19592707
-      \endverb
-      \keyw{Animals,Anti-Bacterial Agents / pharmacology*,Antimicrobial Cationic Peptides / pharmacology*,Bacteria / drug effects*,Bacterial Physiological Phenomena / drug effects*,Biological,Cell Membrane / drug effects*,Cell Membrane / physiology,Drug Design,Humans,Karl Lohner,MEDLINE,Membrane Lipids*,Models,NCBI,NIH,NLM,National Center for Biotechnology Information,National Institutes of Health,National Library of Medicine,PubMed Abstract,Review,doi:10.4149/gpb_2009_02_105,pmid:19592707}
     \endentry
     \entry{POPC_MEMBRANE}{article}{}{}
       \name{author}{2}{}{%
@@ -1632,8 +1015,8 @@
       \strng{authornamehash}{455836b8c079086da42cd99d9ddac7a5}
       \strng{authorfullhash}{a74610583ea2e06cbe37bacaae249050}
       \strng{authorfullhashraw}{a74610583ea2e06cbe37bacaae249050}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Electrostatic interactions with negatively charged membranes contribute to the subcellular targeting of proteins with polybasic clusters or cationic domains. Although the anionic phospholipid phosphatidylserine is comparatively abundant, its contribution to the surface charge of individual cellular membranes is unknown, partly because of the lack of reagents to analyze its distribution in intact cells. We developed a biosensor to study the subcellular distribution of phosphatidylserine and found that it binds the cytosolic leaflets of the plasma membrane, as well as endosomes and lysosomes. The negative charge associated with the presence of phosphatidylserine directed proteins with moderately positive charge to the endocytic pathway. More strongly cationic proteins, normally associated with the plasma membrane, relocalized to endocytic compartments when the plasma membrane surface charge decreased on calcium influx.}
@@ -1678,8 +1061,8 @@
       \strng{authornamehash}{5cc4969d0a887f968a9d66d41fb2569f}
       \strng{authorfullhash}{5cc4969d0a887f968a9d66d41fb2569f}
       \strng{authorfullhashraw}{5cc4969d0a887f968a9d66d41fb2569f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Cholesterol (or other higher sterols such as ergosterol and phytosterols) is universally present in large amounts (20–40 mol\%) in eukaryotic plasma membranes, whereas it is universally absent in the membranes of prokaryotes. Cholesterol has a unique ability to increase lipid order in fluid membranes while maintaining fluidity and diffusion rates. Cholesterol imparts low permeability barriers to lipid membranes and provides for large mechanical coherence. A short topical review is given of these special properties of cholesterol in relation to the structure of membranes, with results drawn from a variety of theoretical and experimental studies. Particular focus is put on cholesterol's ability to promote a special membrane phase, the liquidordered phase, which is unique for cholesterol (and other higher sterols like ergosterol) and absent in membranes containing the cholesterol precursor lanosterol. Cholesterol's role in the formation of special membrane domains and so-called rafts is discussed.}
@@ -1727,8 +1110,8 @@
       \strng{authornamehash}{2204348988cca2c7a6e87921d174d37f}
       \strng{authorfullhash}{2204348988cca2c7a6e87921d174d37f}
       \strng{authorfullhashraw}{2204348988cca2c7a6e87921d174d37f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Biological Chemistry}
@@ -1760,8 +1143,8 @@
       \strng{authornamehash}{e2e18c9481251603c4f1b9b7d0deb4de}
       \strng{authorfullhash}{e2e18c9481251603c4f1b9b7d0deb4de}
       \strng{authorfullhashraw}{e2e18c9481251603c4f1b9b7d0deb4de}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{For many decades, Escherichia coli was the main model organism for the study of bacterial membrane lipids. The results obtained served as a blueprint for membrane lipid biochemistry, but it is clear now that there is no such thing as a typical bacterial membrane lipid composition. Different bacterial species display different membrane compositions and even the membrane composition of cells belonging to a single species is not constant, but depends on the environmental conditions to which the cells are exposed. Bacterial membranes present a large diversity of amphiphilic lipids, including the common phospholipids phosphatidylglycerol, phosphatidylethanolamine and cardiolipin, the less frequent phospholipids phosphatidylcholine, and phosphatidylinositol and a variety of other membrane lipids, such as for example ornithine lipids, glycolipids, sphingolipids or hopanoids among others. In this review, we give an overview about the membrane lipid structures known in bacteria, the different metabolic pathways involved in their formation, and the distribution of membrane lipids and metabolic pathways across taxonomical groups.}
@@ -1816,8 +1199,8 @@
       \strng{authornamehash}{213bdf5df62c74f9cf24c542b19a8033}
       \strng{authorfullhash}{9a81174d9e0640b7a7bfa9500f17e54e}
       \strng{authorfullhashraw}{9a81174d9e0640b7a7bfa9500f17e54e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0006-3002}
@@ -1859,8 +1242,8 @@
       \strng{authornamehash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhashraw}{b9a5e2c88543b957544f1ae9a5428e84}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1398-9219}
@@ -1904,8 +1287,8 @@
       \strng{authornamehash}{0f75efa4c26326c215f952e07eda412f}
       \strng{authorfullhash}{0f75efa4c26326c215f952e07eda412f}
       \strng{authorfullhashraw}{0f75efa4c26326c215f952e07eda412f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{There has been increasing interest in recent years in describing the lateral organization of membranes and the formation of membrane domains. Much of the focus in this area has been on the formation of cholesterol-rich domains in mammalian membranes. However, it is likely that there are domains in all biological membranes. One of the challenges has been to define the chemical composition, lifetime and size of these domains. There is evidence that bacteria have domains that are enriched in cardiolipin. In addition, the formation of lipid domains can be induced in bacteria by clustering negatively charged lipids with polycationic substances. Many antimicrobial compounds have multiple positive charges. Such polycationic compounds can sequester anionic lipids to induce lipid phase separation. The molecular interactions among lipids and their lateral packing density will be different in a domain from its environment. This will lead to phase boundary defects that will lower the permeability barrier between the cell and its surroundings. The formation of these clusters of anionic lipids may also alter the stability or composition of existing membrane domains that may affect bacterial function. Interestingly many antimicrobial agents are polycationic and therefore likely have some effect in promoting lipid phase segregation between anionic and zwitterionic lipids. However, this mechanism is expected to be most important for substances with sequential positive charges contained within a flexible molecule that can adapt to the arrangement of charged groups on the surface of the bacterial cell. When this mechanism is dominant it can allow the prediction of the bacterial species that will be most affected by the agent as a consequence of the nature of the lipid composition of the bacterial membrane.}
@@ -1950,8 +1333,8 @@
       \strng{authornamehash}{d0602f96df866fe1064025c62a140784}
       \strng{authorfullhash}{d0602f96df866fe1064025c62a140784}
       \strng{authorfullhashraw}{d0602f96df866fe1064025c62a140784}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1740-1534}
@@ -2423,8 +1806,8 @@
       \strng{authornamehash}{cb05473bb8208cc319d21f4499888a09}
       \strng{authorfullhash}{110e620c82099056f6e0bb19e2775ca3}
       \strng{authorfullhashraw}{110e620c82099056f6e0bb19e2775ca3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are part of the innate immune defense mechanism of many organisms. Although AMPs have been essentially studied and developed as potential alternatives for fighting infectious diseases, their use as anticancer peptides (ACPs) in cancer therapy either alone or in combination with other conventional drugs has been regarded as a therapeutic strategy to explore. As human cancer remains a cause of high morbidity and mortality worldwide, an urgent need of new, selective and more efficient drugs is evident. Even though ACPs are expected to be selective towards tumor cells without impairing the normal body physiological functions, the development of a selective ACP has been a challenge. It is not yet possible to predict antitumor activity based on ACPs structures. ACPs are unique molecules when compared to the actual chemotherapeutic arsenal available for cancer treatment and display a variety of modes of action which in some types of cancer seem to co-exist. Regardless the debate surrounding the definition of structure-activity relationships for ACPs, great effort has been invested in ACP design and the challenge of improving effective killing of tumor cells remains. As detailed studies on ACPs mechanisms of action are crucial for optimizing drug development, in this review we provide an overview of the literature concerning peptides’ structure, modes of action, selectivity and efficacy and also summarize some of the many ACPs studied and/or developed for targeting different solid and hematologic malignancies with special emphasis on the first group. Strategies described for drug development and for increasing peptide selectivity towards specific cells while reducing toxicity are also discussed.}
@@ -2457,8 +1840,8 @@
       \strng{authornamehash}{e0e5b897b79c166580afab519667b128}
       \strng{authorfullhash}{e0e5b897b79c166580afab519667b128}
       \strng{authorfullhashraw}{e0e5b897b79c166580afab519667b128}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Licencia de la Universidade de Santiago de Compostela (USC)}
@@ -2491,8 +1874,8 @@
       \strng{authornamehash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhashraw}{280c9c28b5987fd68cba3c8a67f28bee}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -3031,9 +2414,9 @@
       \strng{authornamehash}{78afc21feb29f8598c7d162d17618fd8}
       \strng{authorfullhash}{03f2fb6a8dfb7f2119a944cd1ac135f8}
       \strng{authorfullhashraw}{03f2fb6a8dfb7f2119a944cd1ac135f8}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
@@ -3091,8 +2474,8 @@
       \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
       \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1664-302X}
@@ -3140,8 +2523,8 @@
       \strng{authornamehash}{a6a90793c88212bac9c7b0bb653f343e}
       \strng{authorfullhash}{039844badd73b1a10db5ef050d06a14b}
       \strng{authorfullhashraw}{039844badd73b1a10db5ef050d06a14b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are molecules with an amphipathic structure that enables them to interact with bacterial membranes. This interaction can lead to membrane crossing and disruption with pore formation, culminating in cell death. They are produced naturally in various organisms, including humans, animals, plants and microorganisms. In higher animals, they are part of the innate immune system, where they counteract infection by bacteria, fungi, viruses and parasites. AMPs can also be designed de novo by bioinformatic approaches or selected from combinatorial libraries, and then produced by chemical or recombinant procedures. Since their discovery, AMPs have aroused interest as potential antibiotics, although few have reached the market due to stability limits or toxicity. Here, we describe the development phase and a number of clinical trials of antimicrobial peptides. We also provide an update on AMPs in the pharmaceutical industry and an overall view of their therapeutic market. Modifications to peptide structures to improve stability in vivo and bioavailability are also described.}
@@ -3187,8 +2570,8 @@
       \strng{authornamehash}{4fe6086c5bf4620d106c3a1ac0aa7c77}
       \strng{authorfullhash}{37bb51112aca7b23433b48be20b5c0a5}
       \strng{authorfullhashraw}{37bb51112aca7b23433b48be20b5c0a5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{SUMMARY Antimicrobial host defense peptides are produced by all complex organisms as well as some microbes and have diverse and complex antimicrobial activities. Collectively these peptides demonstrate a broad range of antiviral and antibacterial activities and modes of action, and it is important to distinguish between direct microbicidal and indirect activities against such pathogens. The structural requirements of peptides for antiviral and antibacterial activities are evaluated in light of the diverse set of primary and secondary structures described for host defense peptides. Peptides with antifungal and antiparasitic activities are discussed in less detail, although the broad-spectrum activities of such peptides indicate that they are important host defense molecules. Knowledge regarding the relationship between peptide structure and function as well as their mechanism of action is being applied in the design of antimicrobial peptide variants as potential novel therapeutic agents.}
@@ -3246,8 +2629,8 @@
       \strng{authornamehash}{35b9195b76c35f2858eae7c1f5717fc8}
       \strng{authorfullhash}{34a88d335cad3f5552a18319387fc739}
       \strng{authorfullhashraw}{34a88d335cad3f5552a18319387fc739}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1474-1784}
@@ -3460,78 +2843,6 @@
       \verb http://www.ncbi.nlm.nih.gov/pubmed/12615953
       \endverb
     \endentry
-    \entry{Li2021}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=f7b11722682462e6e4e81e1ad14459d4}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Shuqin},
-           giveni={S\bibinitperiod}}}%
-        {{hash=338bcbe10ee73ff6acd34b313c911929}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Yajie},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=c5c8aa6d86c19c1c38871bc6c114a54f}{%
-           family={Xue},
-           familyi={X\bibinitperiod},
-           given={Zihan},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=ff21468a838b8833b6eaefb39d89f1a2}{%
-           family={Jia},
-           familyi={J\bibinitperiod},
-           given={Yanan},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=3e1f0e5c79944a684b0e981db2d979bf}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Ruilin},
-           giveni={R\bibinitperiod}}}%
-        {{hash=b6a00aa08909067e2babd8ad41bf59a0}{%
-           family={He},
-           familyi={H\bibinitperiod},
-           given={Chengwei},
-           giveni={C\bibinitperiod}}}%
-        {{hash=889f6ab642d54f16ff96c9163fe8d02f}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Haixia},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{6dbf1533bea154bc3d0894f8b78706e6}
-      \strng{fullhash}{a8ea2bffd2691e66c627901482fc7013}
-      \strng{fullhashraw}{a8ea2bffd2691e66c627901482fc7013}
-      \strng{bibnamehash}{a8ea2bffd2691e66c627901482fc7013}
-      \strng{authorbibnamehash}{a8ea2bffd2691e66c627901482fc7013}
-      \strng{authornamehash}{6dbf1533bea154bc3d0894f8b78706e6}
-      \strng{authorfullhash}{a8ea2bffd2691e66c627901482fc7013}
-      \strng{authorfullhashraw}{a8ea2bffd2691e66c627901482fc7013}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{09242244}
-      \field{journaltitle}{Trends in Food Science \& Technology}
-      \field{month}{3}
-      \field{title}{The structure-mechanism relationship and mode of actions of antimicrobial peptides: A review}
-      \field{volume}{109}
-      \field{year}{2021}
-      \field{pages}{103\bibrangedash 115}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1016/j.tifs.2021.01.005
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S092422442100008X
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S092422442100008X
-      \endverb
-      \keyw{Activity mechanism,Antimicrobial peptides,Intracellular targets,Membrane,Research methods,Structure-activity relationship}
-    \endentry
     \entry{1z64}{article}{}{}
       \name{author}{5}{}{%
         {{hash=6a4569bcb1ffaaa0493e132fce30986c}{%
@@ -3672,8 +2983,8 @@
       \strng{authornamehash}{8008c7515be6047b35f072c9de3ad905}
       \strng{authorfullhash}{de6a217425cafe9eb8878235da280ddc}
       \strng{authorfullhashraw}{de6a217425cafe9eb8878235da280ddc}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry}
@@ -3713,8 +3024,8 @@
       \strng{authornamehash}{70aa1a8eb3df1fb617363b9503af377a}
       \strng{authorfullhash}{70aa1a8eb3df1fb617363b9503af377a}
       \strng{authorfullhashraw}{70aa1a8eb3df1fb617363b9503af377a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Protein Data Bank (PDB) is the single global archive of experimentally determined three-dimensional (3D) structure data of biological macromolecules. Since 2003, the PDB has been managed by the Worldwide Protein Data Bank (wwPDB; wwpdb.org), an international consortium that collaboratively oversees deposition, validation, biocuration, and open access dissemination of 3D macromolecular structure data. The PDB Core Archive houses 3D atomic coordinates of more than 144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules and related experimental data and metadata. Structure and experimental data/metadata are also stored in the PDB Core Archive using the readily extensible wwPDB PDBx/mmCIF master data format, which will continue to evolve as data/metadata from new experimental techniques and structure determination methods are incorporated by the wwPDB. Impacts of the recently developed universal wwPDB OneDep deposition/validation/biocuration system and various methods-specific wwPDB Validation Task Forces on improving the quality of structures and data housed in the PDB Core Archive are described together with current challenges and future plans.}
@@ -3766,8 +3077,8 @@
       \strng{authornamehash}{dfbbe76441efa53801a463039634d113}
       \strng{authorfullhash}{976d1ed0327061c7ba148a0cdc2184ed}
       \strng{authorfullhashraw}{976d1ed0327061c7ba148a0cdc2184ed}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{VMD is a molecular graphics program designed for the display and analysis of molecular assemblies, in particular biopolymers such as proteins and nucleic acids. VMD can simultaneously display any number of structures using a wide variety of rendering styles and coloring methods. Molecules are displayed as one or more “representations,” in which each representation embodies a particular rendering method and coloring scheme for a selected subset of atoms. The atoms displayed in each representation are chosen using an extensive atom selection syntax, which includes Boolean operators and regular expressions. VMD provides a complete graphical user interface for program control, as well as a text interface using the Tcl embeddable parser to allow for complex scripts with variable substitution, control loops, and function calls. Full session logging is supported, which produces a VMD command script for later playback. High-resolution raster images of displayed molecules may be produced by generating input scripts for use by a number of photorealistic image-rendering applications. VMD has also been expressly designed with the ability to animate molecular dynamics (MD) simulation trajectories, imported either from files or from a direct connection to a running MD simulation. VMD is the visualization component of MDScope, a set of tools for interactive problem solving in structural biology, which also includes the parallel MD program NAMD, and the MDCOMM software used to connect the visualization and simulation programs. VMD is written in C++, using an object-oriented design; the program, including source code and extensive documentation, is freely available via anonymous ftp and through the World Wide Web.}
@@ -3789,6 +3100,78 @@
       \verb https://www.sciencedirect.com/science/article/pii/0263785596000185
       \endverb
       \keyw{molecular modeling,molecular dynamics visualization,interactive visualization}
+    \endentry
+    \entry{Li2021}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=f7b11722682462e6e4e81e1ad14459d4}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shuqin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=338bcbe10ee73ff6acd34b313c911929}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yajie},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c5c8aa6d86c19c1c38871bc6c114a54f}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Zihan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ff21468a838b8833b6eaefb39d89f1a2}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Yanan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3e1f0e5c79944a684b0e981db2d979bf}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ruilin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b6a00aa08909067e2babd8ad41bf59a0}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Chengwei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=889f6ab642d54f16ff96c9163fe8d02f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Haixia},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6dbf1533bea154bc3d0894f8b78706e6}
+      \strng{fullhash}{a8ea2bffd2691e66c627901482fc7013}
+      \strng{fullhashraw}{a8ea2bffd2691e66c627901482fc7013}
+      \strng{bibnamehash}{a8ea2bffd2691e66c627901482fc7013}
+      \strng{authorbibnamehash}{a8ea2bffd2691e66c627901482fc7013}
+      \strng{authornamehash}{6dbf1533bea154bc3d0894f8b78706e6}
+      \strng{authorfullhash}{a8ea2bffd2691e66c627901482fc7013}
+      \strng{authorfullhashraw}{a8ea2bffd2691e66c627901482fc7013}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09242244}
+      \field{journaltitle}{Trends in Food Science \& Technology}
+      \field{month}{3}
+      \field{title}{The structure-mechanism relationship and mode of actions of antimicrobial peptides: A review}
+      \field{volume}{109}
+      \field{year}{2021}
+      \field{pages}{103\bibrangedash 115}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.tifs.2021.01.005
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S092422442100008X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S092422442100008X
+      \endverb
+      \keyw{Activity mechanism,Antimicrobial peptides,Intracellular targets,Membrane,Research methods,Structure-activity relationship}
     \endentry
     \entry{Scocchi2016}{article}{}{}
       \name{author}{4}{}{%
@@ -3887,8 +3270,8 @@
       \strng{authornamehash}{3d7f4e2b1ad59eef98eb73a549dca42a}
       \strng{authorfullhash}{79b8b1f4d2ceb59295ddbac7482fa3a1}
       \strng{authorfullhashraw}{79b8b1f4d2ceb59295ddbac7482fa3a1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1860-7187}
@@ -3937,8 +3320,8 @@
       \strng{authornamehash}{79d97a9f7afb8445972a37e3ad91958e}
       \strng{authorfullhash}{396fab69b5c0beefb3057298369ca89d}
       \strng{authorfullhashraw}{396fab69b5c0beefb3057298369ca89d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are key effectors of innate immunity that, beyond their canonical activity, exhibit promising therapeutic potential against cancer and cellular senescence. Their efficacy relies on selective membrane disruption driven by specific lipid signatures, yet quantifying these interactions in complex bilayer systems remains challenging. Lipid monolayers serve as powerful reductionist models to isolate the physicochemical determinants of this selectivity, effectively mimicking the outer leaflet of bacterial, cancerous, or senescent membranes. This review provides a critical analysis of how lipid composition, packing density, and phase behavior modulate AMP adsorption and insertion. We systematically integrate thermodynamic profiling (surface pressure, compressibility, mixing energy) with advanced structural and morphological characterization. Special emphasis is placed on how spectroscopic techniques (IRRAS, GIXD, SFG) and real-time microscopy (BAM, fluorescence, AFM) resolve peptide orientation, secondary structure induction, and lipid domain remodeling at the mesoscale. These experimental observables are bridged with Molecular Dynamics (MD) simulations, establishing a feedback loop between macroscopic measurements and atomistic resolution. By defining the advantages and limitations of monolayer models relative to vesicles and bilayers, we outline a rational framework for leveraging interfacial insights in the design of next-generation peptide therapeutics and nanobiotechnological applications.}
@@ -4027,8 +3410,8 @@
       \strng{authorfullhash}{89edb61e81549c2c86fc43496a5f5dcb}
       \strng{authorfullhashraw}{89edb61e81549c2c86fc43496a5f5dcb}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
@@ -4934,8 +4317,8 @@
       \strng{authornamehash}{4a92e4f0adc7d46d284a53af16d323cc}
       \strng{authorfullhash}{7cc34b3a603bc785dd3690846f886371}
       \strng{authorfullhashraw}{7cc34b3a603bc785dd3690846f886371}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cell Reports Physical Science}
@@ -4978,8 +4361,8 @@
       \strng{authornamehash}{d4fd20c590ffe172f72d722d7d4b5c97}
       \strng{authorfullhash}{e20c1bccf303f0f2129ceb4df38cf4c8}
       \strng{authorfullhashraw}{e20c1bccf303f0f2129ceb4df38cf4c8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry}
@@ -5042,8 +4425,8 @@
       \strng{authornamehash}{1b6bf982b513d2f9d6c57506178c45eb}
       \strng{authorfullhash}{97dc8dd6e5e621612c3c2cba29449af9}
       \strng{authorfullhashraw}{97dc8dd6e5e621612c3c2cba29449af9}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biophysical Journal}
@@ -5123,8 +4506,8 @@
       \strng{authornamehash}{9833161a5b78d5e78bbb29a3f03a83d7}
       \strng{authorfullhash}{10b037afa631dafebc92351359359523}
       \strng{authorfullhashraw}{10b037afa631dafebc92351359359523}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Scientific Reports}
@@ -5179,8 +4562,8 @@
       \strng{authornamehash}{dea356cc1b5658fb0828749ceaad2e92}
       \strng{authorfullhash}{b2f8bb96bd909eef51d06e4414f3ad70}
       \strng{authorfullhashraw}{b2f8bb96bd909eef51d06e4414f3ad70}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The interactions between peptides and lipids are of fundamental importance in the functioning of numerous membrane-mediated cellular processes including antimicrobial peptide action, hormone-receptor interactions, drug bioavailability across the blood-brain barrier and viral fusion processes. Moreover, a major goal of modern biotechnology is obtaining new potent pharmaceutical agents whose biological action is dependent on the binding of peptides to lipid-bilayers. Several issues need to be addressed such as secondary structure, orientation, oligomerization and localization inside the membrane. At the same time, the structural effects which the peptides cause on the lipid bilayer are important for the interactions and need to be elucidated. The structural characterization of membrane active peptides in membranes is a harsh experimental challenge. It is in fact accepted that no single experimental technique can give a complete structural picture of the interaction, but rather a combination of different techniques is necessary.}
@@ -5228,8 +4611,8 @@
       \strng{authornamehash}{5bf4fd4509e4be786222031a0d791c26}
       \strng{authorfullhash}{009519fa1732f7e6957b1b87924d2efe}
       \strng{authorfullhashraw}{009519fa1732f7e6957b1b87924d2efe}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Circular dichroism (CD) is being increasingly recognised as a valuable technique for examining the structure of proteins in solution. However, the value of many studies using CD is compromised either by inappropriate experimental design or by lack of attention to key aspects of instrument calibration or sample characterisation. In this article, we summarise the basis of the CD approach and its application to the study of proteins, and then present clear guidelines on how reliable data can be obtained and analysed.}
@@ -5283,8 +4666,8 @@
       \strng{authornamehash}{a465a8f197e1fb87d5a21e7f169e90af}
       \strng{authorfullhash}{924c0e8dc86ec97ef0564be42a2afd41}
       \strng{authorfullhashraw}{924c0e8dc86ec97ef0564be42a2afd41}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Accounts of Chemical Research}
@@ -5343,8 +4726,8 @@
       \strng{editornamehash}{72597fb6fcfa2a36c04dcf9a3bf5a019}
       \strng{editorfullhash}{72597fb6fcfa2a36c04dcf9a3bf5a019}
       \strng{editorfullhashraw}{72597fb6fcfa2a36c04dcf9a3bf5a019}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This chapter describes the application of NMR spectroscopy to the determination of the identity, content, structure and purity of peptides. Both 1D and 2D NMR examples are presented for both 1H and other nuclei. NMR spectroscopy is a nondestructive technique requiring limited sample pretreatment and development time. The limited sample pretreatment reduces the experimental time and variations due to handling, thereby increasing robustness. NMR spectroscopy can distinguish between very closely related peptides. It is especially suited for the determination of unrelated impurities such as process-related impurities and extractables/leachables. NMR spectroscopy is very sensitive to higher-order structure. Although NMR equipment in itself is expensive, the actual cost of an NMR spectrum is low owing to automation and limited consumables.}
@@ -5395,8 +4778,8 @@
       \strng{authorfullhash}{fc41396e313a34e2f54e0ee284a21296}
       \strng{authorfullhashraw}{fc41396e313a34e2f54e0ee284a21296}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{AMPs are short, mainly cationic membrane-active peptides found in all living organism. They perform diverse roles including signaling and acting as a line of defense against bacterial infections. AMPs have been extensively investigated as templates to facilitate the development of novel antimicrobial therapeutics. Understanding the interplay between these membrane-active peptides and the lipid membranes is considered to be a significant step in elucidating the specific mechanism of action of AMPs against prokaryotic and eukaryotic cells to aid the development of new therapeutics. In this review, we have provided a brief overview of various NMR techniques commonly used for studying AMP structure and AMP-membrane interactions in model membranes and whole cells.}
@@ -5442,8 +4825,8 @@
       \strng{authornamehash}{58b23e0160aad56acdfda85b09fed7fb}
       \strng{authorfullhash}{58b23e0160aad56acdfda85b09fed7fb}
       \strng{authorfullhashraw}{58b23e0160aad56acdfda85b09fed7fb}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biophysical Journal}
@@ -5483,8 +4866,8 @@
       \strng{authornamehash}{266c75af83cb1e8d47a266b62d21b934}
       \strng{authorfullhash}{aad4c2b40789f396f35142bb4d3398d9}
       \strng{authorfullhashraw}{aad4c2b40789f396f35142bb4d3398d9}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Physical Chemistry B}
@@ -5529,8 +4912,8 @@
       \strng{authornamehash}{e261e74daa0a2f8d4d8d47ced8605c97}
       \strng{authorfullhash}{e261e74daa0a2f8d4d8d47ced8605c97}
       \strng{authorfullhashraw}{e261e74daa0a2f8d4d8d47ced8605c97}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the American Chemical Society}
@@ -5997,8 +5380,8 @@
       \strng{authornamehash}{76fd2c09c0531f0db12db90559343f90}
       \strng{authorfullhash}{76fd2c09c0531f0db12db90559343f90}
       \strng{authorfullhashraw}{76fd2c09c0531f0db12db90559343f90}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Using a combination of simulations of alamethicin and other antimicrobial peptides in different environments, we discuss a number of pertinent problems in the biophysics of peptide–lipid interactions and ion channels. Molecular dynamics simulations can be used to obtain detailed information about the structure and dynamics of peptides in membrane environments. Such simulations have yielded interesting information on the dynamics of membrane proteins and of water and ions in ion channels. However, reliably simulating binding to membranes, insertion into membranes, and aggregation of peptides both in and at the surface of membranes remain challenging problems. © 2001 John Wiley \& Sons, Inc. Int J Quant Chem 83: 166–179, 2001}
@@ -6057,8 +5440,8 @@
       \strng{authornamehash}{521eaf63feb6c192cc3166296eb64a38}
       \strng{authorfullhash}{22db2573886fd084a0319c8a56fff761}
       \strng{authorfullhashraw}{22db2573886fd084a0319c8a56fff761}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{npj Quantum Information}
@@ -6119,8 +5502,8 @@
       \strng{authornamehash}{c3cc1ed39a5c3338c0b0cebe54d20927}
       \strng{authorfullhash}{f6ad76195c40b6797e590083834d8899}
       \strng{authorfullhashraw}{f6ad76195c40b6797e590083834d8899}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Quantum computers can in principle solve certain problems exponentially more quickly than their classical counterparts. We have not yet reached the advent of useful quantum computation, but when we do, it will affect nearly all scientific disciplines. In this review, we examine how current quantum algorithms could revolutionize computational biology and bioinformatics. There are potential benefits across the entire field, from the ability to process vast amounts of information and run machine learning algorithms far more efficiently, to algorithms for quantum simulation that are poised to improve computational calculations in drug discovery, to quantum algorithms for optimization that may advance fields from protein structure prediction to network analysis. However, these exciting prospects are susceptible to “hype,” and it is also important to recognize the caveats and challenges in this new technology. Our aim is to introduce the promise and limitations of emerging quantum computing technologies in the areas of computational molecular biology and bioinformatics. This article is categorized under: Structure and Mechanism > Computational Biochemistry and Biophysics Data Science > Computer Algorithms and Programming Electronic Structure Theory > Ab Initio Electronic Structure Methods}
@@ -6326,8 +5709,8 @@
       \strng{authornamehash}{385b84ff9ec134408fea9aeba42f4525}
       \strng{authorfullhash}{fa5dce0980388f0460da0632f0c9ade1}
       \strng{authorfullhashraw}{fa5dce0980388f0460da0632f0c9ade1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort, the structures of around 100,000 unique proteins have been determined, but this represents a small fraction of the billions of known protein sequences. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’—has been an important open research problem for more than 50 years. Despite recent progress, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14), demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.}
@@ -6388,8 +5771,8 @@
       \strng{authornamehash}{a5901dc1df2f5cdfdfc35c364544fbfc}
       \strng{authorfullhash}{6eaef0870fc6fd6dcc55755d9ad424f2}
       \strng{authorfullhashraw}{6eaef0870fc6fd6dcc55755d9ad424f2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Molecular dynamics simulations capture the behavior of biological macromolecules in full atomic detail, but their computational demands, combined with the challenge of appropriately modeling the relevant physics, have historically restricted their length and accuracy. Dramatic recent improvements in achievable simulation speed and the underlying physical models have enabled atomic-level simulations on timescales as long as milliseconds that capture key biochemical processes such as protein folding, drug binding, membrane transport, and the conformational changes critical to protein function. Such simulation may serve as a computational microscope, revealing biomolecular mechanisms at spatial and temporal scales that are difficult to observe experimentally. We describe the rapidly evolving state of the art for atomic-level biomolecular simulation, illustrate the types of biological discoveries that can now be made through simulation, and discuss challenges motivating continued innovation in this field.}
@@ -6461,8 +5844,8 @@
       \strng{editornamehash}{ff3bfabb463cffe240888f0587dbc760}
       \strng{editorfullhash}{ff3bfabb463cffe240888f0587dbc760}
       \strng{editorfullhashraw}{ff3bfabb463cffe240888f0587dbc760}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The application of molecular dynamics (MD) simulations is now firmly established as a strategy to help understanding the activity of biological systems, being routinely applied to investigate the structure, dynamics and thermodynamics of biological molecules and their complexes. Commonly available biomolecular force fields like AMBER, CHARMM, OPLS, and GROMOS contain sets of molecular mechanical parameters for the 20 natural amino acid residues and for a limited set of additional structural elements, allowing accurate MD simulations to be performed for a vast number of proteins and enzymes that are composed simply by such elements. For more diverse biological systems, such as those containing covalently bound metal atoms, no parameters are normally available to describe the specific interactions formed between the metal and the amino acid residues, limiting in practice the direct application of MD simulations to the study of these systems. This chapter presents the typical difficulties normally encountered when trying to run MD simulations on a metalloenzyme, and introduces common solutions and strategies to circumvent these problems, illustrating also the wide range of catalytic relevant properties that can be obtained from such simulations. The zinc metalloenzyme farnesyltransferase is used to illustrate these aspects.}
@@ -6779,8 +6162,8 @@
       \strng{authornamehash}{c2ccd5a62111861f450f8e14a4cb8790}
       \strng{authorfullhash}{c2ccd5a62111861f450f8e14a4cb8790}
       \strng{authorfullhashraw}{c2ccd5a62111861f450f8e14a4cb8790}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -6827,8 +6210,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -6875,8 +6258,8 @@
       \strng{authorfullhash}{81d22f9eb204dd12335f933f797d8869}
       \strng{authorfullhashraw}{81d22f9eb204dd12335f933f797d8869}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00218979}
@@ -6918,8 +6301,8 @@
       \strng{authornamehash}{db3457a5be5bcbb5d8935986f68c2507}
       \strng{authorfullhash}{db3457a5be5bcbb5d8935986f68c2507}
       \strng{authorfullhashraw}{db3457a5be5bcbb5d8935986f68c2507}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -6960,8 +6343,8 @@
       \strng{authornamehash}{de1fb5702a5bfaecaf843b90fd3ef692}
       \strng{authorfullhash}{de1fb5702a5bfaecaf843b90fd3ef692}
       \strng{authorfullhashraw}{de1fb5702a5bfaecaf843b90fd3ef692}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0556-2791}
@@ -7470,8 +6853,8 @@
       \strng{translatornamehash}{d70ecb00d14225c9fd658a2f89d64cc4}
       \strng{translatorfullhash}{d70ecb00d14225c9fd658a2f89d64cc4}
       \strng{translatorfullhashraw}{d70ecb00d14225c9fd658a2f89d64cc4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0520088177}
@@ -7527,8 +6910,8 @@
       \strng{authornamehash}{d2631a28b2de4f4a5edef69f3a220bab}
       \strng{authorfullhash}{f3e8ca041ac3265db4b2051df968c986}
       \strng{authorfullhashraw}{f3e8ca041ac3265db4b2051df968c986}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Living Journal of Computational Molecular Science}
@@ -7592,8 +6975,8 @@
       \strng{editornamehash}{7f6609f9d8b1e2cb4d7164d968b083ee}
       \strng{editorfullhash}{7f6609f9d8b1e2cb4d7164d968b083ee}
       \strng{editorfullhashraw}{7f6609f9d8b1e2cb4d7164d968b083ee}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this chapter we review the basic features and the principles underlying molecular mechanics force fields commonly used in molecular modeling of biological macromolecules. We start by summarizing the historical background and then describe classical pairwise additive potential energy functions. We introduce the problem of the calculation of nonbonded interactions, of particular importance for charged macromolecules. Different parameterization philosophies are then presented, followed by a section on force field validation. We conclude with a brief overview on future perspectives for the development of classical force fields.}
@@ -9471,86 +8854,6 @@
       \field{pages}{39\bibrangedash 65}
       \range{pages}{27}
     \endentry
-    \entry{Levinthal_paradox}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=a4b954c248c62a1efadd8e5bf9425e37}{%
-           family={{Levinthal, Cyrus}},
-           familyi={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{fullhash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{fullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{bibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorbibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authornamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorfullhash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorfullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{J. Chim. Phys.}
-      \field{title}{Are there pathways for protein folding?}
-      \field{volume}{65}
-      \field{year}{1968}
-      \field{pages}{44\bibrangedash 45}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.1051/jcp/1968650044
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1051/jcp/1968650044
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1051/jcp/1968650044
-      \endverb
-    \endentry
-    \entry{Levinthal_paradox_2}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=849420acb54d842586fb16952e69bd53}{%
-           family={Dill},
-           familyi={D\bibinitperiod},
-           given={Ken\bibnamedelima A.},
-           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=1257ee4002a7399c60126989d6b3f237}{%
-           family={MacCallum},
-           familyi={M\bibinitperiod},
-           given={Justin\bibnamedelima L.},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \strng{namehash}{3280fac4e2f192c60604f22264684d07}
-      \strng{fullhash}{3280fac4e2f192c60604f22264684d07}
-      \strng{fullhashraw}{3280fac4e2f192c60604f22264684d07}
-      \strng{bibnamehash}{3280fac4e2f192c60604f22264684d07}
-      \strng{authorbibnamehash}{3280fac4e2f192c60604f22264684d07}
-      \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
-      \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
-      \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
-      \field{journaltitle}{Science}
-      \field{number}{6110}
-      \field{title}{The Protein-Folding Problem, 50 Years On}
-      \field{volume}{338}
-      \field{year}{2012}
-      \field{pages}{1042\bibrangedash 1046}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1126/science.1219021
-      \endverb
-      \verb{eprint}
-      \verb https://www.science.org/doi/pdf/10.1126/science.1219021
-      \endverb
-      \verb{urlraw}
-      \verb https://www.science.org/doi/abs/10.1126/science.1219021
-      \endverb
-      \verb{url}
-      \verb https://www.science.org/doi/abs/10.1126/science.1219021
-      \endverb
-    \endentry
     \entry{ROSETTA}{article}{}{}
       \name{author}{20}{}{%
         {{hash=31ffdbd95626f7e8fc1439784899af83}{%
@@ -9835,6 +9138,203 @@
       \endverb
       \verb{url}
       \verb https://www.science.org/doi/abs/10.1126/science.add2187
+      \endverb
+    \endentry
+    \entry{SUN2026102685}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=1eb54dffd12287e68d5495c22e4cabbc}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Zehua},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a566d12da36e018f4db77e15cedcd7a3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=be740b1814ff827c080748ea72316aef}{%
+           family={Kuang},
+           familyi={K\bibinitperiod},
+           given={Shibo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c76ffc54811922300bbf7a579468234e}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Jiangning},
+           giveni={J\bibinitperiod}}}%
+        {{hash=642e4138180df95f12597b5cca1f773d}{%
+           family={{de la Fuente-Nunez}},
+           familyi={d\bibinitperiod},
+           given={Cesar},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{72b9f899d5d00b0e52b2ea016aa0b5fd}
+      \strng{fullhash}{2bb0dad381cb9d61b9586a74dc104c60}
+      \strng{fullhashraw}{2bb0dad381cb9d61b9586a74dc104c60}
+      \strng{bibnamehash}{2bb0dad381cb9d61b9586a74dc104c60}
+      \strng{authorbibnamehash}{2bb0dad381cb9d61b9586a74dc104c60}
+      \strng{authornamehash}{72b9f899d5d00b0e52b2ea016aa0b5fd}
+      \strng{authorfullhash}{2bb0dad381cb9d61b9586a74dc104c60}
+      \strng{authorfullhashraw}{2bb0dad381cb9d61b9586a74dc104c60}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The global escalation of antibiotic resistance has renewed interest in antimicrobial peptides (AMPs) as promising alternatives to conventional antibiotics. Although extensive experimental evidence supports their effectiveness against drug-resistant pathogens, identifying new candidates remains time-consuming and labor-intensive. Recent advances in artificial intelligence (AI) are helping to alleviate this bottleneck by accelerating the discovery of AMPs. In particular, generative approaches, including variational autoencoders (VAEs), generative adversarial networks (GANs), and diffusion models, have enabled the de novo design of AMPs with potent activity and reduced toxicity. Despite this progress, key challenges remain, including dataset quality and bias, the calibration and reliability of activity/toxicity prediction, controllable generation under realistic constraints, and rigorous, reproducible validation. This review summarizes recent advances in generative models for AMP discovery, compares different modeling strategies, and outlines mainstream validation methods used to assess peptide efficacy and safety. We provide a systematic comparison and new insights for peptide-centered generative modeling, discuss current limitations and unresolved questions, and propose practical considerations and future directions to guide the development of AMP generation models that are effective, safe, and clinically translatable.}
+      \field{issn}{1367-5931}
+      \field{journaltitle}{Current Opinion in Chemical Biology}
+      \field{title}{From generation to validation: Deep generative models for antimicrobial peptide discovery}
+      \field{volume}{93}
+      \field{year}{2026}
+      \field{pages}{102685}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cbpa.2026.102685
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1367593126000347
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1367593126000347
+      \endverb
+    \endentry
+    \entry{q_adv}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=068222b65b72f8fc41261b1a56b40002}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Bela},
+           giveni={B\bibinitperiod}}}%
+        {{hash=964ccce884d5c27e980e285b18d587cd}{%
+           family={Bravyi},
+           familyi={B\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+        {{hash=336c60bdadf6471997c9682dacd211a2}{%
+           family={Motta},
+           familyi={M\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9fa3b07f3d74fe2c76629514daf4277d}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Garnet\bibnamedelima Kin-Lic},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d57bab495922f9ac31059e757ecb25d}
+      \strng{fullhash}{c5b5d720030e7eec230957e12f4fa82c}
+      \strng{fullhashraw}{c5b5d720030e7eec230957e12f4fa82c}
+      \strng{bibnamehash}{c5b5d720030e7eec230957e12f4fa82c}
+      \strng{authorbibnamehash}{c5b5d720030e7eec230957e12f4fa82c}
+      \strng{authornamehash}{3d57bab495922f9ac31059e757ecb25d}
+      \strng{authorfullhash}{c5b5d720030e7eec230957e12f4fa82c}
+      \strng{authorfullhashraw}{c5b5d720030e7eec230957e12f4fa82c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As we begin to reach the limits of classical computing, quantum computing has emerged as a technology that has captured the imagination of the scientific world. While for many years, the ability to execute quantum algorithms was only a theoretical possibility, recent advances in hardware mean that quantum computing devices now exist that can carry out quantum computation on a limited scale. Thus, it is now a real possibility, and of central importance at this time, to assess the potential impact of quantum computers on real problems of interest. One of the earliest and most compelling applications for quantum computers is Feynman’s idea of simulating quantum systems with many degrees of freedom. Such systems are found across chemistry, physics, and materials science. The particular way in which quantum computing extends classical computing means that one cannot expect arbitrary simulations to be sped up by a quantum computer, thus one must carefully identify areas where quantum advantage may be achieved. In this review, we briefly describe central problems in chemistry and materials science, in areas of electronic structure, quantum statistical mechanics, and quantum dynamics that are of potential interest for solution on a quantum computer. We then take a detailed snapshot of current progress in quantum algorithms for ground-state, dynamics, and thermal-state simulation and analyze their strengths and weaknesses for future developments.}
+      \field{issn}{0009-2665}
+      \field{journaltitle}{Chemical Reviews}
+      \field{month}{10}
+      \field{number}{22}
+      \field{title}{Quantum Algorithms for Quantum Chemistry and Quantum Materials Science}
+      \field{volume}{120}
+      \field{year}{2020}
+      \field{pages}{12685\bibrangedash 12717}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1021/acs.chemrev.9b00829
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.acs.org/chreay/article-pdf/120/22/12685/13351352/cr9b00829.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.chemrev.9b00829
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.chemrev.9b00829
+      \endverb
+    \endentry
+    \entry{Levinthal_paradox}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4b954c248c62a1efadd8e5bf9425e37}{%
+           family={{Levinthal, Cyrus}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{fullhash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{fullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{bibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorbibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authornamehash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorfullhash}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{authorfullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Chim. Phys.}
+      \field{title}{Are there pathways for protein folding?}
+      \field{volume}{65}
+      \field{year}{1968}
+      \field{pages}{44\bibrangedash 45}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1051/jcp/1968650044
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/jcp/1968650044
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/jcp/1968650044
+      \endverb
+    \endentry
+    \entry{Levinthal_paradox_2}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=849420acb54d842586fb16952e69bd53}{%
+           family={Dill},
+           familyi={D\bibinitperiod},
+           given={Ken\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1257ee4002a7399c60126989d6b3f237}{%
+           family={MacCallum},
+           familyi={M\bibinitperiod},
+           given={Justin\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{fullhash}{3280fac4e2f192c60604f22264684d07}
+      \strng{fullhashraw}{3280fac4e2f192c60604f22264684d07}
+      \strng{bibnamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorbibnamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
+      \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
+      \field{journaltitle}{Science}
+      \field{number}{6110}
+      \field{title}{The Protein-Folding Problem, 50 Years On}
+      \field{volume}{338}
+      \field{year}{2012}
+      \field{pages}{1042\bibrangedash 1046}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.1219021
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.1219021
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.1219021
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.1219021
       \endverb
     \endentry
     \entry{limitaciones_md}{article}{}{}
@@ -10224,6 +9724,496 @@
       \field{year}{2016}
       \field{pages}{023023}
       \range{pages}{1}
+    \endentry
+    \entry{paper_dani}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
+           family={Conde-Torres},
+           familyi={C\bibinithyphendelim T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5af753eb09baf32d7b6422f91309c8ea}{%
+           family={Seco-González},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=a9326694a4a84a4e71fe42b841ee1183}{%
+           family={Garcia-Fandiño},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{fullhash}{e15edafb7cba8216e98b612d82e27522}
+      \strng{fullhashraw}{e15edafb7cba8216e98b612d82e27522}
+      \strng{bibnamehash}{e15edafb7cba8216e98b612d82e27522}
+      \strng{authorbibnamehash}{e15edafb7cba8216e98b612d82e27522}
+      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{authorfullhash}{e15edafb7cba8216e98b612d82e27522}
+      \strng{authorfullhashraw}{e15edafb7cba8216e98b612d82e27522}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum computing has rapidly emerged as one of the fastest-growing research domains, driven by both technological breakthroughs and the promise of computational advantages over classical systems. This study presents a comprehensive bibliometric analysis of the global quantum computing literature from 1980 to 2025, comprising 31,662 publications indexed in Scopus and accumulating over 800,000 citations. Using advanced bibliometric techniques—including co-authorship mapping, keyword co-occurrence networks, co-citation analysis, and centrality measures—we characterize publication trends, institutional contributions, collaborative structures, and thematic evolution across the field. The results reveal exponential growth in output since 2015, led primarily by the United States, China, and Europe, with key institutions such as MIT, the Chinese Academy of Sciences, CNRS, and the University of Waterloo at the forefront. The intellectual structure exhibits a dual-core configuration, with foundational algorithmic work (e.g. Shor, Grover, Nielsen \& Chuang) tightly connected to emerging NISQ-era applications such as quantum machine learning, cryptography, and hybrid algorithms. Keyword analysis reveals the progressive expansion from core quantum algorithms toward increasingly diverse applied domains in healthcare, finance, chemistry, energy, and climate modeling. Public funding bodies (e.g. NSFC, NSF, European Commission, DOE, DoD, MoST) and private-sector investment from major technology firms are jointly driving this translational acceleration. Together, these findings provide an integrated quantitative map of the field’s evolution, offering valuable insight for future scientific policy, international collaboration, and strategic funding initiatives.}
+      \field{issn}{2196-0763}
+      \field{journaltitle}{EPJ Quantum Technology}
+      \field{number}{1}
+      \field{title}{Mapping the quantum computing landscape: growth, collaboration, and thematic convergence}
+      \field{volume}{13}
+      \field{year}{2026}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjqt/s40507-026-00464-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1140/epjqt/s40507-026-00464-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140/epjqt/s40507-026-00464-4
+      \endverb
+    \endentry
+    \entry{Palsberg2026}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=1684412f847ca2768dd69ca981ed8458}{%
+           family={Palsberg},
+           familyi={P\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=042006eac26048979dcfab0a32b86d47}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=42e29a7207204f53824864549124067e}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yufei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ba4274815a744306efe9127fafb7cabf}{%
+           family={Fefferman},
+           familyi={F\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod}}}%
+        {{hash=dfdef60a424243feb8bd3e8293c4306f}{%
+           family={Qureshi},
+           familyi={Q\bibinitperiod},
+           given={Moinuddin\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=5ccbee2a7738f95e869934110dbbebc5}{%
+           family={Ravi},
+           familyi={R\bibinitperiod},
+           given={Gokul\bibnamedelima Subramanian},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=2e863b8bdd118873050b7f1974670ab3}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Kaitlin\bibnamedelima N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=2f433fe6a0bc850a3ffbcce2ce293ac4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hanrui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5ffffa1fc038447a385e80b8b1ea80bc}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xiaodi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f35e86edce5f9a380e5b3e654407b20e}{%
+           family={Yuen},
+           familyi={Y\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e1a6f973a6b9d3ad70b36ab12503a9d}
+      \strng{fullhash}{b1f8d9061f81bfcfe7b6fe52911669f7}
+      \strng{fullhashraw}{b1f8d9061f81bfcfe7b6fe52911669f7}
+      \strng{bibnamehash}{b1f8d9061f81bfcfe7b6fe52911669f7}
+      \strng{authorbibnamehash}{b1f8d9061f81bfcfe7b6fe52911669f7}
+      \strng{authornamehash}{7e1a6f973a6b9d3ad70b36ab12503a9d}
+      \strng{authorfullhash}{b1f8d9061f81bfcfe7b6fe52911669f7}
+      \strng{authorfullhashraw}{b1f8d9061f81bfcfe7b6fe52911669f7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{title}{Computer Science Challenges in Quantum Computing: Early Fault-Tolerance and Beyond}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.48550/arXiv.2601.20247
+      \endverb
+    \endentry
+    \entry{Erol2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=439ee0c4ea3c2531a0fed8a0cf94f528}{%
+           family={Erol},
+           familyi={E\bibinitperiod},
+           given={Volkan},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{439ee0c4ea3c2531a0fed8a0cf94f528}
+      \strng{fullhash}{439ee0c4ea3c2531a0fed8a0cf94f528}
+      \strng{fullhashraw}{439ee0c4ea3c2531a0fed8a0cf94f528}
+      \strng{bibnamehash}{439ee0c4ea3c2531a0fed8a0cf94f528}
+      \strng{authorbibnamehash}{439ee0c4ea3c2531a0fed8a0cf94f528}
+      \strng{authornamehash}{439ee0c4ea3c2531a0fed8a0cf94f528}
+      \strng{authorfullhash}{439ee0c4ea3c2531a0fed8a0cf94f528}
+      \strng{authorfullhashraw}{439ee0c4ea3c2531a0fed8a0cf94f528}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprints}
+      \field{title}{Quantum Error Correction and Fault-Tolerant Computing: Recent Progress in Codes, Decoders, and Architectures}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.20944/preprints202509.2149.v2
+      \endverb
+    \endentry
+    \entry{deLeon2021}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=0f2c4b39158859afc57df279b53f7acc}{%
+           family={Leon},
+           familyi={L\bibinitperiod},
+           given={Nathalie\bibnamedelima P.},
+           giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=1f785565010d391548938e89c822afd2}{%
+           family={Itoh},
+           familyi={I\bibinitperiod},
+           given={Kohei\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c4893986fc2a190023ea8b7648a12032}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Dohun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2491f7b70a5daf3e164c660e1e5ecab4}{%
+           family={Mehta},
+           familyi={M\bibinitperiod},
+           given={Karan\bibnamedelima K.},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d0cecf6444e989668957467bb87abd53}{%
+           family={Northup},
+           familyi={N\bibinitperiod},
+           given={Tracy\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4b69b69f9d1afede801f6a9b24967597}{%
+           family={Paik},
+           familyi={P\bibinitperiod},
+           given={Hanhee},
+           giveni={H\bibinitperiod}}}%
+        {{hash=92e533c96932da69f780efabefae3b57}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=86cb4a1c415cbab82eaa476ff96a80a5}{%
+           family={Samarth},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1ebad875a44197782d8a6bdd4006de90}{%
+           family={Sangtawesin},
+           familyi={S\bibinitperiod},
+           given={Sorawis},
+           giveni={S\bibinitperiod}}}%
+        {{hash=27edb3bc4d9fddcf9e5f61fe5405f8b1}{%
+           family={Steuerman},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ead983024ce660f99b1cf8317852fea5}
+      \strng{fullhash}{8ed7281d06340742e29cd35ead68706b}
+      \strng{fullhashraw}{8ed7281d06340742e29cd35ead68706b}
+      \strng{bibnamehash}{8ed7281d06340742e29cd35ead68706b}
+      \strng{authorbibnamehash}{8ed7281d06340742e29cd35ead68706b}
+      \strng{authornamehash}{ead983024ce660f99b1cf8317852fea5}
+      \strng{authorfullhash}{8ed7281d06340742e29cd35ead68706b}
+      \strng{authorfullhashraw}{8ed7281d06340742e29cd35ead68706b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6539}
+      \field{title}{Materials Challenges and Opportunities for Quantum Computing Hardware}
+      \field{volume}{372}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1126/science.abb2823
+      \endverb
+    \endentry
+    \entry{Oukaira2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e4ae0027f7cec541cdc0dc16f9d0d019}{%
+           family={Oukaira},
+           familyi={O\bibinitperiod},
+           given={Aziz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4ae0027f7cec541cdc0dc16f9d0d019}
+      \strng{fullhash}{e4ae0027f7cec541cdc0dc16f9d0d019}
+      \strng{fullhashraw}{e4ae0027f7cec541cdc0dc16f9d0d019}
+      \strng{bibnamehash}{e4ae0027f7cec541cdc0dc16f9d0d019}
+      \strng{authorbibnamehash}{e4ae0027f7cec541cdc0dc16f9d0d019}
+      \strng{authornamehash}{e4ae0027f7cec541cdc0dc16f9d0d019}
+      \strng{authorfullhash}{e4ae0027f7cec541cdc0dc16f9d0d019}
+      \strng{authorfullhashraw}{e4ae0027f7cec541cdc0dc16f9d0d019}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Quantum Hardware Devices (QHDs): Opportunities and Challenges}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{pages}{98229\bibrangedash 98241}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2025.3576216
+      \endverb
+    \endentry
+    \entry{Croot2025}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{4}{}{%
+        {{hash=cec6895b368725ede0cc4b58a185b525}{%
+           family={Croot},
+           familyi={C\bibinitperiod},
+           given={Xanthe},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4c8deaad5886cc631e068615d9a4ad61}{%
+           family={Nowrouzi},
+           familyi={N\bibinitperiod},
+           given={Kasra},
+           giveni={K\bibinitperiod}}}%
+        {{hash=74de98ea43e15bfdf15cf8c1bf012f21}{%
+           family={Spitzer},
+           familyi={S\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=25d6da26aee11c65f74fc30344f98325}{%
+           family={Almudéver},
+           familyi={A\bibinitperiod},
+           given={Carmen\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c25dd1b766719153a8e7ba647167104}
+      \strng{fullhash}{a2cb357eebd4757fe39f47bd410d8e12}
+      \strng{fullhashraw}{a2cb357eebd4757fe39f47bd410d8e12}
+      \strng{bibnamehash}{a2cb357eebd4757fe39f47bd410d8e12}
+      \strng{authorbibnamehash}{a2cb357eebd4757fe39f47bd410d8e12}
+      \strng{authornamehash}{5c25dd1b766719153a8e7ba647167104}
+      \strng{authorfullhash}{a2cb357eebd4757fe39f47bd410d8e12}
+      \strng{authorfullhashraw}{a2cb357eebd4757fe39f47bd410d8e12}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv}
+      \field{title}{Enabling Technologies for Scalable Superconducting Quantum Computing}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arXiv.2512.15001
+      \endverb
+    \endentry
+    \entry{Shor1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7082a9c99d5d51479d4cfba6bbac2d30}{%
+           family={Shor},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{fullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{fullhashraw}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{bibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorbibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \strng{authorfullhashraw}{7082a9c99d5d51479d4cfba6bbac2d30}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{10}
+      \field{title}{Scheme for reducing decoherence in quantum computer memory}
+      \field{volume}{52}
+      \field{year}{1995}
+      \field{pages}{R2493(R)\bibrangedash R2496(R)}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.52.R2493
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.52.R2493
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.52.R2493
+      \endverb
+    \endentry
+    \entry{KITAEV20032}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=34266a35eedbd87dd79c5e408127a5e5}{%
+           family={Kitaev},
+           familyi={K\bibinitperiod},
+           given={A.Yu.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{fullhash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{fullhashraw}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{bibnamehash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{authorbibnamehash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{authornamehash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{authorfullhash}{34266a35eedbd87dd79c5e408127a5e5}
+      \strng{authorfullhashraw}{34266a35eedbd87dd79c5e408127a5e5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A two-dimensional quantum system with anyonic excitations can be considered as a quantum computer. Unitary transformations can be performed by moving the excitations around each other. Measurements can be performed by joining excitations in pairs and observing the result of fusion. Such computation is fault-tolerant by its physical nature.}
+      \field{issn}{0003-4916}
+      \field{journaltitle}{Annals of Physics}
+      \field{number}{1}
+      \field{title}{Fault-tolerant quantum computation by anyons}
+      \field{volume}{303}
+      \field{year}{2003}
+      \field{pages}{2\bibrangedash 30}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0003-4916(02)00018-0
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
+      \endverb
+    \endentry
+    \entry{Wang2026}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=cbee128e55de356eb0726d361c8920c0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhirao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a60e0af0e2de0e8b212debb063b8a268}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Junxiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=46af731f7f477beae1fdb77cec9f6cc6}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Runyu},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4ed0fe9ff8be7ddc87470570191646dd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qingyu},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=fc22c28a79d5c6fc7552b1693d5abd6b}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Qi-Ming},
+           giveni={Q\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=1067ce2c692aa49b238c1be9b3b34226}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=532f45e63f404c93fcc530704019db4d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod}}}%
+        {{hash=757128d1516d8a66b8332e8ea383b453}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Yumeng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d33643eb48b02d1dccf78e0ddb201ddb}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Jianshuo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=001b5a60b43cad93e93a32a46ae0c874}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6eeb7f2c1fa2eff006ff7b13c8d06b0d}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{14cd6d9f556ec6966bd5b3ace359ca58}
+      \strng{fullhash}{8560dae8d7c0dc6becab2c1ac402589f}
+      \strng{fullhashraw}{8560dae8d7c0dc6becab2c1ac402589f}
+      \strng{bibnamehash}{8560dae8d7c0dc6becab2c1ac402589f}
+      \strng{authorbibnamehash}{8560dae8d7c0dc6becab2c1ac402589f}
+      \strng{authornamehash}{14cd6d9f556ec6966bd5b3ace359ca58}
+      \strng{authorfullhash}{8560dae8d7c0dc6becab2c1ac402589f}
+      \strng{authorfullhashraw}{8560dae8d7c0dc6becab2c1ac402589f}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers of Physics}
+      \field{title}{A Review of Variational Quantum Algorithms: Insights into Fault-Tolerant Quantum Computing}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.48550/arXiv.2604.07909
+      \endverb
+    \endentry
+    \entry{Raseena2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=08ba78ea85e69cc59ff3f8471bda2010}{%
+           family={Raseena},
+           familyi={R\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{08ba78ea85e69cc59ff3f8471bda2010}
+      \strng{fullhash}{08ba78ea85e69cc59ff3f8471bda2010}
+      \strng{fullhashraw}{08ba78ea85e69cc59ff3f8471bda2010}
+      \strng{bibnamehash}{08ba78ea85e69cc59ff3f8471bda2010}
+      \strng{authorbibnamehash}{08ba78ea85e69cc59ff3f8471bda2010}
+      \strng{authornamehash}{08ba78ea85e69cc59ff3f8471bda2010}
+      \strng{authorfullhash}{08ba78ea85e69cc59ff3f8471bda2010}
+      \strng{authorfullhashraw}{08ba78ea85e69cc59ff3f8471bda2010}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Quantum Science and Technology}
+      \field{title}{Quantum Computing: Foundations, Algorithms, and Emerging Applications}
+      \field{volume}{4}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.3389/frqst.2025.1723319
+      \endverb
     \endentry
     \entry{hypothesis}{article}{}{}
       \name{author}{4}{}{%
@@ -11868,7 +11858,7 @@
       \strng{authornamehash}{5094bb82370c54c7c7bef0d6af0372bd}
       \strng{authorfullhash}{cbac56920a5f6d0bf5a803c89491f9b6}
       \strng{authorfullhashraw}{cbac56920a5f6d0bf5a803c89491f9b6}
-      \field{extraname}{2}
+      \field{extraname}{4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -12128,8 +12118,8 @@
       \strng{authornamehash}{ab206eb02ae330c0ddf1d7499f7485c8}
       \strng{authorfullhash}{ab206eb02ae330c0ddf1d7499f7485c8}
       \strng{authorfullhashraw}{ab206eb02ae330c0ddf1d7499f7485c8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the National Academy of Sciences}
@@ -12178,8 +12168,8 @@
       \strng{authornamehash}{0952b8288f861ce73e5898e9ec196150}
       \strng{authorfullhash}{8813ed008bec4cb462210b7d988921d1}
       \strng{authorfullhashraw}{8813ed008bec4cb462210b7d988921d1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-84-9887-473-0}
@@ -12208,8 +12198,8 @@
       \strng{authornamehash}{6c96180627881f73bf82831aa5c91c5d}
       \strng{authorfullhash}{6c96180627881f73bf82831aa5c91c5d}
       \strng{authorfullhashraw}{6c96180627881f73bf82831aa5c91c5d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We describe how the true statistical error on an average of correlated data can be obtained with ease and efficiency by a renormalization group method. The method is illustrated with numerical and analytical examples, having finite as well as infinite range correlations.}
@@ -12254,8 +12244,8 @@
       \strng{authornamehash}{876f8afa1045b9ae3db2a8af93dda664}
       \strng{authorfullhash}{876f8afa1045b9ae3db2a8af93dda664}
       \strng{authorfullhashraw}{876f8afa1045b9ae3db2a8af93dda664}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions on Information Theory}
@@ -12290,8 +12280,8 @@
       \strng{authornamehash}{e5f2549b7561cee7c94d375f97336709}
       \strng{authorfullhash}{e5f2549b7561cee7c94d375f97336709}
       \strng{authorfullhashraw}{e5f2549b7561cee7c94d375f97336709}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides encompass a wide variety of structural motifs. Many peptides have α-helical structures. The majority of these peptides are cationic and amphipathic but there are also hydrophobic α-helical peptides which possess antimicrobial activity. In addition, some β-sheet peptides have antimicrobial activity and even antimicrobial α-helical peptides which have been modified to possess a β-structure retain part of their antimicrobial activity. There are also antimicrobial peptides which are rich in a certain specific amino acid such as Trp or His. In addition, antimicrobial peptides exist with thio-ether rings, which are lipopeptides or which have macrocyclic Cys knots. In spite of the structural diversity, a common feature of the cationic antimicrobial peptides is that they all have an amphipathic structure which allows them to bind to the membrane interface. Indeed, most antimicrobial peptides interact with membranes and may be cytotoxic as a result of disturbance of the bacterial inner or outer membranes. Alternatively, a necessary but not sufficient property of these peptides may be to be able to pass through the membrane to reach a target inside the cell. The interaction of these peptides with biological membranes is not just a function of the peptide but is also modulated by the lipid components of the membrane. It is not likely that this diverse group of peptides has a single mechanism of action, but interaction of the peptides with membranes is an important requirement for most, if not all, antimicrobial peptides.}
@@ -12395,141 +12385,6 @@
       \field{note}{Lecture Notes for Physics 229}
       \field{title}{Quantum Information and Computation}
       \field{year}{1998}
-    \endentry
-    \entry{Shor1995}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=7082a9c99d5d51479d4cfba6bbac2d30}{%
-           family={Shor},
-           familyi={S\bibinitperiod},
-           given={Peter\bibnamedelima W.},
-           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \strng{fullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \strng{fullhashraw}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \strng{bibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \strng{authorbibnamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \strng{authornamehash}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \strng{authorfullhash}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \strng{authorfullhashraw}{7082a9c99d5d51479d4cfba6bbac2d30}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{4}
-      \field{journaltitle}{Phys. Rev. A}
-      \field{month}{10}
-      \field{title}{Scheme for reducing decoherence in quantum computer memory}
-      \field{volume}{52}
-      \field{year}{1995}
-      \field{pages}{R2493(R)\bibrangedash R2496(R)}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1103/PhysRevA.52.R2493
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevA.52.R2493
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevA.52.R2493
-      \endverb
-    \endentry
-    \entry{KITAEV20032}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=34266a35eedbd87dd79c5e408127a5e5}{%
-           family={Kitaev},
-           familyi={K\bibinitperiod},
-           given={A.Yu.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{34266a35eedbd87dd79c5e408127a5e5}
-      \strng{fullhash}{34266a35eedbd87dd79c5e408127a5e5}
-      \strng{fullhashraw}{34266a35eedbd87dd79c5e408127a5e5}
-      \strng{bibnamehash}{34266a35eedbd87dd79c5e408127a5e5}
-      \strng{authorbibnamehash}{34266a35eedbd87dd79c5e408127a5e5}
-      \strng{authornamehash}{34266a35eedbd87dd79c5e408127a5e5}
-      \strng{authorfullhash}{34266a35eedbd87dd79c5e408127a5e5}
-      \strng{authorfullhashraw}{34266a35eedbd87dd79c5e408127a5e5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A two-dimensional quantum system with anyonic excitations can be considered as a quantum computer. Unitary transformations can be performed by moving the excitations around each other. Measurements can be performed by joining excitations in pairs and observing the result of fusion. Such computation is fault-tolerant by its physical nature.}
-      \field{issn}{0003-4916}
-      \field{journaltitle}{Annals of Physics}
-      \field{number}{1}
-      \field{title}{Fault-tolerant quantum computation by anyons}
-      \field{volume}{303}
-      \field{year}{2003}
-      \field{pages}{2\bibrangedash 30}
-      \range{pages}{29}
-      \verb{doi}
-      \verb https://doi.org/10.1016/S0003-4916(02)00018-0
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
-      \endverb
-    \endentry
-    \entry{paper_dani}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
-           family={Conde-Torres},
-           familyi={C\bibinithyphendelim T\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=5af753eb09baf32d7b6422f91309c8ea}{%
-           family={Seco-González},
-           familyi={S\bibinithyphendelim G\bibinitperiod},
-           given={Alejandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
-           family={Piñeiro},
-           familyi={P\bibinitperiod},
-           given={Ángel},
-           giveni={Á\bibinitperiod}}}%
-        {{hash=a9326694a4a84a4e71fe42b841ee1183}{%
-           family={Garcia-Fandiño},
-           familyi={G\bibinithyphendelim F\bibinitperiod},
-           given={Rebeca},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
-      \strng{fullhash}{e15edafb7cba8216e98b612d82e27522}
-      \strng{fullhashraw}{e15edafb7cba8216e98b612d82e27522}
-      \strng{bibnamehash}{e15edafb7cba8216e98b612d82e27522}
-      \strng{authorbibnamehash}{e15edafb7cba8216e98b612d82e27522}
-      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
-      \strng{authorfullhash}{e15edafb7cba8216e98b612d82e27522}
-      \strng{authorfullhashraw}{e15edafb7cba8216e98b612d82e27522}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Quantum computing has rapidly emerged as one of the fastest-growing research domains, driven by both technological breakthroughs and the promise of computational advantages over classical systems. This study presents a comprehensive bibliometric analysis of the global quantum computing literature from 1980 to 2025, comprising 31,662 publications indexed in Scopus and accumulating over 800,000 citations. Using advanced bibliometric techniques—including co-authorship mapping, keyword co-occurrence networks, co-citation analysis, and centrality measures—we characterize publication trends, institutional contributions, collaborative structures, and thematic evolution across the field. The results reveal exponential growth in output since 2015, led primarily by the United States, China, and Europe, with key institutions such as MIT, the Chinese Academy of Sciences, CNRS, and the University of Waterloo at the forefront. The intellectual structure exhibits a dual-core configuration, with foundational algorithmic work (e.g. Shor, Grover, Nielsen \& Chuang) tightly connected to emerging NISQ-era applications such as quantum machine learning, cryptography, and hybrid algorithms. Keyword analysis reveals the progressive expansion from core quantum algorithms toward increasingly diverse applied domains in healthcare, finance, chemistry, energy, and climate modeling. Public funding bodies (e.g. NSFC, NSF, European Commission, DOE, DoD, MoST) and private-sector investment from major technology firms are jointly driving this translational acceleration. Together, these findings provide an integrated quantitative map of the field’s evolution, offering valuable insight for future scientific policy, international collaboration, and strategic funding initiatives.}
-      \field{issn}{2196-0763}
-      \field{journaltitle}{EPJ Quantum Technology}
-      \field{number}{1}
-      \field{title}{Mapping the quantum computing landscape: growth, collaboration, and thematic convergence}
-      \field{volume}{13}
-      \field{year}{2026}
-      \field{pages}{7}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1140/epjqt/s40507-026-00464-4
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1140/epjqt/s40507-026-00464-4
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1140/epjqt/s40507-026-00464-4
-      \endverb
     \endentry
     \entry{shots_quantum}{article}{}{}
       \name{author}{4}{}{%
@@ -14344,78 +14199,6 @@
       \verb https://doi.org/10.22331/q-2020-04-24-257
       \endverb
     \endentry
-    \entry{DANI_LIPIDOS}{article}{}{}
-      \name{author}{8}{}{%
-        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
-           family={Conde-Torres},
-           familyi={C\bibinithyphendelim T\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e17f7d4e7087892f5b9b2bcf5cd3be47}{%
-           family={Blanco-González},
-           familyi={B\bibinithyphendelim G\bibinitperiod},
-           given={Alexandre},
-           giveni={A\bibinitperiod}}}%
-        {{hash=5af753eb09baf32d7b6422f91309c8ea}{%
-           family={Seco-González},
-           familyi={S\bibinithyphendelim G\bibinitperiod},
-           given={Alejandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=4f24e7b93ec17e5510b1432b7a530127}{%
-           family={Suárez-Lestón},
-           familyi={S\bibinithyphendelim L\bibinitperiod},
-           given={Fabián},
-           giveni={F\bibinitperiod}}}%
-        {{hash=ead79284dd93e4ad2552a8c355f9f171}{%
-           family={Cabezón},
-           familyi={C\bibinitperiod},
-           given={Alfonso},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c3af01ba9dae34c128e83366eb694642}{%
-           family={Antelo-Riveiro},
-           familyi={A\bibinithyphendelim R\bibinitperiod},
-           given={Paula},
-           giveni={P\bibinitperiod}}}%
-        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
-           family={Piñeiro},
-           familyi={P\bibinitperiod},
-           given={Ángel},
-           giveni={Á\bibinitperiod}}}%
-        {{hash=89173c6cc73e6a66e3314aab41131d3d}{%
-           family={García-Fandiño},
-           familyi={G\bibinithyphendelim F\bibinitperiod},
-           given={Rebeca},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
-      \strng{fullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
-      \strng{fullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
-      \strng{bibnamehash}{c870df9c4e31a748d3dd724a70d0a4d5}
-      \strng{authorbibnamehash}{c870df9c4e31a748d3dd724a70d0a4d5}
-      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
-      \strng{authorfullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
-      \strng{authorfullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
-      \field{issn}{1664-3224}
-      \field{journaltitle}{Frontiers in Immunology}
-      \field{title}{Unraveling lipid and inflammation interplay in cancer, aging and infection for novel theranostic approaches}
-      \field{volume}{Volume 15 - 2024}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.3389/fimmu.2024.1320779
-      \endverb
-      \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779
-      \endverb
-      \verb{url}
-      \verb https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2024.1320779
-      \endverb
-    \endentry
     \entry{SUPEPMEM}{article}{}{}
       \name{author}{9}{}{%
         {{hash=0725024db27a38a8770fa693c59f0182}{%
@@ -14912,8 +14695,8 @@
       \strng{authorfullhash}{4301d4e71b33a38579f966e1742240a0}
       \strng{authorfullhashraw}{4301d4e71b33a38579f966e1742240a0}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Macromolecules}
@@ -14955,8 +14738,8 @@
       \strng{authorfullhash}{4301d4e71b33a38579f966e1742240a0}
       \strng{authorfullhashraw}{4301d4e71b33a38579f966e1742240a0}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Attractive inter-residue contact energies for proteins have been re-evaluated with the same assumptions and approximations used originally by us in 1985, but with a significantly larger set of protein crystal structures. An additional repulsive packing energy term, operative at higher densities to prevent overpacking, has also been estimated for all 20 amino acids as a function of the number of contacting residues, based on their observed distributions. The two terms of opposite sign are intended to be used together to provide an estimate of the overall energies of inter-residue interactions in simplified proteins without atomic details. To overcome the problem of how to utilize the many homologous proteins in the Protein Data Bank, a new scheme has been devised to assign different weights to each protein, based on similarities among amino acid sequences. A total of 1168 protein structures containing 1661 subunit sequences are actually used here. After the sequence weights have been applied, these correspond to an effective number of residue – residue contacts of 113,914, or about six times more than were used in the old analysis. Remarkably, the new attractive contact energies are nearly identical to the old ones, except for those with Leu and the rarer amino acids Trp and Met. The largest change found for Leu is surprising. The estimates of hydrophobicity from the contact energies for non-polar side-chains agree well with the experimental values. In an application of these contact energies, the sequences of 88 structurally distinct proteins in the Protein Data Bank are threaded at all possible positions without gaps into 189 different folds of proteins whose sequences differ from each other by at least 35\% sequence identity. The native structures for 73 of 88 proteins, excluding 15 exceptional proteins such as membrane proteins, are all demonstrated to have the lowest alignment energies.}
@@ -15040,8 +14823,8 @@
       \strng{authornamehash}{fa45b8cebbf46c11fa43a9281bd11c56}
       \strng{authorfullhash}{ddb599a838c9a530903c959a362cd7d6}
       \strng{authorfullhashraw}{ddb599a838c9a530903c959a362cd7d6}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The similarity in the three-dimensional structures of homologous proteins imposes strong constraints on their sequence variability. It has long been suggested that the resulting correlations among amino acid compositions at different sequence positions can be exploited to infer spatial contacts within the tertiary protein structure. Crucial to this inference is the ability to disentangle direct and indirect correlations, as accomplished by the recently introduced direct-coupling analysis (DCA). Here we develop a computationally efficient implementation of DCA, which allows us to evaluate the accuracy of contact prediction by DCA for a large number of protein domains, based purely on sequence information. DCA is shown to yield a large number of correctly predicted contacts, recapitulating the global structure of the contact map for the majority of the protein domains examined. Furthermore, our analysis captures clear signals beyond intradomain residue contacts, arising, e.g., from alternative protein conformations, ligand-mediated residue couplings, and interdomain interactions in protein oligomers. Our findings suggest that contacts predicted by DCA can be used as a reliable guide to facilitate computational predictions of alternative protein conformations, protein complex formation, and even the de novo prediction of protein domain structures, contingent on the existence of a large number of homologous sequences which are being rapidly made available due to advances in genome sequencing. In this work, we have shown the ability of mfDCA to identify, with high accuracy, residue pairs in domain families and found that mfDCA is not only able to identify intradomain contacts but also interdomain residue pairs that are part of oligomerization interfaces. One potential application is the identification of interaction interfaces for homodimers that could ultimately help in predicting complex structures. Our results might open unexplored avenues of research for which full contact maps could be estimated and used as input data for de novo protein structure identification, which is particularly interesting in the case of interdomain contacts in multidomain proteins. Ultimately, this methodology can be used with pairs of proteins rather than single proteins to identify potential protein–protein interactions. The large number of contacts correctly predicted by mfDCA prompted us to explore the extent to which our method may be used to predict the contact maps of protein domains. In Fig.\&nbsp;P1C, we show the example of the eukaryotic H-Ras protein (5). The first approximately 800 mfDCA contact predictions are displayed; they include 320 nontrivial pairs, which are separated by at least five positions along the protein backbone. The predicted contact map captures very well the native contacts. Even if not all single contacts are predicted, almost all contact clusters are identified. One of the most striking features of our results obtained using DCA is how gradually the average TP rate declines with increasing direct information ranking. This observation naturally led us to explore the information lying beyond the first 10–30 DCA predictions. For instance, how many residue contacts can be predicted if a TP rate of at least 70\% is required? As can be seen in Fig.\&nbsp;P1B, this TP rate is reached on average after the top 70 DCA predictions, where one would have obtained approximately 50 true contacts on average. In extreme cases (e.g., the family of bacterial receptors called the tripartite tricarboxylate receptors), a TP rate of \&gt;\&nbsp;70\% was present for the first 600 DCA-predicted residue pairs, therefore including more than 400 native contacts. A third cause of high-scoring long-distance pairings inferred by mfDCA is observed in the metalloenzyme domain family, which binds to metal ions. It has a high-scoring residue pair, which is separated by more than 14\&nbsp;Å when mapped to the glutathione transferase FosA of Pseudomonas aeruginosa. We observed that the two residues belonging to the different subunits of this residue pair are, however, in direct contact with the manganese “Mn(II)” ion when the enzymes are paired, or in the dimer configuration. Thus, the “direct interaction” between these residues found by mfDCA is presumably mediated through their common interaction with a third agent, the metal ion in this case. A second cause of high-scoring long-distance pairs is the occurrence of alternative domain conformations. As an illustration, we examined the domain family GerE, whose members include the DNA-binding domains of a number of proteins (response regulators) in a system known as the two-component signaling system. Using the DNA-bound domain of the nitrate/nitrite response regulator NarL of E. coli, we found that all of the top 20 DCA predictions were true contacts. However, when mapping the same pairs to the structure of the inactive, full-length response regulator of the transcriptional regulatory protein DosR of Mycobacterium tuberculosis, seven pairs were found at distances \&gt;\&nbsp;8\&nbsp;Å. A comparison between these structures shows clearly that all of the long-distance pairs involve one particular position that is significantly displaced in the full-length structure, presumably due to interaction with the (unphosphorylated) regulatory domain. First, direct correlation may be due to contacts between proteins in oligomeric complexes (i.e., complexes comprising different proteins). One example is the ATPase domain of the nitrogen regulatory protein C family transcriptional activators, which act to promote the activity of RNA polymerase. Upon activation, different subunits of this domain are known to form a multiunit ring, wrapping DNA around the complex (4). Among the top 20 mfDCA-predicted contacts, three pairs appeared to be long-distance (\&gt;\&nbsp;10\&nbsp;Å) within the domain; but they all turned out to be within 5\&nbsp;Å of the closest position in an adjacent subunit of the ring structure. More globally, out of the 131 studied domain families, 21 families feature X-ray crystal structures involving oligomers. Among the top 20 pairs that are not intradomain contacts (i.e., contacts within the same domain), about one-half turned out to be interdomain contacts (i.e., contacts between domains). The high accuracy of mfDCA predictions led us to examine whether the small fraction of “false positives” (i.e., predicted pairings located far away in the crystal structures) might also have some biological significance. We investigated various biological reasons for the appearance of such long-distance direct correlations and found the following cases. To test the general applicability of mfDCA, we analyzed 131 predominantly bacterial domain families. These families were selected (i) to be sufficiently abundant for statistical analysis (\&gt;\&nbsp;1,000 nonredundant sequences), and (ii) to feature at least two high-resolution X-ray crystal structures (resolution \&lt;\&nbsp;3\&nbsp;Å), so that the spatial proximity between predicted residue pairs could be evaluated. The selected domain families encompassed a total of 856 different solved structures listed in the Protein Data Bank. On average, 84\% of the top 20 mfDCA predictions (a minimum separation of five along the sequence) in each of the 131 families are TP contacts, whereas simple correlation analysis using mutual information reaches only a 59\% TP rate (Fig.\&nbsp;P1B). The individual TP rates of mfDCA predictions for the 131 families are distributed mostly in the range of 70–100\%. Analogous results were also observed for a collection of 25 abundant eukaryotic proteins. The performance of mfDCA is first illustrated in Fig.\&nbsp;P1A for a specific protein structure (domain) taken from the proteome (i.e., the assembly of proteins present in an organism under specific conditions) of the bacterium Escherichia coli (3). The top 20 DCA predictions, separated by at least five positions along the sequence to exclude trivial predictions, are displayed as bonds of different color: The 19 residue pairs with distances \&lt;\&nbsp;8\&nbsp;Å are shown in red, and the lone pair with a larger interresidue distance is shown in green. The mfDCA thus gave a true-positive (TP) rate of 95\% for the top 20 contacts predicted for this protein.Fig. P1.(A) Contact predictions for the Sigma-E factor of E. coli. Of the top 20 contact predictions, 19 pairs with distance \&lt;\&nbsp;8\&nbsp;Å are connected by red links, whereas the only more distant pair is shown in green, which represents a TP rate of 95\%. (B) The TP rate averaged over 131 domain families shows a very gradual decline as a function of the number of predicted contacts. The mfDCA (diamonds) clearly outperforms simple correlation analysis using mutual information (open circles). (C) Contact map prediction for the eukaryotic signaling protein Ras. Gray symbols represent the native map (cutoff of 8\&nbsp;Å), shown in both the lower and upper triangles. The colored symbols in the upper triangle indicate the contacts predicted using mfDCA, with the red squares for the TPs (like the red links in A), and green squares for the false positives (like the green link in A). Due to rapid advances in the technologies for sequencing DNA, a large number of genome projects that aim to determine the complete DNA (genome) sequence of an organism are now in existence, which is particularly the case for bacterial genomes, with approximately 1,700 completed and 8,300 ongoing (1). These genome sequences can be used to provide correlated substitution patterns for a large number of common bacterial proteins and interacting protein pairs, as well as for some abundant eukaryotic, or nonbacterial, proteins. The availability of such correlations presents opportunities to make inferences on residue contacts, that is, contacts between amino acid residues within or between proteins, and to eventually predict protein structures at various levels of organization based on sequence information alone. Crucial to this inference is the ability to disentangle direct and indirect correlations (i.e., induced through intermediate residue positions), as accomplished by the recently introduced method of direct-coupling analysis (DCA) (2), based on sophisticated tools developed in statistical physics. Here, we further develop a computationally efficient implementation of DCA, called mfDCA, an algorithm based on the mean-field approximation of DCA, which is 103 to 104 times faster than the original DCA implementation, and hence can be used to rapidly analyze large numbers of families of long protein sequences. Protein function depends crucially on the correct folding of its three-dimensional structure. The maintenance of this structure during evolution imposes strong constraints on the variability of the amino acid sequences between homologous (i.e., closely related) proteins. For example, deleterious alterations (or mutations) in one residue may have to be compensated by mutations of the residues it interacts with, leading to correlations between the amino acid compositions at different sequence positions. In essence, a particular change at one position may correlate with certain necessary changes at other positions that enable the protein to maintain its structure and function.}
