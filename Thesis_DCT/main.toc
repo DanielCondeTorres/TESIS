@@ -18,27 +18,27 @@
 \contentsline {subsection}{\numberline {1.2.3}Microbial and pathological membrane remodeling}{35}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Physicochemical basis of membrane selectivity}{36}{subsection.1.2.4}%
 \contentsline {section}{\numberline {1.3}Antimicrobial peptides as membrane-active molecules}{37}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Biological origin and functional diversity}{37}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}Biological origin and functional diversity}{38}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Sequence, physicochemical properties and structural classes}{38}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Environment-dependent folding and membrane recognition}{39}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.3}Environment-dependent folding and membrane recognition}{40}{subsection.1.3.3}%
 \contentsline {subsection}{\numberline {1.3.4}Membrane disruption and non-lytic mechanisms}{40}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Bottlenecks in AMP research and therapeutic development}{41}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Pharmacological and translational challenges}{41}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.4}Bottlenecks in AMP research and therapeutic development}{42}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Pharmacological and translational challenges}{42}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Experimental limitations in peptide-membrane characterization}{42}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Challenges for rational and environment-specific design}{42}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.3}Challenges for rational and environment-specific design}{43}{subsection.1.4.3}%
 \contentsline {section}{\numberline {1.5}Computational approaches to peptide-membrane systems}{43}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Molecular dynamics as a molecular-resolution framework}{43}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Multiscale molecular representations}{44}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Enhanced sampling and thermodynamic characterization}{45}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.2}Multiscale molecular representations}{45}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Enhanced sampling and thermodynamic characterization}{46}{subsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.5.4}Computational peptide design}{46}{subsection.1.5.4}%
-\contentsline {section}{\numberline {1.6}Quantum computing as an emerging paradigm for molecular optimization}{46}{section.1.6}%
+\contentsline {section}{\numberline {1.6}Quantum computing as an emerging paradigm for molecular optimization}{47}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Computational complexity of conformational and sequence spaces}{47}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Quantum information and Hamiltonian formulations}{47}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.2}Quantum information and Hamiltonian formulations}{48}{subsection.1.6.2}%
 \contentsline {subsection}{\numberline {1.6.3}Variational quantum algorithms}{48}{subsection.1.6.3}%
-\contentsline {subsection}{\numberline {1.6.4}Potential applications in peptide modeling and design}{48}{subsection.1.6.4}%
+\contentsline {subsection}{\numberline {1.6.4}Potential applications in peptide modeling and design}{49}{subsection.1.6.4}%
 \contentsline {subsection}{\numberline {1.6.5}Current limitations of quantum computing}{49}{subsection.1.6.5}%
 \contentsline {section}{\numberline {1.7}Scope and framework of this thesis}{50}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Dissertation structure}{50}{section.1.8}%
+\contentsline {section}{\numberline {1.8}Dissertation structure}{51}{section.1.8}%
 \contentsline {chapter}{\numberline {2}Hypothesis and objectives}{53}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Research hypotheses}{54}{section.2.1}%
 \contentsline {section}{\numberline {2.2}General and specific objectives}{54}{section.2.2}%
@@ -150,7 +150,7 @@
 \contentsline {subsection}{\numberline {6.6.2}Approximations in quantum-classical algorithms and generative models}{241}{subsection.6.6.2}%
 \contentsline {chapter}{\numberline {7}General conclusions}{242}{chapter.7}%
 \contentsline {chapter}{\numberline {8}References}{246}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Appendix}{269}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Declaration of figure authorship}{270}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Rights and Permissions for reproducing Images}{271}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Rights for reproduced content of published articles by the author}{272}{section.9.3}%
+\contentsline {chapter}{\numberline {9}Appendix}{271}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Declaration of figure authorship}{272}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Rights and Permissions for reproducing Images}{273}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Rights for reproduced content of published articles by the author}{274}{section.9.3}%
