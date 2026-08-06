@@ -62,8 +62,8 @@
       \strng{authornamehash}{b8f5f2c2605e68717216c28155e934ab}
       \strng{authorfullhash}{b8f5f2c2605e68717216c28155e934ab}
       \strng{authorfullhashraw}{b8f5f2c2605e68717216c28155e934ab}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Lancet}
@@ -324,8 +324,8 @@
       \strng{authorfullhash}{c870df9c4e31a748d3dd724a70d0a4d5}
       \strng{authorfullhashraw}{c870df9c4e31a748d3dd724a70d0a4d5}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The synergistic relationships between Cancer, Aging, and Infection, here referred to as the CAIn Triangle, are significant determinants in numerous health maladies and mortality rates. The CAIn-related pathologies exhibit close correlations with each other and share two common underlying factors: persistent inflammation and anomalous lipid concentration profiles in the membranes of affected cells. This study provides a comprehensive evaluation of the most pertinent interconnections within the CAIn Triangle, in addition to examining the relationship between chronic inflammation and specific lipidic compositions in cellular membranes. To tackle the CAIn-associated diseases, a suite of complementary strategies aimed at diagnosis, prevention, and treatment is proffered. Our holistic approach is expected to augment the understanding of the fundamental mechanisms underlying these diseases and highlight the potential of shared features to facilitate the development of novel theranostic strategies.}
@@ -345,8 +345,8 @@
       \endverb
     \endentry
     \entry{aging_and_cancer}{article}{}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{abstract}{Cancer is a disease of aging, but it is rarely studied in aged animal models and older adults are often insufficiently represented in cancer clinical trials. To further our understanding of cancer and find better treatments, more research is needed on the role of biological aging in cancer and clinical trials must enroll larger numbers of older patients.}
       \field{issn}{2662-8465}
@@ -399,8 +399,8 @@
       \strng{authornamehash}{ac1462674ce045c8ac7eb8b07c7a1ac5}
       \strng{authorfullhash}{948856e7354bdfc9a3c72978c050389d}
       \strng{authorfullhashraw}{948856e7354bdfc9a3c72978c050389d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science Immunology}
@@ -429,8 +429,8 @@
       \strng{authornamehash}{43e112a445277fa0170a0b9d3f443e61}
       \strng{authorfullhash}{43e112a445277fa0170a0b9d3f443e61}
       \strng{authorfullhashraw}{43e112a445277fa0170a0b9d3f443e61}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biogerontology}
@@ -480,8 +480,8 @@
       \strng{authorfullhash}{328f588e444d526e096961af3e265a74}
       \strng{authorfullhashraw}{328f588e444d526e096961af3e265a74}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Frontiers in Immunology}
@@ -513,8 +513,8 @@
       \strng{authornamehash}{146fc837de70d1d290dbbec740fb3f7c}
       \strng{authorfullhash}{146fc837de70d1d290dbbec740fb3f7c}
       \strng{authorfullhashraw}{146fc837de70d1d290dbbec740fb3f7c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Current Biology}
@@ -563,8 +563,8 @@
       \strng{authornamehash}{62ca8551282ad4961f299a8461fe43e3}
       \strng{authorfullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
       \strng{authorfullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature reviews Molecular cell biology}
@@ -1015,8 +1015,8 @@
       \strng{authornamehash}{455836b8c079086da42cd99d9ddac7a5}
       \strng{authorfullhash}{a74610583ea2e06cbe37bacaae249050}
       \strng{authorfullhashraw}{a74610583ea2e06cbe37bacaae249050}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Electrostatic interactions with negatively charged membranes contribute to the subcellular targeting of proteins with polybasic clusters or cationic domains. Although the anionic phospholipid phosphatidylserine is comparatively abundant, its contribution to the surface charge of individual cellular membranes is unknown, partly because of the lack of reagents to analyze its distribution in intact cells. We developed a biosensor to study the subcellular distribution of phosphatidylserine and found that it binds the cytosolic leaflets of the plasma membrane, as well as endosomes and lysosomes. The negative charge associated with the presence of phosphatidylserine directed proteins with moderately positive charge to the endocytic pathway. More strongly cationic proteins, normally associated with the plasma membrane, relocalized to endocytic compartments when the plasma membrane surface charge decreased on calcium influx.}
@@ -1061,8 +1061,8 @@
       \strng{authornamehash}{5cc4969d0a887f968a9d66d41fb2569f}
       \strng{authorfullhash}{5cc4969d0a887f968a9d66d41fb2569f}
       \strng{authorfullhashraw}{5cc4969d0a887f968a9d66d41fb2569f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Cholesterol (or other higher sterols such as ergosterol and phytosterols) is universally present in large amounts (20–40 mol\%) in eukaryotic plasma membranes, whereas it is universally absent in the membranes of prokaryotes. Cholesterol has a unique ability to increase lipid order in fluid membranes while maintaining fluidity and diffusion rates. Cholesterol imparts low permeability barriers to lipid membranes and provides for large mechanical coherence. A short topical review is given of these special properties of cholesterol in relation to the structure of membranes, with results drawn from a variety of theoretical and experimental studies. Particular focus is put on cholesterol's ability to promote a special membrane phase, the liquidordered phase, which is unique for cholesterol (and other higher sterols like ergosterol) and absent in membranes containing the cholesterol precursor lanosterol. Cholesterol's role in the formation of special membrane domains and so-called rafts is discussed.}
@@ -1944,174 +1944,6 @@
       \endverb
       \keyw{antibacterial activity,antimicrobial peptides,peptide analogs,peptidomimetics,peptoids}
     \endentry
-    \entry{salam2023antimicrobial}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=2fd3e650dcbdd3547bba3aa1feb60d63}{%
-           family={Salam},
-           familyi={S\bibinitperiod},
-           given={M.\bibnamedelimi A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=b9e9fbf8b4b683b2ef3c5fac0cca063e}{%
-           family={Al-Amin},
-           familyi={A\bibinithyphendelim A\bibinitperiod},
-           given={M.\bibnamedelimi Y.},
-           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-        {{hash=7fdf144bfd433638e4b3d94c0e42097a}{%
-           family={Salam},
-           familyi={S\bibinitperiod},
-           given={M.\bibnamedelimi T.},
-           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=c0bbf7496ad7e3d121d7c08adc6f8c33}{%
-           family={Pawar},
-           familyi={P\bibinitperiod},
-           given={J.\bibnamedelimi S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=72b05b22f467e9653af916546edc7da7}{%
-           family={Akhter},
-           familyi={A\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=452f01c12c49c6921c257674a68faafd}{%
-           family={Rabaan},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=eef75733239c67710604a56c9da35ba6}{%
-           family={Alqumber},
-           familyi={A\bibinitperiod},
-           given={M.\bibnamedelimi A.\bibnamedelimi A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{015b7c42176bdfe7122a7c5c593ea6f5}
-      \strng{fullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \strng{fullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \strng{bibnamehash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \strng{authorbibnamehash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \strng{authornamehash}{015b7c42176bdfe7122a7c5c593ea6f5}
-      \strng{authorfullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \strng{authorfullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Healthcare}
-      \field{number}{13}
-      \field{title}{Antimicrobial Resistance: A Growing Serious Threat for Global Public Health}
-      \field{volume}{11}
-      \field{year}{2023}
-      \field{pages}{1946}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/healthcare11131946
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.3390/healthcare11131946
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.3390/healthcare11131946
-      \endverb
-    \endentry
-    \entry{macnair2024alternative}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=ae2b2f4f00d61191fec082b701afe098}{%
-           family={MacNair},
-           familyi={M\bibinitperiod},
-           given={C.\bibnamedelimi R.},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=a353bab137a6431678d5be8b2a97fad3}{%
-           family={Rutherford},
-           familyi={R\bibinitperiod},
-           given={S.\bibnamedelimi T.},
-           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=6ddd5b4f8196483d049ab03640859c17}{%
-           family={Tan},
-           familyi={T\bibinitperiod},
-           given={M.\bibnamedelimi W.},
-           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group}%
-      }
-      \strng{namehash}{7736002ef78cbe841bec7f5ef1c9903e}
-      \strng{fullhash}{ab73865f61e68527b824bcae9f2b3a40}
-      \strng{fullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
-      \strng{bibnamehash}{ab73865f61e68527b824bcae9f2b3a40}
-      \strng{authorbibnamehash}{ab73865f61e68527b824bcae9f2b3a40}
-      \strng{authornamehash}{7736002ef78cbe841bec7f5ef1c9903e}
-      \strng{authorfullhash}{ab73865f61e68527b824bcae9f2b3a40}
-      \strng{authorfullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature Reviews Microbiology}
-      \field{title}{Alternative therapeutic strategies to treat antibiotic-resistant pathogens}
-      \field{volume}{22}
-      \field{year}{2024}
-      \field{pages}{262\bibrangedash 275}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1038/s41579-023-00993-0
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1038/s41579-023-00993-0
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1038/s41579-023-00993-0
-      \endverb
-    \endentry
-    \entry{Tang2023}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=ac1ff041289c0288a79f64d1753f0673}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Ka\bibnamedelima Wah\bibnamedelima Kelly},
-           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=fdec7f08a2a8742d988eac76b0bf6fda}{%
-           family={Millar},
-           familyi={M\bibinitperiod},
-           given={Beverley\bibnamedelima C},
-           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=e788c860261ff2653aec50929a3ebf6f}{%
-           family={Moore},
-           familyi={M\bibinitperiod},
-           given={John\bibnamedelima E},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Institute of Biomedical Science (IBMS)}%
-      }
-      \strng{namehash}{c54ca204871391ccfe79291879c7ad7a}
-      \strng{fullhash}{3c16f5a945563f024e1ecfea362890e4}
-      \strng{fullhashraw}{3c16f5a945563f024e1ecfea362890e4}
-      \strng{bibnamehash}{3c16f5a945563f024e1ecfea362890e4}
-      \strng{authorbibnamehash}{3c16f5a945563f024e1ecfea362890e4}
-      \strng{authornamehash}{c54ca204871391ccfe79291879c7ad7a}
-      \strng{authorfullhash}{3c16f5a945563f024e1ecfea362890e4}
-      \strng{authorfullhashraw}{3c16f5a945563f024e1ecfea362890e4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2474-0896}
-      \field{journaltitle}{British journal of biomedical science}
-      \field{month}{6}
-      \field{title}{Antimicrobial Resistance (AMR).}
-      \field{volume}{80}
-      \field{year}{2023}
-      \field{pages}{11387}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3389/bjbs.2023.11387
-      \endverb
-      \verb{urlraw}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/37448857 http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC10336207
-      \endverb
-      \verb{url}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/37448857%20http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC10336207
-      \endverb
-      \keyw{AMR,antibiotic resistance,antimicrobial resistance,infection,one health}
-    \endentry
     \entry{Hancock2006}{article}{}{}
       \name{author}{2}{}{%
         {{hash=5729022eea59b885d6952644a6374c07}{%
@@ -2333,58 +2165,6 @@
       \verb https://www.mdpi.com/2076-2607/13/11/2574
       \endverb
     \endentry
-    \entry{10.3389/fmicb.2020.582779}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=e07f50db80809aa81a28144093e3a02c}{%
-           family={Huan},
-           familyi={H\bibinitperiod},
-           given={Yuchen},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=08c267a8b1b6d2994d22984b5ab6e638}{%
-           family={Kong},
-           familyi={K\bibinitperiod},
-           given={Qing},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=1edc117c56ab19a0791f930dcd2c9b75}{%
-           family={Mou},
-           familyi={M\bibinitperiod},
-           given={Haijin},
-           giveni={H\bibinitperiod}}}%
-        {{hash=60e87aa1192815dd4aacfc5a0756ee8b}{%
-           family={Yi},
-           familyi={Y\bibinitperiod},
-           given={Huaxi},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{1f5501cbfbe0b03b7a041a07b23e5e33}
-      \strng{fullhash}{f9498f537c2673a987b9ad37b3d64e8a}
-      \strng{fullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
-      \strng{bibnamehash}{f9498f537c2673a987b9ad37b3d64e8a}
-      \strng{authorbibnamehash}{f9498f537c2673a987b9ad37b3d64e8a}
-      \strng{authornamehash}{1f5501cbfbe0b03b7a041a07b23e5e33}
-      \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
-      \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Antimicrobial peptides (AMPs) are a class of small peptides that widely exist in nature and they are an important part of the innate immune system of different organisms. AMPs have a wide range of inhibitory effects against bacteria, fungi, parasites and viruses. The emergence of antibiotic-resistant microorganisms and people’s increasing concerns about the use of antibiotics resulted in the development of AMPs, which have a good application prospect in medicine, food, animal husbandry, agriculture and aquaculture. This review introduces the progress of research on AMPs comprehensively and systematically, including their classification, mechanism of action, design methods, environmental factors affecting their activity, application status, future prospects in various fields and problems to be solved. The research progress on antivirus peptides, especially anti-coronavirus (COVID-19) peptides, has been introduced given the COVID-19 pandemic worldwide in 2020.}
-      \field{issn}{1664-302X}
-      \field{journaltitle}{Frontiers in Microbiology}
-      \field{title}{Antimicrobial Peptides: Classification, Design, Application and Research Progress in Multiple Fields}
-      \field{volume}{Volume 11 - 2020}
-      \field{year}{2020}
-      \verb{doi}
-      \verb 10.3389/fmicb.2020.582779
-      \endverb
-      \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.582779
-      \endverb
-      \verb{url}
-      \verb https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.582779
-      \endverb
-    \endentry
     \entry{Wang2016}{article}{}{}
       \name{author}{3}{}{%
         {{hash=01a8257f01903c451a65ae01ec06f1c0}{%
@@ -2415,8 +2195,8 @@
       \strng{authorfullhash}{03f2fb6a8dfb7f2119a944cd1ac135f8}
       \strng{authorfullhashraw}{03f2fb6a8dfb7f2119a944cd1ac135f8}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
@@ -2473,9 +2253,9 @@
       \strng{authornamehash}{1f5501cbfbe0b03b7a041a07b23e5e33}
       \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
       \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
-      \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1664-302X}
@@ -2496,6 +2276,174 @@
       \verb https://www.frontiersin.org/article/10.3389/fmicb.2020.582779/full
       \endverb
       \keyw{antimicrobial peptides,application,classification,coronavirus,design,mode of action,motifs}
+    \endentry
+    \entry{salam2023antimicrobial}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=2fd3e650dcbdd3547bba3aa1feb60d63}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b9e9fbf8b4b683b2ef3c5fac0cca063e}{%
+           family={Al-Amin},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={M.\bibnamedelimi Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=7fdf144bfd433638e4b3d94c0e42097a}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c0bbf7496ad7e3d121d7c08adc6f8c33}{%
+           family={Pawar},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=72b05b22f467e9653af916546edc7da7}{%
+           family={Akhter},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=452f01c12c49c6921c257674a68faafd}{%
+           family={Rabaan},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=eef75733239c67710604a56c9da35ba6}{%
+           family={Alqumber},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi A.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{015b7c42176bdfe7122a7c5c593ea6f5}
+      \strng{fullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{fullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{bibnamehash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{authorbibnamehash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{authornamehash}{015b7c42176bdfe7122a7c5c593ea6f5}
+      \strng{authorfullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \strng{authorfullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Healthcare}
+      \field{number}{13}
+      \field{title}{Antimicrobial Resistance: A Growing Serious Threat for Global Public Health}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{1946}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/healthcare11131946
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/healthcare11131946
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/healthcare11131946
+      \endverb
+    \endentry
+    \entry{macnair2024alternative}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ae2b2f4f00d61191fec082b701afe098}{%
+           family={MacNair},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a353bab137a6431678d5be8b2a97fad3}{%
+           family={Rutherford},
+           familyi={R\bibinitperiod},
+           given={S.\bibnamedelimi T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=6ddd5b4f8196483d049ab03640859c17}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{7736002ef78cbe841bec7f5ef1c9903e}
+      \strng{fullhash}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{fullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{bibnamehash}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{authorbibnamehash}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{authornamehash}{7736002ef78cbe841bec7f5ef1c9903e}
+      \strng{authorfullhash}{ab73865f61e68527b824bcae9f2b3a40}
+      \strng{authorfullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Microbiology}
+      \field{title}{Alternative therapeutic strategies to treat antibiotic-resistant pathogens}
+      \field{volume}{22}
+      \field{year}{2024}
+      \field{pages}{262\bibrangedash 275}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1038/s41579-023-00993-0
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41579-023-00993-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41579-023-00993-0
+      \endverb
+    \endentry
+    \entry{10.3389/fmicb.2020.582779}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=e07f50db80809aa81a28144093e3a02c}{%
+           family={Huan},
+           familyi={H\bibinitperiod},
+           given={Yuchen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=08c267a8b1b6d2994d22984b5ab6e638}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=1edc117c56ab19a0791f930dcd2c9b75}{%
+           family={Mou},
+           familyi={M\bibinitperiod},
+           given={Haijin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=60e87aa1192815dd4aacfc5a0756ee8b}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Huaxi},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f5501cbfbe0b03b7a041a07b23e5e33}
+      \strng{fullhash}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{fullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{bibnamehash}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{authorbibnamehash}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{authornamehash}{1f5501cbfbe0b03b7a041a07b23e5e33}
+      \strng{authorfullhash}{f9498f537c2673a987b9ad37b3d64e8a}
+      \strng{authorfullhashraw}{f9498f537c2673a987b9ad37b3d64e8a}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antimicrobial peptides (AMPs) are a class of small peptides that widely exist in nature and they are an important part of the innate immune system of different organisms. AMPs have a wide range of inhibitory effects against bacteria, fungi, parasites and viruses. The emergence of antibiotic-resistant microorganisms and people’s increasing concerns about the use of antibiotics resulted in the development of AMPs, which have a good application prospect in medicine, food, animal husbandry, agriculture and aquaculture. This review introduces the progress of research on AMPs comprehensively and systematically, including their classification, mechanism of action, design methods, environmental factors affecting their activity, application status, future prospects in various fields and problems to be solved. The research progress on antivirus peptides, especially anti-coronavirus (COVID-19) peptides, has been introduced given the COVID-19 pandemic worldwide in 2020.}
+      \field{issn}{1664-302X}
+      \field{journaltitle}{Frontiers in Microbiology}
+      \field{title}{Antimicrobial Peptides: Classification, Design, Application and Research Progress in Multiple Fields}
+      \field{volume}{Volume 11 - 2020}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.3389/fmicb.2020.582779
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.582779
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.582779
+      \endverb
     \endentry
     \entry{numero_aa_amps}{article}{}{}
       \name{author}{3}{}{%
@@ -2717,7 +2665,6 @@
       \strng{authornamehash}{6d8c49efc43411c6344872fcfddfc7a3}
       \strng{authorfullhash}{3360d95f636bf376e82b8406c098f1b9}
       \strng{authorfullhashraw}{3360d95f636bf376e82b8406c098f1b9}
-      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -3207,8 +3154,8 @@
       \strng{authornamehash}{caaf4763ed72a7e7ccdbb13011b7f43e}
       \strng{authorfullhash}{6d5826eab5a0bb7c8f2d8332ce1befd8}
       \strng{authorfullhashraw}{6d5826eab5a0bb7c8f2d8332ce1befd8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1873-4294}
@@ -3999,8 +3946,8 @@
       \strng{authornamehash}{be5ed6b95052ef92c3fb71dccc5ed758}
       \strng{authorfullhash}{bcabd4d259aa66ff19b4e428b2ec496c}
       \strng{authorfullhashraw}{bcabd4d259aa66ff19b4e428b2ec496c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The interaction of antimicrobial peptides (AMPs) with biological membranes is in the focus of research since several years, and the most important features and modes of action of AMPs are described in this review. Different model systems can be used to understand such interactions on a molecular level. As a special example, we use 2D and 3D model membranes to investigate the interaction of the natural cyclic (Ar-1) and the synthetic linear molecule arenicin with selected amphiphiles and phospholipids. A panoply of sophisticated methods has been used to analyze these interactions on a molecular level. As a general trend, one observes that cationic antimicrobial peptides do not interact with cationic amphiphiles due to electrostatic repulsion, whereas with non-ionic amphiphiles, the peptide interacts only with aggregated systems and not with monomers. The interaction is weak (hydrophobic interaction) and requires an aggregated state with a large surface (cylindrical micelles). Anionic amphiphiles (as monomers or micelles) exhibit strong electrostatic interactions with the AMPs leading to changes in the peptide conformation. Both types of peptides interact strongly with anionic phospholipid monolayers with a preference for fluid layers. The interaction with a zwitterionic layer is almost absent for the linear derivative but measurable for the cyclic arenicin Ar-1. This is in accordance with biological experiments showing that Ar-1 forms well defined stable pores in phospholipid and lipopolysaccharide (LPS) membranes (cytotoxicity). The synthetic linear arenicin, which is less cytotoxic, does not affect the mammalian lipids to such an extent. The interaction of arenicin with bacterial membrane lipids is dominated by hydrogen bonding together with electrostatic and hydrophobic interactions.}
@@ -4069,8 +4016,8 @@
       \strng{authornamehash}{ed91b440e76641849e094b399e4a82d1}
       \strng{authorfullhash}{415da9ccdd7cf62220c195f283e81856}
       \strng{authorfullhashraw}{415da9ccdd7cf62220c195f283e81856}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry}
@@ -4131,8 +4078,8 @@
       \strng{authorfullhash}{e330c721bd17d47d928a2b0de0d220be}
       \strng{authorfullhashraw}{e330c721bd17d47d928a2b0de0d220be}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As fundamental components in innate immunity, antimicrobial peptides (AMPs) hold great potentials in the treatment of persistent infections involving slow-growing or dormant bacteria in which, selective inhibition of prokaryotic bacteria in the context of eukaryotic cells is not only an essential requirement, but also a critical challenge in the development of antimicrobial peptides. To identify the sequence and structural properties critical for antimicrobial activity, a series of peptides varying in sequence, length, hydrophobicity/charge ratio, and secondary structure, were designed and synthesized. Their antimicrobial activities were then tested using Escherichia coli and HEK293 cells, together with several index activities against model membrane, including liposome leakage, fusion, and aggregation. While no evident correlation between the antimicrobial activity and the property of the peptides was observed, common activities against model membrane were nevertheless identified for the active antimicrobial peptides: mediating efficient membrane leakage, negligible membrane fusion and liposome aggregation. Therefore, in addition to identifying one highly active antimicrobial peptide, our study further sheds light on the design principle for these molecules.}
@@ -4181,8 +4128,8 @@
       \strng{authornamehash}{42bd5bf7edc7221121981731ae5683fd}
       \strng{authorfullhash}{21d74ae85c4fbc5f24f37767529e3736}
       \strng{authorfullhashraw}{21d74ae85c4fbc5f24f37767529e3736}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The pHLIP peptide has three states: (I) soluble in aqueous buffer, (II) bound to the bilayer surface at neutral pH, and (III) inserted as a transmembrane (TM) helix at acidic pH. The membrane insertion of pHLIP at low pH can be used to target the acidic tissues characteristic of different diseases, such as cancer. We find that the α-helix content of state II depends on lipid acyl chain length but not cholesterol, suggesting the helicity of the bound state may be controlled by the bilayer elastic bending modulus. Experiments with the P20G variant show the proline residue in pHLIP reduces the α-helix content of both states II and III. We also observe that the membrane insertion pKa is influenced by membrane physical properties, following a biphasic pattern similar to the membrane thickness optima observed for the function of eukaryotic membrane proteins. Because tumor cells exhibit altered membrane fluidity, we suggest this might influence pHLIP tumor targeting. We used a cell insertion assay to determine the pKa in live cells, observing that the properties in liposomes held in the more complex plasma membrane. Our results show that the formation of a TM helix is modulated by both the conformational propensities of the peptide and the physical properties of the bilayer. These results suggest a physical role for helix-membrane interactions in optimizing the function of more complex TM proteins.}
@@ -4253,8 +4200,8 @@
       \strng{authorfullhash}{1e9d6efa95d5e13887133a3ee6b4ac52}
       \strng{authorfullhashraw}{1e9d6efa95d5e13887133a3ee6b4ac52}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this study, to systematically investigate the targeting specificity of membrane-active peptides on different types of cell membranes, we evaluated the effects of peptides on different large unilamellar vesicles mimicking prokaryotic, normal eukaryotic, and cancer cell membranes by single-molecule force spectroscopy and spectrum technology. We revealed that cationic membrane-active peptides can exclusively target negatively charged prokaryotic and cancer cell model membranes rather than normal eukaryotic cell model membranes. Using Acholeplasma laidlawii, 3T3-L1, and HeLa cells to represent prokaryotic cells, normal eukaryotic cells, and cancer cells in atomic force microscopy experiments, respectively, we further studied that the single-molecule targeting interaction between peptides and biological membranes. Antimicrobial and anticancer activities of peptides exhibited strong correlations with the interaction probability determined by single-molecule force spectroscopy, which illustrates strong correlations of peptide biological activities and peptide hydrophobicity and charge. Peptide specificity significantly depends on the lipid compositions of different cell membranes, which validates the de novo design of peptide therapeutics against bacteria and cancers.}
@@ -5241,8 +5188,8 @@
       \strng{authornamehash}{78d98e0dffa240574027be2317da0df2}
       \strng{authorfullhash}{78d98e0dffa240574027be2317da0df2}
       \strng{authorfullhashraw}{78d98e0dffa240574027be2317da0df2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Over a century ago, physicists started broadly relying on theoretical models to guide new experiments. Soon thereafter, chemists began doing the same. Now, biological research enters a new era when experiment and theory walk hand in hand. Novel software and specialized hardware became essential to understand experimental data and propose new models. In fact, current petascale computing resources already allow researchers to reach unprecedented levels of simulation throughput to connect in silico and in vitro experiments. The reduction in cost and improved access allowed a large number of research groups to adopt supercomputing resources and techniques. Here, we outline how large-scale computing has evolved to expand decades-old research, spark new research efforts, and continuously connect simulation and observation. For instance, multiple publicly and privately funded groups have dedicated extensive resources to develop artificial intelligence tools for computational biophysics, from accelerating quantum chemistry calculations to proposing protein structure models. Moreover, advances in computer hardware have accelerated data processing from single-molecule experimental observations and simulations of chemical reactions occurring throughout entire cells. The combination of software and hardware has opened the way for exascale computing and the production of the first public exascale supercomputer, Frontier, inaugurated by the Oak Ridge National Laboratory in 2022. Ultimately, the popularization and development of computational techniques and the training of researchers to use them will only accelerate the diversification of tools and learning resources for future generations.}
@@ -5288,8 +5235,8 @@
       \strng{authornamehash}{6f1f9779fc2067e42d3da9227f63ee88}
       \strng{authorfullhash}{6f1f9779fc2067e42d3da9227f63ee88}
       \strng{authorfullhashraw}{6f1f9779fc2067e42d3da9227f63ee88}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{10728368}
@@ -5336,8 +5283,8 @@
       \strng{authornamehash}{46473828fa2374e811cd2f23a0965f70}
       \strng{authorfullhash}{46473828fa2374e811cd2f23a0965f70}
       \strng{authorfullhashraw}{46473828fa2374e811cd2f23a0965f70}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The impact of molecular dynamics (MD) simulations in molecular biology and drug discovery has expanded dramatically in recent years. These simulations capture the behavior of proteins and other biomolecules in full atomic detail and at very fine temporal resolution. Major improvements in simulation speed, accuracy, and accessibility, together with the proliferation of experimental structural data, have increased the appeal of biomolecular simulation to experimentalists—a trend particularly noticeable in, although certainly not limited to, neuroscience. Simulations have proven valuable in deciphering functional mechanisms of proteins and other biomolecules, in uncovering the structural basis for disease, and in the design and optimization of small molecules, peptides, and proteins. Here we describe, in practical terms, the types of information MD simulations can provide and the ways in which they typically motivate further experimental work.}
@@ -6067,8 +6014,8 @@
       \strng{authornamehash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhash}{b385882cc9faa1401f0fdcbf7e6ab2d7}
       \strng{authorfullhashraw}{b385882cc9faa1401f0fdcbf7e6ab2d7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0021-9606}
@@ -6119,8 +6066,8 @@
       \strng{authornamehash}{e302b9eb1e80e19fb391368e6b6a7aeb}
       \strng{authorfullhash}{526bda1a09c7ebd7f0d37dd4e7433763}
       \strng{authorfullhashraw}{526bda1a09c7ebd7f0d37dd4e7433763}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -6792,8 +6739,8 @@
       \strng{authorfullhash}{1eda09b6b4fcbdce150c5b65dd27e94b}
       \strng{authorfullhashraw}{1eda09b6b4fcbdce150c5b65dd27e94b}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The most popular and universally predictive protein simulation models employ all-atom molecular dynamics, but they come at extreme computational cost. The development of a universal, computationally efficient coarse-grained (CG) model with similar prediction performance has been a long-standing challenge. By combining recent deep-learning methods with a large and diverse training set of all-atom protein simulations, we here develop a bottom–up CG force field with chemical transferability, which can be used for extrapolative molecular dynamics on new sequences not used during model parameterization. We demonstrate that the model successfully predicts metastable states of folded, unfolded and intermediate structures, the fluctuations of intrinsically disordered proteins and relative folding free energies of protein mutants, while being several orders of magnitude faster than an all-atom model. This showcases the feasibility of a universal and computationally efficient machine-learned CG model for proteins.}
@@ -10213,299 +10160,6 @@
       \field{year}{2025}
       \verb{doi}
       \verb 10.3389/frqst.2025.1723319
-      \endverb
-    \endentry
-    \entry{hypothesis}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=56a3b2016e690222c387a63c5912d1be}{%
-           family={Cresca},
-           familyi={C\bibinitperiod},
-           given={Sofia},
-           giveni={S\bibinitperiod}}}%
-        {{hash=570925b30ffa449492cf5622a5bb63a2}{%
-           family={Borišek},
-           familyi={B\bibinitperiod},
-           given={Jure},
-           giveni={J\bibinitperiod}}}%
-        {{hash=714eacc5950d03c5b95406f2144a1a39}{%
-           family={Magistrato},
-           familyi={M\bibinitperiod},
-           given={Alessandra},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1e6ecdbe416a03fe9a8bc40ba101a9e2}{%
-           family={Križaj},
-           familyi={K\bibinitperiod},
-           given={Igor},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{bbd6006e9ec109ac0031d09123318b68}
-      \strng{fullhash}{5161965e79b7082c70d11e1b6ec7da8b}
-      \strng{fullhashraw}{5161965e79b7082c70d11e1b6ec7da8b}
-      \strng{bibnamehash}{5161965e79b7082c70d11e1b6ec7da8b}
-      \strng{authorbibnamehash}{5161965e79b7082c70d11e1b6ec7da8b}
-      \strng{authornamehash}{bbd6006e9ec109ac0031d09123318b68}
-      \strng{authorfullhash}{5161965e79b7082c70d11e1b6ec7da8b}
-      \strng{authorfullhashraw}{5161965e79b7082c70d11e1b6ec7da8b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Chemical Information and Modeling}
-      \field{note}{PMID: 41662490}
-      \field{number}{4}
-      \field{title}{Current Status of Molecular Dynamics Simulations of Membrane Permeabilization by Antimicrobial Peptides and Pore-Forming Proteins: A Review}
-      \field{volume}{66}
-      \field{year}{2026}
-      \field{pages}{1982\bibrangedash 2005}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1021/acs.jcim.5c02731
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1021/acs.jcim.5c02731
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/acs.jcim.5c02731
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/acs.jcim.5c02731
-      \endverb
-    \endentry
-    \entry{srm_methods}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=4fa328e9fe84fad65134eca8385a591b}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xiaoming},
-           giveni={X\bibinitperiod}}}%
-        {{hash=200f9c1ccb6bcf871e73f3cfd80f3efc}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Zhanshu},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=5fc14d4f21cdd132711fb8aa4b9c26e9}{%
-           family={Lin},
-           familyi={L\bibinitperiod},
-           given={Jiaxuan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c7905d3683e86c148202145e4b6e5b7c}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
-        {{hash=00484a2d5c6d6f07871908e2804a5416}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Nan},
-           giveni={N\bibinitperiod}}}%
-        {{hash=aef6ff3ee0a19b473959c8508a6aefb7}{%
-           family={Jia},
-           familyi={J\bibinitperiod},
-           given={Yi},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{d20e9f35fab3e0f11911e44b8e5e15ed}
-      \strng{fullhash}{653e97e3604ba0bc6b3d2fd045798659}
-      \strng{fullhashraw}{653e97e3604ba0bc6b3d2fd045798659}
-      \strng{bibnamehash}{653e97e3604ba0bc6b3d2fd045798659}
-      \strng{authorbibnamehash}{653e97e3604ba0bc6b3d2fd045798659}
-      \strng{authornamehash}{d20e9f35fab3e0f11911e44b8e5e15ed}
-      \strng{authorfullhash}{653e97e3604ba0bc6b3d2fd045798659}
-      \strng{authorfullhashraw}{653e97e3604ba0bc6b3d2fd045798659}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Peptide molecules, as fundamental structural units in biological systems, play pivotal roles in diverse biological processes and have garnered substantial attention in biomolecular self-assembly research. Their structural simplicity and high design flexibility make peptides key players in the development of novel biomaterials. High-resolution imaging techniques have provided profound insights into peptide assembly. Recently, the development of cutting-edge technologies, such as super-resolution microscopy (SRM) with unparalleled spatiotemporal resolution, has further advanced peptide assembly research. These advancements enable both the mechanistic exploration of peptide assembly pathways and the rational design of peptide-based functional materials. In this mini review, we systematically examine the structural diversity of peptide assemblies, including micelles, tubes, particles, fibers and hydrogel, as investigated by various high-resolution imaging techniques, with a focus on their assembly characterization and dynamic process. We also summarize the interaction networks of peptide assemblies with proteins, polymers and microbes, providing further insight into the interactions between peptide assemblies and other molecules. Furthermore, we emphasize the transformative role of high-resolution imaging techniques in addressing long-standing challenges in peptide nanotechnology. We anticipate that this review will accelerate the advancement of peptide assembly characterization, thereby fostering the creation of next-generation functional biomaterials.}
-      \field{issn}{1422-0067}
-      \field{journaltitle}{International Journal of Molecular Sciences}
-      \field{number}{9}
-      \field{title}{Probing Peptide Assembly and Interaction via High-Resolution Imaging Techniques: A Mini Review}
-      \field{volume}{26}
-      \field{year}{2025}
-      \verb{doi}
-      \verb 10.3390/ijms26093998
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/1422-0067/26/9/3998
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/1422-0067/26/9/3998
-      \endverb
-    \endentry
-    \entry{biology_quantum_computing}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=db1669f889b9b0e3c8757822c772862e}{%
-           family={Pal},
-           familyi={P\bibinitperiod},
-           given={Soumen},
-           giveni={S\bibinitperiod}}}%
-        {{hash=325c350c0c0f0eef7ca5016b90497719}{%
-           family={Bhattacharya},
-           familyi={B\bibinitperiod},
-           given={Manojit},
-           giveni={M\bibinitperiod}}}%
-        {{hash=51652a068245d448502457729e1b3333}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Sang-Soo},
-           giveni={S\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=3b93cc4276937dcc5b905459b7d9a5e1}{%
-           family={Chakraborty},
-           familyi={C\bibinitperiod},
-           given={Chiranjib},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{a75e201b1b9d8cd4822deab5d26aa76e}
-      \strng{fullhash}{8a7fd7c765a5a190bbf237cb76a72dbe}
-      \strng{fullhashraw}{8a7fd7c765a5a190bbf237cb76a72dbe}
-      \strng{bibnamehash}{8a7fd7c765a5a190bbf237cb76a72dbe}
-      \strng{authorbibnamehash}{8a7fd7c765a5a190bbf237cb76a72dbe}
-      \strng{authornamehash}{a75e201b1b9d8cd4822deab5d26aa76e}
-      \strng{authorfullhash}{8a7fd7c765a5a190bbf237cb76a72dbe}
-      \strng{authorfullhashraw}{8a7fd7c765a5a190bbf237cb76a72dbe}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Modern biological science is trying to solve the fundamental complex problems of molecular biology, which include protein folding, drug discovery, simulation of macromolecular structure, genome assembly, and many more. Currently, quantum computing (QC), a rapidly emerging technology exploiting quantum mechanical phenomena, has developed to address current significant physical, chemical, biological issues, and complex questions. The present review discusses quantum computing technology and its status in solving molecular biology problems, especially in the next-generation computational biology scenario. First, the article explained the basic concept of quantum computing, the functioning of quantum systems where information is stored as qubits, and data storage capacity using quantum gates. Second, the review discussed quantum computing components, such as quantum hardware, quantum processors, and quantum annealing. At the same time, article also discussed quantum algorithms, such as the grover search algorithm and discrete and factorization algorithms. Furthermore, the article discussed the different applications of quantum computing to understand the next-generation biological problems, such as simulation and modeling of biological macromolecules, computational biology problems, data analysis in bioinformatics, protein folding, molecular biology problems, modeling of gene regulatory networks, drug discovery and development, mechano-biology, and RNA folding. Finally, the article represented different probable prospects of quantum computing in molecular biology.}
-      \field{issn}{1559-0305}
-      \field{journaltitle}{Molecular Biotechnology}
-      \field{number}{2}
-      \field{title}{Quantum Computing in the Next-Generation Computational Biology Landscape: From Protein Folding to Molecular Dynamics}
-      \field{volume}{66}
-      \field{year}{2024}
-      \field{pages}{163\bibrangedash 178}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/s12033-023-00765-4
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/s12033-023-00765-4
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/s12033-023-00765-4
-      \endverb
-    \endentry
-    \entry{perdomo_1}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=14b587a42a887789b2a7882224de9af4}{%
-           family={Perdomo},
-           familyi={P\bibinitperiod},
-           given={Alejandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0081fa39b28eab4e480ffacc9d4670b5}{%
-           family={Truncik},
-           familyi={T\bibinitperiod},
-           given={Colin},
-           giveni={C\bibinitperiod}}}%
-        {{hash=502cb8d6c056ecfdaf5e9bbdd2d68dbd}{%
-           family={Tubert-Brohman},
-           familyi={T\bibinithyphendelim B\bibinitperiod},
-           given={Ivan},
-           giveni={I\bibinitperiod}}}%
-        {{hash=134308db4b614764c50ccf337f121627}{%
-           family={Rose},
-           familyi={R\bibinitperiod},
-           given={Geordie},
-           giveni={G\bibinitperiod}}}%
-        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
-           family={Aspuru-Guzik},
-           familyi={A\bibinithyphendelim G\bibinitperiod},
-           given={Alán},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{39f86154acf3661193a34af8391f887d}
-      \strng{fullhash}{39047f71384a185719590ab58bd21fa8}
-      \strng{fullhashraw}{39047f71384a185719590ab58bd21fa8}
-      \strng{bibnamehash}{39047f71384a185719590ab58bd21fa8}
-      \strng{authorbibnamehash}{39047f71384a185719590ab58bd21fa8}
-      \strng{authornamehash}{39f86154acf3661193a34af8391f887d}
-      \strng{authorfullhash}{39047f71384a185719590ab58bd21fa8}
-      \strng{authorfullhashraw}{39047f71384a185719590ab58bd21fa8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{1}
-      \field{journaltitle}{Phys. Rev. A}
-      \field{month}{7}
-      \field{title}{Construction of model Hamiltonians for adiabatic quantum computation and its application to finding low-energy conformations of lattice protein models}
-      \field{volume}{78}
-      \field{year}{2008}
-      \field{pages}{012320}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevA.78.012320
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevA.78.012320
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevA.78.012320
-      \endverb
-    \endentry
-    \entry{perdomo_2}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=0fde2bb22ba651286b6251542260c1f5}{%
-           family={Perdomo-Ortiz},
-           familyi={P\bibinithyphendelim O\bibinitperiod},
-           given={Alejandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=eb8f3a8dad6d7e2b9ef127c24cc13b7e}{%
-           family={Dickson},
-           familyi={D\bibinitperiod},
-           given={Neil},
-           giveni={N\bibinitperiod}}}%
-        {{hash=3e3c829835db3adea93e4cefc2953813}{%
-           family={Drew-Brook},
-           familyi={D\bibinithyphendelim B\bibinitperiod},
-           given={Marshall},
-           giveni={M\bibinitperiod}}}%
-        {{hash=134308db4b614764c50ccf337f121627}{%
-           family={Rose},
-           familyi={R\bibinitperiod},
-           given={Geordie},
-           giveni={G\bibinitperiod}}}%
-        {{hash=083dcdd0db2687433b22fabfb2e55c17}{%
-           family={Aspuru-Guzik},
-           familyi={A\bibinithyphendelim G\bibinitperiod},
-           given={Alán},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{46ea1c14f7caca5ff662107b48ee7a5e}
-      \strng{fullhash}{897bc932e75e035b65080ce3033d90be}
-      \strng{fullhashraw}{897bc932e75e035b65080ce3033d90be}
-      \strng{bibnamehash}{897bc932e75e035b65080ce3033d90be}
-      \strng{authorbibnamehash}{897bc932e75e035b65080ce3033d90be}
-      \strng{authornamehash}{46ea1c14f7caca5ff662107b48ee7a5e}
-      \strng{authorfullhash}{897bc932e75e035b65080ce3033d90be}
-      \strng{authorfullhashraw}{897bc932e75e035b65080ce3033d90be}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Lattice protein folding models are a cornerstone of computational biophysics. Although these models are a coarse grained representation, they provide useful insight into the energy landscape of natural proteins. Finding low-energy threedimensional structures is an intractable problem even in the simplest model, the Hydrophobic-Polar (HP) model. Description of protein-like properties are more accurately described by generalized models, such as the one proposed by Miyazawa and Jernigan (MJ), which explicitly take into account the unique interactions among all 20 amino acids. There is theoretical and experimental evidence of the advantage of solving classical optimization problems using quantum annealing over its classical analogue (simulated annealing). In this report, we present a benchmark implementation of quantum annealing for lattice protein folding problems (six different experiments up to 81 superconducting quantum bits). This first implementation of a biophysical problem paves the way towards studying optimization problems in biophysics and statistical mechanics using quantum devices.}
-      \field{issn}{2045-2322}
-      \field{journaltitle}{Scientific Reports}
-      \field{number}{1}
-      \field{title}{Finding low-energy conformations of lattice protein models by quantum annealing}
-      \field{volume}{2}
-      \field{year}{2012}
-      \field{pages}{571}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1038/srep00571
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1038/srep00571
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1038/srep00571
       \endverb
     \endentry
     \entry{alder1957phase}{article}{}{}
