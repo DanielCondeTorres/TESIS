@@ -38,7 +38,7 @@ Furthermore, the astronomical combinatorial space of peptide sequences (scaling 
 Drawing profound inspiration from the pioneering work of IBM~\cite{robert2021resource,Qiskit} on the application of quantum algorithms to molecular simulations and lattice-based protein folding, we sought to translate these quantum advantages to the domain of membrane biophysics. However, classical quantum folding models typically assume a homogeneous solvent, which is insufficient for membrane-active peptides. Consequently, in this work, we present a novel VQE algorithm specifically engineered for interfacial folding. By utilizing a polynomial approximation to smoothly represent the polar/apolar dielectric transition region of the lipid bilayer, we successfully map the intricate membrane-peptide interaction onto a quantum-compatible framework without exhausting the limited qubit resources of the NISQ era~\cite{DANI_CUANTICA}.
 
 
-Finally, we move from analysis to \textit{de novo} design by formulating a Physics-Based Generative Hamiltonian~\cite{DANI_HAMILTONIAN}. Unlike black-box AI models that rely on evolutionary homology~\cite{avances_2}, our Hamiltonian is grounded in \textit{ab initio} physics and optimized via QAOA, providing a scalable and interpretable ecosystem for designing the next generation of membrane-active therapeutics.
+Finally, we move from analysis to \textit{de novo} design by formulating a Physics-Based Generative Hamiltonian~\cite{DANI_HAMILTONIAN}. Unlike black-box AI models that rely on evolutionary homology~\cite{Jumper2021}, our Hamiltonian is grounded in \textit{ab initio} physics and optimized via QAOA, providing a scalable and interpretable ecosystem for designing the next generation of membrane-active therapeutics.
 
 
 
@@ -96,7 +96,7 @@ A pivotal and universally observed finding of our research is that the partition
 \end{enumerate}
 
 
-A recognized limitation of the Martini 2.2 coarse-grained force field is the enforcement of a restrained secondary structure throughout the simulation, regardless of whether the peptide is in the water bulk or interacting with the membrane~\cite{martini2}. To evaluate the artifact associated with this unrealistic assumption, an additional simulation was performed using magainin-2 without secondary structure restraints, representing a random coil conformation, labeled as 2MAG-RC. The results from the 2MAG-RC system in the absence of helical restraints made it evident that the folding state and secondary structure of the peptides play a pivotal role in their interactions with the lipid bilayer.
+A recognized limitation of the Martini 2.2 CG force field is the enforcement of a restrained secondary structure throughout the simulation, regardless of whether the peptide is in the water bulk or interacting with the membrane~\cite{martini2}. To evaluate the artifact associated with this unrealistic assumption, an additional simulation was performed using magainin-2 without secondary structure restraints, representing a random coil conformation, labeled as 2MAG-RC. The results from the 2MAG-RC system in the absence of helical restraints made it evident that the folding state and secondary structure of the peptides play a pivotal role in their interactions with the lipid bilayer.
 
 
 
@@ -135,7 +135,7 @@ While a standard step function might seem an intuitive choice to identify the lo
     \item \textbf{Biophysical realism:} Physically, actual interfaces between an aqueous media and a lipid membrane are not discrete planes but are smooth, with a roughness comparable to the diameter of a water molecule (3–6 \AA). A smooth polynomial approximation emulates this gradual transition between the two phases far more accurately than a rigid step function.
 \end{enumerate}
 
-By mapping the peptide onto a tetrahedral lattice and utilizing a modified MJ~\cite{MJ_1,MJ_2} potential integrated with this polynomial term, the algorithm successfully identified optimal conformations for polar, non-polar, and amphipathic sequences using only 22 qubits for a 10-amino acid sequence. This demonstrates that modeling interfacial phenomena is feasible with current QC resources without adding substantial computational resource demands.
+By mapping the peptide onto a tetrahedral lattice and utilizing a modified Miyazawa-Jernigan (MJ)~\cite{MJ_1,MJ_2} potential integrated with this polynomial term, the algorithm successfully identified optimal conformations for polar, non-polar, and amphipathic sequences using only 22 qubits for a 10-amino acid sequence. This demonstrates that modeling interfacial phenomena is feasible with current QC resources without adding substantial computational resource demands.
 
 \subsection{Concluding remarks on the quantum strategy}
 In summary, by replacing the problematic step function with a smooth polynomial approximation, we have established a robust framework that predicts peptide structures at the polar/nonpolar interface with a reasonable use of computational resources. As QC resources and techniques evolve, this methodology will serve as a viable starting point for understanding peptide interactions at the molecular level and developing novel therapeutic agents.
@@ -301,7 +301,7 @@ Building upon our thermodynamic characterizations and quantum folding frameworks
 
 
 \subsection{Overcoming evolutionary constraints}
-Traditional design strategies, including deep-learning models like AlphaFold 3 or statistical methods like Direct Coupling Analysis (DCA), rely heavily on evolutionary conservation and multiple sequence alignments~\cite{avances_2,dca}. Consequently, they are often environment-blind and limited by homology data for non-standard biological interfaces. 
+Traditional design strategies, including deep-learning models like AlphaFold 3 or statistical methods like Direct Coupling Analysis (Direct Coupoling Analysis (DCA)), rely heavily on evolutionary conservation and multiple sequence alignments~\cite{Jumper2021,dca}. Consequently, they are often environment-blind and limited by homology data for non-standard biological interfaces. 
 
 In contrast, the proposed Physics-Based Generative Hamiltonian acts as a forward-predictive physical model~\ref{chap2} .By constructing the energy landscape from explicit biophysical principles rather than historical evolutionary data, we enable the design of peptides for pathological membranes where evolution may not have fully explored the sequence space. This ensures that every design decision is physically interpretable and not biased by existing biological databases.
 
@@ -313,7 +313,7 @@ The total Hamiltonian ($H_{total}$) integrates multiple energetic contributions 
 This formulation explicitly evaluates:
 \begin{itemize}
     \item \textbf{$H_{local}$ and $H_{neigh}$:} Intrinsic per-residue helix propensities and cooperative helical interactions with sequence neighbors.
-    \item \textbf{$H_{pair}$ and $H_{elec}$:} Sequence-dependent pairwise side-chain interactions (based on the Miyazawa-Jernigan matrix) and Coulombic interactions with environment-dependent screening.
+    \item \textbf{$H_{pair}$ and $H_{elec}$:} Sequence-dependent pairwise side-chain interactions (based on the MJ matrix) and Coulombic interactions with environment-dependent screening.
     \item \textbf{$H_{pol}$ and $H_{chg}$:} Solvent-dependent polarity (amphipathicity) and electrostatic coupling with the membrane's surface charge.
 \end{itemize}
 
@@ -323,7 +323,7 @@ A critical addition to this formulation is the implementation of a two-stage nor
 To ensure algorithmic portability, the sequence space was encoded using a compact binary representation, which reduces the qubit overhead to $O(L \log_2 |A|)$. This allows the same physical objective function to be solved across multiple backends:
 \begin{itemize}
     \item \textbf{Classical enumeration:} For tractable problem sizes (up to $n=20$ binary variables), providing an exact global minimum .
-    \item \textbf{Simulated annealing (SA):} For larger, clinically relevant sequences, acting as a heuristic baseline to efficiently traverse the landscape .
+    \item \textbf{Simulated Annealing (SA) (SA):} For larger, clinically relevant sequences, acting as a heuristic baseline to efficiently traverse the landscape .
     \item \textbf{QAOA:} Implementing a hybrid quantum-classical workflow to explore the combinatorial space natively through gate-based quantum algorithms .
 \end{itemize}
 
@@ -417,7 +417,7 @@ While the multiscale computational frameworks developed in this thesis have expa
 \subsection{Classical and enhanced sampling limitations}
 \begin{itemize}
     \item \textbf{Loss of atomistic granularity:} The use of CG models is indispensable to access microsecond timescales. However, this entails a severe loss of atomistic resolution. Important interactions, such as precise hydrogen-bonding networks or cation-$\pi$ orientations, are averaged into effective potentials. Furthermore, standard CG models like Martini 2.2 often enforce secondary structure rigidity, precluding the observation of spontaneous folding coupled to membrane binding.
-    \item \textbf{Collective variable  dependency:} In metadynamics, projecting a highly multidimensional biological process onto a limited set of CVs risks masking hidden free-energy barriers. The omission of slow orthogonal variables (e.g., local lipid reorganization) can lead to hysteresis~\cite{Laio2002}.
+    \item \textbf{CV  dependency:} In metadynamics, projecting a highly multidimensional biological process onto a limited set of CVs risks masking hidden free-energy barriers. The omission of slow orthogonal variables (e.g., local lipid reorganization) can lead to hysteresis~\cite{Laio2002}.
     \item \textbf{Single-peptide vs. cooperative action:} The PMF profiles calculated reflect the thermodynamics of a single peptide. The ultimate microbicidal action of AMPs, however, is highly cooperative, meaning our values describe initial recognition but not the energetic cost of subsequent oligomerization or pore formation~\cite{paper_paula}.
 \end{itemize}
 

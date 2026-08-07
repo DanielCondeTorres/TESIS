@@ -4,7 +4,7 @@
 \newpage
 
 With the main objectives of this work in mind, the present chapter provides a description of the computational methods employed throughout this thesis. It begins with an overview of MD simulations, the primary simulation technique used to generate and analyze the trajectories under study. This is followed by a summary of the analytical tools used to interpret and analyze the resulting data.
-Subsequently, the focus shifts from classical dynamics to Quantum Computing. Rather than presenting this technology as a definitive solution, it is explored as a proof-of-concept to determine if a practical quantum advantage exists for resolving molecular conformations that are computationally prohibitive for purely classical methods. Together, these approaches provide the framework for the conformational sampling and analysis presented in the following sections.
+Subsequently, the focus shifts from classical dynamics to QC. Rather than presenting this technology as a definitive solution, it is explored as a proof-of-concept to determine if a practical quantum advantage exists for resolving molecular conformations that are computationally prohibitive for purely classical methods. Together, these approaches provide the framework for the conformational sampling and analysis presented in the following sections.
 
 
 \section{Molecular dynamics: principles}
@@ -13,7 +13,7 @@ MD has emerged as a primary computational technique for investigating the time-d
 
 In this thesis, MD constitutes the main simulation methodology. The equations of motion are derived from a potential energy function defined by the chosen force field, while additional algorithms ensure that simulations maintain the desired thermodynamic conditions, such as temperature and pressure~\cite{braun2018best}.
 This section provides the general methodological framework and explains the physical and algorithmic principles underlying the computational approaches used throughout this work, including both conventional MD and enhanced sampling techniques. Study-specific simulation protocol are detailed in the corresponding results chapters and methods sections of each associated article or manuscript. When previously established protocols are reused without modification, the original reference is cited explicitly; any deviations are clearly documented.
-All simulations were performed using GROMACS~\cite{Gromacs2015}, whose official documentation serves as a reliable reference for many of the technical details discussed in this section.
+All simulations were performed using Groningen MAchine for Chemical Simulations (GROMACS)~\cite{Gromacs2015}, whose official documentation serves as a reliable reference for many of the technical details discussed in this section.
 
 
 
@@ -36,7 +36,7 @@ The simulation process begins with system construction, including the selection 
 \begin{equation}\label{NG}
     \vec{F_i} = - \vec{\nabla} U(\vec{r_{i}})
 \end{equation}
-where $\vec{F}_i$ is the force acting on the $i$-th particle of the system, and $\vec{\nabla} U(\vec{r}_i)$ is the gradient of the potential energy function $U(\vec{r}_i)$, which is defined by a set of mathematical equations and parameters collectively known as a FF. The selection of the FF is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome~\cite{dani_nanotubos}. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
+where $\vec{F}_i$ is the force acting on the $i$-th particle of the system, and $\vec{\nabla} U(\vec{r}_i)$ is the gradient of the potential energy function $U(\vec{r}_i)$, which is defined by a set of mathematical equations and parameters collectively known as a FF. The selection of the FF is critical; it must faithfully reproduce the system's physical properties, as it governs the simulation's outcome~\cite{Conde2022}. Next, the position of the atoms are calculated by numerically integrating Newton's second law:
 \begin{equation}\label{N2L}
     \vec{F_i} = \frac{d\vec{p_i}}{dt}
 \end{equation}
@@ -95,11 +95,11 @@ By structuring the update in this staggered manner, the algorithm computes posit
 
 The selection of the integration time step is a critical factor governing both the computational efficiency and accuracy of MD simulations. Since the computational resources required to simulate a trajectory of a target physical duration scale inversely with the time step, utilizing the largest possible $\Delta t$ is highly desirable. However, the maximum allowable time step is strictly bounded by the highest-frequency degrees of freedom in the system. To avoid numerical instability and keep integration errors within acceptable limits, the time step must be several times smaller than the period of the fastest internal motion, which typically corresponds to the stretching vibrations of covalent bonds involving hydrogen atoms. Consequently, standard molecular systems without constraints are restricted to a time step of $\Delta t \le 1$~fs.
 
-To overcome this bottleneck and safely increase the integration time step to 2~fs in all-atom simulations, constraint algorithms are routinely employed to freeze these high-frequency harmonic motions. The SHAKE algorithm~\cite{shake_algorithm} was one of the earliest iterative methods developed to satisfy distance constraints on bond lengths and angles. In modern GROMACS simulations, the parallel Linear Constraint Solver (LINCS) algorithm ~\cite{lincs_algorithm} is widely preferred due to its non-iterative formulation, superior numerical stability, and highly efficient parallel scalability. LINCS operates by projecting the constraints onto a local coordinate system and solving the equations of motion linearly. Additionally, because water molecules constitute the majority of the particles in biological systems, the analytical SETTLE algorithm~\cite{settle_algorithm} is specifically applied to keep the geometry of water models rigid, ensuring optimal computational throughput.
+To overcome this bottleneck and safely increase the integration time step to 2~fs in all-atom simulations, constraint algorithms are routinely employed to freeze these high-frequency harmonic motions. The SHAKE algorithm~\cite{shake_algorithm} was one of the earliest iterative methods developed to satisfy distance constraints on bond lengths and angles. In modern GROMACS simulations, the parallel Linear Constraint Solver (LINCS) (LINCS) algorithm ~\cite{lincs_algorithm} is widely preferred due to its non-iterative formulation, superior numerical stability, and highly efficient parallel scalability. LINCS operates by projecting the constraints onto a local coordinate system and solving the equations of motion linearly. Additionally, because water molecules constitute the majority of the particles in biological systems, the analytical SETTLE algorithm~\cite{settle_algorithm} is specifically applied to keep the geometry of water models rigid, ensuring optimal computational throughput.
 
 By default, the integration of Newton's equations of motion conserves the total energy ($E$) of a system. Since simulations typically employ a fixed simulation cell volume ($V$) and particle number ($N$), the leap-frog integrator naturally generates trajectories within the microcanonical (\textit{NVE}) ensemble.
 
-Nevertheless, most biological processes in nature and experiments in the laboratory occur at a constant temperature ($T$) and/or pressure ($P$). Therefore, most simulations of biomolecular systems are performed within the canonical (\textit{NVT}) or the isothermal-isobaric (\textit{NPT}) ensembles. For these cases, MD engines use algorithms that keep these physical properties constant. Algorithms that regulate pressure are called barostats, and they maintain it at a constant value by rescaling the volume of the simulation cell. Several algorithms serve this purpose; the Berendsen~\cite{BerendsenB}, stochastic cell-rescaling ~\cite{CRB}, and Parrinello-Rahman ~\cite{PRB} barostats were employed sequentially for equilibration and production runs. On the other hand, algorithms that control the temperature of the system are called thermostats, and they adjust it by modifying the velocities of the particles. This is mainly achieved in two ways: by making some particles interact with an external thermal bath, or by scaling all velocities to match a target temperature; the latter being the principle underlying the velocity-rescaling thermostat used in the present work ~\cite{Vresc}.
+Nevertheless, most biological processes in nature and experiments in the laboratory occur at a constant temperature ($T$) and/or pressure ($P$). Therefore, most simulations of biomolecular systems are performed within the canonical (\textit{NVT}) or the isothermal-isobaric (\textit{NPT}) ensembles. For these cases, MD engines use algorithms that keep these physical properties constant. Algorithms that regulate pressure are called barostats, and they maintain it at a constant value by rescaling the volume of the simulation cell. Several algorithms serve this purpose; the Berendsen~\cite{BerendsenB}, stochastic cell-rescaling ~\cite{CRB}, and Parrinello-Rahman ~\cite{Parrinello1981} barostats were employed sequentially for equilibration and production runs. On the other hand, algorithms that control the temperature of the system are called thermostats, and they adjust it by modifying the velocities of the particles. This is mainly achieved in two ways: by making some particles interact with an external thermal bath, or by scaling all velocities to match a target temperature; the latter being the principle underlying the velocity-rescaling thermostat used in the present work ~\cite{Vresc}.
 
 
 
@@ -254,7 +254,7 @@ Consequently, the \textit{v-rescale} algorithm derives a stochastic $\alpha$ sca
 
 \subsection{Statistical mechanics of pressure control (barostats)}
 
-To understand how barostats operate, we must first define how pressure is measured at the microscopic level. In macroscopic physics, pressure is intuitively defined as a scalar force applied over a specific area ($P = F/A$). However, in a molecular simulation utilizing periodic boundary conditions (PBCs), there are no physical walls against which particles can exert force. 
+To understand how barostats operate, we must first define how pressure is measured at the microscopic level. In macroscopic physics, pressure is intuitively defined as a scalar force applied over a specific area ($P = F/A$). However, in a molecular simulation utilizing Periodic Boundary Conditionss (PBCs) (PBCs), there are no physical walls against which particles can exert force. 
 
 Instead, the internal pressure of the system must be derived using the Virial Theorem. Because interatomic forces act continuously across all three spatial dimensions ($X, Y, Z$), pressure cannot be expressed as a single number. Rather, it is represented by a $3 \times 3$ matrix known as the internal stress tensor ($\mathbf{P}$). This tensor is composed of two distinct physical contributions: the kinetic energy of the particles (acting essentially as an ideal gas) and the virial term (the internal forces that atoms exert on one another)~\cite{termo_metad_presion}:
 
@@ -411,7 +411,7 @@ Nevertheless, despite the thermodynamic control offered by these algorithms, the
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.55\linewidth]{General_Sections/Figures/pbc_diagram.png}
-    \caption{Scheme depicting the effect of periodic boundary conditions. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib.}
+    \caption{Scheme depicting the effect of PBCs. The image shows how a particle that at an instant \(t\) is displaced outside the original simulation space (black solid line), re-enters into the box from its periodic image at a time \(t + \Delta t\). The number of particles in the simulation cell and in all the periodic images are kept constant. Image generated with Matplotlib.}
     \label{fig:PBCs}
 \end{figure}
 This approach effectively models an infinite system by tiling the simulation cell in all directions of space, creating periodic replicas where every particle is and behaves exactly like its original counterpart. This method is depicted in Figure~\ref{fig:PBCs}, and when applied, the system is said to be under PBCs.When applying this method, the simulation box must be large enough to avoid any possible interactions between replicas of the same molecule.
@@ -496,11 +496,11 @@ In this equation, \(k_e\) is Coulomb's constant, which incorporates the vacuum d
 
 It is important to note that non-bonded interactions are calculated for every pair of particles, including periodic images, causing the computational cost to scale as \(\mathcal{O}(N^2)\). The treatment of long-range electrostatic interactions is particularly demanding because the Coulomb potential decays slowly (\(\vec{r}^{-1}\)) with distance. To handle this, methods such as Particle-Mesh Ewald (PME) or the reaction field are commonly used \cite{pme,reacfield}. These techniques separate the Coulomb potential into short- and long-range components, reducing the scaling to \(\mathcal{O}(N \log(N))\) thereby improving efficiency \cite{Ewald1921,Darden1993}.
 
-The second term represents van der Waals interactions, which are intermolecular forces acting between particles. These are typically modeled using the Lennard-Jones potential, consisting of an attractive term and a repulsive term. The potential is expressed as follows:
+The second term represents Van der Waalss (vdWs) interactions, which are intermolecular forces acting between particles. These are typically modeled using the Lennard-Jones potential, consisting of an attractive term and a repulsive term. The potential is expressed as follows:
 \begin{equation}
     U_{VdW}(\vec{r}_{ij}) = 4\epsilon_{ij} \left( \left( \frac{\sigma_{ij}}{\vec{r}_{ij}} \right)^{12}- \left( \frac{\sigma_{ij}}{\vec{r}_{ij}}\right)^{6}\right)
 \end{equation}
-Where \(\epsilon_{ij}\) represents the depth of the potential well; \(\sigma_{ij}\) defines the distance at which the van der Waals potential between two particles is zero; and \(\vec{r}_{ij}\) is the distance between the pair of particles. Here, the force field-dependent parameters are \(\epsilon_{ij}\) and \(\sigma_{ij}\).
+Where \(\epsilon_{ij}\) represents the depth of the potential well; \(\sigma_{ij}\) defines the distance at which the vdWs potential between two particles is zero; and \(\vec{r}_{ij}\) is the distance between the pair of particles. Here, the force field-dependent parameters are \(\epsilon_{ij}\) and \(\sigma_{ij}\).
 
 Additionally, some force fields include \textit{cross terms}, which couple two (or more) of the previous interaction potentials. While they offer a more accurate representation of the system, they come at the expense of higher computational cost.
 
@@ -512,20 +512,20 @@ Throughout this section, the term \textit{particle} has been used instead of \te
 
 \subsubsection{Calculation of non-bonded interactions: The computational bottleneck}
 
-Unlike bonded interactions, which only involve fixed groups of 2, 3, or 4 atoms, non-bonded interactions (van der Waals and electrostatics) theoretically exist between every single pair of particles in the system. Furthermore, under PBCs, a particle also interacts with all the periodic images of the other particles, including its own images. 
+Unlike bonded interactions, which only involve fixed groups of 2, 3, or 4 atoms, non-bonded interactions (vdWs and electrostatics) theoretically exist between every single pair of particles in the system. Furthermore, under PBCs, a particle also interacts with all the periodic images of the other particles, including its own images. 
 
 If evaluated explicitly for all pairs, the computational cost of non-bonded interactions scales as $\mathcal{O}(N^2)$. For systems containing thousands or millions of particles, this becomes the primary bottleneck of the MD simulation. To make these calculations computationally tractable, different mathematical approximations must be employed depending on how fast the physical potential decays with distance.
 
-\paragraph{Truncation methods (cutoffs) for van der Waals interactions}
+\paragraph{Truncation methods (cutoffs) for vdWs interactions}
 The simplest approach to reduce the computational burden is to apply a cutoff distance, $r_c$. Beyond this distance, the interaction potential is assumed to be zero. 
 
-This approximation is physically acceptable for van der Waals interactions because the Lennard-Jones potential decays extremely fast (its attractive dispersion term scales as $\|\vec{r}_{ij}\|^{-6}$). By setting a cutoff $r_c$ (typically around $1.0 - 1.2$ nm), the vast majority of the interaction energy is captured. However, simply truncating the potential creates a discontinuity at $r_c$, leading to infinite forces. To prevent this, a mathematical correction is applied: the potential is either shifted downward so that $U_{\text{vdW}}(r_c) = 0$ (\textit{potential shift}), or multiplied by a smoothing function that gracefully tapers the forces to zero (\textit{force switch})\cite{termo_metad_presion}. 
+This approximation is physically acceptable for vdWs interactions because the Lennard-Jones potential decays extremely fast (its attractive dispersion term scales as $\|\vec{r}_{ij}\|^{-6}$). By setting a cutoff $r_c$ (typically around $1.0 - 1.2$ nm), the vast majority of the interaction energy is captured. However, simply truncating the potential creates a discontinuity at $r_c$, leading to infinite forces. To prevent this, a mathematical correction is applied: the potential is either shifted downward so that $U_{\text{vdW}}(r_c) = 0$ (\textit{potential shift}), or multiplied by a smoothing function that gracefully tapers the forces to zero (\textit{force switch})\cite{termo_metad_presion}. 
 
 
 
 \paragraph{The challenge of electrostatics: Reaction field}
 
-While a simple cutoff works well for short-range van der Waals interactions, it is disastrous for electrostatics. The Coulomb potential decays very slowly (\(\|\vec{r}_{ij}\|^{-1}\)). Truncating it at a distance $r_c$ ignores long-range electrostatic correlations, introducing severe artifacts.
+While a simple cutoff works well for short-range vdWs interactions, it is disastrous for electrostatics. The Coulomb potential decays very slowly (\(\|\vec{r}_{ij}\|^{-1}\)). Truncating it at a distance $r_c$ ignores long-range electrostatic correlations, introducing severe artifacts.
 
 An early solution to this problem is the Reaction Field method. This scheme assumes that the local region is surrounded by a continuous, homogeneous dielectric medium with a relative permittivity $\varepsilon_{\text{RF}}$. A particle inside the cutoff cavity produces a polarization in this external continuum, which reflects a reaction field back into the cavity. The electrostatic potential for a pair of particles is given by:
 
@@ -535,7 +535,7 @@ An early solution to this problem is the Reaction Field method. This scheme assu
 
 At $\|\vec{r}_{ij}\| = r_c$, the slope of this potential (the force) becomes zero, effectively eliminating the discontinuity artifacts present in a simple truncation.
 
-Despite its conceptual elegance, the Reaction Field method suffers from critical numerical issues in molecular dynamics. Whenever a molecule enters or leaves the cavity surrounding another, a discontinuous jump occurs in the energy due to both direct interactions and the reaction field contribution. These changes do not exactly cancel, resulting in poor energy conservation. Furthermore, spurious features often appear in the radial distribution function at $r = r_c$. While tapering functions can mitigate these jumps, the method fundamentally struggles to capture the true periodicity of macroscopic crystals or complex biomolecules~\cite{termo_metad_presion}.
+Despite its conceptual elegance, the Reaction Field method suffers from critical numerical issues in MDs. Whenever a molecule enters or leaves the cavity surrounding another, a discontinuous jump occurs in the energy due to both direct interactions and the reaction field contribution. These changes do not exactly cancel, resulting in poor energy conservation. Furthermore, spurious features often appear in the radial distribution function at $r = r_c$. While tapering functions can mitigate these jumps, the method fundamentally struggles to capture the true periodicity of macroscopic crystals or complex biomolecules~\cite{termo_metad_presion}.
 
 
 
@@ -566,7 +566,7 @@ Here, $\beta$ is a tuning parameter dictating the width of the Gaussian distribu
     \item The \textbf{self-energy correction} is a necessary analytical adjustment. Since the reciprocal space sum includes the non-physical interaction of a charge $q_i$ with its own neutralizing Gaussian cloud, this term is added to correct the total potential energy.
 \end{itemize}
 
-While the standard Ewald summation reduces computational scaling to $\mathcal{O}(N^{3/2})$, the reciprocal sum remains prohibitively expensive for large systems. The definitive breakthrough was the Particle-Mesh Ewald (PME) algorithm~\cite{Darden1993}. In smooth PME, the reciprocal charges are interpolated onto a regular 3D grid using cardinal B-splines. Once gridded, the reciprocal space potential is solved highly efficiently using the 3D Fast Fourier Transform (FFT) algorithm, reducing the overall computational complexity to $\mathcal{O}(N \log N)$. This grid-based approach remains the gold standard in modern MD simulation engines for treating long-range electrostatics efficiently and with rigorous physical accuracy.
+While the standard Ewald summation reduces computational scaling to $\mathcal{O}(N^{3/2})$, the reciprocal sum remains prohibitively expensive for large systems. The definitive breakthrough was the Particle-Mesh Ewald (PME) algorithm~\cite{Darden1993}. In smooth PME, the reciprocal charges are interpolated onto a regular 3D grid using cardinal B-splines. Once gridded, the reciprocal space potential is solved highly efficiently using the 3D Fast Fourier Transform (FFT) (FFT) algorithm, reducing the overall computational complexity to $\mathcal{O}(N \log N)$. This grid-based approach remains the gold standard in modern MD simulation engines for treating long-range electrostatics efficiently and with rigorous physical accuracy.
 
 
 
@@ -593,7 +593,7 @@ While the standard Ewald summation reduces computational scaling to $\mathcal{O}
 
 \subsection{The resolution of the force fields}
 
-Force fields can be classified into three principal categories based on their level of resolution, which dictates whether the computational particles represent individual atoms or grouped structural units. At the highest level of resolution are atomistic or all-atom (AA) force fields—such as CHARMM~\cite{charmm}, AMBER~\cite{gaff}, and the OPLS family~\cite{oplsaa}—wherein every single atom in the system, including hydrogens, is explicitly represented. While these models provide unparalleled physicochemical accuracy, their computational cost constitutes a major limitation. Because the calculation of pairwise interactions scales theoretically as $\mathcal{O}(N^2)$, the sheer number of degrees of freedom—particularly those arising from explicit solvent molecules—makes the simulation of large biomolecular assemblies, such as cell membranes or entire organelles, prohibitively expensive. Consequently, the exploration of the conformational space using AA models is typically restricted to limited spatial scales and very short timescales, often in the nanosecond range. An intermediate approach to mitigate this computational bottleneck is provided by united-atom (UA) force fields, such as GROMOS~\cite{gromos}. In this methodology, nonpolar hydrogen atoms are collapsed into the heavy atoms to which they are bonded, treating the entire aliphatic group as a single interaction site, while polar hydrogens remain explicitly represented to preserve hydrogen bond networks. 
+Force fields can be classified into three principal categories based on their level of resolution, which dictates whether the computational particles represent individual atoms or grouped structural units. At the highest level of resolution are atomistic or all-atom (All-atoms (AA)) force fields—such as Chemistry at Harvard Macromolecular Mechanics (CHARMM)~\cite{charmm}, Assisted Model Building with Energy Refinement (AMBER)~\cite{gaff}, and the Optimized Potentials for Liquid Simulations (OPLS) family~\cite{oplsaa}—wherein every single atom in the system, including hydrogens, is explicitly represented. While these models provide unparalleled physicochemical accuracy, their computational cost constitutes a major limitation. Because the calculation of pairwise interactions scales theoretically as $\mathcal{O}(N^2)$, the sheer number of degrees of freedom—particularly those arising from explicit solvent molecules—makes the simulation of large biomolecular assemblies, such as cell membranes or entire organelles, prohibitively expensive. Consequently, the exploration of the conformational space using AA models is typically restricted to limited spatial scales and very short timescales, often in the nanosecond range. An intermediate approach to mitigate this computational bottleneck is provided by united-atom (UA) (UA) force fields, such as GROningen MOlecular Simulation (GROMOS)~\cite{gromos}. In this methodology, nonpolar hydrogen atoms are collapsed into the heavy atoms to which they are bonded, treating the entire aliphatic group as a single interaction site, while polar hydrogens remain explicitly represented to preserve hydrogen bond networks. 
 
 To fully overcome the temporal and spatial limitations of atomistic models, researchers developed CG force fields. At this lowest level of resolution, multiple atoms—including both heavy atoms and their associated hydrogens—are grouped together to form a single interaction site, commonly referred to as a \textit{bead} (Figure ~\ref{fig:AA2CG}). This drastic reduction in the system's degrees of freedom smooths the underlying energy landscape and significantly accelerates the calculation. This computational boost allows researchers to routinely access length scales of micrometers and timescales extending from microseconds to milliseconds, albeit at the expense of reduced atomic detail and specific highly-localized interactions. One of the most successful and widely employed CG models for biological systems is the Martini force field. Martini relies on a consistent mapping scheme—typically a 4:1 ratio—in which approximately four heavy atoms and their associated hydrogens are represented by a single bead. These beads are carefully parameterized to capture the thermodynamic behavior of entire functional groups, striking an optimal balance between computational speed and the accurate reproduction of macroscopic physical properties.
 \begin{figure}[!htbp]
@@ -617,7 +617,7 @@ In the study presented in this section, the Martini 2.2 CG force field~\cite{mar
 
 
 
-\subsection{Standard metadynamics (MetaD)}
+\subsection{Standard metadynamics}
 
 To understand the necessity of enhanced sampling methodologies, we must first establish the theoretical limitations of standard MD simulations. We consider a system governed by the conditions of the canonical ensemble. In this framework, the macroscopic state of the system is determined by the Helmholtz free energy, $A$, defined as:
 \begin{equation}
@@ -681,7 +681,7 @@ By relating the free energy of each state to its partition function ($A = -k_B T
     \Delta A = A_B - A_A = -k_B T \ln Z_B + k_B T \ln Z_A = -k_B T \ln \frac{Z_B}{Z_A} = -k_B T \ln K
 \end{equation}
 
-This fundamental relationship demonstrates that $\Delta A$ fully determines the relative populations of the states and the equilibrium constant. Consequently, calculating the free energy surface along a chosen reaction coordinate, $\xi$, requires evaluating the marginal probability distribution, $P(\xi)$. This is achieved by integrating the Boltzmann factor over all degrees of freedom except $\xi$~\cite{termo_1,termo_2}:
+This fundamental relationship demonstrates that $\Delta A$ fully determines the relative populations of the states and the equilibrium constant. Consequently, calculating the FES along a chosen reaction coordinate, $\xi$, requires evaluating the marginal probability distribution, $P(\xi)$. This is achieved by integrating the Boltzmann factor over all degrees of freedom except $\xi$~\cite{termo_1,termo_2}:
 \begin{equation}
     Z(\xi) = \frac{\int \delta[\xi'(r) - \xi] e^{-\beta E} d^N r}{\int e^{-\beta E} d^N r}
 \end{equation}
@@ -701,7 +701,7 @@ This limitation motivated the development of history-dependent bias methods, mos
 
 Conceptually akin to a continuous, dynamical version of the Wang-Landau approach, MetaD operates by continuously \textit{filling in} energy basins. The statistical mechanics foundation of this method stems from the exact probability distribution function of the CVs, $P(\vec{s})$, which is formally defined using Dirac $\delta$-functions. By replacing the ensemble average with a time average over an ergodic trajectory, and mathematically expressing the $\delta$-functions as the limit of Gaussian functions, MetaD constructs a bias potential that accumulates over time.
 
-Instead of exploring the original potential energy surface $U(r)$, MetaD modifies the underlying hamiltonian by introducing a time-dependent bias potential, $V_G$, acting on the predefined set of collective variables~\cite{termo_metad_presion}:
+Instead of exploring the original potential energy surface $U(r)$, MetaD modifies the underlying hamiltonian by introducing a time-dependent bias potential, $V_G$, acting on the predefined set of CVs~\cite{termo_metad_presion}:
 \begin{equation}
     E_{bias}(r) = U(r) + V_G(\vec{s}(r))
 \end{equation}
@@ -716,7 +716,7 @@ where $\tau$ is the deposition stride, $W(k \tau)$ is the Gaussian height, and $
 
 This repulsive potential discourages the system from revisiting previously sampled configurations. If the system starts in a deep energy basin, this basin is gradually filled by the deposited Gaussians, thereby lifting the system up toward the barrier until it is able to cross into the next basin, eventually rendering the entire energy landscape \textit{flat}
 
-Assuming that the selected CVs evolve relatively slowly compared to the remaining orthogonal degrees of freedom (adiabatic separation), the dynamics effectively occur on the potential of mean force (PMF) surface, $A(\vec{s})$. Thus, if the Gaussians are added slowly enough, the accumulated bias potential exactly compensates the PMF. In the long-time limit, the bias converges to the exact negative of the underlying free energy surface, $F(\vec{s})$, up to an arbitrary additive constant $C$:
+Assuming that the selected CVs evolve relatively slowly compared to the remaining orthogonal degrees of freedom (adiabatic separation), the dynamics effectively occur on the PMF (PMF) surface, $A(\vec{s})$. Thus, if the Gaussians are added slowly enough, the accumulated bias potential exactly compensates the PMF. In the long-time limit, the bias converges to the exact negative of the underlying FES, $F(\vec{s})$, up to an arbitrary additive constant $C$:
 
 \begin{equation}\label{eq:metad_convergence}
     V(\vec{s},t\rightarrow \infty) = -F(\vec{s}) + C
@@ -740,7 +740,7 @@ yielding a direct estimate of the relevant thermodynamics of the system without 
 
 
 
-\subsubsection{Well-Tempered metadynamics (WTMetaD)}
+\subsubsection{Well-Tempered metadynamics}
 
 In standard MetaD, the continuous addition of constant-height Gaussians prevents the bias potential from converging to a stationary state, causing the free energy estimator to indefinitely oscillate around the true value and pushing the system into unreasonably high-energy regions. To achieve smooth asymptotic convergence, the WTMetaD algorithm dynamically scales the Gaussian height based on the accumulated bias~\cite{Barducci2008}. The height at time $t = k\tau$ is updated according to:
 \begin{equation}
@@ -756,7 +756,7 @@ Under this formulation, the long-time convergence relationship is modified such 
 \begin{equation}
 V(\vec{s},t\rightarrow \infty) = -\frac{\Delta T}{T+\Delta T}F(\vec{s}) + C = -\left(1 - \frac{1}{\gamma}\right)F(\vec{s}) + C
 \end{equation}
-If $\gamma = 1$, the method collapses back to standard unbiased molecular dynamics, whereas $\gamma \to \infty$ recovers the standard MetaD behavior. Thus, WTMetaD provides a highly stable approach for free energy reconstruction.
+If $\gamma = 1$, the method collapses back to standard unbiased MDs, whereas $\gamma \to \infty$ recovers the standard MetaD behavior. Thus, WTMetaD provides a highly stable approach for free energy reconstruction.
 
 \subsubsection{Thermodynamic reweighting}
 
@@ -768,12 +768,12 @@ P(\vec{q}, \vec{p}) \propto P'(\vec{q}, \vec{p}) \exp\left(\frac{V(\vec{s}(\vec{
 By assigning a statistical weight proportional to $\exp(V/k_BT)$ to each sampled frame, the unbiased free energy landscapes can be properly projected onto any other set of coordinates without running new simulations.
 
 
-\subsubsubsection{Selection and formulation of collective variables}
+\subsubsubsection{Selection and formulation of CVs}
 
-The success of any enhanced sampling technique relies heavily on the appropriate selection of CVs. These variables must capture the slow degrees of freedom that govern the transitions between the relevant metastable states. For the study of Antimicrobial Peptides (AMPs) interacting with lipid membranes, the CVs are typically geometric and thermodynamic descriptors of the association process.
+The success of any enhanced sampling technique relies heavily on the appropriate selection of CVs. These variables must capture the slow degrees of freedom that govern the transitions between the relevant metastable states. For the study of AMPs interacting with lipid membranes, the CVs are typically geometric and thermodynamic descriptors of the association process.
 
 \subsubsubsection{Geometrical framework of the peptide--membrane system}
-To mathematically define the relevant collective variables, we consider a peptide interacting with a lipid membrane, conceptually described as two effective rigid bodies. The membrane is approximated by its center of mass (COM) and a local normal axis, whereas the peptide is approximated by vectors defined through its backbone and terminal residues. The system is embedded in a three-dimensional Euclidean space with Cartesian coordinates $\vec{r} = (x, y, z)$, where the $z$-axis is conventionally defined as the normal to the membrane plane.
+To mathematically define the relevant CVs, we consider a peptide interacting with a lipid membrane, conceptually described as two effective rigid bodies. The membrane is approximated by its COMs (COM) and a local normal axis, whereas the peptide is approximated by vectors defined through its backbone and terminal residues. The system is embedded in a three-dimensional Euclidean space with Cartesian coordinates $\vec{r} = (x, y, z)$, where the $z$-axis is conventionally defined as the normal to the membrane plane.
 
 \subsubsubsubsection{Distance and insertion depth}
 Let $\vec{R}_{\mathrm{mem}}$ and $\vec{R}_{\mathrm{pep}}$ represent the centers of mass of the membrane and the peptide, respectively:
@@ -782,7 +782,7 @@ Let $\vec{R}_{\mathrm{mem}}$ and $\vec{R}_{\mathrm{pep}}$ represent the centers 
 \end{equation}
 The peptide--membrane separation vector is defined as $\vec{D} = \vec{R}_{\mathrm{pep}} - \vec{R}_{\mathrm{mem}}$. 
 
-The primary collective variable describing the peptide's insertion depth is the projection of this separation vector along the membrane normal:
+The primary CV describing the peptide's insertion depth is the projection of this separation vector along the membrane normal:
 \begin{equation}
 D_z = \vec{D} \cdot \hat{z}
 \end{equation}
@@ -825,14 +825,14 @@ The full orientation of a rigid body in 3D requires three rotational degrees of 
     \item \textbf{Yaw ($\psi$):} Represents the rotation of the peptide axis projection within the membrane plane. Due to the inherent fluid and symmetric nature of the lipid bilayer in the $xy$-plane, this degree of freedom is functionally degenerate and absorbed into the in-plane reference choice.
 \end{itemize}
 
-Ultimately, the complex association mechanism can be effectively reduced to the essential translational degree of freedom (insertion depth, $D_z$) and the two principal rotational degrees of freedom (tilt $\theta$ and spin $\phi$). These collective variables constitute a robust phase space for describing the specific thermodynamic binding modes of AMPs at the membrane interface~\ref{fig:eulers_angles}.
+Ultimately, the complex association mechanism can be effectively reduced to the essential translational degree of freedom (insertion depth, $D_z$) and the two principal rotational degrees of freedom (tilt $\theta$ and spin $\phi$). These CVs constitute a robust phase space for describing the specific thermodynamic binding modes of AMPs at the membrane interface~\ref{fig:eulers_angles}.
 
 
 \begin{figure}[!htbp]
     \centering
     \includesvg[width=0.65\linewidth]{General_Sections/Figures/helix_geometry.svg}
     \caption{\textbf{Definition of the generalized coordinates $q$ for a helical peptide in a 3-D coordinate system.} 
-    The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb{R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the center of mass $O$, and three rotational degrees of freedom, $(\psi, \theta, \phi)$, corresponding to the Euler angles. 
+    The peptide (represented by the blue helix) is modeled as a rigid body whose configuration is fully described by a set of generalized coordinates $q \in \mathbb{R}^6$. This set comprises three translational degrees of freedom, $(x, y, z)$, defining the position of the COMs $O$, and three rotational degrees of freedom, $(\psi, \theta, \phi)$, corresponding to the Euler angles. 
     The translation coordinates $(x, y)$ denote the position of the peptide within the membrane plane, while $z$ represents the insertion depth along the membrane normal. Regarding orientation, $\theta$ (tilt angle) defines the inclination relative to the $Z$-axis, $\psi$ (azimuthal angle) describes the orientation of the tilt in the $XY$ plane, and $\phi$ represents the internal rotation of the helix about its longitudinal axis $\mathbf{\hat{n}}$. 
     Assuming an infinite, homogeneous, and isotropic membrane in the $XY$ plane, the system exhibits translational symmetry along $X$ and $Y$, as well as rotational symmetry around the $Z$-axis. Consequently, the potential energy of the system is independent of $x, y$, and $\psi$ (ignorable coordinates), effectively reducing the configurational study to the three biologically relevant degrees of freedom: insertion depth ($z$), tilt ($\theta$), and internal rotation ($\phi$).}
     \label{fig:eulers_angles}
@@ -843,7 +843,7 @@ Ultimately, the complex association mechanism can be effectively reduced to the 
 
 \subsubsection{Dimensionality reduction of free energy surfaces}
 
-When analyzing complex multidimensional FES, it is often necessary to project a high-dimensional FES onto a lower-dimensional subspace to identify the most relevant reaction coordinates. For a two-dimensional free energy surface $F(s_1, s_2)$ defined by two CVs, projecting the landscape onto a single variable $s_1$ cannot be done by simply taking a cross-section or selecting the minimum energy path along $s_2$. Instead, a rigorous thermodynamic projection requires converting the free energy into a probability distribution, marginalizing the unwanted degrees of freedom, and converting back to a free energy profile.
+When analyzing complex multidimensional FES, it is often necessary to project a high-dimensional FES onto a lower-dimensional subspace to identify the most relevant reaction coordinates. For a two-dimensional FES $F(s_1, s_2)$ defined by two CVs, projecting the landscape onto a single variable $s_1$ cannot be done by simply taking a cross-section or selecting the minimum energy path along $s_2$. Instead, a rigorous thermodynamic projection requires converting the free energy into a probability distribution, marginalizing the unwanted degrees of freedom, and converting back to a free energy profile.
 
 The relationship between the 2D free energy $F(s_1, s_2)$ and the joint equilibrium probability density $P(s_1, s_2)$ is given by the inverse Boltzmann distribution:
 \begin{equation}
@@ -854,7 +854,7 @@ where $k_B$ is the Boltzmann constant, $T$ is the temperature of the system, and
     P(s_1, s_2) \propto \exp\left( -\frac{F(s_1, s_2)}{k_B T} \right)
 \end{equation}
 
-To obtain the thermodynamic projection of the FES along the collective variable $s_1$, we must compute the marginal probability distribution $P(s_1)$. This is achieved by integrating the joint probability density over the entire accessible configurational space of the variable to be discarded, $s_2$:
+To obtain the thermodynamic projection of the FES along the CV $s_1$, we must compute the marginal probability distribution $P(s_1)$. This is achieved by integrating the joint probability density over the entire accessible configurational space of the variable to be discarded, $s_2$:
 \begin{equation}
     P(s_1) = \int P(s_1, s_2) \, ds_2 \propto \int \exp\left( -\frac{F(s_1, s_2)}{k_B T} \right) \, ds_2
 \end{equation}
@@ -870,13 +870,13 @@ Substituting the integral expression of $P(s_1)$ into this equation yields the e
 where the constant $C''$ absorbs all normalization factors. In practice, since only relative free energy differences ($\Delta F$) possess physical meaning, this constant is conventionally chosen such that the global minimum of the projected one-dimensional FES is set to zero.
 
 \subsubsubsection{Computational implementation}
-In computational practice, this thermodynamic projection is performed automatically during post-processing by utilizing tools such as the \texttt{sum\_hills} utility in the PLUMED package. For instance, to project a multidimensional metadynamics FES onto a single collective variable $s_1$, the following command line can be used:
+In computational practice, this thermodynamic projection is performed automatically during post-processing by utilizing tools such as the \texttt{sum\_hills} utility in the PLUMED package. For instance, to project a multidimensional metadynamics FES onto a single CV $s_1$, the following command line can be used:
 
 \begin{verbatim}
 plumed sum_hills --hills HILLS --idw s1 --kt 2.5
 \end{verbatim}
 
-The \texttt{--idw} flag specifies the target collective variable(s) to be retained for the final free energy or histogram calculation, meaning all other unlisted variables will be integrated out mathematically. Because this numerical integration relies strictly on the calculation of exponential Boltzmann weights, it is mandatory to provide the system's thermal energy factor through the \texttt{--kt} flag (in energy units consistent with the simulation) to correctly evaluate the integral.
+The \texttt{--idw} flag specifies the target CV(s) to be retained for the final free energy or histogram calculation, meaning all other unlisted variables will be integrated out mathematically. Because this numerical integration relies strictly on the calculation of exponential Boltzmann weights, it is mandatory to provide the system's thermal energy factor through the \texttt{--kt} flag (in energy units consistent with the simulation) to correctly evaluate the integral.
 
 
 
@@ -884,7 +884,7 @@ The \texttt{--idw} flag specifies the target collective variable(s) to be retain
 
 \subsubsection{Calculation of the standard binding free energy ($\Delta G^0$)}
 
-The free energy surfaces obtained from enhanced sampling simulations provide a detailed description of the relative stability of different states. However, to compare the binding affinity of a peptide to a membrane with experimental results, it is necessary to calculate the standard Gibbs binding free energy, $\Delta G^0$. This calculation involves the integration of the Potential of Mean Force (PMF) and the application of a standard-state correction to relate the simulation results to the standard concentration of 1 M~\cite{Woo2005}.
+The FESs obtained from enhanced sampling simulations provide a detailed description of the relative stability of different states. However, to compare the binding affinity of a peptide to a membrane with experimental results, it is necessary to calculate the standard Gibbs binding free energy, $\Delta G^0$. This calculation involves the integration of the PMF (PMF) and the application of a standard-state correction to relate the simulation results to the standard concentration of 1 M~\cite{Woo2005}.
 
 Following a statistical-thermodynamic approach, the probability $p_i$ of a system being in a microscopic state $i$ with energy $W_i$ at temperature $T$ is proportional to the Boltzmann factor:
 \begin{equation}
@@ -961,11 +961,11 @@ As the block size $k$ increases, the correlation between the means of adjacent b
     \sigma \approx \sqrt{\frac{s^2(M)}{N'-1}}, \quad \sigma_{\sigma} \approx \frac{\sigma}{\sqrt{2(N'-1)}}
 \end{equation}
 
-This methodology ensures that the reported error bars for free energy surfaces and other magnitudes are statistically robust and account for the sampling limitations of the simulation.
+This methodology ensures that the reported error bars for FESs and other magnitudes are statistically robust and account for the sampling limitations of the simulation.
 
 \subsection{Principal component analysis (PCA)}
 
-PCA is a fundamental statistical method in multivariate analysis that performs a linear transformation of the coordinate system. From a mathematical perspective, PCA is a change of basis that maps the data from its original high-dimensional space to a new orthogonal coordinate system where the axes are ordered by the amount of variance they capture.
+Principal Component Analysis (PCA) is a fundamental statistical method in multivariate analysis that performs a linear transformation of the coordinate system. From a mathematical perspective, PCA is a change of basis that maps the data from its original high-dimensional space to a new orthogonal coordinate system where the axes are ordered by the amount of variance they capture.
 
 Let us consider a data set consisting of $n$ observations and $d$ variables, represented by a data matrix $\mathbf{X} \in \mathbb{R}^{n \times d}$. To ensure the mathematical consistency of the transformation, the data must first be centered such that each variable has a mean of zero:
 \begin{equation}
@@ -993,13 +993,13 @@ By applying the transformation $\mathbf{Y} = \mathbf{X} \mathbf{V}$, we project 
 
 \subsection{K-means clustering}
 
-To further characterize the metastable states and identify representative structures of a molecular system, clustering algorithms such as K-means are frequently employed. K-means is an unsupervised learning algorithm that partitions a set of observations (e.g., trajectory frames, projected PC scores, or geometric collective variables) into $K$ distinct clusters based on their spatial proximity~\cite{Lloyd1982}.
+To further characterize the metastable states and identify representative structures of a molecular system, clustering algorithms such as K-means are frequently employed. K-means is an unsupervised learning algorithm that partitions a set of observations (e.g., trajectory frames, projected PC scores, or geometric CVs) into $K$ distinct clusters based on their spatial proximity~\cite{Lloyd1982}.
 
 The algorithm operates iteratively to minimize the within-cluster sum of squares (WCSS), also known as inertia. Given an initial set of $K$ centroids, each data point $x$ is assigned to the cluster $S_j$ with the nearest mean $\mu_j$. The centroids are then recalculated as the average of all points assigned to the cluster, and the process repeats until convergence:
 \begin{equation}
     \min \sum_{j=1}^K \sum_{x \in S_j} \|x - \mu_j\|^2
 \end{equation}
-where $S_j$ is the $j$-th cluster and $\mu_j$ is its centroid. In the context of MD analysis, K-means is particularly useful for grouping similar conformations and extracting representative snapshots from the most populated basins of the free energy surface. The choice of $K$ is typically optimized using metrics such as the elbow method or the silhouette score to ensure that the partition accurately reflects the underlying structural diversity of the ensemble.
+where $S_j$ is the $j$-th cluster and $\mu_j$ is its centroid. In the context of MD analysis, K-means is particularly useful for grouping similar conformations and extracting representative snapshots from the most populated basins of the FES. The choice of $K$ is typically optimized using metrics such as the elbow method or the silhouette score to ensure that the partition accurately reflects the underlying structural diversity of the ensemble.
 
 
 
@@ -1060,19 +1060,17 @@ where $S_j$ is the $j$-th cluster and $\mu_j$ is its centroid. In the context of
 
 %%%%%%% CONTINUAR
 \section{Quantum computing}
-A fundamental challenge in the study of antimicrobial peptides arises from the enormous size of both sequence and conformational spaces~\cite{Levinthal_paradox}. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides~\cite{robert2021resource}. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes~\cite{paper_paula,vogel_amps}.
+A fundamental challenge in the study of AMPs arises from the enormous size of both sequence and conformational spaces~\cite{Levinthal_paradox}. For a peptide of length \(L\), the number of possible amino acid sequences scales exponentially as \(20^L\), making exhaustive exploration infeasible even for relatively short peptides~\cite{robert2021resource}. In addition to sequence diversity, each peptide can adopt a vast number of three-dimensional conformations, which are strongly influenced by the surrounding environment, particularly in heterogeneous systems such as lipid membranes~\cite{paper_paula,vogel_amps}.
 
-This complexity is closely related to the Levinthal parado~\cite{Levinthal_paradox}, which highlights the apparent contradiction between the astronomical number of possible conformations and the relatively fast folding times observed in nature~\cite{Levinthal_paradox_2}. This paradox suggests that peptide folding is guided by structured energy landscapes rather than random exploration, yet accurately characterizing these landscapes remains a major computational challenge~\cite{Levinthal_paradox,robert2021resource, Levinthal_paradox_2}.
+This complexity is closely related to the Levinthal parado~\cite{Levinthal_paradox}, which highlights the apparent contradiction between the astronomical number of possible conformations and the relatively fast folding times observed in nature~\cite{Levinthal_paradox_2}. This paradox suggests that peptide folding is guided by structured energy landscapes rather than random exploration, yet accurately characterizing these landscapes remains a major computational challenge~\cite{Levinthal_paradox,robert2021resource,Levinthal_paradox_2}.
 
 From a computational perspective, the protein folding problem has been shown to be NP-hard under several simplified models, implying that no efficient classical algorithm is known to solve it in the general case~\cite{robert2021resource}. This intrinsic computational complexity further limits the applicability of classical methods when attempting to explore both sequence and conformational spaces in a systematic manner.
 
-Recent advances in machine learning approaches, most notably AlphaFold~\cite{avances_2}, have achieved remarkable success in predicting static protein structures from amino acid sequences. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches~\cite{PROTEINMPNN,ROSETTA}.
+Recent advances in ML approaches, most notably AlphaFold~\cite{Jumper2021}, have achieved remarkable success in predicting static protein structures from amino acid sequences. However, such methods primarily provide high-confidence approximations of equilibrium conformations and do not explicitly model the underlying physical folding pathways, energetic landscapes, or environment-dependent effects such as peptide–lipid interactions. In particular, systems involving membrane interfaces and highly dynamic conformational transitions remain challenging for purely data-driven structural prediction approaches~\cite{PROTEINMPNN,ROSETTA}.
 
-Classical approaches, such as molecular dynamics simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally expensive~\cite{computational_expensive_MD}.
+Classical approaches, such as MDs simulations, are inherently constrained by accessible timescales and sampling efficiency, particularly in the presence of rare events and complex energy barriers. As a result, a comprehensive exploration of peptide–membrane interactions remains computationally expensive~\cite{computational_expensive_MD}.
 
-These limitations motivate the exploration of alternative computational paradigms capable of addressing the exponential and combinatorial complexity of biomolecular systems. In this context, quantum computing offers a fundamentally different framework, in which the principles of superposition and entanglement enable the representation and manipulation of high-dimensional quantum states more naturally~\cite{robert2021resource,nielsen2010quantum}. Although current quantum hardware remains limited, these approaches provide a promising avenue for tackling the intrinsic complexity of peptide folding and sequence exploration problems.
-
-
+These limitations motivate the exploration of alternative computational paradigms capable of addressing the exponential and combinatorial complexity of biomolecular systems. In this context, QC offers a fundamentally different framework, in which the principles of superposition and entanglement enable the representation and manipulation of high-dimensional quantum states more naturally~\cite{robert2021resource,nielsen2010quantum}. Although current quantum hardware remains limited, these approaches provide a promising avenue for tackling the intrinsic complexity of peptide folding and sequence exploration problems.
 
 
 
@@ -1090,7 +1088,9 @@ These limitations motivate the exploration of alternative computational paradigm
 
 
 
-Quantum Computing is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics; specifically superposition, entanglement, and interference; to process information and solve complex combinatorial optimization problems that remain intractable for classical systems~\cite{nielsen2010quantum,preskill1998quantum}. This research is conducted within the Noisy NISQ era, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction)~\cite{Shor1995,KITAEV20032}. The primary goal in this context is to achieve Quantum Advantage~\cite{paper_dani}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
+
+
+QC is an emerging multidisciplinary field that leverages the fundamental principles of quantum mechanics; specifically superposition, entanglement, and interference; to process information and solve complex combinatorial optimization problems that remain intractable for classical systems~\cite{nielsen2010quantum,preskill1998quantum}. This research is conducted within the NISQ era, a developmental stage characterized by devices with 50--1000 qubits that lack full fault-tolerance (error correction)~\cite{Shor1995,KITAEV20032}. The primary goal in this context is to achieve Quantum Advantage~\cite{paper_dani}: the demonstration that a quantum processor can solve a specific, relevant problem (such as peptide sequence optimization) significantly faster or more accurately than the best known classical algorithms, despite the presence of hardware noise.
 
 \subsection{Foundations of quantum information}
 To understand the application of quantum algorithms in molecular design, it is essential to define the basic units of information and the operations that manipulate them. As described in the fundamental work of Nielsen and Chuang~\cite{nielsen2010quantum,preskill1998quantum}, quantum information theory generalizes classical computation by utilizing the principles of Hilbert space.
@@ -1126,7 +1126,7 @@ The fundamental principles governing single qubits naturally extend to systems c
 \begin{equation}
 |\psi\rangle = \sum_{z \in \{0,1\}^N} \alpha_z |z\rangle, \quad \text{with} \quad \sum_{z \in \{0,1\}^N} |\alpha_z|^2 = 1
 \end{equation}
-The critical requirement is that the sum of the squares of the absolute values of these complex amplitudes must strictly equal $1$, ensuring that the total probability is conserved within this larger system~\cite{nielsen2010quantum,preskill1998quantum}. This extension underlines the extraordinary scalability of quantum computing, demonstrating that the information capacity available with every added qubit grows exponentially, spanning a $2^N$-dimensional Hilbert space.
+The critical requirement is that the sum of the squares of the absolute values of these complex amplitudes must strictly equal $1$, ensuring that the total probability is conserved within this larger system~\cite{nielsen2010quantum,preskill1998quantum}. This extension underlines the extraordinary scalability of QC, demonstrating that the information capacity available with every added qubit grows exponentially, spanning a $2^N$-dimensional Hilbert space.
 
 \subsection{Unitary dynamics and quantum gates}
 Analogous to classical computers, which employ elementary logic gates such as AND or NOT to carry out deterministic operations on bits, quantum computers utilize quantum gates to manipulate the probability amplitudes of one or several qubits. The continuous time evolution of these probability amplitudes in a closed quantum system is fundamentally governed by the linear differential Schr\"odinger equation:
@@ -1143,7 +1143,7 @@ When the Hamiltonian is time-independent, the formal solution to the Schr\"oding
 \end{equation}
 If the initial state of the system $|\psi(0)\rangle$ is known, all future states can be deterministically computed by applying this unitary operator, yielding $|\psi(t)\rangle = \hat{U}(t)|\psi(0)\rangle$. This unitary evolution ensures that the normalization of the quantum state is strictly conserved over time.
 
-In the context of quantum computing, this continuous-time evolution is approximated or synthesized by discrete unitary operations known as quantum gates. Any operation on a single qubit can be visualized as a rotation of the state vector on the Bloch sphere~\cite{nielsen2010quantum,preskill1998quantum}.
+In the context of QC, this continuous-time evolution is approximated or synthesized by discrete unitary operations known as quantum gates. Any operation on a single qubit can be visualized as a rotation of the state vector on the Bloch sphere~\cite{nielsen2010quantum,preskill1998quantum}.
 
 \subsubsection{Pauli and rotation gates}
 The most foundational operators for single-qubit manipulation are the Pauli matrices, which are the quantum analogs of classical operations. They are both unitary and Hermitian:
@@ -1158,7 +1158,7 @@ Another fundamental single-qubit gate is the Hadamard gate ($H$), which is criti
 \begin{equation}
 H = \frac{1}{\sqrt{2}} \begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}
 \end{equation}
-In Variational Quantum Algorithms, parameterized gates that allow for continuous rotations by an angle $\theta$ are heavily utilized. These are defined as the matrix exponentials of the Pauli operators:
+In VQAs, parameterized gates that allow for continuous rotations by an angle $\theta$ are heavily utilized. These are defined as the matrix exponentials of the Pauli operators:
 \begin{equation}
 R_x(\theta) = e^{-i\theta X/2}, \quad R_y(\theta) = e^{-i\theta Y/2}, \quad R_z(\theta) = e^{-i\theta Z/2}
 \end{equation}
@@ -1175,9 +1175,9 @@ CNOT = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 
 When the control qubit is in a superposition, applying $CNOT$ produces Bell states, which are maximally entangled.
 
 \subsection{Measurement and hardware architectures}
-Unlike classical reading, quantum measurement in the computational basis is a non-unitary process that collapses the wavefunction into one of the basis vectors~\cite{nielsen2010quantum,preskill1998quantum}. To obtain a reliable estimate of the probability distribution (the expectation value), the quantum circuit must be executed and measured multiple times. Each individual execution and measurement is referred to as a shot. The precision of the resulting expectation value improves with the square root of the number of shots ($1/\sqrt{N_{shots}}$)~\cite{shots_quantum}.
+Unlike classical reading, quantum measurement in the computational basis is a non-unitary process that collapses the wavefunction into one of the basis vectors~\cite{nielsen2010quantum,preskill1998quantum}. To obtain a reliable estimate of the probability distribution (the expectation value), the quantum circuit must be executed and measured multiple times. Each individual execution and measurement is referred to as a shot. The precision of the resulting expectation value improves with the square root of the number of shots ($1/\sqrt{N_{shots}}$)~\cite{mcclean2016theory}.
 
-In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of Variational Quantum Algorithms (VQAs)~\cite{shots_quantum}. Specifically, the VQE~\cite{VQE} and the QAOA~\cite{QAOA} were employed to tackle the energetic and combinatorial nature of these biological systems.
+In Sections \ref{chap2} and \ref{chap3}, a suite of hybrid quantum-classical algorithms is utilized to build models capable of simulating interface-driven peptide folding and predicting the optimal amino acid sequences that drive $\alpha$-helix formation in different simulated environments (e.g., lipid membranes). The computational framework of this work relies heavily on the paradigm of VQAs (VQAs)~\cite{mcclean2016theory}. Specifically, the VQE~\cite{peruzzo2014variational} and the QAOA~\cite{QAOA} were employed to tackle the energetic and combinatorial nature of these biological systems.
 
 
 
@@ -1200,8 +1200,8 @@ One of the most prominent hardwares used in this research context is the Trapped
 \subsubsubsubsection{Superconducting qubits}
 Currently the most widely deployed architecture (e.g., by IBM, Google, and Rigetti)~\cite{paper_dani}, Superconducting Qubits utilize macroscopic circuits cooled to millikelvin temperatures. These circuits, containing Josephson junctions, behave as artificial atoms. Superconducting qubits offer extremely fast gate speeds (nanoseconds) and are manufactured using standard lithographic techniques, facilitating a path toward large-scale integration. However, they typically suffer from shorter coherence times compared to ions and require complex cryogenic infrastructure~\cite{superconductiong_qubits}.
 
-\subsubsubsubsection{Photonic quantum computing}
-Another scaling paradigm utilizes photons as qubits (Linear Optical Quantum Computing). In these systems, information is encoded in the polarization, path, or arrival time of individual photons. Photonic hardware is inherently robust against thermal noise and decoherence, making it ideal for room-temperature operation. Operations are performed using interferometers, beam splitters, and phase shifters, although entangling two photons remains a technical challenge typically addressed through measurement-based schemes or non-linear optical media~\cite{photonic_qubits}.
+\subsubsubsubsection{Photonic QC}
+Another scaling paradigm utilizes photons as qubits (Linear Optical QC). In these systems, information is encoded in the polarization, path, or arrival time of individual photons. Photonic hardware is inherently robust against thermal noise and decoherence, making it ideal for room-temperature operation. Operations are performed using interferometers, beam splitters, and phase shifters, although entangling two photons remains a technical challenge typically addressed through measurement-based schemes or non-linear optical media~\cite{photonic_qubits}.
 
 
 
@@ -1223,13 +1223,13 @@ Another scaling paradigm utilizes photons as qubits (Linear Optical Quantum Comp
 
 \section{Variational quantum algorithms}
 
-In the NISQ era, hardware constraints such as limited qubit counts and short coherence times restrict the execution of deeply structured quantum algorithms. VQAs have emerged as the leading paradigm to overcome these limitations. By employing a hybrid quantum-classical approach, VQAs keep quantum circuit depth shallow while offloading the heavy computational burden of parameter optimization to classical processing units~\cite{Preskill_paper}. 
+In the NISQ era, hardware constraints such as limited qubit counts and short coherence times restrict the execution of deeply structured quantum algorithms. VQAs have emerged as the leading paradigm to overcome these limitations. By employing a hybrid quantum-classical approach, VQAs keep quantum circuit depth shallow while offloading the heavy computational burden of parameter optimization to classical processing units~\cite{preskill2018quantum}. 
 
-This hybrid framework is highly versatile. Depending on how the problem's cost function and circuit ansatz are defined, VQAs can be tailored for a variety of applications. Two prominent examples are the VQE~\cite{VQE}, primarily used for finding ground states of molecular Hamiltonians in quantum chemistry, and the QAOA~\cite{QAOA}, designed to solve combinatorial optimization problems~\cite{vqa_2}. 
+This hybrid framework is highly versatile. Depending on how the problem's cost function and circuit ansatz are defined, VQAs can be tailored for a variety of applications. Two prominent examples are the VQE~\cite{peruzzo2014variational}, primarily used for finding ground states of molecular Hamiltonians in quantum chemistry, and the QAOA~\cite{QAOA}, designed to solve combinatorial optimization problems~\cite{vqa_2}. 
 
 \subsection{The hybrid paradigm and quantum software ecosystem}
 
-VQAs operate through a symbiotic feedback loop between a Quantum Processing Unit (QPU) and a classical Central Processing Unit (CPU). While the QPU is uniquely suited to prepare highly entangled parameterized states and efficiently measure complex observables, the CPU performs the mathematical optimization of the circuit parameters.
+VQAs operate through a symbiotic feedback loop between a Quantum Processing Unit (QPU) (QPU) and a classical Central Processing Unit (CPU). While the QPU is uniquely suited to prepare highly entangled parameterized states and efficiently measure complex observables, the CPU performs the mathematical optimization of the circuit parameters.
 
 The implementation of these algorithms is supported by highly optimized open-source software frameworks. In this research, we primarily leverage:
 \begin{itemize}
@@ -1250,7 +1250,7 @@ where $w_i \in \mathbb{R}$ are the corresponding coefficients (or weights).
 
 \subsection{Connection to quantum circuits and discretized dynamics}
 
-In the context of quantum computing, the continuous-time evolution governed by the Schr\"odinger equation is approximated by discrete unitary operations (quantum gates). Each quantum gate can be interpreted as the exponential of an effective Hamiltonian acting over a finite time interval.
+In the context of QC, the continuous-time evolution governed by the Schr\"odinger equation is approximated by discrete unitary operations (quantum gates). Each quantum gate can be interpreted as the exponential of an effective Hamiltonian acting over a finite time interval.
 
 Thus, a quantum circuit can be viewed as a discretized implementation of quantum dynamics. When the terms of the system's Hamiltonian do not commute, this discretization is typically achieved using the Trotter-Suzuki decomposition:
 \begin{equation}
@@ -1310,7 +1310,7 @@ The execution of VQE, and VQAs in general, follows an iterative cycle between th
     \item \textbf{State preparation (QPU):} Prepare the trial state $|\psi(\boldsymbol{\theta})\rangle$ by applying the ansatz $U(\boldsymbol{\theta})$ to the $|0\rangle^{\otimes n}$ state.
     \item \textbf{Measurement (QPU):} Estimate the expectation values of the Pauli strings $\langle P_i \rangle$ over multiple shots.
     \item \textbf{Cost evaluation (CPU):} Aggregate the measurements to compute the total energy $E(\boldsymbol{\theta})$.
-    \item \textbf{Parameter update (CPU):} Pass the energy landscape to a classical optimization algorithm (e.g., COBYLA\cite{COBYLA}, SPSA\cite{SPSA}, or Differential Evolution\cite{DE}) to generate a new set of parameters $\boldsymbol{\theta}'$.
+    \item \textbf{Parameter update (CPU):} Pass the energy landscape to a classical optimization algorithm (e.g., Constrained Optimization By Linear Approximation (COBYLA)\cite{COBYLA}, SPSA\cite{SPSA}, or Differential Evolution (DE)\cite{DE}) to generate a new set of parameters $\boldsymbol{\theta}'$.
     \item \textbf{Iteration:} Repeat steps 1 through 4 until convergence criteria are met.
 \end{enumerate}
 
@@ -1366,7 +1366,7 @@ To solve these classical discrete problems on quantum hardware, we must bridge t
 
 \subsubsection{Quadratic unconstrained binary optimization (QUBO)}
 
-The optimization problems addressed in this research, specifically those related to sequence design, are formulated as QUBO models~\cite{qubo_2}. A QUBO problem aims to minimize a quadratic function of classical binary variables $x \in \{0, 1\}^n$:
+The optimization problems addressed in this research, specifically those related to sequence design, are formulated as Quadratic Unconstrained Binary Optimization (QUBO) models~\cite{qubo_2}. A QUBO problem aims to minimize a quadratic function of classical binary variables $x \in \{0, 1\}^n$:
 \begin{equation}
 \min_{x \in \{0,1\}^n} \quad f(x) = \sum_{i} c_i x_i + \sum_{i < j} Q_{ij} x_i x_j
 \end{equation}
@@ -1400,7 +1400,7 @@ At its core, QAOA employs a variational approach to approximate the solution to 
 
 \subsubsection{From the quantum adiabatic algorithm to QAOA}
 
-The theoretical foundations of the QAOA are heavily inspired by the Quantum Adiabatic Algorithm (QAA). The QAA utilizes adiabatic evolution, governed by Schrödinger's equation, to slowly transition a quantum system from the easily prepared ground state of an initial Hamiltonian to the unknown ground state of a cost Hamiltonian. The time-dependent QAA Hamiltonian is formulated as the sum of two non-commuting operators~\cite{qubo_1}:
+The theoretical foundations of the QAOA are heavily inspired by the Quantum Adiabatic Algorithm (QAA) (QAA). The QAA utilizes adiabatic evolution, governed by Schrödinger's equation, to slowly transition a quantum system from the easily prepared ground state of an initial Hamiltonian to the unknown ground state of a cost Hamiltonian. The time-dependent QAA Hamiltonian is formulated as the sum of two non-commuting operators~\cite{qubo_1}:
 \begin{equation}
 \hat{H}(t) = (1 - s(t))\hat{H}_B + s(t)\hat{H}_C
 \end{equation}
@@ -1422,7 +1422,7 @@ T = \mathcal{O}\left[e^{\alpha N^\beta}\right]
 \end{equation}
 for positive coefficients $\alpha$ and $\beta$. This exponential scaling fuels an ongoing debate regarding whether adiabatic quantum optimizers can definitively run faster than classical algorithms.
 
-QAOA circumvents this continuous and potentially unfeasible adiabatic evolution by simulating it on a gate-based quantum computer. In quantum computing, system evolution must be implemented via unitary operators, derived from Schrödinger's equation as $\hat{U} = e^{-it\hat{H}}$. Because the mixing and cost Hamiltonians do not generally commute, their simultaneous exponential cannot be trivially factorized. This non-commutativity is formally described by the Baker-Campbell-Hausdorff formula~\cite{nielsen2010quantum}, which dictates the expansion for the product of the exponentials of two non-commuting operators $\hat{X}$ and $\hat{Y}$:
+QAOA circumvents this continuous and potentially unfeasible adiabatic evolution by simulating it on a gate-based quantum computer. In QC, system evolution must be implemented via unitary operators, derived from Schrödinger's equation as $\hat{U} = e^{-it\hat{H}}$. Because the mixing and cost Hamiltonians do not generally commute, their simultaneous exponential cannot be trivially factorized. This non-commutativity is formally described by the Baker-Campbell-Hausdorff formula~\cite{nielsen2010quantum}, which dictates the expansion for the product of the exponentials of two non-commuting operators $\hat{X}$ and $\hat{Y}$:
 \begin{equation}
 e^{\hat{X}} e^{\hat{Y}} = e^{\hat{X} + \hat{Y} + \frac{1}{2}[\hat{X}, \hat{Y}] + \frac{1}{12}[\hat{X}, [\hat{X}, \hat{Y}]] - \frac{1}{12}[\hat{Y}, [\hat{X}, \hat{Y}]] + \dots}
 \end{equation}
@@ -1525,7 +1525,7 @@ Once the subproblem is resolved, COBYLA employs a two-stage approach to compute 
 
 
 \subsubsection{Differential evolution (DE)}
-DE is a stochastic, population-based metaheuristic introduced by R. Storn and K. Price for global optimization over continuous spaces~\cite{DE,DE_2}. The algorithm is particularly effective for the multi-modal landscapes common in quantum computing, as it relies solely on objective function evaluations and is less susceptible to local minima than many local search methods~\cite{Failde2023}.
+DE is a stochastic, population-based metaheuristic introduced by R. Storn and K. Price for global optimization over continuous spaces~\cite{DE,DE_2}. The algorithm is particularly effective for the multi-modal landscapes common in QC, as it relies solely on objective function evaluations and is less susceptible to local minima than many local search methods~\cite{Failde2023}.
 
 DE maintains a population of $NP$ real-valued parameter vectors. The evolutionary process is driven by three main operators:
 \begin{itemize}
@@ -1556,12 +1556,12 @@ Furthermore, individual gate operations and qubit measurements are subject to op
 
 
 \subsubsection{Quantum error mitigation (QEM)}
-While realizing full Fault-Tolerant QC requires thousands of physical qubits to encode a single logical qubit, the NISQ era relies heavily on QEM~\cite{error_mitigation_2}. QEM encompasses a suite of classical post-processing techniques designed to extract meaningful expectation values from noisy data without the overhead of additional ancillary qubits. Key techniques utilized in this field include:
+While realizing full Fault-Tolerant QC requires thousands of physical qubits to encode a single logical qubit, the NISQ era relies heavily on Quantum Error Mitigation (QEM)~\cite{error_mitigation_2}. QEM encompasses a suite of classical post-processing techniques designed to extract meaningful expectation values from noisy data without the overhead of additional ancillary qubits. Key techniques utilized in this field include:
 
 \begin{itemize}
-    \item \textbf{Zero-Noise extrapolation (ZNE):} This technique involves intentionally amplifying the noise level of a quantum circuit across different scale factors. The measured expectation values are then classically extrapolated back to the theoretical zero-noise limit~\cite{error_mitigation_3}.
+    \item \textbf{Zero-Noise extrapolation (Zero Noise Extrapolation (ZNE)):} This technique involves intentionally amplifying the noise level of a quantum circuit across different scale factors. The measured expectation values are then classically extrapolated back to the theoretical zero-noise limit~\cite{error_mitigation_3}.
     \item \textbf{Measurement error mitigation:} Qubit state misclassification during the readout phase is a dominant source of error. This method construct a calibration matrix (or assignment matrix) that characterizes the transition probabilities between ideal and measured states. The inverse of this matrix is then applied to the raw measurement distribution to correct the readout bias ~\cite{error_mitigation_4}.
-    \item \textbf{Probabilistic error cancellation (PEC):} This method represents a noise-free quantum circuit as a quasi-probability distribution of noisy implementable circuits. By sampling from this distribution and classically combining the results with specific parity weights, PEC effectively cancels out the noise bias, albeit at the cost of an exponentially increased sampling overhead (shots)~\cite{error_mitigation_3}.
+    \item \textbf{Probabilistic error cancellation (PEC) (PEC):} This method represents a noise-free quantum circuit as a quasi-probability distribution of noisy implementable circuits. By sampling from this distribution and classically combining the results with specific parity weights, PEC effectively cancels out the noise bias, albeit at the cost of an exponentially increased sampling overhead (shots)~\cite{error_mitigation_3}.
 \end{itemize}
 
 By seamlessly integrating these post-processing methods into the optimization loop, we can significantly improve the accuracy of energy estimations in VQE and enhance the success probability of identifying optimal sequence configurations in QAOA.
