@@ -4865,6 +4865,76 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S092422442100008X
       \endverb
     \endentry
+    \entry{experiments_2}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=4fa3edd0a5f9917ddbf94e931fe79c01}{%
+           family={Wieprecht},
+           familyi={W\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f03481fec0c3e55ce53eee6b8b652a6d}{%
+           family={Dathe},
+           familyi={D\bibinitperiod},
+           given={Margitta},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f38530106a4cb7a1c69dbf3b0c66e4ef}{%
+           family={Beyermann},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7462924e86855d44ac49bb67543aaa7b}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Eberhard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3e5fd417a7d88fd60e7d9dec058f1b1d}{%
+           family={Maloy},
+           familyi={M\bibinitperiod},
+           given={W.\bibnamedelimi Lee},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e1d7c0446b175365707ecd4e339afbf7}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={Dorothy\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6e5cf97eed63e23af1da8e0d475a5b01}{%
+           family={Bienert},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed91b440e76641849e094b399e4a82d1}
+      \strng{fullhash}{415da9ccdd7cf62220c195f283e81856}
+      \strng{fullhashraw}{415da9ccdd7cf62220c195f283e81856}
+      \strng{bibnamehash}{415da9ccdd7cf62220c195f283e81856}
+      \strng{authorbibnamehash}{415da9ccdd7cf62220c195f283e81856}
+      \strng{authornamehash}{ed91b440e76641849e094b399e4a82d1}
+      \strng{authorfullhash}{415da9ccdd7cf62220c195f283e81856}
+      \strng{authorfullhashraw}{415da9ccdd7cf62220c195f283e81856}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biochemistry}
+      \field{number}{20}
+      \field{title}{Peptide Hydrophobicity Controls the Activity and Selectivity of Magainin 2 Amide in Interaction with Membranes}
+      \field{volume}{36}
+      \field{year}{1997}
+      \field{pages}{6124\bibrangedash 6132}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1021/bi9619987
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1021/bi9619987
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/bi9619987
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/bi9619987
+      \endverb
+    \endentry
     \entry{Scocchi2016}{article}{}{}
       \name{author}{4}{}{%
         {{hash=dec2e9ebdcc9d8b083b7fb5c396f1fae}{%
@@ -5289,6 +5359,59 @@
       \verb https://www.mdpi.com/2079-6382/14/2/166
       \endverb
     \endentry
+    \entry{fracaso_amps}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=71e3817831881655fd02b1567ba23571}{%
+           family={Mahlapuu},
+           familyi={M\bibinitperiod},
+           given={Margit},
+           giveni={M\bibinitperiod}}}%
+        {{hash=14884016f6683896ed53b6dd071ac738}{%
+           family={Håkansson},
+           familyi={H\bibinitperiod},
+           given={Joakim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dd40033662d483b621be0809238dad3f}{%
+           family={Ringstad},
+           familyi={R\bibinitperiod},
+           given={Lovisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=49a6757ba8bc9d549cdbcbb29ce92c19}{%
+           family={Björn},
+           familyi={B\bibinitperiod},
+           given={Camilla},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d12d9aa82ce235ab087475f83bbfb0d8}
+      \strng{fullhash}{31586586c8c6841640eecdd74321df70}
+      \strng{fullhashraw}{31586586c8c6841640eecdd74321df70}
+      \strng{bibnamehash}{31586586c8c6841640eecdd74321df70}
+      \strng{authorbibnamehash}{31586586c8c6841640eecdd74321df70}
+      \strng{authornamehash}{d12d9aa82ce235ab087475f83bbfb0d8}
+      \strng{authorfullhash}{31586586c8c6841640eecdd74321df70}
+      \strng{authorfullhashraw}{31586586c8c6841640eecdd74321df70}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Antimicrobial peptides (AMPs), also known as host defense peptides, are short and generally positively charged peptides found in a wide variety of life forms from microorganisms to humans. Most AMPs have the ability to kill microbial pathogens directly, whereas others act indirectly by modulating the host defense systems. Against a background of rapidly increasing resistance development to conventional antibiotics all over the world, efforts to bring AMPs into clinical use are accelerating. Several AMPs are currently being evaluated in clinical trials as novel anti-infectives, but also as new pharmacological agents to modulate the immune response, promote wound healing, and prevent post-surgical adhesions. In this review, we provide an overview of the biological role, classification, and mode of action of AMPs, discuss the opportunities and challenges to develop these peptides for clinical applications, and review the innovative formulation strategies for application of AMPs.}
+      \field{issn}{2235-2988}
+      \field{journaltitle}{Frontiers in Cellular and Infection Microbiology}
+      \field{title}{Antimicrobial Peptides: An Emerging Category of Therapeutic Agents}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{194}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fcimb.2016.00194
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2016.00194
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2016.00194
+      \endverb
+    \endentry
     \entry{Dijksteel2021}{article}{}{}
       \name{author}{4}{}{%
         {{hash=f7fb48a7937fe0ff30b9e7c742e9be3e}{%
@@ -5475,59 +5598,6 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S1359644625000182
-      \endverb
-    \endentry
-    \entry{fracaso_amps}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=71e3817831881655fd02b1567ba23571}{%
-           family={Mahlapuu},
-           familyi={M\bibinitperiod},
-           given={Margit},
-           giveni={M\bibinitperiod}}}%
-        {{hash=14884016f6683896ed53b6dd071ac738}{%
-           family={Håkansson},
-           familyi={H\bibinitperiod},
-           given={Joakim},
-           giveni={J\bibinitperiod}}}%
-        {{hash=dd40033662d483b621be0809238dad3f}{%
-           family={Ringstad},
-           familyi={R\bibinitperiod},
-           given={Lovisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=49a6757ba8bc9d549cdbcbb29ce92c19}{%
-           family={Björn},
-           familyi={B\bibinitperiod},
-           given={Camilla},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{d12d9aa82ce235ab087475f83bbfb0d8}
-      \strng{fullhash}{31586586c8c6841640eecdd74321df70}
-      \strng{fullhashraw}{31586586c8c6841640eecdd74321df70}
-      \strng{bibnamehash}{31586586c8c6841640eecdd74321df70}
-      \strng{authorbibnamehash}{31586586c8c6841640eecdd74321df70}
-      \strng{authornamehash}{d12d9aa82ce235ab087475f83bbfb0d8}
-      \strng{authorfullhash}{31586586c8c6841640eecdd74321df70}
-      \strng{authorfullhashraw}{31586586c8c6841640eecdd74321df70}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Antimicrobial peptides (AMPs), also known as host defense peptides, are short and generally positively charged peptides found in a wide variety of life forms from microorganisms to humans. Most AMPs have the ability to kill microbial pathogens directly, whereas others act indirectly by modulating the host defense systems. Against a background of rapidly increasing resistance development to conventional antibiotics all over the world, efforts to bring AMPs into clinical use are accelerating. Several AMPs are currently being evaluated in clinical trials as novel anti-infectives, but also as new pharmacological agents to modulate the immune response, promote wound healing, and prevent post-surgical adhesions. In this review, we provide an overview of the biological role, classification, and mode of action of AMPs, discuss the opportunities and challenges to develop these peptides for clinical applications, and review the innovative formulation strategies for application of AMPs.}
-      \field{issn}{2235-2988}
-      \field{journaltitle}{Frontiers in Cellular and Infection Microbiology}
-      \field{title}{Antimicrobial Peptides: An Emerging Category of Therapeutic Agents}
-      \field{volume}{6}
-      \field{year}{2016}
-      \field{pages}{194}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3389/fcimb.2016.00194
-      \endverb
-      \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2016.00194
-      \endverb
-      \verb{url}
-      \verb https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2016.00194
       \endverb
     \endentry
     \entry{magana2020value}{article}{}{}
@@ -6016,76 +6086,6 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0001868617301860
-      \endverb
-    \endentry
-    \entry{experiments_2}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=4fa3edd0a5f9917ddbf94e931fe79c01}{%
-           family={Wieprecht},
-           familyi={W\bibinitperiod},
-           given={Torsten},
-           giveni={T\bibinitperiod}}}%
-        {{hash=f03481fec0c3e55ce53eee6b8b652a6d}{%
-           family={Dathe},
-           familyi={D\bibinitperiod},
-           given={Margitta},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f38530106a4cb7a1c69dbf3b0c66e4ef}{%
-           family={Beyermann},
-           familyi={B\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=7462924e86855d44ac49bb67543aaa7b}{%
-           family={Krause},
-           familyi={K\bibinitperiod},
-           given={Eberhard},
-           giveni={E\bibinitperiod}}}%
-        {{hash=3e5fd417a7d88fd60e7d9dec058f1b1d}{%
-           family={Maloy},
-           familyi={M\bibinitperiod},
-           given={W.\bibnamedelimi Lee},
-           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=e1d7c0446b175365707ecd4e339afbf7}{%
-           family={MacDonald},
-           familyi={M\bibinitperiod},
-           given={Dorothy\bibnamedelima L.},
-           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=6e5cf97eed63e23af1da8e0d475a5b01}{%
-           family={Bienert},
-           familyi={B\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{ed91b440e76641849e094b399e4a82d1}
-      \strng{fullhash}{415da9ccdd7cf62220c195f283e81856}
-      \strng{fullhashraw}{415da9ccdd7cf62220c195f283e81856}
-      \strng{bibnamehash}{415da9ccdd7cf62220c195f283e81856}
-      \strng{authorbibnamehash}{415da9ccdd7cf62220c195f283e81856}
-      \strng{authornamehash}{ed91b440e76641849e094b399e4a82d1}
-      \strng{authorfullhash}{415da9ccdd7cf62220c195f283e81856}
-      \strng{authorfullhashraw}{415da9ccdd7cf62220c195f283e81856}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Biochemistry}
-      \field{number}{20}
-      \field{title}{Peptide Hydrophobicity Controls the Activity and Selectivity of Magainin 2 Amide in Interaction with Membranes}
-      \field{volume}{36}
-      \field{year}{1997}
-      \field{pages}{6124\bibrangedash 6132}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1021/bi9619987
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1021/bi9619987
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/bi9619987
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/bi9619987
       \endverb
     \endentry
     \entry{experiments_3}{article}{}{}
@@ -6776,95 +6776,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1046202324000318
       \endverb
     \endentry
-    \entry{afm_4}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=73ed1aef213739b7fc793c2d76380336}{%
-           family={Henriksen},
-           familyi={H\bibinitperiod},
-           given={J.\bibnamedelimi R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=ecb52fabaa99968b97c10013b4ac69c2}{%
-           family={Andresen},
-           familyi={A\bibinitperiod},
-           given={T.\bibnamedelimi L.},
-           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{58b23e0160aad56acdfda85b09fed7fb}
-      \strng{fullhash}{58b23e0160aad56acdfda85b09fed7fb}
-      \strng{fullhashraw}{58b23e0160aad56acdfda85b09fed7fb}
-      \strng{bibnamehash}{58b23e0160aad56acdfda85b09fed7fb}
-      \strng{authorbibnamehash}{58b23e0160aad56acdfda85b09fed7fb}
-      \strng{authornamehash}{58b23e0160aad56acdfda85b09fed7fb}
-      \strng{authorfullhash}{58b23e0160aad56acdfda85b09fed7fb}
-      \strng{authorfullhashraw}{58b23e0160aad56acdfda85b09fed7fb}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Biophysical Journal}
-      \field{number}{1}
-      \field{title}{Thermodynamic Profiling of Peptide Membrane Interactions by Isothermal Titration Calorimetry: A Search for Pores and Micelles}
-      \field{volume}{101}
-      \field{year}{2011}
-      \field{pages}{100\bibrangedash 109}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.bpj.2011.05.047
-      \endverb
-    \endentry
-    \entry{afm_5}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=93894de9a58b3114f2c28816c1376847}{%
-           family={Beck},
-           familyi={B\bibinitperiod},
-           given={Katharina},
-           giveni={K\bibinitperiod}}}%
-        {{hash=cf13a37dd85732896fb5ae5e7590a5c2}{%
-           family={Nandy},
-           familyi={N\bibinitperiod},
-           given={Janina},
-           giveni={J\bibinitperiod}}}%
-        {{hash=8e05b1fd24db474b9e1fc71b70eb32e6}{%
-           family={Hoernke},
-           familyi={H\bibinitperiod},
-           given={Maria},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{266c75af83cb1e8d47a266b62d21b934}
-      \strng{fullhash}{aad4c2b40789f396f35142bb4d3398d9}
-      \strng{fullhashraw}{aad4c2b40789f396f35142bb4d3398d9}
-      \strng{bibnamehash}{aad4c2b40789f396f35142bb4d3398d9}
-      \strng{authorbibnamehash}{aad4c2b40789f396f35142bb4d3398d9}
-      \strng{authornamehash}{266c75af83cb1e8d47a266b62d21b934}
-      \strng{authorfullhash}{aad4c2b40789f396f35142bb4d3398d9}
-      \strng{authorfullhashraw}{aad4c2b40789f396f35142bb4d3398d9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Physical Chemistry B}
-      \field{number}{9}
-      \field{title}{Strong Membrane Permeabilization Activity Can Reduce Selectivity of Cyclic Antimicrobial Peptides}
-      \field{volume}{129}
-      \field{year}{2025}
-      \field{pages}{2446\bibrangedash 2460}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.1021/acs.jpcb.4c05019
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1021/acs.jpcb.4c05019
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/acs.jpcb.4c05019
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/acs.jpcb.4c05019
-      \endverb
-    \endentry
     \entry{cd_4}{article}{}{}
       \name{author}{2}{}{%
         {{hash=fcbfda6f8db01b46100bbc99e4d0f2c1}{%
@@ -7185,6 +7096,45 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S000527362030290X
+      \endverb
+    \endentry
+    \entry{afm_4}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=73ed1aef213739b7fc793c2d76380336}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ecb52fabaa99968b97c10013b4ac69c2}{%
+           family={Andresen},
+           familyi={A\bibinitperiod},
+           given={T.\bibnamedelimi L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{58b23e0160aad56acdfda85b09fed7fb}
+      \strng{fullhash}{58b23e0160aad56acdfda85b09fed7fb}
+      \strng{fullhashraw}{58b23e0160aad56acdfda85b09fed7fb}
+      \strng{bibnamehash}{58b23e0160aad56acdfda85b09fed7fb}
+      \strng{authorbibnamehash}{58b23e0160aad56acdfda85b09fed7fb}
+      \strng{authornamehash}{58b23e0160aad56acdfda85b09fed7fb}
+      \strng{authorfullhash}{58b23e0160aad56acdfda85b09fed7fb}
+      \strng{authorfullhashraw}{58b23e0160aad56acdfda85b09fed7fb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biophysical Journal}
+      \field{number}{1}
+      \field{title}{Thermodynamic Profiling of Peptide Membrane Interactions by Isothermal Titration Calorimetry: A Search for Pores and Micelles}
+      \field{volume}{101}
+      \field{year}{2011}
+      \field{pages}{100\bibrangedash 109}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.bpj.2011.05.047
       \endverb
     \endentry
     \entry{dror2012biomolecular}{article}{}{}
@@ -10974,8 +10924,8 @@
       \strng{authornamehash}{3d57bab495922f9ac31059e757ecb25d}
       \strng{authorfullhash}{c5b5d720030e7eec230957e12f4fa82c}
       \strng{authorfullhashraw}{c5b5d720030e7eec230957e12f4fa82c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As we begin to reach the limits of classical computing, quantum computing has emerged as a technology that has captured the imagination of the scientific world. While for many years, the ability to execute quantum algorithms was only a theoretical possibility, recent advances in hardware mean that quantum computing devices now exist that can carry out quantum computation on a limited scale. Thus, it is now a real possibility, and of central importance at this time, to assess the potential impact of quantum computers on real problems of interest. One of the earliest and most compelling applications for quantum computers is Feynman’s idea of simulating quantum systems with many degrees of freedom. Such systems are found across chemistry, physics, and materials science. The particular way in which quantum computing extends classical computing means that one cannot expect arbitrary simulations to be sped up by a quantum computer, thus one must carefully identify areas where quantum advantage may be achieved. In this review, we briefly describe central problems in chemistry and materials science, in areas of electronic structure, quantum statistical mechanics, and quantum dynamics that are of potential interest for solution on a quantum computer. We then take a detailed snapshot of current progress in quantum algorithms for ground-state, dynamics, and thermal-state simulation and analyze their strengths and weaknesses for future developments.}
@@ -11017,8 +10967,8 @@
       \strng{authornamehash}{76ccc3f6b162d7d83453177c479468c7}
       \strng{authorfullhash}{76ccc3f6b162d7d83453177c479468c7}
       \strng{authorfullhashraw}{76ccc3f6b162d7d83453177c479468c7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal de Chimie Physique}
@@ -11058,8 +11008,8 @@
       \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
       \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
       \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
@@ -13922,8 +13872,8 @@
       \strng{authornamehash}{11b6b123ec1c10682eed73281c6f04cd}
       \strng{authorfullhash}{4700ae338b1c33efb4fc1e7026dc593f}
       \strng{authorfullhashraw}{4700ae338b1c33efb4fc1e7026dc593f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Assessing kinetics in biological processes with molecular dynamics simulations remains a computational and conceptual challenge, given the large time and length scales involved. For kinetic transport of biochemical compounds or drug molecules, the permeability through the phospholipid membranes is a key kinetic property, but long timescales are hindering the accurate computation. Technological advances in high-performance computing therefore need to be accompanied by theoretical and methodological developments. In this contribution, the replica exchange transition interface sampling (RETIS) methodology is shown to give perspective toward observing longer permeation pathways. It is first reviewed how RETIS, a path-sampling methodology that gives in principle exact kinetics, can be used to compute membrane permeability. Next, recent and current developments in three RETIS aspects are discussed: several new Monte Carlo moves in the path-sampling algorithm, memory reduction by reducing pathlengths, and exploitation of parallel computing with CPU-imbalanced replicas. Finally, the memory reduction presenting a new replica exchange implementation, coined REPPTIS, is showcased with a permeant needing to pass a membrane with two permeation channels, either representing an entropic or energetic barrier. The REPPTIS results showed clearly that inclusion of some memory and enhancing ergodic sampling via replica exchange moves are both necessary to obtain correct permeability estimates. In an additional example, ibuprofen permeation through a dipalmitoylphosphatidylcholine membrane was modeled. REPPTIS succeeded in estimating the permeability of this amphiphilic drug molecule with metastable states along the permeation pathway. In conclusion, the presented methodological advances allow for deeper insight into membrane biophysics even if the pathways are slow, as RETIS and REPPTIS push the permeability calculations to longer timescales.}
@@ -13965,8 +13915,8 @@
       \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Lecture Notes for Physics 229}
