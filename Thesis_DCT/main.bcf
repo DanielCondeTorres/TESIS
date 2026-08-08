@@ -2408,7 +2408,7 @@
     <bcf:citekey order="19" intorder="1">Aunan2017</bcf:citekey>
     <bcf:citekey order="20" intorder="1">LopezOtin2023</bcf:citekey>
     <bcf:citekey order="21" intorder="1">Campisi2013</bcf:citekey>
-    <bcf:citekey order="21" intorder="2">aunan2017biology</bcf:citekey>
+    <bcf:citekey order="21" intorder="2">Aunan2017</bcf:citekey>
     <bcf:citekey order="22" intorder="1">Campisi2013</bcf:citekey>
     <bcf:citekey order="23" intorder="1">DANI_LIPIDOS</bcf:citekey>
     <bcf:citekey order="24" intorder="1">Montoliu2014</bcf:citekey>
@@ -2459,7 +2459,7 @@
     <bcf:citekey order="51" intorder="1">Holthuis2014</bcf:citekey>
     <bcf:citekey order="52" intorder="1">Casares2019</bcf:citekey>
     <bcf:citekey order="53" intorder="1">van2008membrane</bcf:citekey>
-    <bcf:citekey order="53" intorder="2">infection_membrane</bcf:citekey>
+    <bcf:citekey order="53" intorder="2">bacterial_bilayer_1</bcf:citekey>
     <bcf:citekey order="54" intorder="1">van2008membrane</bcf:citekey>
     <bcf:citekey order="54" intorder="2">Nagata2016</bcf:citekey>
     <bcf:citekey order="54" intorder="3">Szlasa2020</bcf:citekey>
@@ -2634,7 +2634,7 @@
     <bcf:citekey order="169" intorder="1">implicit_solvent_model</bcf:citekey>
     <bcf:citekey order="170" intorder="1">implicit_vs_explicit</bcf:citekey>
     <bcf:citekey order="171" intorder="1">white1999membrane</bcf:citekey>
-    <bcf:citekey order="172" intorder="1">cresca2026current</bcf:citekey>
+    <bcf:citekey order="172" intorder="1">hypothesis</bcf:citekey>
     <bcf:citekey order="173" intorder="1">Kabelka2021</bcf:citekey>
     <bcf:citekey order="173" intorder="2">Marrink2019</bcf:citekey>
     <bcf:citekey order="174" intorder="1">Frenkel2023</bcf:citekey>

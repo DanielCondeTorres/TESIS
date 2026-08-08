@@ -19,10 +19,10 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{WHO2024TopCausesDeath}{misc}{}{}
+    \entry{WHO2024TopCausesDeath}{online}{}{}
       \name{author}{1}{}{%
         {{hash=531217507bec092b6ec36c0f78f46736}{%
-           family={{World Health Organization}},
+           family={{World Health Organization.}},
            familyi={W\bibinitperiod}}}%
       }
       \strng{namehash}{531217507bec092b6ec36c0f78f46736}
@@ -37,10 +37,13 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{8}
-      \field{note}{Fact sheet, published August 7, 2024. Accessed August 5, 2026}
-      \field{title}{The Top 10 Causes of Death}
+      \field{note}{Fact sheet, published August 7, 2024}
+      \field{title}{The Top 10 Causes of Death.}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
       \field{year}{2024}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
       \endverb
@@ -51,7 +54,7 @@
     \entry{GBD2021CausesOfDeath}{article}{}{}
       \name{author}{1}{}{%
         {{hash=b8f5f2c2605e68717216c28155e934ab}{%
-           family={{GBD 2021 Causes of Death Collaborators}},
+           family={{GBD 2021 Causes of Death Collaborators.}},
            familyi={G\bibinitperiod}}}%
       }
       \strng{namehash}{b8f5f2c2605e68717216c28155e934ab}
@@ -225,6 +228,8 @@
       \field{title}{Molecular and Cellular Mechanisms of Immunosenescence: Modulation Through Interventions and Lifestyle Changes}
       \field{volume}{14}
       \field{year}{2025}
+      \field{pages}{17}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/biology14010017
       \endverb
@@ -538,8 +543,10 @@
       \field{issn}{1664-3224}
       \field{journaltitle}{Frontiers in Immunology}
       \field{title}{Unraveling lipid and inflammation interplay in cancer, aging and infection for novel theranostic approaches}
-      \field{volume}{Volume 15 - 2024}
+      \field{volume}{15}
       \field{year}{2024}
+      \field{pages}{1320779}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3389/fimmu.2024.1320779
       \endverb
@@ -1030,7 +1037,6 @@
       \strng{authornamehash}{b39a203d085a48adfac729444b973dd5}
       \strng{authorfullhash}{41de76acc905c3aab32551cdbfa39741}
       \strng{authorfullhashraw}{41de76acc905c3aab32551cdbfa39741}
-      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1077,49 +1083,6 @@
       \range{pages}{21}
       \verb{doi}
       \verb 10.1146/annurev-physiol-030212-183653
-      \endverb
-    \endentry
-    \entry{aunan2017biology}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=9bb41a3a27aa13a15ae97e364b0e0cc9}{%
-           family={Aunan},
-           familyi={A\bibinitperiod},
-           given={J.\bibnamedelimi R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=573ae69b43ae9738031071bc0ea0664b}{%
-           family={Cho},
-           familyi={C\bibinitperiod},
-           given={W.\bibnamedelimi C.},
-           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=1d035aac6d6c12c16ec51f4822f516d3}{%
-           family={S{ø}reide},
-           familyi={S\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{6265a2a0ad5713cfecdbc0c1ceec2c91}
-      \strng{fullhash}{dd59d09d6cc88de1197c33a5cc8e33bc}
-      \strng{fullhashraw}{dd59d09d6cc88de1197c33a5cc8e33bc}
-      \strng{bibnamehash}{dd59d09d6cc88de1197c33a5cc8e33bc}
-      \strng{authorbibnamehash}{dd59d09d6cc88de1197c33a5cc8e33bc}
-      \strng{authornamehash}{6265a2a0ad5713cfecdbc0c1ceec2c91}
-      \strng{authorfullhash}{dd59d09d6cc88de1197c33a5cc8e33bc}
-      \strng{authorfullhashraw}{dd59d09d6cc88de1197c33a5cc8e33bc}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Aging and Disease}
-      \field{month}{10}
-      \field{number}{5}
-      \field{title}{The Biology of Aging and Cancer: A Brief Overview of Shared and Divergent Molecular Hallmarks}
-      \field{volume}{8}
-      \field{year}{2017}
-      \field{pages}{628\bibrangedash 642}
-      \range{pages}{15}
-      \verb{doi}
-      \verb 10.14336/AD.2017.0103
       \endverb
     \endentry
     \entry{Montoliu2014}{article}{}{}
@@ -1713,7 +1676,7 @@
       \field{pages}{257\bibrangedash 271}
       \range{pages}{15}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.198402573
+      \verb 10.1002/anie.198402573
       \endverb
       \verb{eprint}
       \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.198402573
@@ -1795,7 +1758,7 @@
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature reviews Molecular cell biology}
+      \field{journaltitle}{Nature Reviews Molecular Cell Biology}
       \field{number}{2}
       \field{title}{Membrane lipids: where they are and how they behave}
       \field{volume}{9}
@@ -1803,7 +1766,7 @@
       \field{pages}{112\bibrangedash 124}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1038/nrm2330
+      \verb 10.1038/nrm2330
       \endverb
     \endentry
     \entry{self-assembly}{article}{}{}
@@ -1840,8 +1803,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A simple theory is developed that accounts for many of the observed physical properties of micelles{,} both globular and rod-like{,} and of bilayer vesicles composed of ionic or zwitterionic amphiphiles. The main point of departure from previous theories lies in the recognition and elucidation of the role of geometric constraints in self-assembly. The linking together of thermodynamics{,} interaction free energies and geometry results in a general framework which permits extension to more complicated self-assembly problems.}
-      \field{issue}{0}
-      \field{journaltitle}{J. Chem. Soc.{,} Faraday Trans. 2}
+      \field{journaltitle}{Journal of the Chemical Society, Faraday Transactions 2}
       \field{title}{Theory of self-assembly of hydrocarbon amphiphiles into micelles and bilayers}
       \field{volume}{72}
       \field{year}{1976}
@@ -1943,7 +1905,7 @@
       \field{pages}{303\bibrangedash 324}
       \range{pages}{22}
       \verb{doi}
-      \verb https://doi.org/10.1146/annurev-conmatphys-040220-045516
+      \verb 10.1146/annurev-conmatphys-040220-045516
       \endverb
       \verb{urlraw}
       \verb https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-040220-045516
@@ -2132,35 +2094,37 @@
       \verb 10.1038/nature13474
       \endverb
     \endentry
-    \entry{infection_membrane}{article}{}{}
+    \entry{bacterial_bilayer_1}{article}{}{}
       \name{author}{2}{}{%
         {{hash=c5d456e6b3709808b61d5b39a5327d5f}{%
            family={Raetz},
            familyi={R\bibinitperiod},
-           given={C.\bibnamedelimi R.},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=b75e973f08ea975110c955b13134ff60}{%
+           given={CR},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d4cdf31978c20d4f9d109c4ab85d90b0}{%
            family={Dowhan},
            familyi={D\bibinitperiod},
-           given={W.},
+           given={William},
            giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{d48ee5cf6d26f4940e61b51868e46121}
-      \strng{fullhash}{d48ee5cf6d26f4940e61b51868e46121}
-      \strng{fullhashraw}{d48ee5cf6d26f4940e61b51868e46121}
-      \strng{bibnamehash}{d48ee5cf6d26f4940e61b51868e46121}
-      \strng{authorbibnamehash}{d48ee5cf6d26f4940e61b51868e46121}
-      \strng{authornamehash}{d48ee5cf6d26f4940e61b51868e46121}
-      \strng{authorfullhash}{d48ee5cf6d26f4940e61b51868e46121}
-      \strng{authorfullhashraw}{d48ee5cf6d26f4940e61b51868e46121}
-      \field{extraname}{1}
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{fullhash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{fullhashraw}{2204348988cca2c7a6e87921d174d37f}
+      \strng{bibnamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorbibnamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authornamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorfullhash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorfullhashraw}{2204348988cca2c7a6e87921d174d37f}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Biological Chemistry}
       \field{number}{3}
-      \field{title}{Biosynthesis and function of phospholipids in {Escherichia coli}}
+      \field{title}{Biosynthesis and function of phospholipids in \textit{Escherichia coli}}
       \field{volume}{265}
       \field{year}{1990}
       \field{pages}{1235\bibrangedash 1238}
@@ -2300,8 +2264,10 @@
       \field{issn}{1664-042X}
       \field{journaltitle}{Frontiers in Physiology}
       \field{title}{Involvement of Lipids in Alzheimer’s Disease Pathology and Potential Therapies}
-      \field{volume}{Volume 11 - 2020}
+      \field{volume}{11}
       \field{year}{2020}
+      \field{pages}{598}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3389/fphys.2020.00598
       \endverb
@@ -2399,6 +2365,8 @@
       \field{title}{Mimicking the Mammalian Plasma Membrane: An Overview of Lipid Membrane Models for Biophysical Studies}
       \field{volume}{6}
       \field{year}{2021}
+      \field{pages}{3}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/biomimetics6010003
       \endverb
@@ -2493,7 +2461,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0918-6158}
       \field{issue}{8}
-      \field{journaltitle}{Biological \& pharmaceutical bulletin}
+      \field{journaltitle}{Biological \& Pharmaceutical Bulletin}
       \field{month}{8}
       \field{title}{Lipid asymmetry of the eukaryotic plasma membrane: functions and related enzymes.}
       \field{volume}{29}
@@ -2540,7 +2508,7 @@
       \field{pages}{233\bibrangedash 242}
       \range{pages}{10}
       \verb{doi}
-      \verb https://doi.org/10.1194/jlr.R200019-JLR200
+      \verb 10.1194/jlr.R200019-JLR200
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0022227520312104
@@ -2583,8 +2551,10 @@
       \field{issn}{1664-302X}
       \field{journaltitle}{Frontiers in Microbiology}
       \field{title}{From antimicrobial to anticancer peptides. A review}
-      \field{volume}{Volume 4 - 2013}
+      \field{volume}{4}
       \field{year}{2013}
+      \field{pages}{294}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3389/fmicb.2013.00294
       \endverb
@@ -2639,7 +2609,7 @@
       \field{pages}{184194}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.bbamem.2023.184194
+      \verb 10.1016/j.bbamem.2023.184194
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0005273623000767
@@ -2715,43 +2685,6 @@
       \verb{url}
       \verb https://doi.org/10.1039/d1cp04836h
       \endverb
-    \endentry
-    \entry{bacterial_bilayer_1}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=c5d456e6b3709808b61d5b39a5327d5f}{%
-           family={Raetz},
-           familyi={R\bibinitperiod},
-           given={CR},
-           giveni={C\bibinitperiod}}}%
-        {{hash=d4cdf31978c20d4f9d109c4ab85d90b0}{%
-           family={Dowhan},
-           familyi={D\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{fullhash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{fullhashraw}{2204348988cca2c7a6e87921d174d37f}
-      \strng{bibnamehash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{authorbibnamehash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{authornamehash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{authorfullhash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{authorfullhashraw}{2204348988cca2c7a6e87921d174d37f}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Biological Chemistry}
-      \field{number}{3}
-      \field{title}{Biosynthesis and function of phospholipids in Escherichia coli.}
-      \field{volume}{265}
-      \field{year}{1990}
-      \field{pages}{1235\bibrangedash 1238}
-      \range{pages}{4}
     \endentry
     \entry{bacterial_bilayer_2}{article}{}{}
       \name{author}{2}{}{%
@@ -2836,7 +2769,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0006-3002}
       \field{issue}{3}
-      \field{journaltitle}{Biochimica et biophysica acta}
+      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Molecular and Cell Biology of Lipids}
       \field{month}{3}
       \field{title}{Phosphatidylcholine biosynthesis and function in bacteria.}
       \field{volume}{1831}
@@ -2881,7 +2814,6 @@
       \field{abstract}{There has been increasing interest in recent years in describing the lateral organization of membranes and the formation of membrane domains. Much of the focus in this area has been on the formation of cholesterol-rich domains in mammalian membranes. However, it is likely that there are domains in all biological membranes. One of the challenges has been to define the chemical composition, lifetime and size of these domains. There is evidence that bacteria have domains that are enriched in cardiolipin. In addition, the formation of lipid domains can be induced in bacteria by clustering negatively charged lipids with polycationic substances. Many antimicrobial compounds have multiple positive charges. Such polycationic compounds can sequester anionic lipids to induce lipid phase separation. The molecular interactions among lipids and their lateral packing density will be different in a domain from its environment. This will lead to phase boundary defects that will lower the permeability barrier between the cell and its surroundings. The formation of these clusters of anionic lipids may also alter the stability or composition of existing membrane domains that may affect bacterial function. Interestingly many antimicrobial agents are polycationic and therefore likely have some effect in promoting lipid phase segregation between anionic and zwitterionic lipids. However, this mechanism is expected to be most important for substances with sequential positive charges contained within a flexible molecule that can adapt to the arrangement of charged groups on the surface of the bacterial cell. When this mechanism is dominant it can allow the prediction of the bacterial species that will be most affected by the agent as a consequence of the nature of the lipid composition of the bacterial membrane.}
       \field{issn}{0005-2736}
       \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Biomembranes}
-      \field{note}{Lipid Interactions, Domain Formation, and Lateral Structure of Membranes}
       \field{number}{1}
       \field{title}{Lipid domains in bacterial membranes and the action of antimicrobial agents}
       \field{volume}{1788}
@@ -2889,7 +2821,7 @@
       \field{pages}{289\bibrangedash 294}
       \range{pages}{6}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.bbamem.2008.08.023
+      \verb 10.1016/j.bbamem.2008.08.023
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0005273608002733
@@ -3395,7 +3327,7 @@
       \field{pages}{588\bibrangedash 600}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jiph.2024.01.017
+      \verb 10.1016/j.jiph.2024.01.017
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1876034124000236
@@ -3407,7 +3339,7 @@
     \entry{chemdraw}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=e0e5b897b79c166580afab519667b128}{%
-           family={{PerkinElmer Informatics}},
+           family={{PerkinElmer Informatics.}},
            familyi={P\bibinitperiod}}}%
       }
       \strng{namehash}{e0e5b897b79c166580afab519667b128}
@@ -3422,8 +3354,8 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Licencia de la Universidade de Santiago de Compostela (USC)}
-      \field{title}{ChemDraw Professional}
+      \field{note}{License from the University of Santiago de Compostela (USC)}
+      \field{title}{\textit{ChemDraw Professional}}
       \field{version}{22.2}
       \field{year}{2021}
       \verb{urlraw}
@@ -3477,7 +3409,7 @@
       \field{pages}{102781}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.mib.2026.102781
+      \verb 10.1016/j.mib.2026.102781
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1369527426000755
@@ -3557,7 +3489,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1177-391X}
-      \field{journaltitle}{Perspectives in medicinal chemistry}
+      \field{journaltitle}{Perspectives in Medicinal Chemistry}
       \field{title}{Antimicrobial peptides and their analogs: searching for new potential therapeutics.}
       \field{volume}{6}
       \field{year}{2014}
@@ -3603,7 +3535,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1546-1696}
       \field{issue}{12}
-      \field{journaltitle}{Nature Biotechnology 2006 24:12}
+      \field{journaltitle}{Nature Biotechnology}
       \field{month}{12}
       \field{title}{Antimicrobial and host-defense peptides as new anti-infective therapeutic strategies}
       \field{volume}{24}
@@ -3654,22 +3586,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2218-273X}
-      \field{issue}{1}
       \field{journaltitle}{Biomolecules}
       \field{month}{1}
-      \field{title}{Antimicrobial Peptides: Diversity, Mechanism of Action and Strategies to Improve the Activity and Biocompatibility In Vivo.}
+      \field{number}{1}
+      \field{title}{Antimicrobial Peptides: Diversity, Mechanism of Action and Strategies to Improve the Activity and Biocompatibility In Vivo}
       \field{volume}{8}
       \field{year}{2018}
       \field{pages}{4}
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/biom8010004
-      \endverb
-      \verb{urlraw}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/29351202 http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5871973
-      \endverb
-      \verb{url}
-      \verb http://www.ncbi.nlm.nih.gov/pubmed/29351202%20http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5871973
       \endverb
     \endentry
     \entry{fermentation10110540}{article}{}{}
@@ -3735,6 +3661,8 @@
       \field{title}{A Review of Antimicrobial Peptides: Structure, Mechanism of Action, and Molecular Optimization Strategies}
       \field{volume}{10}
       \field{year}{2024}
+      \field{pages}{540}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/fermentation10110540
       \endverb
@@ -3782,6 +3710,8 @@
       \field{title}{Antimicrobial Peptides: Current Status, Mechanisms of Action, and Strategies to Overcome Therapeutic Limitations}
       \field{volume}{13}
       \field{year}{2025}
+      \field{pages}{2574}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/microorganisms13112574
       \endverb
@@ -3828,7 +3758,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
       \field{issue}{D1}
-      \field{journaltitle}{Nucleic acids research}
+      \field{journaltitle}{Nucleic Acids Research}
       \field{month}{1}
       \field{title}{APD3: the antimicrobial peptide database as a tool for research and education.}
       \field{volume}{44}
@@ -3966,9 +3896,6 @@
            given={Darren\bibnamedelimb S\bibnamedelima J},
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
       \strng{namehash}{d8df63b89b782b28ed2454509bd31ab8}
       \strng{fullhash}{174eac1a7a942f3b26e53afd1bef90f7}
       \strng{fullhashraw}{174eac1a7a942f3b26e53afd1bef90f7}
@@ -3981,21 +3908,16 @@
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Antimicrobial resistance (AMR) is a serious threat to global public health, with approximately 5 million deaths associated with bacterial AMR in 2019. Tackling AMR requires a multifaceted and cohesive approach that ranges from increased understanding of mechanisms and drivers at the individual and population levels, AMR surveillance, antimicrobial stewardship, improved infection prevention and control measures, and strengthened global policies and funding to development of novel antimicrobial therapeutic strategies. In this rapidly advancing field, this Review provides a concise update on AMR, encompassing epidemiology, evolution, underlying mechanisms (primarily those related to last-line or newer generation of antibiotics), infection prevention and control measures, access to antibiotics, antimicrobial stewardship, AMR surveillance, and emerging non-antibiotic therapeutic approaches. The Review also discusses the potential roles of artificial intelligence in addressing AMR, including antimicrobial susceptibility testing, AMR surveillance, antimicrobial stewardship, diagnosis, and antimicrobial drug discovery and development. This Review highlights the urgent need for addressing the global effects of AMR and for rapid advancement of relevant technology in this dynamic field.}
       \field{issn}{2666-5247}
       \field{journaltitle}{The Lancet Microbe}
       \field{number}{1}
       \field{title}{Antimicrobial resistance: a concise update}
       \field{volume}{6}
       \field{year}{2025}
+      \field{pages}{100947}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.lanmic.2024.07.010
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/j.lanmic.2024.07.010
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/j.lanmic.2024.07.010
       \endverb
     \endentry
     \entry{salam2023antimicrobial}{article}{}{}
@@ -4186,49 +4108,44 @@
     \endentry
     \entry{numero_aa_amps}{article}{}{}
       \name{author}{3}{}{%
-        {{hash=5337ec2b18e5b1962e700a3dc9ac0977}{%
+        {{hash=6dfdf39cf237ba371a300e9a4665ecd0}{%
            family={Cresti},
            familyi={C\bibinitperiod},
-           given={Laura},
+           given={L.},
            giveni={L\bibinitperiod}}}%
-        {{hash=45944365fbefd36b21561951abd4b4b2}{%
+        {{hash=2629ed0855ef51d7d3986636259840d3}{%
            family={Cappello},
            familyi={C\bibinitperiod},
-           given={Giovanni},
+           given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=d604d90b5e7a044c3a2c2cd47113e4ab}{%
+        {{hash=27265b63bf4539e9b6424a7543b07556}{%
            family={Pini},
            familyi={P\bibinitperiod},
-           given={Alessandro},
+           given={A.},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{a6a90793c88212bac9c7b0bb653f343e}
-      \strng{fullhash}{039844badd73b1a10db5ef050d06a14b}
-      \strng{fullhashraw}{039844badd73b1a10db5ef050d06a14b}
-      \strng{bibnamehash}{039844badd73b1a10db5ef050d06a14b}
-      \strng{authorbibnamehash}{039844badd73b1a10db5ef050d06a14b}
-      \strng{authornamehash}{a6a90793c88212bac9c7b0bb653f343e}
-      \strng{authorfullhash}{039844badd73b1a10db5ef050d06a14b}
-      \strng{authorfullhashraw}{039844badd73b1a10db5ef050d06a14b}
+      \strng{namehash}{706bdc98ee1dba113b349f4d0828ed7f}
+      \strng{fullhash}{15a47a853bcfc744ffbadfcdab06b1e0}
+      \strng{fullhashraw}{15a47a853bcfc744ffbadfcdab06b1e0}
+      \strng{bibnamehash}{15a47a853bcfc744ffbadfcdab06b1e0}
+      \strng{authorbibnamehash}{15a47a853bcfc744ffbadfcdab06b1e0}
+      \strng{authornamehash}{706bdc98ee1dba113b349f4d0828ed7f}
+      \strng{authorfullhash}{15a47a853bcfc744ffbadfcdab06b1e0}
+      \strng{authorfullhashraw}{15a47a853bcfc744ffbadfcdab06b1e0}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are molecules with an amphipathic structure that enables them to interact with bacterial membranes. This interaction can lead to membrane crossing and disruption with pore formation, culminating in cell death. They are produced naturally in various organisms, including humans, animals, plants and microorganisms. In higher animals, they are part of the innate immune system, where they counteract infection by bacteria, fungi, viruses and parasites. AMPs can also be designed de novo by bioinformatic approaches or selected from combinatorial libraries, and then produced by chemical or recombinant procedures. Since their discovery, AMPs have aroused interest as potential antibiotics, although few have reached the market due to stability limits or toxicity. Here, we describe the development phase and a number of clinical trials of antimicrobial peptides. We also provide an update on AMPs in the pharmaceutical industry and an overall view of their therapeutic market. Modifications to peptide structures to improve stability in vivo and bioavailability are also described.}
-      \field{issn}{1422-0067}
       \field{journaltitle}{International Journal of Molecular Sciences}
       \field{number}{9}
-      \field{title}{Antimicrobial Peptides towards Clinical Application—A Long History to Be Concluded}
+      \field{title}{Antimicrobial Peptides towards Clinical Application---A Long History to Be Concluded}
       \field{volume}{25}
       \field{year}{2024}
+      \field{pages}{4870}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/ijms25094870
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/1422-0067/25/9/4870
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/1422-0067/25/9/4870
       \endverb
     \endentry
     \entry{doi:10.1128/cmr.00056-05}{article}{}{}
@@ -4265,7 +4182,7 @@
       \field{journaltitle}{Clinical Microbiology Reviews}
       \field{number}{3}
       \field{title}{Peptide Antimicrobial Agents}
-      \field{volume}{02310095419}
+      \field{volume}{19}
       \field{year}{2006}
       \field{pages}{491\bibrangedash 511}
       \range{pages}{21}
@@ -4322,7 +4239,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1474-1784}
       \field{issue}{5}
-      \field{journaltitle}{Nature reviews. Drug discovery}
+      \field{journaltitle}{Nature Reviews Drug Discovery}
       \field{month}{5}
       \field{title}{Antimicrobial host defence peptides: functions and clinical potential.}
       \field{volume}{19}
@@ -4460,7 +4377,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Critical Reviews in Biotechnology}
-      \field{note}{PMID: 22074402}
       \field{number}{2}
       \field{title}{Antimicrobial peptides: key components of the innate immune system}
       \field{volume}{32}
@@ -4510,7 +4426,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0031-6997}
       \field{issue}{1}
-      \field{journaltitle}{Pharmacological reviews}
+      \field{journaltitle}{Pharmacological Reviews}
       \field{month}{3}
       \field{title}{Mechanisms of antimicrobial peptide action and resistance.}
       \field{volume}{55}
@@ -4724,6 +4640,8 @@
       \field{title}{Single Disulfide Bond in Host Defense Thanatin Analog Peptides: Antimicrobial Activity, Atomic-Resolution Structures and Target Interactions}
       \field{volume}{26}
       \field{year}{2025}
+      \field{pages}{51}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/ijms26010051
       \endverb
@@ -4765,9 +4683,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry}
-      \field{note}{PMID: 11123901}
       \field{number}{51}
-      \field{title}{Structure of the Bovine Antimicrobial Peptide Indolicidin Bound to Dodecylphosphocholine and Sodium Dodecyl Sulfate Micelles,}
+      \field{title}{Structure of the Bovine Antimicrobial Peptide Indolicidin Bound to Dodecylphosphocholine and Sodium Dodecyl Sulfate Micelles}
       \field{volume}{39}
       \field{year}{2000}
       \field{pages}{15765\bibrangedash 15774}
@@ -4788,7 +4705,7 @@
     \entry{PDB}{article}{}{}
       \name{author}{1}{}{%
         {{hash=70aa1a8eb3df1fb617363b9503af377a}{%
-           family={consortium},
+           family={consortium.},
            familyi={c\bibinitperiod},
            prefix={wwPDB},
            prefixi={w\bibinitperiod}}}%
@@ -4868,7 +4785,7 @@
       \field{pages}{33\bibrangedash 38}
       \range{pages}{6}
       \verb{doi}
-      \verb https://doi.org/10.1016/0263-7855(96)00018-5
+      \verb 10.1016/0263-7855(96)00018-5
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/0263785596000185
@@ -4988,7 +4905,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1873-4294}
       \field{issue}{1}
-      \field{journaltitle}{Current topics in medicinal chemistry}
+      \field{journaltitle}{Current Topics in Medicinal Chemistry}
       \field{month}{9}
       \field{title}{Non-Membrane Permeabilizing Modes of Action of Antimicrobial Peptides on Bacteria}
       \field{volume}{16}
@@ -5107,7 +5024,7 @@
       \field{pages}{103775}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cis.2025.103775
+      \verb 10.1016/j.cis.2025.103775
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0001868625003860
@@ -5189,7 +5106,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
       \field{issue}{D1}
-      \field{journaltitle}{Nucleic acids research}
+      \field{journaltitle}{Nucleic Acids Research}
       \field{month}{1}
       \field{title}{DRAMP 4.0: an open-access data repository dedicated to the clinical translation of antimicrobial peptides.}
       \field{volume}{53}
@@ -5360,6 +5277,8 @@
       \field{title}{FDA-Approved Antibacterials and Echinocandins}
       \field{volume}{14}
       \field{year}{2025}
+      \field{pages}{166}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/antibiotics14020166
       \endverb
@@ -5409,7 +5328,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1664-302X}
-      \field{journaltitle}{Frontiers in microbiology}
+      \field{journaltitle}{Frontiers in Microbiology}
       \field{month}{7}
       \field{title}{Review: Lessons Learned From Clinical Trials Using Antimicrobial Peptides (AMPs).}
       \field{volume}{12}
@@ -5495,7 +5414,7 @@
       \field{pages}{100954}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.drup.2023.100954
+      \verb 10.1016/j.drup.2023.100954
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1368764623000377
@@ -5549,7 +5468,7 @@
       \field{pages}{104305}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.drudis.2025.104305
+      \verb 10.1016/j.drudis.2025.104305
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1359644625000182
@@ -5597,8 +5516,10 @@
       \field{issn}{2235-2988}
       \field{journaltitle}{Frontiers in Cellular and Infection Microbiology}
       \field{title}{Antimicrobial Peptides: An Emerging Category of Therapeutic Agents}
-      \field{volume}{Volume 6 - 2016}
+      \field{volume}{6}
       \field{year}{2016}
+      \field{pages}{194}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3389/fcimb.2016.00194
       \endverb
@@ -5853,7 +5774,7 @@
       \field{issue}{6}
       \field{journaltitle}{The Protein Journal}
       \field{month}{8}
-      \field{title}{Improved Protease Stability of the Antimicrobial Peptide Pin2 Substituted with d-Amino Acids}
+      \field{title}{Improved Protease Stability of the Antimicrobial Peptide Pin2 Substituted with {D}-Amino Acids}
       \field{volume}{32}
       \field{year}{2013}
       \field{pages}{456\bibrangedash 466}
@@ -5985,7 +5906,7 @@
       \field{pages}{102685}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cbpa.2026.102685
+      \verb 10.1016/j.cbpa.2026.102685
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1367593126000347
@@ -6082,14 +6003,13 @@
       \field{abstract}{The interaction of antimicrobial peptides (AMPs) with biological membranes is in the focus of research since several years, and the most important features and modes of action of AMPs are described in this review. Different model systems can be used to understand such interactions on a molecular level. As a special example, we use 2D and 3D model membranes to investigate the interaction of the natural cyclic (Ar-1) and the synthetic linear molecule arenicin with selected amphiphiles and phospholipids. A panoply of sophisticated methods has been used to analyze these interactions on a molecular level. As a general trend, one observes that cationic antimicrobial peptides do not interact with cationic amphiphiles due to electrostatic repulsion, whereas with non-ionic amphiphiles, the peptide interacts only with aggregated systems and not with monomers. The interaction is weak (hydrophobic interaction) and requires an aggregated state with a large surface (cylindrical micelles). Anionic amphiphiles (as monomers or micelles) exhibit strong electrostatic interactions with the AMPs leading to changes in the peptide conformation. Both types of peptides interact strongly with anionic phospholipid monolayers with a preference for fluid layers. The interaction with a zwitterionic layer is almost absent for the linear derivative but measurable for the cyclic arenicin Ar-1. This is in accordance with biological experiments showing that Ar-1 forms well defined stable pores in phospholipid and lipopolysaccharide (LPS) membranes (cytotoxicity). The synthetic linear arenicin, which is less cytotoxic, does not affect the mammalian lipids to such an extent. The interaction of arenicin with bacterial membrane lipids is dominated by hydrogen bonding together with electrostatic and hydrophobic interactions.}
       \field{issn}{0001-8686}
       \field{journaltitle}{Advances in Colloid and Interface Science}
-      \field{note}{Dominique Langevin Festschrift: Four Decades Opening Gates in Colloid and Interface Science}
       \field{title}{The interaction of antimicrobial peptides with membranes}
       \field{volume}{247}
       \field{year}{2017}
       \field{pages}{521\bibrangedash 532}
       \range{pages}{12}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cis.2017.06.001
+      \verb 10.1016/j.cis.2017.06.001
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0001868617301860
@@ -6149,7 +6069,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry}
-      \field{note}{PMID: 9166783}
       \field{number}{20}
       \field{title}{Peptide Hydrophobicity Controls the Activity and Selectivity of Magainin 2 Amide in Interaction with Membranes}
       \field{volume}{36}
@@ -6220,7 +6139,7 @@
       \field{pages}{2985\bibrangedash 2993}
       \range{pages}{9}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.bbamem.2014.08.018
+      \verb 10.1016/j.bbamem.2014.08.018
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0005273614003009
@@ -6400,6 +6319,8 @@
       \field{title}{Light-Emitting Probes for Labeling Peptides}
       \field{volume}{1}
       \field{year}{2020}
+      \field{pages}{100257}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.1016/j.xcrp.2020.100257
       \endverb
@@ -6440,7 +6361,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry}
-      \field{note}{PMID: 26368853}
       \field{number}{38}
       \field{title}{Antimicrobial Peptide Lactoferricin B-Induced Rapid Leakage of Internal Contents from Single Giant Unilamellar Vesicles}
       \field{volume}{54}
@@ -6449,15 +6369,6 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1021/acs.biochem.5b00594
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1021/acs.biochem.5b00594
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/acs.biochem.5b00594
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/acs.biochem.5b00594
       \endverb
     \endentry
     \entry{fluo_4}{article}{}{}
@@ -6699,7 +6610,7 @@
       \field{pages}{119\bibrangedash 139}
       \range{pages}{21}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.bbapap.2005.06.005
+      \verb 10.1016/j.bbapap.2005.06.005
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1570963905001792
@@ -6744,7 +6655,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Accounts of Chemical Research}
-      \field{note}{PMID: 26756718}
       \field{number}{2}
       \field{title}{Oriented Circular Dichroism: A Method to Characterize Membrane-Active Peptides in Oriented Lipid Bilayers}
       \field{volume}{49}
@@ -6803,20 +6713,13 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This chapter describes the application of NMR spectroscopy to the determination of the identity, content, structure and purity of peptides. Both 1D and 2D NMR examples are presented for both 1H and other nuclei. NMR spectroscopy is a nondestructive technique requiring limited sample pretreatment and development time. The limited sample pretreatment reduces the experimental time and variations due to handling, thereby increasing robustness. NMR spectroscopy can distinguish between very closely related peptides. It is especially suited for the determination of unrelated impurities such as process-related impurities and extractables/leachables. NMR spectroscopy is very sensitive to higher-order structure. Although NMR equipment in itself is expensive, the actual cost of an NMR spectrum is low owing to automation and limited consumables.}
       \field{booktitle}{Peptide Therapeutics: Strategy and Tactics for Chemistry, Manufacturing and Controls}
-      \field{isbn}{978-1-78801-433-5}
-      \field{month}{08}
       \field{title}{Determination of the Identity, Content and Purity of Therapeutic Peptides by NMR Spectroscopy}
       \field{year}{2019}
+      \field{pages}{381\bibrangedash 405}
+      \range{pages}{25}
       \verb{doi}
       \verb 10.1039/9781788016445-00381
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1039/9781788016445-00381
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1039/9781788016445-00381
       \endverb
     \endentry
     \entry{nmr_2}{article}{}{}
@@ -6864,7 +6767,7 @@
       \field{pages}{10\bibrangedash 20}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.ymeth.2024.01.012
+      \verb 10.1016/j.ymeth.2024.01.012
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1046202324000318
@@ -6943,7 +6846,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Physical Chemistry B}
-      \field{note}{PMID: 39969852}
       \field{number}{9}
       \field{title}{Strong Membrane Permeabilization Activity Can Reduce Selectivity of Cyclic Antimicrobial Peptides}
       \field{volume}{129}
@@ -6989,9 +6891,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the American Chemical Society}
-      \field{note}{PMID: 14228459}
       \field{number}{2}
-      \field{title}{The Ultraviolet Circular Dichroism of Polypeptides1}
+      \field{title}{The Ultraviolet Circular Dichroism of Polypeptides}
       \field{volume}{87}
       \field{year}{1965}
       \field{pages}{218\bibrangedash 228}
@@ -7222,14 +7123,13 @@
       \field{abstract}{A number of peptides are known to bind lipid bilayer membranes and cause these natural barriers to leak in an uncontrolled manner. Though membrane permeabilizing peptides play critical roles in cellular activity and may have promising future applications in the therapeutic arena, significant questions remain about their mechanisms of action. The atomic force microscope (AFM) is a single molecule imaging tool capable of addressing lipid bilayers in near-native fluid conditions. The apparatus complements traditional assays by providing local topographic maps of bilayer remodeling induced by membrane permeabilizing peptides. The information garnered from the AFM includes direct visualization and statistical analyses of distinct bilayer remodeling modes such as highly localized pore-like voids in the bilayer and dispersed thinned membrane regions. Colocalization of distinct remodeling modes can be studied. Here we examine recent work in the field and outline methods used to achieve precise AFM image data. Experimental challenges and common pitfalls are discussed as well as techniques for unbiased analysis including the Hessian blob detection algorithm, bootstrapping, and the Bayesian information criterion. When coupled with robust statistical analyses, high precision AFM data is poised to advance understanding of an important family of peptides that cause poration of membrane bilayers.}
       \field{issn}{1046-2023}
       \field{journaltitle}{Methods}
-      \field{note}{Single-molecule imaging and probing tools}
       \field{title}{Atomic force microscopy for quantitative understanding of peptide-induced lipid bilayer remodeling}
       \field{volume}{197}
       \field{year}{2022}
       \field{pages}{20\bibrangedash 29}
       \range{pages}{10}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.ymeth.2020.10.014
+      \verb 10.1016/j.ymeth.2020.10.014
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1046202320302292
@@ -7278,7 +7178,7 @@
       \field{pages}{183447}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.bbamem.2020.183447
+      \verb 10.1016/j.bbamem.2020.183447
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S000527362030290X
@@ -7512,7 +7412,7 @@
       \field{pages}{166\bibrangedash 179}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1002/qua.1208
+      \verb 10.1002/qua.1208
       \endverb
       \verb{eprint}
       \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/qua.1208
@@ -7578,7 +7478,7 @@
       \field{pages}{e1481}
       \range{pages}{-1}
       \verb{doi}
-      \verb https://doi.org/10.1002/wcms.1481
+      \verb 10.1002/wcms.1481
       \endverb
       \verb{eprint}
       \verb https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.1481
@@ -7905,7 +7805,7 @@
       \field{pages}{235\bibrangedash 270}
       \range{pages}{36}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0304-4157(97)00008-7
+      \verb 10.1016/S0304-4157(97)00008-7
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0304415797000087
@@ -7941,7 +7841,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of chemical physics}
+      \field{journaltitle}{The Journal of Chemical Physics}
       \field{number}{5}
       \field{title}{Phase transition for a hard sphere system}
       \field{volume}{27}
@@ -7949,7 +7849,7 @@
       \field{pages}{1208}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1063/1.448118
+      \verb 10.1063/1.448118
       \endverb
     \endentry
     \entry{rahman1964correlations}{article}{}{}
@@ -7976,7 +7876,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{2A}
-      \field{journaltitle}{Phys. Rev.}
+      \field{journaltitle}{Physical Review}
       \field{month}{10}
       \field{title}{Correlations in the Motion of Atoms in Liquid Argon}
       \field{volume}{136}
@@ -8435,7 +8335,7 @@
       \field{pages}{227\bibrangedash 249}
       \range{pages}{23}
       \verb{doi}
-      \verb https://doi.org/10.1016/0022-2836(76)90311-9
+      \verb 10.1016/0022-2836(76)90311-9
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/0022283676903119
@@ -8493,7 +8393,7 @@
     \entry{nobel_chemistry_2013}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=d1c59ef58fab959c3fc3ecfa15e012fc}{%
-           family={{The Nobel Prize}},
+           family={{The Nobel Prize.}},
            familyi={T\bibinitperiod}}}%
       }
       \list{institution}{1}{%
@@ -8512,14 +8412,14 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.nobelprize.org/prizes/chemistry/2013/summary/}}
-      \field{note}{Accedido el: 8 de julio de 2026}
+      \field{note}{Accessed: August 8, 2026}
       \field{title}{The Nobel Prize in Chemistry 2013}
       \field{year}{2013}
     \endentry
     \entry{royal_swedish_academy_2013}{report}{}{}
       \name{author}{1}{}{%
         {{hash=8b54eea531f0347f87aaa463db41dc75}{%
-           family={{Royal Swedish Academy of Sciences}},
+           family={{Royal Swedish Academy of Sciences.}},
            familyi={R\bibinitperiod}}}%
       }
       \list{institution}{1}{%
@@ -8644,7 +8544,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{ABSTRACT Molecular Dynamics (MD) has established itself as a pivotal computational tool across various scientific domains, including chemistry, biology, and materials science. Despite its widespread utility, MD faces inherent challenges, such as accuracy limitations, computational speed, and sampling efficiency. In recent years, machine learning, particularly deep learning, has seen significant advancements and is increasingly being integrated into MD processes. This review explores how deep learning can mitigate the issues associated with MD by addressing them from multiple angles. However, deep learning techniques introduce their own set of hurdles, including the need for extensive data, issues of interpretability, high computational costs, and concerns regarding transferability. Here, we discuss recent progress in the field of deep learning to overcome these obstacles. Ultimately, our goal is to demonstrate that, by leveraging the advancements made in both the MD and the machine learning community, deep learning has the potential to significantly enhance the capabilities of MD, paving the way to new scientific discovery. This article is categorized under: Data Science > Artificial Intelligence/Machine Learning Molecular and Statistical Mechanics > Molecular Mechanics Molecular and Statistical Mechanics > Molecular Dynamics and Monte-Carlo Methods}
       \field{journaltitle}{WIREs Computational Molecular Science}
-      \field{note}{e70064 CMS-1162.R1}
       \field{number}{1}
       \field{title}{Breaking the Barriers of Molecular Dynamics With Deep-Learning: Opportunities, Pitfalls, and How to Navigate Them}
       \field{volume}{16}
@@ -8652,7 +8551,7 @@
       \field{pages}{e70064}
       \range{pages}{-1}
       \verb{doi}
-      \verb https://doi.org/10.1002/wcms.70064
+      \verb 10.1002/wcms.70064
       \endverb
       \verb{eprint}
       \verb https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.70064
@@ -8862,7 +8761,7 @@
       \verb https://livecomsjournal.org/index.php/livecoms/article/view/v1i1e5957
       \endverb
     \endentry
-    \entry{force_field_protocol}{inbook}{}{}
+    \entry{force_field_protocol}{article}{}{}
       \name{author}{2}{}{%
         {{hash=b5ae263641ff93495fc2343e3f596a1c}{%
            family={Monticelli},
@@ -8875,24 +8774,6 @@
            given={D.\bibnamedelimi Peter},
            giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \name{editor}{2}{}{%
-        {{hash=b5ae263641ff93495fc2343e3f596a1c}{%
-           family={Monticelli},
-           familyi={M\bibinitperiod},
-           given={Luca},
-           giveni={L\bibinitperiod}}}%
-        {{hash=2c854b477f4a449d4c5956cbd53d0149}{%
-           family={Salonen},
-           familyi={S\bibinitperiod},
-           given={Emppu},
-           giveni={E\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Totowa, NJ}%
-      }
-      \list{publisher}{1}{%
-        {Humana Press}%
-      }
       \strng{namehash}{5cd7c44a20256253758e782de9b833ff}
       \strng{fullhash}{5cd7c44a20256253758e782de9b833ff}
       \strng{fullhashraw}{5cd7c44a20256253758e782de9b833ff}
@@ -8901,29 +8782,18 @@
       \strng{authornamehash}{5cd7c44a20256253758e782de9b833ff}
       \strng{authorfullhash}{5cd7c44a20256253758e782de9b833ff}
       \strng{authorfullhashraw}{5cd7c44a20256253758e782de9b833ff}
-      \strng{editorbibnamehash}{7f6609f9d8b1e2cb4d7164d968b083ee}
-      \strng{editornamehash}{7f6609f9d8b1e2cb4d7164d968b083ee}
-      \strng{editorfullhash}{7f6609f9d8b1e2cb4d7164d968b083ee}
-      \strng{editorfullhashraw}{7f6609f9d8b1e2cb4d7164d968b083ee}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In this chapter we review the basic features and the principles underlying molecular mechanics force fields commonly used in molecular modeling of biological macromolecules. We start by summarizing the historical background and then describe classical pairwise additive potential energy functions. We introduce the problem of the calculation of nonbonded interactions, of particular importance for charged macromolecules. Different parameterization philosophies are then presented, followed by a section on force field validation. We conclude with a brief overview on future perspectives for the development of classical force fields.}
-      \field{booktitle}{Biomolecular Simulations: Methods and Protocols}
-      \field{isbn}{978-1-62703-017-5}
-      \field{title}{Force Fields for Classical Molecular Dynamics}
+      \field{journaltitle}{Methods in Molecular Biology (Clifton, N.J.)}
+      \field{title}{Force fields for classical molecular dynamics}
+      \field{volume}{924}
       \field{year}{2013}
       \field{pages}{197\bibrangedash 213}
       \range{pages}{17}
       \verb{doi}
       \verb 10.1007/978-1-62703-017-5_8
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-1-62703-017-5_8
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-1-62703-017-5_8
       \endverb
     \endentry
     \entry{implicit_solvent_model}{article}{}{}
@@ -8961,7 +8831,7 @@
       \field{pages}{1\bibrangedash 20}
       \range{pages}{20}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0301-4622(98)00226-9
+      \verb 10.1016/S0301-4622(98)00226-9
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0301462298002269
@@ -8999,7 +8869,7 @@
       \field{pages}{148\bibrangedash 161}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1002/prot.10483
+      \verb 10.1002/prot.10483
       \endverb
       \verb{eprint}
       \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/prot.10483
@@ -9047,40 +8917,37 @@
       \verb 10.1146/annurev.biophys.28.1.319
       \endverb
     \endentry
-    \entry{cresca2026current}{article}{}{}
+    \entry{hypothesis}{article}{}{}
       \name{author}{4}{}{%
-        {{hash=d32cc951db9a4d9024304ab449b73748}{%
+        {{hash=56a3b2016e690222c387a63c5912d1be}{%
            family={Cresca},
            familyi={C\bibinitperiod},
-           given={S.},
+           given={Sofia},
            giveni={S\bibinitperiod}}}%
-        {{hash=3fd2a1007808aa74f7a908f924451948}{%
+        {{hash=570925b30ffa449492cf5622a5bb63a2}{%
            family={Borišek},
            familyi={B\bibinitperiod},
-           given={J.},
+           given={Jure},
            giveni={J\bibinitperiod}}}%
-        {{hash=8678d7396e5cd6f57d7ddcbb2805dd3a}{%
+        {{hash=714eacc5950d03c5b95406f2144a1a39}{%
            family={Magistrato},
            familyi={M\bibinitperiod},
-           given={A.},
+           given={Alessandra},
            giveni={A\bibinitperiod}}}%
-        {{hash=58fa4d107e1aaeaff6da4dfc2a8ca14f}{%
+        {{hash=1e6ecdbe416a03fe9a8bc40ba101a9e2}{%
            family={Križaj},
            familyi={K\bibinitperiod},
-           given={I.},
+           given={Igor},
            giveni={I\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {ACS Publications}%
-      }
-      \strng{namehash}{4d81a2cc7bea237eebec5c843f9b6c7c}
-      \strng{fullhash}{de03a94d00e01782832a721994c561fa}
-      \strng{fullhashraw}{de03a94d00e01782832a721994c561fa}
-      \strng{bibnamehash}{de03a94d00e01782832a721994c561fa}
-      \strng{authorbibnamehash}{de03a94d00e01782832a721994c561fa}
-      \strng{authornamehash}{4d81a2cc7bea237eebec5c843f9b6c7c}
-      \strng{authorfullhash}{de03a94d00e01782832a721994c561fa}
-      \strng{authorfullhashraw}{de03a94d00e01782832a721994c561fa}
+      \strng{namehash}{bbd6006e9ec109ac0031d09123318b68}
+      \strng{fullhash}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{fullhashraw}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{bibnamehash}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{authorbibnamehash}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{authornamehash}{bbd6006e9ec109ac0031d09123318b68}
+      \strng{authorfullhash}{5161965e79b7082c70d11e1b6ec7da8b}
+      \strng{authorfullhashraw}{5161965e79b7082c70d11e1b6ec7da8b}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -9239,18 +9106,10 @@
       \field{labeltitlesource}{title}
       \field{edition}{Third Edition}
       \field{isbn}{9780323902922}
-      \field{journaltitle}{Understanding Molecular Simulation: from Algorithms to Applications, Third Edition}
-      \field{month}{1}
-      \field{title}{Understanding Molecular Simulation}
+      \field{title}{Understanding Molecular Simulation: From Algorithms to Applications}
       \field{year}{2023}
       \verb{doi}
       \verb 10.1016/C2009-0-63921-0
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/C20090639210
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/C20090639210
       \endverb
     \endentry
     \entry{martini2}{article}{}{}
@@ -9814,7 +9673,7 @@
       \field{pages}{141014}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.bbapap.2024.141014
+      \verb 10.1016/j.bbapap.2024.141014
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S1570963924000219
@@ -9969,6 +9828,8 @@
       \field{title}{Membrane Active Peptides and Their Biophysical Characterization}
       \field{volume}{8}
       \field{year}{2018}
+      \field{pages}{77}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3390/biom8030077
       \endverb
@@ -10248,7 +10109,7 @@
       \field{pages}{141\bibrangedash 151}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0009-2614(99)01123-9
+      \verb 10.1016/S0009-2614(99)01123-9
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0009261499011239
@@ -10840,7 +10701,7 @@
       \field{pages}{187\bibrangedash 199}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1016/0021-9991(77)90121-8
+      \verb 10.1016/0021-9991(77)90121-8
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/0021999177901218
@@ -10878,7 +10739,7 @@
       \field{pages}{932\bibrangedash 942}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1002/wcms.66
+      \verb 10.1002/wcms.66
       \endverb
       \verb{eprint}
       \verb https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.66
@@ -10890,7 +10751,7 @@
       \verb https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.66
       \endverb
     \endentry
-    \entry{steered_md}{inproceedings}{}{}
+    \entry{steered_md}{incollection}{}{}
       \name{author}{8}{}{%
         {{hash=c178fd8c9111491d9d27a04792dd0592}{%
            family={Izrailev},
@@ -11142,23 +11003,25 @@
     \endentry
     \entry{Levinthal_paradox}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=a4b954c248c62a1efadd8e5bf9425e37}{%
-           family={{Levinthal, Cyrus}},
-           familyi={L\bibinitperiod}}}%
+        {{hash=76ccc3f6b162d7d83453177c479468c7}{%
+           family={Levinthal},
+           familyi={L\bibinitperiod},
+           given={Cyrus},
+           giveni={C\bibinitperiod}}}%
       }
-      \strng{namehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{fullhash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{fullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{bibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorbibnamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authornamehash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorfullhash}{a4b954c248c62a1efadd8e5bf9425e37}
-      \strng{authorfullhashraw}{a4b954c248c62a1efadd8e5bf9425e37}
+      \strng{namehash}{76ccc3f6b162d7d83453177c479468c7}
+      \strng{fullhash}{76ccc3f6b162d7d83453177c479468c7}
+      \strng{fullhashraw}{76ccc3f6b162d7d83453177c479468c7}
+      \strng{bibnamehash}{76ccc3f6b162d7d83453177c479468c7}
+      \strng{authorbibnamehash}{76ccc3f6b162d7d83453177c479468c7}
+      \strng{authornamehash}{76ccc3f6b162d7d83453177c479468c7}
+      \strng{authorfullhash}{76ccc3f6b162d7d83453177c479468c7}
+      \strng{authorfullhashraw}{76ccc3f6b162d7d83453177c479468c7}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J. Chim. Phys.}
+      \field{journaltitle}{Journal de Chimie Physique}
       \field{title}{Are there pathways for protein folding?}
       \field{volume}{65}
       \field{year}{1968}
@@ -11299,7 +11162,7 @@
       \field{pages}{e202300120}
       \range{pages}{-1}
       \verb{doi}
-      \verb https://doi.org/10.1002/cbic.202300120
+      \verb 10.1002/cbic.202300120
       \endverb
       \verb{eprint}
       \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/cbic.202300120
@@ -11373,13 +11236,16 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International journal of theoretical physics}
+      \field{journaltitle}{International Journal of Theoretical Physics}
       \field{number}{6-7}
       \field{title}{Simulating physics with computers}
       \field{volume}{21}
       \field{year}{1982}
       \field{pages}{467\bibrangedash 488}
       \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/BF02650179
+      \endverb
     \endentry
     \entry{nielsen2010quantum}{book}{}{}
       \name{author}{2}{}{%
@@ -11556,13 +11422,16 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature communications}
+      \field{journaltitle}{Nature Communications}
       \field{number}{1}
       \field{title}{A variational eigenvalue solver on a photonic quantum processor}
       \field{volume}{5}
       \field{year}{2014}
       \field{pages}{4213}
       \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/ncomms5213
+      \endverb
     \endentry
     \entry{QAOA}{misc}{}{}
       \name{author}{3}{}{%
@@ -11656,6 +11525,9 @@
       \field{year}{2016}
       \field{pages}{023023}
       \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/18/2/023023
+      \endverb
     \endentry
     \entry{Bidart2026}{article}{}{}
       \name{author}{6}{}{%
@@ -11712,7 +11584,7 @@
       \verb 10.1146/annurev-physchem-082624-084635
       \endverb
     \endentry
-    \entry{Palsberg2026}{article}{}{}
+    \entry{Palsberg2026}{misc}{}{}
       \name{author}{10}{}{%
         {{hash=1684412f847ca2768dd69ca981ed8458}{%
            family={Palsberg},
@@ -11777,11 +11649,14 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv}
+      \field{eprinttype}{arXiv}
       \field{title}{Computer Science Challenges in Quantum Computing: Early Fault-Tolerance and Beyond}
       \field{year}{2026}
       \verb{doi}
       \verb 10.48550/arXiv.2601.20247
+      \endverb
+      \verb{eprint}
+      \verb 2601.20247
       \endverb
     \endentry
     \entry{Erol2025}{article}{}{}
@@ -11883,6 +11758,8 @@
       \field{title}{Materials Challenges and Opportunities for Quantum Computing Hardware}
       \field{volume}{372}
       \field{year}{2021}
+      \field{pages}{eabb2823}
+      \range{pages}{-1}
       \verb{doi}
       \verb 10.1126/science.abb2823
       \endverb
@@ -11917,7 +11794,7 @@
       \verb 10.1109/ACCESS.2025.3576216
       \endverb
     \endentry
-    \entry{Croot2025}{article}{}{}
+    \entry{Croot2025}{misc}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{4}{}{%
@@ -11954,11 +11831,14 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv}
+      \field{eprinttype}{arXiv}
       \field{title}{Enabling Technologies for Scalable Superconducting Quantum Computing}
       \field{year}{2025}
       \verb{doi}
       \verb 10.48550/arXiv.2512.15001
+      \endverb
+      \verb{eprint}
+      \verb 2512.15001
       \endverb
     \endentry
     \entry{Shor1995}{article}{}{}
@@ -11985,7 +11865,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
-      \field{journaltitle}{Phys. Rev. A}
+      \field{journaltitle}{Physical Review A}
       \field{month}{10}
       \field{title}{Scheme for reducing decoherence in quantum computer memory}
       \field{volume}{52}
@@ -12032,7 +11912,7 @@
       \field{pages}{2\bibrangedash 30}
       \range{pages}{29}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0003-4916(02)00018-0
+      \verb 10.1016/S0003-4916(02)00018-0
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
@@ -12041,7 +11921,7 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
       \endverb
     \endentry
-    \entry{Wang2026}{article}{}{}
+    \entry{Wang2026}{misc}{}{}
       \name{author}{11}{}{%
         {{hash=cbee128e55de356eb0726d361c8920c0}{%
            family={Wang},
@@ -12112,11 +11992,14 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers of Physics}
+      \field{eprinttype}{arXiv}
       \field{title}{A Review of Variational Quantum Algorithms: Insights into Fault-Tolerant Quantum Computing}
       \field{year}{2026}
       \verb{doi}
       \verb 10.48550/arXiv.2604.07909
+      \endverb
+      \verb{eprint}
+      \verb 2604.07909
       \endverb
     \endentry
     \entry{Raseena2025}{article}{}{}
@@ -12143,6 +12026,8 @@
       \field{title}{Quantum Computing: Foundations, Algorithms, and Emerging Applications}
       \field{volume}{4}
       \field{year}{2025}
+      \field{pages}{1723319}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3389/frqst.2025.1723319
       \endverb
@@ -12249,10 +12134,14 @@
       \field{labeltitlesource}{title}
       \field{issn}{0092-8674}
       \field{journaltitle}{Cell}
+      \field{number}{9}
       \field{title}{Bringing the genetically minimal cell to life on a computer in 4D}
+      \field{volume}{189}
       \field{year}{2026}
+      \field{pages}{2582\bibrangedash 2597.e27}
+      \range{pages}{-1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cell.2026.02.009
+      \verb 10.1016/j.cell.2026.02.009
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0092867426001741
@@ -12365,7 +12254,7 @@
       \field{pages}{457\bibrangedash 484}
       \range{pages}{28}
       \verb{doi}
-      \verb https://doi.org/10.1002/andp.19273892002
+      \verb 10.1002/andp.19273892002
       \endverb
       \verb{eprint}
       \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/andp.19273892002
@@ -12542,7 +12431,7 @@
       \field{pages}{501\bibrangedash 508}
       \range{pages}{8}
       \verb{doi}
-      \verb https://doi.org/10.1002/1096-987X(20010415)22:5<501::AID-JCC1021>3.0.CO;2-V
+      \verb 10.1002/1096-987X(20010415)22:5<501::AID-JCC1021>3.0.CO;2-V
       \endverb
       \verb{eprint}
       \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/1096-987X%2820010415%2922%3A5%3C501%3A%3AAID-JCC1021%3E3.0.CO%3B2-V
@@ -12598,7 +12487,7 @@
       \field{pages}{1463\bibrangedash 1472}
       \range{pages}{10}
       \verb{doi}
-      \verb https://doi.org/10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.0.CO;2-H
+      \verb 10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.0.CO;2-H
       \endverb
       \verb{eprint}
       \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291096-987X%28199709%2918%3A12%3C1463%3A%3AAID-JCC4%3E3.0.CO%3B2-H
@@ -12644,7 +12533,7 @@
       \field{pages}{952\bibrangedash 962}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1002/jcc.540130805
+      \verb 10.1002/jcc.540130805
       \endverb
       \verb{eprint}
       \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.540130805
@@ -12755,6 +12644,11 @@
       \field{title}{Pressure control using stochastic cell rescaling}
       \field{volume}{153}
       \field{year}{2020}
+      \field{pages}{114107}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0020514
+      \endverb
       \verb{urlraw}
       \verb /aip/jcp/article/153/11/114107/199610/Pressure-control-using-stochastic-cell-rescaling
       \endverb
@@ -12797,7 +12691,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{00219606}
       \field{issue}{1}
-      \field{journaltitle}{Journal of Chemical Physics}
+      \field{journaltitle}{The Journal of Chemical Physics}
       \field{month}{1}
       \field{title}{Canonical sampling through velocity rescaling}
       \field{volume}{126}
@@ -12872,7 +12766,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0070518001}
-      \field{note}{Reimpreso en 2009 por Waveland Press}
       \field{title}{Fundamentals of statistical and thermal physics}
       \field{year}{1965}
     \endentry
@@ -13117,7 +13010,7 @@
       \field{issue}{12}
       \field{journaltitle}{The Journal of Chemical Physics}
       \field{month}{6}
-      \field{title}{Particle mesh Ewald: An N ⋅log( N ) method for Ewald sums in large systems}
+      \field{title}{Particle mesh Ewald: {An} $N \cdot \log(N)$ method for Ewald sums in large systems}
       \field{volume}{98}
       \field{year}{1993}
       \field{pages}{10089\bibrangedash 10092}
@@ -13272,7 +13165,7 @@
       \field{issue}{9}
       \field{journaltitle}{Journal of Computational Chemistry}
       \field{month}{7}
-      \field{title}{Development and testing of a general amber force field}
+      \field{title}{Development and testing of a general {AMBER} force field}
       \field{volume}{25}
       \field{year}{2004}
       \field{pages}{1157\bibrangedash 1174}
@@ -13324,7 +13217,7 @@
       \field{issue}{45}
       \field{journaltitle}{Journal of the American Chemical Society}
       \field{month}{11}
-      \field{title}{Development and Testing of the OPLS All-Atom Force Field on Conformational Energetics and Properties of Organic Liquids}
+      \field{title}{Development and testing of the {OPLS} all-atom force field on conformational energetics and properties of organic liquids}
       \field{volume}{118}
       \field{year}{1996}
       \field{pages}{11225\bibrangedash 11236}
@@ -13450,6 +13343,9 @@
            given={David},
            giveni={D\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Oxford, UK}%
+      }
       \list{publisher}{1}{%
         {Oxford University Press}%
       }
@@ -13477,6 +13373,9 @@
            given={Herbert\bibnamedelima B.},
            giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {New York, NY}%
+      }
       \list{publisher}{1}{%
         {John Wiley \& Sons}%
       }
@@ -13492,7 +13391,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2nd}
+      \field{edition}{2nd edition}
       \field{isbn}{978-0471610564}
       \field{title}{Thermodynamics and an Introduction to Thermostatistics}
       \field{year}{1985}
@@ -13697,7 +13596,7 @@
       \field{pages}{11\bibrangedash 28}
       \range{pages}{18}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0005-2736(99)00198-4
+      \verb 10.1016/S0005-2736(99)00198-4
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0005273699001984
@@ -14037,7 +13936,7 @@
       \field{pages}{2960\bibrangedash 2972}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.bpj.2023.02.021
+      \verb 10.1016/j.bpj.2023.02.021
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0006349523001273
@@ -14103,7 +14002,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
-      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{journaltitle}{Physical Review Letters}
       \field{month}{5}
       \field{title}{Quantum Computations with Cold Trapped Ions}
       \field{volume}{74}
@@ -14184,7 +14083,7 @@
       \field{pages}{369\bibrangedash 395}
       \range{pages}{27}
       \verb{doi}
-      \verb https://doi.org/10.1146/annurev-conmatphys-031119-050605
+      \verb 10.1146/annurev-conmatphys-031119-050605
       \endverb
       \verb{urlraw}
       \verb https://www.annualreviews.org/content/journals/10.1146/annurev-conmatphys-031119-050605
@@ -14242,7 +14141,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
-      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{journaltitle}{Reviews of Modern Physics}
       \field{month}{1}
       \field{title}{Linear optical quantum computing with photonic qubits}
       \field{volume}{79}
@@ -14348,7 +14247,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{1}
-      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{journaltitle}{Reviews of Modern Physics}
       \field{month}{2}
       \field{title}{Noisy intermediate-scale quantum algorithms}
       \field{volume}{94}
@@ -14368,7 +14267,7 @@
     \entry{Qiskit}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=7a2b3595e36a368ce9a04ebaa3bba1d1}{%
-           family={{Qiskit contributors}},
+           family={{Qiskit contributors.}},
            familyi={Q\bibinitperiod}}}%
       }
       \strng{namehash}{7a2b3595e36a368ce9a04ebaa3bba1d1}
@@ -14754,6 +14653,9 @@
       \field{eprinttype}{arXiv}
       \field{title}{PennyLane: Automatic differentiation of hybrid quantum-classical computations}
       \field{year}{2022}
+      \verb{doi}
+      \verb 10.48550/arXiv.1811.04968
+      \endverb
       \verb{eprint}
       \verb 1811.04968
       \endverb
@@ -14886,7 +14788,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{8}
-      \field{journaltitle}{Phys. Rev. A}
+      \field{journaltitle}{Physical Review A}
       \field{month}{4}
       \field{title}{Rayleigh-Ritz variational principle for ensembles of fractionally occupied states}
       \field{volume}{37}
@@ -15071,6 +14973,9 @@
       \field{eprinttype}{arXiv}
       \field{title}{A Tutorial on Formulating and Using QUBO Models}
       \field{year}{2019}
+      \verb{doi}
+      \verb 10.48550/arXiv.1811.11538
+      \endverb
       \verb{eprint}
       \verb 1811.11538
       \endverb
@@ -15105,8 +15010,10 @@
       \field{issn}{2296-424X}
       \field{journaltitle}{Frontiers in Physics}
       \field{title}{Ising formulations of many NP problems}
-      \field{volume}{Volume 2 - 2014}
+      \field{volume}{2}
       \field{year}{2014}
+      \field{pages}{5}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.3389/fphy.2014.00005
       \endverb
@@ -15425,7 +15332,7 @@
       \verb https://doi.org/10.1038/nature23879
       \endverb
     \endentry
-    \entry{DE_2}{inproceedings}{}{}
+    \entry{DE_2}{incollection}{}{}
       \name{author}{4}{}{%
         {{hash=3fc02af79aa3874f1187fcdbcadac0a2}{%
            family={Tasoulis},
@@ -15462,9 +15369,13 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE Congress on Evolutionary Computation}
       \field{title}{Parallel differential evolution.}
+      \field{volume}{2}
       \field{year}{2004}
       \field{pages}{2023\bibrangedash 2029}
       \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/CEC.2004.1331145
+      \endverb
     \endentry
     \entry{error_mitigation_1}{article}{}{}
       \name{author}{6}{}{%
@@ -15593,7 +15504,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
-      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{journaltitle}{Reviews of Modern Physics}
       \field{month}{12}
       \field{title}{Quantum error mitigation}
       \field{volume}{95}
@@ -15644,7 +15555,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{18}
-      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{journaltitle}{Physical Review Letters}
       \field{month}{11}
       \field{title}{Error Mitigation for Short-Depth Quantum Circuits}
       \field{volume}{119}
@@ -15781,7 +15692,7 @@
       \field{pages}{874\bibrangedash 881}
       \range{pages}{8}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.csbj.2022.01.025
+      \verb 10.1016/j.csbj.2022.01.025
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S2001037022000320
@@ -16006,7 +15917,7 @@
       \field{pages}{61\bibrangedash 74}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.csbj.2024.04.022
+      \verb 10.1016/j.csbj.2024.04.022
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S2001037024000990
@@ -16070,7 +15981,7 @@
       \field{pages}{109157}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.compbiomed.2024.109157
+      \verb 10.1016/j.compbiomed.2024.109157
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
@@ -16079,7 +15990,7 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
       \endverb
     \endentry
-    \entry{DANI_HAMILTONIAN}{article}{}{}
+    \entry{DANI_HAMILTONIAN}{misc}{}{}
       \name{author}{3}{}{%
         {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
            family={Conde-Torres},
@@ -16212,7 +16123,7 @@
       \field{pages}{623\bibrangedash 644}
       \range{pages}{22}
       \verb{doi}
-      \verb https://doi.org/10.1006/jmbi.1996.0114
+      \verb 10.1006/jmbi.1996.0114
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S002228369690114X

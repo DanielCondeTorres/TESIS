@@ -150,7 +150,7 @@
 \contentsline {subsection}{\numberline {6.6.2}Approximations in quantum-classical algorithms and generative models}{244}{subsection.6.6.2}%
 \contentsline {chapter}{\numberline {7}General conclusions}{245}{chapter.7}%
 \contentsline {chapter}{\numberline {8}References}{249}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Appendix}{276}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Declaration of figure authorship}{277}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Rights and Permissions for reproducing Images}{278}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Rights for reproduced content of published articles by the author}{279}{section.9.3}%
+\contentsline {chapter}{\numberline {9}Appendix}{275}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Declaration of figure authorship}{276}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Rights and Permissions for reproducing Images}{277}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Rights for reproduced content of published articles by the author}{278}{section.9.3}%

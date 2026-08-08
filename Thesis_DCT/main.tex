@@ -45,10 +45,14 @@
 \usepackage{pdfpages}
 
 \usepackage{csquotes}
-\usepackage[style=chem-acs, backend=biber, articletitle=true, doi=true]{biblatex}
+\usepackage[style=chem-acs, backend=biber, articletitle=true, chaptertitle=true,doi=true]{biblatex}
 \addbibresource{references.bib}  % Load external .bib 
 
-
+%%%%%PONER BIEN BIBLIO?
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{8000}
+\setcounter{biburlnumpenalty}{9000}
+%%%%%PONER BIEN BIBLIO?
 % \renewcommand{\cite}[1]{\citation{#1}}
 
 
