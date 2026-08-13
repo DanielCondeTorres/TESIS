@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {1.6.4}Potential applications in peptide modeling and design}{52}{subsection.1.6.4}%
 \contentsline {subsection}{\numberline {1.6.5}Current limitations of quantum computing}{53}{subsection.1.6.5}%
 \contentsline {section}{\numberline {1.7}Scope and framework of this thesis}{54}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Dissertation structure}{54}{section.1.8}%
+\contentsline {section}{\numberline {1.8}Dissertation structure}{55}{section.1.8}%
 \contentsline {chapter}{\numberline {2}Hypothesis and objectives}{57}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Research hypotheses}{58}{section.2.1}%
 \contentsline {section}{\numberline {2.2}General and specific objectives}{58}{section.2.2}%

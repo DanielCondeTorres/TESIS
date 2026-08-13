@@ -10893,6 +10893,79 @@
       \verb https://doi.org/10.1146/annurev-biodatasci-102423-011435
       \endverb
     \endentry
+    \entry{articulo_limitacion_ia}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=b83ec0b7e1a318274eea1a7e4648e45e}{%
+           family={Khalil},
+           familyi={K\bibinitperiod},
+           given={Ruqaiya},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0492d4dd545f50d0c2f6eab43149e2ac}{%
+           family={Frasnetti},
+           familyi={F\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e64f687b1b576ff96e7116b2c9c985a3}{%
+           family={Kurt},
+           familyi={K\bibinitperiod},
+           given={Han},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9980d8bc918c872e6005fc9017818b8b}{%
+           family={Hameduh},
+           familyi={H\bibinitperiod},
+           given={Tareq},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1f78a3816d966a774e18f46b183b86c6}{%
+           family={Athar},
+           familyi={A\bibinitperiod},
+           given={Mohd},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8badf9c9ced0c8a9ab416c8de95186f9}{%
+           family={Colombo},
+           familyi={C\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4b56a76c69515a66b40b22003f472df5}{%
+           family={Vargiu},
+           familyi={V\bibinitperiod},
+           given={Attilio\bibnamedelima Vittorio},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c632173d1cfdc9461986b3c7bcbb22e}
+      \strng{fullhash}{028192c37ae5f0a933657742e99145a3}
+      \strng{fullhashraw}{028192c37ae5f0a933657742e99145a3}
+      \strng{bibnamehash}{028192c37ae5f0a933657742e99145a3}
+      \strng{authorbibnamehash}{028192c37ae5f0a933657742e99145a3}
+      \strng{authornamehash}{9c632173d1cfdc9461986b3c7bcbb22e}
+      \strng{authorfullhash}{028192c37ae5f0a933657742e99145a3}
+      \strng{authorfullhashraw}{028192c37ae5f0a933657742e99145a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The quantitative prediction of biomolecular recognition is crucial to molecular science. The challenge is not merely structural determination but the prediction of (thermo)dynamic and kinetic observables arising from high-dimensional molecular ensembles, such as free energies, conformational distributions, and rate processes across different conditions. As the field shifts from structure-centric to ensemble-based descriptions, two complementary modeling strategies have matured: explicit energy-based approaches grounded in statistical mechanics and data-driven models that learn statistical representations of molecular configurations from large data sets. Physics-based methods, including molecular dynamics and free energy perturbation, estimate observables by sampling (Boltzmann-distributed) configurations under approximate molecular Hamiltonians, thereby providing mechanistic interpretability and thermodynamic consistency, albeit at non-negligible computational cost and with inherent force field limitations. In contrast, modern machine learning approaches rapidly generate structures and propose conformational ensembles without explicit thermodynamic weighting, by learning statistical patterns in structural and bioactivity data. While these methods often achieve high predictive performance, they do not inherently enforce thermodynamic consistency due to the lack of an explicit connection to a partition function and thus may produce configurations that are not physically realizable. We argue that, since physics-based simulations and machine learning provide complementary approximations to the underlying probability distribution associated with biomolecular recognition events, and they excel respectively in consistency with free-energy landscapes and state populations and in predictive accuracy, the central challenge for the coming decade will be integrating them into hybrid frameworks that are scalable and transferable.}
+      \field{issn}{1948-7185}
+      \field{journaltitle}{The Journal of Physical Chemistry Letters}
+      \field{month}{07}
+      \field{number}{30}
+      \field{title}{Predicting Biomolecular Interactions in the Next Decade: Physics-Based Methods Meet AI-Driven Approaches}
+      \field{volume}{17}
+      \field{year}{2026}
+      \field{pages}{8510\bibrangedash 8520}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1021/acs.jpclett.6c01412
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.acs.org/jpclcd/article-pdf/17/30/8510/65989790/acs.jpclett.6c01412.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.jpclett.6c01412
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.jpclett.6c01412
+      \endverb
+    \endentry
     \entry{q_adv}{article}{}{}
       \name{author}{4}{}{%
         {{hash=068222b65b72f8fc41261b1a56b40002}{%
@@ -13678,8 +13751,8 @@
       \strng{authornamehash}{f62cf1f09b6376d3ae40f542c57660ff}
       \strng{authorfullhash}{68768d46a89ad18661a7875b2db44117}
       \strng{authorfullhashraw}{68768d46a89ad18661a7875b2db44117}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Although deep learning has revolutionized protein structure prediction, almost all experimentally characterized de novo protein designs have been generated using physically based approaches such as Rosetta. Here, we describe a deep learning–based protein sequence design method, ProteinMPNN, that has outstanding performance in both in silico and experimental tests. On native protein backbones, ProteinMPNN has a sequence recovery of 52.4\% compared with 32.9\% for Rosetta. The amino acid sequence at different positions can be coupled between single or multiple chains, enabling application to a wide range of current protein design challenges. We demonstrate the broad utility and high accuracy of ProteinMPNN using x-ray crystallography, cryo–electron microscopy, and functional studies by rescuing previously failed designs, which were made using Rosetta or AlphaFold, of protein monomers, cyclic homo-oligomers, tetrahedral nanoparticles, and target-binding proteins. Deep learning approaches such as Alphafold and Rosettafold have made reliable protein structure prediction broadly accessible. For the inverse problem, finding a sequence that folds to a desired structure, most approaches remain based on energy optimization. In two papers, a range of protein design problems were addressed through deep learning methods. Dauparas et al. built on recent deep learning protein design approaches to develop a method called ProteinMPNN. They validated designs experimentally and showed that ProteinMPNN can rescue previously failed designs made using Rosetta or Alphafold. Wicky et al. started from a random sequence and used Monte Carlo sequence search coupled with structure prediction by Alphafold to design cyclic homo-oligomers. Although the designs were generated to achieve stable expression, the sequences had to be regenerated using ProteinMPNN. This approach allowed for the design of a range of experimentally validated cyclic oligomers and paves the way for the design of increasingly complex assemblies. —VV A network-based protein design enables the generation of cyclic homo-oligomers across the nanoscopic scale.}
@@ -13819,8 +13892,8 @@
       \strng{authornamehash}{8b8fb4db80ef37aac658bec7a2e2b72d}
       \strng{authorfullhash}{55be077f25fcb54426d92f57e043630a}
       \strng{authorfullhashraw}{55be077f25fcb54426d92f57e043630a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1549-9618}
@@ -16169,7 +16242,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Simons2010}
 \endrefsection
 \endinput
 

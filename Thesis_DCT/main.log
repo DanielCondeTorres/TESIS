@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  8 AUG 2026 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  13 AUG 2026 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1504,15 +1504,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Simons2010
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 226.
 Package biblatex Info: Reference segment=0 on input line 226.
 LaTeX Info: Redefining \microtypecontext on input line 226.
@@ -1536,8 +1528,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package hyperref Info: Link coloring ON on input line 226.
-
-(./main.out) (./main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1985,16 +1976,13 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_31.png  used on input
 line 86.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [36 <./FOLDING_PEPTIDE_PICTURE/folding_31.png>]
-
-LaTeX Warning: Citation 'Simons2010' on page 37 undefined on input line 90.
-
-<FOLDING_PEPTIDE_PICTURE/folding_32.png, id=1276, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_32.png, id=1279, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_32.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_32.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_32.png  used on input 
-line 100.
+line 103.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
-[37 <./FOLDING_PEPTIDE_PICTURE/folding_32.png>]
+ [37 <./FOLDING_PEPTIDE_PICTURE/folding_32.png>]
 <General_Sections/Figures/Membrane_Lipids_dct.png, id=1305, 862.203pt x 447.636
 pt>
 File: General_Sections/Figures/Membrane_Lipids_dct.png Graphic file (type png)
@@ -2137,54 +2125,57 @@ line 277.
 File: FOLDING_PEPTIDE_PICTURE/folding_43.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_43.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_43.png  used on input 
-line 296.
+line 290.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [50 <./FOLDING_PEPTIDE_PICTURE/folding_43.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_44.png, id=1729, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_44.png, id=1732, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_44.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_44.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_44.png  used on input 
-line 308.
+line 307.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 
 [51 <./FOLDING_PEPTIDE_PICTURE/folding_44.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_45.png, id=1752, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_45.png, id=1754, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_45.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_45.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_45.png  used on input 
-line 322.
+line 319.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [52 <./FOLDING_PEPTIDE_PICTURE/folding_45.png>]
 File: FOLDING_PEPTIDE_PICTURE/folding_45.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_45.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_45.png  used on input 
-line 335.
+line 332.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [53]
-<FOLDING_PEPTIDE_PICTURE/folding_46.png, id=1797, 333.6465pt x 333.6465pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<FOLDING_PEPTIDE_PICTURE/folding_46.png, id=1799, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_46.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_46.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_46.png  used on input 
-line 358.
+line 357.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [54 <./FOLDING_PEPTIDE_PICTURE/folding_46.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_47.png, id=1811, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_47.png, id=1814, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_47.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_47.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_47.png  used on input 
-line 364.
+line 362.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [55 <./FOLDING_PEPTIDE_PICTURE/folding_47.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_48.png, id=1820, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_48.png, id=1823, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_48.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_48.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_48.png  used on input 
-line 367.
+line 366.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [56 <./FOLDING_PEPTIDE_PICTURE/folding_48.png>])
 \openout2 = `General_Sections/Objectives.aux'.
 
- (./General_Sections/Objectives.tex
+
+(./General_Sections/Objectives.tex
 Chapter 2.
 [57
 
@@ -2192,14 +2183,14 @@ Chapter 2.
 
 
 ]
-<FOLDING_PEPTIDE_PICTURE/folding_50.png, id=1831, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_50.png, id=1835, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_50.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_50.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_50.png  used on input 
 line 25.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [58 <./FOLDING_PEPTIDE_PICTURE/folding_50.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_51.png, id=1838, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_51.png, id=1842, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_51.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_51.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_51.png  used on input 
@@ -2222,14 +2213,14 @@ Chapter 3.
 
 
 ]
-<FOLDING_PEPTIDE_PICTURE/folding_53.png, id=1870, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_53.png, id=1874, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_53.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_53.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_53.png  used on input 
 line 23.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [62 <./FOLDING_PEPTIDE_PICTURE/folding_53.png>]
-<General_Sections/Figures/MD_Workflow2.png, id=1881, 821.031pt x 535.893pt>
+<General_Sections/Figures/MD_Workflow2.png, id=1885, 821.031pt x 535.893pt>
 File: General_Sections/Figures/MD_Workflow2.png Graphic file (type png)
 <use General_Sections/Figures/MD_Workflow2.png>
 Package pdftex.def Info: General_Sections/Figures/MD_Workflow2.png  used on inp
@@ -2238,14 +2229,14 @@ ut line 30.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_54.png, id=1883, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_54.png, id=1887, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_54.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_54.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_54.png  used on input 
 line 45.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [63 <./FOLDING_PEPTIDE_PICTURE/folding_54.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_55.png, id=1894, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_55.png, id=1898, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_55.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_55.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_55.png  used on input 
@@ -2255,7 +2246,7 @@ line 45.
 olding_55.png>]
 Underfull \vbox (badness 1122) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_56.png, id=1908, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_56.png, id=1912, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_56.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_56.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_56.png  used on input 
@@ -2268,44 +2259,44 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_56.png  used on input
 line 99.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [66]
-<FOLDING_PEPTIDE_PICTURE/folding_57.png, id=1938, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_57.png, id=1942, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_57.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_57.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_57.png  used on input 
 line 156.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [67 <./FOLDING_PEPTIDE_PICTURE/folding_57.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_58.png, id=1955, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_58.png, id=1959, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_58.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_58.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_58.png  used on input 
 line 188.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [68 <./FOLDING_PEPTIDE_PICTURE/folding_58.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_59.png, id=1974, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_59.png, id=1979, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_59.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_59.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_59.png  used on input 
 line 218.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [69 <./FOLDING_PEPTIDE_PICTURE/folding_59.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_60.png, id=1988, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_60.png, id=1992, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_60.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_60.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_60.png  used on input 
 line 258.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [70 <./FOLDING_PEPTIDE_PICTURE/folding_60.png>]
-Underfull \vbox (badness 1521) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_61.png, id=2000, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_61.png, id=2004, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_61.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_61.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_61.png  used on input 
 line 283.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [71 <./FOLDING_PEPTIDE_PICTURE/folding_61.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_62.png, id=2011, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_62.png, id=2015, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_62.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_62.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_62.png  used on input 
@@ -2318,13 +2309,13 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_62.png  used on input
 line 345.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [73]
-<General_Sections/Figures/pbc_diagram.png, id=2029, 459.6372pt x 459.51675pt>
+<General_Sections/Figures/pbc_diagram.png, id=2033, 459.6372pt x 459.51675pt>
 File: General_Sections/Figures/pbc_diagram.png Graphic file (type png)
 <use General_Sections/Figures/pbc_diagram.png>
 Package pdftex.def Info: General_Sections/Figures/pbc_diagram.png  used on inpu
 t line 413.
 (pdftex.def)             Requested size: 250.38564pt x 250.32298pt.
-<FOLDING_PEPTIDE_PICTURE/folding_63.png, id=2031, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_63.png, id=2035, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_63.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_63.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_63.png  used on input 
@@ -2332,31 +2323,31 @@ line 418.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [74 <./General_Sections/Figures/pbc_diagram.png> <./FOLDING_PEPTIDE_PICTURE/fo
 lding_63.png>]
-<bonded_interactions/bond_stretching.pdf, id=2039, 361.43332pt x 93.9771pt>
+<bonded_interactions/bond_stretching.pdf, id=2043, 361.43332pt x 93.9771pt>
 File: bonded_interactions/bond_stretching.pdf Graphic file (type pdf)
 <use bonded_interactions/bond_stretching.pdf>
 Package pdftex.def Info: bonded_interactions/bond_stretching.pdf  used on input
  line 435.
 (pdftex.def)             Requested size: 207.58878pt x 53.97617pt.
-<bonded_interactions/angle_bending.pdf, id=2040, 361.43332pt x 185.02626pt>
+<bonded_interactions/angle_bending.pdf, id=2044, 361.43332pt x 185.02626pt>
 File: bonded_interactions/angle_bending.pdf Graphic file (type pdf)
 <use bonded_interactions/angle_bending.pdf>
 Package pdftex.def Info: bonded_interactions/angle_bending.pdf  used on input l
 ine 442.
 (pdftex.def)             Requested size: 207.58878pt x 106.27069pt.
-<bonded_interactions/dihedral_proper.pdf, id=2041, 361.43332pt x 179.336pt>
+<bonded_interactions/dihedral_proper.pdf, id=2045, 361.43332pt x 179.336pt>
 File: bonded_interactions/dihedral_proper.pdf Graphic file (type pdf)
 <use bonded_interactions/dihedral_proper.pdf>
 Package pdftex.def Info: bonded_interactions/dihedral_proper.pdf  used on input
  line 451.
 (pdftex.def)             Requested size: 207.58878pt x 103.00246pt.
-<bonded_interactions/dihedral_improper.pdf, id=2042, 361.43332pt x 199.2524pt>
+<bonded_interactions/dihedral_improper.pdf, id=2046, 361.43332pt x 199.2524pt>
 File: bonded_interactions/dihedral_improper.pdf Graphic file (type pdf)
 <use bonded_interactions/dihedral_improper.pdf>
 Package pdftex.def Info: bonded_interactions/dihedral_improper.pdf  used on inp
 ut line 458.
 (pdftex.def)             Requested size: 207.58878pt x 114.44154pt.
-<FOLDING_PEPTIDE_PICTURE/folding_64.png, id=2048, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_64.png, id=2052, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_64.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_64.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_64.png  used on input 
@@ -2365,7 +2356,7 @@ line 476.
  [75 <./FOLDING_PEPTIDE_PICTURE/folding_64.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_65.png, id=2059, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_65.png, id=2063, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_65.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_65.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_65.png  used on input 
@@ -2376,28 +2367,28 @@ ending.pdf> <./bonded_interactions/dihedral_proper.pdf> <./bonded_interactions/
 dihedral_improper.pdf> <./FOLDING_PEPTIDE_PICTURE/folding_65.png>]
 Underfull \vbox (badness 4927) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_66.png, id=2111, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_66.png, id=2115, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_66.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_66.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_66.png  used on input 
 line 516.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [77 <./FOLDING_PEPTIDE_PICTURE/folding_66.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_67.png, id=2126, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_67.png, id=2130, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_67.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_67.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_67.png  used on input 
 line 539.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [78 <./FOLDING_PEPTIDE_PICTURE/folding_67.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_68.png, id=2135, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_68.png, id=2139, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_68.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_68.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_68.png  used on input 
 line 565.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [79 <./FOLDING_PEPTIDE_PICTURE/folding_68.png>]
-<General_Sections/Figures/AA2CG.png, id=2152, 563.10374pt x 287.0725pt>
+<General_Sections/Figures/AA2CG.png, id=2156, 563.10374pt x 287.0725pt>
 File: General_Sections/Figures/AA2CG.png Graphic file (type png)
 <use General_Sections/Figures/AA2CG.png>
 Package pdftex.def Info: General_Sections/Figures/AA2CG.png  used on input line
@@ -2409,7 +2400,7 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_68.png  used on input
 line 605.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [80]
-<FOLDING_PEPTIDE_PICTURE/folding_69.png, id=2163, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_69.png, id=2167, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_69.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_69.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_69.png  used on input 
@@ -2417,21 +2408,21 @@ line 607.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [81 <./General_Sections/Figures/AA2CG.png> <./FOLDING_PEPTIDE_PICTURE/folding_
 69.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_70.png, id=2174, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_70.png, id=2178, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_70.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_70.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_70.png  used on input 
 line 651.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [82 <./FOLDING_PEPTIDE_PICTURE/folding_70.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_71.png, id=2195, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_71.png, id=2199, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_71.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_71.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_71.png  used on input 
 line 685.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [83 <./FOLDING_PEPTIDE_PICTURE/folding_71.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_72.png, id=2215, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_72.png, id=2219, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_72.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_72.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_72.png  used on input 
@@ -2442,7 +2433,7 @@ Package svg Info: Last page of `./svg-inkscape/metadynamics_comparison_svg-tex.
 pdf' is 1 on input line 729.
 
 (./svg-inkscape/metadynamics_comparison_svg-tex.pdf_tex
-<./svg-inkscape/metadynamics_comparison_svg-tex.pdf, id=2226, page=1, 563.93106
+<./svg-inkscape/metadynamics_comparison_svg-tex.pdf, id=2230, page=1, 563.93106
 pt x 455.75267pt>
 File: ./svg-inkscape/metadynamics_comparison_svg-tex.pdf Graphic file (type pdf
 )
@@ -2451,7 +2442,7 @@ Package pdftex.def Info: ./svg-inkscape/metadynamics_comparison_svg-tex.pdf , p
 age1 used on input line 56.
 (pdftex.def)             Requested size: 295.90588pt x 239.14856pt.
 )
-<FOLDING_PEPTIDE_PICTURE/folding_73.png, id=2228, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_73.png, id=2232, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_73.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_73.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_73.png  used on input 
@@ -2460,7 +2451,7 @@ line 748.
  [85 <./FOLDING_PEPTIDE_PICTURE/folding_73.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_74.png, id=2238, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_74.png, id=2242, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_74.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_74.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_74.png  used on input 
@@ -2474,7 +2465,7 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_74.png  used on input
 line 790.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [87]
-<FOLDING_PEPTIDE_PICTURE/folding_75.png, id=2338, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_75.png, id=2342, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_75.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_75.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_75.png  used on input 
@@ -2485,7 +2476,7 @@ Package svg Info: Last page of `./svg-inkscape/helix_geometry_svg-tex.pdf' is 1
  on input line 833.
 
 (./svg-inkscape/helix_geometry_svg-tex.pdf_tex
-<./svg-inkscape/helix_geometry_svg-tex.pdf, id=2351, page=1, 570.93298pt x 570.
+<./svg-inkscape/helix_geometry_svg-tex.pdf, id=2355, page=1, 570.93298pt x 570.
 93298pt>
 File: ./svg-inkscape/helix_geometry_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/helix_geometry_svg-tex.pdf, page 1>
@@ -2498,14 +2489,14 @@ Overfull \hbox (4.81758pt too wide) in paragraph at lines 846--847
  of-ten nec-es-sary to project a high-dimensional
  []
 
-<FOLDING_PEPTIDE_PICTURE/folding_76.png, id=2352, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_76.png, id=2356, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_76.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_76.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_76.png  used on input 
 line 858.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 [89 <./FOLDING_PEPTIDE_PICTURE/folding_76.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_77.png, id=2361, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_77.png, id=2365, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_77.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_77.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_77.png  used on input 
@@ -2529,7 +2520,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 885.
 
-<FOLDING_PEPTIDE_PICTURE/folding_78.png, id=2531, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_78.png, id=2535, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_78.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_78.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_78.png  used on input 
@@ -2538,14 +2529,14 @@ line 888.
 [91 <./FOLDING_PEPTIDE_PICTURE/folding_78.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_79.png, id=2541, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_79.png, id=2546, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_79.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_79.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_79.png  used on input 
 line 914.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [92 <./FOLDING_PEPTIDE_PICTURE/folding_79.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_80.png, id=2557, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_80.png, id=2561, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_80.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_80.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_80.png  used on input 
@@ -2558,35 +2549,35 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_80.png  used on input
 line 973.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [94]
-<FOLDING_PEPTIDE_PICTURE/folding_81.png, id=2579, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_81.png, id=2583, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_81.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_81.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_81.png  used on input 
 line 999.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [95 <./FOLDING_PEPTIDE_PICTURE/folding_81.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_82.png, id=2602, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_82.png, id=2606, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_82.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_82.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_82.png  used on input 
 line 1071.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [96 <./FOLDING_PEPTIDE_PICTURE/folding_82.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_83.png, id=2622, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_83.png, id=2626, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_83.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_83.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_83.png  used on input 
 line 1104.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [97 <./FOLDING_PEPTIDE_PICTURE/folding_83.png>]
-<General_Sections/Figures/esfera_bloch_tesis.png, id=2634, 737.154pt x 737.154p
+<General_Sections/Figures/esfera_bloch_tesis.png, id=2638, 737.154pt x 737.154p
 t>
 File: General_Sections/Figures/esfera_bloch_tesis.png Graphic file (type png)
 <use General_Sections/Figures/esfera_bloch_tesis.png>
 Package pdftex.def Info: General_Sections/Figures/esfera_bloch_tesis.png  used 
 on input line 1118.
 (pdftex.def)             Requested size: 273.14923pt x 273.15889pt.
-<FOLDING_PEPTIDE_PICTURE/folding_84.png, id=2637, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_84.png, id=2641, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_84.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_84.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_84.png  used on input 
@@ -2596,7 +2587,7 @@ line 1133.
 [98 <./FOLDING_PEPTIDE_PICTURE/folding_84.png>]
 Underfull \vbox (badness 6691) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_85.png, id=2648, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_85.png, id=2652, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_85.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_85.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_85.png  used on input 
@@ -2606,7 +2597,7 @@ line 1143.
 TURE/folding_85.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_86.png, id=2659, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_86.png, id=2663, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_86.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_86.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_86.png  used on input 
@@ -2623,28 +2614,28 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_86.png  used on input
 line 1202.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 [101]
-<FOLDING_PEPTIDE_PICTURE/folding_87.png, id=2694, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_87.png, id=2698, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_87.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_87.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_87.png  used on input 
 line 1237.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [102 <./FOLDING_PEPTIDE_PICTURE/folding_87.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_88.png, id=2705, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_88.png, id=2709, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_88.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_88.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_88.png  used on input 
 line 1264.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [103 <./FOLDING_PEPTIDE_PICTURE/folding_88.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_89.png, id=2718, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_89.png, id=2722, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_89.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_89.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_89.png  used on input 
 line 1295.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [104 <./FOLDING_PEPTIDE_PICTURE/folding_89.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_90.png, id=2733, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_90.png, id=2737, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_90.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_90.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_90.png  used on input 
@@ -2652,14 +2643,14 @@ line 1318.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 
 [105 <./FOLDING_PEPTIDE_PICTURE/folding_90.png>]
-<General_Sections/Figures/vqe_demonstration.jpg, id=2749, 1531.7225pt x 712.662
+<General_Sections/Figures/vqe_demonstration.jpg, id=2753, 1531.7225pt x 712.662
 5pt>
 File: General_Sections/Figures/vqe_demonstration.jpg Graphic file (type jpg)
 <use General_Sections/Figures/vqe_demonstration.jpg>
 Package pdftex.def Info: General_Sections/Figures/vqe_demonstration.jpg  used o
 n input line 1321.
 (pdftex.def)             Requested size: 364.19667pt x 169.44397pt.
-<FOLDING_PEPTIDE_PICTURE/folding_91.png, id=2753, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_91.png, id=2757, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_91.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_91.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_91.png  used on input 
@@ -2675,21 +2666,21 @@ line 1404.
  [107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_92.png, id=2778, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_92.png, id=2782, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_92.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_92.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_92.png  used on input 
 line 1426.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [108 <./FOLDING_PEPTIDE_PICTURE/folding_92.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_93.png, id=2791, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_93.png, id=2795, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_93.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_93.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_93.png  used on input 
 line 1450.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [109 <./FOLDING_PEPTIDE_PICTURE/folding_93.png>]
-<General_Sections/Figures/qaoa_demonstration.png, id=2802, 344.28625pt x 168.63
+<General_Sections/Figures/qaoa_demonstration.png, id=2806, 344.28625pt x 168.63
 pt>
 File: General_Sections/Figures/qaoa_demonstration.png Graphic file (type png)
 <use General_Sections/Figures/qaoa_demonstration.png>
@@ -2699,14 +2690,14 @@ on input line 1470.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_94.png, id=2803, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_94.png, id=2807, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_94.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_94.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_94.png  used on input 
 line 1479.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [110 <./FOLDING_PEPTIDE_PICTURE/folding_94.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_95.png, id=2818, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_95.png, id=2822, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_95.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_95.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_95.png  used on input 
@@ -2716,14 +2707,14 @@ line 1496.
 CTURE/folding_95.png>]
 Underfull \vbox (badness 4886) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_96.png, id=2833, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_96.png, id=2837, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_96.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_96.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_96.png  used on input 
 line 1518.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [112 <./FOLDING_PEPTIDE_PICTURE/folding_96.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_97.png, id=2847, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_97.png, id=2851, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_97.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_97.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_97.png  used on input 
@@ -2736,7 +2727,7 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_97.png  used on input
 line 1565.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [114])
-<FOLDING_PEPTIDE_PICTURE/folding_98.png, id=2870, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_98.png, id=2874, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_98.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_98.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_98.png  used on input 
@@ -2757,7 +2748,7 @@ Chapter 4.
 
 ]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2885, page=1, 597.62169pt x 844.81926pt>
+f, id=2889, page=1, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2766,7 +2757,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page1 used on input line 10.
 (pdftex.def)             Requested size: 435.57324pt x 580.4714pt.
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2887, 597.62169pt x 844.81926pt>
+f, id=2891, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2775,7 +2766,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf  used on input line 15.
 (pdftex.def)             Requested size: 597.62022pt x 844.8172pt.
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2889, page=2, 597.62169pt x 844.81926pt>
+f, id=2893, page=2, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2790,7 +2781,7 @@ d.pdf, page 2>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page2 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
-<FOLDING_PEPTIDE_PICTURE/folding_101.png, id=2890, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_101.png, id=2894, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_101.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_101.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_101.png  used on input
@@ -2812,7 +2803,7 @@ d.pdf, page 2>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page2 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
-<FOLDING_PEPTIDE_PICTURE/folding_102.png, id=2943, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_102.png, id=2947, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_102.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_102.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_102.png  used on input
@@ -2830,7 +2821,7 @@ ion_lipids_compressed.pdf , page2 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_102.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2960, page=3, 597.62169pt x 844.81926pt>
+f, id=2964, page=3, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2845,7 +2836,7 @@ d.pdf, page 3>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page3 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
-<FOLDING_PEPTIDE_PICTURE/folding_103.png, id=2961, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_103.png, id=2965, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_103.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_103.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_103.png  used on input
@@ -2863,7 +2854,7 @@ ion_lipids_compressed.pdf , page3 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_103.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2975, page=4, 597.62169pt x 845.0471pt>
+f, id=2979, page=4, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2895,7 +2886,7 @@ ion_lipids_compressed.pdf , page4 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=2986, page=5, 597.62169pt x 845.0471pt>
+f, id=2990, page=5, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2910,7 +2901,7 @@ d.pdf, page 5>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page5 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_104.png, id=2987, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_104.png, id=2991, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_104.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_104.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_104.png  used on input
@@ -2928,7 +2919,7 @@ ion_lipids_compressed.pdf , page5 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_104.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3000, page=6, 597.62169pt x 845.0471pt>
+f, id=3004, page=6, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2943,7 +2934,7 @@ d.pdf, page 6>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page6 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_105.png, id=3001, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_105.png, id=3005, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_105.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_105.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_105.png  used on input
@@ -2961,7 +2952,7 @@ ion_lipids_compressed.pdf , page6 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_105.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3010, page=7, 597.62169pt x 844.81926pt>
+f, id=3014, page=7, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -2976,7 +2967,7 @@ d.pdf, page 7>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page7 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
-<FOLDING_PEPTIDE_PICTURE/folding_106.png, id=3011, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_106.png, id=3015, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_106.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_106.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_106.png  used on input
@@ -2994,7 +2985,7 @@ ion_lipids_compressed.pdf , page7 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_106.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3021, page=8, 597.62169pt x 845.0471pt>
+f, id=3025, page=8, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3009,7 +3000,7 @@ d.pdf, page 8>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page8 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_107.png, id=3022, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_107.png, id=3026, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_107.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_107.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_107.png  used on input
@@ -3027,7 +3018,7 @@ ion_lipids_compressed.pdf , page8 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_107.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3028, page=9, 597.62169pt x 845.0471pt>
+f, id=3032, page=9, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3042,7 +3033,7 @@ d.pdf, page 9>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page9 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_108.png, id=3029, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_108.png, id=3033, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_108.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_108.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_108.png  used on input
@@ -3060,7 +3051,7 @@ ion_lipids_compressed.pdf , page9 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_108.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3035, page=10, 597.62169pt x 844.81926pt>
+f, id=3039, page=10, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3075,7 +3066,7 @@ d.pdf, page 10>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page10 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
-<FOLDING_PEPTIDE_PICTURE/folding_109.png, id=3036, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_109.png, id=3040, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_109.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_109.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_109.png  used on input
@@ -3093,7 +3084,7 @@ ion_lipids_compressed.pdf , page10 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_109.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3044, page=11, 597.62169pt x 845.0471pt>
+f, id=3048, page=11, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3125,7 +3116,7 @@ ion_lipids_compressed.pdf , page11 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3049, page=12, 597.62169pt x 845.0471pt>
+f, id=3053, page=12, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3140,7 +3131,7 @@ d.pdf, page 12>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page12 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_110.png, id=3050, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_110.png, id=3054, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_110.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_110.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_110.png  used on input
@@ -3158,7 +3149,7 @@ ion_lipids_compressed.pdf , page12 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_110.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3059, page=13, 597.62169pt x 844.81926pt>
+f, id=3063, page=13, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3173,7 +3164,7 @@ d.pdf, page 13>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page13 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 964.74112pt.
-<FOLDING_PEPTIDE_PICTURE/folding_111.png, id=3060, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_111.png, id=3064, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_111.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_111.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_111.png  used on input
@@ -3191,7 +3182,7 @@ ion_lipids_compressed.pdf , page13 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_111.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3067, page=14, 597.62169pt x 845.0471pt>
+f, id=3071, page=14, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3206,7 +3197,7 @@ d.pdf, page 14>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page14 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_112.png, id=3068, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_112.png, id=3072, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_112.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_112.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_112.png  used on input
@@ -3224,7 +3215,7 @@ ion_lipids_compressed.pdf , page14 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_112.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3074, page=15, 597.62169pt x 845.0471pt>
+f, id=3078, page=15, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3239,7 +3230,7 @@ d.pdf, page 15>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page15 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_113.png, id=3075, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_113.png, id=3079, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_113.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_113.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_113.png  used on input
@@ -3257,7 +3248,7 @@ ion_lipids_compressed.pdf , page15 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_113.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3092, page=16, 597.62169pt x 845.0471pt>
+f, id=3096, page=16, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3272,7 +3263,7 @@ d.pdf, page 16>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page16 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_114.png, id=3093, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_114.png, id=3097, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_114.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_114.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_114.png  used on input
@@ -3290,7 +3281,7 @@ ion_lipids_compressed.pdf , page16 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_114.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3100, page=17, 597.62169pt x 845.0471pt>
+f, id=3104, page=17, 597.62169pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3305,7 +3296,7 @@ d.pdf, page 17>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/Introduct
 ion_lipids_compressed.pdf , page17 used on input line 15.
 (pdftex.def)             Requested size: 682.4539pt x 965.00131pt.
-<FOLDING_PEPTIDE_PICTURE/folding_115.png, id=3101, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_115.png, id=3105, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_115.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_115.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_115.png  used on input
@@ -3323,7 +3314,7 @@ ion_lipids_compressed.pdf , page17 used on input line 15.
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf> <./FOLDING_PEPTIDE_PICTURE/folding_115.png>]
 <Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed.pd
-f, id=3107, page=18, 597.62169pt x 844.81926pt>
+f, id=3111, page=18, 597.62169pt x 844.81926pt>
 File: Results_Discussion/Papers/Papers_principales/Introduction_lipids_compress
 ed.pdf Graphic file (type pdf)
 <use Results_Discussion/Papers/Papers_principales/Introduction_lipids_compresse
@@ -3354,7 +3345,7 @@ ion_lipids_compressed.pdf , page18 used on input line 15.
 
  <./Results_Discussion/Papers/Papers_principales/Introduction_lipids_compressed
 .pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3115, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3119, page=1
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3362,7 +3353,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page1 used on input line 19.
 (pdftex.def)             Requested size: 455.24411pt x 606.98848pt.
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3116, 597.50
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3120, 597.50
 829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3370,7 +3361,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf  used on input line 21.
 (pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3118, page=2
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3122, page=2
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3384,7 +3375,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page2 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_116.png, id=3119, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_116.png, id=3123, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_116.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_116.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_116.png  used on input
@@ -3404,7 +3395,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page2 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_117.png, id=3172, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_117.png, id=3176, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_117.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_117.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_117.png  used on input
@@ -3420,7 +3411,7 @@ ica.pdf , page2 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_117.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3189, page=3
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3193, page=3
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3434,7 +3425,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page3 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_118.png, id=3190, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_118.png, id=3194, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_118.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_118.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_118.png  used on input
@@ -3451,7 +3442,7 @@ ica.pdf , page3 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_118.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3201, page=4
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3205, page=4
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3465,7 +3456,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page4 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_119.png, id=3202, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_119.png, id=3206, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_119.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_119.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_119.png  used on input
@@ -3481,7 +3472,7 @@ ica.pdf , page4 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_119.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3233, page=5
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3237, page=5
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3495,7 +3486,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page5 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_120.png, id=3234, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_120.png, id=3238, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_120.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_120.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_120.png  used on input
@@ -3512,7 +3503,7 @@ ica.pdf , page5 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_120.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3248, page=6
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3252, page=6
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3540,7 +3531,7 @@ ica.pdf , page6 used on input line 21.
  [141
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3259, page=7
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3263, page=7
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3554,7 +3545,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page7 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_121.png, id=3260, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_121.png, id=3264, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_121.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_121.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_121.png  used on input
@@ -3570,7 +3561,7 @@ ica.pdf , page7 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_121.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3270, page=8
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3274, page=8
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3584,7 +3575,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page8 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_122.png, id=3271, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_122.png, id=3275, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_122.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_122.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_122.png  used on input
@@ -3600,7 +3591,7 @@ ica.pdf , page8 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_122.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3282, page=9
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3286, page=9
 , 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3614,7 +3605,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page9 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_123.png, id=3283, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_123.png, id=3287, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_123.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_123.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_123.png  used on input
@@ -3630,7 +3621,7 @@ ica.pdf , page9 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_123.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3293, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3297, page=1
 0, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3644,7 +3635,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page10 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_124.png, id=3294, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_124.png, id=3298, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_124.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_124.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_124.png  used on input
@@ -3660,7 +3651,7 @@ ica.pdf , page10 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_124.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3305, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3309, page=1
 1, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3674,7 +3665,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page11 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_125.png, id=3306, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_125.png, id=3310, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_125.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_125.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_125.png  used on input
@@ -3690,7 +3681,7 @@ ica.pdf , page11 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_125.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3316, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3320, page=1
 2, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3704,7 +3695,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page12 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_126.png, id=3317, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_126.png, id=3321, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_126.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_126.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_126.png  used on input
@@ -3720,7 +3711,7 @@ ica.pdf , page12 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_126.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3324, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3328, page=1
 3, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3748,7 +3739,7 @@ ica.pdf , page13 used on input line 21.
  [148
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3330, page=1
+<Results_Discussion/Papers/Papers_principales/metadinamica.pdf, id=3334, page=1
 4, 597.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica.pdf Graphic fil
 e (type pdf)
@@ -3762,7 +3753,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica.pdf , page14 used on input line 21.
 (pdftex.def)             Requested size: 653.86954pt x 871.82568pt.
-<FOLDING_PEPTIDE_PICTURE/folding_127.png, id=3331, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_127.png, id=3335, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_127.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_127.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_127.png  used on input
@@ -3778,7 +3769,7 @@ ica.pdf , page14 used on input line 21.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_127.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3338, 614
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3342, 614
 .295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3786,7 +3777,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf  used on input line 23.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3340, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3344, pag
 e=1, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3812,7 +3803,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page1 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_128.png, id=3341, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_128.png, id=3345, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_128.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_128.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_128.png  used on input
@@ -3828,7 +3819,7 @@ ica_SI.pdf , page1 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_128.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3391, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3395, pag
 e=2, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3842,7 +3833,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page2 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_129.png, id=3392, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_129.png, id=3396, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_129.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_129.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_129.png  used on input
@@ -3858,7 +3849,7 @@ ica_SI.pdf , page2 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_129.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3404, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3408, pag
 e=3, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3872,7 +3863,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page3 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_130.png, id=3405, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_130.png, id=3409, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_130.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_130.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_130.png  used on input
@@ -3888,7 +3879,7 @@ ica_SI.pdf , page3 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_130.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3415, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3419, pag
 e=4, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3902,7 +3893,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page4 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_131.png, id=3416, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_131.png, id=3420, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_131.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_131.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_131.png  used on input
@@ -3918,7 +3909,7 @@ ica_SI.pdf , page4 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_131.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3431, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3435, pag
 e=5, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3932,7 +3923,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page5 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_132.png, id=3432, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_132.png, id=3436, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_132.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_132.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_132.png  used on input
@@ -3948,7 +3939,7 @@ ica_SI.pdf , page5 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_132.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3440, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3444, pag
 e=6, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3976,7 +3967,7 @@ ica_SI.pdf , page6 used on input line 23.
  [155
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3447, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3451, pag
 e=7, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -3990,7 +3981,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page7 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_133.png, id=3448, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_133.png, id=3452, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_133.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_133.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_133.png  used on input
@@ -4006,7 +3997,7 @@ ica_SI.pdf , page7 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_133.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3460, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3464, pag
 e=8, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -4020,7 +4011,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page8 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_134.png, id=3461, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_134.png, id=3465, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_134.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_134.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_134.png  used on input
@@ -4036,7 +4027,7 @@ ica_SI.pdf , page8 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_134.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3470, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3474, pag
 e=9, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -4050,7 +4041,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page9 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_135.png, id=3471, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_135.png, id=3475, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_135.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_135.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_135.png  used on input
@@ -4066,7 +4057,7 @@ ica_SI.pdf , page9 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_135.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3479, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3483, pag
 e=10, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -4082,7 +4073,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page10 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_136.png, id=3480, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_136.png, id=3484, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_136.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_136.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_136.png  used on input
@@ -4099,7 +4090,7 @@ ica_SI.pdf , page10 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_136.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3488, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3492, pag
 e=11, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -4115,7 +4106,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page11 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_137.png, id=3489, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_137.png, id=3493, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_137.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_137.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_137.png  used on input
@@ -4132,7 +4123,7 @@ ica_SI.pdf , page11 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_137.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3497, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3501, pag
 e=12, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -4148,7 +4139,7 @@ file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/metadinam
 ica_SI.pdf , page12 used on input line 23.
 (pdftex.def)             Requested size: 672.23969pt x 869.95726pt.
-<FOLDING_PEPTIDE_PICTURE/folding_138.png, id=3498, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_138.png, id=3502, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_138.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_138.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_138.png  used on input
@@ -4165,7 +4156,7 @@ ica_SI.pdf , page12 used on input line 23.
 
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf> <./FOLDIN
 G_PEPTIDE_PICTURE/folding_138.png>]
-<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3505, pag
+<Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf, id=3509, pag
 e=13, 614.295pt x 794.97pt>
 File: Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf Graphic 
 file (type pdf)
@@ -4198,7 +4189,7 @@ ica_SI.pdf , page13 used on input line 23.
  <./Results_Discussion/Papers/Papers_principales/metadinamica_SI.pdf>] [163
 
 ]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3526, page=1, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3530, page=1, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4206,7 +4197,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page1 used on input line 32.
 (pdftex.def)             Requested size: 455.24411pt x 606.98848pt.
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3527, 597.50829
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3531, 597.50829
 pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4214,7 +4205,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf  used on input line 34.
 (pdftex.def)             Requested size: 597.50682pt x 796.67543pt.
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3529, page=2, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3533, page=2, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4228,7 +4219,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page2 used on input line 34.
 (pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
-<FOLDING_PEPTIDE_PICTURE/folding_140.png, id=3530, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_140.png, id=3534, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_140.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_140.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_140.png  used on input
@@ -4248,7 +4239,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page2 used on input line 34.
 (pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
-<FOLDING_PEPTIDE_PICTURE/folding_141.png, id=3593, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_141.png, id=3597, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_141.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_141.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_141.png  used on input
@@ -4264,7 +4255,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf> <./FOLDING_PEPT
 IDE_PICTURE/folding_141.png>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3623, page=3, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3627, page=3, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4278,7 +4269,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page3 used on input line 34.
 (pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
-<FOLDING_PEPTIDE_PICTURE/folding_142.png, id=3624, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_142.png, id=3628, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_142.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_142.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_142.png  used on input
@@ -4295,7 +4286,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf> <./FOLDING_PEPT
 IDE_PICTURE/folding_142.png>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3648, page=4, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3652, page=4, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4309,7 +4300,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page4 used on input line 34.
 (pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
-<FOLDING_PEPTIDE_PICTURE/folding_143.png, id=3649, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_143.png, id=3653, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_143.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_143.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_143.png  used on input
@@ -4325,7 +4316,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf> <./FOLDING_PEPT
 IDE_PICTURE/folding_143.png>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3668, page=5, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3672, page=5, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4339,7 +4330,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page5 used on input line 34.
 (pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
-<FOLDING_PEPTIDE_PICTURE/folding_144.png, id=3669, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_144.png, id=3673, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_144.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_144.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_144.png  used on input
@@ -4355,7 +4346,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf> <./FOLDING_PEPT
 IDE_PICTURE/folding_144.png>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3684, page=6, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3688, page=6, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4383,7 +4374,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
  [169
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3694, page=7, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3698, page=7, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4397,7 +4388,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page7 used on input line 34.
 (pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
-<FOLDING_PEPTIDE_PICTURE/folding_145.png, id=3695, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_145.png, id=3699, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_145.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_145.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_145.png  used on input
@@ -4413,7 +4404,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf> <./FOLDING_PEPT
 IDE_PICTURE/folding_145.png>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3705, page=8, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3709, page=8, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4427,7 +4418,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page8 used on input line 34.
 (pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
-<FOLDING_PEPTIDE_PICTURE/folding_146.png, id=3706, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_146.png, id=3710, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_146.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_146.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_146.png  used on input
@@ -4443,7 +4434,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 
  <./Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf> <./FOLDING_PEPT
 IDE_PICTURE/folding_146.png>]
-<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3716, page=9, 5
+<Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf, id=3720, page=9, 5
 97.50829pt x 796.67737pt>
 File: Results_Discussion/Papers/Papers_principales/vqe_cesga.pdf Graphic file (
 type pdf)
@@ -4457,7 +4448,7 @@ type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_principales/vqe_cesga
 .pdf , page9 used on input line 34.
 (pdftex.def)             Requested size: 682.62527pt x 910.16666pt.
-<FOLDING_PEPTIDE_PICTURE/folding_147.png, id=3717, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_147.png, id=3721, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_147.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_147.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_147.png  used on input
@@ -4497,7 +4488,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
 
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3732, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3736, 
 page=1, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4506,7 +4497,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page1 used on input line 10.
 (pdftex.def)             Requested size: 409.71692pt x 579.45982pt.
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3733, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3737, 
 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4514,7 +4505,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf  used on input line 12.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3735, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3739, 
 page=2, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4530,7 +4521,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page2 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_150.png, id=3736, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_150.png, id=3740, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_150.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_150.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_150.png  used on input
@@ -4567,7 +4558,7 @@ an_design.pdf , page2 used on input line 12.
  [176
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3810, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3814, 
 page=3, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4583,7 +4574,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page3 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_151.png, id=3811, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_151.png, id=3815, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_151.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_151.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_151.png  used on input
@@ -4600,7 +4591,7 @@ an_design.pdf , page3 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_151.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3875, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3879, 
 page=4, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4616,7 +4607,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page4 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_152.png, id=3876, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_152.png, id=3880, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_152.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_152.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_152.png  used on input
@@ -4633,7 +4624,7 @@ an_design.pdf , page4 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_152.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3939, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3943, 
 page=5, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4649,7 +4640,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page5 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_153.png, id=3940, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_153.png, id=3944, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_153.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_153.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_153.png  used on input
@@ -4666,7 +4657,7 @@ an_design.pdf , page5 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_153.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3947, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3951, 
 page=6, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4682,7 +4673,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page6 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_154.png, id=3948, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_154.png, id=3952, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_154.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_154.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_154.png  used on input
@@ -4699,7 +4690,7 @@ an_design.pdf , page6 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_154.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3988, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=3992, 
 page=7, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4715,7 +4706,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page7 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_155.png, id=3989, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_155.png, id=3993, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_155.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_155.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_155.png  used on input
@@ -4732,7 +4723,7 @@ an_design.pdf , page7 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_155.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4016, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4020, 
 page=8, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4763,7 +4754,7 @@ an_design.pdf , page8 used on input line 12.
  [182
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4033, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4037, 
 page=9, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4779,7 +4770,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page9 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_156.png, id=4034, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_156.png, id=4038, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_156.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_156.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_156.png  used on input
@@ -4796,7 +4787,7 @@ an_design.pdf , page9 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_156.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4040, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4045, 
 page=10, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4812,7 +4803,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page10 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_157.png, id=4041, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_157.png, id=4046, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_157.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_157.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_157.png  used on input
@@ -4829,7 +4820,7 @@ an_design.pdf , page10 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_157.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4048, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4052, 
 page=11, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4845,7 +4836,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page11 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_158.png, id=4049, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_158.png, id=4053, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_158.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_158.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_158.png  used on input
@@ -4862,7 +4853,7 @@ an_design.pdf , page11 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_158.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4055, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4059, 
 page=12, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4878,7 +4869,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page12 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_159.png, id=4056, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_159.png, id=4060, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_159.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_159.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_159.png  used on input
@@ -4895,7 +4886,7 @@ an_design.pdf , page12 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_159.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4062, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4066, 
 page=13, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4911,7 +4902,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page13 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_160.png, id=4063, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_160.png, id=4067, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_160.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_160.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_160.png  used on input
@@ -4928,7 +4919,7 @@ an_design.pdf , page13 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_160.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4070, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4074, 
 page=14, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4944,7 +4935,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page14 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_161.png, id=4071, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_161.png, id=4075, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_161.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_161.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_161.png  used on input
@@ -4962,7 +4953,7 @@ an_design.pdf , page14 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_161.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4077, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4081, 
 page=15, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -4993,7 +4984,7 @@ an_design.pdf , page15 used on input line 12.
  [189
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4082, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4086, 
 page=16, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -5009,7 +5000,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page16 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_162.png, id=4083, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_162.png, id=4087, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_162.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_162.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_162.png  used on input
@@ -5026,7 +5017,7 @@ an_design.pdf , page16 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_162.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4089, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4093, 
 page=17, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -5042,7 +5033,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page17 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_163.png, id=4090, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_163.png, id=4094, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_163.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_163.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_163.png  used on input
@@ -5059,7 +5050,7 @@ an_design.pdf , page17 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_163.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4096, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4100, 
 page=18, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -5075,7 +5066,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page18 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_164.png, id=4097, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_164.png, id=4101, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_164.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_164.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_164.png  used on input
@@ -5092,7 +5083,7 @@ an_design.pdf , page18 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_164.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4103, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4107, 
 page=19, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -5108,7 +5099,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page19 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_165.png, id=4104, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_165.png, id=4108, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_165.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_165.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_165.png  used on input
@@ -5125,7 +5116,7 @@ an_design.pdf , page19 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_165.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4111, 
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf, id=4115, 
 page=20, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf Graph
 ic file (type pdf)
@@ -5141,7 +5132,7 @@ ic file (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design.pdf , page20 used on input line 12.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_166.png, id=4112, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_166.png, id=4116, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_166.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_166.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_166.png  used on input
@@ -5158,8 +5149,8 @@ an_design.pdf , page20 used on input line 12.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design.pdf> <./FOL
 DING_PEPTIDE_PICTURE/folding_166.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=411
-8, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=412
+2, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>
@@ -5167,7 +5158,7 @@ Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf  used on input line 14.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=412
-0, page=1, 597.50829pt x 845.0471pt>
+4, page=1, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5196,7 +5187,7 @@ ge 1>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_167.png, id=4121, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_167.png, id=4125, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_167.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_167.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_167.png  used on input
@@ -5213,8 +5204,8 @@ an_design_si.pdf , page1 used on input line 14.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_167.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=415
-6, page=2, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=416
+0, page=2, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5245,7 +5236,7 @@ an_design_si.pdf , page2 used on input line 14.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=419
-3, page=3, 597.50829pt x 845.0471pt>
+7, page=3, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5260,7 +5251,7 @@ ge 3>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page3 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_168.png, id=4194, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_168.png, id=4198, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_168.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_168.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_168.png  used on input
@@ -5278,7 +5269,7 @@ an_design_si.pdf , page3 used on input line 14.
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_168.png>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=422
-3, page=4, 597.50829pt x 845.0471pt>
+7, page=4, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5293,7 +5284,7 @@ ge 4>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page4 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_169.png, id=4224, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_169.png, id=4228, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_169.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_169.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_169.png  used on input
@@ -5311,7 +5302,7 @@ an_design_si.pdf , page4 used on input line 14.
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_169.png>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=423
-4, page=5, 597.50829pt x 845.0471pt>
+8, page=5, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5326,7 +5317,7 @@ ge 5>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page5 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_170.png, id=4235, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_170.png, id=4239, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_170.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_170.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_170.png  used on input
@@ -5343,8 +5334,8 @@ an_design_si.pdf , page5 used on input line 14.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_170.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=425
-7, page=6, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=426
+1, page=6, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5359,7 +5350,7 @@ ge 6>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page6 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_171.png, id=4258, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_171.png, id=4262, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_171.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_171.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_171.png  used on input
@@ -5377,7 +5368,7 @@ an_design_si.pdf , page6 used on input line 14.
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_171.png>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=426
-4, page=7, 597.50829pt x 845.0471pt>
+8, page=7, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5392,7 +5383,7 @@ ge 7>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page7 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_172.png, id=4265, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_172.png, id=4269, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_172.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_172.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_172.png  used on input
@@ -5409,8 +5400,8 @@ an_design_si.pdf , page7 used on input line 14.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_172.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=427
-8, page=8, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=428
+2, page=8, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5425,7 +5416,7 @@ ge 8>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page8 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_173.png, id=4279, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_173.png, id=4283, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_173.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_173.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_173.png  used on input
@@ -5442,8 +5433,8 @@ an_design_si.pdf , page8 used on input line 14.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_173.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=428
-8, page=9, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=429
+2, page=9, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5473,8 +5464,8 @@ an_design_si.pdf , page9 used on input line 14.
  [203
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=429
-6, page=10, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=430
+0, page=10, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5489,7 +5480,7 @@ ge 10>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page10 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_174.png, id=4297, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_174.png, id=4301, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_174.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_174.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_174.png  used on input
@@ -5506,8 +5497,8 @@ an_design_si.pdf , page10 used on input line 14.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_174.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=430
-8, page=11, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=431
+2, page=11, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5522,7 +5513,7 @@ ge 11>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page11 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_175.png, id=4309, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_175.png, id=4313, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_175.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_175.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_175.png  used on input
@@ -5541,7 +5532,7 @@ an_design_si.pdf , page11 used on input line 14.
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_175.png>]
 <Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=432
-1, page=12, 597.50829pt x 845.0471pt>
+5, page=12, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5556,7 +5547,7 @@ ge 12>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page12 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_176.png, id=4322, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_176.png, id=4326, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_176.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_176.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_176.png  used on input
@@ -5573,8 +5564,8 @@ an_design_si.pdf , page12 used on input line 14.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_176.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=434
-9, page=13, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=435
+3, page=13, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5589,7 +5580,7 @@ ge 13>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page13 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_177.png, id=4350, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_177.png, id=4354, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_177.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_177.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_177.png  used on input
@@ -5606,8 +5597,8 @@ an_design_si.pdf , page13 used on input line 14.
 
  <./Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf> <./
 FOLDING_PEPTIDE_PICTURE/folding_177.png>]
-<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=435
-6, page=14, 597.50829pt x 845.0471pt>
+<Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, id=436
+0, page=14, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf Gr
 aphic file (type pdf)
 <use Results_Discussion/Papers/Papers_secundarios/hamiltonian_design_si.pdf, pa
@@ -5622,7 +5613,7 @@ ge 14>
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/hamiltoni
 an_design_si.pdf , page14 used on input line 14.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_178.png, id=4357, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_178.png, id=4361, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_178.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_178.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_178.png  used on input
@@ -5651,7 +5642,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 16.
 
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4367, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4371, page=1
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5664,7 +5655,7 @@ Overfull \hbox (45.52718pt too wide) in paragraph at lines 18--19
 [] 
  []
 
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4368, 597.50
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4372, 597.50
 829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5672,7 +5663,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf  used on input line 20.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4370, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4374, page=2
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5689,7 +5680,7 @@ ria.pdf , page2 used on input line 20.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<FOLDING_PEPTIDE_PICTURE/folding_179.png, id=4371, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_179.png, id=4375, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_179.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_179.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_179.png  used on input
@@ -5717,7 +5708,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page2 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_180.png, id=4416, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_180.png, id=4421, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_180.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_180.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_180.png  used on input
@@ -5734,7 +5725,7 @@ ria.pdf , page2 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_180.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4430, page=3
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4434, page=3
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5748,7 +5739,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page3 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_181.png, id=4431, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_181.png, id=4435, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_181.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_181.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_181.png  used on input
@@ -5764,7 +5755,7 @@ ria.pdf , page3 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_181.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4440, page=4
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4444, page=4
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5778,7 +5769,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page4 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_182.png, id=4441, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_182.png, id=4445, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_182.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_182.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_182.png  used on input
@@ -5795,7 +5786,7 @@ ria.pdf , page4 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_182.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4463, page=5
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4467, page=5
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5809,7 +5800,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page5 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_183.png, id=4464, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_183.png, id=4468, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_183.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_183.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_183.png  used on input
@@ -5825,7 +5816,7 @@ ria.pdf , page5 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_183.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4474, page=6
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4478, page=6
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5839,7 +5830,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page6 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_184.png, id=4475, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_184.png, id=4479, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_184.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_184.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_184.png  used on input
@@ -5856,7 +5847,7 @@ ria.pdf , page6 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_184.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4486, page=7
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4490, page=7
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5870,7 +5861,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page7 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_185.png, id=4487, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_185.png, id=4491, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_185.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_185.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_185.png  used on input
@@ -5886,7 +5877,7 @@ ria.pdf , page7 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_185.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4493, page=8
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4497, page=8
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5915,7 +5906,7 @@ ria.pdf , page8 used on input line 20.
 [217
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4502, page=9
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4506, page=9
 , 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5929,7 +5920,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page9 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_186.png, id=4503, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_186.png, id=4507, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_186.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_186.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_186.png  used on input
@@ -5946,7 +5937,7 @@ ria.pdf , page9 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_186.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4509, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4513, page=1
 0, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5960,7 +5951,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page10 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_187.png, id=4510, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_187.png, id=4514, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_187.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_187.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_187.png  used on input
@@ -5976,7 +5967,7 @@ ria.pdf , page10 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_187.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4516, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4520, page=1
 1, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -5990,7 +5981,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page11 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_188.png, id=4517, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_188.png, id=4521, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_188.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_188.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_188.png  used on input
@@ -6007,7 +5998,7 @@ ria.pdf , page11 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_188.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4526, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4530, page=1
 2, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6021,7 +6012,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page12 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_189.png, id=4527, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_189.png, id=4531, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_189.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_189.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_189.png  used on input
@@ -6037,7 +6028,7 @@ ria.pdf , page12 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_189.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4533, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4537, page=1
 3, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6051,7 +6042,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page13 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_190.png, id=4534, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_190.png, id=4538, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_190.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_190.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_190.png  used on input
@@ -6068,7 +6059,7 @@ ria.pdf , page13 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_190.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4543, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4547, page=1
 4, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6096,7 +6087,7 @@ ria.pdf , page14 used on input line 20.
  [223
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4552, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4556, page=1
 5, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6110,7 +6101,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page15 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_191.png, id=4553, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_191.png, id=4557, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_191.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_191.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_191.png  used on input
@@ -6126,7 +6117,7 @@ ria.pdf , page15 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_191.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4559, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4563, page=1
 6, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6140,7 +6131,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page16 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_192.png, id=4560, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_192.png, id=4564, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_192.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_192.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_192.png  used on input
@@ -6156,7 +6147,7 @@ ria.pdf , page16 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_192.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4569, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4573, page=1
 7, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6170,7 +6161,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page17 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_193.png, id=4570, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_193.png, id=4574, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_193.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_193.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_193.png  used on input
@@ -6186,7 +6177,7 @@ ria.pdf , page17 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_193.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4588, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4592, page=1
 8, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6200,7 +6191,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page18 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_194.png, id=4589, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_194.png, id=4593, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_194.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_194.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_194.png  used on input
@@ -6216,7 +6207,7 @@ ria.pdf , page18 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_194.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4598, page=1
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4602, page=1
 9, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6230,7 +6221,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page19 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_195.png, id=4599, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_195.png, id=4603, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_195.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_195.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_195.png  used on input
@@ -6246,7 +6237,7 @@ ria.pdf , page19 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_195.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4605, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4609, page=2
 0, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6260,7 +6251,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page20 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_196.png, id=4606, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_196.png, id=4610, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_196.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_196.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_196.png  used on input
@@ -6276,7 +6267,7 @@ ria.pdf , page20 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_196.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4616, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4620, page=2
 1, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6304,7 +6295,7 @@ ria.pdf , page21 used on input line 20.
  [230
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4635, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4639, page=2
 2, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6318,7 +6309,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page22 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_197.png, id=4636, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_197.png, id=4640, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_197.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_197.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_197.png  used on input
@@ -6334,7 +6325,7 @@ ria.pdf , page22 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_197.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4642, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4646, page=2
 3, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6348,7 +6339,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page23 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_198.png, id=4643, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_198.png, id=4647, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_198.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_198.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_198.png  used on input
@@ -6364,7 +6355,7 @@ ria.pdf , page23 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_198.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4649, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4653, page=2
 4, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6378,7 +6369,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page24 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_199.png, id=4650, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_199.png, id=4654, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_199.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_199.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_199.png  used on input
@@ -6394,7 +6385,7 @@ ria.pdf , page24 used on input line 20.
 
  <./Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf> <./FOLDING_P
 EPTIDE_PICTURE/folding_199.png>]
-<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4656, page=2
+<Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf, id=4660, page=2
 5, 597.50829pt x 845.0471pt>
 File: Results_Discussion/Papers/Papers_secundarios/bibliometria.pdf Graphic fil
 e (type pdf)
@@ -6408,7 +6399,7 @@ e (type pdf)
 Package pdftex.def Info: Results_Discussion/Papers/Papers_secundarios/bibliomet
 ria.pdf , page25 used on input line 20.
 (pdftex.def)             Requested size: 713.15889pt x 1008.61005pt.
-<FOLDING_PEPTIDE_PICTURE/folding_200.png, id=4657, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_200.png, id=4661, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_200.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_200.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_200.png  used on input
@@ -6435,7 +6426,7 @@ Chapter 6.
 
 
 ]
-<FOLDING_PEPTIDE_PICTURE/folding_202.png, id=4672, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_202.png, id=4676, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_202.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_202.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_202.png  used on input
@@ -6472,42 +6463,42 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 87.
 
-<FOLDING_PEPTIDE_PICTURE/folding_203.png, id=4706, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_203.png, id=4710, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_203.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_203.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_203.png  used on input
  line 94.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 [238 <./FOLDING_PEPTIDE_PICTURE/folding_203.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_204.png, id=4720, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_204.png, id=4724, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_204.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_204.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_204.png  used on input
  line 114.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [239 <./FOLDING_PEPTIDE_PICTURE/folding_204.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_205.png, id=4732, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_205.png, id=4736, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_205.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_205.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_205.png  used on input
  line 139.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [240 <./FOLDING_PEPTIDE_PICTURE/folding_205.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_206.png, id=4745, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_206.png, id=4749, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_206.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_206.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_206.png  used on input
  line 317.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [241 <./FOLDING_PEPTIDE_PICTURE/folding_206.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_207.png, id=4757, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_207.png, id=4761, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_207.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_207.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_207.png  used on input
  line 349.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [242 <./FOLDING_PEPTIDE_PICTURE/folding_207.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_208.png, id=4773, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_208.png, id=4777, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_208.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_208.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_208.png  used on input
@@ -6520,7 +6511,7 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_208.png  used on input
  line 420.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [244])
-<FOLDING_PEPTIDE_PICTURE/folding_209.png, id=4788, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_209.png, id=4792, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_209.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_209.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_209.png  used on input
@@ -6542,21 +6533,21 @@ Overfull \hbox (3.19888pt too wide) in paragraph at lines 7--8
 o-3-phospho-L-serine (DOPS))
  []
 
-<FOLDING_PEPTIDE_PICTURE/folding_211.png, id=4801, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_211.png, id=4805, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_211.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_211.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_211.png  used on input
  line 13.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 [247 <./FOLDING_PEPTIDE_PICTURE/folding_211.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_212.png, id=4814, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_212.png, id=4818, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_212.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_212.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_212.png  used on input
  line 25.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [248 <./FOLDING_PEPTIDE_PICTURE/folding_212.png>])
-<FOLDING_PEPTIDE_PICTURE/folding_213.png, id=4820, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_213.png, id=4824, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_213.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_213.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_213.png  used on input
@@ -6569,28 +6560,28 @@ Chapter 8.
 
 
 ]
-<FOLDING_PEPTIDE_PICTURE/folding_214.png, id=4843, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_214.png, id=4847, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_214.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_214.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_214.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [251 <./FOLDING_PEPTIDE_PICTURE/folding_214.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_215.png, id=4866, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_215.png, id=4870, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_215.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_215.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_215.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [252 <./FOLDING_PEPTIDE_PICTURE/folding_215.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_216.png, id=4891, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_216.png, id=4895, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_216.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_216.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_216.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [253 <./FOLDING_PEPTIDE_PICTURE/folding_216.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_217.png, id=4917, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_217.png, id=4921, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_217.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_217.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_217.png  used on input
@@ -6598,21 +6589,21 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_217.png  used on input
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 
 [254 <./FOLDING_PEPTIDE_PICTURE/folding_217.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_218.png, id=4936, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_218.png, id=4940, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_218.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_218.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_218.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [255 <./FOLDING_PEPTIDE_PICTURE/folding_218.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_219.png, id=4960, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_219.png, id=4964, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_219.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_219.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_219.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [256 <./FOLDING_PEPTIDE_PICTURE/folding_219.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_220.png, id=4978, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_220.png, id=4982, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_220.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_220.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_220.png  used on input
@@ -6625,35 +6616,35 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_220.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [258]
-<FOLDING_PEPTIDE_PICTURE/folding_221.png, id=5015, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_221.png, id=5019, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_221.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_221.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_221.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [259 <./FOLDING_PEPTIDE_PICTURE/folding_221.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_222.png, id=5036, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_222.png, id=5040, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_222.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_222.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_222.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [260 <./FOLDING_PEPTIDE_PICTURE/folding_222.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_223.png, id=5056, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_223.png, id=5060, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_223.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_223.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_223.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [261 <./FOLDING_PEPTIDE_PICTURE/folding_223.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_224.png, id=5076, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_224.png, id=5080, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_224.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_224.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_224.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [262 <./FOLDING_PEPTIDE_PICTURE/folding_224.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_225.png, id=5099, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_225.png, id=5104, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_225.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_225.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_225.png  used on input
@@ -6671,42 +6662,42 @@ Overfull \hbox (8.19098pt too wide) in paragraph at lines 423--423
 -tive double-switched self-assembled
  []
 
-<FOLDING_PEPTIDE_PICTURE/folding_226.png, id=5137, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_226.png, id=5141, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_226.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_226.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_226.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
 [265 <./FOLDING_PEPTIDE_PICTURE/folding_226.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_227.png, id=5158, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_227.png, id=5162, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_227.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_227.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_227.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [266 <./FOLDING_PEPTIDE_PICTURE/folding_227.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_228.png, id=5178, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_228.png, id=5182, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_228.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_228.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_228.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [267 <./FOLDING_PEPTIDE_PICTURE/folding_228.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_229.png, id=5203, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_229.png, id=5206, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_229.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_229.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_229.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [268 <./FOLDING_PEPTIDE_PICTURE/folding_229.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_230.png, id=5223, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_230.png, id=5225, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_230.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_230.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_230.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [269 <./FOLDING_PEPTIDE_PICTURE/folding_230.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_231.png, id=5245, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_231.png, id=5248, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_231.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_231.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_231.png  used on input
@@ -6719,28 +6710,28 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_231.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [271]
-<FOLDING_PEPTIDE_PICTURE/folding_232.png, id=5280, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_232.png, id=5283, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_232.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_232.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_232.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [272 <./FOLDING_PEPTIDE_PICTURE/folding_232.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_233.png, id=5299, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_233.png, id=5302, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_233.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_233.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_233.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [273 <./FOLDING_PEPTIDE_PICTURE/folding_233.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_234.png, id=5318, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_234.png, id=5322, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_234.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_234.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_234.png  used on input
  line 423.
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [274 <./FOLDING_PEPTIDE_PICTURE/folding_234.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_235.png, id=5333, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_235.png, id=5338, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_235.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_235.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_235.png  used on input
@@ -6760,13 +6751,13 @@ File: Logo_USC/logo_usc.png Graphic file (type png)
 Package pdftex.def Info: Logo_USC/logo_usc.png  used on input line 24.
 (pdftex.def)             Requested size: 128.0374pt x 112.52606pt.
  [277]
-<Appendix/Figures/paper_Paula_derechos.png, id=5353, 1096.095pt x 536.0025pt>
+<Appendix/Figures/paper_Paula_derechos.png, id=5358, 1096.095pt x 536.0025pt>
 File: Appendix/Figures/paper_Paula_derechos.png Graphic file (type png)
 <use Appendix/Figures/paper_Paula_derechos.png>
 Package pdftex.def Info: Appendix/Figures/paper_Paula_derechos.png  used on inp
 ut line 77.
 (pdftex.def)             Requested size: 364.19667pt x 178.09999pt.
-<FOLDING_PEPTIDE_PICTURE/folding_237.png, id=5356, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_237.png, id=5361, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_237.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_237.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_237.png  used on input
@@ -6774,13 +6765,13 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_237.png  used on input
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [278 <./Appendix/Figures/paper_Paula_derechos.png> <./FOLDING_PEPTIDE_PICTURE/
 folding_237.png>]
-<Appendix/Figures/paper_review_2.png, id=5364, 490.83376pt x 527.9725pt>
+<Appendix/Figures/paper_review_2.png, id=5369, 490.83376pt x 527.9725pt>
 File: Appendix/Figures/paper_review_2.png Graphic file (type png)
 <use Appendix/Figures/paper_review_2.png>
 Package pdftex.def Info: Appendix/Figures/paper_review_2.png  used on input lin
 e 107.
 (pdftex.def)             Requested size: 455.24411pt x 489.70424pt.
-<Appendix/Figures/paper_metadinamica.png, id=5367, 1109.14375pt x 541.02126pt>
+<Appendix/Figures/paper_metadinamica.png, id=5372, 1109.14375pt x 541.02126pt>
 File: Appendix/Figures/paper_metadinamica.png Graphic file (type png)
 <use Appendix/Figures/paper_metadinamica.png>
 Package pdftex.def Info: Appendix/Figures/paper_metadinamica.png  used on input
@@ -6790,7 +6781,7 @@ Package pdftex.def Info: Appendix/Figures/paper_metadinamica.png  used on input
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Appendix/Figures/paper_Quantum_computers.png, id=5370, 1123.19624pt x 551.0587
+<Appendix/Figures/paper_Quantum_computers.png, id=5375, 1123.19624pt x 551.0587
 5pt>
 File: Appendix/Figures/paper_Quantum_computers.png Graphic file (type png)
 <use Appendix/Figures/paper_Quantum_computers.png>
@@ -6801,7 +6792,7 @@ input line 121.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
-<FOLDING_PEPTIDE_PICTURE/folding_238.png, id=5373, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_238.png, id=5378, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_238.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_238.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_238.png  used on input
@@ -6809,7 +6800,7 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_238.png  used on input
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [279 <./Appendix/Figures/paper_review_2.png> <./FOLDING_PEPTIDE_PICTURE/foldin
 g_238.png>]
-<FOLDING_PEPTIDE_PICTURE/folding_239.png, id=5381, 333.6465pt x 333.6465pt>
+<FOLDING_PEPTIDE_PICTURE/folding_239.png, id=5386, 333.6465pt x 333.6465pt>
 File: FOLDING_PEPTIDE_PICTURE/folding_239.png Graphic file (type png)
 <use FOLDING_PEPTIDE_PICTURE/folding_239.png>
 Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_239.png  used on input
@@ -6817,14 +6808,14 @@ Package pdftex.def Info: FOLDING_PEPTIDE_PICTURE/folding_239.png  used on input
 (pdftex.def)             Requested size: 59.7483pt x 59.75095pt.
  [280 <./Appendix/Figures/paper_metadinamica.png> <./Appendix/Figures/paper_Qua
 ntum_computers.png> <./FOLDING_PEPTIDE_PICTURE/folding_239.png>]
-<Portada_Contraportada/Contraportada_tese.pdf, id=5391, 597.50792pt x 845.04686
+<Portada_Contraportada/Contraportada_tese.pdf, id=5396, 597.50792pt x 845.04686
 pt>
 File: Portada_Contraportada/Contraportada_tese.pdf Graphic file (type pdf)
 <use Portada_Contraportada/Contraportada_tese.pdf>
 Package pdftex.def Info: Portada_Contraportada/Contraportada_tese.pdf  used on 
 input line 429.
 (pdftex.def)             Requested size: 597.50645pt x 845.0448pt.
-<Portada_Contraportada/Contraportada_tese.pdf, id=5393, page=1, 597.50792pt x 8
+<Portada_Contraportada/Contraportada_tese.pdf, id=5398, page=1, 597.50792pt x 8
 45.04686pt>
 File: Portada_Contraportada/Contraportada_tese.pdf Graphic file (type pdf)
 <use Portada_Contraportada/Contraportada_tese.pdf, page 1>
@@ -6876,10 +6867,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46926 strings out of 467525
- 1005623 string characters out of 5418982
- 2211521 words of memory out of 5000000
- 73448 multiletter control sequences out of 15000+600000
+ 46929 strings out of 467525
+ 1005813 string characters out of 5418982
+ 2215798 words of memory out of 5000000
+ 73450 multiletter control sequences out of 15000+600000
  754315 words of font info for 572 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,108p,11486b,2359s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -6944,10 +6935,10 @@ e1/urw/courier/ucrr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/t
 imes/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi
 8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (281 pages, 66411612 bytes).
+Output written on main.pdf (281 pages, 66412588 bytes).
 PDF statistics:
- 5757 PDF objects out of 6186 (max. 8388607)
- 4165 compressed objects within 42 object streams
- 894 named destinations out of 1000 (max. 500000)
+ 5763 PDF objects out of 6186 (max. 8388607)
+ 4171 compressed objects within 42 object streams
+ 895 named destinations out of 1000 (max. 500000)
  127083 words of extra memory for PDF output out of 128383 (max. 10000000)
 

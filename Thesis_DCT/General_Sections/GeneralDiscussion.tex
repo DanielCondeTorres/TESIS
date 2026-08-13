@@ -323,7 +323,7 @@ A critical addition to this formulation is the implementation of a two-stage nor
 To ensure algorithmic portability, the sequence space was encoded using a compact binary representation, which reduces the qubit overhead to $O(L \log_2 |A|)$. This allows the same physical objective function to be solved across multiple backends:
 \begin{itemize}
     \item \textbf{Classical enumeration:} For tractable problem sizes (up to $n=20$ binary variables), providing an exact global minimum .
-    \item \textbf{Simulated Annealing (SA) (SA):} For larger, clinically relevant sequences, acting as a heuristic baseline to efficiently traverse the landscape .
+    \item \textbf{Simulated Annealing (SA):} For larger, clinically relevant sequences, acting as a heuristic baseline to efficiently traverse the landscape .
     \item \textbf{QAOA:} Implementing a hybrid quantum-classical workflow to explore the combinatorial space natively through gate-based quantum algorithms .
 \end{itemize}
 
