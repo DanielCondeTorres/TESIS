@@ -1238,6 +1238,57 @@
       \verb 10.1007/s11904-019-00442-9
       \endverb
     \endentry
+    \entry{Szlasa2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=b81035826bd7f69d40a9bd91bff0c97f}{%
+           family={Szlasa},
+           familyi={S\bibinitperiod},
+           given={Weronika},
+           giveni={W\bibinitperiod}}}%
+        {{hash=26526759285f5c18e8f6aaa8818578c4}{%
+           family={Zendran},
+           familyi={Z\bibinitperiod},
+           given={Iwona},
+           giveni={I\bibinitperiod}}}%
+        {{hash=42476e5d6c71305f11125e250628836f}{%
+           family={Zalesińska},
+           familyi={Z\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8890d0f6b1dd5957583476c0e02ecdec}{%
+           family={Tarek},
+           familyi={T\bibinitperiod},
+           given={Mounir},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd14062a52f0ab7774798b1f1f1b2b93}{%
+           family={Kulbacka},
+           familyi={K\bibinitperiod},
+           given={Julita},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0327816d637bcb3665980767d6ddcf12}
+      \strng{fullhash}{2b57db2288f437bed4fbae0149c20c78}
+      \strng{fullhashraw}{2b57db2288f437bed4fbae0149c20c78}
+      \strng{bibnamehash}{2b57db2288f437bed4fbae0149c20c78}
+      \strng{authorbibnamehash}{2b57db2288f437bed4fbae0149c20c78}
+      \strng{authornamehash}{0327816d637bcb3665980767d6ddcf12}
+      \strng{authorfullhash}{2b57db2288f437bed4fbae0149c20c78}
+      \strng{authorfullhashraw}{2b57db2288f437bed4fbae0149c20c78}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Bioenergetics and Biomembranes}
+      \field{number}{5}
+      \field{title}{Lipid composition of the cancer cell membrane}
+      \field{volume}{52}
+      \field{year}{2020}
+      \field{pages}{321\bibrangedash 342}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s10863-020-09846-4
+      \endverb
+    \endentry
     \entry{Fu2021}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1294,57 +1345,6 @@
       \range{pages}{33}
       \verb{doi}
       \verb 10.1002/mco2.27
-      \endverb
-    \endentry
-    \entry{Szlasa2020}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=b81035826bd7f69d40a9bd91bff0c97f}{%
-           family={Szlasa},
-           familyi={S\bibinitperiod},
-           given={Weronika},
-           giveni={W\bibinitperiod}}}%
-        {{hash=26526759285f5c18e8f6aaa8818578c4}{%
-           family={Zendran},
-           familyi={Z\bibinitperiod},
-           given={Iwona},
-           giveni={I\bibinitperiod}}}%
-        {{hash=42476e5d6c71305f11125e250628836f}{%
-           family={Zalesińska},
-           familyi={Z\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8890d0f6b1dd5957583476c0e02ecdec}{%
-           family={Tarek},
-           familyi={T\bibinitperiod},
-           given={Mounir},
-           giveni={M\bibinitperiod}}}%
-        {{hash=bd14062a52f0ab7774798b1f1f1b2b93}{%
-           family={Kulbacka},
-           familyi={K\bibinitperiod},
-           given={Julita},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{0327816d637bcb3665980767d6ddcf12}
-      \strng{fullhash}{2b57db2288f437bed4fbae0149c20c78}
-      \strng{fullhashraw}{2b57db2288f437bed4fbae0149c20c78}
-      \strng{bibnamehash}{2b57db2288f437bed4fbae0149c20c78}
-      \strng{authorbibnamehash}{2b57db2288f437bed4fbae0149c20c78}
-      \strng{authornamehash}{0327816d637bcb3665980767d6ddcf12}
-      \strng{authorfullhash}{2b57db2288f437bed4fbae0149c20c78}
-      \strng{authorfullhashraw}{2b57db2288f437bed4fbae0149c20c78}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Bioenergetics and Biomembranes}
-      \field{number}{5}
-      \field{title}{Lipid composition of the cancer cell membrane}
-      \field{volume}{52}
-      \field{year}{2020}
-      \field{pages}{321\bibrangedash 342}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.1007/s10863-020-09846-4
       \endverb
     \endentry
     \entry{Furman2019}{article}{}{}
@@ -1663,8 +1663,8 @@
       \strng{authornamehash}{1df963a99b7091231b6a2ff414387944}
       \strng{authorfullhash}{1df963a99b7091231b6a2ff414387944}
       \strng{authorfullhashraw}{1df963a99b7091231b6a2ff414387944}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract This article describes new methods for the synthesis of biologically active phospholipids. The physical properties of such compounds are directly related to their chemical structure, the position of the substituents esterified with glycerol not only influencing the physical properties but also the biological function of the phospholipids. Phase transitions can be induced by temperature changes and—in biological systems—by changes in the surface charge or the degree of protonation. In model studies, the properties of lipid phases differ sufficiently to influence and control biological membrane processes. Alkyl glycerides can modify the properties of biological membranes quickly and reversibly to increase the permeation of active compounds. An important example is the improved transport of cytostatic drugs across the blood-brain barrier. Knowledge about the substrate specificity of enzymes that metabolize phospholipids allows the synthesis of tailored cytotoxic phospholipids which selectively accumulate in malignant tissues. Thus, the interplay of chemical synthesis and investigations of physical structure lays a foundation for the understanding of simple membrane processes on a molecular level, and the experience gained with such model systems can, in turn, be used to influence natural membranes, such as those of the blood-brain barrier or of tumors, in a directed way.}
@@ -1709,8 +1709,8 @@
       \strng{authornamehash}{53413295aac32521a7fd76227dc40dd2}
       \strng{authorfullhash}{53413295aac32521a7fd76227dc40dd2}
       \strng{authorfullhashraw}{53413295aac32521a7fd76227dc40dd2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Biomembranes}
@@ -1754,8 +1754,8 @@
       \strng{authornamehash}{62ca8551282ad4961f299a8461fe43e3}
       \strng{authorfullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
       \strng{authorfullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Reviews Molecular Cell Biology}
@@ -1767,6 +1767,68 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1038/nrm2330
+      \endverb
+    \endentry
+    \entry{biorender}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=1084e45e7e35614f6e46d89bb6dc40a8}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1084e45e7e35614f6e46d89bb6dc40a8}
+      \strng{fullhash}{1084e45e7e35614f6e46d89bb6dc40a8}
+      \strng{fullhashraw}{1084e45e7e35614f6e46d89bb6dc40a8}
+      \strng{bibnamehash}{1084e45e7e35614f6e46d89bb6dc40a8}
+      \strng{authorbibnamehash}{1084e45e7e35614f6e46d89bb6dc40a8}
+      \strng{authornamehash}{1084e45e7e35614f6e46d89bb6dc40a8}
+      \strng{authorfullhash}{1084e45e7e35614f6e46d89bb6dc40a8}
+      \strng{authorfullhashraw}{1084e45e7e35614f6e46d89bb6dc40a8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Created with {BioRender}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://BioRender.com/k1t4ye7
+      \endverb
+      \verb{url}
+      \verb https://BioRender.com/k1t4ye7
+      \endverb
+    \endentry
+    \entry{chemdraw}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=e0e5b897b79c166580afab519667b128}{%
+           family={{PerkinElmer Informatics.}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0e5b897b79c166580afab519667b128}
+      \strng{fullhash}{e0e5b897b79c166580afab519667b128}
+      \strng{fullhashraw}{e0e5b897b79c166580afab519667b128}
+      \strng{bibnamehash}{e0e5b897b79c166580afab519667b128}
+      \strng{authorbibnamehash}{e0e5b897b79c166580afab519667b128}
+      \strng{authornamehash}{e0e5b897b79c166580afab519667b128}
+      \strng{authorfullhash}{e0e5b897b79c166580afab519667b128}
+      \strng{authorfullhashraw}{e0e5b897b79c166580afab519667b128}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Licensed through the University of Santiago de Compostela (USC)}
+      \field{title}{\textit{ChemDraw Professional}}
+      \field{version}{22.2}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://perkinelmerinformatics.com/products/research/chemdraw/
+      \endverb
+      \verb{url}
+      \verb https://perkinelmerinformatics.com/products/research/chemdraw/
       \endverb
     \endentry
     \entry{self-assembly}{article}{}{}
@@ -2079,8 +2141,8 @@
       \strng{authornamehash}{09d36e83f227e752e44dfc8d07c5d666}
       \strng{authorfullhash}{09d36e83f227e752e44dfc8d07c5d666}
       \strng{authorfullhashraw}{09d36e83f227e752e44dfc8d07c5d666}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -2092,245 +2154,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1038/nature13474
-      \endverb
-    \endentry
-    \entry{bacterial_bilayer_1}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=c5d456e6b3709808b61d5b39a5327d5f}{%
-           family={Raetz},
-           familyi={R\bibinitperiod},
-           given={CR},
-           giveni={C\bibinitperiod}}}%
-        {{hash=d4cdf31978c20d4f9d109c4ab85d90b0}{%
-           family={Dowhan},
-           familyi={D\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{fullhash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{fullhashraw}{2204348988cca2c7a6e87921d174d37f}
-      \strng{bibnamehash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{authorbibnamehash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{authornamehash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{authorfullhash}{2204348988cca2c7a6e87921d174d37f}
-      \strng{authorfullhashraw}{2204348988cca2c7a6e87921d174d37f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Biological Chemistry}
-      \field{number}{3}
-      \field{title}{Biosynthesis and function of phospholipids in \textit{Escherichia coli}}
-      \field{volume}{265}
-      \field{year}{1990}
-      \field{pages}{1235\bibrangedash 1238}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1016/S0021-9258(19)40001-X
-      \endverb
-    \endentry
-    \entry{Nagata2016}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=5acd1df310b7ca657bbca33d7957b449}{%
-           family={Nagata},
-           familyi={N\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=640e62de23027d54da04ccca1464a2c9}{%
-           family={Suzuki},
-           familyi={S\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=6c839ed02da506c60887208f5583078e}{%
-           family={Segawa},
-           familyi={S\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=3f634efdd1a6956254d692c3723e2c54}{%
-           family={Fujii},
-           familyi={F\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{22ff69d8e5f3321290c9ed14aa597682}
-      \strng{fullhash}{a91d86136ea5ff1d291edc3c787b00dc}
-      \strng{fullhashraw}{a91d86136ea5ff1d291edc3c787b00dc}
-      \strng{bibnamehash}{a91d86136ea5ff1d291edc3c787b00dc}
-      \strng{authorbibnamehash}{a91d86136ea5ff1d291edc3c787b00dc}
-      \strng{authornamehash}{22ff69d8e5f3321290c9ed14aa597682}
-      \strng{authorfullhash}{a91d86136ea5ff1d291edc3c787b00dc}
-      \strng{authorfullhashraw}{a91d86136ea5ff1d291edc3c787b00dc}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Phosphatidylserine (PtdSer) is a phospholipid that is abundant in eukaryotic plasma membranes. An ATP-dependent enzyme called flippase normally keeps PtdSer inside the cell, but PtdSer is exposed by the action of scramblase on the cell’s surface in biological processes such as apoptosis and platelet activation. Once exposed to the cell surface, PtdSer acts as an ‘eat me’ signal on dead cells, and creates a scaffold for blood-clotting factors on activated platelets. The molecular identities of the flippase and scramblase that work at plasma membranes have long eluded researchers. Indeed, their identity as well as the mechanism of the PtdSer exposure to the cell surface has only recently been revealed. Here, we describe how PtdSer is exposed in apoptotic cells and in activated platelets, and discuss PtdSer exposure in other biological processes.}
-      \field{journaltitle}{Cell Death \& Differentiation}
-      \field{number}{6}
-      \field{title}{Exposure of phosphatidylserine on the cell surface}
-      \field{volume}{23}
-      \field{year}{2016}
-      \field{pages}{952\bibrangedash 961}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1038/cdd.2016.7
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1038/cdd.2016.7
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1038/cdd.2016.7
-      \endverb
-    \endentry
-    \entry{ref42}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=07ad32cede40b86b2cdf16c8ce5b27ac}{%
-           family={Almeida},
-           familyi={A\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=ddc905bca1a8426ae1de07b48e197827}{%
-           family={Magalhães},
-           familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=894a10a387ce8a7c3c93f6b85442a93d}{%
-           family={Nunes},
-           familyi={N\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{66d5f740e1472a459bd40a0eabe71fa5}
-      \strng{fullhash}{117a536c67034c8ac92873c897ac6441}
-      \strng{fullhashraw}{117a536c67034c8ac92873c897ac6441}
-      \strng{bibnamehash}{117a536c67034c8ac92873c897ac6441}
-      \strng{authorbibnamehash}{117a536c67034c8ac92873c897ac6441}
-      \strng{authornamehash}{66d5f740e1472a459bd40a0eabe71fa5}
-      \strng{authorfullhash}{117a536c67034c8ac92873c897ac6441}
-      \strng{authorfullhashraw}{117a536c67034c8ac92873c897ac6441}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Biogerontology}
-      \field{number}{3}
-      \field{title}{Lipids: biomarkers of healthy aging}
-      \field{volume}{22}
-      \field{year}{2021}
-      \field{pages}{273\bibrangedash 295}
-      \range{pages}{23}
-      \verb{doi}
-      \verb 10.1007/s10522-021-09921-2
-      \endverb
-    \endentry
-    \entry{ref43}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=b4c13e355d0773843942e4917b2e7d4a}{%
-           family={Chew},
-           familyi={C\bibinitperiod},
-           given={Hannah},
-           giveni={H\bibinitperiod}}}%
-        {{hash=5bf3aaf24723420e3544da3cf4f828c2}{%
-           family={Solomon},
-           familyi={S\bibinitperiod},
-           given={Victoria\bibnamedelima A.},
-           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=4993586dd37c9b05431fe21596f7e359}{%
-           family={Fonteh},
-           familyi={F\bibinitperiod},
-           given={Alfred\bibnamedelima N.},
-           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \strng{namehash}{46ef74ddacf98622cfb9057b74c75695}
-      \strng{fullhash}{95d42a4beb22ce25753d9075918c26b4}
-      \strng{fullhashraw}{95d42a4beb22ce25753d9075918c26b4}
-      \strng{bibnamehash}{95d42a4beb22ce25753d9075918c26b4}
-      \strng{authorbibnamehash}{95d42a4beb22ce25753d9075918c26b4}
-      \strng{authornamehash}{46ef74ddacf98622cfb9057b74c75695}
-      \strng{authorfullhash}{95d42a4beb22ce25753d9075918c26b4}
-      \strng{authorfullhashraw}{95d42a4beb22ce25753d9075918c26b4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Lipids constitute the bulk of the dry mass of the brain and have been associated with healthy function as well as the most common pathological conditions of the brain. Demographic factors, genetics, and lifestyles are the major factors that influence lipid metabolism and are also the key components of lipid disruption in Alzheimer’s disease (AD). Additionally, the most common genetic risk factor of AD, APOE ϵ4 genotype, is involved in lipid transport and metabolism. We propose that lipids are at the center of Alzheimer’s disease pathology based on their involvement in the blood-brain barrier function, amyloid precursor protein (APP) processing, myelination, membrane remodeling, receptor signaling, inflammation, oxidation, and energy balance. Under healthy conditions, lipid homeostasis bestows a balanced cellular environment that enables the proper functioning of brain cells. However, under pathological conditions, dyshomeostasis of brain lipid composition can result in disturbed BBB, abnormal processing of APP, dysfunction in endocytosis/exocytosis/autophagocytosis, altered myelination, disturbed signaling, unbalanced energy metabolism, and enhanced inflammation. These lipid disturbances may contribute to abnormalities in brain function that are the hallmark of AD. The wide variance of lipid disturbances associated with brain function suggest that AD pathology may present as a complex interaction between several metabolic pathways that are augmented by risk factors such as age, genetics, and lifestyles. Herewith, we examine factors that influence brain lipid composition, review the association of lipids with all known facets of AD pathology, and offer pointers for potential therapies that target lipid pathways.}
-      \field{issn}{1664-042X}
-      \field{journaltitle}{Frontiers in Physiology}
-      \field{title}{Involvement of Lipids in Alzheimer’s Disease Pathology and Potential Therapies}
-      \field{volume}{11}
-      \field{year}{2020}
-      \field{pages}{598}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3389/fphys.2020.00598
-      \endverb
-      \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2020.00598
-      \endverb
-      \verb{url}
-      \verb https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2020.00598
-      \endverb
-    \endentry
-    \entry{ref44}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=71524b90410047310a347ac141bc9e4e}{%
-           family={Ali},
-           familyi={A\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2e68edc7f16ef1dcc990625bf9b61ac6}{%
-           family={Aziz},
-           familyi={A\bibinitperiod},
-           given={M.\bibnamedelimi A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=293fa246ef52ec2fd631ffc36c395790}{%
-           family={Rashid},
-           familyi={R\bibinitperiod},
-           given={M.\bibnamedelimi M.\bibnamedelimi O.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=b44193698ef8306eaa8e658d162985d1}{%
-           family={Basher},
-           familyi={B\bibinitperiod},
-           given={M.\bibnamedelimi A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=1b80f43fed19964627b4c1087809097f}{%
-           family={Islam},
-           familyi={I\bibinitperiod},
-           given={M.\bibnamedelimi S.},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{45f0b4c665f2ca278f4d12caf7689ed2}
-      \strng{fullhash}{bc31406f04299e890b5be732ca153a6f}
-      \strng{fullhashraw}{bc31406f04299e890b5be732ca153a6f}
-      \strng{bibnamehash}{bc31406f04299e890b5be732ca153a6f}
-      \strng{authorbibnamehash}{bc31406f04299e890b5be732ca153a6f}
-      \strng{authornamehash}{45f0b4c665f2ca278f4d12caf7689ed2}
-      \strng{authorfullhash}{bc31406f04299e890b5be732ca153a6f}
-      \strng{authorfullhashraw}{bc31406f04299e890b5be732ca153a6f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Health Science Reports}
-      \field{month}{5}
-      \field{number}{3}
-      \field{title}{Propagation of age-related diseases due to the changes of lipid peroxide and antioxidant levels in elderly people: A narrative review}
-      \field{volume}{5}
-      \field{year}{2022}
-      \field{pages}{e650}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1002/hsr2.650
       \endverb
     \endentry
     \entry{POPC_MEMBRANE}{article}{}{}
@@ -2354,8 +2177,8 @@
       \strng{authornamehash}{db3972da5c6b02bdbf3d0c88650ad35d}
       \strng{authorfullhash}{db3972da5c6b02bdbf3d0c88650ad35d}
       \strng{authorfullhashraw}{db3972da5c6b02bdbf3d0c88650ad35d}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Cell membranes are very complex biological systems including a large variety of lipids and proteins. Therefore, they are difficult to extract and directly investigate with biophysical methods. For many decades, the characterization of simpler biomimetic lipid membranes, which contain only a few lipid species, provided important physico-chemical information on the most abundant lipid species in cell membranes. These studies described physical and chemical properties that are most likely similar to those of real cell membranes. Indeed, biomimetic lipid membranes can be easily prepared in the lab and are compatible with multiple biophysical techniques. Lipid phase transitions, the bilayer structure, the impact of cholesterol on the structure and dynamics of lipid bilayers, and the selective recognition of target lipids by proteins, peptides, and drugs are all examples of the detailed information about cell membranes obtained by the investigation of biomimetic lipid membranes. This review focuses specifically on the advances that were achieved during the last decade in the field of biomimetic lipid membranes mimicking the mammalian plasma membrane. In particular, we provide a description of the most common types of lipid membrane models used for biophysical characterization, i.e., lipid membranes in solution and on surfaces, as well as recent examples of their applications for the investigation of protein-lipid and drug-lipid interactions. Altogether, promising directions for future developments of biomimetic lipid membranes are the further implementation of natural lipid mixtures for the development of more biologically relevant lipid membranes, as well as the development of sample preparation protocols that enable the incorporation of membrane proteins in the biomimetic lipid membranes.}
@@ -2409,8 +2232,8 @@
       \strng{authorfullhash}{41cdf574d58aea3649e337a055bd55b8}
       \strng{authorfullhashraw}{41cdf574d58aea3649e337a055bd55b8}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219258}
@@ -2455,8 +2278,8 @@
       \strng{authornamehash}{ec705a0562360b64e499516cf16c849c}
       \strng{authorfullhash}{4794a5f4c3ffa75672fadd0cece24907}
       \strng{authorfullhashraw}{4794a5f4c3ffa75672fadd0cece24907}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0918-6158}
@@ -2494,8 +2317,8 @@
       \strng{authornamehash}{95493fdd0fd28147eef2c4811b570684}
       \strng{authorfullhash}{95493fdd0fd28147eef2c4811b570684}
       \strng{authorfullhashraw}{95493fdd0fd28147eef2c4811b570684}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Lipids in biological membranes are asymmetrically distributed across the bilayer; the amine-containing phospholipids are enriched on the cytoplasmic surface of the plasma membrane, while the choline-containing and sphingolipids are enriched on the outer surface. The maintenance of transbilayer lipid asymmetry is essential for normal membrane function, and disruption of this asymmetry is associated with cell activation or pathologic conditions. Lipid asymmetry is generated primarily by selective synthesis of lipids on one side of the membrane. Because passive lipid transbilayer diffusion is slow, a number of proteins have evolved to either dissipate or maintain this lipid gradient. These proteins fall into three classes: 1) cytofacially-directed, ATP-dependent transporters (“flippases”); 2) exofacially-directed, ATP-dependent transporters (“floppases”); and 3) bidirectional, ATP-independent transporters (“scramblases”). The flippase is highly selective for phosphatidylserine and functions to keep this lipid sequestered from the cell surface. Floppase activity has been associated with the ABC class of transmembrane transporters. Although they are primarily nonspecific, at least two members of this class display selectivity for their substrate lipid. Scramblases are inherently nonspecific and function to randomize the distribution of newly synthesized lipids in the endoplasmic reticulum or plasma membrane lipids in activated cells. It is the combined action of these proteins and the physical properties of the membrane bilayer that generate and maintain transbilayer lipid asymmetry.}
@@ -2543,8 +2366,8 @@
       \strng{authornamehash}{cb05473bb8208cc319d21f4499888a09}
       \strng{authorfullhash}{110e620c82099056f6e0bb19e2775ca3}
       \strng{authorfullhashraw}{110e620c82099056f6e0bb19e2775ca3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are part of the innate immune defense mechanism of many organisms. Although AMPs have been essentially studied and developed as potential alternatives for fighting infectious diseases, their use as anticancer peptides (ACPs) in cancer therapy either alone or in combination with other conventional drugs has been regarded as a therapeutic strategy to explore. As human cancer remains a cause of high morbidity and mortality worldwide, an urgent need of new, selective and more efficient drugs is evident. Even though ACPs are expected to be selective towards tumor cells without impairing the normal body physiological functions, the development of a selective ACP has been a challenge. It is not yet possible to predict antitumor activity based on ACPs structures. ACPs are unique molecules when compared to the actual chemotherapeutic arsenal available for cancer treatment and display a variety of modes of action which in some types of cancer seem to co-exist. Regardless the debate surrounding the definition of structure-activity relationships for ACPs, great effort has been invested in ACP design and the challenge of improving effective killing of tumor cells remains. As detailed studies on ACPs mechanisms of action are crucial for optimizing drug development, in this review we provide an overview of the literature concerning peptides’ structure, modes of action, selectivity and efficacy and also summarize some of the many ACPs studied and/or developed for targeting different solid and hematologic malignancies with special emphasis on the first group. Strategies described for drug development and for increasing peptide selectivity towards specific cells while reducing toxicity are also discussed.}
@@ -2596,8 +2419,8 @@
       \strng{authornamehash}{ac6da229e6d8f03a00cef8478aa079bd}
       \strng{authorfullhash}{722c6446b528f49ae58005fed5bb7bb0}
       \strng{authorfullhashraw}{722c6446b528f49ae58005fed5bb7bb0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0005-2736}
@@ -2659,8 +2482,8 @@
       \strng{authornamehash}{b9817a64efda3a00d94ea9ef7b1ea96e}
       \strng{authorfullhash}{cc650b913c6109c747b12efdbc486e31}
       \strng{authorfullhashraw}{cc650b913c6109c747b12efdbc486e31}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Recent studies indicate that there are mechanical differences between normal cells and cancer cells. Because the cell membrane takes part in a variety of vital processes, we test the hypothesis of whether or not two fundamental alterations in the cell membrane, i.e., the overexpression of phosphatidylserine lipids in the outer leaflet and a reduction in cholesterol concentration, could cause the softening in cancer cells. Adopting ten models of normal and cancer cell membranes, we carry out 1 μs all-atom molecular dynamics simulations to compare the structural properties and elasticity properties of two membrane types. We find that the overexpression of the phosphatidylserine lipids in the outer leaflet does not significantly alter the area per lipid, the membrane thickness, the lipid order parameters and the elasticity moduli of the cancer membranes. However, a reduction in the cholesterol concentration leads to clear changes in those quantities, especially decreases in the bending, tilt and twist moduli. This implies that the reduction of cholesterol concentration in the cancer membranes could contribute to the softening of cancer cells.}
@@ -2686,6 +2509,45 @@
       \verb https://doi.org/10.1039/d1cp04836h
       \endverb
     \endentry
+    \entry{bacterial_bilayer_1}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c5d456e6b3709808b61d5b39a5327d5f}{%
+           family={Raetz},
+           familyi={R\bibinitperiod},
+           given={CR},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d4cdf31978c20d4f9d109c4ab85d90b0}{%
+           family={Dowhan},
+           familyi={D\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{fullhash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{fullhashraw}{2204348988cca2c7a6e87921d174d37f}
+      \strng{bibnamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorbibnamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authornamehash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorfullhash}{2204348988cca2c7a6e87921d174d37f}
+      \strng{authorfullhashraw}{2204348988cca2c7a6e87921d174d37f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biological Chemistry}
+      \field{number}{3}
+      \field{title}{Biosynthesis and function of phospholipids in \textit{Escherichia coli}}
+      \field{volume}{265}
+      \field{year}{1990}
+      \field{pages}{1235\bibrangedash 1238}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/S0021-9258(19)40001-X
+      \endverb
+    \endentry
     \entry{bacterial_bilayer_2}{article}{}{}
       \name{author}{2}{}{%
         {{hash=ec1f555accaf2fba1d5634fc603c12fd}{%
@@ -2707,8 +2569,8 @@
       \strng{authornamehash}{e2e18c9481251603c4f1b9b7d0deb4de}
       \strng{authorfullhash}{e2e18c9481251603c4f1b9b7d0deb4de}
       \strng{authorfullhashraw}{e2e18c9481251603c4f1b9b7d0deb4de}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{For many decades, Escherichia coli was the main model organism for the study of bacterial membrane lipids. The results obtained served as a blueprint for membrane lipid biochemistry, but it is clear now that there is no such thing as a typical bacterial membrane lipid composition. Different bacterial species display different membrane compositions and even the membrane composition of cells belonging to a single species is not constant, but depends on the environmental conditions to which the cells are exposed. Bacterial membranes present a large diversity of amphiphilic lipids, including the common phospholipids phosphatidylglycerol, phosphatidylethanolamine and cardiolipin, the less frequent phospholipids phosphatidylcholine, and phosphatidylinositol and a variety of other membrane lipids, such as for example ornithine lipids, glycolipids, sphingolipids or hopanoids among others. In this review, we give an overview about the membrane lipid structures known in bacteria, the different metabolic pathways involved in their formation, and the distribution of membrane lipids and metabolic pathways across taxonomical groups.}
@@ -2763,8 +2625,8 @@
       \strng{authornamehash}{213bdf5df62c74f9cf24c542b19a8033}
       \strng{authorfullhash}{9a81174d9e0640b7a7bfa9500f17e54e}
       \strng{authorfullhashraw}{9a81174d9e0640b7a7bfa9500f17e54e}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0006-3002}
@@ -2807,8 +2669,8 @@
       \strng{authornamehash}{0f75efa4c26326c215f952e07eda412f}
       \strng{authorfullhash}{0f75efa4c26326c215f952e07eda412f}
       \strng{authorfullhashraw}{0f75efa4c26326c215f952e07eda412f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{There has been increasing interest in recent years in describing the lateral organization of membranes and the formation of membrane domains. Much of the focus in this area has been on the formation of cholesterol-rich domains in mammalian membranes. However, it is likely that there are domains in all biological membranes. One of the challenges has been to define the chemical composition, lifetime and size of these domains. There is evidence that bacteria have domains that are enriched in cardiolipin. In addition, the formation of lipid domains can be induced in bacteria by clustering negatively charged lipids with polycationic substances. Many antimicrobial compounds have multiple positive charges. Such polycationic compounds can sequester anionic lipids to induce lipid phase separation. The molecular interactions among lipids and their lateral packing density will be different in a domain from its environment. This will lead to phase boundary defects that will lower the permeability barrier between the cell and its surroundings. The formation of these clusters of anionic lipids may also alter the stability or composition of existing membrane domains that may affect bacterial function. Interestingly many antimicrobial agents are polycationic and therefore likely have some effect in promoting lipid phase segregation between anionic and zwitterionic lipids. However, this mechanism is expected to be most important for substances with sequential positive charges contained within a flexible molecule that can adapt to the arrangement of charged groups on the surface of the bacterial cell. When this mechanism is dominant it can allow the prediction of the bacterial species that will be most affected by the agent as a consequence of the nature of the lipid composition of the bacterial membrane.}
@@ -2851,8 +2713,8 @@
       \strng{authornamehash}{d0602f96df866fe1064025c62a140784}
       \strng{authorfullhash}{d0602f96df866fe1064025c62a140784}
       \strng{authorfullhashraw}{d0602f96df866fe1064025c62a140784}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1740-1534}
@@ -2893,8 +2755,8 @@
       \strng{authornamehash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhash}{b9a5e2c88543b957544f1ae9a5428e84}
       \strng{authorfullhashraw}{b9a5e2c88543b957544f1ae9a5428e84}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1398-9219}
@@ -2914,6 +2776,59 @@
       \endverb
       \verb{url}
       \verb https://onlinelibrary.wiley.com/doi/10.1111/tra.12230
+      \endverb
+    \endentry
+    \entry{Nagata2016}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5acd1df310b7ca657bbca33d7957b449}{%
+           family={Nagata},
+           familyi={N\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=640e62de23027d54da04ccca1464a2c9}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6c839ed02da506c60887208f5583078e}{%
+           family={Segawa},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3f634efdd1a6956254d692c3723e2c54}{%
+           family={Fujii},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{22ff69d8e5f3321290c9ed14aa597682}
+      \strng{fullhash}{a91d86136ea5ff1d291edc3c787b00dc}
+      \strng{fullhashraw}{a91d86136ea5ff1d291edc3c787b00dc}
+      \strng{bibnamehash}{a91d86136ea5ff1d291edc3c787b00dc}
+      \strng{authorbibnamehash}{a91d86136ea5ff1d291edc3c787b00dc}
+      \strng{authornamehash}{22ff69d8e5f3321290c9ed14aa597682}
+      \strng{authorfullhash}{a91d86136ea5ff1d291edc3c787b00dc}
+      \strng{authorfullhashraw}{a91d86136ea5ff1d291edc3c787b00dc}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Phosphatidylserine (PtdSer) is a phospholipid that is abundant in eukaryotic plasma membranes. An ATP-dependent enzyme called flippase normally keeps PtdSer inside the cell, but PtdSer is exposed by the action of scramblase on the cell’s surface in biological processes such as apoptosis and platelet activation. Once exposed to the cell surface, PtdSer acts as an ‘eat me’ signal on dead cells, and creates a scaffold for blood-clotting factors on activated platelets. The molecular identities of the flippase and scramblase that work at plasma membranes have long eluded researchers. Indeed, their identity as well as the mechanism of the PtdSer exposure to the cell surface has only recently been revealed. Here, we describe how PtdSer is exposed in apoptotic cells and in activated platelets, and discuss PtdSer exposure in other biological processes.}
+      \field{journaltitle}{Cell Death \& Differentiation}
+      \field{number}{6}
+      \field{title}{Exposure of phosphatidylserine on the cell surface}
+      \field{volume}{23}
+      \field{year}{2016}
+      \field{pages}{952\bibrangedash 961}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/cdd.2016.7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/cdd.2016.7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/cdd.2016.7
       \endverb
     \endentry
     \entry{cancer_bilayer_1}{article}{}{}
@@ -2940,8 +2855,8 @@
       \strng{authornamehash}{381189647b34965fe01644a9cdf9f9e3}
       \strng{authorfullhash}{381189647b34965fe01644a9cdf9f9e3}
       \strng{authorfullhashraw}{381189647b34965fe01644a9cdf9f9e3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Current Biology}
@@ -3052,8 +2967,8 @@
       \strng{authornamehash}{c9da73ff6e2baa8548afb2c901f4b573}
       \strng{authorfullhash}{23a535b29d621eb68e60199e031bdbd3}
       \strng{authorfullhashraw}{23a535b29d621eb68e60199e031bdbd3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1476-5403}
@@ -3096,8 +3011,8 @@
       \strng{authornamehash}{d243d7deb8010bebba7fc5cc55519c77}
       \strng{authorfullhash}{d243d7deb8010bebba7fc5cc55519c77}
       \strng{authorfullhashraw}{d243d7deb8010bebba7fc5cc55519c77}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1432-2013}
@@ -3117,6 +3032,153 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1007/s00424-024-02948-7
+      \endverb
+    \endentry
+    \entry{ref42}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=07ad32cede40b86b2cdf16c8ce5b27ac}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ddc905bca1a8426ae1de07b48e197827}{%
+           family={Magalhães},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=894a10a387ce8a7c3c93f6b85442a93d}{%
+           family={Nunes},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{66d5f740e1472a459bd40a0eabe71fa5}
+      \strng{fullhash}{117a536c67034c8ac92873c897ac6441}
+      \strng{fullhashraw}{117a536c67034c8ac92873c897ac6441}
+      \strng{bibnamehash}{117a536c67034c8ac92873c897ac6441}
+      \strng{authorbibnamehash}{117a536c67034c8ac92873c897ac6441}
+      \strng{authornamehash}{66d5f740e1472a459bd40a0eabe71fa5}
+      \strng{authorfullhash}{117a536c67034c8ac92873c897ac6441}
+      \strng{authorfullhashraw}{117a536c67034c8ac92873c897ac6441}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biogerontology}
+      \field{number}{3}
+      \field{title}{Lipids: biomarkers of healthy aging}
+      \field{volume}{22}
+      \field{year}{2021}
+      \field{pages}{273\bibrangedash 295}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/s10522-021-09921-2
+      \endverb
+    \endentry
+    \entry{ref43}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b4c13e355d0773843942e4917b2e7d4a}{%
+           family={Chew},
+           familyi={C\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5bf3aaf24723420e3544da3cf4f828c2}{%
+           family={Solomon},
+           familyi={S\bibinitperiod},
+           given={Victoria\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4993586dd37c9b05431fe21596f7e359}{%
+           family={Fonteh},
+           familyi={F\bibinitperiod},
+           given={Alfred\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{46ef74ddacf98622cfb9057b74c75695}
+      \strng{fullhash}{95d42a4beb22ce25753d9075918c26b4}
+      \strng{fullhashraw}{95d42a4beb22ce25753d9075918c26b4}
+      \strng{bibnamehash}{95d42a4beb22ce25753d9075918c26b4}
+      \strng{authorbibnamehash}{95d42a4beb22ce25753d9075918c26b4}
+      \strng{authornamehash}{46ef74ddacf98622cfb9057b74c75695}
+      \strng{authorfullhash}{95d42a4beb22ce25753d9075918c26b4}
+      \strng{authorfullhashraw}{95d42a4beb22ce25753d9075918c26b4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lipids constitute the bulk of the dry mass of the brain and have been associated with healthy function as well as the most common pathological conditions of the brain. Demographic factors, genetics, and lifestyles are the major factors that influence lipid metabolism and are also the key components of lipid disruption in Alzheimer’s disease (AD). Additionally, the most common genetic risk factor of AD, APOE ϵ4 genotype, is involved in lipid transport and metabolism. We propose that lipids are at the center of Alzheimer’s disease pathology based on their involvement in the blood-brain barrier function, amyloid precursor protein (APP) processing, myelination, membrane remodeling, receptor signaling, inflammation, oxidation, and energy balance. Under healthy conditions, lipid homeostasis bestows a balanced cellular environment that enables the proper functioning of brain cells. However, under pathological conditions, dyshomeostasis of brain lipid composition can result in disturbed BBB, abnormal processing of APP, dysfunction in endocytosis/exocytosis/autophagocytosis, altered myelination, disturbed signaling, unbalanced energy metabolism, and enhanced inflammation. These lipid disturbances may contribute to abnormalities in brain function that are the hallmark of AD. The wide variance of lipid disturbances associated with brain function suggest that AD pathology may present as a complex interaction between several metabolic pathways that are augmented by risk factors such as age, genetics, and lifestyles. Herewith, we examine factors that influence brain lipid composition, review the association of lipids with all known facets of AD pathology, and offer pointers for potential therapies that target lipid pathways.}
+      \field{issn}{1664-042X}
+      \field{journaltitle}{Frontiers in Physiology}
+      \field{title}{Involvement of Lipids in Alzheimer’s Disease Pathology and Potential Therapies}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{598}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fphys.2020.00598
+      \endverb
+      \verb{urlraw}
+      \verb https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2020.00598
+      \endverb
+      \verb{url}
+      \verb https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2020.00598
+      \endverb
+    \endentry
+    \entry{ref44}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=71524b90410047310a347ac141bc9e4e}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2e68edc7f16ef1dcc990625bf9b61ac6}{%
+           family={Aziz},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=293fa246ef52ec2fd631ffc36c395790}{%
+           family={Rashid},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi M.\bibnamedelimi O.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=b44193698ef8306eaa8e658d162985d1}{%
+           family={Basher},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1b80f43fed19964627b4c1087809097f}{%
+           family={Islam},
+           familyi={I\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{45f0b4c665f2ca278f4d12caf7689ed2}
+      \strng{fullhash}{bc31406f04299e890b5be732ca153a6f}
+      \strng{fullhashraw}{bc31406f04299e890b5be732ca153a6f}
+      \strng{bibnamehash}{bc31406f04299e890b5be732ca153a6f}
+      \strng{authorbibnamehash}{bc31406f04299e890b5be732ca153a6f}
+      \strng{authornamehash}{45f0b4c665f2ca278f4d12caf7689ed2}
+      \strng{authorfullhash}{bc31406f04299e890b5be732ca153a6f}
+      \strng{authorfullhashraw}{bc31406f04299e890b5be732ca153a6f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Health Science Reports}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{Propagation of age-related diseases due to the changes of lipid peroxide and antioxidant levels in elderly people: A narrative review}
+      \field{volume}{5}
+      \field{year}{2022}
+      \field{pages}{e650}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/hsr2.650
       \endverb
     \endentry
     \entry{torres2019peptide}{article}{}{}
@@ -3336,35 +3398,6 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1876034124000236
       \endverb
     \endentry
-    \entry{chemdraw}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e0e5b897b79c166580afab519667b128}{%
-           family={{PerkinElmer Informatics.}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{e0e5b897b79c166580afab519667b128}
-      \strng{fullhash}{e0e5b897b79c166580afab519667b128}
-      \strng{fullhashraw}{e0e5b897b79c166580afab519667b128}
-      \strng{bibnamehash}{e0e5b897b79c166580afab519667b128}
-      \strng{authorbibnamehash}{e0e5b897b79c166580afab519667b128}
-      \strng{authornamehash}{e0e5b897b79c166580afab519667b128}
-      \strng{authorfullhash}{e0e5b897b79c166580afab519667b128}
-      \strng{authorfullhashraw}{e0e5b897b79c166580afab519667b128}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{License from the University of Santiago de Compostela (USC)}
-      \field{title}{\textit{ChemDraw Professional}}
-      \field{version}{22.2}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://perkinelmer-chemdraw-professional.software.informer.com/
-      \endverb
-      \verb{url}
-      \verb https://perkinelmer-chemdraw-professional.software.informer.com/
-      \endverb
-    \endentry
     \entry{WEISBERG2026102781}{article}{}{}
       \name{author}{4}{}{%
         {{hash=9247782e3a498981911b136355fd2e00}{%
@@ -3396,8 +3429,8 @@
       \strng{authornamehash}{78d90e787f3fbcffed836f25469c7e46}
       \strng{authorfullhash}{7386d6b0b667c6c89f419b2e4340e053}
       \strng{authorfullhashraw}{7386d6b0b667c6c89f419b2e4340e053}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial-resistant bacterial and fungal pathogens constitute a severe threat to public health. The pace at which new antimicrobials are being released is far slower than the pace of resistance emergence. Over the last decade, however, the genomics big data revolution has catalyzed major advances in antimicrobial discovery. Here, we briefly review how different human and other microbiomes have been mined to accurately extract biosynthetic gene clusters and antimicrobial peptides and proteins, with a focus on the latter groups. In addition to classical methods, artificial intelligence-enabled computational methods and innovative experimental strategies are increasingly used to prioritize candidates, identify novel small molecules and proteins active against priority pathogens, and reveal new modes of action. We highlight the urgent need to expand antifungal discovery, given the limited number of therapeutic classes and the slow pace of pipeline replenishment.}
@@ -3437,8 +3470,8 @@
       \strng{authornamehash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhash}{280c9c28b5987fd68cba3c8a67f28bee}
       \strng{authorfullhashraw}{280c9c28b5987fd68cba3c8a67f28bee}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836}
@@ -3484,8 +3517,8 @@
       \strng{authornamehash}{0c788c880d3a848ff992e4db13ba1292}
       \strng{authorfullhash}{0c788c880d3a848ff992e4db13ba1292}
       \strng{authorfullhashraw}{0c788c880d3a848ff992e4db13ba1292}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1177-391X}
@@ -3529,8 +3562,8 @@
       \strng{authornamehash}{6e84705b1df179a3f393b49105d3099b}
       \strng{authorfullhash}{6e84705b1df179a3f393b49105d3099b}
       \strng{authorfullhashraw}{6e84705b1df179a3f393b49105d3099b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1546-1696}
@@ -3581,8 +3614,8 @@
       \strng{authornamehash}{cbcf0bd8e38069a9c78ed5413ba7cafa}
       \strng{authorfullhash}{c66fa81572f20e79072d48c6080c4d46}
       \strng{authorfullhashraw}{c66fa81572f20e79072d48c6080c4d46}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2218-273X}
@@ -3650,8 +3683,8 @@
       \strng{authorfullhash}{64042eb956e1dbe1684bebd3b94a4de3}
       \strng{authorfullhashraw}{64042eb956e1dbe1684bebd3b94a4de3}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are bioactive macromolecules that exhibit antibacterial, antiviral, and immunomodulatory functions. They come from a wide range of sources and are found in all forms of life, from bacteria to plants, vertebrates, and invertebrates, and play an important role in controlling the spread of pathogens, promoting wound healing and treating tumors. Consequently, AMPs have emerged as promising alternatives to next-generation antibiotics. With advancements in systems biology and synthetic biology technologies, it has become possible to synthesize AMPs artificially. We can better understand their functional activities for further modification and development by investigating the mechanism of action underlying their antimicrobial properties. This review focuses on the structural aspects of AMPs while highlighting their significance for biological activity. Furthermore, it elucidates the membrane targeting mechanism and intracellular targets of these peptides while summarizing molecular modification approaches aimed at enhancing their antibacterial efficacy. Finally, this article outlines future challenges in the functional development of AMPs along with proposed strategies to overcome them.}
@@ -3699,8 +3732,8 @@
       \strng{authornamehash}{5633e09ea4714e735a895dcfdc32d9b9}
       \strng{authorfullhash}{cec47e8b1a371f821c725fc126fa872f}
       \strng{authorfullhashraw}{cec47e8b1a371f821c725fc126fa872f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs), evolutionarily conserved components of the immune system, have attracted considerable attention as promising therapeutic candidates. Derived from diverse organisms, AMPs represent a heterogeneous class of molecules, typically cationic, which facilitates their initial electrostatic interaction with anionic microbial membranes. Unlike conventional single-target antibiotics, AMPs utilize rapid, multi-target mechanisms, primarily physical membrane disruption, which results in a significantly lower incidence of resistance emergence. Their broad-spectrum antimicrobial activity, capacity to modulate host immunity, and unique mechanisms of action make them inherently less susceptible to resistance compared with traditional antibiotics. Despite these advantages, the clinical translation of natural AMPs remains limited by several challenges, including poor in vivo stability, and potential cytotoxicity. Bioengineering technology offers innovative solutions to these limitations of AMPs. Two techniques have demonstrated promise: (i) a chimeric recombinant of AMPs with stable scaffold, such as human serum albumin and antibody Fc domain and (ii) chemical modification approaches, such as lipidation. This review provides a comprehensive overview of AMPs, highlighting their origins, structures, and mechanisms of antimicrobial activity, followed by recent advances in bioengineering platforms designed to overcome their therapeutic limitations. By integrating natural AMPs with bioengineering and nanotechnologies, AMPs may be developed into next-generation antibiotics.}
@@ -3966,8 +3999,8 @@
       \strng{authornamehash}{015b7c42176bdfe7122a7c5c593ea6f5}
       \strng{authorfullhash}{2ff7ca1ca920388fbcd0d5f49c6a5765}
       \strng{authorfullhashraw}{2ff7ca1ca920388fbcd0d5f49c6a5765}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Healthcare}
@@ -4016,8 +4049,8 @@
       \strng{authornamehash}{7736002ef78cbe841bec7f5ef1c9903e}
       \strng{authorfullhash}{ab73865f61e68527b824bcae9f2b3a40}
       \strng{authorfullhashraw}{ab73865f61e68527b824bcae9f2b3a40}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Reviews Microbiology}
@@ -4090,8 +4123,8 @@
       \strng{authorfullhash}{d027df8ea9b1b203bb439115b6bcb8a6}
       \strng{authorfullhashraw}{d027df8ea9b1b203bb439115b6bcb8a6}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Bioengineering \& Translational Medicine}
@@ -4132,8 +4165,8 @@
       \strng{authornamehash}{706bdc98ee1dba113b349f4d0828ed7f}
       \strng{authorfullhash}{15a47a853bcfc744ffbadfcdab06b1e0}
       \strng{authorfullhashraw}{15a47a853bcfc744ffbadfcdab06b1e0}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are molecules with an amphipathic structure that enables them to interact with bacterial membranes. This interaction can lead to membrane crossing and disruption with pore formation, culminating in cell death. They are produced naturally in various organisms, including humans, animals, plants and microorganisms. In higher animals, they are part of the innate immune system, where they counteract infection by bacteria, fungi, viruses and parasites. AMPs can also be designed de novo by bioinformatic approaches or selected from combinatorial libraries, and then produced by chemical or recombinant procedures. Since their discovery, AMPs have aroused interest as potential antibiotics, although few have reached the market due to stability limits or toxicity. Here, we describe the development phase and a number of clinical trials of antimicrobial peptides. We also provide an update on AMPs in the pharmaceutical industry and an overall view of their therapeutic market. Modifications to peptide structures to improve stability in vivo and bioavailability are also described.}
@@ -4174,8 +4207,8 @@
       \strng{authornamehash}{4fe6086c5bf4620d106c3a1ac0aa7c77}
       \strng{authorfullhash}{37bb51112aca7b23433b48be20b5c0a5}
       \strng{authorfullhashraw}{37bb51112aca7b23433b48be20b5c0a5}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{SUMMARY Antimicrobial host defense peptides are produced by all complex organisms as well as some microbes and have diverse and complex antimicrobial activities. Collectively these peptides demonstrate a broad range of antiviral and antibacterial activities and modes of action, and it is important to distinguish between direct microbicidal and indirect activities against such pathogens. The structural requirements of peptides for antiviral and antibacterial activities are evaluated in light of the diverse set of primary and secondary structures described for host defense peptides. Peptides with antifungal and antiparasitic activities are discussed in less detail, although the broad-spectrum activities of such peptides indicate that they are important host defense molecules. Knowledge regarding the relationship between peptide structure and function as well as their mechanism of action is being applied in the design of antimicrobial peptide variants as potential novel therapeutic agents.}
@@ -4233,8 +4266,8 @@
       \strng{authornamehash}{35b9195b76c35f2858eae7c1f5717fc8}
       \strng{authorfullhash}{34a88d335cad3f5552a18319387fc739}
       \strng{authorfullhashraw}{34a88d335cad3f5552a18319387fc739}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1474-1784}
@@ -4536,262 +4569,52 @@
       \verb https://doi.org/10.1038/s41589-026-02269-z
       \endverb
     \endentry
-    \entry{1z64}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=6a4569bcb1ffaaa0493e132fce30986c}{%
-           family={Syvitski},
-           familyi={S\bibinitperiod},
-           given={Raymond\bibnamedelima T.},
-           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=ba5fc6519c891948e745141c145ed7c4}{%
-           family={Burton},
-           familyi={B\bibinitperiod},
-           given={Ian},
-           giveni={I\bibinitperiod}}}%
-        {{hash=2966031b1ba3704409976fb8c61cafd7}{%
-           family={Mattatall},
-           familyi={M\bibinitperiod},
-           given={Neil\bibnamedelima R.},
-           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=d7b142afca9b7325d6267afe8daedc33}{%
-           family={Douglas},
-           familyi={D\bibinitperiod},
-           given={Susan\bibnamedelima E.},
-           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=69fde1e369a8aade6448dd1621cb9aa7}{%
-           family={Jakeman},
-           familyi={J\bibinitperiod},
-           given={David\bibnamedelima L.},
-           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+    \entry{paper_paula}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c3af01ba9dae34c128e83366eb694642}{%
+           family={Antelo-Riveiro},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a2a353207d6538894c649b665d69f8ec}{%
+           family={Garcia-Fandino},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{e7b4c7f8844f5207e0670e02bccf33ff}
-      \strng{fullhash}{794838eb726832dc4aa05e69b6fc5ff2}
-      \strng{fullhashraw}{794838eb726832dc4aa05e69b6fc5ff2}
-      \strng{bibnamehash}{794838eb726832dc4aa05e69b6fc5ff2}
-      \strng{authorbibnamehash}{794838eb726832dc4aa05e69b6fc5ff2}
-      \strng{authornamehash}{e7b4c7f8844f5207e0670e02bccf33ff}
-      \strng{authorfullhash}{794838eb726832dc4aa05e69b6fc5ff2}
-      \strng{authorfullhashraw}{794838eb726832dc4aa05e69b6fc5ff2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{79d97a9f7afb8445972a37e3ad91958e}
+      \strng{fullhash}{396fab69b5c0beefb3057298369ca89d}
+      \strng{fullhashraw}{396fab69b5c0beefb3057298369ca89d}
+      \strng{bibnamehash}{396fab69b5c0beefb3057298369ca89d}
+      \strng{authorbibnamehash}{396fab69b5c0beefb3057298369ca89d}
+      \strng{authornamehash}{79d97a9f7afb8445972a37e3ad91958e}
+      \strng{authorfullhash}{396fab69b5c0beefb3057298369ca89d}
+      \strng{authorfullhashraw}{396fab69b5c0beefb3057298369ca89d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0006-2960}
-      \field{journaltitle}{Biochemistry}
-      \field{month}{05}
-      \field{number}{19}
-      \field{title}{Structural Characterization of the Antimicrobial Peptide Pleurocidin from Winter Flounder}
-      \field{volume}{44}
-      \field{year}{2005}
-      \field{pages}{7282\bibrangedash 7293}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1021/bi0504005
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/bi0504005
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/bi0504005
-      \endverb
-    \endentry
-    \entry{9ILX}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=77ddc044aef14aeaa6266a7e42061606}{%
-           family={Abdullah},
-           familyi={A\bibinitperiod},
-           given={Swaleeha\bibnamedelima Jaan},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=bdf3dd6562c29e6be480dcfb357e349a}{%
-           family={Guan},
-           familyi={G\bibinitperiod},
-           given={Jia\bibnamedelima Sheng},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=468afe9c3be70abc2fdd8f4fc8921df8}{%
-           family={Mu},
-           familyi={M\bibinitperiod},
-           given={Yuguang},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=8eecd40bb45213bb6d37e176569f6946}{%
-           family={Bhattacharjya},
-           familyi={B\bibinitperiod},
-           given={Surajit},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{9420996975d5192964b9b6e49f0f86a8}
-      \strng{fullhash}{8c2c7cc331b6a3dbdfb3cfef8d98baf3}
-      \strng{fullhashraw}{8c2c7cc331b6a3dbdfb3cfef8d98baf3}
-      \strng{bibnamehash}{8c2c7cc331b6a3dbdfb3cfef8d98baf3}
-      \strng{authorbibnamehash}{8c2c7cc331b6a3dbdfb3cfef8d98baf3}
-      \strng{authornamehash}{9420996975d5192964b9b6e49f0f86a8}
-      \strng{authorfullhash}{8c2c7cc331b6a3dbdfb3cfef8d98baf3}
-      \strng{authorfullhashraw}{8c2c7cc331b6a3dbdfb3cfef8d98baf3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Host defense antimicrobial peptides (AMPs) are promising lead molecules with which to develop antibiotics against drug-resistant bacterial pathogens. Thanatin, an inducible antimicrobial peptide involved in the host defense of Podisus maculiventris insects, is gaining considerable attention in the generation of novel classes of antibiotics. Thanatin or thanatin-based analog peptides are extremely potent in killing bacterial pathogens in the Enterobacteriaceae family, including drug-resistant strains of Escherichia coli and Klebsiella pneumoniae. A single disulfide bond that covalently links two anti-parallel β-strands in thanatin could be pivotal to its selective antibacterial activity and mode of action. However, potential correlations of the disulfide covalent bond with structure, activity and target binding in thanatin peptides are currently unclear to. Here, we examined a 16-residue designed thanatin peptide, namely disulfide-bonded VF16QK, and its Cys to Ser substituted variant, VF16QKSer, to delineate their structure–activity relationships. Bacterial growth inhibitory activity was only detected for the disulfide-bonded VF16QK peptide. Mechanistically, both peptides vastly differ in their bacterial cell permeabilizations, atomic-resolution structures, interactions with the LPS-outer membrane and target periplasmic protein LptAm binding. In particular, analysis of the 3-D structures of the two peptides revealed an altered folded conformation for the VF16QKSer peptide that was correlated with diminished LPS-outer membrane permeabilization and target interactions. Analysis of docked complexes of LPS–thanatin peptides indicated potential structural requirements and conformational adaptation for antimicrobial activity. Collectively, these observations contrast with those for the disulfide-bonded β-hairpin antimicrobial protegrin and tachyplesin peptides, where disulfide bonds are dispensable for activity. We surmise that the atomistic structures and associated molecular interactions presented in this work can be utilized to design novel thanatin-based antibiotics.}
-      \field{issn}{1422-0067}
-      \field{journaltitle}{International Journal of Molecular Sciences}
-      \field{number}{1}
-      \field{title}{Single Disulfide Bond in Host Defense Thanatin Analog Peptides: Antimicrobial Activity, Atomic-Resolution Structures and Target Interactions}
-      \field{volume}{26}
-      \field{year}{2025}
-      \field{pages}{51}
+      \field{abstract}{Antimicrobial peptides (AMPs) are key effectors of innate immunity that, beyond their canonical activity, exhibit promising therapeutic potential against cancer and cellular senescence. Their efficacy relies on selective membrane disruption driven by specific lipid signatures, yet quantifying these interactions in complex bilayer systems remains challenging. Lipid monolayers serve as powerful reductionist models to isolate the physicochemical determinants of this selectivity, effectively mimicking the outer leaflet of bacterial, cancerous, or senescent membranes. This review provides a critical analysis of how lipid composition, packing density, and phase behavior modulate AMP adsorption and insertion. We systematically integrate thermodynamic profiling (surface pressure, compressibility, mixing energy) with advanced structural and morphological characterization. Special emphasis is placed on how spectroscopic techniques (IRRAS, GIXD, SFG) and real-time microscopy (BAM, fluorescence, AFM) resolve peptide orientation, secondary structure induction, and lipid domain remodeling at the mesoscale. These experimental observables are bridged with Molecular Dynamics (MD) simulations, establishing a feedback loop between macroscopic measurements and atomistic resolution. By defining the advantages and limitations of monolayer models relative to vesicles and bilayers, we outline a rational framework for leveraging interfacial insights in the design of next-generation peptide therapeutics and nanobiotechnological applications.}
+      \field{issn}{0001-8686}
+      \field{journaltitle}{Advances in Colloid and Interface Science}
+      \field{title}{Antimicrobial peptides at (lipid) interfaces: Insights from monolayer models}
+      \field{volume}{350}
+      \field{year}{2026}
+      \field{pages}{103775}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.3390/ijms26010051
+      \verb 10.1016/j.cis.2025.103775
       \endverb
       \verb{urlraw}
-      \verb https://www.mdpi.com/1422-0067/26/1/51
+      \verb https://www.sciencedirect.com/science/article/pii/S0001868625003860
       \endverb
       \verb{url}
-      \verb https://www.mdpi.com/1422-0067/26/1/51
-      \endverb
-    \endentry
-    \entry{1g89}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=e6385a8f86cb63306ec3cb6047cb449f}{%
-           family={Rozek},
-           familyi={R\bibinitperiod},
-           given={Annett},
-           giveni={A\bibinitperiod}}}%
-        {{hash=20d499af3d842575debc403f363c7f2a}{%
-           family={Friedrich},
-           familyi={F\bibinitperiod},
-           given={Carol\bibnamedelima L.},
-           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=5729022eea59b885d6952644a6374c07}{%
-           family={Hancock},
-           familyi={H\bibinitperiod},
-           given={Robert\bibnamedelimb E.\bibnamedelimi W.},
-           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \strng{namehash}{8008c7515be6047b35f072c9de3ad905}
-      \strng{fullhash}{de6a217425cafe9eb8878235da280ddc}
-      \strng{fullhashraw}{de6a217425cafe9eb8878235da280ddc}
-      \strng{bibnamehash}{de6a217425cafe9eb8878235da280ddc}
-      \strng{authorbibnamehash}{de6a217425cafe9eb8878235da280ddc}
-      \strng{authornamehash}{8008c7515be6047b35f072c9de3ad905}
-      \strng{authorfullhash}{de6a217425cafe9eb8878235da280ddc}
-      \strng{authorfullhashraw}{de6a217425cafe9eb8878235da280ddc}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Biochemistry}
-      \field{number}{51}
-      \field{title}{Structure of the Bovine Antimicrobial Peptide Indolicidin Bound to Dodecylphosphocholine and Sodium Dodecyl Sulfate Micelles}
-      \field{volume}{39}
-      \field{year}{2000}
-      \field{pages}{15765\bibrangedash 15774}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1021/bi000714m
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1021/bi000714m
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/bi000714m
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/bi000714m
-      \endverb
-    \endentry
-    \entry{PDB}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=70aa1a8eb3df1fb617363b9503af377a}{%
-           family={consortium.},
-           familyi={c\bibinitperiod},
-           prefix={wwPDB},
-           prefixi={w\bibinitperiod}}}%
-      }
-      \strng{namehash}{70aa1a8eb3df1fb617363b9503af377a}
-      \strng{fullhash}{70aa1a8eb3df1fb617363b9503af377a}
-      \strng{fullhashraw}{70aa1a8eb3df1fb617363b9503af377a}
-      \strng{bibnamehash}{70aa1a8eb3df1fb617363b9503af377a}
-      \strng{authorbibnamehash}{70aa1a8eb3df1fb617363b9503af377a}
-      \strng{authornamehash}{70aa1a8eb3df1fb617363b9503af377a}
-      \strng{authorfullhash}{70aa1a8eb3df1fb617363b9503af377a}
-      \strng{authorfullhashraw}{70aa1a8eb3df1fb617363b9503af377a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The Protein Data Bank (PDB) is the single global archive of experimentally determined three-dimensional (3D) structure data of biological macromolecules. Since 2003, the PDB has been managed by the Worldwide Protein Data Bank (wwPDB; wwpdb.org), an international consortium that collaboratively oversees deposition, validation, biocuration, and open access dissemination of 3D macromolecular structure data. The PDB Core Archive houses 3D atomic coordinates of more than 144 000 structural models of proteins, DNA/RNA, and their complexes with metals and small molecules and related experimental data and metadata. Structure and experimental data/metadata are also stored in the PDB Core Archive using the readily extensible wwPDB PDBx/mmCIF master data format, which will continue to evolve as data/metadata from new experimental techniques and structure determination methods are incorporated by the wwPDB. Impacts of the recently developed universal wwPDB OneDep deposition/validation/biocuration system and various methods-specific wwPDB Validation Task Forces on improving the quality of structures and data housed in the PDB Core Archive are described together with current challenges and future plans.}
-      \field{issn}{0305-1048}
-      \field{journaltitle}{Nucleic Acids Research}
-      \field{month}{01}
-      \field{number}{D1}
-      \field{title}{Protein Data Bank: the single global archive for 3D macromolecular structure data}
-      \field{volume}{47}
-      \field{year}{2019}
-      \field{pages}{D520\bibrangedash D528}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1093/nar/gky949
-      \endverb
-      \verb{eprint}
-      \verb https://academic.oup.com/nar/article-pdf/47/D1/D520/27436045/gky949.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1093/nar/gky949
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1093/nar/gky949
-      \endverb
-    \endentry
-    \entry{VMD}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=dd9615d145decb960931ee1efefdb20a}{%
-           family={Humphrey},
-           familyi={H\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod}}}%
-        {{hash=a7a4d6701ae045cc8da0d5693bbe5196}{%
-           family={Dalke},
-           familyi={D\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fd251781d5b08598251387a7a775e009}{%
-           family={Schulten},
-           familyi={S\bibinitperiod},
-           given={Klaus},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{dfbbe76441efa53801a463039634d113}
-      \strng{fullhash}{976d1ed0327061c7ba148a0cdc2184ed}
-      \strng{fullhashraw}{976d1ed0327061c7ba148a0cdc2184ed}
-      \strng{bibnamehash}{976d1ed0327061c7ba148a0cdc2184ed}
-      \strng{authorbibnamehash}{976d1ed0327061c7ba148a0cdc2184ed}
-      \strng{authornamehash}{dfbbe76441efa53801a463039634d113}
-      \strng{authorfullhash}{976d1ed0327061c7ba148a0cdc2184ed}
-      \strng{authorfullhashraw}{976d1ed0327061c7ba148a0cdc2184ed}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{VMD is a molecular graphics program designed for the display and analysis of molecular assemblies, in particular biopolymers such as proteins and nucleic acids. VMD can simultaneously display any number of structures using a wide variety of rendering styles and coloring methods. Molecules are displayed as one or more “representations,” in which each representation embodies a particular rendering method and coloring scheme for a selected subset of atoms. The atoms displayed in each representation are chosen using an extensive atom selection syntax, which includes Boolean operators and regular expressions. VMD provides a complete graphical user interface for program control, as well as a text interface using the Tcl embeddable parser to allow for complex scripts with variable substitution, control loops, and function calls. Full session logging is supported, which produces a VMD command script for later playback. High-resolution raster images of displayed molecules may be produced by generating input scripts for use by a number of photorealistic image-rendering applications. VMD has also been expressly designed with the ability to animate molecular dynamics (MD) simulation trajectories, imported either from files or from a direct connection to a running MD simulation. VMD is the visualization component of MDScope, a set of tools for interactive problem solving in structural biology, which also includes the parallel MD program NAMD, and the MDCOMM software used to connect the visualization and simulation programs. VMD is written in C++, using an object-oriented design; the program, including source code and extensive documentation, is freely available via anonymous ftp and through the World Wide Web.}
-      \field{issn}{0263-7855}
-      \field{journaltitle}{Journal of Molecular Graphics}
-      \field{number}{1}
-      \field{title}{VMD: Visual molecular dynamics}
-      \field{volume}{14}
-      \field{year}{1996}
-      \field{pages}{33\bibrangedash 38}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1016/0263-7855(96)00018-5
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/0263785596000185
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/0263785596000185
+      \verb https://www.sciencedirect.com/science/article/pii/S0001868625003860
       \endverb
     \endentry
     \entry{Li2021}{article}{}{}
@@ -4843,8 +4666,8 @@
       \strng{authornamehash}{6dbf1533bea154bc3d0894f8b78706e6}
       \strng{authorfullhash}{a8ea2bffd2691e66c627901482fc7013}
       \strng{authorfullhashraw}{a8ea2bffd2691e66c627901482fc7013}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09242244}
@@ -4911,8 +4734,8 @@
       \strng{authornamehash}{ed91b440e76641849e094b399e4a82d1}
       \strng{authorfullhash}{415da9ccdd7cf62220c195f283e81856}
       \strng{authorfullhashraw}{415da9ccdd7cf62220c195f283e81856}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biochemistry}
@@ -5055,52 +4878,35 @@
       \verb http://www.ncbi.nlm.nih.gov/pubmed/38408263
       \endverb
     \endentry
-    \entry{paper_paula}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=c3af01ba9dae34c128e83366eb694642}{%
-           family={Antelo-Riveiro},
-           familyi={A\bibinithyphendelim R\bibinitperiod},
-           given={Paula},
-           giveni={P\bibinitperiod}}}%
-        {{hash=a2a353207d6538894c649b665d69f8ec}{%
-           family={Garcia-Fandino},
-           familyi={G\bibinithyphendelim F\bibinitperiod},
-           given={Rebeca},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
-           family={Piñeiro},
-           familyi={P\bibinitperiod},
-           given={Ángel},
-           giveni={Á\bibinitperiod}}}%
+    \entry{dramp_database}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=81e6cfdb3ef5403c0c7bf187a1f3ada5}{%
+           family={{Data Repository of Antimicrobial Peptides (DRAMP).}},
+           familyi={D\bibinitperiod}}}%
       }
-      \strng{namehash}{79d97a9f7afb8445972a37e3ad91958e}
-      \strng{fullhash}{396fab69b5c0beefb3057298369ca89d}
-      \strng{fullhashraw}{396fab69b5c0beefb3057298369ca89d}
-      \strng{bibnamehash}{396fab69b5c0beefb3057298369ca89d}
-      \strng{authorbibnamehash}{396fab69b5c0beefb3057298369ca89d}
-      \strng{authornamehash}{79d97a9f7afb8445972a37e3ad91958e}
-      \strng{authorfullhash}{396fab69b5c0beefb3057298369ca89d}
-      \strng{authorfullhashraw}{396fab69b5c0beefb3057298369ca89d}
+      \strng{namehash}{81e6cfdb3ef5403c0c7bf187a1f3ada5}
+      \strng{fullhash}{81e6cfdb3ef5403c0c7bf187a1f3ada5}
+      \strng{fullhashraw}{81e6cfdb3ef5403c0c7bf187a1f3ada5}
+      \strng{bibnamehash}{81e6cfdb3ef5403c0c7bf187a1f3ada5}
+      \strng{authorbibnamehash}{81e6cfdb3ef5403c0c7bf187a1f3ada5}
+      \strng{authornamehash}{81e6cfdb3ef5403c0c7bf187a1f3ada5}
+      \strng{authorfullhash}{81e6cfdb3ef5403c0c7bf187a1f3ada5}
+      \strng{authorfullhashraw}{81e6cfdb3ef5403c0c7bf187a1f3ada5}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Antimicrobial peptides (AMPs) are key effectors of innate immunity that, beyond their canonical activity, exhibit promising therapeutic potential against cancer and cellular senescence. Their efficacy relies on selective membrane disruption driven by specific lipid signatures, yet quantifying these interactions in complex bilayer systems remains challenging. Lipid monolayers serve as powerful reductionist models to isolate the physicochemical determinants of this selectivity, effectively mimicking the outer leaflet of bacterial, cancerous, or senescent membranes. This review provides a critical analysis of how lipid composition, packing density, and phase behavior modulate AMP adsorption and insertion. We systematically integrate thermodynamic profiling (surface pressure, compressibility, mixing energy) with advanced structural and morphological characterization. Special emphasis is placed on how spectroscopic techniques (IRRAS, GIXD, SFG) and real-time microscopy (BAM, fluorescence, AFM) resolve peptide orientation, secondary structure induction, and lipid domain remodeling at the mesoscale. These experimental observables are bridged with Molecular Dynamics (MD) simulations, establishing a feedback loop between macroscopic measurements and atomistic resolution. By defining the advantages and limitations of monolayer models relative to vesicles and bilayers, we outline a rational framework for leveraging interfacial insights in the design of next-generation peptide therapeutics and nanobiotechnological applications.}
-      \field{issn}{0001-8686}
-      \field{journaltitle}{Advances in Colloid and Interface Science}
-      \field{title}{Antimicrobial peptides at (lipid) interfaces: Insights from monolayer models}
-      \field{volume}{350}
+      \field{title}{DRAMP Database,}
+      \field{urlday}{14}
+      \field{urlmonth}{6}
+      \field{urlyear}{2026}
       \field{year}{2026}
-      \field{pages}{103775}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.cis.2025.103775
-      \endverb
+      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0001868625003860
+      \verb https://dramp.cpu-bioinfor.org/
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0001868625003860
+      \verb https://dramp.cpu-bioinfor.org/
       \endverb
     \endentry
     \entry{Ma2025}{article}{}{}
@@ -5185,6 +4991,45 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1093/nar/gkae1046
+      \endverb
+    \endentry
+    \entry{amps_aprobados}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b12a21248861f9657f193610dca8c727}{%
+           family={Al\bibnamedelima Musaimi},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Othman},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{b12a21248861f9657f193610dca8c727}
+      \strng{fullhash}{b12a21248861f9657f193610dca8c727}
+      \strng{fullhashraw}{b12a21248861f9657f193610dca8c727}
+      \strng{bibnamehash}{b12a21248861f9657f193610dca8c727}
+      \strng{authorbibnamehash}{b12a21248861f9657f193610dca8c727}
+      \strng{authornamehash}{b12a21248861f9657f193610dca8c727}
+      \strng{authorfullhash}{b12a21248861f9657f193610dca8c727}
+      \strng{authorfullhashraw}{b12a21248861f9657f193610dca8c727}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since 1955, a total of 12 peptide-based drugs with antimicrobial or antifungal properties have received approval from the Food and Drug Administration (FDA). Peptides present a promising opportunity to address serious infections that may be challenging to manage through other means. Peptides exhibit the capability to leverage various mechanisms, and in some cases, multiple mechanisms are employed for this purpose. Despite the initial approval dating back to 1955, the FDA recently approved an echinocandin peptide just last year. The ongoing approvals underscore the significance of peptides in addressing ongoing medical challenges. Approximately 22 peptide therapeutics with an antibacterial and antifungal spectrum are currently undergoing various phases of clinical trials, showing promising results. In this review, antimicrobial and antifungal peptides are analyzed in terms of their chemical structure, indication, mode of action, and development journey, concluding with their arrival in the pharmaceutical market.}
+      \field{issn}{2079-6382}
+      \field{journaltitle}{Antibiotics}
+      \field{number}{2}
+      \field{title}{FDA-Approved Antibacterials and Echinocandins}
+      \field{volume}{14}
+      \field{year}{2025}
+      \field{pages}{166}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/antibiotics14020166
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-6382/14/2/166
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-6382/14/2/166
       \endverb
     \endentry
     \entry{Rossino2023}{article}{}{}
@@ -5318,45 +5163,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1007/s00044-024-03269-1
-      \endverb
-    \endentry
-    \entry{amps_aprobados}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=b12a21248861f9657f193610dca8c727}{%
-           family={Al\bibnamedelima Musaimi},
-           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Othman},
-           giveni={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{b12a21248861f9657f193610dca8c727}
-      \strng{fullhash}{b12a21248861f9657f193610dca8c727}
-      \strng{fullhashraw}{b12a21248861f9657f193610dca8c727}
-      \strng{bibnamehash}{b12a21248861f9657f193610dca8c727}
-      \strng{authorbibnamehash}{b12a21248861f9657f193610dca8c727}
-      \strng{authornamehash}{b12a21248861f9657f193610dca8c727}
-      \strng{authorfullhash}{b12a21248861f9657f193610dca8c727}
-      \strng{authorfullhashraw}{b12a21248861f9657f193610dca8c727}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Since 1955, a total of 12 peptide-based drugs with antimicrobial or antifungal properties have received approval from the Food and Drug Administration (FDA). Peptides present a promising opportunity to address serious infections that may be challenging to manage through other means. Peptides exhibit the capability to leverage various mechanisms, and in some cases, multiple mechanisms are employed for this purpose. Despite the initial approval dating back to 1955, the FDA recently approved an echinocandin peptide just last year. The ongoing approvals underscore the significance of peptides in addressing ongoing medical challenges. Approximately 22 peptide therapeutics with an antibacterial and antifungal spectrum are currently undergoing various phases of clinical trials, showing promising results. In this review, antimicrobial and antifungal peptides are analyzed in terms of their chemical structure, indication, mode of action, and development journey, concluding with their arrival in the pharmaceutical market.}
-      \field{issn}{2079-6382}
-      \field{journaltitle}{Antibiotics}
-      \field{number}{2}
-      \field{title}{FDA-Approved Antibacterials and Echinocandins}
-      \field{volume}{14}
-      \field{year}{2025}
-      \field{pages}{166}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/antibiotics14020166
-      \endverb
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2079-6382/14/2/166
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2079-6382/14/2/166
       \endverb
     \endentry
     \entry{fracaso_amps}{article}{}{}
@@ -8397,203 +8203,6 @@
       \verb https://www.nobelprize.org/uploads/2018/06/advanced-chemistryprize2013.pdf
       \endverb
     \endentry
-    \entry{cecilia_1}{article}{}{}
-      \name{author}{16}{}{%
-        {{hash=6fc46ff7970f8bcb441f388155d35006}{%
-           family={Bonneau},
-           familyi={B\bibinitperiod},
-           given={Klara},
-           giveni={K\bibinitperiod}}}%
-        {{hash=3fbce9eace831e7fd928d21fa73fd042}{%
-           family={Pasos-Trejo},
-           familyi={P\bibinithyphendelim T\bibinitperiod},
-           given={Aldo\bibnamedelima S.},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=877973b6f3edd0039466b25765140343}{%
-           family={Plainer},
-           familyi={P\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=c7db137aa639ee0766e83656dd93b984}{%
-           family={Sagresti},
-           familyi={S\bibinitperiod},
-           given={Luca},
-           giveni={L\bibinitperiod}}}%
-        {{hash=b6acdd63749e5760d7a4b15542e9b4fe}{%
-           family={Venturin},
-           familyi={V\bibinitperiod},
-           given={Jacopo},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e237b7658a03b4cdd6c7b7d6685e8761}{%
-           family={Zaporozhets},
-           familyi={Z\bibinitperiod},
-           given={Iryna},
-           giveni={I\bibinitperiod}}}%
-        {{hash=7848ca29f97a5b5a907d24c0a1704f5e}{%
-           family={Caruso},
-           familyi={C\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=2d0e0d1ce09f6ae433f2a4c5524533ab}{%
-           family={Rolando},
-           familyi={R\bibinitperiod},
-           given={Edoardo},
-           giveni={E\bibinitperiod}}}%
-        {{hash=1ba3e1bf101cbd9eb61fe003edc97110}{%
-           family={Guljas},
-           familyi={G\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=81e8da0f3b090e43bffa836083359ad3}{%
-           family={Klein},
-           familyi={K\bibinitperiod},
-           given={Leon},
-           giveni={L\bibinitperiod}}}%
-        {{hash=b4ae91bd81361abc62f5f58d5e658c5f}{%
-           family={Schebek},
-           familyi={S\bibinitperiod},
-           given={Maximilian},
-           giveni={M\bibinitperiod}}}%
-        {{hash=76daf8b0f20644c7a79c3915409a39ac}{%
-           family={Albani},
-           familyi={A\bibinitperiod},
-           given={Filippo},
-           giveni={F\bibinitperiod}}}%
-        {{hash=c47d6e6514158d301467325ad1bbc5b4}{%
-           family={López-Ríos\bibnamedelimb de\bibnamedelima Castro},
-           familyi={L\bibinithyphendelim R\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Raquel},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a5c1fec409d68b8f7dd97b4e2314210c}{%
-           family={El\bibnamedelima Machachi},
-           familyi={E\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Zakariya},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=2439af9f531630bc87bf7894df7e2ba1}{%
-           family={Giambagli},
-           familyi={G\bibinitperiod},
-           given={Lorenzo},
-           giveni={L\bibinitperiod}}}%
-        {{hash=c563854719492878129e818e34d953cc}{%
-           family={Clementi},
-           familyi={C\bibinitperiod},
-           given={Cecilia},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
-      \strng{fullhash}{49a891466f4579c92a70cc4e02e9a503}
-      \strng{fullhashraw}{49a891466f4579c92a70cc4e02e9a503}
-      \strng{bibnamehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
-      \strng{authorbibnamehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
-      \strng{authornamehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
-      \strng{authorfullhash}{49a891466f4579c92a70cc4e02e9a503}
-      \strng{authorfullhashraw}{49a891466f4579c92a70cc4e02e9a503}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{ABSTRACT Molecular Dynamics (MD) has established itself as a pivotal computational tool across various scientific domains, including chemistry, biology, and materials science. Despite its widespread utility, MD faces inherent challenges, such as accuracy limitations, computational speed, and sampling efficiency. In recent years, machine learning, particularly deep learning, has seen significant advancements and is increasingly being integrated into MD processes. This review explores how deep learning can mitigate the issues associated with MD by addressing them from multiple angles. However, deep learning techniques introduce their own set of hurdles, including the need for extensive data, issues of interpretability, high computational costs, and concerns regarding transferability. Here, we discuss recent progress in the field of deep learning to overcome these obstacles. Ultimately, our goal is to demonstrate that, by leveraging the advancements made in both the MD and the machine learning community, deep learning has the potential to significantly enhance the capabilities of MD, paving the way to new scientific discovery. This article is categorized under: Data Science > Artificial Intelligence/Machine Learning Molecular and Statistical Mechanics > Molecular Mechanics Molecular and Statistical Mechanics > Molecular Dynamics and Monte-Carlo Methods}
-      \field{journaltitle}{WIREs Computational Molecular Science}
-      \field{number}{1}
-      \field{title}{Breaking the Barriers of Molecular Dynamics With Deep-Learning: Opportunities, Pitfalls, and How to Navigate Them}
-      \field{volume}{16}
-      \field{year}{2026}
-      \field{pages}{e70064}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1002/wcms.70064
-      \endverb
-      \verb{eprint}
-      \verb https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.70064
-      \endverb
-      \verb{urlraw}
-      \verb https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.70064
-      \endverb
-      \verb{url}
-      \verb https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.70064
-      \endverb
-    \endentry
-    \entry{charron2025navigating}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=8dc2f41b9897fc5f41050e35825dddde}{%
-           family={Charron},
-           familyi={C\bibinitperiod},
-           given={Nicholas\bibnamedelima E},
-           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=6fc46ff7970f8bcb441f388155d35006}{%
-           family={Bonneau},
-           familyi={B\bibinitperiod},
-           given={Klara},
-           giveni={K\bibinitperiod}}}%
-        {{hash=3fbce9eace831e7fd928d21fa73fd042}{%
-           family={Pasos-Trejo},
-           familyi={P\bibinithyphendelim T\bibinitperiod},
-           given={Aldo\bibnamedelima S},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=1ba3e1bf101cbd9eb61fe003edc97110}{%
-           family={Guljas},
-           familyi={G\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1242137d80075401810c3cda5dad7837}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Yaoyi},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=0d502032fdea8498f77ff88e9a52fddb}{%
-           family={Musil},
-           familyi={M\bibinitperiod},
-           given={Félix},
-           giveni={F\bibinitperiod}}}%
-        {{hash=b6acdd63749e5760d7a4b15542e9b4fe}{%
-           family={Venturin},
-           familyi={V\bibinitperiod},
-           given={Jacopo},
-           giveni={J\bibinitperiod}}}%
-        {{hash=d4a3f5d18dbcb11c35b0d33de6972e3b}{%
-           family={Gusew},
-           familyi={G\bibinitperiod},
-           given={Daria},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e237b7658a03b4cdd6c7b7d6685e8761}{%
-           family={Zaporozhets},
-           familyi={Z\bibinitperiod},
-           given={Iryna},
-           giveni={I\bibinitperiod}}}%
-        {{hash=9ee8632f808c67a02d44143851e814ca}{%
-           family={Krämer},
-           familyi={K\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Nature Publishing Group UK London}%
-      }
-      \strng{namehash}{cce0fc9016218fd4b55f9770cf988609}
-      \strng{fullhash}{2d270bdc623eaca840fbf667517460b1}
-      \strng{fullhashraw}{2d270bdc623eaca840fbf667517460b1}
-      \strng{bibnamehash}{2d270bdc623eaca840fbf667517460b1}
-      \strng{authorbibnamehash}{2d270bdc623eaca840fbf667517460b1}
-      \strng{authornamehash}{cce0fc9016218fd4b55f9770cf988609}
-      \strng{authorfullhash}{2d270bdc623eaca840fbf667517460b1}
-      \strng{authorfullhashraw}{2d270bdc623eaca840fbf667517460b1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature Chemistry}
-      \field{number}{8}
-      \field{title}{Navigating protein landscapes with a machine-learned transferable coarse-grained model}
-      \field{volume}{17}
-      \field{year}{2025}
-      \field{pages}{1284\bibrangedash 1292}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1038/s41557-025-01874-0
-      \endverb
-    \endentry
     \entry{leyesnewton}{book}{}{}
       \name{author}{1}{}{%
         {{hash=7a621e01239c1fe6557cf9c9d2f85bd3}{%
@@ -9632,6 +9241,87 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1570963924000219
       \endverb
     \endentry
+    \entry{charron2025navigating}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=8dc2f41b9897fc5f41050e35825dddde}{%
+           family={Charron},
+           familyi={C\bibinitperiod},
+           given={Nicholas\bibnamedelima E},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6fc46ff7970f8bcb441f388155d35006}{%
+           family={Bonneau},
+           familyi={B\bibinitperiod},
+           given={Klara},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3fbce9eace831e7fd928d21fa73fd042}{%
+           family={Pasos-Trejo},
+           familyi={P\bibinithyphendelim T\bibinitperiod},
+           given={Aldo\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=1ba3e1bf101cbd9eb61fe003edc97110}{%
+           family={Guljas},
+           familyi={G\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1242137d80075401810c3cda5dad7837}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yaoyi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0d502032fdea8498f77ff88e9a52fddb}{%
+           family={Musil},
+           familyi={M\bibinitperiod},
+           given={Félix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b6acdd63749e5760d7a4b15542e9b4fe}{%
+           family={Venturin},
+           familyi={V\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d4a3f5d18dbcb11c35b0d33de6972e3b}{%
+           family={Gusew},
+           familyi={G\bibinitperiod},
+           given={Daria},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e237b7658a03b4cdd6c7b7d6685e8761}{%
+           family={Zaporozhets},
+           familyi={Z\bibinitperiod},
+           given={Iryna},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9ee8632f808c67a02d44143851e814ca}{%
+           family={Krämer},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{cce0fc9016218fd4b55f9770cf988609}
+      \strng{fullhash}{2d270bdc623eaca840fbf667517460b1}
+      \strng{fullhashraw}{2d270bdc623eaca840fbf667517460b1}
+      \strng{bibnamehash}{2d270bdc623eaca840fbf667517460b1}
+      \strng{authorbibnamehash}{2d270bdc623eaca840fbf667517460b1}
+      \strng{authornamehash}{cce0fc9016218fd4b55f9770cf988609}
+      \strng{authorfullhash}{2d270bdc623eaca840fbf667517460b1}
+      \strng{authorfullhashraw}{2d270bdc623eaca840fbf667517460b1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Chemistry}
+      \field{number}{8}
+      \field{title}{Navigating protein landscapes with a machine-learned transferable coarse-grained model}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{pages}{1284\bibrangedash 1292}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41557-025-01874-0
+      \endverb
+    \endentry
     \entry{SIRAH}{article}{}{}
       \name{author}{6}{}{%
         {{hash=8f7ef7967dc7e2fd35faccc9bd416c81}{%
@@ -9696,6 +9386,122 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1021/ct5007746
+      \endverb
+    \endentry
+    \entry{cecilia_1}{article}{}{}
+      \name{author}{16}{}{%
+        {{hash=6fc46ff7970f8bcb441f388155d35006}{%
+           family={Bonneau},
+           familyi={B\bibinitperiod},
+           given={Klara},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3fbce9eace831e7fd928d21fa73fd042}{%
+           family={Pasos-Trejo},
+           familyi={P\bibinithyphendelim T\bibinitperiod},
+           given={Aldo\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=877973b6f3edd0039466b25765140343}{%
+           family={Plainer},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c7db137aa639ee0766e83656dd93b984}{%
+           family={Sagresti},
+           familyi={S\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b6acdd63749e5760d7a4b15542e9b4fe}{%
+           family={Venturin},
+           familyi={V\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e237b7658a03b4cdd6c7b7d6685e8761}{%
+           family={Zaporozhets},
+           familyi={Z\bibinitperiod},
+           given={Iryna},
+           giveni={I\bibinitperiod}}}%
+        {{hash=7848ca29f97a5b5a907d24c0a1704f5e}{%
+           family={Caruso},
+           familyi={C\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2d0e0d1ce09f6ae433f2a4c5524533ab}{%
+           family={Rolando},
+           familyi={R\bibinitperiod},
+           given={Edoardo},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1ba3e1bf101cbd9eb61fe003edc97110}{%
+           family={Guljas},
+           familyi={G\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=81e8da0f3b090e43bffa836083359ad3}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b4ae91bd81361abc62f5f58d5e658c5f}{%
+           family={Schebek},
+           familyi={S\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=76daf8b0f20644c7a79c3915409a39ac}{%
+           family={Albani},
+           familyi={A\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c47d6e6514158d301467325ad1bbc5b4}{%
+           family={López-Ríos\bibnamedelimb de\bibnamedelima Castro},
+           familyi={L\bibinithyphendelim R\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a5c1fec409d68b8f7dd97b4e2314210c}{%
+           family={El\bibnamedelima Machachi},
+           familyi={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Zakariya},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2439af9f531630bc87bf7894df7e2ba1}{%
+           family={Giambagli},
+           familyi={G\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c563854719492878129e818e34d953cc}{%
+           family={Clementi},
+           familyi={C\bibinitperiod},
+           given={Cecilia},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
+      \strng{fullhash}{49a891466f4579c92a70cc4e02e9a503}
+      \strng{fullhashraw}{49a891466f4579c92a70cc4e02e9a503}
+      \strng{bibnamehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
+      \strng{authorbibnamehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
+      \strng{authornamehash}{46dac51d54b2361bd3f1c5b4e4ce4b55}
+      \strng{authorfullhash}{49a891466f4579c92a70cc4e02e9a503}
+      \strng{authorfullhashraw}{49a891466f4579c92a70cc4e02e9a503}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{ABSTRACT Molecular Dynamics (MD) has established itself as a pivotal computational tool across various scientific domains, including chemistry, biology, and materials science. Despite its widespread utility, MD faces inherent challenges, such as accuracy limitations, computational speed, and sampling efficiency. In recent years, machine learning, particularly deep learning, has seen significant advancements and is increasingly being integrated into MD processes. This review explores how deep learning can mitigate the issues associated with MD by addressing them from multiple angles. However, deep learning techniques introduce their own set of hurdles, including the need for extensive data, issues of interpretability, high computational costs, and concerns regarding transferability. Here, we discuss recent progress in the field of deep learning to overcome these obstacles. Ultimately, our goal is to demonstrate that, by leveraging the advancements made in both the MD and the machine learning community, deep learning has the potential to significantly enhance the capabilities of MD, paving the way to new scientific discovery. This article is categorized under: Data Science > Artificial Intelligence/Machine Learning Molecular and Statistical Mechanics > Molecular Mechanics Molecular and Statistical Mechanics > Molecular Dynamics and Monte-Carlo Methods}
+      \field{journaltitle}{WIREs Computational Molecular Science}
+      \field{number}{1}
+      \field{title}{Breaking the Barriers of Molecular Dynamics With Deep-Learning: Opportunities, Pitfalls, and How to Navigate Them}
+      \field{volume}{16}
+      \field{year}{2026}
+      \field{pages}{e70064}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/wcms.70064
+      \endverb
+      \verb{eprint}
+      \verb https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.70064
+      \endverb
+      \verb{urlraw}
+      \verb https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.70064
+      \endverb
+      \verb{url}
+      \verb https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.70064
       \endverb
     \endentry
     \entry{limitaciones_md}{article}{}{}
@@ -10997,8 +10803,8 @@
       \strng{authornamehash}{3d57bab495922f9ac31059e757ecb25d}
       \strng{authorfullhash}{c5b5d720030e7eec230957e12f4fa82c}
       \strng{authorfullhashraw}{c5b5d720030e7eec230957e12f4fa82c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As we begin to reach the limits of classical computing, quantum computing has emerged as a technology that has captured the imagination of the scientific world. While for many years, the ability to execute quantum algorithms was only a theoretical possibility, recent advances in hardware mean that quantum computing devices now exist that can carry out quantum computation on a limited scale. Thus, it is now a real possibility, and of central importance at this time, to assess the potential impact of quantum computers on real problems of interest. One of the earliest and most compelling applications for quantum computers is Feynman’s idea of simulating quantum systems with many degrees of freedom. Such systems are found across chemistry, physics, and materials science. The particular way in which quantum computing extends classical computing means that one cannot expect arbitrary simulations to be sped up by a quantum computer, thus one must carefully identify areas where quantum advantage may be achieved. In this review, we briefly describe central problems in chemistry and materials science, in areas of electronic structure, quantum statistical mechanics, and quantum dynamics that are of potential interest for solution on a quantum computer. We then take a detailed snapshot of current progress in quantum algorithms for ground-state, dynamics, and thermal-state simulation and analyze their strengths and weaknesses for future developments.}
@@ -11040,8 +10846,8 @@
       \strng{authornamehash}{76ccc3f6b162d7d83453177c479468c7}
       \strng{authorfullhash}{76ccc3f6b162d7d83453177c479468c7}
       \strng{authorfullhashraw}{76ccc3f6b162d7d83453177c479468c7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal de Chimie Physique}
@@ -11081,8 +10887,8 @@
       \strng{authornamehash}{3280fac4e2f192c60604f22264684d07}
       \strng{authorfullhash}{3280fac4e2f192c60604f22264684d07}
       \strng{authorfullhashraw}{3280fac4e2f192c60604f22264684d07}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Fifty years ago the Nobel Prize in chemistry was awarded to Max Perutz and John Kendrew for determining the structure of globular proteins. Since first viewing their structure of myoglobin, scientists have sought to understand protein folding. Dill and MacCallum (p. 1042) review the progress that has been made on three central questions: What is the code that relates sequence to structure? How do proteins fold so fast? Can protein structure be computationally predicted? While we have come some way toward answering these questions, new questions have been gene rated. It is no longer useful to talk about “solving the protein-folding problem”—protein folding has grown into a field of research where the next 50 years promise to be as exciting as the last. The protein-folding problem was first posed about one half-century ago. The term refers to three broad questions: (i) What is the physical code by which an amino acid sequence dictates a protein’s native structure? (ii) How can proteins fold so fast? (iii) Can we devise a computer algorithm to predict protein structures from their sequences? We review progress on these problems. In a few cases, computer simulations of the physical forces in chemically detailed models have now achieved the accurate folding of small proteins. We have learned that proteins fold rapidly because random thermal motions cause conformational changes leading energetically downhill toward the native structure, a principle that is captured in funnel-shaped energy landscapes. And thanks in part to the large Protein Data Bank of known structures, predicting protein structures is now far more successful than was thought possible in the early days. What began as three questions of basic science one half-century ago has now grown into the full-fledged research field of protein physical science.}
@@ -11132,8 +10938,8 @@
       \strng{authornamehash}{554efe9f9799260b1994576590865913}
       \strng{authorfullhash}{550c4f3f595ce2090c9ede333e47216c}
       \strng{authorfullhashraw}{550c4f3f595ce2090c9ede333e47216c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Current Opinion in Structural Biology}
@@ -11172,8 +10978,8 @@
       \strng{authornamehash}{f6b9cd5db0160c555e571e0b99eb6a3b}
       \strng{authorfullhash}{fd6c36da90f43de485ca591dc86720ad}
       \strng{authorfullhashraw}{fd6c36da90f43de485ca591dc86720ad}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract Molecular biology and biochemistry interpret microscopic processes in the living world in terms of molecular structures and their interactions, which are quantum mechanical by their very nature. Whereas the theoretical foundations of these interactions are well established, the computational solution of the relevant quantum mechanical equations is very hard. However, much of molecular function in biology can be understood in terms of classical mechanics, where the interactions of electrons and nuclei have been mapped onto effective classical surrogate potentials that model the interaction of atoms or even larger entities. The simple mathematical structure of these potentials offers huge computational advantages; however, this comes at the cost that all quantum correlations and the rigorous many-particle nature of the interactions are omitted. In this work, we discuss how quantum computation may advance the practical usefulness of the quantum foundations of molecular biology by offering computational advantages for simulations of biomolecules. We not only discuss typical quantum mechanical problems of the electronic structure of biomolecules in this context, but also consider the dominating classical problems (such as protein folding and drug design) as well as data-driven approaches of bioinformatics and the degree to which they might become amenable to quantum simulation and quantum computation.}
@@ -11213,8 +11019,8 @@
       \strng{authornamehash}{c374a9a6476ad2e414cadd4cfeaac578}
       \strng{authorfullhash}{c374a9a6476ad2e414cadd4cfeaac578}
       \strng{authorfullhashraw}{c374a9a6476ad2e414cadd4cfeaac578}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Recently, there has been significant interest in quantum technology, which utilizes various quantum phenomena, including quantum coherence, entanglement, interference, and superposition, among others. Consequently, many attempts are recently being made to apply quantum computing in biological sciences due to its potential advancements. This paper seeks to fill that gap by highlighting the direct biological applications of quantum computing, providing a novel contribution to the field. The Goal of this paper is to offer a thorough examination of both current and potential applications of this technology, within the field of biology. First, quantum computing principles and the challenges they face are explained. Quantum machine learning, is also, introduced which opens a window to biological applications of quantum computation. Then, numerous, existing, potentially crucial, biological applications of quantum computing, which greatly enhance healthcare and quality of life, particularly in the broad field of genetics, drug design, molecular biology, and bioinformatics, are being discussed.}
@@ -11255,8 +11061,8 @@
       \strng{authornamehash}{aac54ccf9c76aa4ba4310ed1334be7d8}
       \strng{authorfullhash}{aac54ccf9c76aa4ba4310ed1334be7d8}
       \strng{authorfullhashraw}{aac54ccf9c76aa4ba4310ed1334be7d8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Theoretical Physics}
@@ -11294,8 +11100,8 @@
       \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum Computation and Quantum Information: 10th Anniversary Edition}
@@ -13751,8 +13557,8 @@
       \strng{authornamehash}{f62cf1f09b6376d3ae40f542c57660ff}
       \strng{authorfullhash}{68768d46a89ad18661a7875b2db44117}
       \strng{authorfullhashraw}{68768d46a89ad18661a7875b2db44117}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Although deep learning has revolutionized protein structure prediction, almost all experimentally characterized de novo protein designs have been generated using physically based approaches such as Rosetta. Here, we describe a deep learning–based protein sequence design method, ProteinMPNN, that has outstanding performance in both in silico and experimental tests. On native protein backbones, ProteinMPNN has a sequence recovery of 52.4\% compared with 32.9\% for Rosetta. The amino acid sequence at different positions can be coupled between single or multiple chains, enabling application to a wide range of current protein design challenges. We demonstrate the broad utility and high accuracy of ProteinMPNN using x-ray crystallography, cryo–electron microscopy, and functional studies by rescuing previously failed designs, which were made using Rosetta or AlphaFold, of protein monomers, cyclic homo-oligomers, tetrahedral nanoparticles, and target-binding proteins. Deep learning approaches such as Alphafold and Rosettafold have made reliable protein structure prediction broadly accessible. For the inverse problem, finding a sequence that folds to a desired structure, most approaches remain based on energy optimization. In two papers, a range of protein design problems were addressed through deep learning methods. Dauparas et al. built on recent deep learning protein design approaches to develop a method called ProteinMPNN. They validated designs experimentally and showed that ProteinMPNN can rescue previously failed designs made using Rosetta or Alphafold. Wicky et al. started from a random sequence and used Monte Carlo sequence search coupled with structure prediction by Alphafold to design cyclic homo-oligomers. Although the designs were generated to achieve stable expression, the sequences had to be regenerated using ProteinMPNN. This approach allowed for the design of a range of experimentally validated cyclic oligomers and paves the way for the design of increasingly complex assemblies. —VV A network-based protein design enables the generation of cyclic homo-oligomers across the nanoscopic scale.}
@@ -13892,8 +13698,8 @@
       \strng{authornamehash}{8b8fb4db80ef37aac658bec7a2e2b72d}
       \strng{authorfullhash}{55be077f25fcb54426d92f57e043630a}
       \strng{authorfullhashraw}{55be077f25fcb54426d92f57e043630a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1549-9618}
@@ -13945,8 +13751,8 @@
       \strng{authornamehash}{11b6b123ec1c10682eed73281c6f04cd}
       \strng{authorfullhash}{4700ae338b1c33efb4fc1e7026dc593f}
       \strng{authorfullhashraw}{4700ae338b1c33efb4fc1e7026dc593f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Assessing kinetics in biological processes with molecular dynamics simulations remains a computational and conceptual challenge, given the large time and length scales involved. For kinetic transport of biochemical compounds or drug molecules, the permeability through the phospholipid membranes is a key kinetic property, but long timescales are hindering the accurate computation. Technological advances in high-performance computing therefore need to be accompanied by theoretical and methodological developments. In this contribution, the replica exchange transition interface sampling (RETIS) methodology is shown to give perspective toward observing longer permeation pathways. It is first reviewed how RETIS, a path-sampling methodology that gives in principle exact kinetics, can be used to compute membrane permeability. Next, recent and current developments in three RETIS aspects are discussed: several new Monte Carlo moves in the path-sampling algorithm, memory reduction by reducing pathlengths, and exploitation of parallel computing with CPU-imbalanced replicas. Finally, the memory reduction presenting a new replica exchange implementation, coined REPPTIS, is showcased with a permeant needing to pass a membrane with two permeation channels, either representing an entropic or energetic barrier. The REPPTIS results showed clearly that inclusion of some memory and enhancing ergodic sampling via replica exchange moves are both necessary to obtain correct permeability estimates. In an additional example, ibuprofen permeation through a dipalmitoylphosphatidylcholine membrane was modeled. REPPTIS succeeded in estimating the permeability of this amphiphilic drug molecule with metastable states along the permeation pathway. In conclusion, the presented methodological advances allow for deeper insight into membrane biophysics even if the pathways are slow, as RETIS and REPPTIS push the permeability calculations to longer timescales.}
@@ -13988,8 +13794,8 @@
       \strng{authorfullhash}{fbe61da8813855105d0c727fa93b4b4d}
       \strng{authorfullhashraw}{fbe61da8813855105d0c727fa93b4b4d}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Lecture Notes for Physics 229}
@@ -14020,8 +13826,8 @@
       \strng{authornamehash}{fb8c79c5103f1d00069139ab0ea78421}
       \strng{authorfullhash}{fb8c79c5103f1d00069139ab0ea78421}
       \strng{authorfullhashraw}{fb8c79c5103f1d00069139ab0ea78421}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{20}
@@ -15646,250 +15452,6 @@
       \verb https://doi.org/10.22331/q-2020-04-24-257
       \endverb
     \endentry
-    \entry{SUPEPMEM}{article}{}{}
-      \name{author}{9}{}{%
-        {{hash=0725024db27a38a8770fa693c59f0182}{%
-           family={Suarez-Leston},
-           familyi={S\bibinithyphendelim L\bibinitperiod},
-           given={Fabián},
-           giveni={F\bibinitperiod}}}%
-        {{hash=d42a1d6812b0a8a1c9f81430da15f5cd}{%
-           family={Calvelo},
-           familyi={C\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-        {{hash=07aa9bb663430b24bd67d184fb2aa4cf}{%
-           family={Tolufashe},
-           familyi={T\bibinitperiod},
-           given={Gideon\bibnamedelima F.},
-           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=29a9c0d4aa200ee02ab97546c35fa1b1}{%
-           family={Muñoz},
-           familyi={M\bibinitperiod},
-           given={Alicia},
-           giveni={A\bibinitperiod}}}%
-        {{hash=cb92e92a729cccb6a815f47fd565583d}{%
-           family={Veleiro},
-           familyi={V\bibinitperiod},
-           given={Uxía},
-           giveni={U\bibinitperiod}}}%
-        {{hash=7293b472839107079fa99d613fea867a}{%
-           family={Porto},
-           familyi={P\bibinitperiod},
-           given={César},
-           giveni={C\bibinitperiod}}}%
-        {{hash=63f42968d63756558d8603ba5d95c126}{%
-           family={Bastos},
-           familyi={B\bibinitperiod},
-           given={Margarida},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
-           family={Piñeiro},
-           familyi={P\bibinitperiod},
-           given={Ángel},
-           giveni={Á\bibinitperiod}}}%
-        {{hash=a2a353207d6538894c649b665d69f8ec}{%
-           family={Garcia-Fandino},
-           familyi={G\bibinithyphendelim F\bibinitperiod},
-           given={Rebeca},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{230ce636389311b4bd303cf8eff65885}
-      \strng{fullhash}{585000d12f268e5828ea8850aa1ddcf3}
-      \strng{fullhashraw}{585000d12f268e5828ea8850aa1ddcf3}
-      \strng{bibnamehash}{585000d12f268e5828ea8850aa1ddcf3}
-      \strng{authorbibnamehash}{585000d12f268e5828ea8850aa1ddcf3}
-      \strng{authornamehash}{230ce636389311b4bd303cf8eff65885}
-      \strng{authorfullhash}{585000d12f268e5828ea8850aa1ddcf3}
-      \strng{authorfullhashraw}{585000d12f268e5828ea8850aa1ddcf3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Host defense peptides (HDPs) are short cationic peptides that play a key role in the innate immune response of all living organisms. Their action mechanism does not depend on the presence of protein receptors, but on their ability to target and disrupt the membranes of a wide range of pathogenic and pathologic cells which are recognized by their specific compositions, typically with a relatively high concentration of anionic lipids. Lipid profile singularities have been found in cancer, inflammation, bacteria, viral infections, and even in senescent cells, enabling the possibility to use them as therapeutic targets and/or diagnostic biomarkers. Molecular dynamics (MD) simulations are extraordinarily well suited to explore how HDPs interact with membrane models, providing a large amount of qualitative and quantitative information that, nowadays, cannot be assessed by wet-lab methods at the same level of temporal and spatial resolution. Here, we present SuPepMem, an open-access repository containing MD simulations of different natural and artificial peptides with potential membrane lysis activity, interacting with membrane models of healthy mammal, bacteria, viruses, cancer or senescent cells. In addition to a description of the HDPs and the target systems, SuPepMem provides both the input files necessary to run the simulations and also the results of some selected analyses, including structural and MD-based quantitative descriptors. These descriptors are expected to be useful to train machine learning algorithms that could contribute to design new therapeutic peptides. Tools for comparative analysis between different HDPs and model membranes, as well as to restrict the queries to structural and time-averaged properties are also available. SuPepMem is a living project, that will continuously grow with more simulations including peptides of different sequences, MD simulations with different number of peptide units, more membrane models and also several resolution levels. The database is open to MD simulations from other users (after quality check by the SuPepMem team). SuPepMem is freely available under https://supepmem.com/.}
-      \field{issn}{2001-0370}
-      \field{journaltitle}{Computational and Structural Biotechnology Journal}
-      \field{title}{SuPepMem: A database of innate immune system peptides and their cell membrane interactions}
-      \field{volume}{20}
-      \field{year}{2022}
-      \field{pages}{874\bibrangedash 881}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.csbj.2022.01.025
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S2001037022000320
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S2001037022000320
-      \endverb
-    \endentry
-    \entry{martini3}{article}{}{}
-      \name{author}{26}{}{%
-        {{hash=54e8c1651600cb7e113463b84d4fc00e}{%
-           family={Souza},
-           familyi={S\bibinitperiod},
-           given={Paulo\bibnamedelimb C.\bibnamedelimi T.},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=15bb07af35bb73c970ee477f5486c16f}{%
-           family={Alessandri},
-           familyi={A\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=220f1bff7465859e1b047aa9298930e7}{%
-           family={Barnoud},
-           familyi={B\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=680440a922c6f8255dda9e826a90edb1}{%
-           family={Thallmair},
-           familyi={T\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=4bd1d2641a349dd553612c33142af31a}{%
-           family={Faustino},
-           familyi={F\bibinitperiod},
-           given={Ignacio},
-           giveni={I\bibinitperiod}}}%
-        {{hash=5ce097b934b7508642eccc020cb300b4}{%
-           family={Grünewald},
-           familyi={G\bibinitperiod},
-           given={Fabian},
-           giveni={F\bibinitperiod}}}%
-        {{hash=af8624e5c7d8ba4f9a2f64479d8e780b}{%
-           family={Patmanidis},
-           familyi={P\bibinitperiod},
-           given={Ilias},
-           giveni={I\bibinitperiod}}}%
-        {{hash=b7d26f415b422c19155017fb40bd2685}{%
-           family={Abdizadeh},
-           familyi={A\bibinitperiod},
-           given={Haleh},
-           giveni={H\bibinitperiod}}}%
-        {{hash=280a147af70d7191e1b9d514b251828d}{%
-           family={Bruininks},
-           familyi={B\bibinitperiod},
-           given={Bart\bibnamedelimb M.\bibnamedelimi H.},
-           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=cbeb95d613cf19ebc584e15dccf41a73}{%
-           family={Wassenaar},
-           familyi={W\bibinitperiod},
-           given={Tsjerk\bibnamedelima A.},
-           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=acad255bf47a255f3488fa0b4126bc8b}{%
-           family={Kroon},
-           familyi={K\bibinitperiod},
-           given={Peter\bibnamedelima C.},
-           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=6bdc458bca9aa6bb9139cc531c3d797b}{%
-           family={Melcr},
-           familyi={M\bibinitperiod},
-           given={Josef},
-           giveni={J\bibinitperiod}}}%
-        {{hash=956e072530cda4065214a67ae06c2321}{%
-           family={Nieto},
-           familyi={N\bibinitperiod},
-           given={Vincent},
-           giveni={V\bibinitperiod}}}%
-        {{hash=105e203028c0e5a3860df69aec4c3d13}{%
-           family={Corradi},
-           familyi={C\bibinitperiod},
-           given={Valentina},
-           giveni={V\bibinitperiod}}}%
-        {{hash=53455b06c0b7ca7e8659f9074b869b6e}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Hanif\bibnamedelima M.},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=de526e0b173d8ecb65021e69717ac8cf}{%
-           family={Domański},
-           familyi={D\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f0d41cd23ca50357e7562d37d9ba657d}{%
-           family={Javanainen},
-           familyi={J\bibinitperiod},
-           given={Matti},
-           giveni={M\bibinitperiod}}}%
-        {{hash=314c963d3509c8df5c823b2b2a0efc78}{%
-           family={Martinez-Seara},
-           familyi={M\bibinithyphendelim S\bibinitperiod},
-           given={Hector},
-           giveni={H\bibinitperiod}}}%
-        {{hash=0f28ab07670fcb9eee2537cd368ae057}{%
-           family={Reuter},
-           familyi={R\bibinitperiod},
-           given={Nathalie},
-           giveni={N\bibinitperiod}}}%
-        {{hash=150823e11aec187e5703632ab229b003}{%
-           family={Best},
-           familyi={B\bibinitperiod},
-           given={Robert\bibnamedelima B.},
-           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=460d97a5ad5140fc1e50f43c6e526cd4}{%
-           family={Vattulainen},
-           familyi={V\bibinitperiod},
-           given={Ilpo},
-           giveni={I\bibinitperiod}}}%
-        {{hash=b5ae263641ff93495fc2343e3f596a1c}{%
-           family={Monticelli},
-           familyi={M\bibinitperiod},
-           given={Luca},
-           giveni={L\bibinitperiod}}}%
-        {{hash=05a1d33db1d5dca0dcabe5a44d1ee178}{%
-           family={Periole},
-           familyi={P\bibinitperiod},
-           given={Xavier},
-           giveni={X\bibinitperiod}}}%
-        {{hash=abc3b49ac384d1f0b3e59c45ff6f8ee7}{%
-           family={Tieleman},
-           familyi={T\bibinitperiod},
-           given={D.\bibnamedelimi Peter},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=224c4d224294dbb8f6318a532ee70d3a}{%
-           family={Vries},
-           familyi={V\bibinitperiod},
-           given={Alex\bibnamedelima H.},
-           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=1b9ca6751b85614b735b50f9d339ebc0}{%
-           family={Marrink},
-           familyi={M\bibinitperiod},
-           given={Siewert\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{b60528d9446b5ff1be4f238681945e9b}
-      \strng{fullhash}{8e559a154e471dc50f4daa13d6ff1d20}
-      \strng{fullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
-      \strng{bibnamehash}{b60528d9446b5ff1be4f238681945e9b}
-      \strng{authorbibnamehash}{b60528d9446b5ff1be4f238681945e9b}
-      \strng{authornamehash}{b60528d9446b5ff1be4f238681945e9b}
-      \strng{authorfullhash}{8e559a154e471dc50f4daa13d6ff1d20}
-      \strng{authorfullhashraw}{8e559a154e471dc50f4daa13d6ff1d20}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1548-7091}
-      \field{issue}{4}
-      \field{journaltitle}{Nature Methods}
-      \field{month}{4}
-      \field{title}{Martini 3: a general purpose force field for coarse-grained molecular dynamics}
-      \field{volume}{18}
-      \field{year}{2021}
-      \field{pages}{382\bibrangedash 388}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1038/s41592-021-01098-3
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/s41592-021-01098-3
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/s41592-021-01098-3
-      \endverb
-    \endentry
     \entry{DANI_METADINAMICA}{article}{}{}
       \name{author}{5}{}{%
         {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
@@ -16062,183 +15624,6 @@
       \endverb
       \verb{url}
       \verb https://www.biorxiv.org/content/early/2026/05/08/2026.05.07.723485
-      \endverb
-    \endentry
-    \entry{MJ_1}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=43b4424bc0194172d4d3dcb42cdc4fea}{%
-           family={Miyazawa},
-           familyi={M\bibinitperiod},
-           given={Sanzo},
-           giveni={S\bibinitperiod}}}%
-        {{hash=77054df3b4a2543f18e6b14bdd0e74b4}{%
-           family={Jernigan},
-           familyi={J\bibinitperiod},
-           given={Robert\bibnamedelima L.},
-           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{fullhash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{fullhashraw}{4301d4e71b33a38579f966e1742240a0}
-      \strng{bibnamehash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{authorbibnamehash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{authornamehash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{authorfullhash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{authorfullhashraw}{4301d4e71b33a38579f966e1742240a0}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Macromolecules}
-      \field{number}{3}
-      \field{title}{Estimation of effective interresidue contact energies from protein crystal structures: quasi-chemical approximation}
-      \field{volume}{18}
-      \field{year}{1985}
-      \field{pages}{534\bibrangedash 552}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1021/ma00145a039
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/ma00145a039
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/ma00145a039
-      \endverb
-    \endentry
-    \entry{MJ_2}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=43b4424bc0194172d4d3dcb42cdc4fea}{%
-           family={Miyazawa},
-           familyi={M\bibinitperiod},
-           given={Sanzo},
-           giveni={S\bibinitperiod}}}%
-        {{hash=77054df3b4a2543f18e6b14bdd0e74b4}{%
-           family={Jernigan},
-           familyi={J\bibinitperiod},
-           given={Robert\bibnamedelima L.},
-           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \strng{namehash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{fullhash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{fullhashraw}{4301d4e71b33a38579f966e1742240a0}
-      \strng{bibnamehash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{authorbibnamehash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{authornamehash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{authorfullhash}{4301d4e71b33a38579f966e1742240a0}
-      \strng{authorfullhashraw}{4301d4e71b33a38579f966e1742240a0}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Attractive inter-residue contact energies for proteins have been re-evaluated with the same assumptions and approximations used originally by us in 1985, but with a significantly larger set of protein crystal structures. An additional repulsive packing energy term, operative at higher densities to prevent overpacking, has also been estimated for all 20 amino acids as a function of the number of contacting residues, based on their observed distributions. The two terms of opposite sign are intended to be used together to provide an estimate of the overall energies of inter-residue interactions in simplified proteins without atomic details. To overcome the problem of how to utilize the many homologous proteins in the Protein Data Bank, a new scheme has been devised to assign different weights to each protein, based on similarities among amino acid sequences. A total of 1168 protein structures containing 1661 subunit sequences are actually used here. After the sequence weights have been applied, these correspond to an effective number of residue – residue contacts of 113,914, or about six times more than were used in the old analysis. Remarkably, the new attractive contact energies are nearly identical to the old ones, except for those with Leu and the rarer amino acids Trp and Met. The largest change found for Leu is surprising. The estimates of hydrophobicity from the contact energies for non-polar side-chains agree well with the experimental values. In an application of these contact energies, the sequences of 88 structurally distinct proteins in the Protein Data Bank are threaded at all possible positions without gaps into 189 different folds of proteins whose sequences differ from each other by at least 35\% sequence identity. The native structures for 73 of 88 proteins, excluding 15 exceptional proteins such as membrane proteins, are all demonstrated to have the lowest alignment energies.}
-      \field{issn}{0022-2836}
-      \field{journaltitle}{Journal of Molecular Biology}
-      \field{number}{3}
-      \field{title}{Residue – Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading}
-      \field{volume}{256}
-      \field{year}{1996}
-      \field{pages}{623\bibrangedash 644}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.1006/jmbi.1996.0114
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S002228369690114X
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S002228369690114X
-      \endverb
-    \endentry
-    \entry{dca}{article}{}{}
-      \name{author}{10}{}{%
-        {{hash=b4709bd7897680377ddbce8ba72c1601}{%
-           family={Morcos},
-           familyi={M\bibinitperiod},
-           given={Faruck},
-           giveni={F\bibinitperiod}}}%
-        {{hash=e3548708c3649a85a7850fb25b4769cf}{%
-           family={Pagnani},
-           familyi={P\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0013672c5a62a6ce0b774cbb9cb96bf3}{%
-           family={Lunt},
-           familyi={L\bibinitperiod},
-           given={Bryan},
-           giveni={B\bibinitperiod}}}%
-        {{hash=bf4a6551aab250d37c17b2597d6ca547}{%
-           family={Bertolino},
-           familyi={B\bibinitperiod},
-           given={Arianna},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ddc4fd4e6fe0ba356b30484c4db1caa2}{%
-           family={Marks},
-           familyi={M\bibinitperiod},
-           given={Debora\bibnamedelima S.},
-           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=f99a580afe584be129acd1f9193dc0cd}{%
-           family={Sander},
-           familyi={S\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod}}}%
-        {{hash=43077d96c4a7dff840bc34463d1d0751}{%
-           family={Zecchina},
-           familyi={Z\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=0978be651a5ef4ae2a5f3f37a57127e8}{%
-           family={Onuchic},
-           familyi={O\bibinitperiod},
-           given={José\bibnamedelima N.},
-           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=51bdc3ad6579d4affe675723bc921f14}{%
-           family={Hwa},
-           familyi={H\bibinitperiod},
-           given={Terence},
-           giveni={T\bibinitperiod}}}%
-        {{hash=1a4b731ed0062455a48ddca63f6091a3}{%
-           family={Weigt},
-           familyi={W\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{fa45b8cebbf46c11fa43a9281bd11c56}
-      \strng{fullhash}{ddb599a838c9a530903c959a362cd7d6}
-      \strng{fullhashraw}{ddb599a838c9a530903c959a362cd7d6}
-      \strng{bibnamehash}{ddb599a838c9a530903c959a362cd7d6}
-      \strng{authorbibnamehash}{ddb599a838c9a530903c959a362cd7d6}
-      \strng{authornamehash}{fa45b8cebbf46c11fa43a9281bd11c56}
-      \strng{authorfullhash}{ddb599a838c9a530903c959a362cd7d6}
-      \strng{authorfullhashraw}{ddb599a838c9a530903c959a362cd7d6}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The similarity in the three-dimensional structures of homologous proteins imposes strong constraints on their sequence variability. It has long been suggested that the resulting correlations among amino acid compositions at different sequence positions can be exploited to infer spatial contacts within the tertiary protein structure. Crucial to this inference is the ability to disentangle direct and indirect correlations, as accomplished by the recently introduced direct-coupling analysis (DCA). Here we develop a computationally efficient implementation of DCA, which allows us to evaluate the accuracy of contact prediction by DCA for a large number of protein domains, based purely on sequence information. DCA is shown to yield a large number of correctly predicted contacts, recapitulating the global structure of the contact map for the majority of the protein domains examined. Furthermore, our analysis captures clear signals beyond intradomain residue contacts, arising, e.g., from alternative protein conformations, ligand-mediated residue couplings, and interdomain interactions in protein oligomers. Our findings suggest that contacts predicted by DCA can be used as a reliable guide to facilitate computational predictions of alternative protein conformations, protein complex formation, and even the de novo prediction of protein domain structures, contingent on the existence of a large number of homologous sequences which are being rapidly made available due to advances in genome sequencing. In this work, we have shown the ability of mfDCA to identify, with high accuracy, residue pairs in domain families and found that mfDCA is not only able to identify intradomain contacts but also interdomain residue pairs that are part of oligomerization interfaces. One potential application is the identification of interaction interfaces for homodimers that could ultimately help in predicting complex structures. Our results might open unexplored avenues of research for which full contact maps could be estimated and used as input data for de novo protein structure identification, which is particularly interesting in the case of interdomain contacts in multidomain proteins. Ultimately, this methodology can be used with pairs of proteins rather than single proteins to identify potential protein–protein interactions. The large number of contacts correctly predicted by mfDCA prompted us to explore the extent to which our method may be used to predict the contact maps of protein domains. In Fig.\&nbsp;P1C, we show the example of the eukaryotic H-Ras protein (5). The first approximately 800 mfDCA contact predictions are displayed; they include 320 nontrivial pairs, which are separated by at least five positions along the protein backbone. The predicted contact map captures very well the native contacts. Even if not all single contacts are predicted, almost all contact clusters are identified. One of the most striking features of our results obtained using DCA is how gradually the average TP rate declines with increasing direct information ranking. This observation naturally led us to explore the information lying beyond the first 10–30 DCA predictions. For instance, how many residue contacts can be predicted if a TP rate of at least 70\% is required? As can be seen in Fig.\&nbsp;P1B, this TP rate is reached on average after the top 70 DCA predictions, where one would have obtained approximately 50 true contacts on average. In extreme cases (e.g., the family of bacterial receptors called the tripartite tricarboxylate receptors), a TP rate of \&gt;\&nbsp;70\% was present for the first 600 DCA-predicted residue pairs, therefore including more than 400 native contacts. A third cause of high-scoring long-distance pairings inferred by mfDCA is observed in the metalloenzyme domain family, which binds to metal ions. It has a high-scoring residue pair, which is separated by more than 14\&nbsp;Å when mapped to the glutathione transferase FosA of Pseudomonas aeruginosa. We observed that the two residues belonging to the different subunits of this residue pair are, however, in direct contact with the manganese “Mn(II)” ion when the enzymes are paired, or in the dimer configuration. Thus, the “direct interaction” between these residues found by mfDCA is presumably mediated through their common interaction with a third agent, the metal ion in this case. A second cause of high-scoring long-distance pairs is the occurrence of alternative domain conformations. As an illustration, we examined the domain family GerE, whose members include the DNA-binding domains of a number of proteins (response regulators) in a system known as the two-component signaling system. Using the DNA-bound domain of the nitrate/nitrite response regulator NarL of E. coli, we found that all of the top 20 DCA predictions were true contacts. However, when mapping the same pairs to the structure of the inactive, full-length response regulator of the transcriptional regulatory protein DosR of Mycobacterium tuberculosis, seven pairs were found at distances \&gt;\&nbsp;8\&nbsp;Å. A comparison between these structures shows clearly that all of the long-distance pairs involve one particular position that is significantly displaced in the full-length structure, presumably due to interaction with the (unphosphorylated) regulatory domain. First, direct correlation may be due to contacts between proteins in oligomeric complexes (i.e., complexes comprising different proteins). One example is the ATPase domain of the nitrogen regulatory protein C family transcriptional activators, which act to promote the activity of RNA polymerase. Upon activation, different subunits of this domain are known to form a multiunit ring, wrapping DNA around the complex (4). Among the top 20 mfDCA-predicted contacts, three pairs appeared to be long-distance (\&gt;\&nbsp;10\&nbsp;Å) within the domain; but they all turned out to be within 5\&nbsp;Å of the closest position in an adjacent subunit of the ring structure. More globally, out of the 131 studied domain families, 21 families feature X-ray crystal structures involving oligomers. Among the top 20 pairs that are not intradomain contacts (i.e., contacts within the same domain), about one-half turned out to be interdomain contacts (i.e., contacts between domains). The high accuracy of mfDCA predictions led us to examine whether the small fraction of “false positives” (i.e., predicted pairings located far away in the crystal structures) might also have some biological significance. We investigated various biological reasons for the appearance of such long-distance direct correlations and found the following cases. To test the general applicability of mfDCA, we analyzed 131 predominantly bacterial domain families. These families were selected (i) to be sufficiently abundant for statistical analysis (\&gt;\&nbsp;1,000 nonredundant sequences), and (ii) to feature at least two high-resolution X-ray crystal structures (resolution \&lt;\&nbsp;3\&nbsp;Å), so that the spatial proximity between predicted residue pairs could be evaluated. The selected domain families encompassed a total of 856 different solved structures listed in the Protein Data Bank. On average, 84\% of the top 20 mfDCA predictions (a minimum separation of five along the sequence) in each of the 131 families are TP contacts, whereas simple correlation analysis using mutual information reaches only a 59\% TP rate (Fig.\&nbsp;P1B). The individual TP rates of mfDCA predictions for the 131 families are distributed mostly in the range of 70–100\%. Analogous results were also observed for a collection of 25 abundant eukaryotic proteins. The performance of mfDCA is first illustrated in Fig.\&nbsp;P1A for a specific protein structure (domain) taken from the proteome (i.e., the assembly of proteins present in an organism under specific conditions) of the bacterium Escherichia coli (3). The top 20 DCA predictions, separated by at least five positions along the sequence to exclude trivial predictions, are displayed as bonds of different color: The 19 residue pairs with distances \&lt;\&nbsp;8\&nbsp;Å are shown in red, and the lone pair with a larger interresidue distance is shown in green. The mfDCA thus gave a true-positive (TP) rate of 95\% for the top 20 contacts predicted for this protein.Fig. P1.(A) Contact predictions for the Sigma-E factor of E. coli. Of the top 20 contact predictions, 19 pairs with distance \&lt;\&nbsp;8\&nbsp;Å are connected by red links, whereas the only more distant pair is shown in green, which represents a TP rate of 95\%. (B) The TP rate averaged over 131 domain families shows a very gradual decline as a function of the number of predicted contacts. The mfDCA (diamonds) clearly outperforms simple correlation analysis using mutual information (open circles). (C) Contact map prediction for the eukaryotic signaling protein Ras. Gray symbols represent the native map (cutoff of 8\&nbsp;Å), shown in both the lower and upper triangles. The colored symbols in the upper triangle indicate the contacts predicted using mfDCA, with the red squares for the TPs (like the red links in A), and green squares for the false positives (like the green link in A). Due to rapid advances in the technologies for sequencing DNA, a large number of genome projects that aim to determine the complete DNA (genome) sequence of an organism are now in existence, which is particularly the case for bacterial genomes, with approximately 1,700 completed and 8,300 ongoing (1). These genome sequences can be used to provide correlated substitution patterns for a large number of common bacterial proteins and interacting protein pairs, as well as for some abundant eukaryotic, or nonbacterial, proteins. The availability of such correlations presents opportunities to make inferences on residue contacts, that is, contacts between amino acid residues within or between proteins, and to eventually predict protein structures at various levels of organization based on sequence information alone. Crucial to this inference is the ability to disentangle direct and indirect correlations (i.e., induced through intermediate residue positions), as accomplished by the recently introduced method of direct-coupling analysis (DCA) (2), based on sophisticated tools developed in statistical physics. Here, we further develop a computationally efficient implementation of DCA, called mfDCA, an algorithm based on the mean-field approximation of DCA, which is 103 to 104 times faster than the original DCA implementation, and hence can be used to rapidly analyze large numbers of families of long protein sequences. Protein function depends crucially on the correct folding of its three-dimensional structure. The maintenance of this structure during evolution imposes strong constraints on the variability of the amino acid sequences between homologous (i.e., closely related) proteins. For example, deleterious alterations (or mutations) in one residue may have to be compensated by mutations of the residues it interacts with, leading to correlations between the amino acid compositions at different sequence positions. In essence, a particular change at one position may correlate with certain necessary changes at other positions that enable the protein to maintain its structure and function.}
-      \field{journaltitle}{Proceedings of the National Academy of Sciences}
-      \field{number}{49}
-      \field{title}{Direct-coupling analysis of residue coevolution captures native contacts across many protein families}
-      \field{volume}{108}
-      \field{year}{2011}
-      \field{pages}{E1293\bibrangedash E1301}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1073/pnas.1111471108
-      \endverb
-      \verb{eprint}
-      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.1111471108
-      \endverb
-      \verb{urlraw}
-      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1111471108
-      \endverb
-      \verb{url}
-      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1111471108
       \endverb
     \endentry
   \enddatalist
