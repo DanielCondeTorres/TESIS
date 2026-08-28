@@ -3,9 +3,9 @@
 
 \newpage
 
-The studies presented in this thesis address a common question at different levels of molecular resolution: how does the physicochemical environment influence the behavior of membrane-active peptides, and how can this information be incorporated into computational strategies for peptide design? The work began from a broad pathophysiological perspective, examining lipid dysregulation in the context of cancer, aging, and infection, and subsequently moved toward increasingly defined molecular problems: peptide recognition of lipid bilayers, conformational optimization at heterogeneous interfaces, and sequence optimization under prescribed environmental conditions.
+The studies presented in this thesis address a common question at different levels of molecular resolution: how does the physicochemical environment influence the behavior of membrane-active peptides, and how can this information be incorporated into computational strategies for peptide design? The work began from a broad pathophysiological perspective, examining lipid dysregulation in the context of cancer, aging, and infection, and subsequently moved toward increasingly defined molecular problems: peptide recognition of lipid bilayers, conformational optimization at heterogeneous interfaces, and sequence optimization under prescribed environmental conditions. In parallel, the quantum-computing component was placed within the broader evolution of the field through a quantitative analysis of its scientific growth, intellectual structure, and transition toward hybrid and application-oriented approaches.
 
-This progression also reflects a change in computational scale. Molecular dynamics and enhanced-sampling simulations provide detailed structural and thermodynamic information for a limited number of peptide--membrane systems. Reduced models sacrifice part of this molecular detail but permit broader exploration of conformational or sequence spaces. The central link among these approaches is the explicit consideration of the environment. In the molecular simulations, the environment is represented by the lipid bilayer and its composition; in the folding model, by a polar--apolar interface; and in the sequence-design Hamiltonian, by terms describing solvent polarity, surface charge, electrostatic screening, and interfacial geometry. This common physical dependence provides the basis for integrating the different contributions of the thesis.
+This progression also reflects a change in computational scale. Molecular dynamics and enhanced-sampling simulations provide detailed structural and thermodynamic information for a limited number of peptide--membrane systems. Reduced models sacrifice part of this molecular detail but permit broader exploration of conformational or sequence spaces. The central link among these approaches is the explicit consideration of the environment. In the molecular simulations, the environment is represented by the lipid bilayer and its composition; in the folding model, by a polar--apolar interface; and in the sequence-design Hamiltonian, by terms describing solvent polarity, surface charge, electrostatic screening, and interfacial geometry. This common physical dependence provides the basis for integrating the different contributions of the thesis. The bibliometric analysis provides an additional methodological perspective by situating the quantum algorithms explored here within the broader development of contemporary quantum computing.
 
 
 \section{Lipid remodeling and the pathophysiological context of membrane targeting}
@@ -20,7 +20,7 @@ The broader implication is that membrane selectivity should be considered as an 
 
 
 
-\subsection{Structural and thermodynamic determinants of AMP–membrane recognition}
+\section{Structural and thermodynamic determinants of AMP–membrane recognition}
 
 The molecular simulation study examined LL-37, magainin-2, pleurocidin, CM15, and clavanin in simplified mammalian-, bacterial-, and cancer-associated membrane models using unbiased MD and WT-MetaD \cite{DANI_METADINAMICA} (see Section~\ref{art:metadynamics}). The simulations showed that membrane association is not adequately described by the peptide--membrane distance alone. Peptide orientation changes substantially during association and insertion, indicating that translational and rotational degrees of freedom contribute jointly to the membrane-bound state.
 
@@ -40,9 +40,14 @@ The coarse-grained simulations therefore resolve peptide orientation, associatio
 
 The results from the molecular simulation study support the first research hypothesis of this thesis. Different lipid environments generate distinguishable structural and thermodynamic states for the $\alpha$-helical AMPs considered here, and these differences arise from coupled peptide and membrane properties. The analysis also shows why membrane specificity cannot be reduced to a universal descriptor. The transverse hydrophobic dipole, tilt, spin, insertion depth, electrostatics, and membrane composition are most informative when interpreted collectively.
 
+\section{The evolving quantum-computing landscape and the role of hybrid approaches}
+
+The bibliometric analysis included in this thesis provides a quantitative context for the quantum-computing methodologies explored in the subsequent molecular studies. The analysis covered 31,662 publications indexed in Scopus between 1980 and 2025 and showed a pronounced expansion of the field since approximately 2015, accompanied by increasing thematic diversification and the growth of application-oriented research. 
+Co-citation and thematic analyses revealed an intellectual structure in which foundational contributions in quantum information and algorithms remain closely connected to a more recent research core associated with NISQ computing, variational methods, quantum machine learning, and hybrid quantum–classical approaches. VQE and QAOA belong to this broader transition from foundational algorithm development toward problem-specific hybrid computational workflows. 
+This context is directly relevant to the quantum component of the present thesis. The peptide-folding and sequence-design studies do not attempt to demonstrate a general quantum advantage. Instead, they investigate whether reduced, physically interpretable biomolecular problems can be formulated in a manner compatible with contemporary quantum and hybrid optimization strategies. The folding study uses VQE to explore low-energy conformational states within a discrete interfacial model, whereas the sequence-design framework employs QAOA as one of several optimization backends for a combinatorial Hamiltonian. In this sense, the two molecular applications examined here represent specific examples of the broader methodological transition identified in the bibliometric analysis.
 
 
-\subsection{Environment-dependent peptide folding in a quantum framework}
+\section{Environment-dependent peptide folding in a quantum framework}
 
 The quantum-folding study addressed a different representation of the same underlying physical problem. Instead of following the continuous trajectory of an explicitly represented peptide and lipid bilayer, peptide conformation was mapped onto a discrete tetrahedral lattice and evaluated with an effective Hamiltonian \cite{DANI_CUANTICA} (see Section~\ref{art:vqe_cesga}). This reduction makes conformational optimization compatible with a quantum computational workflow, but it also changes the physical interpretation of the result: the calculation searches for favorable configurations within the model and does not reproduce a molecular folding trajectory.
 
@@ -100,6 +105,8 @@ This hierarchy also suggests a route for future integration. Candidate sequences
 
 
 \section{Limitations and future perspectives}
+
+The bibliometric analysis provides a quantitative view of the evolution and structure of quantum-computing research, but its conclusions are necessarily conditioned by the bibliographic database, search strategy, document coverage, and network metrics employed. The resulting patterns should therefore be interpreted as a structured representation of the retrieved literature rather than as a complete assessment of technological maturity, computational performance, or the overall development of the field.
 
 The interpretation of the molecular simulation results is conditioned by the coarse-grained representation used in the principal peptide--membrane study. Martini 2.2 provides access to long trajectories and efficient exploration of membrane association, but specific atomistic interactions are averaged into effective potentials and secondary structure is normally imposed. Hydrogen-bond networks, side-chain rotamers, cation--$\pi$ geometries, and spontaneous folding transitions are therefore not represented with atomistic detail. The magainin-2 comparison confirms that this structural constraint can affect the peptide--membrane interaction and should be considered when extending the conclusions to conformationally flexible AMPs.
 
