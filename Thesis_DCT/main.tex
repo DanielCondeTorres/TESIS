@@ -39,7 +39,8 @@
 % Fonts
 \usepackage{times}  
 
-
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
 
 % Include pdf into manuscript
 \usepackage{pdfpages}
@@ -201,8 +202,8 @@
   \renewcommand{\contentsname}{Index}
 }
 
-\setcounter{secnumdepth}{5} % Enables numbering for subsubsections, paragraph, and subparagraph
-\setcounter{tocdepth}{5} % Show all levels down to subparagraph in ToC
+\setcounter{secnumdepth}{3} % Limit numbering to subsubsections
+\setcounter{tocdepth}{3} % Show levels down to subsubsection in ToC
 
 \usepackage{quantikz}
 
@@ -250,7 +251,7 @@
 
         % 3. AUTHOR NAME
         \node[anchor=north west, xshift=2.5cm, yshift=-11.0cm, text width=15cm] at (current page.north west) 
-        {\fontsize{32}{40}\selectfont \color{USCBlue} Daniel\\ Conde Torres\\[0.5cm] \fontsize{16}{20}\selectfont \color{USCBlue} ID: 77484102T};
+        {\fontsize{32}{40}\selectfont \color{USCBlue} Daniel\\ Conde Torres\\[0.5cm] \fontsize{16}{20}\selectfont};
 
         % 4. PhD THESIS AND TITLE
         \node[anchor=north west, xshift=2.5cm, yshift=-15.8cm] at (current page.north west) 
@@ -261,7 +262,7 @@
 
         % 5. FOOTERS
         \node[anchor=south west, xshift=2.5cm, yshift=2.2cm] at (current page.south west) 
-        {\fontsize{12}{14}\selectfont \color{white} Santiago de Compostela, 2025};
+        {\fontsize{12}{14}\selectfont \color{white} Santiago de Compostela, 2026};
 
         \node[anchor=south west, xshift=2.5cm, yshift=0.8cm] at (current page.south west) 
         {\fontsize{10}{12}\selectfont \color{white} \textbf{PHD PROGRAMME IN MATERIAL SCIENCES}};
