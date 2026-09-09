@@ -1175,7 +1175,49 @@ This research highlights the promising applications of quantum computing in biom
  year = {2024}
 }
 
-@misc{DANI_HAMILTONIAN,
+@article{DANI_HAMILTONIAN,
+    author = {Conde-Torres, Daniel and García-Fandiño, Rebeca and Piñeiro, Ángel},
+    title = {Environment-Conditioned
+Design of α-Helical
+Peptides},
+    journal = {Journal of Chemical Theory and Computation},
+    year = {2026},
+    month = {09},
+    abstract = {Peptides at biological interfaces often encode function
+through
+preferential compatibility with chemical environments rather than
+through binding to a single molecular target. We report a physically
+motivated, knowledge-based Hamiltonian for programming such preferences
+in α-helical peptides. The model maps amino-acid sequences onto
+a normalized energy landscape that combines helix propensity, local
+sequence context, residue contacts, solvent exposure, membrane charge
+coupling, and electrostatic screening. Random-reference Z-scores place different lengths, residue sets, and environments on
+a common scale. In homogeneous benchmarks, the Hamiltonian separates
+experimentally characterized alanine-rich Glu/Lys water-soluble helices
+from WALP/GWALP transmembrane model helices. In interfacial benchmarks,
+it recognizes canonical membrane-active antimicrobial peptides as
+preferentially stabilized at anionic interfaces over neutral, cationic,
+aqueous, and apolar alternatives, while rejecting non-antimicrobial
+helical controls. The same score generates sequence libraries for
+environment-specific compatibility, polar–apolar robustness,
+and one-vs-rest anionic selectivity. Low-energy ensembles display
+amphipathic segregation, charge regulation, and hydrophobicity periodicity
+at sequence separations of 3 and 4 residues, linking the designed
+sequences to interpretable chemical organization. Because the objective
+is a discrete Hamiltonian, it can be explored by exact search, classical
+heuristics, and binary-encoded quantum-compatible workflows without
+changing the scoring function. This framework provides a transparent
+route to design α-helical peptides whose environmental preferences
+are specified directly in the molecular objective.},
+    issn = {1549-9618},
+    doi = {10.1021/acs.jctc.6c01278},
+    url = {https://doi.org/10.1021/acs.jctc.6c01278},
+    eprint = {https://pubs.acs.org/jctcce/article-pdf/doi/10.1021/acs.jctc.6c01278/68449303/acs.jctc.6c01278.pdf},
+}
+
+
+
+@misc{DANI_HAMILTONIANnnn,
  abstract = {Designing peptide sequences that remain stable and selective across heterogeneous environments remains a central challenge in biomolecular modeling. Here we introduce an interpretable, physics-based Hamiltonian for environment-conditioned design of α-helical peptide sequences. The model integrates helix propensities, pairwise interactions, electrostatics, anisotropic solvent exposure, and interfacial geometry into a unified energy function. To enable comparison across sequence lengths and environments, all contributions are rescaled and expressed as Z-scores relative to random sequence ensembles, yielding a normalized design landscape with balanced physical terms. This formulation defines a structured optimization problem that can be explored using exact, heuristic, and hybrid quantum{\textendash} classical approaches without modification of the underlying model. The Hamiltonian recovers polar and apolar limits, discriminates experimentally characterized water-soluble and transmembrane α-helical peptide sequences, and captures the preferential stabilization of membrane-active sequences at anionic interfaces over non-functional controls. It further enables multi-objective and selective design, generating candidate sequences with tunable environmental specificity.Competing Interest StatementThe authors have declared no competing interest.Spanish Agencia Estatal de Investigacion (AEI) and ERDF, PID2022-141534OB-I00; CNS2023-144353Xunta de Galicia, ED431C 2025/15; ED431C 2021/21; ED431G 2023/03RePo-SUDOE / Interreg Sudoe Programme / ERDF, S1/1.1/P0033Ministerio de Universidades, FPU22/00636},
  author = {Conde-Torres, Daniel and Garc{\'\i}a-Fandi{\~n}o, Rebeca and Pi{\~n}eiro, {\'A}ngel},
  doi = {10.64898/2026.05.07.723485},
