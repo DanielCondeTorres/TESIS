@@ -226,48 +226,48 @@
 % Document begins
 \begin{document}
 
-\title{Computational Insights into the Biophysics of Antimicrobial Peptides and the Rational Design of Environment-Conditioned Peptide Therapeutics}
-\author{Daniel Conde Torres}
-\date{Date}
-% \maketitle
-%\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/Portada_tese.pdf} 
-\begin{titlepage}
-    \mbox{}
-    \begin{tikzpicture}[remember picture, overlay]
+\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/Portada_tese.pdf} 
+
+%\title{Computational Insights into the Biophysics of Antimicrobial Peptides and the Rational Design of Environment-Conditioned Peptide Therapeutics}
+%\author{Daniel Conde Torres}
+%\date{Date}
+%\begin{titlepage}
+%    \mbox{}
+%    \begin{tikzpicture}[remember picture, overlay]
         % 1. BACKGROUNDS
         % Top white part
-        \fill[white] (current page.north west) rectangle ([yshift=-14.85cm]current page.north east);
+%        \fill[white] (current page.north west) rectangle ([yshift=-14.85cm]current page.north east);
         % Bottom blue part
-        \fill[USCBlue] ([yshift=-14.85cm]current page.north west) rectangle (current page.south east);
+ %       \fill[USCBlue] ([yshift=-14.85cm]current page.north west) rectangle (current page.south east);
         % Bottom dark blue strip
-        \fill[USCDarkBlue] (current page.south west) rectangle ([yshift=1.8cm]current page.south east);
+  %      \fill[USCDarkBlue] (current page.south west) rectangle ([yshift=1.8cm]current page.south east);
 
         % 2. LOGO AND SCHOOL NAME
-        \node[anchor=north west, xshift=2.5cm, yshift=-2.5cm] at (current page.north west) 
-        {\includegraphics[width=4.5cm]{Logo_USC/logo_usc.png}};
+   %     \node[anchor=north west, xshift=2.5cm, yshift=-2.5cm] at (current page.north west) 
+    %    {\includegraphics[width=4.5cm]{Logo_USC/logo_usc.png}};
         
-        \node[anchor=north west, xshift=7.5cm, yshift=-3.1cm, text width=10cm] at (current page.north west) 
-        {\fontsize{14}{17}\selectfont \color{USCGray} INTERNATIONAL DOCTORAL SCHOOL OF THE USC};
+     %   \node[anchor=north west, xshift=7.5cm, yshift=-3.1cm, text width=10cm] at (current page.north west) 
+      %  {\fontsize{14}{17}\selectfont \color{USCGray} INTERNATIONAL DOCTORAL SCHOOL OF THE USC};
 
         % 3. AUTHOR NAME
-        \node[anchor=north west, xshift=2.5cm, yshift=-11.0cm, text width=15cm] at (current page.north west) 
-        {\fontsize{32}{40}\selectfont \color{USCBlue} Daniel\\ Conde Torres\\[0.5cm] \fontsize{16}{20}\selectfont};
+       % \node[anchor=north west, xshift=2.5cm, yshift=-11.0cm, text width=15cm] at (current page.north west) 
+        %{\fontsize{32}{40}\selectfont \color{USCBlue} Daniel\\ Conde Torres\\[0.5cm] \fontsize{16}{20}\selectfont};
 
         % 4. PhD THESIS AND TITLE
-        \node[anchor=north west, xshift=2.5cm, yshift=-15.8cm] at (current page.north west) 
-        {\fontsize{28}{32}\selectfont \color{white} PhD Thesis};
+        %\node[anchor=north west, xshift=2.5cm, yshift=-15.8cm] at (current page.north west) 
+   %     {\fontsize{28}{32}\selectfont \color{white} PhD Thesis};
 
-        \node[anchor=north west, xshift=2.5cm, yshift=-18.2cm, text width=16cm] at (current page.north west) 
-        {\fontsize{24}{30}\selectfont \color{white} \textbf{Computational Insights into the Biophysics of Antimicrobial Peptides and the Rational Design of Environment-Conditioned Peptide Therapeutics}};
+    %    \node[anchor=north west, xshift=2.5cm, yshift=-18.2cm, text width=16cm] at (current page.north west) 
+     %   {\fontsize{24}{30}\selectfont \color{white} \textbf{Computational Insights into the Biophysics of Antimicrobial Peptides and the Rational Design of Environment-Conditioned Peptide Therapeutics}};
 
         % 5. FOOTERS
-        \node[anchor=south west, xshift=2.5cm, yshift=2.2cm] at (current page.south west) 
-        {\fontsize{12}{14}\selectfont \color{white} Santiago de Compostela, 2026};
+      %  \node[anchor=south west, xshift=2.5cm, yshift=2.2cm] at (current page.south west) 
+       % {\fontsize{12}{14}\selectfont \color{white} Santiago de Compostela, 2026};
 
-        \node[anchor=south west, xshift=2.5cm, yshift=0.8cm] at (current page.south west) 
-        {\fontsize{10}{12}\selectfont \color{white} \textbf{PHD PROGRAMME IN MATERIAL SCIENCES}};
-    \end{tikzpicture}
-\end{titlepage}
+        %\node[anchor=south west, xshift=2.5cm, yshift=0.8cm] at (current page.south west) 
+       % {\fontsize{10}{12}\selectfont \color{white} \textbf{PHD PROGRAMME IN MATERIAL SCIENCES}};
+   % \end{tikzpicture}
+%\end{titlepage}
 
 
 
@@ -312,15 +312,18 @@
         \textbf{AMPs} \> Antimicrobial Peptides \\
         \textbf{AMR} \> Antimicrobial resistance \\
         \textbf{C} \> Cysteine \\
+        \textbf{CAIn} \> Cancer--Aging--Infection  \\
         \textbf{CD} \> Circular Dichroism \\
         \textbf{CG} \> Coarse-Grained \\
         \textbf{CHARMM} \> Chemistry at Harvard Macromolecular Mechanics \\
         \textbf{CHOL} \> Cholesterol \\
+        \textbf{CNOT} \> Controlled-NOT \\
         \textbf{COBYLA} \> Constrained Optimization By Linear Approximation \\
         \textbf{COM} \> Center of mass \\
         \textbf{CV} \> Collective Variable \\
+        \textbf{CVaR} \> Conditional Value at Risk \\
         \textbf{D} \> Aspartic Acid \\
-        \textbf{DCA} \> Direct Coupoling Analysis \\
+        \textbf{DCA} \> Direct Coupling Analysis \\
         \textbf{DE} \> Differential Evolution \\
         \textbf{DO} \> Dioleoyl \\
         \textbf{DOPC} \> 1,2-dioleoyl-sn-glycero-3-phosphocholine \\
@@ -331,6 +334,7 @@
         \textbf{E} \> Glutamic Acid \\
         \textbf{F} \> Phenylalanine \\
         \textbf{FES} \> Free Energy Surface \\
+        \textbf{FF} \> Force Field \\
         \textbf{FFT} \> Fast Fourier Transform \\
         \textbf{G} \> Glycine \\
         \textbf{GROMACS} \> Groningen MAchine for Chemical Simulations \\
@@ -348,14 +352,19 @@
         \textbf{N} \> Asparagine \\
         \textbf{NISQ} \> Noisy Intermediate-Scale Quantum \\
         \textbf{NMR} \> Nuclear Magnetic Resonance \\
+        \textbf{NPT} \> Isothermal-Isobaric Ensemble \\
+        \textbf{NVE} \> Microcanonical Ensemble \\
+        \textbf{NVT} \> Canonical Ensemble \\
         \textbf{OPLS} \> Optimized Potentials for Liquid Simulations \\
         \textbf{P} \> Proline \\
         \textbf{PBC} \> Periodic Boundary Conditions \\
         \textbf{PC} \> Phosphatidylcholine \\
         \textbf{PCA} \> Principal Component Analysis \\
+        \textbf{PDB} \> Protein Data Bank \\
         \textbf{PE} \> Phosphatidylethanolamine \\
         \textbf{PEC} \> Probabilistic error cancellation \\
         \textbf{PG} \> Phosphatidylglycerol \\
+        \textbf{PME} \> Particle Mesh Ewald \\
         \textbf{PMF} \> Potential of Mean Force \\
         \textbf{POPC} \> 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine \\
         \textbf{POPE} \> 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine \\
@@ -366,6 +375,7 @@
         \textbf{QAA} \> Quantum Adiabatic Algorithm \\
         \textbf{QAOA} \> Quantum Approximate Optimization Algorithm \\
         \textbf{QC} \> Quantum Computing \\
+        \textbf{QEC} \> Quantum Error Correction \\
         \textbf{QEM} \> Quantum Error Mitigation \\
         \textbf{QM/MM} \> Quantum Mechanics/Molecular Mechanics \\
         \textbf{QPU} \> Quantum Processing Unit \\
@@ -375,12 +385,14 @@
         \textbf{S} \> Serine \\
         \textbf{SA} \> Simulated Annealing \\
         \textbf{SM} \> Sphingomyelin \\
+        \textbf{SPSA} \> Simultaneous Perturbation Stochastic Approximation \\
         \textbf{T} \> Threonine \\
         \textbf{TFE} \> 2,2,2-Trifluoroethanol \\
         \textbf{UA} \> united-atom \\
         \textbf{US} \> Umbrella Sampling \\
         \textbf{V} \> Valine \\
         \textbf{vdW} \> Van der Waals \\
+        \textbf{VMD} \> Visual Molecular Dynamics \\
         \textbf{VQA} \> Variational Quantum Algorithm \\
         \textbf{VQE} \> Variational Quantum Eigensolver \\
         \textbf{W} \> Tryptophan \\
