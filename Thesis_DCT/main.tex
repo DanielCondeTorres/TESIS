@@ -1,4 +1,4 @@
-\documentclass[12pt, twoside]{book} 
+\documentclass[12pt, twoside, openany]{book} 
 
 % Encoding and language
 \usepackage[utf8]{inputenc}
@@ -15,6 +15,7 @@
 \usepackage[T1]{fontenc}    
 \usepackage[english]{babel} 
 \usepackage{lipsum}
+\usepackage{emptypage}
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{svg}
@@ -53,6 +54,16 @@
 \setcounter{biburllcpenalty}{7000}
 \setcounter{biburlucpenalty}{8000}
 \setcounter{biburlnumpenalty}{9000}
+
+
+\usepackage{xpatch}
+
+\xpatchbibdriver{inproceedings}
+  {\usebibmacro{byauthor}}
+  {\usebibmacro{byauthor}%
+   \newunit
+   \usebibmacro{title}}
+  {}{}
 %%%%%PONER BIEN BIBLIO?
 % \renewcommand{\cite}[1]{\citation{#1}}
 
@@ -79,25 +90,27 @@
 
 % Macro to insert the folding peptide image based on page progress
 \newcommand{\insertpeptide}{%
-  \ifnum\value{page}>0 % Ensure page number is positive
-    \setrefcountdefault{240}% Set fallback to 240 if LastPage is not yet defined
-    \edef\totalpagesnum{\getpagerefnumber{LastPage}}%
-    % Calculate index: round(1 + (page - 1)/(total_pages - 1) * 239) and clamp between 1 and 240
-    \edef\imgindex{\fpeval{min(240, max(1, round(1 + (\thepage - 1) / (\totalpagesnum - 1) * 239, 0)))}}%
-    % Load the image (scaled to 2.1cm height so it is clearly visible in the footer)
-    \raisebox{-0.32\height}{\includegraphics[height=2.1cm]{FOLDING_PEPTIDE_PICTURE/folding_\imgindex.png}}%
-  \fi
+%   \ifnum\value{page}>0 % Ensure page number is positive
+%     \setrefcountdefault{240}% Set fallback to 240 if LastPage is not yet defined
+%     \edef\totalpagesnum{\getpagerefnumber{LastPage}}%
+%     % Calculate index: round(1 + (page - 1)/(total_pages - 1) * 239) and clamp between 1 and 240
+%     \edef\imgindex{\fpeval{min(240, max(1, round(1 + (\thepage - 1) / (\totalpagesnum - 1) * 239, 0)))}}%
+%     % Load the image (scaled to 2.1cm height so it is clearly visible in the footer)
+%     \raisebox{-0.32\height}{\includegraphics[height=2.1cm]{FOLDING_PEPTIDE_PICTURE/folding_\imgindex.png}}%
+%   \fi
 }
 
 % Define footers (page numbers and folding peptide on outer corners)
-\fancyfoot[LE]{\insertpeptide\quad\thepage} % Even pages: peptide on left, page number on right
-\fancyfoot[RO]{\thepage\quad\insertpeptide} % Odd pages: page number on left, peptide on right
+\fancyfoot[LE]{\thepage} % Even pages: page number on right
+\fancyfoot[RO]{\thepage} % Odd pages: page number on left
 
 % Remove headers & footers from cover, index, and chapter pages
 \fancypagestyle{plain}{%
     \fancyhf{} 
     \renewcommand{\headrulewidth}{0pt} % Remove header line
     \renewcommand{\footrulewidth}{0pt} % Remove footer line
+    \fancyfoot[LE]{\thepage} % Even pages: page number on left
+    \fancyfoot[RO]{\thepage} % Odd pages: page number on right
 }
 
 
@@ -186,7 +199,7 @@
     \else
       \@restonecolfalse
     \fi
-    \section*{\Huge Index}  
+    \section*{\Huge Table of Contents}  
     \vspace{1cm}  
     \@starttoc{toc}%
     \if@restonecol\twocolumn\fi
@@ -197,9 +210,9 @@
 \usepackage{tocloft}
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 
-% Change "Table of Contents" to "Index"
+% Change "Table of Contents" to "Table of Contents" (reverting previous change)
 \addto\captionsenglish{
-  \renewcommand{\contentsname}{Index}
+  \renewcommand{\contentsname}{Table of Contents}
 }
 
 \setcounter{secnumdepth}{3} % Limit numbering to subsubsections
@@ -225,6 +238,7 @@
 
 % Document begins
 \begin{document}
+\pagenumbering{Roman}
 
 \includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/Portada_tese.pdf} 
 
@@ -280,7 +294,7 @@
 % Declaracion responsable
 
 \include{Portada_Contraportada/Statement_of_authorship} % Declaracion derechos
-\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/tesis-compendio-declaracion-autor_a_en.pdf} % Declaracion responsable
+%\includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{Portada_Contraportada/tesis-compendio-declaracion-autor_a_en.pdf} % Declaracion responsable
 % \includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{authorization_rgf.pdf} % Authorization Rebeca
 % \includepdf[pages=-, pagecommand={\thispagestyle{empty}}]{authorization_apg.pdf} % Authorization angel
 
@@ -326,9 +340,9 @@
         \textbf{DCA} \> Direct Coupling Analysis \\
         \textbf{DE} \> Differential Evolution \\
         \textbf{DO} \> Dioleoyl \\
-        \textbf{DOPC} \> 1,2-dioleoyl-sn-glycero-3-phosphocholine \\
-        \textbf{DOPE} \> 1,2-dioleoyl-sn-glycero-3-phosphoethanolamine \\
-        \textbf{DOPS} \> 1,2-dioleoyl-sn-glycero-3-phospho-L-serine \\
+        \textbf{DOPC} \> 1,2-dioleoyl-\textit{sn}-glycero-3-phosphocholine \\
+        \textbf{DOPE} \> 1,2-dioleoyl-\textit{sn}-glycero-3-phosphoethanolamine \\
+        \textbf{DOPS} \> 1,2-dioleoyl-\textit{sn}-glycero-3-phospho-L-serine \\
         \textbf{DPSM} \> Palmitoyl sphingomyelin \\
         \textbf{DRAMP} \> Data Repository of Antimicrobial Peptides \\
         \textbf{E} \> Glutamic Acid \\
@@ -366,10 +380,10 @@
         \textbf{PG} \> Phosphatidylglycerol \\
         \textbf{PME} \> Particle Mesh Ewald \\
         \textbf{PMF} \> Potential of Mean Force \\
-        \textbf{POPC} \> 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine \\
-        \textbf{POPE} \> 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine \\
-        \textbf{POPG} \> 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol \\
-        \textbf{POPS} \> 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoserine \\
+        \textbf{POPC} \> 1-palmitoyl-2-oleoyl-\textit{sn}-glycero-3-phosphocholine \\
+        \textbf{POPE} \> 1-palmitoyl-2-oleoyl-\textit{sn}-glycero-3-phosphoethanolamine \\
+        \textbf{POPG} \> 1-palmitoyl-2-oleoyl-\textit{sn}-glycero-3-phosphoglycerol \\
+        \textbf{POPS} \> 1-palmitoyl-2-oleoyl-\textit{sn}-glycero-3-phosphoserine \\
         \textbf{PS} \> Phosphatidylserine \\
         \textbf{Q} \> Glutamine \\
         \textbf{QAA} \> Quantum Adiabatic Algorithm \\
@@ -409,6 +423,9 @@
 
 % Preface
 \include{General_Sections/Preface}
+
+\clearpage
+\pagenumbering{arabic}
 
 % Introduction
 \include{General_Sections/Introduction}
