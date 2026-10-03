@@ -2813,50 +2813,6 @@
       \verb http://www.ncbi.nlm.nih.gov/pubmed/22922101
       \endverb
     \endentry
-    \entry{bacterial_bilayer_3}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=d2679de5fd2d52838ade0528596a670a}{%
-           family={Epand},
-           familyi={E\bibinitperiod},
-           given={Richard\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=5968f7f9f5d3b99f1a7a29108ec1af2b}{%
-           family={Epand},
-           familyi={E\bibinitperiod},
-           given={Raquel\bibnamedelima F.},
-           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \strng{namehash}{0f75efa4c26326c215f952e07eda412f}
-      \strng{fullhash}{0f75efa4c26326c215f952e07eda412f}
-      \strng{fullhashraw}{0f75efa4c26326c215f952e07eda412f}
-      \strng{bibnamehash}{0f75efa4c26326c215f952e07eda412f}
-      \strng{authorbibnamehash}{0f75efa4c26326c215f952e07eda412f}
-      \strng{authornamehash}{0f75efa4c26326c215f952e07eda412f}
-      \strng{authorfullhash}{0f75efa4c26326c215f952e07eda412f}
-      \strng{authorfullhashraw}{0f75efa4c26326c215f952e07eda412f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{There has been increasing interest in recent years in describing the lateral organization of membranes and the formation of membrane domains. Much of the focus in this area has been on the formation of cholesterol-rich domains in mammalian membranes. However, it is likely that there are domains in all biological membranes. One of the challenges has been to define the chemical composition, lifetime and size of these domains. There is evidence that bacteria have domains that are enriched in cardiolipin. In addition, the formation of lipid domains can be induced in bacteria by clustering negatively charged lipids with polycationic substances. Many antimicrobial compounds have multiple positive charges. Such polycationic compounds can sequester anionic lipids to induce lipid phase separation. The molecular interactions among lipids and their lateral packing density will be different in a domain from its environment. This will lead to phase boundary defects that will lower the permeability barrier between the cell and its surroundings. The formation of these clusters of anionic lipids may also alter the stability or composition of existing membrane domains that may affect bacterial function. Interestingly many antimicrobial agents are polycationic and therefore likely have some effect in promoting lipid phase segregation between anionic and zwitterionic lipids. However, this mechanism is expected to be most important for substances with sequential positive charges contained within a flexible molecule that can adapt to the arrangement of charged groups on the surface of the bacterial cell. When this mechanism is dominant it can allow the prediction of the bacterial species that will be most affected by the agent as a consequence of the nature of the lipid composition of the bacterial membrane.}
-      \field{issn}{0005-2736}
-      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Biomembranes}
-      \field{number}{1}
-      \field{title}{Lipid domains in bacterial membranes and the action of antimicrobial agents}
-      \field{volume}{1788}
-      \field{year}{2009}
-      \field{pages}{289\bibrangedash 294}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1016/j.bbamem.2008.08.023
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0005273608002733
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0005273608002733
-      \endverb
-    \endentry
     \entry{bacteria_bilayer_4}{article}{}{}
       \name{author}{2}{}{%
         {{hash=89c60fbef71d08af53c97ed657991a12}{%
@@ -2878,8 +2834,8 @@
       \strng{authornamehash}{d0602f96df866fe1064025c62a140784}
       \strng{authorfullhash}{d0602f96df866fe1064025c62a140784}
       \strng{authorfullhashraw}{d0602f96df866fe1064025c62a140784}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1740-1534}
@@ -2901,46 +2857,52 @@
       \verb https://doi.org/10.1038/nrmicro1839
       \endverb
     \endentry
-    \entry{Vance2015}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=b9a5e2c88543b957544f1ae9a5428e84}{%
-           family={Vance},
+    \entry{vejzovic2026bacterial}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=fbde70d89172ba1c7563f33f385fad95}{%
+           family={Vejzovic},
            familyi={V\bibinitperiod},
-           given={Jean\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=93bfab640901ebc1c5501561aed62551}{%
+           family={Schwaiger},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7d242e242fd806cba94dc409e57fc492}{%
+           family={Topciu},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {John Wiley \& Sons, Ltd}%
-      }
-      \strng{namehash}{b9a5e2c88543b957544f1ae9a5428e84}
-      \strng{fullhash}{b9a5e2c88543b957544f1ae9a5428e84}
-      \strng{fullhashraw}{b9a5e2c88543b957544f1ae9a5428e84}
-      \strng{bibnamehash}{b9a5e2c88543b957544f1ae9a5428e84}
-      \strng{authorbibnamehash}{b9a5e2c88543b957544f1ae9a5428e84}
-      \strng{authornamehash}{b9a5e2c88543b957544f1ae9a5428e84}
-      \strng{authorfullhash}{b9a5e2c88543b957544f1ae9a5428e84}
-      \strng{authorfullhashraw}{b9a5e2c88543b957544f1ae9a5428e84}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \strng{namehash}{ff92e628c150c51938b929c62d60e1a0}
+      \strng{fullhash}{589c64b10f2b24a2405b2d698094b17e}
+      \strng{fullhashraw}{589c64b10f2b24a2405b2d698094b17e}
+      \strng{bibnamehash}{589c64b10f2b24a2405b2d698094b17e}
+      \strng{authorbibnamehash}{589c64b10f2b24a2405b2d698094b17e}
+      \strng{authornamehash}{ff92e628c150c51938b929c62d60e1a0}
+      \strng{authorfullhash}{589c64b10f2b24a2405b2d698094b17e}
+      \strng{authorfullhashraw}{589c64b10f2b24a2405b2d698094b17e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1398-9219}
-      \field{issue}{1}
-      \field{journaltitle}{Traffic}
-      \field{month}{1}
-      \field{title}{Phospholipid Synthesis and Transport in Mammalian Cells}
-      \field{volume}{16}
-      \field{year}{2015}
-      \field{pages}{1\bibrangedash 18}
-      \range{pages}{18}
+      \field{journaltitle}{npj Antimicrobial Resistance}
+      \field{title}{Bacterial cell fate under stress: lipid remodeling and antimicrobial peptide attack}
+      \field{volume}{4}
+      \field{year}{2026}
+      \field{pages}{22}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1111/tra.12230
+      \verb 10.1038/s44259-026-00195-7
       \endverb
       \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/tra.12230
+      \verb https://doi.org/10.1038/s44259-026-00195-7
       \endverb
       \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/10.1111/tra.12230
+      \verb https://doi.org/10.1038/s44259-026-00195-7
       \endverb
     \endentry
     \entry{Nagata2016}{article}{}{}
@@ -3489,6 +3451,48 @@
       \verb 10.1038/nrc3599
       \endverb
     \endentry
+    \entry{macdermott2022lipid}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f5beb4ca44bf02357d104e4d28bbdcf5}{%
+           family={MacDermott-Opeskin},
+           familyi={M\bibinithyphendelim O\bibinitperiod},
+           given={H.\bibnamedelimi I.},
+           giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=3814c0eb5239d5b46ed5e532af1423c3}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=22b8a1ebd4d4916ac92a74ba93a3d3e8}{%
+           family={O'Mara},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{82cc5a8ed9f56e3f81ae8527c8e0eaf7}
+      \strng{fullhash}{0efd5c2a7cc49559b438ac8f0045f111}
+      \strng{fullhashraw}{0efd5c2a7cc49559b438ac8f0045f111}
+      \strng{bibnamehash}{0efd5c2a7cc49559b438ac8f0045f111}
+      \strng{authorbibnamehash}{0efd5c2a7cc49559b438ac8f0045f111}
+      \strng{authornamehash}{82cc5a8ed9f56e3f81ae8527c8e0eaf7}
+      \strng{authorfullhash}{0efd5c2a7cc49559b438ac8f0045f111}
+      \strng{authorfullhashraw}{0efd5c2a7cc49559b438ac8f0045f111}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biophysical Reviews}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Lipid-mediated antimicrobial resistance: a phantom menace or a new hope?}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{145\bibrangedash 162}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s12551-021-00912-8
+      \endverb
+    \endentry
     \entry{lipidomics_2}{article}{}{}
       \name{author}{8}{}{%
         {{hash=146baf5eee606eea0e0cd12d4352b4bb}{%
@@ -3727,8 +3731,8 @@
       \strng{authornamehash}{6e84705b1df179a3f393b49105d3099b}
       \strng{authorfullhash}{6e84705b1df179a3f393b49105d3099b}
       \strng{authorfullhashraw}{6e84705b1df179a3f393b49105d3099b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1546-1696}
@@ -3779,8 +3783,8 @@
       \strng{authornamehash}{cbcf0bd8e38069a9c78ed5413ba7cafa}
       \strng{authorfullhash}{c66fa81572f20e79072d48c6080c4d46}
       \strng{authorfullhashraw}{c66fa81572f20e79072d48c6080c4d46}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2218-273X}
@@ -3848,8 +3852,8 @@
       \strng{authorfullhash}{64042eb956e1dbe1684bebd3b94a4de3}
       \strng{authorfullhashraw}{64042eb956e1dbe1684bebd3b94a4de3}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs) are bioactive macromolecules that exhibit antibacterial, antiviral, and immunomodulatory functions. They come from a wide range of sources and are found in all forms of life, from bacteria to plants, vertebrates, and invertebrates, and play an important role in controlling the spread of pathogens, promoting wound healing and treating tumors. Consequently, AMPs have emerged as promising alternatives to next-generation antibiotics. With advancements in systems biology and synthetic biology technologies, it has become possible to synthesize AMPs artificially. We can better understand their functional activities for further modification and development by investigating the mechanism of action underlying their antimicrobial properties. This review focuses on the structural aspects of AMPs while highlighting their significance for biological activity. Furthermore, it elucidates the membrane targeting mechanism and intracellular targets of these peptides while summarizing molecular modification approaches aimed at enhancing their antibacterial efficacy. Finally, this article outlines future challenges in the functional development of AMPs along with proposed strategies to overcome them.}
@@ -3898,8 +3902,8 @@
       \strng{authorfullhash}{cec47e8b1a371f821c725fc126fa872f}
       \strng{authorfullhashraw}{cec47e8b1a371f821c725fc126fa872f}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Antimicrobial peptides (AMPs), evolutionarily conserved components of the immune system, have attracted considerable attention as promising therapeutic candidates. Derived from diverse organisms, AMPs represent a heterogeneous class of molecules, typically cationic, which facilitates their initial electrostatic interaction with anionic microbial membranes. Unlike conventional single-target antibiotics, AMPs utilize rapid, multi-target mechanisms, primarily physical membrane disruption, which results in a significantly lower incidence of resistance emergence. Their broad-spectrum antimicrobial activity, capacity to modulate host immunity, and unique mechanisms of action make them inherently less susceptible to resistance compared with traditional antibiotics. Despite these advantages, the clinical translation of natural AMPs remains limited by several challenges, including poor in vivo stability, and potential cytotoxicity. Bioengineering technology offers innovative solutions to these limitations of AMPs. Two techniques have demonstrated promise: (i) a chimeric recombinant of AMPs with stable scaffold, such as human serum albumin and antibody Fc domain and (ii) chemical modification approaches, such as lipidation. This review provides a comprehensive overview of AMPs, highlighting their origins, structures, and mechanisms of antimicrobial activity, followed by recent advances in bioengineering platforms designed to overcome their therapeutic limitations. By integrating natural AMPs with bioengineering and nanotechnologies, AMPs may be developed into next-generation antibiotics.}
@@ -9421,6 +9425,73 @@
       \verb https://doi.org/10.1021/acs.jctc.5c00126
       \endverb
     \endentry
+    \entry{MPro}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=b5ae263641ff93495fc2343e3f596a1c}{%
+           family={Monticelli},
+           familyi={M\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=32003cb1da0a5cb9d04886ea0f482e0e}{%
+           family={Kandasamy},
+           familyi={K\bibinitperiod},
+           given={Senthil\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=05a1d33db1d5dca0dcabe5a44d1ee178}{%
+           family={Periole},
+           familyi={P\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=caeda939bcf1ae2ca057bd5f5338d977}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Ronald\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=abc3b49ac384d1f0b3e59c45ff6f8ee7}{%
+           family={Tieleman},
+           familyi={T\bibinitperiod},
+           given={D.\bibnamedelimi Peter},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=888e1096c5a638471921be5c00c089bf}{%
+           family={Marrink},
+           familyi={M\bibinitperiod},
+           given={Siewert-Jan},
+           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{201ec4eaa7265fcf42cdd6af5ef63847}
+      \strng{fullhash}{12020e55fcf1aa56d5e50ad91df1eba7}
+      \strng{fullhashraw}{12020e55fcf1aa56d5e50ad91df1eba7}
+      \strng{bibnamehash}{12020e55fcf1aa56d5e50ad91df1eba7}
+      \strng{authorbibnamehash}{12020e55fcf1aa56d5e50ad91df1eba7}
+      \strng{authornamehash}{201ec4eaa7265fcf42cdd6af5ef63847}
+      \strng{authorfullhash}{12020e55fcf1aa56d5e50ad91df1eba7}
+      \strng{authorfullhashraw}{12020e55fcf1aa56d5e50ad91df1eba7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1549-9618}
+      \field{issue}{5}
+      \field{journaltitle}{Journal of Chemical Theory and Computation}
+      \field{month}{5}
+      \field{title}{The MARTINI Coarse-Grained Force Field: Extension to Proteins}
+      \field{volume}{4}
+      \field{year}{2008}
+      \field{pages}{819\bibrangedash 834}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1021/ct700324x
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/ct700324x
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/ct700324x
+      \endverb
+    \endentry
     \entry{limitation_martini_1}{article}{}{}
       \name{author}{4}{}{%
         {{hash=fa2482c6eba0d54d45ec63dff92c2e49}{%
@@ -12790,7 +12861,7 @@
       \field{pages}{327\bibrangedash 341}
       \range{pages}{15}
       \verb{doi}
-      \verb https://doi.org/10.1016/0021-9991(77)90098-5
+      \verb 10.1016/0021-9991(77)90098-5
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/0021999177900985
@@ -14398,70 +14469,6 @@
       \verb 10.1073/pnas.0409005102
       \endverb
     \endentry
-    \entry{DANI_CUANTICA}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
-           family={Conde-Torres},
-           familyi={C\bibinithyphendelim T\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=b51ac35c95162e7619f3f3d90e20b9b6}{%
-           family={Mussa-Juane},
-           familyi={M\bibinithyphendelim J\bibinitperiod},
-           given={Mariamo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=503dae5306e6b25899a68bf89f34595b}{%
-           family={Faílde},
-           familyi={F\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=1a405fe996ced74d1d6d7065f6dd4a3a}{%
-           family={Gómez},
-           familyi={G\bibinitperiod},
-           given={Andrés},
-           giveni={A\bibinitperiod}}}%
-        {{hash=89173c6cc73e6a66e3314aab41131d3d}{%
-           family={García-Fandiño},
-           familyi={G\bibinithyphendelim F\bibinitperiod},
-           given={Rebeca},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
-           family={Piñeiro},
-           familyi={P\bibinitperiod},
-           given={Ángel},
-           giveni={Á\bibinitperiod}}}%
-      }
-      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
-      \strng{fullhash}{e999dabd205d32dabd69447c98289453}
-      \strng{fullhashraw}{e999dabd205d32dabd69447c98289453}
-      \strng{bibnamehash}{e999dabd205d32dabd69447c98289453}
-      \strng{authorbibnamehash}{e999dabd205d32dabd69447c98289453}
-      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
-      \strng{authorfullhash}{e999dabd205d32dabd69447c98289453}
-      \strng{authorfullhashraw}{e999dabd205d32dabd69447c98289453}
-      \field{extraname}{4}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Background: Antimicrobial peptides (AMPs) are crucial in the fight against infections and play significant roles in various health contexts, including cancer, autoimmune diseases, and aging. A key aspect of AMP functionality is their selective interaction with pathogen membranes, which often exhibit altered lipid compositions. These interactions are thought to induce a conformational shift in AMPs from random coil to alpha-helical structures, essential for their lytic activity. Traditional computational approaches have faced challenges in accurately modeling these structural changes, especially in membrane environments, thereby opening and opportunity for more advanced approaches. Method: This study extends an existing quantum computing algorithm, initially designed for peptide folding simulations in homogeneous environments, to address the complexities of AMP interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, resembling lipid membranes. The new method was tested on three 10-amino-acid-long peptides, each characterized by distinct hydrophobic, hydrophilic, or amphipathic properties, across different media and at interfaces between solvents of different polarity. Results: The developed method successfully modeled the structure of the peptides without increasing the number of qubits required compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite the current limitations in computational power and qubit availability, the findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly AMP folding at membrane models. Conclusions: This research highlights the promising applications of quantum computing in biomolecular simulations, paving the way for future advancements in the development of novel therapeutic agents. We aim to offer a new perspective on enhancing the accuracy and applicability of biomolecular simulations in the context of AMP interactions with membrane models.}
-      \field{issn}{0010-4825}
-      \field{journaltitle}{Computers in Biology and Medicine}
-      \field{title}{Classical Simulations on Quantum Computers: Interface-Driven Peptide Folding on Simulated Membrane Surfaces}
-      \field{volume}{182}
-      \field{year}{2024}
-      \field{pages}{109157}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.compbiomed.2024.109157
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
-      \endverb
-    \endentry
     \entry{tratamiento_datos_fisicos}{book}{}{}
       \name{author}{3}{}{%
         {{hash=1599e8ea100b270042cca5a0272335e6}{%
@@ -15848,6 +15855,70 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/1811.04968
+      \endverb
+    \endentry
+    \entry{DANI_CUANTICA}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=3dfbf78019dcc5ac94c0796bcdc36039}{%
+           family={Conde-Torres},
+           familyi={C\bibinithyphendelim T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b51ac35c95162e7619f3f3d90e20b9b6}{%
+           family={Mussa-Juane},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={Mariamo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=503dae5306e6b25899a68bf89f34595b}{%
+           family={Faílde},
+           familyi={F\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1a405fe996ced74d1d6d7065f6dd4a3a}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={Andrés},
+           giveni={A\bibinitperiod}}}%
+        {{hash=89173c6cc73e6a66e3314aab41131d3d}{%
+           family={García-Fandiño},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Rebeca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a625dcd02c0cb5fe26137216912f6379}{%
+           family={Piñeiro},
+           familyi={P\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{fullhash}{e999dabd205d32dabd69447c98289453}
+      \strng{fullhashraw}{e999dabd205d32dabd69447c98289453}
+      \strng{bibnamehash}{e999dabd205d32dabd69447c98289453}
+      \strng{authorbibnamehash}{e999dabd205d32dabd69447c98289453}
+      \strng{authornamehash}{928900e8521e83a2c8ece677d0982d1d}
+      \strng{authorfullhash}{e999dabd205d32dabd69447c98289453}
+      \strng{authorfullhashraw}{e999dabd205d32dabd69447c98289453}
+      \field{extraname}{4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background: Antimicrobial peptides (AMPs) are crucial in the fight against infections and play significant roles in various health contexts, including cancer, autoimmune diseases, and aging. A key aspect of AMP functionality is their selective interaction with pathogen membranes, which often exhibit altered lipid compositions. These interactions are thought to induce a conformational shift in AMPs from random coil to alpha-helical structures, essential for their lytic activity. Traditional computational approaches have faced challenges in accurately modeling these structural changes, especially in membrane environments, thereby opening and opportunity for more advanced approaches. Method: This study extends an existing quantum computing algorithm, initially designed for peptide folding simulations in homogeneous environments, to address the complexities of AMP interactions at interfaces. Our approach enables the prediction of the optimal conformation of peptides located in the transition region between hydrophilic and hydrophobic phases, resembling lipid membranes. The new method was tested on three 10-amino-acid-long peptides, each characterized by distinct hydrophobic, hydrophilic, or amphipathic properties, across different media and at interfaces between solvents of different polarity. Results: The developed method successfully modeled the structure of the peptides without increasing the number of qubits required compared to simulations in homogeneous media, making it more feasible with current quantum computing resources. Despite the current limitations in computational power and qubit availability, the findings demonstrate the significant potential of quantum computing in accurately characterizing complex biomolecular processes, particularly AMP folding at membrane models. Conclusions: This research highlights the promising applications of quantum computing in biomolecular simulations, paving the way for future advancements in the development of novel therapeutic agents. We aim to offer a new perspective on enhancing the accuracy and applicability of biomolecular simulations in the context of AMP interactions with membrane models.}
+      \field{issn}{0010-4825}
+      \field{journaltitle}{Computers in Biology and Medicine}
+      \field{title}{Classical Simulations on Quantum Computers: Interface-Driven Peptide Folding on Simulated Membrane Surfaces}
+      \field{volume}{182}
+      \field{year}{2024}
+      \field{pages}{109157}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compbiomed.2024.109157
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010482524012423
       \endverb
     \endentry
     \entry{DANI_HAMILTONIAN}{article}{}{}
