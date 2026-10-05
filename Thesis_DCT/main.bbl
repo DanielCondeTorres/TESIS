@@ -52,19 +52,33 @@
       \endverb
     \endentry
     \entry{GBD2021CausesOfDeath}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=b8f5f2c2605e68717216c28155e934ab}{%
-           family={{GBD 2021 Causes of Death Collaborators.}},
-           familyi={G\bibinitperiod}}}%
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=8590261a2dec6e655ce669b321060f91}{%
+           family={Naghavi},
+           familyi={N\bibinitperiod},
+           given={Mohsen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=15ade58972825096bdadacd9e03a6862}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={Kanyin\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=121cdf0511f5763b0972801b2c541ab8}{%
+           family={Aali},
+           familyi={A\bibinitperiod},
+           given={Amirali},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{b8f5f2c2605e68717216c28155e934ab}
-      \strng{fullhash}{b8f5f2c2605e68717216c28155e934ab}
-      \strng{fullhashraw}{b8f5f2c2605e68717216c28155e934ab}
-      \strng{bibnamehash}{b8f5f2c2605e68717216c28155e934ab}
-      \strng{authorbibnamehash}{b8f5f2c2605e68717216c28155e934ab}
-      \strng{authornamehash}{b8f5f2c2605e68717216c28155e934ab}
-      \strng{authorfullhash}{b8f5f2c2605e68717216c28155e934ab}
-      \strng{authorfullhashraw}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{namehash}{e331efb55d2b5001f563f09655c1571e}
+      \strng{fullhash}{203aaa021079e909965552a3ec7551d0}
+      \strng{fullhashraw}{203aaa021079e909965552a3ec7551d0}
+      \strng{bibnamehash}{203aaa021079e909965552a3ec7551d0}
+      \strng{authorbibnamehash}{203aaa021079e909965552a3ec7551d0}
+      \strng{authornamehash}{e331efb55d2b5001f563f09655c1571e}
+      \strng{authorfullhash}{203aaa021079e909965552a3ec7551d0}
+      \strng{authorfullhashraw}{203aaa021079e909965552a3ec7551d0}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -474,7 +488,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cell}
       \field{number}{4}
-      \field{title}{Geroscience: linking aging to chronic disease}
+      \field{title}{Geroscience: Linking Aging to Chronic Disease}
       \field{volume}{159}
       \field{year}{2014}
       \field{pages}{709\bibrangedash 713}
@@ -748,13 +762,11 @@
     \endentry
     \entry{deMartel2020}{article}{}{}
       \name{author}{5}{}{%
-        {{hash=00d70b7832befb1e6d9c7ba73ec292a1}{%
-           family={Martel},
-           familyi={M\bibinitperiod},
+        {{hash=fb47398ea2bf81f1542c28bc8f4e00ac}{%
+           family={{de Martel}},
+           familyi={d\bibinitperiod},
            given={Catherine},
-           giveni={C\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=e1ecd262e061f563f65e6df75586b47b}{%
            family={Georges},
            familyi={G\bibinitperiod},
@@ -779,14 +791,14 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{07d081c8cadb7086a59f024f5f95ee91}
-      \strng{fullhash}{7cdc50bfb56dee9e527c8332ef0870cc}
-      \strng{fullhashraw}{7cdc50bfb56dee9e527c8332ef0870cc}
-      \strng{bibnamehash}{7cdc50bfb56dee9e527c8332ef0870cc}
-      \strng{authorbibnamehash}{7cdc50bfb56dee9e527c8332ef0870cc}
-      \strng{authornamehash}{07d081c8cadb7086a59f024f5f95ee91}
-      \strng{authorfullhash}{7cdc50bfb56dee9e527c8332ef0870cc}
-      \strng{authorfullhashraw}{7cdc50bfb56dee9e527c8332ef0870cc}
+      \strng{namehash}{c12f694a134ffd5b5811cb1f917f073d}
+      \strng{fullhash}{bb61e433f835df3aa73e1187dccc552b}
+      \strng{fullhashraw}{bb61e433f835df3aa73e1187dccc552b}
+      \strng{bibnamehash}{bb61e433f835df3aa73e1187dccc552b}
+      \strng{authorbibnamehash}{bb61e433f835df3aa73e1187dccc552b}
+      \strng{authornamehash}{c12f694a134ffd5b5811cb1f917f073d}
+      \strng{authorfullhash}{bb61e433f835df3aa73e1187dccc552b}
+      \strng{authorfullhashraw}{bb61e433f835df3aa73e1187dccc552b}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -795,7 +807,7 @@
       \field{number}{2}
       \field{title}{Global burden of cancer attributable to infections in 2018: a worldwide incidence analysis}
       \field{volume}{8}
-      \field{year}{2020}
+      \field{year}{2019}
       \field{pages}{e180\bibrangedash e190}
       \range{pages}{-1}
       \verb{doi}
@@ -807,8 +819,8 @@
         {{hash=acbe78b19c78d9b3cad86aaf7f04404b}{%
            family={Rolston},
            familyi={R\bibinitperiod},
-           given={Kenneth\bibnamedelima VI},
-           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+           given={Kenneth\bibnamedelimb V\bibnamedelima I},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Springer}%
@@ -827,7 +839,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Infectious Disease and Therapy}
       \field{number}{1}
-      \field{title}{Infections in cancer patients with solid tumors: a review}
+      \field{title}{Infections in Cancer Patients with Solid Tumors: A Review}
       \field{volume}{6}
       \field{year}{2017}
       \field{pages}{69\bibrangedash 83}
@@ -965,7 +977,7 @@
       \verb 10.1038/s41590-017-0006-x
       \endverb
     \endentry
-    \entry{Muller2019}{article}{}{}
+    \entry{Muller2019}{inbook}{}{}
       \name{author}{3}{}{%
         {{hash=84d1b20f401a3d4ea18242cbcb35556f}{%
            family={Müller},
@@ -983,6 +995,21 @@
            given={G},
            giveni={G\bibinitperiod}}}%
       }
+      \name{editor}{2}{}{%
+        {{hash=14d3145c9819893a6996519e9f470814}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi Robin},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ecd845c0f9b5b33555ca23adfb2158ab}{%
+           family={Korolchuk},
+           familyi={K\bibinitperiod},
+           given={Viktor\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Singapore}%
+      }
       \list{publisher}{1}{%
         {Springer}%
       }
@@ -994,12 +1021,18 @@
       \strng{authornamehash}{530cbc1d4855b54563c54bedd0e565bf}
       \strng{authorfullhash}{008482415cf2b913adbf1c38492aa1af}
       \strng{authorfullhashraw}{008482415cf2b913adbf1c38492aa1af}
+      \strng{editorbibnamehash}{2b5dfdb845c37ad86b527e981eb3178e}
+      \strng{editornamehash}{2b5dfdb845c37ad86b527e981eb3178e}
+      \strng{editorfullhash}{2b5dfdb845c37ad86b527e981eb3178e}
+      \strng{editorfullhashraw}{2b5dfdb845c37ad86b527e981eb3178e}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Subcellular Biochemistry}
-      \field{title}{The immune system and its dysregulation with aging}
+      \field{booktitle}{Biochemistry and Cell Biology of Ageing: Part II Clinical Science}
+      \field{isbn}{978-981-13-3681-2}
+      \field{series}{Subcellular Biochemistry}
+      \field{title}{The Immune System and Its Dysregulation with Aging}
       \field{volume}{91}
       \field{year}{2019}
       \field{pages}{21\bibrangedash 43}
@@ -1043,7 +1076,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Aging and Disease}
       \field{number}{5}
-      \field{title}{The biology of aging and cancer: a brief overview of shared and divergent molecular hallmarks}
+      \field{title}{The Biology of Aging and Cancer: A Brief Overview of Shared and Divergent Molecular Hallmarks}
       \field{volume}{8}
       \field{year}{2017}
       \field{pages}{628\bibrangedash 642}
@@ -1076,7 +1109,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annual Review of Physiology}
-      \field{title}{Aging, cellular senescence, and cancer}
+      \field{title}{Aging, Cellular Senescence, and Cancer}
       \field{volume}{75}
       \field{year}{2013}
       \field{pages}{685\bibrangedash 705}
@@ -1229,7 +1262,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Current HIV/AIDS Reports}
       \field{number}{3}
-      \field{title}{Lipidome abnormalities and cardiovascular disease risk in HIV infection}
+      \field{title}{Lipidome Abnormalities and Cardiovascular Disease Risk in HIV Infection}
       \field{volume}{16}
       \field{year}{2019}
       \field{pages}{214\bibrangedash 223}
@@ -1892,9 +1925,9 @@
     \endentry
     \entry{van2008membrane}{article}{}{}
       \name{author}{3}{}{%
-        {{hash=d8b5b25952d0138da72804a90acefb37}{%
-           family={Van\bibnamedelima Meer},
-           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+        {{hash=63e3227e95e1ca3cfeaed9b5fd7c212b}{%
+           family={{van Meer}},
+           familyi={v\bibinitperiod},
            given={Gerrit},
            giveni={G\bibinitperiod}}}%
         {{hash=3dd12b1efa21bc1f361943d191760a4e}{%
@@ -1911,14 +1944,14 @@
       \list{publisher}{1}{%
         {Nature Publishing Group UK London}%
       }
-      \strng{namehash}{62ca8551282ad4961f299a8461fe43e3}
-      \strng{fullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{fullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{bibnamehash}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{authorbibnamehash}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{authornamehash}{62ca8551282ad4961f299a8461fe43e3}
-      \strng{authorfullhash}{67757bdbf1bfbd7232eb1f4f5d32d918}
-      \strng{authorfullhashraw}{67757bdbf1bfbd7232eb1f4f5d32d918}
+      \strng{namehash}{99d15144f8bbc4422933e72039628c10}
+      \strng{fullhash}{c94bf5959ecc581a9a4bf1edbd4ad591}
+      \strng{fullhashraw}{c94bf5959ecc581a9a4bf1edbd4ad591}
+      \strng{bibnamehash}{c94bf5959ecc581a9a4bf1edbd4ad591}
+      \strng{authorbibnamehash}{c94bf5959ecc581a9a4bf1edbd4ad591}
+      \strng{authornamehash}{99d15144f8bbc4422933e72039628c10}
+      \strng{authorfullhash}{c94bf5959ecc581a9a4bf1edbd4ad591}
+      \strng{authorfullhashraw}{c94bf5959ecc581a9a4bf1edbd4ad591}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -1932,39 +1965,6 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1038/nrm2330
-      \endverb
-    \endentry
-    \entry{biorender}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=1084e45e7e35614f6e46d89bb6dc40a8}{%
-           family={Garcia},
-           familyi={G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{1084e45e7e35614f6e46d89bb6dc40a8}
-      \strng{fullhash}{1084e45e7e35614f6e46d89bb6dc40a8}
-      \strng{fullhashraw}{1084e45e7e35614f6e46d89bb6dc40a8}
-      \strng{bibnamehash}{1084e45e7e35614f6e46d89bb6dc40a8}
-      \strng{authorbibnamehash}{1084e45e7e35614f6e46d89bb6dc40a8}
-      \strng{authornamehash}{1084e45e7e35614f6e46d89bb6dc40a8}
-      \strng{authorfullhash}{1084e45e7e35614f6e46d89bb6dc40a8}
-      \strng{authorfullhashraw}{1084e45e7e35614f6e46d89bb6dc40a8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Created with {BioRender}}
-      \field{urlday}{25}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{year}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://BioRender.com/k1t4ye7
-      \endverb
-      \verb{url}
-      \verb https://BioRender.com/k1t4ye7
       \endverb
     \endentry
     \entry{chemdraw}{online}{}{}
@@ -1981,8 +1981,8 @@
       \strng{authornamehash}{e0e5b897b79c166580afab519667b128}
       \strng{authorfullhash}{e0e5b897b79c166580afab519667b128}
       \strng{authorfullhashraw}{e0e5b897b79c166580afab519667b128}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Licensed through the University of Santiago de Compostela (USC)}
@@ -1990,10 +1990,10 @@
       \field{version}{22.2}
       \field{year}{2021}
       \verb{urlraw}
-      \verb https://perkinelmerinformatics.com/products/research/chemdraw/
+      \verb https://revvitysignals.com/products/research/chemdraw
       \endverb
       \verb{url}
-      \verb https://perkinelmerinformatics.com/products/research/chemdraw/
+      \verb https://revvitysignals.com/products/research/chemdraw
       \endverb
     \endentry
     \entry{self-assembly}{article}{}{}
@@ -2209,7 +2209,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Biophysical Journal}
       \field{number}{5}
-      \field{title}{Thermodynamics of phospholipid self-assembly}
+      \field{title}{Thermodynamics of Phospholipid Self-Assembly}
       \field{volume}{102}
       \field{year}{2012}
       \field{pages}{1079\bibrangedash 1087}
@@ -2306,8 +2306,8 @@
       \strng{authornamehash}{09d36e83f227e752e44dfc8d07c5d666}
       \strng{authorfullhash}{09d36e83f227e752e44dfc8d07c5d666}
       \strng{authorfullhashraw}{09d36e83f227e752e44dfc8d07c5d666}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -2342,8 +2342,8 @@
       \strng{authornamehash}{db3972da5c6b02bdbf3d0c88650ad35d}
       \strng{authorfullhash}{db3972da5c6b02bdbf3d0c88650ad35d}
       \strng{authorfullhashraw}{db3972da5c6b02bdbf3d0c88650ad35d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Cell membranes are very complex biological systems including a large variety of lipids and proteins. Therefore, they are difficult to extract and directly investigate with biophysical methods. For many decades, the characterization of simpler biomimetic lipid membranes, which contain only a few lipid species, provided important physico-chemical information on the most abundant lipid species in cell membranes. These studies described physical and chemical properties that are most likely similar to those of real cell membranes. Indeed, biomimetic lipid membranes can be easily prepared in the lab and are compatible with multiple biophysical techniques. Lipid phase transitions, the bilayer structure, the impact of cholesterol on the structure and dynamics of lipid bilayers, and the selective recognition of target lipids by proteins, peptides, and drugs are all examples of the detailed information about cell membranes obtained by the investigation of biomimetic lipid membranes. This review focuses specifically on the advances that were achieved during the last decade in the field of biomimetic lipid membranes mimicking the mammalian plasma membrane. In particular, we provide a description of the most common types of lipid membrane models used for biophysical characterization, i.e., lipid membranes in solution and on surfaces, as well as recent examples of their applications for the investigation of protein-lipid and drug-lipid interactions. Altogether, promising directions for future developments of biomimetic lipid membranes are the further implementation of natural lipid mixtures for the development of more biologically relevant lipid membranes, as well as the development of sample preparation protocols that enable the incorporation of membrane proteins in the biomimetic lipid membranes.}
@@ -2397,8 +2397,8 @@
       \strng{authorfullhash}{41cdf574d58aea3649e337a055bd55b8}
       \strng{authorfullhashraw}{41cdf574d58aea3649e337a055bd55b8}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00219258}
@@ -2451,10 +2451,10 @@
       \field{issue}{8}
       \field{journaltitle}{Biological \& Pharmaceutical Bulletin}
       \field{month}{8}
-      \field{title}{Lipid asymmetry of the eukaryotic plasma membrane: functions and related enzymes.}
+      \field{title}{Lipid Asymmetry of the Eukaryotic Plasma Membrane: Functions and Related Enzymes.}
       \field{volume}{29}
       \field{year}{2006}
-      \field{pages}{1542\bibrangedash 6}
+      \field{pages}{1542\bibrangedash 1546}
       \range{pages}{5}
       \verb{doi}
       \verb 10.1248/bpb.29.1542
@@ -2492,7 +2492,7 @@
       \field{number}{2}
       \field{title}{Regulation of transbilayer plasma membrane phospholipid asymmetry}
       \field{volume}{44}
-      \field{year}{2003}
+      \field{year}{2002}
       \field{pages}{233\bibrangedash 242}
       \range{pages}{10}
       \verb{doi}
@@ -2936,8 +2936,8 @@
       \strng{authornamehash}{22ff69d8e5f3321290c9ed14aa597682}
       \strng{authorfullhash}{a91d86136ea5ff1d291edc3c787b00dc}
       \strng{authorfullhashraw}{a91d86136ea5ff1d291edc3c787b00dc}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Phosphatidylserine (PtdSer) is a phospholipid that is abundant in eukaryotic plasma membranes. An ATP-dependent enzyme called flippase normally keeps PtdSer inside the cell, but PtdSer is exposed by the action of scramblase on the cell’s surface in biological processes such as apoptosis and platelet activation. Once exposed to the cell surface, PtdSer acts as an ‘eat me’ signal on dead cells, and creates a scaffold for blood-clotting factors on activated platelets. The molecular identities of the flippase and scramblase that work at plasma membranes have long eluded researchers. Indeed, their identity as well as the mechanism of the PtdSer exposure to the cell surface has only recently been revealed. Here, we describe how PtdSer is exposed in apoptotic cells and in activated platelets, and discuss PtdSer exposure in other biological processes.}
@@ -2982,8 +2982,8 @@
       \strng{authornamehash}{381189647b34965fe01644a9cdf9f9e3}
       \strng{authorfullhash}{381189647b34965fe01644a9cdf9f9e3}
       \strng{authorfullhashraw}{381189647b34965fe01644a9cdf9f9e3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Current Biology}
@@ -3345,13 +3345,13 @@
       \strng{authorfullhash}{0019cfe1b845cf77adbde5566f150102}
       \strng{authorfullhashraw}{0019cfe1b845cf77adbde5566f150102}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Molecular Biology}
       \field{number}{18}
-      \field{title}{Peptide design principles for antimicrobial applications}
+      \field{title}{Peptide Design Principles for Antimicrobial Applications}
       \field{volume}{431}
       \field{year}{2019}
       \field{pages}{3547\bibrangedash 3567}
@@ -3379,8 +3379,8 @@
       \strng{authornamehash}{a6b48b83df0a4c0f01da0c87ff9ba545}
       \strng{authorfullhash}{a6b48b83df0a4c0f01da0c87ff9ba545}
       \strng{authorfullhashraw}{a6b48b83df0a4c0f01da0c87ff9ba545}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Although most drugs bind to proteins and regulate their activity, some drugs act through a new therapeutic approach called membrane-lipid therapy and bind to lipids, thus modulating the structure of membranes. Most cellular functions are highly dependent on the lipid environment because they are controlled by proteins in or around membranes. The wide variety of cell and organelle membranes and the existence of special lipid regions (e.g. microvilli) and domains (e.g. lipid rafts) support the possibility of designing specific lipid therapies. Indeed, recent evidence suggests that lipid therapy might have potential for the treatment of cancer, cardiovascular pathologies, neurodegenerative processes, obesity, metabolic disorders, inflammation, and infectious and autoimmune diseases.}
@@ -3692,11 +3692,11 @@
       \field{labeltitlesource}{title}
       \field{issn}{1177-391X}
       \field{journaltitle}{Perspectives in Medicinal Chemistry}
-      \field{title}{Antimicrobial peptides and their analogs: searching for new potential therapeutics.}
+      \field{title}{Antimicrobial Peptides and Their Analogs: Searching for New Potential Therapeutics.}
       \field{volume}{6}
       \field{year}{2014}
-      \field{pages}{73\bibrangedash 80}
-      \range{pages}{8}
+      \field{pages}{PMC.S13215}
+      \range{pages}{-1}
       \verb{doi}
       \verb 10.4137/PMC.S13215
       \endverb
@@ -3957,8 +3957,8 @@
       \strng{authorfullhash}{475b16b76a5f975504c673b61f4ba791}
       \strng{authorfullhashraw}{475b16b76a5f975504c673b61f4ba791}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The global antibiotic resistance issue constitutes a driving force for developing host defense antimicrobial peptides (AMPs) into a new generation of antibiotics. To facilitate this development, we report the antimicrobial peptide database version 6 (APD6) with (i) the consolidated database platform, (ii) the most comprehensive AMP information pipeline (AMPIP), and (iii) the expanded wheel of function. As of 18 March 2025, the APD6 platform housed records for 5188 peptides, including 3306 natural, 1380 synthetic, and 239 predicted AMPs with systematic classification schemes for each group. Based on the refined dataset, we present an updated view and findings on natural AMPs. Natural AMPs provide a fundamental dataset for peptide design and predicting potential AMPs. While current artificial intelligence prediction of AMPs is limited to activity and hemolysis, the APD6 provides new positive and negative datasets (e.g. pH, salt, serum effects, and resistance) for building advanced AI prediction models to identify more robust antibiotics. The AMPIP covers information ranging from peptide discovery, in vitro/in vivo activity and toxicity data, to clinical trials. In addition, the APD6 (available at https://aps.unmc.edu) contains an expanded wheel of peptide functions (e.g. anticancer and antidiabetic), allowing for developing peptide therapeutics outside the antibiotic arena.}
@@ -4014,8 +4014,8 @@
       \strng{authorfullhash}{03f2fb6a8dfb7f2119a944cd1ac135f8}
       \strng{authorfullhashraw}{03f2fb6a8dfb7f2119a944cd1ac135f8}
       \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1362-4962}
@@ -4025,7 +4025,7 @@
       \field{title}{APD3: the antimicrobial peptide database as a tool for research and education.}
       \field{volume}{44}
       \field{year}{2016}
-      \field{pages}{D1087\bibrangedash 93}
+      \field{pages}{D1087\bibrangedash D1093}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1093/nar/gkv1278
@@ -4175,7 +4175,7 @@
       \field{number}{1}
       \field{title}{Antimicrobial resistance: a concise update}
       \field{volume}{6}
-      \field{year}{2025}
+      \field{year}{2024}
       \field{pages}{100947}
       \range{pages}{1}
       \verb{doi}
@@ -4583,8 +4583,8 @@
       \strng{authorfullhash}{3360d95f636bf376e82b8406c098f1b9}
       \strng{authorfullhashraw}{3360d95f636bf376e82b8406c098f1b9}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2054-9369}
@@ -4635,8 +4635,8 @@
       \strng{authornamehash}{be978cd2362a0f512e5f0eba4abd8b51}
       \strng{authorfullhash}{d6292b972d9e6c03f7b61393242d4944}
       \strng{authorfullhashraw}{d6292b972d9e6c03f7b61393242d4944}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Critical Reviews in Biotechnology}
@@ -4683,15 +4683,15 @@
       \strng{authornamehash}{b7c623dd6d037c88f9dbf332446bebf0}
       \strng{authorfullhash}{b7c623dd6d037c88f9dbf332446bebf0}
       \strng{authorfullhashraw}{b7c623dd6d037c88f9dbf332446bebf0}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-6997}
       \field{issue}{1}
       \field{journaltitle}{Pharmacological Reviews}
       \field{month}{3}
-      \field{title}{Mechanisms of antimicrobial peptide action and resistance.}
+      \field{title}{Mechanisms of Antimicrobial Peptide Action and Resistance.}
       \field{volume}{55}
       \field{year}{2003}
       \field{pages}{27\bibrangedash 55}
@@ -8407,7 +8407,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.nobelprize.org/prizes/chemistry/2013/summary/}}
-      \field{note}{Accessed: August 8, 2026}
+      \field{note}{accessed: August 8, 2026}
       \field{title}{The Nobel Prize in Chemistry 2013}
     \endentry
     \entry{royal_swedish_academy_2013}{report}{}{}
@@ -11405,8 +11405,8 @@
       \strng{authornamehash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhash}{456599bb4a61c2e997e2a7e1a21b25b4}
       \strng{authorfullhashraw}{456599bb4a61c2e997e2a7e1a21b25b4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Quantum Computation and Quantum Information: 10th Anniversary Edition}
@@ -11444,8 +11444,8 @@
       \strng{authorfullhash}{e15edafb7cba8216e98b612d82e27522}
       \strng{authorfullhashraw}{e15edafb7cba8216e98b612d82e27522}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Quantum computing has rapidly emerged as one of the fastest-growing research domains, driven by both technological breakthroughs and the promise of computational advantages over classical systems. This study presents a comprehensive bibliometric analysis of the global quantum computing literature from 1980 to 2025, comprising 31,662 publications indexed in Scopus and accumulating over 800,000 citations. Using advanced bibliometric techniques—including co-authorship mapping, keyword co-occurrence networks, co-citation analysis, and centrality measures—we characterize publication trends, institutional contributions, collaborative structures, and thematic evolution across the field. The results reveal exponential growth in output since 2015, led primarily by the United States, China, and Europe, with key institutions such as MIT, the Chinese Academy of Sciences, CNRS, and the University of Waterloo at the forefront. The intellectual structure exhibits a dual-core configuration, with foundational algorithmic work (e.g. Shor, Grover, Nielsen \& Chuang) tightly connected to emerging NISQ-era applications such as quantum machine learning, cryptography, and hybrid algorithms. Keyword analysis reveals the progressive expansion from core quantum algorithms toward increasingly diverse applied domains in healthcare, finance, chemistry, energy, and climate modeling. Public funding bodies (e.g. NSFC, NSF, European Commission, DOE, DoD, MoST) and private-sector investment from major technology firms are jointly driving this translational acceleration. Together, these findings provide an integrated quantitative map of the field’s evolution, offering valuable insight for future scientific policy, international collaboration, and strategic funding initiatives.}
@@ -14313,8 +14313,8 @@
       \strng{authornamehash}{f8674a9c7346c38c0fd935b2d287692b}
       \strng{authorfullhash}{f8674a9c7346c38c0fd935b2d287692b}
       \strng{authorfullhashraw}{f8674a9c7346c38c0fd935b2d287692b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Reviews Physics}

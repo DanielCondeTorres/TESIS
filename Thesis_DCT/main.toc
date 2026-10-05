@@ -1,14 +1,14 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Acknowledgements}{V}{Item.2}%
-\contentsline {chapter}{List of Publications}{XII}{Item.2}%
-\contentsline {section}{Published Articles}{XII}{section*.1}%
-\contentsline {section}{Unpublished Manuscript}{XIV}{Item.7}%
-\contentsline {chapter}{Abbreviations and Acronyms}{XV}{Item.8}%
-\contentsline {chapter}{Summary}{XVIII}{Item.8}%
-\contentsline {section}{English version}{XVIII}{section*.2}%
-\contentsline {section}{Versión en galego}{XXIV}{section*.2}%
-\contentsline {section}{Versión en castellano}{XXXI}{section*.2}%
-\contentsline {chapter}{Preface: Personal motivation}{XXXIX}{section*.2}%
+\contentsline {chapter}{Acknowledgements}{III}{Item.2}%
+\contentsline {chapter}{List of Publications}{X}{Item.2}%
+\contentsline {section}{Published Articles}{X}{section*.1}%
+\contentsline {section}{Unpublished Manuscript}{XII}{Item.7}%
+\contentsline {chapter}{Abbreviations and Acronyms}{XIII}{Item.8}%
+\contentsline {chapter}{Summary}{XVI}{Item.8}%
+\contentsline {section}{English version}{XVI}{section*.2}%
+\contentsline {section}{Versión en galego}{XXII}{section*.2}%
+\contentsline {section}{Versión en castellano}{XXIX}{section*.2}%
+\contentsline {chapter}{Preface: Personal motivation}{XXXVII}{section*.2}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Biomedical context: cancer, aging, and infection}{2}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}The Cancer–Aging–Infection Triangle: interconnected pathological processes}{2}{subsection.1.1.1}%
@@ -122,23 +122,23 @@
 \contentsline {section}{\numberline {4.3}The evolving quantum-computing landscape and the role of hybrid approaches}{141}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Mapping the quantum computing landscape: growth, collaboration, and thematic convergence}{142}{subsection.4.3.1}%
 \contentsline {section}{\numberline {4.4}Environment-dependent peptide folding in a quantum framework}{175}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Classical Simulations on Quantum Computers: Interface-Driven Peptide Folding on Simulated Membrane Surfaces}{176}{subsection.4.4.1}%
-\contentsline {section}{\numberline {4.5}Physics-based environment-conditioned sequence design I}{185}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Environment-conditioned design of $\alpha $-helical peptides}{186}{subsection.4.5.1}%
-\contentsline {chapter}{\numberline {5}Unpublished results}{223}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Physics-based environment-conditioned sequence design II: Computational implementation and integration of the framework}{224}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Helix Design Studio: A Web Platform for Environment-Conditioned Design of $\alpha $-Helical Peptides}{225}{subsection.5.1.1}%
-\contentsline {chapter}{\numberline {6}General Discussion}{250}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Lipid remodeling and the pathophysiological context of membrane targeting}{251}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Structural and thermodynamic determinants of AMP–membrane recognition}{252}{section.6.2}%
-\contentsline {section}{\numberline {6.3}The evolving quantum-computing landscape and the role of hybrid approaches}{254}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Environment-dependent peptide folding in a quantum framework}{255}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Physics-based environment-conditioned sequence design}{256}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Computational implementation and integration of the framework}{258}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Limitations and future perspectives}{258}{section.6.7}%
-\contentsline {chapter}{\numberline {7}General conclusions}{261}{chapter.7}%
-\contentsline {chapter}{\numberline {8}References}{265}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Appendix}{293}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Declaration of figure authorship}{294}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Rights and Permissions for reproducing Images}{295}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Rights for reproduced content of published articles by the author}{296}{section.9.3}%
+\contentsline {subsection}{\numberline {4.4.1}Classical Simulations on Quantum Computers: Interface-Driven Peptide Folding on Simulated Membrane Surfaces}{177}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Physics-based environment-conditioned sequence design I}{186}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Environment-conditioned design of $\alpha $-helical peptides}{188}{subsection.4.5.1}%
+\contentsline {chapter}{\numberline {5}Unpublished results}{225}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Physics-based environment-conditioned sequence design II: Computational implementation and integration of the framework}{226}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Helix Design Studio: A Web Platform for Environment-Conditioned Design of $\alpha $-Helical Peptides}{227}{subsection.5.1.1}%
+\contentsline {chapter}{\numberline {6}General Discussion}{252}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Lipid remodeling and the pathophysiological context of membrane targeting}{253}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Structural and thermodynamic determinants of AMP–membrane recognition}{254}{section.6.2}%
+\contentsline {section}{\numberline {6.3}The evolving quantum-computing landscape and the role of hybrid approaches}{256}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Environment-dependent peptide folding in a quantum framework}{257}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Physics-based environment-conditioned sequence design}{258}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Computational implementation and integration of the framework}{260}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Limitations and future perspectives}{260}{section.6.7}%
+\contentsline {chapter}{\numberline {7}General conclusions}{263}{chapter.7}%
+\contentsline {chapter}{\numberline {8}References}{267}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Appendix}{295}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Declaration of figure authorship}{296}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Rights and Permissions for reproducing Images}{297}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Rights for reproduced content of published articles by the author}{298}{section.9.3}%
