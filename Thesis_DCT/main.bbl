@@ -8407,7 +8407,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.nobelprize.org/prizes/chemistry/2013/summary/}}
-      \field{note}{accessed: August 8, 2026}
+      \field{note}{(accessed 08/08/2026)}
       \field{title}{The Nobel Prize in Chemistry 2013}
     \endentry
     \entry{royal_swedish_academy_2013}{report}{}{}
@@ -8558,7 +8558,7 @@
       \verb https://livecomsjournal.org/index.php/livecoms/article/view/v1i1e5957
       \endverb
     \endentry
-    \entry{force_field_protocol}{article}{}{}
+    \entry{force_field_protocol}{incollection}{}{}
       \name{author}{2}{}{%
         {{hash=b5ae263641ff93495fc2343e3f596a1c}{%
            family={Monticelli},
@@ -8571,6 +8571,24 @@
            given={D.\bibnamedelimi Peter},
            giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
+      \name{editor}{2}{}{%
+        {{hash=b5ae263641ff93495fc2343e3f596a1c}{%
+           family={Monticelli},
+           familyi={M\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2c854b477f4a449d4c5956cbd53d0149}{%
+           family={Salonen},
+           familyi={S\bibinitperiod},
+           given={Emppu},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Totowa, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Humana Press}%
+      }
       \strng{namehash}{5cd7c44a20256253758e782de9b833ff}
       \strng{fullhash}{5cd7c44a20256253758e782de9b833ff}
       \strng{fullhashraw}{5cd7c44a20256253758e782de9b833ff}
@@ -8579,12 +8597,18 @@
       \strng{authornamehash}{5cd7c44a20256253758e782de9b833ff}
       \strng{authorfullhash}{5cd7c44a20256253758e782de9b833ff}
       \strng{authorfullhashraw}{5cd7c44a20256253758e782de9b833ff}
+      \strng{editorbibnamehash}{7f6609f9d8b1e2cb4d7164d968b083ee}
+      \strng{editornamehash}{7f6609f9d8b1e2cb4d7164d968b083ee}
+      \strng{editorfullhash}{7f6609f9d8b1e2cb4d7164d968b083ee}
+      \strng{editorfullhashraw}{7f6609f9d8b1e2cb4d7164d968b083ee}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Methods in Molecular Biology (Clifton, N.J.)}
-      \field{title}{Force fields for classical molecular dynamics}
+      \field{booktitle}{Biomolecular Simulations: Methods and Protocols}
+      \field{isbn}{978-1-62703-017-5}
+      \field{series}{Methods in Molecular Biology}
+      \field{title}{Force Fields for Classical Molecular Dynamics}
       \field{volume}{924}
       \field{year}{2013}
       \field{pages}{197\bibrangedash 213}
@@ -10916,6 +10940,9 @@
       \field{year}{1999}
       \field{pages}{39\bibrangedash 65}
       \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/978-3-642-58360-5_2
+      \endverb
     \endentry
     \entry{Yang2023}{article}{}{}
       \name{author}{4}{}{%
@@ -12055,7 +12082,7 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0003491602000180
       \endverb
     \endentry
-    \entry{Wang2026}{misc}{}{}
+    \entry{Wang2026}{article}{}{}
       \name{author}{11}{}{%
         {{hash=cbee128e55de356eb0726d361c8920c0}{%
            family={Wang},
@@ -12126,14 +12153,15 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
+      \field{issn}{2095-0462}
+      \field{journaltitle}{Frontiers of Physics}
       \field{title}{A Review of Variational Quantum Algorithms: Insights into Fault-Tolerant Quantum Computing}
-      \field{year}{2026}
+      \field{volume}{22}
+      \field{year}{2027}
+      \field{pages}{023301}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.48550/arXiv.2604.07909
-      \endverb
-      \verb{eprint}
-      \verb 2604.07909
+      \verb 10.15302/frontphys.2027.023301
       \endverb
     \endentry
     \entry{Raseena2025}{article}{}{}
@@ -12673,6 +12701,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This book provides a practical guide to molecular dynamics and Monte Carlo simulation techniques used in the modelling of simple and complex liquids. Computer simulation is an essential tool in studying the chemistry and physics of condensed matter, complementing and reinforcing both experiment and theory. Simulations provide detailed information about structure and dynamics, essential to understand the many fluid systems that play a key role in our daily lives: polymers, gels, colloidal suspensions, liquid crystals, biological membranes, and glasses. The second edition of this pioneering book aims to explain how simulation programs work, how to use them, and how to interpret the results, with examples of the latest research in this rapidly evolving field. Accompanying programs in Fortran and Python provide practical, hands-on, illustrations of the ideas in the text.}
+      \field{edition}{2}
       \field{isbn}{9780198803195}
       \field{month}{06}
       \field{title}{Computer Simulation of Liquids}
@@ -12758,10 +12787,11 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{edition}{1st}
       \field{isbn}{9780367806934}
       \field{month}{3}
       \field{title}{Computer Simulation Using Particles}
-      \field{year}{2021}
+      \field{year}{1988}
       \verb{doi}
       \verb 10.1201/9780367806934
       \endverb
@@ -13229,7 +13259,7 @@
            giveni={W\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Springer Cham}%
       }
       \strng{namehash}{edc40101c83f862d56e8171d61feebd0}
       \strng{fullhash}{edc40101c83f862d56e8171d61feebd0}
@@ -13279,6 +13309,9 @@
       \field{series}{Oxford Graduate Texts}
       \field{title}{Statistical Mechanics: Theory and Molecular Simulation}
       \field{year}{2023}
+      \verb{doi}
+      \verb 10.1093/oso/9780198825562.001.0001
+      \endverb
     \endentry
     \entry{mec_estadistica}{book}{}{}
       \name{author}{1}{}{%
@@ -15960,6 +15993,8 @@
       \field{title}{Environment-Conditioned Design of α-Helical Peptides}
       \field{volume}{22}
       \field{year}{2026}
+      \field{pages}{9776\bibrangedash 9789}
+      \range{pages}{14}
       \verb{doi}
       \verb 10.1021/acs.jctc.6c01278
       \endverb
@@ -16061,7 +16096,7 @@
       \verb https://doi.org/10.1038/s42254-021-00348-9
       \endverb
     \endentry
-    \entry{COBYLA}{inbook}{}{}
+    \entry{COBYLA}{incollection}{}{}
       \name{author}{1}{}{%
         {{hash=15643444aed9bbb3d150d9895b848437}{%
            family={Powell},
