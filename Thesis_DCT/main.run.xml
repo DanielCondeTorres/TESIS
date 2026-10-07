@@ -61,6 +61,8 @@
       <file>chem-acs.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
+      <file>galician.lbx</file>
+      <file>spanish.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">

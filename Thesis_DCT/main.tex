@@ -13,7 +13,7 @@
 
   
 \usepackage[T1]{fontenc}    
-\usepackage[english]{babel} 
+\usepackage[spanish,galician,english]{babel}  
 \usepackage{lipsum}
 \usepackage{emptypage}
 \usepackage{multicol}
@@ -235,6 +235,7 @@
 
 % Hyperlinks (Loaded last for compatibility)
 \usepackage[colorlinks=true, linkcolor=USCBlue, citecolor=USCBlue, urlcolor=USCBlue]{hyperref}
+\usepackage{bookmark} % Added to fix PDF bookmark nesting and hierarchy issues
 
 % Document begins
 \begin{document}
@@ -308,7 +309,7 @@
 
 %Abbreviations and Acronyms
 \newpage
-\section*{Abbreviations and acronyms} % Use \section* instead of \chapter*
+\section*{Abbreviations and Acronyms} % Use \section* instead of \chapter*
 \addcontentsline{toc}{chapter}{Abbreviations and Acronyms} % Add to ToC at chapter level
 \markboth{Abbreviations and Acronyms}{} % Set header text
 
