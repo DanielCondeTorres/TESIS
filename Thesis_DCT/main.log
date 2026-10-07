@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  7 OCT 2026 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.11)  7 OCT 2026 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1821,26 +1821,22 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [6] [7]
-[8] [9] [10]
-<General_Sections/Figures/AMPs/paula_1.png, id=802, 84.315pt x 307.1475pt>
+[8] [9] [10] [11]
+<General_Sections/Figures/AMPs/paula_1.png, id=808, 84.315pt x 307.1475pt>
 File: General_Sections/Figures/AMPs/paula_1.png Graphic file (type png)
 <use General_Sections/Figures/AMPs/paula_1.png>
 Package pdftex.def Info: General_Sections/Figures/AMPs/paula_1.png  used on inp
-ut line 203.
+ut line 205.
 (pdftex.def)             Requested size: 54.67413pt x 199.17015pt.
-<General_Sections/Figures/AMPs/paula_2.png, id=804, 375.4025pt x 331.2375pt>
+<General_Sections/Figures/AMPs/paula_2.png, id=810, 375.4025pt x 331.2375pt>
 File: General_Sections/Figures/AMPs/paula_2.png Graphic file (type png)
 <use General_Sections/Figures/AMPs/paula_2.png>
 Package pdftex.def Info: General_Sections/Figures/AMPs/paula_2.png  used on inp
-ut line 214.
+ut line 216.
 (pdftex.def)             Requested size: 225.7244pt x 199.16858pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-[12 <./General_Sections/Figures/AMPs/paula_1.png> <./General_Sections/Figures/A
-MPs/paula_2.png>]
-Overfull \hbox (1.94397pt too wide) in paragraph at lines 232--233
+ [12 <./General_Sections/Figures/AMPs/paula_1.png> <./General_Sections/Figures/
+AMPs/paula_2.png>]
+Overfull \hbox (1.94397pt too wide) in paragraph at lines 235--236
 []\T1/ptm/m/n/12 (-20) Another crit-i-cal bot-tle-neck is the risk of off-targe
 t tox-i-c-ity. Al-though many cationic membrane-
  []
@@ -6329,7 +6325,7 @@ crr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/loc
 al/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive
 /2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (340 pages, 47993991 bytes).
+Output written on main.pdf (340 pages, 47994000 bytes).
 PDF statistics:
  6330 PDF objects out of 7423 (max. 8388607)
  4821 compressed objects within 49 object streams
